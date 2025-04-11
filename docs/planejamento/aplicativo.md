@@ -38,22 +38,30 @@ Ademais, possibilita a realização de diversas operações, que antes exigiam d
 A página do aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) e na [App Store](https://apps.apple.com/br/app/carteira-de-trabalho-digital/id1295257499).
 
 ## Rich Picture do Aplicativo
-O Rich Picture é uma representação visual que ajuda a entender e comunicar um problema ou sistema de forma simples. Ele mapeia partes envolvidas, como pessoas e processos, e também pode ser utilizado para identificar e representar requisitos, destacando funcionalidades, restrições e interações. Com isso, facilita a interpretação e a comunicação, sendo especialmente útil durante o levantamento dos requisitos.
-Na figura 1, é possível visualizar a primeira versão da Rich Picture feita para o nosso aplicativo.
+O Rich Picture é uma representação visual que ajuda a entender e comunicar um problema ou sistema de forma simples. Ele mapeia partes envolvidas, como pessoas e processos, e também pode ser utilizado para identificar e representar requisitos, destacando funcionalidades, restrições e interações. Com isso, facilita a interpretação e a comunicação, sendo especialmente útil durante o levantamento dos requisitos. Na figura 1, é possível visualizar a primeira versão da Rich Picture feita para o nosso aplicativo.
+
+<p align="center">
+    Figura 1: Carteira de Trabalho Digital, Rich Picture.
+</p>
 
 ![RichPicture-V1](../assets/rp-v1-app-escolhido.png)
+
 <p align="center">
-    Figura 1: Carteira de Trabalho Digital, Rich Picture. (Fonte: Autor, 2025).
+    Autora: Amanda Cruz Lima, 2025
 </p>
 
 ### Legenda
+O Rich Picture acima pode ser lido com base na tabela abaixo, que descreve os principais elementos representados na imagem:
+<p align="center">
+    Tabela 1: Legenda da Rich Picture.
+</p>
 
 | Atores | Operações | Tabelas | Setas | Limites do Sistema |
 |--------|-----------|---------|-------|--------------------|
 |![](../assets/rp-v1-actors.png)|![](../assets/rp-v1-operations.png)|![](../assets/rp-v1-tables.png)|![](../assets/rp-v1-arrows.png)|![](../assets/rp-v1-boundary.png)|
 
 <p align="center">
-    Tabela 1: Legenda da Rich Picture. (Fonte: Autor, 2025).
+    Autora: Amanda Cruz Lima, 2025.
 </p>
 
 ## Conclusão
