@@ -73,7 +73,7 @@
 <p align="justify">&emsp;&emsp; O aplicativo permite o acesso e compartilhamento de dados e documentos de maneira fácil e também facilita o acesso a outros serviços do governo no quais é possível entrar com a conta do Gov.br.</p>
 
 ![RP_JoaoVitor](../assets/richPictures/JoaoVitor.jpg)
-<figcaption align="center">Figura 6 - Rich Picture Gov.br</figcaption>
+<figcaption align="center">Figura 7 - Rich Picture Gov.br</figcaption>
 
    **Autor:** Joao Vitor </br>
    **Descrição:** RichPicture do Fluxo Geral </br>
