@@ -65,6 +65,18 @@ As ferramentas estão apresentadas na Tabela 1, acompanhadas de seus logotipos e
       </td>
       <td><strong>Visual Studio Code</strong>: Editor de código-fonte altamente configurável e leve, utilizado para desenvolvimento de software. Suporta várias linguagens de programação e oferece extensões que facilitam a integração com outras ferramentas e plataformas, como o GitHub, sendo essencial para o desenvolvimento do projeto.</td>
     </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="../../assets/drawio.jpg" width="100" height="100" alt="Draw.io">
+      </td>
+      <td><strong>Draw.io</strong>: Ferramenta online utilizada para criação de diagramas, fluxogramas e modelagens visuais. Foi essencial para representar graficamente processos, estruturas de sistema e fluxos de dados, facilitando a comunicação e o entendimento das ideias entre os membros da equipe.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="../../assets/gimp.jpg" width="100" height="100" alt="GIMP">
+      </td>
+      <td><strong>GIMP</strong>: Editor de imagens gratuito e de código aberto, utilizado para criação e edição de elementos gráficos do projeto. Permitiu ajustes em logotipos, imagens ilustrativas e outros recursos visuais, contribuindo para a identidade visual e apresentação dos materiais.</td>
+    </tr>
   </tbody>
 </table>
 
