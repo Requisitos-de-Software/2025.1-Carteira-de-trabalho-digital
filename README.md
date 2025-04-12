@@ -8,7 +8,7 @@ Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Uni
 ## Sobre o Aplicativo:
 O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o acompanhamento da vida profissional, por meio dele é possível ter acesso a dados pessoais e contratos de trabalhos.
 
-# Equipe
+## Equipe
 
 <table>
     <tr>
