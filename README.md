@@ -1,4 +1,4 @@
-# Carteira de Trabalho  - Grupo 4
+# Carteira de Trabalho Digital - Grupo 4
 
 <div align="center"><img src= "./docs/assets/logo-ctd.png" width="200px;" alt=""/></div>
 
