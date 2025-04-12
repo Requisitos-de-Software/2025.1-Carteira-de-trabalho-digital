@@ -19,7 +19,7 @@ A Tabela 1 e a Figura 1 ilustram o mapeamento de disponibilidade. Cada número, 
 </div>
 
 <div align="center">
-  <img src="../assets/heatmap.png" alt="Heatmap">
+  <img src="../../assets/heatmap.jpg" alt="Heatmap">
 </div>
 
 <div align="center">
@@ -200,10 +200,14 @@ A Tabela 1 e a Figura 1 ilustram o mapeamento de disponibilidade. Cada número, 
 </div>
 
 ## Bibliografia
-> ANTHROPIC. Claude [software]. Versão 3.7 Sonnet. San Francisco: Anthropic, 2025. Disponível em: https://claude.ai. Acesso em: 08/04/2025.
+> ANTHROPIC. Claude [software]. Versão 3.7 Sonnet. San Francisco: Anthropic, 2025. Disponível em: [Claude](https://claude.ai). Acesso em: 08 abr. 2025.
+
+> GOOGLE. Exemplo de Heatmap de Disponibilidade do Projeto. Google Sheets, 2025. Disponível em: [Exemplo de Heatmap](https://docs.google.com/spreadsheets/d/1qsrnEGGf6XWL3buII_7EzXH1-NXewr9G0aicRZ9fVAs/edit?gid=96807035#gid=96807035). Acesso em: 11 abr. 2025.
 
 ## Links
 Acesso do heatmap no excel: [Heatmap](https://unbbr-my.sharepoint.com/:x:/g/personal/190030801_aluno_unb_br/EUKiqFx1MyZGl9xkZT1Jp30BZzv4c6Dz-HJzjKcvLTHu3A?e=hnYyOw)
+
+## Histórico de Versões
 
 | Versão | Data       | Descrição                   | Autor             | Revisor         |
 |--------|------------|-----------------------------|-------------------|-----------------|
