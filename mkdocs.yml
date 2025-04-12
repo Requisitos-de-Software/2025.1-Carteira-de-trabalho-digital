@@ -5,10 +5,10 @@ nav:
   - Home:
       - Sobre: index.md
   - Atas de Reunião:
-    - Ata 1: reuniao1.md
-    - Ata 2: reuniao2.md
-    - Ata 3: reuniao3.md
-    - Ata 4: reuniao4.md
+    - Ata 1: atas/reuniao1.md
+    - Ata 2: atas/reuniao2.md
+    - Ata 3: atas/reuniao3.md
+    - Ata 4: atas/reuniao4.md
   - Planejamento:
     - Heatmap: planejamento/heatmap.md
     - Ferramentas: planejamento/ferramentas.md
