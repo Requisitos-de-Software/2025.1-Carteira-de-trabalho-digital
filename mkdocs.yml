@@ -1,19 +1,43 @@
-#written using grasshopper's repo as reference. Many thanks to the grasshopper team whose earlier effort
-#greatly helped us now!!
+site_name: Carteira de Trabalho Digital
+site_url: https://requisitos-de-software.github.io/2025.1-Carteira-de-Trabalho-Digital/
 
-site_name: Grupo 4 Carteira de Trabalho Digital
-
-repo_name: "2025.1-Carteira-de-Trabalho-Digital"
-repo_url: "https://github.com/Requisitos-de-Software/2025.1-Carteira-de-Trabalho-Digital"
+nav:
+  - Home:
+      - Sobre: index.md
+  - Atas de Reunião:
+    - Ata 1: atas/reuniao1.md
+    - Ata 2: atas/reuniao2.md
+    - Ata 3: atas/reuniao3.md
+    - Ata 4: atas/reuniao4.md
+  - Planejamento:
+    - Heatmap: planejamento/heatmap.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
+    - Aplicativo: planejamento/aplicativo.md
+    - Aplicativos Analisados: planejamento/appsAnalisados.md
+    - Metodologia: planejamento/metodologia.md
+    - Termos de Uso: planejamento/termosDeUso.md
 
 theme:
+  logo: assets/logo-ctd.png
   name: material
-  language: "pt"
-  #pallete needs to be researched and added
-nav:
-  - Planejamento: 
-    - Teste1: planejamento/aplicativo.md
-    - Teste2: planejamento/appsAnalisados.md
-    - Teste3: planejamento/cronograma.md
-    
-  
+  font:
+    text: IBM Plex Serif
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    - scheme: light
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+icon:
+  repo: fontawesome/brands/git-alt
