@@ -1,6 +1,19 @@
+#written using grasshopper's repo as reference. Many thanks to the grasshopper team whose earlier effort
+#greatly helped us now!!
+
 site_name: Grupo 4 Carteira de Trabalho Digital
-site_url: https://requisitos-de-software.github.io/2025.1-Carteira-de-Trabalho-Digital/
+
+repo_name: "2025.1-Carteira-de-Trabalho-Digital"
+repo_url: "https://github.com/Requisitos-de-Software/2025.1-Carteira-de-Trabalho-Digital"
 
 theme:
   name: material
+  language: "pt"
+  #pallete needs to be researched and added
+nav:
+  - Planejamento: 
+    - Teste1: planejamento/aplicativo.md
+    - Teste2: planejamento/appsAnalisados.md
+    - Teste3: planejamento/cronograma.md
+    
   
