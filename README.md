@@ -1,6 +1,6 @@
 # Carteira de Trabalho  - Grupo 4
 
-<div align="center"><img src= "./docs/assets/logo-ctd.png"/></div>
+<div align="center"><img src= "./docs/assets/logo-ctd.png" width="200px;" alt=""/></div>
 
 ## Sobre o Projeto:
 Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Carteira de Trabalho Digital**](https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital). Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
@@ -27,7 +27,7 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
 ## Referências Bibligráficas
 > - Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital>. Acesso em: 13 abr. 2025.
 
-## 4. Histórico de Versão
+## Histórico de Versão
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
