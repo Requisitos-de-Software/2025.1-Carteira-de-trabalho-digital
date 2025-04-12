@@ -4,7 +4,7 @@
 
 Este documento descreve o processo realizado pela equipe para escolher o aplicativo **Carteira de Trabalho Digital**, ferramenta que facilita o acesso e o gerenciamento das informações trabalhistas, para o desenvolvimento do projeto. A decisão foi baseada em critérios estabelecidos pelo time e pelo professor, levando em conta diversos aspectos que são abordados nesse texto. Além disso, explica as motivações que justificaram a escolha do software, descrevendo as fases metodológicas utilizadas para a seleção do mesmo, tal como discorre sobre o sistema.
 
-## Metodologia
+## Porque a Carteira Digital de Trabalho? 
 O processo de escolha foi conduzido em duas etapas:
 - Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos em análise](), permitindo uma discussão sobre suas funcionalidades. 
 - Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação.
