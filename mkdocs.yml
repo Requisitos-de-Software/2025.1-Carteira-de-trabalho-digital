@@ -16,6 +16,7 @@ nav:
     - Aplicativo: planejamento/aplicativo.md
     - Aplicativos Analisados: planejamento/appsAnalisados.md
     - Metodologia: planejamento/metodologia.md
+    - Termos de Uso: planejamento/termosDeUso.md
 
 theme:
   logo: assets/logo-ctd.png
