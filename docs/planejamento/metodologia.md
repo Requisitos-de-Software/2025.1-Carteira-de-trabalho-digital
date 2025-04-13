@@ -1,6 +1,6 @@
 # Metodologia
 
-## Introdução
+# Introdução
 Esse documento descreve as metodologias que a equipe utilizará para concluir as atividades.
 
 ## Metodologia I: Desenvolvimento
@@ -17,12 +17,6 @@ Para evitar erros, dar dinamismo e ciência do projeto a todos do grupo, decidim
 
 O(s) autor(es) e revisor(es) sempre serão pessoas diferentes para tornar o processo de revisão mais efetivo. 
 
-## Histórico de Versão
-
-| Versão | Data | Descrição  | Autor        | Revisor |
-| :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 09/04/2025 | Abertura do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Augusto](https://github.com/RA-Salles) |
-
 # Técnicas de Revisão
 
 ## Revisão por Pares
@@ -31,8 +25,20 @@ Nos meios acadêmicos, a Revisão por Pares, também chamada revisão paritária
 ## Pareamento
 Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – projeto, algoritmo, código ou teste. O objetivo geral deste trabalho é investigar a eficácia da Programação em Par versus Programação individual perante tarefas de modelagem e construção de software. Com isso podemos melhorar nosso trabalho em grupo e aprimorar nossas habillidades individuais.
 
-## Referências
+
+# Histórico de Versão
+
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
+| 1.0 | 09/04/2025 | Abertura do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Augusto](https://github.com/RA-Salles) |
+| 1.1 | 12/04/2025 | Adição de informações, formatação | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+| 1.2 | 12/04/2025 | Adição da seção sobre Pareamento e Revisão por Pares | [João Igor](https://github.com/JoaoPC10) | [Ryan Augusto](https://github.com/RA-Salles) |
+| 1.3 | 12/04/2025 | Formatação, adições ao histórico de versão | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+
+# Referências
 > AMAZON. What is Scrum? Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
+
 > BECK, Kent et. al. Manifesto para Desenvolvimento Ágil de Software. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
+
 > FACULDADE DE DIREITO DA UNIVERSIDADE FEDERAL DE MINAS GERAIS. O que é Revisão por Pares? Belo Horizonte: Biblioteca Prof. Lydio Machado Bandeira de Mello, 30 abr. 2021. Disponível em: https://biblio.direito.ufmg.br/?p=3510. Acesso em: 12 abr. 2025.
 
