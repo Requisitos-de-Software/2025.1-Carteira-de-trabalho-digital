@@ -36,9 +36,11 @@ Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – 
 | 1.3 | 12/04/2025 | Formatação, adições ao histórico de versão | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
 
 # Referências
-> AMAZON. What is Scrum? Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
+> AMAZON. **What is Scrum?** Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
 
-> BECK, Kent et. al. Manifesto para Desenvolvimento Ágil de Software. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
+> BECK, Kent et. al. **Manifesto para Desenvolvimento Ágil de Software**. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
 
-> FACULDADE DE DIREITO DA UNIVERSIDADE FEDERAL DE MINAS GERAIS. O que é Revisão por Pares? Belo Horizonte: Biblioteca Prof. Lydio Machado Bandeira de Mello, 30 abr. 2021. Disponível em: https://biblio.direito.ufmg.br/?p=3510. Acesso em: 12 abr. 2025.
+> FACULDADE DE DIREITO DA UNIVERSIDADE FEDERAL DE MINAS GERAIS. **O que é Revisão por Pares?** Belo Horizonte: Biblioteca Prof. Lydio Machado Bandeira de Mello, 30 abr. 2021. Disponível em: https://biblio.direito.ufmg.br/?p=3510. Acesso em: 12 de Abril de 2025.
+
+> SCHWABER, Ken; SUTHERLAND, Jeff. **The Scrum Guide**. Disponível em: <http://www.scrumguides.org/index.html>. Acesso em: 12 de Abril de 2025.
 
