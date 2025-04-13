@@ -4,7 +4,7 @@
 
 Este documento apresenta os Termos de Uso do aplicativo em estudo, detalhando as condições e diretrizes para a utilização da plataforma. As imagens contidas na pasta assets/termos_de_uso foram utilizadas como base para a análise e elaboração deste conteúdo.
 
-Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma cláusula que proíba ou autorize expressamente o uso da Carteira Digital de Trânsito para finalidades acadêmicas ou educacionais.
+Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma cláusula que proíba ou autorize expressamente o uso da Carteira de Trabalho Digital para finalidades acadêmicas ou educacionais.
 
 ## Imagens do Termo de Uso
 
