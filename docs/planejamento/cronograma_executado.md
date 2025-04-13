@@ -30,11 +30,10 @@
 
 ## Histórico de versão
 
-<center>
-
 | Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
 |  1.0   | 13/04/2025 | Cronograma executado | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro)|
+|  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | |
 
 
 ## Referências Bibliográficas
