@@ -75,4 +75,5 @@ A **Carteira de Trabalho Digital** foi a aplicação selecionada com base em par
 ## Histórico de Versão
 | Versão | Data       | Descrição                   | Autor             | Revisor         |
 |--------|------------|-----------------------------|-------------------|-----------------|
-| 1.0    | 10/04/2025 | Criação do documento        | [Amanda Cruz Lima](https://github.com/mandicrz) |  Gabriel Flores |
+| 1.0    | 10/04/2025 | Criação do documento        | [Amanda Cruz Lima](https://github.com/mandicrz) |  [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | |
