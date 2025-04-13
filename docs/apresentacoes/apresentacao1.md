@@ -6,6 +6,7 @@
 - João Pedro Costa
 - João Igor Costa
 - João Vitor Merlin
+- Julia Paulino
 - Ryan Salles
 
 ## Início e término
