@@ -18,7 +18,9 @@ nav:
     - Ata 2: atas/reuniao2.md
     - Ata 3: atas/reuniao3.md
     - Ata 4: atas/reuniao4.md
-
+ - Apresentações:
+   - Apresentação I: apresentacoes/apresentacao1.md
+   
 theme:
   logo: assets/logo-ctd.png
   name: material
