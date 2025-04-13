@@ -7,7 +7,8 @@ nav:
   - Planejamento:
     - Heatmap: planejamento/heatmap.md
     - Ferramentas: planejamento/ferramentas.md
-    - Cronograma: planejamento/cronograma.md
+    - Cronograma Planejado: planejamento/cronograma.md
+    - Cronograma Executado: planejamento/cronograma_executado.md
     - Aplicativo: planejamento/aplicativo.md
     - Aplicativos Analisados: planejamento/appsAnalisados.md
     - Metodologia: planejamento/metodologia.md
