@@ -23,8 +23,12 @@ O(s) autor(es) e revisor(es) sempre serão pessoas diferentes para tornar o proc
 ## Revisão por Pares
 Nos meios acadêmicos, a Revisão por Pares, também chamada revisão paritária ou arbitragem, é um processo utilizado na publicação de artigos e na concessão de recursos para pesquisas. Consiste em submeter o trabalho científico ao escrutínio de um ou mais especialistas do mesmo escalão que o autor, que na maioria das vezes se mantêm anônimos. Esses revisores anônimos frequentemente fazem comentários ou sugerem a edição do trabalho analisado, contribuindo para a qualidade do mesmo.
 
+## Pareamento
+Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – projeto, algoritmo, código ou teste. O objetivo geral deste trabalho é investigar a eficácia da Programação em Par versus Programação individual perante tarefas de modelagem e construção de software. Com isso podemos melhorar nosso trabalho em grupo e aprimorar nossas habillidades individuais.
+
 ## Referências
 > AMAZON. What is Scrum? Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
 > BECK, Kent et. al. Manifesto para Desenvolvimento Ágil de Software. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
 > FACULDADE DE DIREITO DA UNIVERSIDADE FEDERAL DE MINAS GERAIS. O que é Revisão por Pares? Belo Horizonte: Biblioteca Prof. Lydio Machado Bandeira de Mello, 30 abr. 2021. Disponível em: https://biblio.direito.ufmg.br/?p=3510. Acesso em: 12 abr. 2025.
+> LIMA, Vagner Carlos Marcolino. Programação em par: investigando sua eficácia perante tarefas de modelagem e construção de software. 2013. 122 f. Dissertação (Mestrado em Computação Aplicada) – Universidade Tecnológica Federal do Paraná, Curitiba, 2013. Disponível em: https://repositorio.utfpr.edu.br/jspui/handle/1/736. Acesso em: 12 abr. 2025.​
 
