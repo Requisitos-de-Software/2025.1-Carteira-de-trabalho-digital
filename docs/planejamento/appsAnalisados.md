@@ -48,28 +48,28 @@
    **Versão:** 1.0
    
 ### 1.5 Duolingo
-<p align="justify">&emsp;&emsp; O aplicativo do Duolingo foi feito para auxiliar no aprendizado de uma língua extrangeira de maneira gamificada.</p>
-
-![RP_JoaoPedro](../assets/richPictures/JoaoPedro.jpg)
-<figcaption align="center">Figura 5 - Rich Picture Duolingo</figcaption>
-
-   **Autor:** João Pedro </br>
-   **Descrição:** RichPicture do Fluxo Geral </br>
-   **Data:** 13/04/2025 </br>
-   **Versão:** 1.0
-
-## 1.6 E-título 
-<p align="justify">&emsp;&emsp; O aplicativo permite a obtenção do título de eleitor digital e também rápido à informações junto à Justiça Eleitoral.</p>
+<p align="justify">&emsp;&emsp; O aplicativo do Duolingo foi feito para auxiliar no aprendizado de uma língua estrangeira de maneira gamificada.</p>
 
 ![RP_Julia](../assets/richPictures/Julia.jpg)
-<figcaption align="center">Figura 6 - Rich Picture E-título</figcaption>
+<figcaption align="center">Figura 5 - Rich Picture Duolingo</figcaption>
 
    **Autor:** Julia Gabriela </br>
    **Descrição:** RichPicture do Fluxo Geral </br>
    **Data:** 13/04/2025 </br>
    **Versão:** 1.0
 
-## 1.7 Gov.br 
+### 1.6 E-título 
+<p align="justify">&emsp;&emsp; O aplicativo permite a obtenção do título de eleitor digital e também rápido à informações junto à Justiça Eleitoral.</p>
+
+![RP_JoãoPedro](../assets/richPictures/JoaoPedro.jpg)
+<figcaption align="center">Figura 6 - Rich Picture E-título</figcaption>
+
+   **Autor:** João Pedro </br>
+   **Descrição:** RichPicture do Fluxo Geral </br>
+   **Data:** 13/04/2025 </br>
+   **Versão:** 1.0
+
+### 1.7 Gov.br 
 <p align="justify">&emsp;&emsp; O aplicativo permite o acesso e compartilhamento de dados e documentos de maneira fácil e também facilita o acesso a outros serviços do governo no quais é possível entrar com a conta do Gov.br.</p>
 
 ![RP_JoaoVitor](../assets/richPictures/JoaoVitor.jpg)
@@ -104,4 +104,5 @@
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 13/04/2025 | Criado arquivo dos aplicativos analisados | Gabriel Flores | João Vitor |
+| 1.0 | 13/04/2025 | Criado arquivo dos aplicativos analisados |[Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
+| 1.1 | 13/04/2025 | Correção de ortografia, autoria das imagens e histórico de versão| [Julia Gabriela](https://github.com/JuliaGabP) | |
