@@ -33,12 +33,12 @@ Ao se aproximar do final da entrega um cronograma com os dados atualizados de ac
 
 ## Histórico de versão
 
-<center>
-
 | Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
 |  1.0   | 09/04/2025 | Cronograma Planejado | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.1   | 10/04/2025 | Correção de termos, e adição de atividade | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
+|  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | |
+
 
 ## Referências Bibliográficas
    > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 12 de Abril de 2025. 
