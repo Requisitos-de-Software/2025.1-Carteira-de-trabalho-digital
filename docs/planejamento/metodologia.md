@@ -1,10 +1,15 @@
- # Metodologia
+# Metodologia
 
- ## Introdução
- Para melhor atender a disponibilidade da equipe, optamos por usar os métodos ágeis para o trabalho, especificamente o Scrum. O Scrum é um framework de gerenciamento que as equipes usam para se auto-organizar e trabalhar em direção a um objetivo em comum. A estrutura descreve um conjunto de reuniões, ferramentas e funções para uma entrega eficiente de projetos. Assim como um time esportivo treina para um jogo importante, as práticas do Scrum permitem que as equipes promovam o autogerenciamento, aprendam com base nas experiências e se adaptem às mudanças. 
+## Introdução
+Esse documento descreve as metodologias que a equipe utilizará para concluir as atividades.
 
- ## Versionamento
- Para evitar erros, dar dinamismo e ciência do projeto a todos do grupo, decidimos que para cada atualização feita por um aluno no trabalho, outro deverá revisar, tornando assim toda versão nova da página um trabalho mútuo. O versionamento do projeto seguirá o seguinte modelo:
+## Metodologia I: Desenvolvimento
+Para melhor atender a disponibilidade da equipe, optamos por usar os métodos ágeis para o trabalho, especificamente o Scrum. O Scrum é um framework de gerenciamento que as equipes usam para se auto-organizar e trabalhar em direção a um objetivo em comum. A estrutura descreve um conjunto de reuniões, ferramentas e funções para uma entrega eficiente de projetos. Assim como um time esportivo treina para um jogo importante, as práticas do Scrum permitem que as equipes promovam o autogerenciamento, aprendam com base nas experiências e se adaptem às mudanças. 
+
+
+
+## Metodologia II: Versionamento
+Para evitar erros, dar dinamismo e ciência do projeto a todos do grupo, decidimos que para cada atualização feita por um aluno no trabalho, outro deverá revisar, tornando assim toda versão nova da página um trabalho mútuo. O versionamento do projeto seguirá o seguinte modelo:
  
 | Versão | Data       | Descrição                             | Autor(es)         | Revisor(es)         |
 | :----: | :--------: | :-----------------------------------: | :---------------: | :-----------------: |
@@ -30,5 +35,4 @@ Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – 
 > AMAZON. What is Scrum? Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
 > BECK, Kent et. al. Manifesto para Desenvolvimento Ágil de Software. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
 > FACULDADE DE DIREITO DA UNIVERSIDADE FEDERAL DE MINAS GERAIS. O que é Revisão por Pares? Belo Horizonte: Biblioteca Prof. Lydio Machado Bandeira de Mello, 30 abr. 2021. Disponível em: https://biblio.direito.ufmg.br/?p=3510. Acesso em: 12 abr. 2025.
-> LIMA, Vagner Carlos Marcolino. Programação em par: investigando sua eficácia perante tarefas de modelagem e construção de software. 2013. 122 f. Dissertação (Mestrado em Computação Aplicada) – Universidade Tecnológica Federal do Paraná, Curitiba, 2013. Disponível em: https://repositorio.utfpr.edu.br/jspui/handle/1/736. Acesso em: 12 abr. 2025.​
 
