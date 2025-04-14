@@ -24,7 +24,7 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
     </tr>
 </table>
 
-## Referências Bibligráficas
+## Referências Bibliográficas
 > - Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital>. Acesso em: 13 abr. 2025.
 
 ## Histórico de Versão
