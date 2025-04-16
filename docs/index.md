@@ -1,6 +1,10 @@
 # Carteira de Trabalho Digital - Grupo 4
 
+<p align="center"><strong>Figura 1:</strong>  Brasão da República Federativa do Brasil</p>
+
 <div align="center"><img src= "assets/logo-ctd.png" width="200px;" alt=""/></div>
+
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital">gov.br</a>. Acesso em: 13 abr. 2025</p>
 
 ## Sobre o Projeto:
 Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Carteira de Trabalho Digital**](https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital). Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
@@ -9,6 +13,9 @@ Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Uni
 O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o acompanhamento da vida profissional, por meio dele é possível ter acesso a dados pessoais e contratos de trabalhos.
 
 ## Equipe
+A equipe responsável pelo desenvolvimento deste projeto é composta por:
+
+<p align="center"><strong>Tabela 1:</strong> Integrantes do grupo</p>
 
 <table>
     <tr>
@@ -24,6 +31,9 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
     </tr>
 </table>
 
+<p align="center"><strong>Autor:</strong>  Gabriel Flores</p>
+
+
 ## Referências Bibligráficas
 > - Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital>. Acesso em: 13 abr. 2025.
 
@@ -31,4 +41,5 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 13/04/2025 | Criado arquivo README | Gabriel Flores | Amanda Cruz |
+| 1.0 | 13/04/2025 | Criado arquivo README | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz) |
+| 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz) | [Ryan](https://github.com/RA-Salles) |

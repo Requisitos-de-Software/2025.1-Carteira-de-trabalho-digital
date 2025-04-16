@@ -4,7 +4,7 @@
 
 ## Entrega 1 - Planejamento do Projeto
 
-<center>Tabela 01: Cronograma das atividades da entrega 1</center>
+<center>Tabela 1: Cronograma das atividades da entrega 1</center>
 
 
 | Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
@@ -28,13 +28,14 @@
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
+## Referências
+   > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 abr. 2025. 
+
 ## Histórico de versão
 
 | Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
-|  1.0   | 13/04/2025 | Cronograma executado | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro)|
-|  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | |
+|  1.0   | 13/04/2025 | Cronograma executado | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) |
+| 1.4    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/RA-Salles) | [Ryan Augusto](https://github.com/RA-Salles) |
 
-
-## Referências Bibliográficas
-   > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 de Abril de 2025. 

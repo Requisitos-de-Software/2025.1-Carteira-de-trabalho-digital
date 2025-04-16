@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta os Termos de Uso do aplicativo em estudo, detalhando as condições e diretrizes para a utilização da plataforma. As imagens contidas na pasta assets/termos_de_uso foram utilizadas como base para a análise e elaboração deste conteúdo.
+Este documento apresenta os Termos de Uso do aplicativo em estudo, detalhando as condições e diretrizes para a utilização da plataforma. As imagens a seguir, retiradas do site do [gov.br](https://cadastro.acesso.gov.br/termo-de-uso), foram utilizadas como base para a análise e elaboração deste conteúdo. 
 
 Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma cláusula que proíba ou autorize expressamente o uso da Carteira de Trabalho Digital para finalidades acadêmicas ou educacionais.
 
@@ -46,8 +46,7 @@ Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma 
 
 ![Termo de Uso - Página 19](../assets/termos_de_uso/19.png)
 
-
-## Bibliografia
+## Referências
 > BRASIL. Ministério da Economia. Termo de Uso. Disponível em: <https://cadastro.acesso.gov.br/termo-de-uso>. Acesso em: 12 abr. 2025.
 
 ## Histórico de Versões
