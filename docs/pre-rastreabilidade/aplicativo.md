@@ -6,6 +6,7 @@ Este documento descreve o processo realizado pela equipe para escolher o aplicat
 
 ## Porque a Carteira Digital de Trabalho? 
 O processo de escolha foi conduzido em duas etapas:
+
 - Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades. 
 - Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação.
 
@@ -25,7 +26,16 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com a Car
 * A estrutura governamental do software, que oferece canais de contato úteis para validação dos requisitos.
 
 ## Carteira de Trabalho Digital
-A **Carteira Digital de Trabalho** tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+
+<p align="center"><strong>Figura 1:</strong> Aplicativo Carteira de Trabalho Digital</p>
+
+<center markdown> 
+![Foto do Aplicativo](../assets/app-carteira.png)
+</center>
+
+<p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&pcampaignid=web_share">play.google.com</a>. Acesso em: 16 abr. 2025</p>
+
+A **Carteira Digital de Trabalho** (Figura 1)tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
 
 * Consulta ao histórico de vínculos laborais.
 * Acompanhamento das contribuições para o INSS.
