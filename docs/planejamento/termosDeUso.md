@@ -51,6 +51,6 @@ Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma 
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                   | Autor             | Revisor         |
-|--------|------------|-----------------------------|-------------------|-----------------|
+| Versão | Data | Descrição | Autor | Revisor |
+| :-----:| :--: | :-------: | :---: | :----:  |
 | 1.0    | 08/04/2025 | Criação da página de termos de uso | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

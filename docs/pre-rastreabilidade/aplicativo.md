@@ -47,7 +47,7 @@ O Rich Picture é uma representação visual que ajuda a entender e comunicar um
     <strong>Figura 1:</strong> Carteira de Trabalho Digital, Rich Picture.
 </p>
 
-![RichPicture-V1](../assets/richPictures/Amanda.jpg)
+![RichPicture-V1](../assets/richPictures/Amanda.png)
 
 <p align="center">
     <strong>Autora:</strong> Amanda Cruz Lima, 2025
@@ -61,8 +61,9 @@ A **Carteira de Trabalho Digital** foi a aplicação selecionada com base em par
 > Introducing Rich Pictures, Rich Picture Drawing Guidelines. CTEC2402 - Software Development Project. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 10 abr. 2025.
 
 ## Histórico de Versão
-| Versão | Data       | Descrição                   | Autor             | Revisor         |
-|--------|------------|-----------------------------|-------------------|-----------------|
+
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 10/04/2025 | Criação do documento        | [Amanda Cruz](https://github.com/mandicrz) |  [Gabriel Flores](https://github.com/Gabrielfcoelho) |
-| 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) |
-| 1.2    | 16/04/2025 | Correção de bibliografia e formatação | [Amanda Cruz](https://github.com/mandicrz) | [Ryan](https://github.com/RA-Salles) |
+| 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2    | 16/04/2025 | Correção de bibliografia, formatação e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |

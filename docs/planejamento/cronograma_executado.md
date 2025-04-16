@@ -33,9 +33,9 @@
 
 ## Histórico de versão
 
-| Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
+| Versão |    Data    |      Descrição       |       Autor      |     Revisor     |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
 |  1.0   | 13/04/2025 | Cronograma executado | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
-|  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) |
-| 1.4    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/RA-Salles) | [Ryan Augusto](https://github.com/RA-Salles) |
+|  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 

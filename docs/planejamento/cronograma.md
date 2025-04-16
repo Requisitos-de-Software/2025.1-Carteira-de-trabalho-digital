@@ -37,9 +37,9 @@ Ao se aproximar do final da entrega um cronograma com os dados atualizados de ac
 
 ## Histórico de versão
 
-| Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
+| Versão |    Data    |      Descrição       |       Autor       |     Revisor   |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
-|  1.0   | 09/04/2025 | Cronograma Planejado | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
-|  1.1   | 10/04/2025 | Correção de termos, e adição de atividade | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
-|  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) |
-| 1.4    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/RA-Salles) | [Ryan Augusto](https://github.com/RA-Salles) |
+|  1.0   | 09/04/2025 | Cronograma Planejado | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles)|
+|  1.1   | 10/04/2025 | Correção de termos, e adição de atividade | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles)|
+|  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Augusto](https://github.com/RA-Salles) |

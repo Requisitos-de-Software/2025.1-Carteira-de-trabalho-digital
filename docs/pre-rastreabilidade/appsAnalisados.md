@@ -38,7 +38,7 @@
 
 <p align="center"><strong>Figura 4:</strong> Carteira de Trabalho Digital, Rich Picture</p>
 
-![RP_Amanda](../assets/richPictures/Amanda.jpg)
+![RP_Amanda](../assets/richPictures/Amanda.png)
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz Lima, 2025</p>
 
@@ -90,5 +90,5 @@ Através da análise de cada aplicativo, conseguimos identificar os aspectos pri
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 13/04/2025 | Criado arquivo dos aplicativos analisados |[Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
-| 1.1 | 13/04/2025 | Correção de ortografia, autoria das imagens e histórico de versão| [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) |
-| 1.2 | 16/04/2025 | Padronização das fontes, correção do texto e referências | [Amanda Cruz](https://github.com/mandicrz) | [Ryan](https://github.com/RA-Salles) | 
+| 1.1 | 13/04/2025 | Correção de ortografia, autoria das imagens e histórico de versão| [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 16/04/2025 | Padronização das fontes, correção do texto e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) | 

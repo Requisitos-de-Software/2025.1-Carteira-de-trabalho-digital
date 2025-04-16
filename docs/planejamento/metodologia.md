@@ -36,8 +36,8 @@ Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – 
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 09/04/2025 | Abertura do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Augusto](https://github.com/RA-Salles) |
-| 1.1 | 12/04/2025 | Adição de informações, formatação | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
-| 1.2 | 12/04/2025 | Adição da seção sobre Pareamento e Revisão por Pares | [João Igor](https://github.com/JoaoPC10) | [Ryan Augusto](https://github.com/RA-Salles) |
+| 1.0 | 09/04/2025 | Abertura do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.1 | 12/04/2025 | Adição de informações, formatação | [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+| 1.2 | 12/04/2025 | Adição da seção sobre Pareamento e Revisão por Pares | [João Igor](https://github.com/JoaoPC10) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 12/04/2025 | Formatação, adições ao histórico de versão | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
-| 1.4 | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/RA-Salles) | [Ryan Augusto](https://github.com/RA-Salles) |
+| 1.4 | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
