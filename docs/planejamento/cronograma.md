@@ -13,6 +13,8 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |   Escolha do aplicativo                       | Início: 08/04 Fim: 11/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan        | Início: 01/04 Fim: 01/04 	| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan 	          |
 |   Possíveis aplicativos                             | Início: 08/04 Fim: 11/04    | Gabriel                    | Início: 12/04 Fim: 13/04   | João Vítor       |
 |   Sobre aplicativo escolhido                  | Início: 08/04 Fim: 11/04    | Amanda                     | Início: 12/04 Fim: 13/04   | Gabriel          |
+|   Ferramentas                  | Início: 08/04 Fim: 11/04    | João Pedro                     | Início: 12/04 Fim: 13/04   | Julia          |
+|  Termo de uso                 | Início: 08/04 Fim: 11/04    | João Pedro                     | Início: 12/04 Fim: 13/04   | Ryan          |
 |   Cronograma                                  | Início: 08/04 Fim: 09/04    | Julia                      | Início: 09/04 Fim: 10/04   | Ryan            	|
 |   Cronograma ocorrido                         | Início: 11/04 Fim: 12/04    | Julia                      | Início: 12/04 Fim: 13/04   | João Pedro      	|
 |   Heatmap                        	            | Início: 08/04 Fim: 12/04    | João Pedro                 | Início: 12/04 Fim: 13/04   | Julia           	|
@@ -24,13 +26,15 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |   Rich Picture                               	| Início: 03/04 Fim: 06/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 07/04 Fim: 07/04   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
 |   Correção após apresentação                 	| Início: 15/04 Fim: 16/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 16/04 Fim: 16/04   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
 |   Inspeção                                  	| Início: 14/04 Fim: 14/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 14/04 Fim: 14/04   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
+|   Lista de verificação 	| Início: 14/04 Fim: 14/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 14/04 Fim: 14/04   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
+
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 ## Entrega 2 - Elicitação
 Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
-<center>Tabela 02: Cronograma para as atividades da entrega 1</center>
+<center>Tabela 02: Cronograma para as atividades da entrega 2</center>
 
 
 | Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
@@ -48,7 +52,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |Priorização dos requisitos levantados usando as técnicas | Início: 24/04 Fim: 26/04    | João Vítor, Julia, Ryan                 | Início: 26/04 Fim: 27/04   | Amanda   	|
 |Priorização dos requisitos levantados usando as técnicas|Início: 24/03 Fim: 26/04 | Amanda, João Pedro, Gabriel    | Início: 26/04 Fim: 27/04   |  Ryan    	|
 |   Atas                                       	| Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | Julia       	|
-|   Gravações                                  	| Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | Joâo Igor           	|
+|   Gravações                                  	| Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | João Igor           	|
 |Gravação da apresentação| Início: 27/04 Fim: 27/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 27/04 Fim: 27/04   |João Vítor|
 |Correção após apresentação|Início: 29/04 Fim: 30/04|Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|Início: 29/04 Fim: 30/04|Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|
 |   Inspeções| Início: 28/04 Fim: 28/04| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|Início: 28/04 Fim: 28/04|Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|
@@ -58,7 +62,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 
 ## Entrega 3 - Modelagem de Requisitos parte 1
 Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
-<center>Tabela 03: Cronograma para as atividades da entrega 1</center>
+<center>Tabela 03: Cronograma para as atividades da entrega 3</center>
 
 
 | Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
@@ -79,14 +83,14 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 
 ## Entrega 4 - Modelagem de Requisitos parte 2
 Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
-<center>Tabela 04: Cronograma para as atividades da entrega 1</center>
+<center>Tabela 04: Cronograma para as atividades da entrega 4</center>
 
 
 | Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
 |-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
 |   Modelagem de Requisitos - Ágil: NFR Framework | Início: 18/05 Fim: 23/05  | Amanda, Julia       | Início: 23/05 Fim: 24/05 	| João Pedro	     |
-|  Modelagem de Requisitos - Ágil: Backlogs       | Início: 18/05 Fim: 23/05 | Gabriel, Ryan       | Início: 23/05 Fim: 24/04   | João Vítor       |
-|  Modelagem de Requisitos - Ágil: Histórias de Usuário| Início: 18/05 Fim: 23/05    | João Igor, João Pedro     | Início: 23/05 Fim: 24/04   | Ryan        |
+|  Modelagem de Requisitos - Ágil: Backlogs       | Início: 18/05 Fim: 23/05 | Gabriel, Ryan       | Início: 23/05 Fim: 24/05   | João Vítor       |
+|  Modelagem de Requisitos - Ágil: Histórias de Usuário| Início: 18/05 Fim: 23/05    | João Igor, João Pedro     | Início: 23/05 Fim: 24/05   | Ryan        |
 |   Cronograma ocorrido                         | Início: 27/05 Fim: 27/05    | João Vítor                  | Início: 27/05 Fim: 27/05   | Gabriel      	|
 |   Atas                                       	| Início: 18/05 Fim: 28/05    | Ryan                       | Início: 28/05 Fim: 28/05   | Amanda       	|
 |   Gravações                                  	| Início: 18/05 Fim: 28/05    | Ryan                       | Início: 28/05 Fim: 28/05   | Julia           	|
@@ -112,7 +116,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |   Gravações                                  	| Início: 31/05 Fim: 11/06    | Ryan                       | Início: 11/06 Fim: 11/06   | Julia           	|
 |Gravação da apresentação|Início: 10/06 Fim: 10/06| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan| Início: 10/06 Fim: 10/06   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
 |   Correção após apresentação                 	| Início: 12/06 Fim: 13/06    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 12/06 Fim: 13/06   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
-|   Inspeção                                  	| Início: 11/06 Fim: 11/06    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 11/04 Fim: 11/06   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
+|   Inspeção                                  	| Início: 11/06 Fim: 11/06    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 11/06 Fim: 11/06   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
@@ -143,7 +147,6 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |  1.0   | 09/04/2025 | Cronograma Planejado | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.1   | 10/04/2025 | Correção de termos, e adição de atividade | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
-|  1.1   | 10/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
-
-## Referências Bibliográficas
+|  2.0   | 15/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
+## Bibliografia
    > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 12 de Abril de 2025. 
