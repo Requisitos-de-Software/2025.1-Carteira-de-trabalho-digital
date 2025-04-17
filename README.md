@@ -1,10 +1,10 @@
 # Carteira de Trabalho Digital - Grupo 4
 
-<p align="center"><strong>Figura 1:</strong>  Brasão da República Federativa do Brasil</p>
+<p align="center"><strong>Figura 1:</strong> Brasão da República Federativa do Brasil</p>
 
 <div align="center"><img src= "./docs/assets/logo-ctd.png" width="200px;" alt=""/></div>
 
-<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital">gov.br</a>. Acesso em: 13 abr. 2025</p>
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/ctps-digital">gov.br</a>. Acesso em: 13 abr. 2025</p>
 
 
 ## Sobre o Projeto:
