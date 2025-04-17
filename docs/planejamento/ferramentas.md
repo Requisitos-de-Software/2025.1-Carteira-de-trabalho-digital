@@ -94,6 +94,6 @@ As ferramentas estão apresentadas na Tabela 1, acompanhadas de seus logotipos e
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                    | Autor                                                                 | Revisor                                                              |
-|--------|------------|------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------|
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 11/04/2025 | Criação da página do heatmap | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |

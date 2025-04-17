@@ -46,6 +46,6 @@ Reunião realizada no **Microft Teams.**
 
 ## Histórico de versão
 
-| Versão |    Data    |    Descrição da Alteração       |         Autor         |       Revisor     |
+| Versão |    Data    |            Descrição            |         Autor         |       Revisor     |
 | :----: | :--------: | :-----------------------------: | :-------------------: | :---------------: |
-|  1.0   | 12/04/2025 | Inserção de informações Base    |      Ryan Salles      |    João Pedro     |
+|  1.0   | 12/04/2025 | Inserção de informações Base    | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/johnaopedro) |

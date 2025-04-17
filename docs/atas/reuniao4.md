@@ -34,6 +34,6 @@ Reunião realizada no **Microft Teams.**
 
 ## Histórico de versão
 
-| Versão |    Data    |    Descrição da Alteração   |         Autor         |       Revisor         |
+| Versão |    Data    |          Descrição          |         Autor         |       Revisor         |
 | :----: | :--------: | :-------------------------: | :-------------------: | :-------------------: |
-|  1.0   | 12/04/2025 | Criação do documento        |       Ryan Salles     |    João Pedro Costa   |
+|  1.0   | 12/04/2025 | Criação do documento        | [Ryan Salles](https://github.com/RA-Salles) |    [João Pedro Costa](https://github.com/johnaopedro)   |
