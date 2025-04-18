@@ -73,6 +73,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |   Atas                                       	| Início: 30/04 Fim: 14/05    | Ryan                       | Início: 14/05 Fim: 14/05   | Amanda         	|
 |   Gravações                                  	| Início: 30/04 Fim: 14/05    | Ryan                       | Início: 14/05 Fim: 14/05   | Gabriel       	 |
 |Correção após apresentação| Início: 29/04 Fim: 30/04 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan | Início: 30/04 Fim: 30/04 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan |
+|Gravação da apresentação| Início: 13/05 Fim: 13/05 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan| Início: 13/05 Fim: 13/05| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan |
 |   Inspeções         	| Início: 14/05 Fim: 14/05    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 14/05 Fim: 14/05   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
