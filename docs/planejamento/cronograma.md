@@ -72,9 +72,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |   Cronograma ocorrido                         | Início: 13/05 Fim: 14/05    | João Igor                  | Início: 14/05 Fim: 14/05   | João Pedro     	|
 |   Atas                                       	| Início: 30/04 Fim: 14/05    | Ryan                       | Início: 14/05 Fim: 14/05   | Amanda         	|
 |   Gravações                                  	| Início: 30/04 Fim: 14/05    | Ryan                       | Início: 14/05 Fim: 14/05   | Gabriel       	 |
-
-|Correção após apresentação|Início: 29/04 Fim: 30/04|Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|Início: 29/04 Fim: 30/04|Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|
-|Gravação da apresentação| Início: 13/05 Fim: 13/05    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan| Início: 13/05 Fim: 13/05| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan           	|
+|Correção após apresentação| Início: 29/04 Fim: 30/04 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan | Início: 30/04 Fim: 30/04 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan |
 |   Inspeções         	| Início: 14/05 Fim: 14/05    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                      | Início: 14/05 Fim: 14/05   | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan|
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
@@ -141,6 +139,10 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 </center>
 
 
+# Referências
+   > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 12 de Abril de 2025. 
+
+# Histórico de Versão
 
 | Versão |    Data    |      Descrição       |       Autor(es)       |     Revisor(es)     |
 | :-----:| :--------: | :------------------: | :-------------------: | :-----------------: |
@@ -149,6 +151,4 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.3   | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Augusto](https://github.com/RA-Salles) |
 |  2.0   | 18/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
-
-## Bibliografia
-   > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 12 de Abril de 2025. 
+|  2.1   | 18/04/2025 | Correção de tabela e área de referências | [João Pedro](https://github.com/johnaopedro) | [Ryan](https://github.com/RA-Salles)|
