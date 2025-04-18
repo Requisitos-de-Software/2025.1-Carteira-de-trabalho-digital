@@ -1,6 +1,16 @@
 # Carteira de Trabalho Digital - Grupo 4
 
-<div align="center"><img src= "./docs/assets/logo-ctd.png" width="200px;" alt=""/></div>
+<div align="center">
+    <font size="4"><p style="text-align: center; margin-bottom: 50px;"><b>Figura 1: Logo Carteira de Trabalho Digital</b></p></font>
+</div>
+
+<div align="center">
+    <img src= "./docs/assets/logo-ctd.png" width="200px;" alt=""/>
+</div>
+
+<div align="center">
+    <p style="text-align: center; margin-bottom: 50px;"><b>Fonte: <a href="https://apps.apple.com/br/app/carteira-de-trabalho-digital/id1295257499 ">App Store </a> , 2025</b></p>
+</div>
 
 ## Sobre o Projeto:
 Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Carteira de Trabalho Digital**](https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital). Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
@@ -24,6 +34,8 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
     </tr>
 </table>
 
+<font size="3"><p style="text-align: center"><b>Tabela 1:</b> Integrantes da equipe</p></font>
+
 ## Referências Bibliográficas
 > - Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/temas/carteira-de-trabalho-digital>. Acesso em: 13 abr. 2025.
 
@@ -31,4 +43,5 @@ O aplicativo da Carteira de Trabalho Digital é uma ferramenta que facilita o ac
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 13/04/2025 | Criado arquivo README | Gabriel Flores | Amanda Cruz |
+| 1.0 | 13/04/2025 | Criado arquivo README | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz) |
+| 1.1 | 18/04/2025 | Adição de numeração e fonte | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz) |
