@@ -9,10 +9,11 @@ nav:
     - Ferramentas: planejamento/ferramentas.md
     - Cronograma Planejado: planejamento/cronograma.md
     - Cronograma Executado: planejamento/cronograma_executado.md
-    - Aplicativo: planejamento/aplicativo.md
-    - Aplicativos Analisados: planejamento/appsAnalisados.md
     - Metodologia: planejamento/metodologia.md
     - Termos de Uso: planejamento/termosDeUso.md
+  - Pré-rastreabilidade:
+    - Aplicativo: pre-rastreabilidade/aplicativo.md
+    - Aplicativos Analisados: pre-rastreabilidade/appsAnalisados.md
   - Atas de Reunião:
     - Ata 1: atas/reuniao1.md
     - Ata 2: atas/reuniao2.md
