@@ -49,7 +49,6 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |Análise das técnicas de priorização|Início: 21/04 Fim: 23/04| Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan| Início: 23/04 Fim: 24/04	  | João Pedro|
 |Definição de técnicas de priorização que serão usadas| Início: 23/04 Fim: 24/04    |João Vítor, João Igor| Início: 24/04 Fim: 25/04   | João Pedro    |
 |Observação para elicitação| Início: 24/04 Fim: 25/04    | Ryan, João Igor               | Início: 25/04 Fim: 26/04   | Julia          	|
-|Priorização dos requisitos levantados usando as técnicas | Início: 24/04 Fim: 26/04    | João Vítor, Julia, Ryan                 | Início: 26/04 Fim: 27/04   | Amanda   	|
 |Priorização dos requisitos levantados usando as técnicas|Início: 24/03 Fim: 26/04 | Amanda, João Pedro, Gabriel    | Início: 26/04 Fim: 27/04   |  Ryan    	|
 |   Atas                                       	| Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | Julia       	|
 |   Gravações                                  	| Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | João Igor           	|
