@@ -2,7 +2,11 @@
 
 ## Introdução
 
-A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para um software de determinada natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa.
+### Introspecção
+A introspecção é uma abordagem utilizada na elicitação de requisitos que busca definir características essenciais de um sistema a partir de uma reflexão aprofundada sobre seu uso ideal. Por meio desse processo, o responsável pela análise imagina cenários hipotéticos nos quais determinadas tarefas seriam executadas, identificando assim os elementos indispensáveis para o funcionamento do software. No entanto, essa técnica apresenta desafios, pois a perspectiva dos especialistas pode não corresponder totalmente às necessidades e experiências dos usuários reais, especialmente no contexto do design de interfaces e da adoção de novas tecnologias.
+
+### Desafios para Especialistas
+Designers de interface, cientistas cognitivos e engenheiros de requisitos frequentemente enfrentam dificuldades ao compreender como os usuários aprendem novas tecnologias. Muitas vezes, especialistas ficam surpresos com o comportamento inconsistente dos usuários e têm dificuldade em entender o ambiente de trabalho e as condições para a adoção de novas tecnologias. A confusão em torno do termo "usuário ingênuo" também contribui para essa problemática. Conclui-se que a introspecção, sem considerar cuidadosamente o contexto, torna-se inviável.
 
 ## Metodologia
 
@@ -135,7 +139,7 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 
 ## Referências
 
-> SERRANO, Milene; SERRANO, Maurício. **Requisitos (Aula 07): Elicitação, Modelagem e Análise**. UnB Gama, Brasília, 2023. Disponível em: [https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf](https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf). Acesso em: 26/04/2023.
+> GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23/04/2025.
 
 ## Histórico de Versões
 
