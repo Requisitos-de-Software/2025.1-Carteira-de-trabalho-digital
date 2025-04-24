@@ -58,25 +58,19 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
 | RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              |
-| RF02  | Emitir comprovante de cadastro      | Permite ao usuário gerar e visualizar o comprovante do Cadastro Único.  |
-| RF03  | Atualizar cadastro                  | Permite atualizar informações pessoais e familiares no sistema.          |
-| RF04  | Consultar benefícios recebidos      | Exibe os benefícios sociais que o usuário está recebendo.                |
-| RF05  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      |
-| RF06  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         |
-| RF07  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     |
-| RF08  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          |
-| RF09  | Excluir cadastros unipessoais       | Permite a exclusão de cadastros unipessoais indevidos.                   |
-| RF10  | Preencher endereço automaticamente  | Utiliza o CEP para preencher os dados de endereço de forma automática.   |
-
+| RF02  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      |
+| RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         |
+| RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     |
+| RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          |
 #### Desejáveis
 
 | RF    | Nome do RF                                | Descrição                                                                 |
 |-------|-------------------------------------------|---------------------------------------------------------------------------|
-| RF11  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
-| RF12  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
-| RF13  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      |
-| RF14  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
-| RF15  | Agendamento de atendimento no CRAS       | Possibilita o agendamento de atendimento nos postos de CRAS.             |
+| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
+| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
+| RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      |
+| RF09  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
+| RF10  | Agendamento de atendimento no CRAS       | Possibilita o agendamento de atendimento nos postos de CRAS.             |
 
 ### Requisitos Não-Funcionais
 
@@ -84,23 +78,20 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
-| RNF16 | Disponível para Android e iOS            | O aplicativo está disponível em ambas as plataformas móveis, Android e iOS.|
-| RNF17 | Autenticação por conta gov.br            | O acesso ao aplicativo é feito por meio da conta gov.br do usuário.       |
-| RNF18 | Atualizações regulares                   | O aplicativo possui atualizações periódicas para corrigir erros e melhorar funcionalidades.|
-| RNF19 | Interface intuitiva e amigável           | O design do aplicativo é simples e fácil de navegar para o usuário.       |
-| RNF20 | Capacidade de atender grande base de usuários | O aplicativo suporta muitos usuários acessando simultaneamente.           |
-| RNF21 | Integração com sistemas oficiais do governo | O aplicativo está integrado com sistemas oficiais, como o CNIS.           |
+| RNF01 | Interface intuitiva e amigável           | O design do aplicativo é simples e fácil de navegar para o usuário.       |
+| RNF02 | Capacidade de atender grande base de usuários | O aplicativo suporta muitos usuários acessando simultaneamente.           |
+| RNF03 | Integração com sistemas oficiais do governo | O aplicativo está integrado com sistemas oficiais, como o CNIS.           |
 
 #### Desejáveis
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
-| RNF22 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. |
-| RNF23 | Desempenho otimizado para internet limitada | O aplicativo oferece desempenho otimizado para conexões de internet mais lentas.|
-| RNF24 | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. |
-| RNF25 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.|
-| RNF26 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. |
-| RNF27 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. |
+| RNF04 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. |
+| RNF05 | Desempenho otimizado para internet limitada | O aplicativo oferece desempenho otimizado para conexões de internet mais lentas.|
+| RNF06 | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. |
+| RNF07 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.|
+| RNF08 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. |
+| RNF09 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. |
 
 ---
 
@@ -112,10 +103,28 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
+| RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              |
+| RF02  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      |
+| RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         |
+| RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     |
+| RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          |
+| RF06  | Cadastro de Usuário                 | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. |
+| RF07  | Atualização de Dados                | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.  |
+| RF08  | Consultar Situação Cadastral        | Permite verificar o status do cadastro e da situação dos benefícios.     |
+| RF09  | Emissão de Comprovante de Cadastro  | Gera um comprovante de cadastro atualizado para o usuário.               |
+| RF10  | Filtragem de Benefícios             | Permite visualizar benefícios disponíveis com base nos dados cadastrados.|
+
 #### Desejáveis
 
 | RF    | Nome do RF                                | Descrição                                                                 |
 |-------|-------------------------------------------|---------------------------------------------------------------------------|
+| RF11  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
+| RF12  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
+| RF13  | Simulador de benefícios sociais           | Permite ao usuário simular benefícios sociais com base em suas informações.|
+| RF14  | Upload de documentos                      | Possibilita o envio de documentos digitalizados para o sistema.          |
+| RF15  | Agendamento de atendimento no CRAS        | Permite marcar atendimentos nos postos de atendimento presencial (CRAS). |
+
+---
 
 ### Requisitos Não-Funcionais
 
@@ -123,13 +132,29 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
+| RNF01 | Interface intuitiva e amigável           | O design do aplicativo é simples e de fácil navegação.                    |
+| RNF02 | Capacidade de atender grande base de usuários | Suporta um grande número de acessos simultâneos.                          |
+| RNF03 | Integração com sistemas oficiais do governo | Integrado com sistemas como o CNIS.                                      |
+| RNF04 | Usabilidade                              | Navegação intuitiva e acessibilidade geral.                              |
+| RNF05 | Segurança                                | Uso de criptografia e proteção de dados sensíveis.                       |
+| RNF06 | Performance                              | Resposta rápida nas interações do usuário (até 3 segundos).              |
+| RNF07 | Compatibilidade com Dispositivos         | Compatível com Android e iOS.                                            |
+| RNF08 | Disponibilidade                          | Garantia de 99% de disponibilidade com mínimas interrupções.             |
 
 #### Desejáveis
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
+| RNF09 | Acessibilidade para pessoas com deficiência visual | Inclusão de leitores de tela e navegação adaptada.                  |
+| RNF10 | Desempenho otimizado para internet limitada | Operação eficiente em conexões lentas.                             |
+| RNF11 | Possibilidade de outros idiomas          | Disponibilidade do app em múltiplos idiomas.                             |
+| RNF12 | Backup e restauração de sessão           | Recuperação da sessão em caso de interrupções.                           |
+| RNF13 | Modo escuro                              | Alternativa visual para ambientes com pouca luz.                         |
+| RNF14 | Alta disponibilidade e recuperação de desastres | Mecanismos para manter o sistema funcional mesmo em situações críticas. |
 
 ---
+
+
 
 ## Conclusão
 
@@ -145,4 +170,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
