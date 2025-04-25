@@ -76,19 +76,9 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
 
-<p align="center"><strong>Figura 1:</strong> Fonte 1 da Checklist de Conteúdo da Disciplina
-<img src="../../../assets/fonte_checklist_1.png" alt="Fonte 1 da Checklist">
-</p>
-<p align="center"><strong>Fonte:</strong> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf</a>. Acesso em: 17 abr. 2025.</p>
-
-<p align="center"><strong>Figura 2:</strong> Fonte 2 da Checklist de Conteúdo da Disciplina
-<img src="../../../assets/fonte_checklist_1.1.png" alt="Fonte 2 da Checklist">
-</p>
-<p align="center"><strong>Fonte:</strong> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf</a>. Acesso em: 17 abr. 2025.</p>
-
 ## Conclusão
 
-O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano de ensino, promovendo qualidade e organização. A inspeção do grupo+1 poderá identificar inconsistências e assegurar a padronização, facilitando o gerenciamento do projeto do grupo inspecionado.
+O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano de ensino, promovendo qualidade e organização. A inspeção do Grupo+1 poderá identificar inconsistências e assegurar a padronização, facilitando o gerenciamento do projeto do grupo inspecionado.
 
 ## Referências
 
@@ -103,5 +93,5 @@ O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 17/04/2025 | Criação do Documento |[Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-| 2.0 | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) |  |
+| 2.0 | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 
