@@ -29,4 +29,4 @@ Essa atividade de brainstorming funciona para qualquer produto ou serviço, e re
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da pagina de analise das tecnicas de elicitação e informações sobre a tecnica de introspecção | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
-| 1.1    | 24/04/2025 | Adição da Técnica de Entrevista                                           | [Joao Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.1    | 24/04/2025 | Adição da Técnica de Brainstorm                                         | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
