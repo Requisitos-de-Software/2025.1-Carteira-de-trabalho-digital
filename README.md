@@ -1,4 +1,4 @@
-# Carteira de Trabalho Digital - Grupo 4
+# Cadastro Único - Grupo 4
 
 <p align="center"><strong>Figura 1:</strong> Brasão da República Federativa do Brasil</p>
 
