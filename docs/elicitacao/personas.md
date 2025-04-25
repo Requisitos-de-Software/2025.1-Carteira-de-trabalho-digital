@@ -6,7 +6,7 @@ Este documento visa documentar a criação das **Personas** para o aplicativo do
 
 ## Metodologia
 
-A criação dessa documentação foi elaborada a partir da coleta de dados por meio de pesquisas, [entrevistas]() e análise de [perfis de usuários]() reais, os quais forneceram as informações necessárias para a construção das personas, representando os diferentes perfis de público do aplicativo.
+A criação dessa documentação foi elaborada a partir da coleta de dados por meio de pesquisas e na análise das respostas obtidas de um [questionário](), o qual forneceu as informações necessárias para a construção das personas, representando os diferentes perfis de público do aplicativo.
 
 As imagens utilizadas no decorrer do documento foram geradas utilizando o site [This Person Does Not Exist](https://this-person-does-not-exist.com/pt), que cria imagens realistas com inteligência artificial, tornando as representações mais concretas e facilitando o entendimento. Além disso, o [ChatGPT](https://chatgpt.com) foi utilizado com o intuito de gerar os nomes das personas.
 
@@ -28,20 +28,20 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 
 <p align="center"><strong>Tabela 1:</strong> Persona Primária 1</p>
 
-|**Persona Primária 1**|**Maria das Dores Silva**|
+|**Persona Primária 1**|**Larissa Mendes Costa**|
 |:--:|:--:|
-|**Foto:**|<p><strong>Figura 1:</strong> Foto de Maria das Dores Silva</p>![Persona Maria das Dores](../assets/persona-prim-1.jpg) <p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|54 anos|
-|**Ocupação**:|Trabalhadora informal (vende doces de porta em porta)|
-|**Localização**:|São Sebastião - DF|
-|**Escolaridade**:|Ensino Fundamental Incompleto|
-|**Tecnologia**:|Celular simples com acesso limitado à internet (plano pré-pago)|
-|**Habilidades Digitais**:|Limitadas, tem pouca experiência com aplicativos e sistemas digitais|
-|**Expectativas**:|Atualizar dados e evitar viagens ao CRAS|
-|**Frustrações**:|Dificuldade com a navegação no app e problemas com a conexão de internet|
-|**Cenário de Uso**:|Precisa ir ao CRAS frequentemente por conta da lentidão no envio de documentos e dificuldades no uso do app|
-|**Descrição**:|Maria é uma trabalhadora informal que busca garantir o acesso ao Bolsa Família e facilitar a atualização dos dados pessoais sem precisar se deslocar ao CRAS|
-|**Justificativa**:|Essa persona foi construída a partir de entrevistas com usuárias reais do CadÚnico, especialmente em áreas com baixa conectividade e de alta vulnerabilidade social. Ela representa os desafios enfrentados por pessoas com baixa escolaridade e familiaridade com tecnologia|
+|**Foto**:|<p><strong>Figura 1:</strong> Foto de Larissa Mendes Costa</p>![Persona Larissa Mendes](../assets/persona-prim-1.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
+|**Idade**:|20 anos|
+|**Ocupação**:|Estudante de Serviço Social|
+|**Localização**:|Ceilândia - DF|
+|**Escolaridade**:|Ensino Superior em Andamento|
+|**Tecnologia**:|Smartphone intermediário, acesso à internet 4G (plano pré-pago)|
+|**Habilidades Digitais**:|Moderadas, usa aplicativos básicos, mas tem dificuldade com interfaces complexas|
+|**Expectativas**:|Atualizar dados da família no Cadastro Único de forma rápida e clara|
+|**Frustrações**:|Falta de instruções simples e lentidão na validação de documentos|
+|**Cenário de Uso**:|Larissa usa o app para manter o cadastro da família atualizado, garantindo o Bolsa Família. Frequentemente enfrenta problemas com o envio de documentos devido a erros de conexão ou formulários confusos, o que a obriga a buscar ajuda em fóruns online|
+|**Descrição**:|Larissa é uma estudante que gerencia o cadastro social da família, mas enfrenta barreiras devido à complexidade do app e à instabilidade da internet em sua região|
+|**Justificativa**:|Esta persona reflete jovens universitárias de baixa renda que assumem responsabilidades familiares, enfrentando desafios tecnológicos comuns em áreas periféricas|
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -49,20 +49,20 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 
 <p align="center"><strong>Tabela 2:</strong> Persona Primária 2</p>
 
-|**Persona Primária 2**|**João Batista de Souza**|
+|**Persona Primária 2**|**Beatriz Oliveira Santos**|
 |:--:|:--:|
-|**Foto**:|<p><strong>Figura 1:</strong> Foto de João Batista de Souza</p>![Persona João Batista](../assets/persona-prim-2.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|38 anos|
-|**Ocupação**:|Pedreiro autônomo|
-|**Localização**:|Taguatinga - DF|
-|**Escolaridade**:|Ensino Médio Completo|
-|**Tecnologia**:|Smartphone simples, usa internet móvel (plano pré-pago)|
-|**Habilidades Digitais**:|Conhecimento básico, tem dificuldades|
-|**Expectativas**:|Atualizar dados rapidamente para evitar burocracia e longas esperas|
-|**Frustrações**:|Dificuldades em entender o formulário, conexão instável e a falta de clareza sobre o status do cadastro|
-|**Cenário de Uso**:|João muitas vezes se sente decepcionado ao tentar preencher os formulários do app, especialmente devido à falta de clareza nas instruções. Fora isso, ele não sabe se a atualização foi bem-sucedida e, por isso, acaba fazendo várias tentativas de envio sem sucesso|
-|**Descrição**:|João é um pedreiro autônomo que precisa manter os dados da sua família atualizados para conseguir o Auxílio Emergencial, mas enfrenta dificuldades devido à complexidade do sistema|
-|**Justificativa**:|A persona foi construída com base no perfil de trabalhadores informais, que têm dificuldades com o uso de tecnologias e preferem uma experiência de usuário mais simples e direta, sem muitos obstáculos.|
+|**Foto**:|<p><strong>Figura 1:</strong> Foto de Beatriz Oliveira Santos</p>![Persona Beatriz Oliveira](../assets/persona-prim-2.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
+|**Idade**:|24 anos|
+|**Ocupação**:|Estudante de Enfermagem|
+|**Localização**:|Samambaia - DF|
+|**Escolaridade**:|Ensino Superior em Andamento|
+|**Tecnologia**:|Smartphone intermediário, usa Wi-Fi da universidade e internet móvel limitada|
+|**Habilidades Digitais**:|Intermediárias, familiarizada com redes sociais, mas menos com apps governamentais|
+|**Expectativas**:|Acessar benefícios sociais rapidamente e receber notificações claras|
+|**Frustrações**:|Interface confusa e falta de suporte em tempo real|
+|**Cenário de Uso**:|Beatriz tenta atualizar seus dados para manter uma bolsa universitária vinculada ao CadÚnico, mas a navegação complicada e a ausência de feedback imediato a frustram, levando-a a procurar ajuda em grupos de WhatsApp|
+|**Descrição**:|Beatriz é uma estudante que depende de benefícios sociais para custear os estudos, mas enfrenta dificuldades com a usabilidade do aplicativo|
+|**Justificativa**:|Esta persona representa mulheres jovens que buscam autonomia no uso de apps governamentais, mas enfrentam barreiras devido à falta de design intuitivo|
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -74,7 +74,7 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 |:--:|:--:|
 |**Foto:**|<p><strong>Figura 1:</strong> Foto de Thiago Henrique Takahashi </p>![Persona Thiago Henrique](../assets/persona-sec-1.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
 |**Idade**:|22 anos|
-|**Ocupação**:|Estudante universitário|
+|**Ocupação**:|Estudante de Farmácia|
 |**Localização**:|Gama - DF|
 |**Escolaridade**:|Ensino Superior em Andamento|
 |**Tecnologia**:|Smartphone com internet móvel e computador em casa|
@@ -91,20 +91,20 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 
 <p align="center"><strong>Tabela 4:</strong> Persona Secundária 2</p>
 
-|**Persona Secundária 2**|**Carlos Eduardo Lima**|
+|**Persona Secundária 2**|**Lucas Gabriel Almeida**|
 |:--:|:--:|
-|**Foto**:|<p><strong>Figura 1:</strong> Foto de Carlos Eduardo Lima</p>![Persona Carlos Eduardo](../assets/persona-sec-2.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|63 anos|
-|**Ocupação**:|Aposentado|
-|**Localização**:|Sobradinho - DF|
-|**Escolaridade**:|Ensino Fundamental Completo|
-|**Tecnologia**:|Celular simples com acesso à internet de baixa qualidade|
-|**Habilidades Digitais**:|Básicas, com dificuldades em sistemas mais complexos.|
-|**Expectativas**:|Manter o cadastro atualizado e obter suporte por telefone ou WhatsApp|
-|**Frustrações**:|Dificuldade com a navegação e problemas ao enviar documentos devido à conexão lenta, sente que não possui um suporte adequado|
-|**Cenário de Uso**:|Enfrenta dificuldades na navegação do app e gostaria de contar com suporte mais direto|
-|**Descrição**:|Carlos é um aposentado que deseja manter o Cadastro Único atualizado para continuar acessando o Benefício de Prestação Continuada e espera suporte mais direto|
-|**Justificativa**:|Esta persona reflete as dificuldades de pessoas idosas que precisam de interfaces mais simples e suporte mais direto para superar as barreiras tecnológicas|
+|**Foto**:|<p><strong>Figura 1:</strong> Foto de Lucas Gabriel Almeida</p>![Persona Lucas Gabriel](../assets/persona-sec-2.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
+|**Idade**:|26 anos|
+|**Ocupação**:|Estudante de Direito|
+|**Localização**:|Águas Claras - DF|
+|**Escolaridade**:|Ensino Superior em Andamento|
+|**Tecnologia**:|Smartphone intermediário, acesso à internet 4G e Wi-Fi na universidade|
+|**Habilidades Digitais**:|Boas, usa apps variados, mas não é especialista em tecnologia|
+|**Expectativas**:|Apoiar a família no uso do app e obter suporte claro em caso de dúvidas|
+|**Frustrações**:|Falta de tutoriais no app e tempo de resposta longo para dúvidas|
+|**Cenário de Uso**:|Lucas ajuda sua mãe a atualizar dados no CadÚnico, mas sente falta de guias visuais ou chat de suporte no app, o que o leva a buscar informações em sites governamentais|
+|**Descrição**:|Lucas é um estudante que auxilia a família no uso do aplicativo, mas enfrenta barreiras devido à falta de recursos de suporte integrados|
+|**Justificativa**:|Esta persona representa jovens homens que, embora não sejam o público primário, desempenham um papel de apoio em contextos familiares de baixa renda|
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -117,7 +117,7 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 |**Foto**:|<p><strong>Figura 1:</strong> Foto de Fernanda Martins</p>![Antipersona Fernanda Martins](../assets/antipersona-1.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
 |**Idade**:|22 anos|
 |**Ocupação**:|Analista de TI|
-|**Localização**:|Brasília - DF|
+|**Localização**:|Lago Norte - DF|
 |**Escolaridade**:|Ensino Superior completo em Tecnologia da Informação|
 |**Tecnologia**:|Smartphone moderno, laptop de última geração, acesso rápido à internet|
 |**Habilidades Digitais**:|Alta alfabetização digital, especialista em TI, com habilidades avançadas em tecnologia e sistemas complexos|
@@ -133,20 +133,20 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 
 <p align="center"><strong>Tabela 6:</strong> Antipersona 2</p>
 
-|**Antipersona 2**|**Marcos Vinícius Rocha**|
+|**Antipersona 2**|**Alan Souza Lima**|
 |:--:|:--:|
-|**Foto**:|<p><strong>Figura 1:</strong> Foto de Marcos Vinícius Roch</p>![Antipersona Marcos Vinícius](../assets/antipersona-2.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|40 anos|
-|**Ocupação**:|Empresário|
-|**Localização**:|Brasília - DF|
-|**Escolaridade**:|Ensino Superior completo em Administração|
-|**Tecnologia**:|Smartphone avançado, escritório com tecnologia de ponta|
-|**Habilidades Digitais**:|Avançadas, com experiência em tecnologia no seu negócio|
-|**Expectativas**:|Não tem interesse no aplicativo|
-|**Frustrações**:| Considera o app irrelevante e tem uma visão negativa sobre aplicativos governamentais|
-|**Cenário de Uso**:|Nunca utilizaria o aplicativo, pois não vê valor em gerenciar um cadastro|
-|**Descrição**:|Marcos é um empresário que não vê utilidade no Cadastro Único, pois não depende de benefícios sociais|
-|**Justificativa**:|Esta antipersona representa indivíduos que não se aplicam ao contexto social do CadÚnico e provavelmente rejeitariam o aplicativo por não verem valor na interação com ele|
+|**Foto**:|<p><strong>Figura 1:</strong> Foto de Alan Souza Lima</p>![Antipersona Alan Souza](../assets/antipersona-2.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
+|**Idade**:|31 anos|
+|**Ocupação**:|Analista júnior em uma consultoria econômica|
+|**Localização**:|Asa Sul - DF|
+|**Escolaridade**:|Ensino Superior Completo em Economia|
+|**Tecnologia**:|Smartphone moderno, laptop profissional, acesso à internet de alta velocidade|
+|**Habilidades Digitais**:|Avançadas, usa ferramentas e plataformas digitais no trabalho|
+|**Expectativas**:|Nenhuma, não vê utilidade no aplicativo|
+|**Frustrações**:|Tem uma visão crítica sobre aplicativos governamentais, considerando-os ineficientes e mal projetados. Não vê funcionalidades relevantes para sua rotina profissional ou pessoal|
+|**Cenário de Uso**:|Alan nunca utilizaria o aplicativo, pois não depende de benefícios sociais. Se ouvisse falar, provavelmente questionaria sua eficácia com base em experiências negativas com outros serviços públicos digitais, como lentidão ou interfaces desatualizadas.|
+|**Descrição**:|Alan é um jovem profissional que trabalha em uma consultoria e não tem interesse no Cadastro Único, pois sua realidade socioeconômica o coloca fora do público-alvo|
+|**Justificativa**:|Esta antipersona representa profissionais que, por estarem inseridos em contextos de maior estabilidade financeira e terem uma visão crítica sobre serviços públicos, não se engajam com o aplicativo, diferenciando-se de outros perfis por sua experiência profissional e desconfiança|
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -171,5 +171,6 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 ## Histórico de Versão
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :----: | :--: | :--------: | :----------: | :-----: |
-| 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
 
