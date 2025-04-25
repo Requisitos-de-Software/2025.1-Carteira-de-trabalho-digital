@@ -21,6 +21,9 @@ nav:
     - Ata 2: atas/reuniao2.md
     - Ata 3: atas/reuniao3.md
     - Ata 4: atas/reuniao4.md
+  - Elicitação:
+    - Introdução: elicitacao/index.md
+    - Introspecção: elicitacao/introspecção.md
   - Apresentações:
     - Apresentação I: apresentacoes/apresentacao1.md
   - Inspeções:
