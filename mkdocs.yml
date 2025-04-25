@@ -23,6 +23,7 @@ nav:
     - Apresentação I: apresentacoes/apresentacao1.md
   - Inspeções:
     - Inspeção I: inspecoes/inspecao1.md
+  - Elicitação: elicitacao/index.md
    
 theme:
   logo: assets/logo-ctd.png
