@@ -8,20 +8,21 @@ Para desenvolver um software que realmente atenda às expectativas dos usuários
 ### Introspecção
 A introspecção é uma abordagem utilizada na elicitação de requisitos que busca definir características essenciais de um sistema a partir de uma reflexão aprofundada sobre seu uso ideal. Por meio desse processo, o responsável pela análise imagina cenários hipotéticos nos quais determinadas tarefas seriam executadas, identificando assim os elementos indispensáveis para o funcionamento do software. No entanto, essa técnica apresenta desafios, pois a perspectiva dos especialistas pode não corresponder totalmente às necessidades e experiências dos usuários reais, especialmente no contexto do design de interfaces e da adoção de novas tecnologias.
 
-### Entrevista
-A entrevista é uma técnica que tem como objetivo questionar as partes interessadas(stackholders) sobre o sistema que eles utilizam, se houver, e sobre o sistema que será desenvolvido. As entrevistas podem ser de duas formas: Formais e Informais, onde a primeira consiste em entrevistas fechadas com um conjunto predefinido de perguntas, a outra é uma entrevista aberta em que não existe agenda predefinida, a compreenssão das necessidades do sistema vem através de questionamentos feitos aos stackholders, questionamentos vindos conforme a demanda da conversa.
+### Brainstorm
+Essa atividade de brainstorming funciona para qualquer produto ou serviço, e resulta numa lista priorizada de necessidades e desejos dos usuários. Em geral, essa técnica é utilizada para levantar requisitos e aprender sobre novas características que os usuários apreciariam em um produto. Uma sessão de brainstorming pode ser conduzida em aproximadamente uma hora, e leva menos tempo ainda para analisar os dados de uma sessão, o que torna essa técnica leve em termos de recursos, mas poderosa em termos de resultados.
 
 
 ## Técnicas Selecionadas
 
 - Introspecção: Como dito anteriormente, uma técnica muito útil. Ela foi escolhida por se tratar de uma técnica adequada para definir requisitos de sistemas ao permitir que o analista imagine cenários hipotéticos e identifique os elementos essenciais para a execução de determinadas tarefas. No entanto, apesar de sua utilidade, a introspecção apresenta desafios significativos quando realizada por especialistas que não possuem experiência direta com o público-alvo do sistema.
 
-- Entrevista: Mencianado acima, a entrevista é uma maneira muito eficaz de elicitação. Foi selecionada por duas caractrísticas importantes, as partes interessadas não têm ideias preconcebidas sobre os requisitos, levantando questões que os acostumados a desenvolver não veriam e por estimular o entrevistado a participar de discussões com uma questão-trampolim, uma proposta de requisitos ou trabalhando em conjunto em um protótipo do sistema.
+- Brainstorm: Este métedo de elcitação foi escolhido pois promove a participação ativa dos usuários e demais envolvidos, sendo fundamental para identificar necessidades, expectativas e desejos que nem sempre são captados por métodos mais estruturados. A técnica também contribui para o alinhamento das visões entre os participantes, fortalecendo o entendimento compartilhado e a colaboração ao longo do projeto.
 
 ## Referências
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23 abr. 2025.
-> SOMMERVILLE, Ian. Engenharia de software. 9. ed. Tradução de Kleber Oliveira; Igor Ramos. São Paulo: Pearson, 2011. p. 72, item 4.5.2. Acesso em: 24 abr. 2025
+> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)
+Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
 
 ## Histórico de Versões
 
