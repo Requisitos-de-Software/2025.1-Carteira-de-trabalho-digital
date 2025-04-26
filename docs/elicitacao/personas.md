@@ -2,17 +2,17 @@
 
 ## Introdução
 
-Este documento visa documentar a criação das **Personas** para o aplicativo do **Cadastro Único**, como parte do processo de elicitação de requisitos.
+Este documento visa documentar a criação das **Personas** para o aplicativo do **Cadastro Único**, como parte do processo de elicitação de requisitos. 
 
 ## Metodologia
 
-A criação dessa documentação foi elaborada a partir da coleta de dados por meio de pesquisas e na análise das respostas obtidas de um [questionário](), o qual forneceu as informações necessárias para a construção das personas, representando os diferentes perfis de público do aplicativo.
+A criação dessa documentação foi elaborada a partir da coleta de dados por meio de pesquisas e na análise das respostas obtidas de um [questionário](https://docs.google.com/forms/d/e/1FAIpQLSdX2uNcXNodWUuP24ow4c56kTKP4RlIA3T2zIg9st0wQ9CVkA/viewform?usp=sharing), o qual forneceu as informações necessárias para a construção das personas, representando os diferentes perfis de público do aplicativo.
 
 As imagens utilizadas no decorrer do documento foram geradas utilizando o site [This Person Does Not Exist](https://this-person-does-not-exist.com/pt), que cria imagens realistas com inteligência artificial, tornando as representações mais concretas e facilitando o entendimento. Além disso, o [ChatGPT](https://chatgpt.com) foi utilizado com o intuito de gerar os nomes das personas.
 
 ## O que são Personas?
 
-As personas são representações **fictícias**, detalhadas e baseadas em **dados reais**, que sintetizam o comportamento, os objetivos e os desafios típicos de quem interage com o sistema. Elas ajudam a entender melhor as necessidades do público e orientar decisões de desenvolvimento.
+As personas são representações **fictícias**, detalhadas e baseadas em **dados reais**, que sintetizam o comportamento, os objetivos e os desafios típicos de quem interage com o sistema. Elas ajudam a entender melhor as necessidades do público e orientar decisões de desenvolvimento. Personas seguem a filosofia de design de usuários específicos para focos específicos e funcionalidades específicas em detrimento de funcionalidades abrangentes e ajudam a buscar requisitos focais que realmente atendem às necessidades dos usuários (COOPER et. al. 2007). 
 
 ## Categorias de Personas
 
@@ -162,8 +162,6 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 
 > COOPER, Alan; REIMANN, Robert; CRONIN, David. About Face: The Essentials of Interaction Design. 3. ed. Indianapolis: Wiley, 2007.
 
-## Bibliografia
-
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
 
 > CARDEN, Frances. Personas: learn how to discover your audience, understand them, and pivot to address their needs. Digital.gov, s.d. Disponível em: [https://digital.gov/2023/05/19/personas-learn-how-to-discover-your-audience-understand-them-and-pivot-to-address-their-needs](https://digital.gov/2023/05/19/personas-learn-how-to-discover-your-audience-understand-them-and-pivot-to-address-their-needs). Acesso em: 25 abr. 2025.
@@ -173,4 +171,5 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 | :----: | :--: | :--------: | :----------: | :-----: |
 | 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.2   | 26/04/2025 | Formatação, links       | [Ryan Salles](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
 
