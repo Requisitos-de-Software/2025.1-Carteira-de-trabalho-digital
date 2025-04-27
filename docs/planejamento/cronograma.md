@@ -48,7 +48,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 | Entrevista para elicitação                    | Início: 22/04 Fim: 24/04    | Amanda, Gabriel, Julia     | Início: 24/04 Fim: 25/04   | João Vítor       |
 | Análise das técnicas de priorização           | Início: 21/04 Fim: 23/04    | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan                     | Início: 23/04 Fim: 24/04   | João Pedro       |
 | Definição de técnicas de priorização          | Início: 23/04 Fim: 24/04    | João Vítor, João Igor      | Início: 24/04 Fim: 25/04   | João Pedro       |
-| Observação para elicitação                    | Início: 24/04 Fim: 25/04    | Ryan, João Igor            | Início: 25/04 Fim: 26/04   | Julia            |
+| Questionário para elicitação                    | Início: 24/04 Fim: 25/04    | Ryan, João Igor            | Início: 25/04 Fim: 26/04   | Julia            |
 | Priorização dos requisitos levantados         | Início: 24/04 Fim: 26/04    | Amanda, João Pedro, Gabriel | Início: 26/04 Fim: 27/04   | Ryan             |
 | Atas                                          | Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | Julia            |
 | Gravações                                     | Início: 16/04 Fim: 28/04    | Ryan                       | Início: 27/04 Fim: 28/04   | João Igor        |
@@ -149,3 +149,4 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |  1.3   | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Augusto](https://github.com/RA-Salles) |
 |  2.0   | 18/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
 |  2.1   | 18/04/2025 | Correção de tabela e área de referências | [João Pedro](https://github.com/johnaopedro) | [Ryan](https://github.com/RA-Salles)|
+| 2.2 | 27/04/2025 | Correção da atividade da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
