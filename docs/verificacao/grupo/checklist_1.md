@@ -24,17 +24,17 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 | ID | Item | Referência |
 |:--:|:-----------------------------:|:--------------------------:|
-| 1 | Página com integrantes (foto e nome, sem matrícula) | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 2 | Cronograma detalhado com atividades estabelecidas, prazos e revisão dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 3 | Cronograma inclui datas de gravação das apresentações | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 4 | Cronograma prevê correções pós-feedback dos monitores/professor | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 5 | Motivação e critérios para a escolha do aplicativo bem definidos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 6 | Elaboração do Heatmap | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 7 | Descrição da metodologia utilizada | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 8 | Termo de uso ou autorização para utilizar o aplicativo na disciplina | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 9 | Ferramentas utilizadas estão listadas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 10 | GitPages oferece opção de contraste de cores | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 11 | GitPages organizado de fácil uso | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P01 | Página com integrantes (foto e nome, sem matrícula) | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P02 | Cronograma detalhado com atividades estabelecidas, prazos e revisão dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P03 | Cronograma inclui datas de gravação das apresentações | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P04 | Cronograma prevê correções pós-feedback dos monitores/professor | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P05 | Motivação e critérios para a escolha do aplicativo bem definidos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P06 | Elaboração do Heatmap | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P07 | Descrição da metodologia utilizada | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P08 | Termo de uso ou autorização para utilizar o aplicativo na disciplina | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P09 | Ferramentas utilizadas estão listadas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P10 | GitPages oferece opção de contraste de cores | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| P11 | GitPages organizado de fácil uso | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz</p>
 
@@ -47,15 +47,15 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 | ID | Item | Referência |
 |:--:|:------------------------------:|:--------------------------:|
-| 1 | Padronização do Histórico de Versão | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 2 | Autor e revisor para cada artefato | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 3 | Referências e/ou bibliografia em todos os artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 4 | Legenda e fonte em todas as imagens e tabelas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 5 | Introdução do texto dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 6 | Cronograma executado além do inicialmente planejado | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| 7 | Atas das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 8 | Gravação das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 9 | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS1 | Padronização do Histórico de Versão | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS2 | Autor e revisor para cada artefato | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS3 | Referências e/ou bibliografia em todos os artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS4 | Legenda e fonte em todas as imagens e tabelas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS5 | Introdução do texto dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS6 | Cronograma executado além do inicialmente planejado | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| DS7 | Atas das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS8 | Gravação das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS9 | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
@@ -67,12 +67,12 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 | ID | Item | Referência |
 |:--:|:-----------------------------:|:--------------------------:|
-| 1 | Todos os membros realizaram ao menos um Rich Picture | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| 2 | Os 5 componentes do Rich Picture estão presentes nos artefatos de pré-rastreabilidade | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
-| 3 | Rich Pictures possuem legenda | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
-| 4 | Uso de palavras-chave nos Rich Pictures | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 2. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
-| 5 | Símbolos adequados para representar conceitos do Rich Picture | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
-| 6 | Rich Pictures possuem atores bem definidos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+| RP01 | Todos os membros realizaram ao menos um Rich Picture | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| RP02 | Os 5 componentes do Rich Picture estão presentes nos artefatos de pré-rastreabilidade | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+| RP03 | Rich Pictures possuem legenda | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+| RP04 | Uso de palavras-chave nos Rich Pictures | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 2. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+| RP05 | Símbolos adequados para representar conceitos do Rich Picture | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+| RP06 | Rich Pictures possuem atores bem definidos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
 
@@ -94,4 +94,5 @@ O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano 
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 17/04/2025 | Criação do Documento |[Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 2.0 | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.1 | 28/04/2025 | Alterando ID's | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 
