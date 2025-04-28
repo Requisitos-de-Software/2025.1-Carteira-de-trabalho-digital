@@ -24,7 +24,7 @@ As personas foram divididas em três categorias para refletir a diversidade de p
 
 ## Elenco
 
-As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo as categorias definidas anteriormente.
+As Tabelas de 1 a 5 apresentam as personas criadas para o aplicativo, seguindo as categorias definidas anteriormente.
 
 <p align="center"><strong>Tabela 1:</strong> Persona Primária 1</p>
 
@@ -110,33 +110,12 @@ As Tabelas de 1 a 6 apresentam as personas criadas para o aplicativo, seguindo a
 
 ---
 
-<p align="center"><strong>Tabela 5:</strong> Antipersona 1</p>
+<p align="center"><strong>Tabela 5:</strong> Antipersona</p>
 
-|**Antipersona 1**|**Fernanda Martins**|
-|:--:|:--:|
-|**Foto**:|<p><strong>Figura 1:</strong> Foto de Fernanda Martins</p>![Antipersona Fernanda Martins](../assets/antipersona-1.jpg)<p><strong>Autor:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|22 anos|
-|**Ocupação**:|Analista de TI|
-|**Localização**:|Lago Norte - DF|
-|**Escolaridade**:|Ensino Superior completo em Tecnologia da Informação|
-|**Tecnologia**:|Smartphone moderno, laptop de última geração, acesso rápido à internet|
-|**Habilidades Digitais**:|Alta alfabetização digital, especialista em TI, com habilidades avançadas em tecnologia e sistemas complexos|
-|**Expectativas**:|Nenhuma, já que não utiliza o aplicativo, apenas tem curiosidade|
-|**Frustrações**:|Acha básico demais e  não se aplica às suas necessidades, tornando a experiência desinteressante|
-|**Cenário de Uso**:|Baixa por curiosidade, mas perde o interesse rapidamente|
-|**Descrição**:|Fernanda é uma analista de TI que não depende de benefícios sociais e vê o app como irrelevante para suas necessidades|
-|**Justificativa**:|Esta antipersona reflete indivíduos que não fazem parte do público-alvo do aplicativo, pois não dependem de serviços sociais e possuem expectativas diferentes sobre o uso de tecnologias públicas|
-
-<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
-
----
-
-<p align="center"><strong>Tabela 6:</strong> Antipersona 2</p>
-
-|**Antipersona 2**|**Alan Souza Lima**|
+|**Antipersona**|**Alan Souza**|
 |:--:|:--:|
 |**Foto**:|<p><strong>Figura 1:</strong> Foto de Alan Souza Lima</p>![Antipersona Alan Souza](../assets/antipersona-2.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
-|**Idade**:|31 anos|
+|**Idade**:|30 anos|
 |**Ocupação**:|Analista júnior em uma consultoria econômica|
 |**Localização**:|Asa Sul - DF|
 |**Escolaridade**:|Ensino Superior Completo em Economia|
@@ -160,7 +139,11 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 
 > This Person Doesn't Exist. Disponível em: [https://this-person-does-not-exist.com/](https://this-person-does-not-exist.com/pt). Acesso em: 25 de abr. de 2025.
 
+> CHATGPT. Assistente virtual baseado em inteligência artificial. Disponível em: [https://chat.openai.com/](https://chat.openai.com/). Acesso em: 25 abr. 2025. 
+
 > COOPER, Alan; REIMANN, Robert; CRONIN, David. About Face: The Essentials of Interaction Design. 3. ed. Indianapolis: Wiley, 2007.
+
+## Bibliografia
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
 
@@ -172,4 +155,5 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 | 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.2   | 26/04/2025 | Formatação, links       | [Ryan Salles](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.3   | 28/04/2025 | Unificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
 
