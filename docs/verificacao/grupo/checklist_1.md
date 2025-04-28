@@ -47,15 +47,15 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 | ID | Item | Referência |
 |:--:|:------------------------------:|:--------------------------:|
-| DS1 | Padronização do Histórico de Versão | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS2 | Autor e revisor para cada artefato | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS3 | Referências e/ou bibliografia em todos os artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS4 | Legenda e fonte em todas as imagens e tabelas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS5 | Introdução do texto dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS6 | Cronograma executado além do inicialmente planejado | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
-| DS7 | Atas das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS8 | Gravação das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
-| DS9 | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS01 | Padronização do Histórico de Versão | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS02 | Autor e revisor para cada artefato | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS03 | Referências e/ou bibliografia em todos os artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS04 | Legenda e fonte em todas as imagens e tabelas | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS05 | Introdução do texto dos artefatos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS06 | Cronograma executado além do inicialmente planejado | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+| DS07 | Atas das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS08 | Gravação das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
+| DS09 | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
