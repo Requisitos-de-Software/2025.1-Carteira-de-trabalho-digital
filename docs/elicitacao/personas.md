@@ -116,15 +116,15 @@ As Tabelas de 1 a 5 apresentam as personas criadas para o aplicativo, seguindo a
 |:--:|:--:|
 |**Foto**:|<p><strong>Figura 1:</strong> Foto de Alan Souza Lima</p>![Antipersona Alan Souza](../assets/antipersona-2.jpg)<p><strong>Autora:</strong> Amanda Cruz, 2025</p>|
 |**Idade**:|30 anos|
-|**Ocupação**:|Analista júnior em uma consultoria econômica|
+|**Ocupação**:|Desenvolvedor Back-end Pleno|
 |**Localização**:|Asa Sul - DF|
-|**Escolaridade**:|Ensino Superior Completo em Economia|
-|**Tecnologia**:|Smartphone moderno, laptop profissional, acesso à internet de alta velocidade|
-|**Habilidades Digitais**:|Avançadas, usa ferramentas e plataformas digitais no trabalho|
-|**Expectativas**:|Nenhuma, não vê utilidade no aplicativo|
-|**Frustrações**:|Tem uma visão crítica sobre aplicativos governamentais, considerando-os ineficientes e mal projetados. Não vê funcionalidades relevantes para sua rotina profissional ou pessoal|
-|**Cenário de Uso**:|Alan nunca utilizaria o aplicativo, pois não depende de benefícios sociais. Se ouvisse falar, provavelmente questionaria sua eficácia com base em experiências negativas com outros serviços públicos digitais, como lentidão ou interfaces desatualizadas.|
-|**Descrição**:|Alan é um jovem profissional que trabalha em uma consultoria e não tem interesse no Cadastro Único, pois sua realidade socioeconômica o coloca fora do público-alvo|
+|**Escolaridade**:|Ensino Superior Completo em Engenharia de Software|
+|**Tecnologia**:|Smartphone e laptop modernos, acesso rápido à internet|
+|**Habilidades Digitais**:|Avançadas, com habilidades avançadas em tecnologia e sistemas complexos|
+|**Expectativas**:|Nenhuma, já que não utiliza o aplicativo|
+|**Frustrações**:|Tem uma visão ruim sobre aplicativos governamentais, considerando-os ineficientes e mal projetados. Não vê funcionalidades relevantes para sua rotina|
+|**Cenário de Uso**:|Alan nunca utilizaria o aplicativo. Acha básico demais e não se aplica às suas necessidades, tornando a experiência desinteressante|
+|**Descrição**:|Alan é um jovem profissional que trabalha em uma empresa de TI e não tem interesse no Cadastro Único, pois sua realidade socioeconômica o coloca fora do público-alvo, além das experiências passadas com serviços públicos que reforçam a visão negativa sobre eles|
 |**Justificativa**:|Esta antipersona representa profissionais que, por estarem inseridos em contextos de maior estabilidade financeira e terem uma visão crítica sobre serviços públicos, não se engajam com o aplicativo, diferenciando-se de outros perfis por sua experiência profissional e desconfiança|
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
@@ -155,5 +155,5 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 | 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.2   | 26/04/2025 | Formatação, links       | [Ryan Salles](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
-| 1.3   | 28/04/2025 | Unificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.3   | 28/04/2025 | Unificando e modificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 
