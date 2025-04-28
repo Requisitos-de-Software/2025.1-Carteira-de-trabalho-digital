@@ -155,5 +155,5 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 | 1.0    | 25/04/2025 | Criação do documento | [Amanda Cruz](https://github.com/mandicrz), [João Vitor](https://github.com/jvopBR) |  [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.2   | 26/04/2025 | Formatação, links       | [Ryan Salles](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
-| 1.3   | 28/04/2025 | Unificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.3   | 28/04/2025 | Unificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 
