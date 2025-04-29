@@ -82,3 +82,12 @@ No contexto do app **Cadastro Único**, o método pode ser aplicado para organiz
 | RNF09  | Operação funcional em redes de baixa velocidade (modo offline). | Prioridade Média    |
 | RNF10  | Atualizações automáticas sem necessidade de reinstalação manual. | Baixa Prioridade    |
 
+## Referências
+
+> Three level scale: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320. ISBN 0735679665.
+
+## Histórico de Versões
+
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
+| 1.0    | 28/04/2025 | Criação da página da tecnica Three Level Scale| [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles) |
