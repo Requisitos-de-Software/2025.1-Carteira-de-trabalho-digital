@@ -28,6 +28,25 @@
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
+## Entrega 2 - Elicitação de requisitos
+
+<center>Tabela 2: Cronograma das atividades da entrega 2</center>
+
+| Atividade | Período de desenvolvimento | Responsável(is) | Revisão | Revisor(es) |
+|:---------:|:--------------------------:|:-----------:|:-------:|:-------:|
+| Realização de entrevistas              | Ínicio: Fim: | 
+| Construção de documentos de entrevistas| Ínicio: Fim: |
+| Questionário                           | Ínicio: Fim: | Júlia | Ínicio: Fim: | Ryan | 
+| Documento do questionário              |
+| Documento de Personas                  | Ínicio: Fim: | Amanda, João | Ínicio: Fim: | Gabriel, Júlia |
+| Documento de Introspecção              | Ínicio: Fim: | João Pedro
+| Documento de Introdução às técnicas    | Ínicio: Fim: | João Pedro, João Igor, Gabriel, Ryan | Ínicio: Fim: | Ryan, Júlia |
+
+<center>
+ Autor(a): <a href="https://github.com/RA-Salles" target = "_blank">Ryan Salles</a></h6>
+</center>
+
+
 ## Referências
    > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 abr. 2025. 
 
@@ -38,4 +57,5 @@
 |  1.0   | 13/04/2025 | Cronograma executado | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.0    | 29/04/2025 | Adição de informações sobre a segunda entrega | [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
 
