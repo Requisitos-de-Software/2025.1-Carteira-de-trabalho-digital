@@ -40,6 +40,6 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 13/04/2025 | Criado arquivo README                       | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz)  |
-| 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [INSERIR REVISOR!](INSERIR_REVISOR!!)       |
+| 1.0 | 13/04/2025 | Criado arquivo README                       | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz)          |
+| 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)         |
+| 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
