@@ -1,6 +1,6 @@
 # Cadastro Único - Grupo 4
 
-<p align="center"><strong>Figura 1:</strong> Brasão da República Federativa do Brasil</p>
+<p align="center"><strong>Figura 1:</strong> Logomarca do Aplicativo Cadastro Único</p>
 
 <div align="center"><img src= "./docs/assets/cadunico.jpg" width="200px;" alt=""/></div>
 
@@ -42,4 +42,4 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 13/04/2025 | Criado arquivo README                       | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz)          |
 | 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)         |
-| 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Merlin](https://github.com/jvopBR)|
