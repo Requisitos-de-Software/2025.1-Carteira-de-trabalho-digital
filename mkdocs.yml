@@ -14,6 +14,16 @@ nav:
   - Pré-rastreabilidade:
     - Aplicativo: pre-rastreabilidade/aplicativo.md
     - Aplicativos Analisados: pre-rastreabilidade/appsAnalisados.md
+  - Verificação:
+    - Grupo:
+      - Entrega 1: verificacao/grupo/checklist_1.md
+    - Grupo+1:
+      - Entrega 1: verificacao/grupo+1/checklist_1.md
+  - Inspeções:
+    - Grupo:
+      - Entrega 1: inspecoes/grupo/inspecao_1.md
+    - Grupo+1:
+      - Entrega 1: inspecoes/grupo+1/inspecao_1.md
   - Atas de Reunião:
     - Ata 1: atas/reuniao1.md
     - Ata 2: atas/reuniao2.md
@@ -24,8 +34,6 @@ nav:
     - Introspecção: elicitacao/introspecção.md
   - Apresentações:
     - Apresentação I: apresentacoes/apresentacao1.md
-  - Inspeções:
-    - Inspeção I: inspecoes/inspecao1.md
    
 theme:
   logo: assets/logo-ctd.png

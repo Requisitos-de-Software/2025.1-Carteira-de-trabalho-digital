@@ -29,13 +29,14 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com a Car
 
 <p align="center"><strong>Figura 1:</strong> Aplicativo Carteira de Trabalho Digital</p>
 
-<center markdown> 
-![Foto do Aplicativo](../assets/app-carteira.png)
-</center>
+ 
+<div align="center">
+  <img src="../../assets/app-carteira.png" alt="App Carteira">
+</div>
 
 <p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&pcampaignid=web_share">play.google.com</a>. Acesso em: 16 abr. 2025</p>
 
-A **Carteira Digital de Trabalho** (Figura 1)tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+A **Carteira Digital de Trabalho** (Figura 1) tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
 
 * Consulta ao histórico de vínculos laborais.
 * Acompanhamento das contribuições para o INSS.
