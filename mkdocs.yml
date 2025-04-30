@@ -16,9 +16,11 @@ nav:
     - Aplicativos Analisados: pre-rastreabilidade/appsAnalisados.md
   - Elicitação:
     - Introdução: elicitacao/index.md
-    - Personas: elicitacao/personas.md
     - Técnicas: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
+      - Personas: elicitacao/tecnicas/personas.md
+      - Questionário: elicitacao/questionario.md
+    
   - Verificação:
     - Grupo:
       - Entrega 1: verificacao/grupo/checklist_1.md
