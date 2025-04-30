@@ -36,7 +36,7 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  P10   |                   GitPages oferece opção de contraste de cores                    | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 |  P11   |                         GitPages organizado de fácil uso                          | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 
-<p align="center"><strong>Autora:</strong> Amanda Cruz</p>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 ### Desenvolvimento do Projeto
 
@@ -54,7 +54,7 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  DS08  |                Gravação das reuniões                 | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 |  DS09  | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
-<p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 ### Conteúdo da Disciplina
 
@@ -68,8 +68,6 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  RP04  |                        Uso de palavras-chave nos Rich Pictures                        | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 2. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
-
-<p align="center"><strong>Autora:</strong> Amanda Cruz Lima</p>
 
 ## Conclusão
 
@@ -90,3 +88,4 @@ O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano 
 |  1.0   | 17/04/2025 |   Criação do Documento   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.0   | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.1   | 28/04/2025 |      Alterando ID's      | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.2  | 28/04/2025  |    Padronizando fontes   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
