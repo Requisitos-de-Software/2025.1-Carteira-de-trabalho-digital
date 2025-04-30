@@ -2,9 +2,9 @@
 
 ## Introdução
 
-Este documento apresenta os Termos de Uso do aplicativo em estudo, detalhando as condições e diretrizes para a utilização da plataforma. As imagens a seguir, retiradas do site do [gov.br](https://cadastro.acesso.gov.br/termo-de-uso), foram utilizadas como base para a análise e elaboração deste conteúdo. 
+Este documento apresenta os Termos de Uso do aplicativo em estudo, detalhando as condições e diretrizes para a utilização da plataforma. As imagens a seguir, retiradas do site do [Cadastro Único](https://cadunico.dataprev.gov.br/#/termo-de-uso), foram utilizadas como base para a análise e elaboração deste conteúdo.
 
-Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma cláusula que proíba ou autorize expressamente o uso da Carteira de Trabalho Digital para finalidades acadêmicas ou educacionais.
+Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma cláusula que proíba ou autorize expressamente o uso do Cadastro Único para finalidades acadêmicas ou educacionais.
 
 ## Imagens do Termo de Uso
 
@@ -40,17 +40,12 @@ Após a análise minuciosa dos termos de uso, verificou-se que não há nenhuma 
 
 ![Termo de Uso - Página 16](../assets/termos_de_uso/16.png)
 
-![Termo de Uso - Página 17](../assets/termos_de_uso/17.png)
-
-![Termo de Uso - Página 18](../assets/termos_de_uso/18.png)
-
-![Termo de Uso - Página 19](../assets/termos_de_uso/19.png)
-
 ## Referências
-> BRASIL. Ministério da Economia. Termo de Uso. Disponível em: <https://cadastro.acesso.gov.br/termo-de-uso>. Acesso em: 12 abr. 2025.
+> BRASIL. Ministério da Cidadania. Termo de uso – Cadastro Único. Disponível em: https://cadunico.dataprev.gov.br/#/termo-de-uso. Acesso em: 29 abr. 2025.
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :-----:| :--: | :-------: | :---: | :----:  |
 | 1.0    | 08/04/2025 | Criação da página de termos de uso | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.1    | 29/04/2025 | Atualização das referências e termos de uso para se adequar ao novo aplicativo | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
