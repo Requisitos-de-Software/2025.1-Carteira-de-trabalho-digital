@@ -2,7 +2,7 @@
 
 ## Introdução 
 
-Este documento apresenta uma lista de verificação do **Grupo 5** referente a **Etapa 1** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
+Este documento apresenta uma lista de verificação do [Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE) referente a **Etapa 1** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
 
 ## Checklist como Método de Verificação
 

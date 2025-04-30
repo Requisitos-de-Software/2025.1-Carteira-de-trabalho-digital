@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista de Verificação](../../verificacao/grupo/checklist_1.md) do nosso grupo referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
+Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista de Verificação](../../verificacao/grupo/checklist_1.md) do **nosso grupo** referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
@@ -95,6 +95,10 @@ Ao revisarem um artefato, seria interessante conferir se atende aos itens de Des
 ## Conclusão
 
 A inspeção evidenciou que a maior parte dos itens avaliados encontra-se conforme os critérios estabelecidos pela disciplina, demonstrando bom alinhamento do grupo com as exigências da Entrega 1.
+
+## Referências
+
+> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/grupo/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Único>. Acesso em: 30 abr. 2025. 
 
 ## Histórico de versão
 
