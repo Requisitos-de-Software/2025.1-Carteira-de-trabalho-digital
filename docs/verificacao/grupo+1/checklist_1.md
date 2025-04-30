@@ -6,7 +6,7 @@ Este documento apresenta uma lista de verificação do **Grupo 5** referente a *
 
 ## Checklist como Método de Verificação
 
-O checklist, que significa Lista de Verificação, é uma técnica importante durante a revisão das etapas do projeto, ajudando a garantir que cada parte esteja em conformidade com os requisitos estabelecidos. Para validar a eficácia e a completude do checklist, utilizaremos a técnica de [inspeção](../../inspecoes/grupo+1/inspecao1.md), que consiste em uma revisão sistemática para verificar a clareza do grupo avaliado, relevância e aplicabilidade de cada item listado. Seu principal objetivo é:
+O checklist, que significa Lista de Verificação, é uma técnica importante durante a revisão das etapas do projeto, ajudando a garantir que cada parte esteja em conformidade com os requisitos estabelecidos. Para validar a eficácia e a completude do checklist, utilizaremos a técnica de [inspeção](../../inspecoes/grupo+1/inspecao_1.md), que consiste em uma revisão sistemática para verificar a clareza do grupo avaliado, relevância e aplicabilidade de cada item listado. Seu principal objetivo é:
 
 * Identificar possíveis erros em qualquer parte do projeto.
 * Verificar se o projeto atende aos requisitos especificados.
@@ -22,6 +22,8 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 
 <p align="center"><strong>Tabela 1:</strong> Checklist de Planejamento</p>
 
+<center>
+
 | ID | Item | Referência |
 |:--:|:-----------------------------:|:--------------------------:|
 | 1 | Página com integrantes (foto e nome, sem matrícula) | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
@@ -36,14 +38,15 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 | 10 | GitPages oferece opção de contraste de cores | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 | 11 | GitPages organizado de fácil uso | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 
+</center>
+
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
-
-
 
 ### Desenvolvimento do Projeto
 
 <p align="center"><strong>Tabela 2:</strong> Checklist de Desenvolvimento</p>
 
+<center>
 
 | ID | Item | Referência |
 |:--:|:------------------------------:|:--------------------------:|
@@ -57,6 +60,8 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 | 8 | Gravação das reuniões | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 | 9 | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
+</center>
+
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -64,6 +69,8 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 ### Conteúdo da Disciplina
 
 <p align="center"><strong>Tabela 3:</strong> Checklist de Conteúdo da Disciplina</p>
+
+<center>
 
 | ID | Item | Referência |
 |:--:|:-----------------------------:|:--------------------------:|
@@ -73,6 +80,8 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 | 4 | Uso de palavras-chave nos Rich Pictures | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 2. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 | 5 | Símbolos adequados para representar conceitos do Rich Picture | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 | 6 | Rich Pictures possuem atores bem definidos | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+
+</center>
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -94,4 +103,4 @@ O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano 
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 17/04/2025 | Criação do Documento |[Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 2.0 | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-| 2.1 | 30/04/2025  |    Padronizando fontes   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.1 | 30/04/2025 |    Padronizando fontes   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |

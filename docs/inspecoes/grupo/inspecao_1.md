@@ -1,19 +1,18 @@
-# Inspeção - Checklist 1
+# Inspeção - Lista de Verificação 1
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista de Verificação](../../verificacao/grupo/) do nosso grupo referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
+Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista de Verificação](../../verificacao/grupo/checklist_1.md) do nosso grupo referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
-A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revisão detalhada do documento de checklist. Cada artefato foi analisado um por um pelo inspetor(a) [Amanda Cruz](https://github.com/mandicrz) e revisado por [Adicionar aqui](), buscando identificar:
+A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revisão detalhada do documento de checklist. Cada artefato foi analisado um por um pelo(a) inspetor(a) [Amanda Cruz](https://github.com/mandicrz) e revisado por [Adicionar aqui](), buscando identificar:
 
 - Itens faltando ou inconscistências;
 - Clareza e precisão das descrições;
 - Conformidade com o Plano de Ensino e diretrizes do professor.
 
-Durante a análise, as reespostas serão preenchidas de acordo com a conformidade (Conforme, Não Conforme ou Incompleto) dos itens.
-Logo após a análise, serão feitas observações a respeito dos ID's relacionados que não estão de acordo (não conformes) ou que podem ser melhorados (incompletos).
+Durante a análise, as respostas serão preenchidas de acordo com a conformidade (Conforme, Não Conforme ou Incompleto) dos itens. Logo após, serão feitas observações a respeito dos ID's relacionados que não estão de acordo (não conformes) ou que podem ser melhorados (incompletos).
 
 ## Inspeção dos Itens
 
@@ -22,6 +21,8 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 ### Planejamento
 
 <p align="center"><strong>Tabela 1:</strong> Inspeção dos Itens de Planejamento</p>
+
+<center>
 
 | **ID** |                                     **Item**                                      | **Resposta** |
 | :----: | :-------------------------------------------------------------------------------: | :----------: |
@@ -37,6 +38,8 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  P10   |                   GitPages oferece opção de contraste de cores                    |   Conforme   |
 |  P11   |                         GitPages organizado de fácil uso                          |   Conforme   |
 
+</center>
+
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 #### Observações
@@ -46,6 +49,8 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 ### Desenvolvimento do Projeto
 
 <p align="center"><strong>Tabela 2:</strong> Inspeção dos Itens de Desenvolvimento</p>
+
+<center>
 
 | **ID** |                       **Item**                       | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
@@ -59,12 +64,16 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  DS08  |                Gravação das reuniões                 |   Conforme   |
 |  DS09  | Upload de apresentação no YouTube como não "listado" |   Conforme   |
 
+</center>
+
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 
 ### Conteúdo da Disciplina
 
 <p align="center"><strong>Tabela 3:</strong> Inspeção do RichPicture</p>
+
+<center>
 
 | **ID** |                                       **Item**                                        | **Resposta** |
 | :----: | :-----------------------------------------------------------------------------------: | :----------: |
@@ -74,6 +83,8 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  RP04  |                        Uso de palavras-chave nos Rich Pictures                        |   Conforme   |
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             |   Conforme   |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       |   Conforme   |
+
+</center>
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -90,4 +101,4 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 | Versão |    Data    |      Descrição       |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 25/04/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.1   | 30/04/2025 | Elaboração da inspeção | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.1   | 30/04/2025 | Elaboração da Inspeção | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
