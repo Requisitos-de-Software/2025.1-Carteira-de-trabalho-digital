@@ -98,7 +98,7 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 
 ## Referências
 
-> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/grupo/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Único>. Acesso em: 30 abr. 2025. 
+> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/grupo/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
 
 ## Histórico de versão
 

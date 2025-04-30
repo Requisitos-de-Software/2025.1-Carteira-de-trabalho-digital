@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada pelo [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Único) sobre a [Lista de Verificação](../../verificacao/grupo+1/checklist_1.md) referente ao [Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE), cujo foco de trabalho está o aplicativo do IBGE, para a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
+Este documento apresenta o resultado da **inspeção** realizada pelo [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) sobre a [Lista de Verificação](../../verificacao/grupo+1/checklist_1.md) referente ao [Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE), cujo foco de trabalho está o aplicativo do IBGE, para a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
@@ -129,7 +129,7 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 
 ## Referências
 
-> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/grupo+1/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Único>. Acesso em: 30 abr. 2025. 
+> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação do Grupo + 1 - Entrega 1](../../verificacao/grupo+1/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
 
 ## Histórico de versão
 
