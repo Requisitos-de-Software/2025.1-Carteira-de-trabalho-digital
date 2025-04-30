@@ -1,4 +1,4 @@
-# Lista de Verificação - Entrega 1
+# Lista de Verificação do Grupo + 1 - Entrega 1
 
 ## Introdução 
 

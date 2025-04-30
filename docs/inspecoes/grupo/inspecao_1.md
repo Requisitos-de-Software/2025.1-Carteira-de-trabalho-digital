@@ -12,7 +12,7 @@ A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revi
 - Clareza e precisão das descrições;
 - Conformidade com o Plano de Ensino e diretrizes do professor.
 
-Durante a análise, as respostas serão preenchidas de acordo com a conformidade (Conforme, Não Conforme ou Incompleto) dos itens. Logo após, serão feitas observações a respeito dos ID's relacionados que não estão de acordo (não conformes) ou que podem ser melhorados (incompletos).
+Durante a análise, as respostas serão preenchidas de acordo com a conformidade (Conforme, Não Conforme ou Incompleto) dos itens. Logo após, serão feitas observações a respeito dos ID's relacionados que não estão de acordo (não conformes), que podem ser melhorados (incompletos) e que forem relevantes.
 
 ## Inspeção dos Itens
 
