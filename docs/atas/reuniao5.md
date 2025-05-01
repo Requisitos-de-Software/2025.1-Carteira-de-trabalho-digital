@@ -1,7 +1,13 @@
 # ATA - Reunião n5 - 25/04/2025
 
 ## Participantes
-- 
+- Amanda
+- Gabriel
+- João Igor
+- João Pedro
+- João Vitor
+- Júlia
+- Ryan
 
 ## Início e término
 - INÍCIO : 21:20
@@ -30,10 +36,11 @@
 
 Reunião realizada no **Microft Teams.**
 
-<iframe width="560" height="315" src="MUDAR PARA LINK DE COMPARTILHAMENTO DO VÍDEO USANDO TIPO EMBED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/icUDdX4R6Ms?si=lHPfCC1cdHmqzeFW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versão
 
 | Versão |    Data    |    Descrição da Alteração   |         Autor         |       Revisor     |
 | :----: | :--------: | :-------------------------: | :-------------------: | :---------------: |
-|  1.0   | 12/04/2025 | Criação da ata, inserção de informações base  | [Ryan Salles](https://github.com/RA-Salles)   | [A DEFINIR](A DEFINIR)   |
+|  1.0   | 12/04/2025 | Criação da ata, inserção de informações base  | [Ryan Salles](https://github.com/RA-Salles)   | [Julia Gabriela](https://github.com/JuliaGabP) |
+)   |
