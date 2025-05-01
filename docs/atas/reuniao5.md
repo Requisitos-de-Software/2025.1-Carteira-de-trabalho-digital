@@ -43,4 +43,3 @@ Reunião realizada no **Microft Teams.**
 | Versão |    Data    |    Descrição da Alteração   |         Autor         |       Revisor     |
 | :----: | :--------: | :-------------------------: | :-------------------: | :---------------: |
 |  1.0   | 12/04/2025 | Criação da ata, inserção de informações base  | [Ryan Salles](https://github.com/RA-Salles)   | [Julia Gabriela](https://github.com/JuliaGabP) |
-)   |
