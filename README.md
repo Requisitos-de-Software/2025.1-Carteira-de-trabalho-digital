@@ -7,8 +7,6 @@
 <p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/paginas/app-cadunico">gov.br</a>. Acesso em: 13 abr. 2025</p>
 
 
-<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="hhttps://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 30 abr. 2025</p>
-
 ## Sobre o Projeto:
 
 Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Cadastro Único**](https://www.gov.br/mds/pt-br/cadunico/app-cadunico). Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
