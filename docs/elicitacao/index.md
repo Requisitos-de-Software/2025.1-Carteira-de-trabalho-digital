@@ -5,6 +5,10 @@ Para desenvolver um software que realmente atenda às expectativas dos usuários
 
 ## Descrição de técnicas
 
+### Análise de Documentação
+A análise de documentação é uma técnica de elicitação baseada em documentos que busca reduzir o retrabalho para manutenção e evolução de um software ao utilizar os artefatos já elaborados pelo processo de desenvolvimento, incluindo, mas não limitado a, requisitos já elicitados, priorizados e especificados, modelos e executáveis, sejam eles protótipos ou versões finalizadas. Cabe à equipe decidir quais artefatos devem ser analisados para elicitar requisitos. Essa técnica pode ser utilizada por si só ou de forma a suportar e preparar o caminho para demais técnicas de elicitação, como a introspecção.
+
+
 ### Introspecção
 A introspecção é uma abordagem utilizada na elicitação de requisitos que busca definir características essenciais de um sistema a partir de uma reflexão aprofundada sobre seu uso ideal. Por meio desse processo, o responsável pela análise imagina cenários hipotéticos nos quais determinadas tarefas seriam executadas, identificando assim os elementos indispensáveis para o funcionamento do software. No entanto, essa técnica apresenta desafios, pois a perspectiva dos especialistas pode não corresponder totalmente às necessidades e experiências dos usuários reais, especialmente no contexto do design de interfaces e da adoção de novas tecnologias.
 
@@ -39,4 +43,5 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da pagina de analise das tecnicas de elicitação e informações sobre a tecnica de introspecção | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.1    | 24/04/2025 | Adição da Técnica de Brainstorm                                         | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
-| 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)
+| 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3 | 30/04/2025 | Adição da técnica análise de documentação        | [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
