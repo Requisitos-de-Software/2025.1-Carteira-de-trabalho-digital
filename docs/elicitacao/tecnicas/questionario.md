@@ -1,0 +1,131 @@
+# Questionário
+## Introdução
+Esse documento tem o propósito de apresentar os resultados do questionário realizado pelo grupo 4 para a matéria de Requisitos de Software lecionada durante o período de 2025.1 pelo docente André Barros de Sales.
+O questionário é uma técnica estruturada usada para coletar informações de um conjunto de stakeholders (usuários, clientes, especialistas, etc.). Ele é composto por uma série de perguntas (fechadas, abertas ou mistas) que podem ser aplicadas presencialmente, por e-mail ou online.  
+O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo.
+Todos os dados coletados forão coletados com o consentimento dos usuários e nenhum dado sensível(tais como nome, cpf, telefones, e-mails) forão coletados. Foram obtidas 40 respostas no total.
+## Gráficos dos resultados
+Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados
+Gráfico sobre o consentimento de compartilhar as respostas a seguir  
+**Gráfico 1: Aprova do termo de consentimento**  
+<img src="../../assets/grafico1.png" alt="Gráfico 1">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o uso do aplicativo a seguir  
+**Gráfico 2: Sobre já ter feito uso do aplicativo**  
+<img src="../../assets/grafico2.png" alt="Gráfico 2">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o gênero dos participantes a seguir  
+**Gráfico 3: Gênero**  
+<img src="../../assets/grafico3.png" alt="Gráfico 3">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a idade dos participantes a seguir  
+**Gráfico 4: Idade**  
+<img src="../../assets/grafico4.png" alt="Gráfico 4">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a escolaridade dos participantes a seguir  
+**Gráfico 5: Escolaridade**  
+<img src="../../assets/grafico5.png" alt="Gráfico 5">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o estado de residência dos participantes a seguir  
+**Gráfico 6: Estado o qual reside**  
+<img src="../../assets/grafico6.png" alt="Gráfico 6">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a quantidade de moradores na residência do participante a seguir  
+**Gráfico 7: Quantidade de moradores em casa**  
+<img src="../../assets/grafico7.png" alt="Gráfico 7">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre  inscrição no Cadastro Único a seguir  
+**Gráfico 8: Inscrição no Cadastro Único**  
+<img src="../../assets/grafico8.png" alt="Gráfico 8">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o uso do CRAS a seguir  
+**Gráfico 9: CRAS**  
+<img src="../../assets/grafico9.png" alt="Gráfico 9">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o emprego do participante a seguir  
+**Gráfico 10: Emprego**  
+<img src="../../assets/grafico10.png" alt="Gráfico 10">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o acesso a smartphone a seguir  
+**Gráfico 11: Acesso a smartphone**   
+<img src="../../assets/grafico11.png" alt="Gráfico 11">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a qualidade de conexão a seguir  
+**Gráfico 12: Qualidade de conexão**  
+<img src="../../assets/grafico12.png" alt="Gráfico 12">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre o uso de aplicativos por parte do participante a seguir  
+**Gráfico 13: Uso de aplicativos**  
+<img src="../../assets/grafico13.png" alt="Gráfico 13">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a motivação do uso do app a seguir  
+**Gráfico 14: Motivação do uso**  
+<img src="../../assets/grafico14.png" alt="Gráfico 14">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a realização das necessidades por meio do app a seguir  
+**Gráfico 15: Realização de necessidade**  
+<img src="../../assets/grafico15.png" alt="Gráfico 15">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+Gráfico sobre a necessidade de auxílio a seguir  
+**Gráfico 16: Auxílio para uso do aplicativo**  
+<img src="../../assets/grafico16.png" alt="Gráfico 16">
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+## Referências Bibliográficas
+- SOMMERVILLE, Ian. *Engenharia de Software*. 10. ed. São Paulo: Pearson, 2019.
+- PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 7. ed. Porto Alegre: AMGH, 2016.
+- PAULA FILHO, Wilson de Pádua. *Engenharia de Software: Fundamentos, Métodos e Padrões*. Rio de Janeiro: LTC, 2003.
+
+## Histórico de Versões
+| Versão | Data | Descrição  | Autor        | Revisor |
+| :-----: | :----: | :----------: | :------------: | :--------: |
+| 1.0    | 27/04/2025 | Criação do questionário             | [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.1    | 28/04/2025 | Melhora na organização do documento | [Julia Gabriela](https://github.com/JuliaGabP)       | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.2    | 30/04/2025 | Conserto de imagens quebradas       | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP) |

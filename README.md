@@ -1,16 +1,21 @@
-# Carteira de Trabalho Digital - Grupo 4
+# Cadastro Único - Grupo 4
 
-<p align="center"><strong>Figura 1:</strong> Logo do Aplicatico do Cadastro Único</p>
+<p align="center"><strong>Figura 1:</strong> Logomarca do Aplicativo Cadastro Único</p>
 
-<div align="center"><img src= "assets/logoCadUn.png" width="200px;" alt=""/></div>
+<div align="center"><img src= "./docs/assets/cadunico.jpg" width="200px;" alt=""/></div>
+
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/ctps-digital">gov.br</a>. Acesso em: 13 abr. 2025</p>
+
 
 <p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="hhttps://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 30 abr. 2025</p>
 
 ## Sobre o Projeto:
-Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Cadastro Único**](https://www.gov.br/pt-br/apps/cad), visto na Figura 1. Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
+
+Repositório do Grupo 4 destinado à disciplina de Requisitos de Software da Universidade de Brasília, lecionado pelo professor André Barros, sobre os requisitos do aplicativo [**Cadastro Único**](https://www.gov.br/mds/pt-br/cadunico/app-cadunico). Neste documento estão o armazenamento e a apresentação dos artefatos e processos desenvolvidos na disciplina.
 
 ## Sobre o Aplicativo:
-O aplicativo do Cadastro Único é uma ferramenta que facilita o acompanhamento do recebimento e situação dos benefícios, por meio dele é possível ter acesso a dados pessoais do benefeciário.
+O aplicativo Cadastro Único é uma ferramenta que facilita o cadastro em programas de auxílio social ao registrar e identificar famílias de baixa renda no Brasil. O aplicativo está disponível para sistemas Android e IOS, também podendo ser acessado por meio de um [website](https://cadunico.dataprev.gov.br/#/home).
+
 
 ## Equipe
 A equipe responsável pelo desenvolvimento deste projeto é composta por:
@@ -34,13 +39,17 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 <p align="center"><strong>Autor:</strong>  Gabriel Flores</p>
 
 
-## Referências Bibligráficas
-> - Cadastro Único. Disponível em: <https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal>. Acesso em: 30 abr. 2025.
+
+
+## Referências
+> - Inscrever-se no cadastro único. Disponível em: <https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal>. Acesso em: 25 abr. 2025.
+
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 13/04/2025 | Criado arquivo README | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz) |
-| 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz) | [Ryan](https://github.com/RA-Salles)
-| 1.2    | 30/04/2025 | Atualização do aplicativo                | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho)   |
+| 1.0 | 13/04/2025 | Criado arquivo README                       | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz)          |
+| 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)         |
+| 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Merlin](https://github.com/jvopBR)|
+

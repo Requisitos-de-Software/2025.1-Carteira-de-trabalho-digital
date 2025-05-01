@@ -31,13 +31,17 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com o Cad
 
 <p align="center"><strong>Figura 1:</strong> Aplicativo do Cadastro Único</p>
 
-<center markdown> 
-![Foto do Aplicativo](../assets/app-cad-un.png)
-</center>
+ 
+<div align="center">
+  <img src="../../assets/app-carteira.png" alt="App Carteira">
+</div>
+
 
 <p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico">play.google.com</a>. Acesso em: 30 abr. 2025</p>
 
-O **Cadastro Único** (Figura 1)tem como objetivo facilitar o acesso do cidadão aos principais serviços governamentais par afamílias de baixa renda, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+
+A **Carteira Digital de Trabalho** (Figura 1) tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+
 
 * Consulta aos dados cadastrais da família e de seus membros.
 * Verificação de programas socias vinculados.
