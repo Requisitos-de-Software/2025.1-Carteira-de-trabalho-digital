@@ -2,13 +2,15 @@
 
 ## Introdução
 
-Este documento descreve o processo realizado pela equipe para escolher o aplicativo **Carteira de Trabalho Digital**, ferramenta que facilita o acesso e o gerenciamento das informações trabalhistas, para o desenvolvimento do projeto. A decisão foi baseada em critérios estabelecidos pelo time e pelo professor, levando em conta diversos aspectos que são abordados nesse texto. Além disso, explica as motivações que justificaram a escolha do software, descrevendo as fases metodológicas utilizadas para a seleção do mesmo, tal como discorre sobre o sistema.
+Este documento descreve o processo realizado pela equipe para escolher o aplicativo **Cadastro Único**, ferramenta que facilita o acesso e o gerenciamento das informações trabalhistas, para o desenvolvimento do projeto. A decisão foi baseada em critérios estabelecidos pelo time e pelo professor, levando em conta diversos aspectos que são abordados nesse texto. Além disso, explica as motivações que justificaram a escolha do software, descrevendo as fases metodológicas utilizadas para a seleção do mesmo, tal como discorre sobre o sistema.
 
-## Porque a Carteira Digital de Trabalho? 
+## Porque a Cadastro Único? 
 O processo de escolha foi conduzido em duas etapas:
 
-- Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades. 
-- Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação.
+- Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades; 
+- Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação;
+- Então escolhemos o Aplicativo do **Carteira de Trabalho Digital**, porém tivemos um problema com a disponibilização das informações, pois já se tinha feito um trablho sobre;
+- Por fim, decidimos escolher o Aplicativo do **Cadastro Único**, visto que existia um público-alvo interessante e melhores documentações para se levantar requisitos.
 
 ## Critérios
 * Não ter sido trabalhado na disciplina de Requisitos de Software anteriormente.
@@ -18,56 +20,56 @@ O processo de escolha foi conduzido em duas etapas:
 * Acessibilidade e disponibilidade de informações.
 
 ## Motivações 
-Considerando os critérios definidos, o grupo decidiu seguir o projeto com a Carteira Digital do Trabalho, apoiado pelos seguintes fatores:
+Considerando os critérios definidos, o grupo decidiu seguir o projeto com o Cadastro Único, apoiado pelos seguintes fatores:
 
 * A oportunidade de uma análise mais profunda e uma nova abordagem dentro do contexto da matéria.
 * A facilidade de comunicação com os usuários, o que facilita a coleta de feedback.
 * A diversidade de funcionalidades do aplicativo, que permite um estudo completo, sem ser complexo demais a ponto de exigir muitos requisitos, nem tão simples que limite a análise.
 * A estrutura governamental do software, que oferece canais de contato úteis para validação dos requisitos.
 
-## Carteira de Trabalho Digital
+## Cadastro Único
 
-<p align="center"><strong>Figura 1:</strong> Aplicativo Carteira de Trabalho Digital</p>
+<p align="center"><strong>Figura 1:</strong> Aplicativo do Cadastro Único</p>
 
 <center markdown> 
-![Foto do Aplicativo](../assets/app-carteira.png)
+![Foto do Aplicativo](../assets/app-cad-un.png)
 </center>
 
-<p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&pcampaignid=web_share">play.google.com</a>. Acesso em: 16 abr. 2025</p>
+<p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico">play.google.com</a>. Acesso em: 30 abr. 2025</p>
 
-A **Carteira Digital de Trabalho** (Figura 1)tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+O **Cadastro Único** (Figura 1)tem como objetivo facilitar o acesso do cidadão aos principais serviços governamentais par afamílias de baixa renda, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
 
-* Consulta ao histórico de vínculos laborais.
-* Acompanhamento das contribuições para o INSS.
-* Emissão de certidões e comprovantes de situação de trabalho.
+* Consulta aos dados cadastrais da família e de seus membros.
+* Verificação de programas socias vinculados.
+* Emissão do comprovante de cadastramento no CadÚnico.
 
 Ademais, possibilita a realização de diversas operações, que antes exigiam deslocamento físico, como:
 
-* Acesso à versão digital da carteira de trabalho.
+* Ver o status da situação cadastral.
 * Solicitação de benefícios.
-* Consulta ao saldo e extrato do FGTS.
-* Atualização de dados cadastrais.
+* Indicação da unidade do CRAS mais próxima.
 
-A página do aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.dataprev.carteiradigital&hl=pt_BR) e na [App Store](https://apps.apple.com/br/app/carteira-de-trabalho-digital/id1295257499).
+A página do aplicativo está disponível para download na [Play Store](hhttps://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico) e na [App Store](https://apps.apple.com/us/app/cadastro-%C3%BAnico/id1605659516).
 
 ## Rich Picture do Aplicativo
 O Rich Picture é uma representação visual que ajuda a entender e comunicar um problema ou sistema de forma simples. Ele mapeia partes envolvidas, como pessoas e processos, e também pode ser utilizado para identificar e representar requisitos, destacando funcionalidades, restrições e interações. Com isso, facilita a interpretação e a comunicação, sendo especialmente útil durante o levantamento dos requisitos. Na Figura 1, é possível visualizar a primeira versão da Rich Picture feita para o nosso aplicativo.
 
 <p align="center">
-    <strong>Figura 1:</strong> Carteira de Trabalho Digital, Rich Picture.
+    <strong>Figura 1:</strong> Cadastro Único, Rich Picture.
 </p>
 
-![RichPicture-V1](../assets/richPictures/Amanda.png)
+![RichPicture-V1](../assets/richPictures/JoaoIgor.png)
 
 <p align="center">
-    <strong>Autora:</strong> Amanda Cruz Lima, 2025
+    <strong>Autor:</strong> João Igor,  2025
 </p>
 
 ## Conclusão
-A **Carteira de Trabalho Digital** foi a aplicação selecionada com base em parâmetros objetivos. Por meio de uma abordagem colaborativa e estruturada, a decisão foi tomada de forma conjunta, garantindo que o aplicativo atendesse às necessidades do projeto e de seus participantes.
+O **Cadastro Único** foi a aplicação selecionada com base em parâmetros objetivos. Por meio de uma abordagem colaborativa e estruturada, a decisão foi tomada de forma conjunta, garantindo que o aplicativo atendesse às necessidades do projeto e de seus participantes.
 
 ## Bibliografia
->MINISTÉRIO DO TRABALHO E PREVIDÊNCIA. Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/servicos/carteira-de-trabalho-digital>. Acesso em: 10 abr. 2025.
+>MINISTÉRIO DO DESENVOLVIMENTO E ASSISTÊNCIA SOCIAL, FAMÍLIA E COMBATE À FOME. Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/servicos/acessar-dados-e-informacoes-do-cadastro-unico>. Acesso em: 30 abr. 2025.
+
 > Introducing Rich Pictures, Rich Picture Drawing Guidelines. CTEC2402 - Software Development Project. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 10 abr. 2025.
 
 ## Histórico de Versão
@@ -77,3 +79,4 @@ A **Carteira de Trabalho Digital** foi a aplicação selecionada com base em par
 | 1.0    | 10/04/2025 | Criação do documento        | [Amanda Cruz](https://github.com/mandicrz) |  [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Correção de bibliografia, formatação e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3    | 30/04/2025 | Atualização das Informações do  aplicativo                | [João Igor](https://github.com/JoaoPC10) | 
