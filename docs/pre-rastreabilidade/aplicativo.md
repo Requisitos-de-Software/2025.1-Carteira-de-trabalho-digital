@@ -66,7 +66,7 @@ O Rich Picture é uma representação visual que ajuda a entender e comunicar um
 ![RichPicture-V1](../assets/richPictures/JoaoIgor.jpg)
 
 <p align="center">
-    <strong>Autora:</strong> João Igor Pereira, 2025
+    <strong>Autor:</strong> João Igor Pereira, 2025
 </p>
 
 ## Conclusão
