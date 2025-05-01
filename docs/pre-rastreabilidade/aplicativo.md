@@ -7,8 +7,10 @@ Este documento descreve o processo realizado pela equipe para escolher o aplicat
 ## Porque o Cadastro Único? 
 O processo de escolha foi conduzido em duas etapas:
 
-- Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades. 
-- Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação.
+- Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades; 
+- Em seguida, uma enquete foi realizada no [Telegram](https://telegram.org/) para coletar as preferências dos participantes, considerando os fatores descritos ao decorrer desta documentação;
+- Então escolhemos o Aplicativo do **Carteira de Trabalho Digital**, porém tivemos um problema com a disponibilização das informações, pois já se tinha feito um trablho sobre;
+- Por fim, decidimos escolher o Aplicativo do **Cadastro Único**, visto que existia um público-alvo interessante e melhores documentações para se levantar requisitos.
 
 ## Critérios
 * Não ter sido trabalhado na disciplina de Requisitos de Software anteriormente.
@@ -38,20 +40,18 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com o Cad
 
 O Cadastro Único (Figura 1) tem como objetivo facilitar o acesso do cidadão às principais informações sociais e programas de assistência do governo, oferecendo praticidade e agilidade no acompanhamento de sua situação cadastral. O aplicativo disponibiliza uma série de funcionalidades essenciais, como:
 
-* Consulta à situação cadastral da família.
 
+* Consulta aos dados cadastrais da família e de seus membros.
+* Verificação de programas socias vinculados.
+* Emissão do comprovante de cadastramento no CadÚnico.
 * Verificação da elegibilidade a programas sociais.
-
 * Acompanhamento do status de benefícios vinculados ao Cadastro Único.
 
 Ademais, possibilita a realização de diversas operações que anteriormente exigiam comparecimento presencial, como:
 
 * Atualização de dados básicos do cadastro.
-
 * Visualização de pendências cadastrais.
-
 * Acesso a informações sobre atendimento em unidades como o CRAS.
-
 * Consulta aos benefícios ativos e ao histórico de recebimento.  
 
 A página do aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico) e na [App Store](https://apps.apple.com/br/app/cadastro-único/id1605659516).
