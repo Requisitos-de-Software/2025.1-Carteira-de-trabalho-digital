@@ -19,6 +19,8 @@ nav:
     - Personas: elicitacao/personas.md
     - Técnicas: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
+      - Questionário: elicitacao/tecnicas/questionario.md
+    
   - Verificação:
     - Grupo:
       - Entrega 1: verificacao/grupo/checklist_1.md

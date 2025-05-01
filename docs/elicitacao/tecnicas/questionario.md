@@ -8,112 +8,112 @@ Todos os dados coletados forão coletados com o consentimento dos usuários e ne
 Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados
 Gráfico sobre o consentimento de compartilhar as respostas a seguir  
 **Gráfico 1: Aprova do termo de consentimento**  
-<img src="../docs/assets/grafico1.png" alt="Gráfico 1">
+<img src="../../assets/grafico1.png" alt="Gráfico 1">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o uso do aplicativo a seguir  
 **Gráfico 2: Sobre já ter feito uso do aplicativo**  
-<img src="../docs/assets/grafico2.png" alt="Gráfico 2">
+<img src="../../assets/grafico2.png" alt="Gráfico 2">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o gênero dos participantes a seguir  
 **Gráfico 3: Gênero**  
-<img src="../docs/assets/grafico3.png" alt="Gráfico 3">
+<img src="../../assets/grafico3.png" alt="Gráfico 3">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a idade dos participantes a seguir  
 **Gráfico 4: Idade**  
-<img src="../docs/assets/grafico4.png" alt="Gráfico 4">
+<img src="../../assets/grafico4.png" alt="Gráfico 4">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a escolaridade dos participantes a seguir  
 **Gráfico 5: Escolaridade**  
-<img src="../docs/assets/grafico5.png" alt="Gráfico 5">
+<img src="../../assets/grafico5.png" alt="Gráfico 5">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o estado de residência dos participantes a seguir  
 **Gráfico 6: Estado o qual reside**  
-<img src="../docs/assets/grafico6.png" alt="Gráfico 6">
+<img src="../../assets/grafico6.png" alt="Gráfico 6">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a quantidade de moradores na residência do participante a seguir  
 **Gráfico 7: Quantidade de moradores em casa**  
-<img src="../docs/assets/grafico7.png" alt="Gráfico 7">
+<img src="../../assets/grafico7.png" alt="Gráfico 7">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre  inscrição no Cadastro Único a seguir  
 **Gráfico 8: Inscrição no Cadastro Único**  
-<img src="../docs/assets/grafico8.png" alt="Gráfico 8">
+<img src="../../assets/grafico8.png" alt="Gráfico 8">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o uso do CRAS a seguir  
 **Gráfico 9: CRAS**  
-<img src="../docs/assets/grafico9.png" alt="Gráfico 9">
+<img src="../../assets/grafico9.png" alt="Gráfico 9">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o emprego do participante a seguir  
 **Gráfico 10: Emprego**  
-<img src="../docs/assets/grafico10.png" alt="Gráfico 10">
+<img src="../../assets/grafico10.png" alt="Gráfico 10">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o acesso a smartphone a seguir  
 **Gráfico 11: Acesso a smartphone**   
-<img src="../docs/assets/grafico11.png" alt="Gráfico 11">
+<img src="../../assets/grafico11.png" alt="Gráfico 11">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a qualidade de conexão a seguir  
 **Gráfico 12: Qualidade de conexão**  
-<img src="../docs/assets/grafico12.png" alt="Gráfico 12">
+<img src="../../assets/grafico12.png" alt="Gráfico 12">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre o uso de aplicativos por parte do participante a seguir  
 **Gráfico 13: Uso de aplicativos**  
-<img src="../docs/assets/grafico13.png" alt="Gráfico 13">
+<img src="../../assets/grafico13.png" alt="Gráfico 13">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a motivação do uso do app a seguir  
 **Gráfico 14: Motivação do uso**  
-<img src="../docs/assets/grafico14.png" alt="Gráfico 14">
+<img src="../../assets/grafico14.png" alt="Gráfico 14">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a realização das necessidades por meio do app a seguir  
 **Gráfico 15: Realização de necessidade**  
-<img src="../docs/assets/grafico15.png" alt="Gráfico 15">
+<img src="../../assets/grafico15.png" alt="Gráfico 15">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
 Gráfico sobre a necessidade de auxílio a seguir  
 **Gráfico 16: Auxílio para uso do aplicativo**  
-<img src="../docs/assets/grafico16.png" alt="Gráfico 16">
+<img src="../../assets/grafico16.png" alt="Gráfico 16">
 <center>
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
@@ -126,5 +126,6 @@ Gráfico sobre a necessidade de auxílio a seguir
 ## Histórico de Versões
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 27/04/2025 | Criação do questionário |[Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)  |
-| 1.1    | 28/04/2025 | Melhora na organização do documento |[Julia Gabriela](https://github.com/JuliaGabP)       | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.0    | 27/04/2025 | Criação do questionário             | [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.1    | 28/04/2025 | Melhora na organização do documento | [Julia Gabriela](https://github.com/JuliaGabP)       | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.2    | 30/04/2025 | Conserto de imagens quebradas       | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP) |
