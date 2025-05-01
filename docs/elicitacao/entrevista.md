@@ -12,9 +12,9 @@ A entrevista é uma das técnicas mais utilizadas para coleta de dados na elicit
 | Julia Gabriela | Luís Felipe | 24/04/2025 | 19:30     |
 | Julia Gabriela | Rodrigo     | 25/04/2025 | 13:30     |
 | Julia Gabriela | Matheus     | 26/04/2025 | 14:30     |
-| Amanda Cruz    | Leticia     | 26/04/2025 | 21:00     |
-| Amanda Cruz    | Felipe      | 28/04/2025 | 20:00     |
-| Amanda Cruz    | Luiz        | 26/04/2025 | 20:00     |
+| Amanda Cruz    | Leticia     | 26/04/2025 | 21:32     |
+| Amanda Cruz    | Felipe      | 27/04/2025 | 18:00     |
+| Amanda Cruz    | Luiz        | 26/04/2025 | 21:09     |
 
 ## Metodologia
 
@@ -38,6 +38,15 @@ O roteiro de perguntas teve como objetivo compreender a experiência dos usuári
 15. Que funcionalidades você gostaria de ver no aplicativo que hoje não existem?
 16. Você gostaria de receber notificações do aplicativo? Sobre o quê?
 17. Que tipo de informação você gostaria de visualizar mais facilmente no app?
+
+## Relatório e Vídeos das Entrevistas
+
+* Relatório disponível em: [Relatório das Entrevistas](../assets/Entrevistas-CadUnico.pdf)  
+* Entrevista da Leticia: [clique aqui](https://youtu.be/YT80-MCh1vs)  
+* Entrevista do Felipe: [clique aqui](https://youtu.be/4QlX683lf-s)  
+* Entrevista do Luiz: [clique aqui](https://youtu.be/1VPUozZrUN8)  
+* Entrevista do Luis Felipe: [clique aqui](https://youtu.be/Pe8Xyo757EE)  
+* Entrevista do Rodrigo: [clique aqui](https://youtu.be/6kpNR9GHAfU)  
 
 ## Análise das respostas
 
@@ -77,10 +86,11 @@ A análise das entrevistas evidencia que, embora o aplicativo CadÚnico represen
 
 ## Referências
 
-> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
+> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 30 abr. 2025
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 27/04/2025 | Introdução e requisitos iniciais | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Julia Gabriela](https://github.com/JuliaGabP), [Amanda Cruz](https://github.com/mandicrz) | [João Vitor](https://github.com/jvopBR) |
+| 1.0    | 30/04/2025 | Criação do documento | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Julia Gabriela](https://github.com/JuliaGabP), [Amanda Cruz](https://github.com/mandicrz) | [João Vitor](https://github.com/jvopBR) |
+| 1.1 | 30/04/2025 | Correção das datas e adição de links | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
