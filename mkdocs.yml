@@ -18,8 +18,8 @@ nav:
     - Introdução: elicitacao/index.md
     - Técnicas: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
-      - Personas: elicitacao/tecnicas/personas.md
-      - Questionário: elicitacao/questionario.md
+      - Personas: elicitacao/personas.md
+      - Questionário: elicitacao/tecnicas/questionario.md
     
   - Verificação:
     - Grupo:
