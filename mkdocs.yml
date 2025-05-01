@@ -1,4 +1,4 @@
-site_name: Carteira de Trabalho Digital
+site_name: Cadastro Único
 site_url: https://requisitos-de-software.github.io/2025.1-Carteira-de-Trabalho-Digital/
 
 nav:
@@ -25,7 +25,7 @@ nav:
     - Inspeção I: inspecoes/inspecao1.md
    
 theme:
-  logo: assets/logo-ctd.png
+  logo: assets/LogoCadUn.png
   name: material
   font:
     text: IBM Plex Serif
