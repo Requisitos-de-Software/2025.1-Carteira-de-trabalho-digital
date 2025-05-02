@@ -6,7 +6,7 @@ Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista 
 
 ## Metodologia
 
-A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revisão detalhada do documento de checklist. Cada artefato foi analisado um por um pelo(a) inspetor(a) [Amanda Cruz](https://github.com/mandicrz) e revisado por [Adicionar aqui](), buscando identificar:
+A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revisão detalhada do documento de checklist. Cada artefato foi analisado um por um pelo(a) inspetor(a) [Amanda Cruz](https://github.com/mandicrz) e revisado por [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Pedro](https://github.com/johnaopedro), buscando identificar:
 
 - Itens faltando ou inconscistências;
 - Clareza e precisão das descrições;
@@ -105,4 +105,4 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 | Versão |    Data    |      Descrição       |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 25/04/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.1   | 30/04/2025 | Elaboração da Inspeção | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.1   | 30/04/2025 | Elaboração da Inspeção | [Amanda Cruz](https://github.com/mandicrz) | [Julia Paulino](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Pedro](https://github.com/johnaopedro) |
