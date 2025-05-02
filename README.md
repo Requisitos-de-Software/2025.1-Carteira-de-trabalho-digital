@@ -4,8 +4,7 @@
 
 <div align="center"><img src= "./docs/assets/cadunico.jpg" width="200px;" alt=""/></div>
 
-<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/paginas/app-cadunico">gov.br</a>. Acesso em: 13 abr. 2025</p>
-
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 30 abr. 2025</p>
 
 ## Sobre o Projeto:
 
@@ -35,9 +34,6 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 </table>
 
 <p align="center"><strong>Autor:</strong>  Gabriel Flores</p>
-
-
-
 
 ## Referências
 > - Inscrever-se no cadastro único. Disponível em: <https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal>. Acesso em: 25 abr. 2025.
