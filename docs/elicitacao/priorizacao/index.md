@@ -1,7 +1,7 @@
 # Técnicas de Priorização
 
 ## Introdução
-Depois que os vários requisitos são elicitados , para saber por onde começar o desenvolvimento, de forma a gerar, desde o começo, valor agragado aos clientes, torna-se necessário, priorizar os esses requisitos, defindo assim uma ordem de importância para cada.
+Depois que os vários requisitos são elicitados , para saber por onde começar o desenvolvimento, de forma a gerar, desde o começo, valor agregado aos clientes, torna-se necessário, priorizar esses requisitos, definindo assim uma ordem de importância para cada.
 
 ## Descrição das Técnicas
 
@@ -10,16 +10,19 @@ Na sociedade moderna a pincipal maneira de se atribuir valor a algo é através 
 
 ### MoSCoW
 É uma técnica de priorização que consiste em determinar 4 escalasd e importância para os requisitos:
-- Must: que afetam diretamente a imagem do cliente. Se um dos itens não é concluído e entregue, ele não pode ser considerado como concluído com sucesso;
-- Should: importantes, mas, no momento, não são ncessários, do ponto de vista estratégico, para a entrega;
-- Could: desejáveis, também não são considerados importantes no ponto de vista estratégico, mas podem melhorar a satisfação do cliente com algum esforço de desenvolvimento;
-- Would/Want/Won't: menos críticos, com menor retorno sobre o investimento ou não adequados para serem realizados.
+- *Must(Deve)*: que afetam diretamente a imagem do cliente. Se um dos itens não é concluído e entregue, ele não pode ser considerado como concluído com sucesso;
+
+- *Should(Deveria)*: importantes, mas, no momento, não são ncessários, do ponto de vista estratégico, para a entrega;
+
+- *Could(Poderia)*: desejáveis, também não são considerados importantes no ponto de vista estratégico, mas podem melhorar a satisfação do cliente com algum esforço de desenvolvimento;
+
+- *Would/Want/Won't(Deseja/Não Deseja)*: menos críticos, com menor retorno sobre o investimento ou não adequados para serem realizados.
 
 ### First Things First
-Essa técnica tem como bjetivoauxiliar na tomada de decisão sobre quais requisitos implementar inicialmente, cosidereando os benefícios que o requisito traz para a organização, os recursos necessários para desenvolvê-lo e os riscos associados.
+A técnica First Things First tem como objetivo auxiliar na tomada de decisão sobre quais requisitos implementar inicialmente, considereando os benefícios que o requisito traz para a organização, os recursos necessários para desenvolvê-lo e os riscos associados.
 
-### Three Leval Scale
-É uma técnica que tem como objetivo priorizar os requisitos em 3 níveis de importância:
+### Three Level Scale
+A técnica Three Level Scale que tem como objetivo priorizar os requisitos em 3 níveis de importância:
 - Alta Prioridade: recebe essa clasificação por ser muito importante tanto para a equipe de desenvolvimento, quanto as partes interessadas(donos do produto);
 - Média Prioridade: quando os requisistos são importantes, mas não são urgentes, pois podem esperar as próximas releases;
 - Baixa Prioridade: classificação dada a requisitos que tanto a euipe de desenvolvimento, quanto as partes interessadas, desconsideram importantes.
@@ -37,3 +40,4 @@ Essa técnica tem como bjetivoauxiliar na tomada de decisão sobre quais requisi
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 02/05/2025 | Criação da página de análise das técnicas de priorização e informações sobre as técnicas | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
+| 1.1    | 02/05/2025 | Concerto dos erros ortográficos e da diagramção do texto | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
