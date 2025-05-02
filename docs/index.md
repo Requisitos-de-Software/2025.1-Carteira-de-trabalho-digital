@@ -2,7 +2,7 @@
 
 <p align="center"><strong>Figura 1:</strong> Logo do Aplicatico do Cadastro Único</p>
 
-<div align="center"><img src= "assets/logoCadUn.png" width="200px;" alt=""/></div>
+<div align="center"><img src= "assets/LogoCadUn.png" width="200px;" alt=""/></div>
 
 <p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="hhttps://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 30 abr. 2025</p>
 
