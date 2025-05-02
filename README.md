@@ -46,4 +46,4 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 | 1.0 | 13/04/2025 | Criado arquivo README                       | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Amanda Cruz](https://github.com/mandicrz)          |
 | 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)         |
 | 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Merlin](https://github.com/jvopBR)|
-| 1.3 | 01/04/2025 | Correção da Fonte da Imagem | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3 | 01/05/2025 | Correção da Fonte da Imagem | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
