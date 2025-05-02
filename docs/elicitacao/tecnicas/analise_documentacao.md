@@ -54,17 +54,17 @@ Os dados de pessoas cadastradas apontam 93.716.836 pessoas no total, sendo 48.49
 Analisando famílias e pessoas em situação de trabalho infantil, temos, 7.156 inscritas no Cadastro Único, 8.717 pessoas, sendo 5.784 famílias e 7.243 pessoas beneficiárias do Bolsa Família. Todos os dados do Cadastro Único são referentes ao ano de 2025, mês de março.
 Alguns dos principais benefícios do Cadastro Único são, Bolsa Família, Pé de Meia, Tarifa Social de Energia, Auxílio Gás, Programa Minha Casa Minha Vida, entre outros.
 
-## Requisiots Elicitados
-Essa seção contém os requisitos elicitados por consequência da análise da documentação. 
+## Requisitos Elicitados
+Essa seção contém os requisitos elicitados por consequência da análise da documentação. Os requisitos serão apresentados por meio das Tabelas 2
 
 <center> <b>Tabela 2:</b> Requisitos Funcionais </center>
 
-| **ID** | **Requisito Funcional**                                                                 | **Descrição**                                                                                                                                                                                                 |
-|--------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RF01   | Cadastro de Famílias                                                                   | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais.                                                                                   |
-| RF02   | Cadastro de Pessoas                                                                    | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.                                                                             |
-| RF03   | Cadastro de Domicílios                                                                 | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.                                                                     |
-| RF04   | Cadastro de Agricultores Familiares                                                    | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                                           |
+| **ID** | **Requisito Funcional** | **Descrição** |
+|:------:|:-----------------------:|:-------------:|
+| RF01   | Cadastro de Famílias    | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais.                    |
+| RF02   | Cadastro de Pessoas     | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.    |
+| RF03   | Cadastro de Domicílios  | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.   |
+| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                                           |
 | RF05   | Atualização de Dados                                                                   | Permitir a atualização diária dos dados das famílias cadastradas.                                                                                                                                           |
 | RF06   | Processamento de Dados                                                                 | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.                                                              |
 | RF07   | Correção de Inconsistências                                                            | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.                                                                                                               |
@@ -76,29 +76,27 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
  Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
-### Tabela de Requisitos Não Funcionais
+<!--these are to keep the tables farther away!-->
+</br>
+</br>
 
-| **ID** | **Requisito Não Funcional**                                                            | **Descrição**                                                                                                                                                                                                 |
-|--------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RNF01  | Desempenho                                                                            | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.                                                                                                                                |
-| RNF02  | Segurança                                                                             | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados.                         |
-| RNF03  | Escalabilidade                                                                        | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                                                  |
-| RNF04  | Conformidade Legal                                                                    | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                                                   |
-| RNF05  | Acessibilidade                                                                        | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                                                |
-| RNF06  | Disponibilidade                                                                       | Garantir que o sistema esteja disponível para uso diário.                                                                                                                                                   |
+<center> <b>Tabela 3:</b> Requisitos Não Funcionais </center>
+
+| **ID** | **Requisito Não Funcional** | **Descrição** |
+|:------:|:--------------------------:|:-------------:|
+| RNF01  | Desempenho | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.   |
+| RNF02  | Segurança  | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados. |
+| RNF03  | Escalabilidade | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias. |
+| RNF04  | Conformidade Legal | Atender às regulamentações definidas pela Senarc e portarias relacionadas. |
+| RNF05  | Acessibilidade | Garantir que o sistema seja acessível para operadores municipais e estaduais. |
+| RNF06  | Disponibilidade | Garantir que o sistema esteja disponível para uso diário. |
+| RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.  |
+| RNF08  | Transmissão via Conectividade Social  | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA. |
+| RNF09  | Acesso Restrito  | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.|
 <center>
  Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
-### Tabela 3: dos Requisitos Não Funcionais
 
-| **ID** | **Restrição**                                                                          | **Descrição**                                                                                                                                                                                                 |
-|--------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| R01    | Compatibilidade com Aplicativo Off-line                                               | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                                        |
-| R02    | Transmissão via Conectividade Social                                                  | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                                              |
-| R03    | Acesso Restrito                                                                       | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                                           |
-<center>
- Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
-</center>
 # Referencias
 > Requirements Elicitation. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 7, p. 128-129. ISBN 0735679665. Acesso em: 1 maio 2025.
 
