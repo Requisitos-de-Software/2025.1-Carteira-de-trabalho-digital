@@ -4,7 +4,8 @@
 Esse documento apresenta a análise de documentação realizada pelo grupo 4 para os propósitos de compreender e elicitar os requisitos do aplicativo
 cadastro único. 
 
-Para os fins dessa análise, para todo documento analisado, uma análise será construída e, com base nessa análise, serão elicitados requisitos seguindo o modelo da tabela 1.
+## Metodologia
+Para cada documento analisado, serão buscadas informações novas sobre o usuário e a situação onde o sistema deverá operar e quais operações ele deveria realizar. Para os fins dessa análise, para todo documento analisado, uma análise será construída e, com base nessa análise, serão elicitados requisitos seguindo o modelo da tabela 1.
 
 <center> <b>Tabela 1:</b> Requisitos de exemplo </center>
   
@@ -16,14 +17,20 @@ Para os fins dessa análise, para todo documento analisado, uma análise será c
  Autor(a): <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
+Com base no requisito elicitado, os autores separarão os requisitos em funcionais e não funcionais. Caso o documento observado elicite um requisito que já existe na lista, ele será desconsiderado por redundância, dado que múltiplos documentos podem tratar de um mesmo assunto ou revelar as mesmas informações. 
+
 ## Documentos análisados
 Essa seção contém resumos dos documentos analisados para os fins de subsequente elicitação. 
 
+
+<!--done!-->
 ### [Cadastro Único dos Programas Sociais - CadÚnico](https://ces.ibge.gov.br/base-de-dados/metadados/mds/cadastro-unico-dos-programas-sociais-cadunico.html)
+
 O Cadastro Único dos Programas Sociais (CadÚnico) é um sistema de cadastro de famílias de baixa renda no Brasil, gerido pelo Ministério do Desenvolvimento Social e Combate à Fome, com suporte técnico da CAIXA. Criado em julho de 2001 pelo Decreto nº 3.877, o CadÚnico tem como objetivo identificar famílias com renda mensal de até meio salário mínimo por pessoa para subsidiar o planejamento de políticas públicas, podendo incluir famílias com renda superior caso estejam vinculadas a programas sociais. Ele abrange todos os municípios brasileiros e opera diariamente. A coleta de dados é realizada pelos municípios por meio de formulários preenchidos e digitados no Aplicativo de Entrada e Manutenção de Dados (off-line), sendo transmitidos à CAIXA via Conectividade Social.
 
 A CAIXA processa os dados, atribui um Número de Identificação Social (NIS) único para cada pessoa cadastrada e devolve os resultados aos municípios em até 48 horas. Caso haja inconsistências, os dados são corrigidos e retransmitidos pelos municípios. As principais variáveis incluem informações sobre domicílio, pessoas e agricultores familiares. A documentação operacional é composta por formulários principais e suplementares, abrangendo diferentes situações, como vinculação a programas e pessoas em situação de rua. A divulgação ocorre em níveis nacional, regional, estadual e municipal, com relatórios anuais e acesso à base de dados mediante aprovação de projetos e acordos de cooperação técnica. Desde sua criação, o CadÚnico integrou-se a programas como o Bolsa Escola e o Bolsa Família, e, a partir de 2005, iniciou um processo contínuo de atualização cadastral com a adesão formal de estados e municípios. Trata-se de uma ferramenta essencial para identificar e atender famílias de baixa renda, permitindo a formulação de políticas públicas e a gestão de programas sociais.
 
+<!--done!-->
 ### [IBGE: 4 milhões de inscritos no CadÚnico buscaram microempreendedorismo em 2022](https://agenciagov.ebc.com.br/noticias/202408/ibge-4-milhoes-de-inscritos-no-cadunico-buscaram-microempreendedorismo-em-2022#:~:text=IBGE:%204%20milh%C3%B5es%20de%20inscritos%20no%20Cad%C3%9Anico%20buscaram%20microempreendedorismo%20em%202022,-Dados%20s%C3%A3o%20da&text=As%20Estat%C3%ADsticas%20dos%20Cadastros%20de,individuais%20(MEIs)%20no%20Brasil.)
 
 Em 2022, dos 14,6 milhões de MEIs no Brasil, 4,1 milhões (28,4%) estavam inscritos no CadÚnico. Desses, aproximadamente 2,1 milhões (49,8%) eram beneficiários do Programa Bolsa Família. Esses dados evidenciam que o microempreendedorismo se apresenta como alternativa de renda para famílias de baixa renda.
@@ -32,25 +39,14 @@ Em 2022, dos 14,6 milhões de MEIs no Brasil, 4,1 milhões (28,4%) estavam inscr
 
 51,5% dos MEIs estavam no setor de serviços, com destaque para atividades de beleza (9,0%). Outras áreas relevantes incluem o comércio de vestuário (6,8%) e alimentação (6,0%). Cerca de 17,3% dos MEIs também possuíam vínculo empregatício formal, o que representa aumento em relação a 2021 (15%).
 
-<!--essa seção são alguns requisitos elicitados com base no documento analisado-->
-
-<!--TODO! transformar esses aqui em requisitos na lista de requisitos-->
-Sugere-se a inclusão de uma seção específica sobre MEI, contendo informações, orientações e serviços para formalização e gestão do pequeno negócio.
-
-Utilizar os dados sociodemográficos para recomendar conteúdo personalizado, como cursos profissionalizantes de acordo com o setor de atuação (beleza, alimentação, vestuário).
-
-Potencial para vincular o aplicativo com programas de apoio ao microempreendedor, como acesso facilitado a microcrédito, capacitação, consultoria e acesso a mercados.
-
-Considerar as diferenças regionais: Rio de Janeiro e Espírito Santo possuem maior proporção de MEIs em relação aos ocupados formais. Já regiões como Norte e Nordeste têm menor concentração, exigindo estratégias diferenciadas de engajamento.
-
-<!--Fim da seção de requisitos-->
-
-
+<!--done!-->
 ### [Relatório de Programas e Ações](https://aplicacoes.mds.gov.br/sagi/ri/relatorios/cidadania/)
 
-Pelos dados do IBGE de 2022 a população brasileira é composta por cerca de 212.583.750 pessoas, sendo 13% residente em zonas rurais e 87% em zonas urbanas.
-Agora referente aos dados sobre o Cadastro Único, com base na análise do mês de março de 2025, 40.820.923 famílias cadastradas, sendo que desse total, 20.083.895 em situação de pobreza, 7.952.578 em situação de baixa renda e 12.784.450 com renda per capita mensal acima de ½ salário-mínimo.
+>Pelos dados do IBGE de 2022 a população brasileira é composta por cerca de 212.583.750 pessoas, sendo 13% residente em zonas rurais e 87% em zonas urbanas.
+Agora referente aos dados sobre o Cadastro Único, com base na análise do mês de março de 2025, 40.820.923 famílias cadastradas, sendo que desse total, 20.083.895 em situação de pobreza, 7.952.578 em situação de baixa renda e 12.784.450 com renda per capita mensal acima de meio salário-mínimo.
+
 Os dados de pessoas cadastradas apontam 93.716.836 pessoas no total, sendo 48.492.845 em situação de pobreza, 22.446.387 baixa renda e 22.777.604 com renda per capita mensal acima de ½ salário-mínimo. Dos grupos populacionais tradicionais específicos, os que representam uma maioria são os agricultores familiares, com 2.742.185 famílias cadastradas e 1.928.059 pessoas beneficiárias do programa Bolsa Família.
+
 Analisando famílias e pessoas em situação de trabalho infantil, temos, 7.156 inscritas no Cadastro Único, 8.717 pessoas, sendo 5.784 famílias e 7.243 pessoas beneficiárias do Bolsa Família. Todos os dados do Cadastro Único são referentes ao ano de 2025, mês de março.
 Alguns dos principais benefícios do Cadastro Único são, Bolsa Família, Pé de Meia, Tarifa Social de Energia, Auxílio Gás, Programa Minha Casa Minha Vida, entre outros.
 
@@ -64,16 +60,19 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | RF01   | Cadastro de Famílias    | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais.                    |
 | RF02   | Cadastro de Pessoas     | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.    |
 | RF03   | Cadastro de Domicílios  | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.   |
-| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                                           |
-| RF05   | Atualização de Dados                                                                   | Permitir a atualização diária dos dados das famílias cadastradas.                                                                                                                                           |
-| RF06   | Processamento de Dados                                                                 | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.                                                              |
-| RF07   | Correção de Inconsistências                                                            | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.                                                                                                               |
-| RF08   | Consulta de Dados                                                                      | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS.                                                                                            |
-| RF09   | Relatórios e Divulgação                                                                | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade.                      |
-| RF10   | Formulários de Coleta                                                                  | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua.                  |
+| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda. |
+| RF05   | Atualização de Dados | Permitir a atualização diária dos dados das famílias cadastradas. |
+| RF06   | Processamento de Dados | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.|
+| RF07   | Correção de Inconsistências  | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.  |
+| RF08   | Consulta de Dados | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS. |
+| RF09   | Relatórios e Divulgação | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade. |
+| RF10   | Formulários de Coleta  | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
+| RF10   | Cadastro MEI    | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI. |
+| RF11   | Informações MEI    | Conter seção de informações sobre microempreendedorismo individual. |
+| RF12   | Personalização MEI | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua. |
 
 <center>
- Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="(https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 <!--these are to keep the tables farther away!-->
@@ -93,8 +92,9 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.  |
 | RNF08  | Transmissão via Conectividade Social  | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA. |
 | RNF09  | Acesso Restrito  | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.|
+| RNF10    | Integração MEI     | Permitir que o sistema converse com demais sistemas para MEIs |
 <center>
- Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="(https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 # Referencias
