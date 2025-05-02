@@ -36,7 +36,7 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com o Cad
   <img src="../assets/cadunico.jpg" alt="App Carteira" width = 200px>
 </div>
 
-<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/paginas/app-cadunico">gov.br</a>. Acesso em: 13 abr. 2025</p>
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 13 abr. 2025</p>
 
 O Cadastro Único (Figura 1) tem como objetivo facilitar o acesso do cidadão às principais informações sociais e programas de assistência do governo, oferecendo praticidade e agilidade no acompanhamento de sua situação cadastral. O aplicativo disponibiliza uma série de funcionalidades essenciais, como:
 
