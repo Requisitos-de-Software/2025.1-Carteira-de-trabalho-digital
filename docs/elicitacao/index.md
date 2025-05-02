@@ -45,4 +45,4 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 | 1.0    | 23/04/2025 | Criação da pagina de analise das tecnicas de elicitação e informações sobre a tecnica de introspecção | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.1    | 24/04/2025 | Adição da Técnica de Brainstorm                                         | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.3 | 30/04/2025 | Adição da técnica análise de documentação e remoção de brainstorm como técnica selecionada | [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
+| 1.3 | 30/04/2025 | Adição da técnica análise de documentação e remoção de brainstorm como técnica selecionada | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
