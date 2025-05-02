@@ -5,6 +5,9 @@ Para desenvolver um software que realmente atenda às expectativas dos usuários
 
 ## Descrição de técnicas
 
+### Análise de Documentação
+Segundo Vazques & Simões (2016), a análise de documentação é uma técnica de elicitação baseada em documentos que busca reduzir o retrabalho para manutenção e evolução de um software ao utilizar os artefatos já elaborados pelo processo de desenvolvimento, incluindo, mas não limitado a, requisitos já elicitados, priorizados e especificados, modelos e executáveis, sejam eles protótipos ou versões finalizadas. Cabe à equipe decidir quais artefatos devem ser analisados para elicitar requisitos. Essa técnica pode ser utilizada por si só ou de forma a suportar e preparar o caminho para demais técnicas de elicitação, como a introspecção. A técnica possui grandes vantagens para sistemas baseados em outros mais legados, todavia é de difícil utilização para sistemas completamente novos. 
+
 ### Introspecção
 A introspecção é uma abordagem utilizada na elicitação de requisitos que busca definir características essenciais de um sistema a partir de uma reflexão aprofundada sobre seu uso ideal. Por meio desse processo, o responsável pela análise imagina cenários hipotéticos nos quais determinadas tarefas seriam executadas, identificando assim os elementos indispensáveis para o funcionamento do software. No entanto, essa técnica apresenta desafios, pois a perspectiva dos especialistas pode não corresponder totalmente às necessidades e experiências dos usuários reais, especialmente no contexto do design de interfaces e da adoção de novas tecnologias.
 
@@ -21,7 +24,7 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 
 - Introspecção: Como dito anteriormente, uma técnica muito útil. Ela foi escolhida por se tratar de uma técnica adequada para definir requisitos de sistemas ao permitir que o analista imagine cenários hipotéticos e identifique os elementos essenciais para a execução de determinadas tarefas. No entanto, apesar de sua utilidade, a introspecção apresenta desafios significativos quando realizada por especialistas que não possuem experiência direta com o público-alvo do sistema.
 
-- Brainstorm: Este método de elicitação foi escolhido pois promove a participação ativa dos usuários e demais envolvidos, sendo fundamental para identificar necessidades, expectativas e desejos que nem sempre são captados por métodos mais estruturados. A técnica também contribui para o alinhamento das visões entre os participantes, fortalecendo o entendimento compartilhado e a colaboração ao longo do projeto.
+- Análise de Documentação: Consideravelmente dinâmica, a análise de documentação é, como previamente citado, adequada para iniciar os trabalhos de elicitação de requisitos e observar como um sistema legado funciona. No entanto, apesar de possuir a vantagem de partir de um ponto avançado, é de pouca utilidade para elicitar novos requisitos, especialmente em sistemas completamente novos.
 
 - Entrevista: A entrevista foi escolhida para elicitar requisitos porque permite obter informações detalhadas e profundas diretamente com os usuários, por meio de uma conversa guiada. Essa técnica oferece flexibilidade ao entrevistador, que pode adaptar o roteiro, explorar temas inesperados e fazer perguntas de acompanhamento conforme o andamento da conversa. Além disso, a entrevista é eficaz para revelar aspectos que outras técnicas, como questionários, não capturam com a mesma riqueza.
 
@@ -31,7 +34,9 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23 abr. 2025.
 
-> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
+> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. Interação Humano-Computador e Experiência do usuário. 2021 Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
+
+> VAZQUEZ, C. E.; SIMÕES, G. S. Engenharia de Requisitos: Software Orientado ao Negócio. 1 ed. Rio de Janeiro: Brasport, 2016. p. 221-234.
 
 ## Histórico de Versões
 
@@ -39,4 +44,5 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da pagina de analise das tecnicas de elicitação e informações sobre a tecnica de introspecção | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.1    | 24/04/2025 | Adição da Técnica de Brainstorm                                         | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
-| 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)
+| 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3 | 30/04/2025 | Adição da técnica análise de documentação e remoção de brainstorm como técnica selecionada | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
