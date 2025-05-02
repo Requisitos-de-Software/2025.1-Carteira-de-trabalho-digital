@@ -8,7 +8,7 @@ Para os fins dessa análise, para todo documento analisado, uma análise será c
 
 <center> <b>Tabela 1:</b> Requisitos de exemplo </center>
   
-| **ID** | **Requisito Funcional** | **Descrição** |
+| **ID** | **Requisito Exemplo** | **Descrição** |
 |:------:|:-----------------------:|:-------------:|
 | RE1    | Realizar uma determinada operação | O usuário é capaz de realizar a operação dentro do sistema |
 
@@ -24,10 +24,35 @@ O Cadastro Único dos Programas Sociais (CadÚnico) é um sistema de cadastro de
 
 A CAIXA processa os dados, atribui um Número de Identificação Social (NIS) único para cada pessoa cadastrada e devolve os resultados aos municípios em até 48 horas. Caso haja inconsistências, os dados são corrigidos e retransmitidos pelos municípios. As principais variáveis incluem informações sobre domicílio, pessoas e agricultores familiares. A documentação operacional é composta por formulários principais e suplementares, abrangendo diferentes situações, como vinculação a programas e pessoas em situação de rua. A divulgação ocorre em níveis nacional, regional, estadual e municipal, com relatórios anuais e acesso à base de dados mediante aprovação de projetos e acordos de cooperação técnica. Desde sua criação, o CadÚnico integrou-se a programas como o Bolsa Escola e o Bolsa Família, e, a partir de 2005, iniciou um processo contínuo de atualização cadastral com a adesão formal de estados e municípios. Trata-se de uma ferramenta essencial para identificar e atender famílias de baixa renda, permitindo a formulação de políticas públicas e a gestão de programas sociais.
 
-### INSERIR DOC JOHN MIDIA
-TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!
-### INSERIR DOC JULIA
-TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!TODO!
+### [IBGE: 4 milhões de inscritos no CadÚnico buscaram microempreendedorismo em 2022](https://agenciagov.ebc.com.br/noticias/202408/ibge-4-milhoes-de-inscritos-no-cadunico-buscaram-microempreendedorismo-em-2022#:~:text=IBGE:%204%20milh%C3%B5es%20de%20inscritos%20no%20Cad%C3%9Anico%20buscaram%20microempreendedorismo%20em%202022,-Dados%20s%C3%A3o%20da&text=As%20Estat%C3%ADsticas%20dos%20Cadastros%20de,individuais%20(MEIs)%20no%20Brasil.)
+
+Em 2022, dos 14,6 milhões de MEIs no Brasil, 4,1 milhões (28,4%) estavam inscritos no CadÚnico. Desses, aproximadamente 2,1 milhões (49,8%) eram beneficiários do Programa Bolsa Família. Esses dados evidenciam que o microempreendedorismo se apresenta como alternativa de renda para famílias de baixa renda.
+
+53,6% dos MEIs eram homens e 46,4% mulheres. A faixa etária predominante era de 30 a 39 anos (29,9%), seguida por 40 a 49 anos (25,5%). A maioria dos MEIs (86,5%) não tinha ensino superior completo, sendo que 63,4% tinham ensino médio completo ou superior incompleto. Em termos de raça/cor, 44,7% se declararam brancos, 29,8% pardos e 4,7% pretos. 
+
+51,5% dos MEIs estavam no setor de serviços, com destaque para atividades de beleza (9,0%). Outras áreas relevantes incluem o comércio de vestuário (6,8%) e alimentação (6,0%). Cerca de 17,3% dos MEIs também possuíam vínculo empregatício formal, o que representa aumento em relação a 2021 (15%).
+
+<!--essa seção são alguns requisitos elicitados com base no documento analisado-->
+
+<!--TODO! transformar esses aqui em requisitos na lista de requisitos-->
+Sugere-se a inclusão de uma seção específica sobre MEI, contendo informações, orientações e serviços para formalização e gestão do pequeno negócio.
+
+Utilizar os dados sociodemográficos para recomendar conteúdo personalizado, como cursos profissionalizantes de acordo com o setor de atuação (beleza, alimentação, vestuário).
+
+Potencial para vincular o aplicativo com programas de apoio ao microempreendedor, como acesso facilitado a microcrédito, capacitação, consultoria e acesso a mercados.
+
+Considerar as diferenças regionais: Rio de Janeiro e Espírito Santo possuem maior proporção de MEIs em relação aos ocupados formais. Já regiões como Norte e Nordeste têm menor concentração, exigindo estratégias diferenciadas de engajamento.
+
+<!--Fim da seção de requisitos-->
+
+
+### [Relatório de Programas e Ações](https://aplicacoes.mds.gov.br/sagi/ri/relatorios/cidadania/)
+
+Pelos dados do IBGE de 2022 a população brasileira é composta por cerca de 212.583.750 pessoas, sendo 13% residente em zonas rurais e 87% em zonas urbanas.
+Agora referente aos dados sobre o Cadastro Único, com base na análise do mês de março de 2025, 40.820.923 famílias cadastradas, sendo que desse total, 20.083.895 em situação de pobreza, 7.952.578 em situação de baixa renda e 12.784.450 com renda per capita mensal acima de ½ salário-mínimo.
+Os dados de pessoas cadastradas apontam 93.716.836 pessoas no total, sendo 48.492.845 em situação de pobreza, 22.446.387 baixa renda e 22.777.604 com renda per capita mensal acima de ½ salário-mínimo. Dos grupos populacionais tradicionais específicos, os que representam uma maioria são os agricultores familiares, com 2.742.185 famílias cadastradas e 1.928.059 pessoas beneficiárias do programa Bolsa Família.
+Analisando famílias e pessoas em situação de trabalho infantil, temos, 7.156 inscritas no Cadastro Único, 8.717 pessoas, sendo 5.784 famílias e 7.243 pessoas beneficiárias do Bolsa Família. Todos os dados do Cadastro Único são referentes ao ano de 2025, mês de março.
+Alguns dos principais benefícios do Cadastro Único são, Bolsa Família, Pé de Meia, Tarifa Social de Energia, Auxílio Gás, Programa Minha Casa Minha Vida, entre outros.
 
 ## Requisiots Elicitados
 Essa seção contém os requisitos elicitados por consequência da análise da documentação. 
