@@ -83,5 +83,5 @@ O **Cadastro Único** foi a aplicação selecionada com base em parâmetros obje
 | 1.0    | 10/04/2025 | Criação do documento        | [Amanda Cruz](https://github.com/mandicrz) |  [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Correção de bibliografia, formatação e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-| 2.0    | 30/04/2025 | Atualização do aplicativo                | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) 
-| 2.1 | 01/05/2025 | Correções aa atualização do aplicativo |  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
+| 1.3    | 30/04/2025 | Atualização do aplicativo                | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) 
+| 1.4 | 01/05/2025 | Correções aa atualização do aplicativo |  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) e [João Pedro Costa](https://github.com/johnaopedro) |
