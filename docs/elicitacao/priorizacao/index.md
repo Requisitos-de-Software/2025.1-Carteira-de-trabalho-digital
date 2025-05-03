@@ -40,4 +40,4 @@ A técnica Three Level Scale que tem como objetivo priorizar os requisitos em 3 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 02/05/2025 | Criação da página de análise das técnicas de priorização e informações sobre as técnicas | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
-| 1.1    | 02/05/2025 | Concerto dos erros ortográficos e da diagramção do texto | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
+| 1.1    | 02/05/2025 | Conserto dos erros ortográficos e da diagramação do texto | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
