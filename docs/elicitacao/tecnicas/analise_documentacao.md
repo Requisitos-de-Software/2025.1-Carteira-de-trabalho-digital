@@ -1,11 +1,11 @@
 # Análise de documentação
 
 ## Introdução
-Esse documento apresenta a análise de documentação realizada pelo grupo 4 para os propósitos de compreender e elicitar os requisitos do aplicativo
+Esse documento apresenta a análise de documentação realizada pelo grupo 4 com o propósito de compreender e elicitar os requisitos do aplicativo
 cadastro único. 
 
 ## Metodologia
-Para cada documento analisado, serão buscadas informações novas sobre o usuário e a situação onde o sistema deverá operar e quais operações ele deveria realizar. Para os fins dessa análise, para todo documento analisado, uma análise será construída e, com base nessa análise, serão elicitados requisitos seguindo o modelo da tabela 1.
+Para cada documento examinado, serão buscadas informações novas sobre o usuário, a situação onde o sistema deverá operar e quais operações ele deveria realizar. Os documentos serão resumidos e, com base nas principais informações obtidas, serão elicitados requisitos seguindo o modelo da Tabela 1.
 
 <center> <b>Tabela 1:</b> Requisitos de exemplo </center>
   
@@ -17,10 +17,10 @@ Para cada documento analisado, serão buscadas informações novas sobre o usuá
  Autor(a): <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-Com base no requisito elicitado, os autores separarão os requisitos em funcionais e não funcionais. Caso o documento observado elicite um requisito que já existe na lista, ele será desconsiderado por redundância, dado que múltiplos documentos podem tratar de um mesmo assunto ou revelar as mesmas informações. 
+Com base em cada requisito elicitado, os autores separarão os requisitos em funcionais e não funcionais. Caso o documento observado elicite um requisito que já existe na lista, ele será desconsiderado por redundância, dado que múltiplos documentos podem tratar de um mesmo assunto ou revelar as mesmas informações. 
 
-## Documentos análisados
-Essa seção contém resumos dos documentos analisados para os fins de subsequente elicitação. 
+## Documentos analisados
+Essa seção contém resumos dos documentos examinados para os fins de subsequente elicitação. 
 
 
 <!--done!-->
@@ -67,12 +67,12 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | RF08   | Consulta de Dados | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS. |
 | RF09   | Relatórios e Divulgação | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade. |
 | RF10   | Formulários de Coleta  | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
-| RF10   | Cadastro MEI    | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI. |
-| RF11   | Informações MEI    | Conter seção de informações sobre microempreendedorismo individual. |
-| RF12   | Personalização MEI | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua. |
+| RF11   | Cadastro MEI    | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI. |
+| RF12   | Informações MEI    | Conter seção de informações sobre microempreendedorismo individual. |
+| RF13   | Personalização MEI | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua. |
 
 <center>
-    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="(https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 <!--these are to keep the tables farther away!-->
@@ -94,7 +94,7 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | RNF09  | Acesso Restrito  | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.|
 | RNF10    | Integração MEI     | Permitir que o sistema converse com demais sistemas para MEIs |
 <center>
-    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="(https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 # Referencias
@@ -111,3 +111,4 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | Versão | Data | Descrição  | Autor(es) | Revisor(es) |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 02/05/2025 | Criação do documento | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP), [Ryan Salles](https://github.com/RA-Salles)| [Gabriel](https://github.com/Gabrielfcoelho) |
+| 1.1 | 02/05/2025 | Formatação, Padronização | [Ryan Salles](https://github.com/RA-Salles) | [Gabriel](https://github.com/Gabrielfcoelho) |
