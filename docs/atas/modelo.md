@@ -36,7 +36,8 @@ Reunião realizada no **Microft Teams.**
 
 | Versão |    Data    |    Descrição da Alteração   |         Autor         |       Revisor     |
 | :----: | :--------: | :-------------------------: | :-------------------: | :---------------: |
-|  1.0   | 12/04/2025 | Criação do modelo de ata         |       Ryan Salles     |    João Merlin   |
+|  1.0   | 12/04/2025 | Criação do modelo de ata         |   [Ryan Salles](https://github.com/RA-Salles)    |    [João Vitor](https://github.com/jvopBR)   |
+| 1.1 | 02/05/2025 | Correção do histórico de versionamento | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) e [João Pedro Costa](https://github.com/johnaopedro)|
 
 ## Referências
 
