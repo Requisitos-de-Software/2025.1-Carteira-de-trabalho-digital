@@ -110,4 +110,4 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 
 | Versão | Data | Descrição  | Autor(es) | Revisor(es) |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 02/05/2025 | Criação do documento | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP), [Ryan Salles](https://github.com/RA-Salles)| [Amanda](https://github.com/mandicrz) |
+| 1.0 | 02/05/2025 | Criação do documento | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP), [Ryan Salles](https://github.com/RA-Salles)| [Gabriel](https://github.com/Gabrielfcoelho) |
