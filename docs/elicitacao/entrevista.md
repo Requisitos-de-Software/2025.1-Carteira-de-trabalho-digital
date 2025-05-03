@@ -92,7 +92,7 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | RF-01   | Consulta de Benefícios          | Funcional  | Consulta de status de benefícios         | “consulta ao status dos benefícios”                                            |
 | RF-02   | Informações Cadastrais          | Funcional  | Visualização de informações cadastrais   | “visualização de informações cadastrais”                                       |
 <center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ### Requisitos Não Funcionais (RNF)
@@ -102,7 +102,7 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | RNF-01  | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”    |
 | RNF-02  | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” |
 <center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ### Requisitos Desejados (RD)
@@ -118,7 +118,7 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | RNF-D02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 | RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários com baixa alfabetização | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 <center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ## Referências
@@ -131,4 +131,4 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 30/04/2025 | Criação do documento | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Julia Gabriela](https://github.com/JuliaGabP), [Amanda Cruz](https://github.com/mandicrz) | [João Vitor](https://github.com/jvopBR) |
 | 1.1 | 30/04/2025 | Correção das datas e adição de links | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
-| 1.2 | 03/05/2025 | Adição dos requisitos identificados | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 03/05/2025 | Adição dos requisitos identificados e criação das tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
