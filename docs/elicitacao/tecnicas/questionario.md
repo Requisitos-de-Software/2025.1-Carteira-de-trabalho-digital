@@ -1,9 +1,9 @@
 # Questionário
 ## Introdução
-Esse documento tem o propósito de apresentar os resultados do questionário realizado pelo grupo 4 para a matéria de Requisitos de Software lecionada durante o período de 2025.1 pelo docente André Barros de Sales.
-O questionário é uma técnica estruturada usada para coletar informações de um conjunto de stakeholders (usuários, clientes, especialistas, etc.). Ele é composto por uma série de perguntas (fechadas, abertas ou mistas) que podem ser aplicadas presencialmente, por e-mail ou online.  
-O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo.
-Todos os dados coletados forão coletados com o consentimento dos usuários e nenhum dado sensível(tais como nome, cpf, telefones, e-mails) forão coletados. Foram obtidas 40 respostas no total.
+Esse documento tem o propósito de apresentar os resultados do questionário realizado pelo grupo 4 para a matéria de Requisitos de Software lecionada durante o período de 2025.1 pelo docente André Barros de Sales. O questionário é uma técnica estruturada usada para coletar informações de um conjunto de stakeholders (usuários, clientes, especialistas, etc.). Ele é composto por uma série de perguntas (fechadas, abertas ou mistas) que podem ser aplicadas presencialmente, por e-mail ou online.  
+
+O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo. Todos os dados coletados forão coletados com o consentimento dos usuários e nenhum dado sensível (tais como nome, cpf, telefones, e-mails) forão coletados. Foram obtidas 40 respostas no total.
+
 ## Gráficos dos resultados
 Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados
 Gráfico sobre o consentimento de compartilhar as respostas a seguir  
@@ -118,6 +118,11 @@ Gráfico sobre a necessidade de auxílio a seguir
  Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
 </center>
 
+## Requisitos elicitados
+Essa seção tratará dos requisitos elicitados a partir dos resultados obtidos pelo questionário.
+
+
+
 ## Referências Bibliográficas
 - SOMMERVILLE, Ian. *Engenharia de Software*. 10. ed. São Paulo: Pearson, 2019.
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 7. ed. Porto Alegre: AMGH, 2016.
@@ -129,3 +134,4 @@ Gráfico sobre a necessidade de auxílio a seguir
 | 1.0    | 27/04/2025 | Criação do questionário             | [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)  |
 | 1.1    | 28/04/2025 | Melhora na organização do documento | [Julia Gabriela](https://github.com/JuliaGabP)       | [Ryan Salles](https://github.com/RA-Salles)  |
 | 1.2    | 30/04/2025 | Conserto de imagens quebradas       | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP) |
+|        | 03/05/2025 | Adicionando requisitos elicitados   | [Ryan Salles](https://github.com/RA-Salles)          | A DEFINIR |
