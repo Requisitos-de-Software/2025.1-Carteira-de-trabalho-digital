@@ -2,9 +2,9 @@
 
 ## Introdução
 
-Este documento descreve o processo realizado pela equipe para escolher o aplicativo **Cadastro Único**, ferramenta que facilita o acesso e o gerenciamento das informações trabalhistas, para o desenvolvimento do projeto. A decisão foi baseada em critérios estabelecidos pelo time e pelo professor, levando em conta diversos aspectos que são abordados nesse texto. Além disso, explica as motivações que justificaram a escolha do software, descrevendo as fases metodológicas utilizadas para a seleção do mesmo, tal como discorre sobre o sistema.
+Este documento descreve o processo realizado pela equipe para escolher o aplicativo **Cadastro Único**, ferramenta que facilita o acesso e o gerenciamento das informações sociais e cadastrais de famílias em situação de vulnerabilidade, para o desenvolvimento do projeto. A decisão foi baseada em critérios estabelecidos pelo time e pelo professor, levando em conta diversos aspectos que são abordados neste texto. Além disso, explica as motivações que justificaram a escolha do software, descrevendo as fases metodológicas utilizadas para a seleção do mesmo, assim como discorre sobre o funcionamento do sistema.
 
-## Porque a Cadastro Único? 
+## Porque o Cadastro Único? 
 O processo de escolha foi conduzido em duas etapas:
 
 - Primeiramente, em uma reunião na plataforma [Microsoft Teams](https://teams.microsoft.com), foram apresentados os *rich pictures* dos [aplicativos analisados](appsAnalisados.md), permitindo uma discussão sobre suas funcionalidades; 
@@ -29,31 +29,32 @@ Considerando os critérios definidos, o grupo decidiu seguir o projeto com o Cad
 
 ## Cadastro Único
 
-<p align="center"><strong>Figura 1:</strong> Aplicativo do Cadastro Único</p>
+<p align="center"><strong>Figura 1:</strong> Aplicativo Cadastro Único</p>
 
  
 <div align="center">
-  <img src="../../assets/app-carteira.png" alt="App Carteira">
+  <img src="../assets/cadunico.jpg" alt="App Carteira" width = 200px>
 </div>
 
+<p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 13 abr. 2025</p>
 
-<p align="center"><strong>Fonte:</strong> Google Play Store. Disponível em: <a href="https://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico">play.google.com</a>. Acesso em: 30 abr. 2025</p>
-
-
-A **Carteira Digital de Trabalho** (Figura 1) tem como objetivo facilitar o acesso do cidadão aos principais serviços empregatícios, oferecendo praticidade e agilidade. O aplicativo oferece uma série de funcionalidades essenciais, como:
+O Cadastro Único (Figura 1) tem como objetivo facilitar o acesso do cidadão às principais informações sociais e programas de assistência do governo, oferecendo praticidade e agilidade no acompanhamento de sua situação cadastral. O aplicativo disponibiliza uma série de funcionalidades essenciais, como:
 
 
 * Consulta aos dados cadastrais da família e de seus membros.
 * Verificação de programas socias vinculados.
 * Emissão do comprovante de cadastramento no CadÚnico.
+* Verificação da elegibilidade a programas sociais.
+* Acompanhamento do status de benefícios vinculados ao Cadastro Único.
 
-Ademais, possibilita a realização de diversas operações, que antes exigiam deslocamento físico, como:
+Ademais, possibilita a realização de diversas operações que anteriormente exigiam comparecimento presencial, como:
 
-* Ver o status da situação cadastral.
-* Solicitação de benefícios.
-* Indicação da unidade do CRAS mais próxima.
+* Atualização de dados básicos do cadastro.
+* Visualização de pendências cadastrais.
+* Acesso a informações sobre atendimento em unidades como o CRAS.
+* Consulta aos benefícios ativos e ao histórico de recebimento.  
 
-A página do aplicativo está disponível para download na [Play Store](hhttps://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico) e na [App Store](https://apps.apple.com/us/app/cadastro-%C3%BAnico/id1605659516).
+A página do aplicativo está disponível para download na [Play Store](https://play.google.com/store/apps/details?id=br.gov.dataprev.meucadunico) e na [App Store](https://apps.apple.com/br/app/cadastro-único/id1605659516).
 
 ## Rich Picture do Aplicativo
 O Rich Picture é uma representação visual que ajuda a entender e comunicar um problema ou sistema de forma simples. Ele mapeia partes envolvidas, como pessoas e processos, e também pode ser utilizado para identificar e representar requisitos, destacando funcionalidades, restrições e interações. Com isso, facilita a interpretação e a comunicação, sendo especialmente útil durante o levantamento dos requisitos. Na Figura 1, é possível visualizar a primeira versão da Rich Picture feita para o nosso aplicativo.
@@ -62,19 +63,18 @@ O Rich Picture é uma representação visual que ajuda a entender e comunicar um
     <strong>Figura 1:</strong> Cadastro Único, Rich Picture.
 </p>
 
-![RichPicture-V1](../assets/richPictures/JoaoIgor.png)
+![RichPicture-V1](../assets/richPictures/JoaoIgor.jpg)
 
 <p align="center">
-    <strong>Autor:</strong> João Igor,  2025
+    <strong>Autor:</strong> João Igor Pereira, 2025
 </p>
 
 ## Conclusão
 O **Cadastro Único** foi a aplicação selecionada com base em parâmetros objetivos. Por meio de uma abordagem colaborativa e estruturada, a decisão foi tomada de forma conjunta, garantindo que o aplicativo atendesse às necessidades do projeto e de seus participantes.
 
 ## Bibliografia
->MINISTÉRIO DO DESENVOLVIMENTO E ASSISTÊNCIA SOCIAL, FAMÍLIA E COMBATE À FOME. Carteira de Trabalho Digital. Disponível em: <https://www.gov.br/pt-br/servicos/acessar-dados-e-informacoes-do-cadastro-unico>. Acesso em: 30 abr. 2025.
-
-> Introducing Rich Pictures, Rich Picture Drawing Guidelines. CTEC2402 - Software Development Project. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 10 abr. 2025.
+> - Cadastro Único. Disponível em: <https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico>. Acesso em: 10 abr. 2025.  
+> - Introducing Rich Pictures, Rich Picture Drawing Guidelines. CTEC2402 - Software Development Project. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 10 abr. 2025.
 
 ## Histórico de Versão
 
@@ -84,3 +84,4 @@ O **Cadastro Único** foi a aplicação selecionada com base em parâmetros obje
 | 1.1    | 13/04/2025 | Correção do histórico de versão        | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Correção de bibliografia, formatação e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3    | 30/04/2025 | Atualização do aplicativo                | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) 
+| 1.4 | 01/05/2025 | Correções aa atualização do aplicativo |  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) e [João Pedro Costa](https://github.com/johnaopedro) |
