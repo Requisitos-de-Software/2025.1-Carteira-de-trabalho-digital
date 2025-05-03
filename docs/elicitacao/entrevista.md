@@ -78,11 +78,48 @@ Com base nos relatos, os entrevistados propuseram diversas melhorias que poderia
 
    * Ferramentas informativas e interativas: Simuladores de elegibilidade para benefícios, chat de atendimento e uma tela inicial com resumo da situação cadastral e alertas.
 
-
-
 ## Conclusão
 
 A análise das entrevistas evidencia que, embora o aplicativo CadÚnico represente um avanço importante na digitalização dos serviços sociais, ainda há um longo caminho a ser percorrido para torná-lo verdadeiramente acessível e funcional para todos os públicos. A implementação das melhorias sugeridas pelos próprios usuários pode fortalecer o papel do aplicativo como instrumento de democratização do acesso a direitos sociais, ao mesmo tempo em que reduz a sobrecarga do atendimento presencial e melhora a comunicação entre o cidadão e o Estado.
+
+## Requisitos Identificados
+Nesta seção, apresentamos os requisitos funcionais e não funcionais identificados a partir das entrevistas realizadas. Os requisitos foram categorizados em três grupos: Requisitos Funcionais (RF), Requisitos Não Funcionais (RNF) e Requisitos Desejados (RD). Cada requisito é acompanhado de um ID, tipo, descrição e o trecho original da entrevista que o inspirou.
+
+### Requisitos Funcionais (RF)
+
+| ID       | Nome do Requisito               | Tipo       | Descrição                                | Trecho original                                                                 |
+|----------|---------------------------------|------------|------------------------------------------|---------------------------------------------------------------------------------|
+| RF-01   | Consulta de Benefícios          | Funcional  | Consulta de status de benefícios         | “consulta ao status dos benefícios”                                            |
+| RF-02   | Informações Cadastrais          | Funcional  | Visualização de informações cadastrais   | “visualização de informações cadastrais”                                       |
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+### Requisitos Não Funcionais (RNF)
+
+| ID       | Nome do Requisito               | Tipo            | Descrição                                | Trecho original                                                                 |
+|----------|---------------------------------|-----------------|------------------------------------------|---------------------------------------------------------------------------------|
+| RNF-01  | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”    |
+| RNF-02  | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” |
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+### Requisitos Desejados (RD)
+
+| ID       | Nome do Requisito               | Tipo            | Descrição                                      | Trecho original                                                                 |
+|----------|---------------------------------|-----------------|------------------------------------------------|---------------------------------------------------------------------------------|
+| RF-D01   | Agendamento no CRAS            | Funcional       | Agendamento de atendimentos no CRAS pelo app   | “ausência de funcionalidades … que permitam o agendamento direto … foi apontada como uma limitação importante.” |
+| RF-D02   | Notificações Personalizadas    | Funcional       | Notificações personalizadas (pendências, atualizações, confirmações) | “Notificações personalizadas: Informações sobre pendências no cadastro, atualizações de programas sociais e confirmação de agendamentos.” |
+| RF-D03   | Atualização Cadastral          | Funcional       | Passo a passo claro para atualização cadastral | “confusão quanto à documentação necessária … ausência de um passo a passo objetivo para realização dessas ações …” |
+| RF-D04   | Simulador de Benefícios        | Funcional       | Simulador de elegibilidade para benefícios     | “Simuladores de elegibilidade para benefícios sociais”                          |
+| RF-D05   | Chat de Atendimento            | Funcional       | Chat de atendimento ao usuário                 | “chat de atendimento”                                                          |
+| RNF-D01  | Tutoriais Interativos          | Não funcional   | Tutoriais interativos para guiar tarefas críticas | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF-D02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários com baixa alfabetização | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ## Referências
 
@@ -94,3 +131,4 @@ A análise das entrevistas evidencia que, embora o aplicativo CadÚnico represen
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 30/04/2025 | Criação do documento | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Julia Gabriela](https://github.com/JuliaGabP), [Amanda Cruz](https://github.com/mandicrz) | [João Vitor](https://github.com/jvopBR) |
 | 1.1 | 30/04/2025 | Correção das datas e adição de links | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
+| 1.2 | 03/05/2025 | Adição dos requisitos identificados | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
