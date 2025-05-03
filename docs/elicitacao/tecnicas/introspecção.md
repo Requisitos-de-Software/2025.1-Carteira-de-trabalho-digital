@@ -36,6 +36,9 @@ João Pedro realizou a introspecção se colocando na posição de um usuário d
 | RF03  | Consultar Situação Cadastral              | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício. |
 | RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado. |
 | RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados. |
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+</center>
 
 ### Requisitos não-funcionais
 | RNF   | Nome do RNF                              | Descrição                                                                 |
@@ -45,6 +48,9 @@ João Pedro realizou a introspecção se colocando na posição de um usuário d
 | RNF03 | Performance                              | O sistema deve ser capaz de processar as informações de cadastro e consultas rapidamente, com tempo de resposta inferior a 3 segundos. |
 | RNF04 | Compatibilidade com Dispositivos         | O aplicativo deve ser compatível com as principais plataformas móveis (Android e iOS). |
 | RNF05 | Disponibilidade                          | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo. |
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+</center>
 
 
 ## Julia Paulino
@@ -62,6 +68,10 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         |
 | RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     |
 | RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          |
+<center>
+    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 #### Desejáveis
 
 | RF    | Nome do RF                                | Descrição                                                                 |
@@ -71,6 +81,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      |
 | RF09  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
 | RF10  | Agendamento de atendimento no CRAS       | Possibilita o agendamento de atendimento nos postos de CRAS.             |
+<center>
+    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ### Requisitos Não-Funcionais
 
@@ -81,6 +94,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RNF01 | Interface intuitiva e amigável           | O design do aplicativo é simples e fácil de navegar para o usuário.       |
 | RNF02 | Capacidade de atender grande base de usuários | O aplicativo suporta muitos usuários acessando simultaneamente.           |
 | RNF03 | Integração com sistemas oficiais do governo | O aplicativo está integrado com sistemas oficiais, como o CNIS.           |
+<center>
+    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 #### Desejáveis
 
@@ -92,7 +108,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RNF07 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.|
 | RNF08 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. |
 | RNF09 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. |
-
+<center>
+    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 ---
 
 ## Requisitos Elicitados (Finais)
@@ -113,6 +131,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RF08  | Consultar Situação Cadastral        | Permite verificar o status do cadastro e da situação dos benefícios.     |
 | RF09  | Emissão de Comprovante de Cadastro  | Gera um comprovante de cadastro atualizado para o usuário.               |
 | RF10  | Filtragem de Benefícios             | Permite visualizar benefícios disponíveis com base nos dados cadastrados.|
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 #### Desejáveis
 
@@ -123,7 +144,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RF13  | Simulador de benefícios sociais           | Permite ao usuário simular benefícios sociais com base em suas informações.|
 | RF14  | Upload de documentos                      | Possibilita o envio de documentos digitalizados para o sistema.          |
 | RF15  | Agendamento de atendimento no CRAS        | Permite marcar atendimentos nos postos de atendimento presencial (CRAS). |
-
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 ---
 
 ### Requisitos Não-Funcionais
@@ -140,6 +163,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RNF06 | Performance                              | Resposta rápida nas interações do usuário (até 3 segundos).              |
 | RNF07 | Compatibilidade com Dispositivos         | Compatível com Android e iOS.                                            |
 | RNF08 | Disponibilidade                          | Garantia de 99% de disponibilidade com mínimas interrupções.             |
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 #### Desejáveis
 
@@ -151,6 +177,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 | RNF12 | Backup e restauração de sessão           | Recuperação da sessão em caso de interrupções.                           |
 | RNF13 | Modo escuro                              | Alternativa visual para ambientes com pouca luz.                         |
 | RNF14 | Alta disponibilidade e recuperação de desastres | Mecanismos para manter o sistema funcional mesmo em situações críticas. |
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ---
 
@@ -171,3 +200,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
