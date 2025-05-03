@@ -141,7 +141,8 @@ O estado de um requisito poderá ser **implementado**, **não implementado** ou 
 | RF08   | Consulta de Dados | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS. | QST07 | Implementado |
 <center>
     <b> Autor(es):</b> 
-    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>.
 </center>
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
@@ -157,7 +158,8 @@ O estado de um requisito poderá ser **implementado**, **não implementado** ou 
 
 <center>
     <b> Autor(es):</b> 
-    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>.
 </center>
 
 
