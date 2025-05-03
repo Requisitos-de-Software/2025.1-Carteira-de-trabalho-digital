@@ -35,9 +35,9 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RF08    | Consulta de Dados                     | Consulta cadastral e benefícios.                                   | Questionário / Introspecção       | Alta       |
 | RF09    | Relatórios e Divulgação               | Geração de relatórios e compartilhamento com órgãos.               | Análise de Documentos             | Média      |
 | RF10    | Formulários de Coleta                 | Formulários principais e suplementares.                            | Análise de Documentos             | Alta       |
-| RF11    | Cadastro MEI                          | Cadastro de usuário como MEI.                                      | Análise de Documentos             | Alta       |
-| RF12    | Informações MEI                       | Seção sobre MEI.                                                   | Análise de Documentos             | Média      |
-| RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                  | Análise de Documentos             | Média      |
+| RF11    | Cadastro MEI                          | Cadastro de usuário como Baixa.                                      | Análise de Documentos             | Alta       |
+| RF12    | Informações MEI                       | Seção sobre MEI.                                                   | Análise de Documentos             | Baixa      |
+| RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                  | Análise de Documentos             | Baixa      |
 | RF14  | Consultar dados cadastrais            | Visualização dos dados do Cadastro Único.                          | Introspecção                      | Alta       |
 | RF15  | Pré-cadastrar família                 | Início de pré-cadastro de unidade familiar.                        | Introspecção                      | Alta       |
 | RF16  | Localizar postos de atendimento       | Localiza CRAS com base na localização do usuário.                  | Introspecção                      | Média      |
@@ -48,11 +48,9 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RF21  | Consultar Situação Cadastral          | Verificação do status do cadastro.                                 | Introspecção                      | Alta       |
 | RF22  | Emissão de Comprovante de Cadastro    | Geração de comprovante de cadastro.                                | Introspecção                      | Média      |
 | RF23  | Filtragem de Benefícios               | Filtro de benefícios conforme dados cadastrados.                   | Introspecção                      | Média      |
-| RF24  | Acessar dados cadastrais              | Permitir ao cidadão acessar seus dados no Cadastro Único.          | Entrevista                        | Alta       |
-| RF25  | Atualizar dados                       | Permitir atualização de dados diretamente pelo aplicativo.         | Entrevista                        | Alta       |
-| RF26  | Verificar elegibilidade               | Sistema deve informar se a família é elegível a programas sociais. | Entrevista                        | Alta       |
-| RF27  | Receber notificações                  | Aplicativo deve notificar sobre pendências e prazos.               | Entrevista                        | Alta       |
-| RF28  | Ter acesso offline                    | Parte das funcionalidades deve funcionar offline.                  | Entrevista                        | Média      |
+| RF24  | Consulta de Benefícios              | Consulta de status de benefícios.          | Entrevista                        | Alta       |
+| RF25  | Informações Cadastrais                       | Visualização de informações cadastrais.         | Entrevista                        | Alta       |
+
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 #### Tabela 2: Requisitos Não Funcionais  
@@ -76,58 +74,42 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RNF16 | Performance                           | Respostas em até 3 segundos.                                       | Introspecção                      | Alta       |
 | RNF17 | Compatibilidade com Dispositivos      | Compatível com Android e iOS.                                      | Introspecção                      | Alta       |
 | RNF18 | Disponibilidade                       | 99% de disponibilidade.                                            | Introspecção                      | Alta       |
-| RNF19 | Interface simples                     | Interface intuitiva para idosos e pessoas com baixa escolaridade.  | Entrevista                        | Alta       |
-| RNF20 | Navegação por voz                     | Opção de navegação com comandos de voz.                            | Entrevista                        | Média      |
-| RNF21 | Tamanho de fonte ajustável            | Tamanho da fonte deve ser ajustável.                               | Entrevista                        | Alta       |
-| RNF22 | Ícones ilustrativos                   | Uso de ícones autoexplicativos para facilitar compreensão.         | Entrevista                        | Alta       |
-| RNF23 | Compatibilidade com aparelhos antigos | Compatível com dispositivos Android mais antigos.                  | Entrevista                        | Média      |
-| RNF24 | Proteção de dados                     | Garantir privacidade e proteção das informações pessoais.          | Entrevista                        | Alta       |
+| RNF19 | Interface Intuitiva                     | Interface intuitiva e de fácil navegação.  | Entrevista                        | Alta       |
+| RNF20 | Tela Inicial Organizada            | Organização clara da tela inicial.                               | Entrevista                        | Alta       |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
-
+ 
 ### Requisitos Desejaveis Priorizados
 
 #### Tabela 3: Requisitos Funcionais  
-| ID    | Nome do Requisito                         | Descrição                                                        | Rastreabilidade | Prioridade |
-| ----- | ----------------------------------------- | ---------------------------------------------------------------- | --------------- | ---------- |
-| RF11  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.  | Entrevista      | Média      |
-| RF12  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias. | Entrevista      | Alta       |
-| RF13  | Simulador de benefícios sociais           | Permite simular benefícios com base nas informações do usuário.  | Entrevista      | Média      |
-| RF14  | Upload de documentos                      | Permite o envio de documentos digitalizados para o sistema.      | Entrevista      | Média      |
-| RF15  | Agendamento de atendimento no CRAS        | Permite marcar atendimentos presenciais no CRAS.                 | Entrevista      | Alta       |
+| ID     | Nome do Requisito           | Descrição                                                            | Rastreabilidade | Prioridade |
+| ------ | --------------------------- | -------------------------------------------------------------------- | --------------- | ---------- |
+| RF-D01 | Agendamento no CRAS         | Agendamento de atendimentos no CRAS pelo app                         | Entrevista e Introspecção      | Alta  |
+| RF-D02 | Notificações Personalizadas | Notificações personalizadas (pendências, atualizações, confirmações) | Entrevista e Introspecção      | Média  |
+| RF-D03 | Atualização Cadastral       | Passo a passo claro para atualização cadastral                       | Entrevista      | Baixa  |
+| RF-D04 | Simulador de Benefícios     | Simulador de elegibilidade para benefícios                           | Entrevista e Introspecção      | Baixa  |
+| RF-D05 | Chat de Atendimento         | Chat de atendimento ao usuário                                       | Entrevista      | Alta  |
+| RF-D06 | Chatbot de Atendimento | Implementa um chatbot para atendimento automatizado ao usuário. | Introspecção     | Alta  |
+| RF-D07 | Upload de Documentos   | Possibilita o envio de documentos digitalizados para o sistema. | Introspecção     | Baixa  |
+
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 #### Tabela 4: Requisitos Não Funcionais  
-| ID    | Nome do Requisito                         | Descrição                                                        | Rastreabilidade | Prioridade |
-| ----- | ----------------------------------------- | ---------------------------------------------------------------- | --------------- | ---------- |
-| RNF09 | Acessibilidade para deficiência visual    | Leitores de tela e navegação adaptada.                           | Entrevista      | Alta       |
-| RNF10 | Desempenho para internet limitada         | Operação eficiente com conexão lenta.                            | Entrevista      | Média      |
-| RNF11 | Outros idiomas                            | Disponibilidade do app em múltiplos idiomas.                     | Entrevista      | Baixa      |
-| RNF12 | Backup e restauração de sessão            | Recuperação da sessão em caso de falha.                          | Entrevista      | Média      |
-| RNF13 | Modo escuro                               | Alternativa visual para ambientes escuros.                       | Entrevista      | Baixa      |
-| RNF14 | Alta disponibilidade e recuperação        | Garantia de funcionamento mesmo em desastres.                    | Entrevista      | Alta       |
+| ID      | Nome do Requisito     | Descrição                                                    | Rastreabilidade | Prioridade    |
+| ------- | --------------------- | ------------------------------------------------------------ | --------------- | ------------- |
+| RNF-D01 | Tutoriais Interativos | Tutoriais interativos para guiar tarefas críticas            | Entrevista      | Média |
+| RNF-D02 | Vídeos Explicativos   | Vídeos explicativos dentro do app                            | Entrevista      | Baixa |
+| RNF-D03 | Assistência por Voz   | Ferramenta de assistência por voz para usuários necessitados | Entrevista e Introspecção      | Alta |
+| RNF-D04 | Desempenho otimizado para internet limitada     | Operação eficiente em conexões lentas                                  | Introspecção      | Alta       |
+| RNF-D05 | Possibilidade de outros idiomas                 | Disponibilidade do app em múltiplos idiomas                            | Introspecção      | Média      |
+| RNF-D06 | Backup e restauração de sessão                  | Recuperação da sessão em caso de interrupções                          | Introspecção      | Alta       |
+| RNF-D07 | Modo escuro                                     | Alternativa visual para ambientes com pouca luz                        | Introspecção      | Baixa      |
+| RNF-D08 | Alta disponibilidade e recuperação de desastres | Mecanismos para manter o sistema funcional mesmo em situações críticas | Introspecção      | Alta       |
+
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ### Renomeação de Requisitos
 
-O nome de alguns requisitos foram alterados para melhorar a clareza e torná-los mais precisos quanto à sua funcionalidade ou objetivo. A seguir, são apresentados os requisitos que sofreram alterações em sua nomenclatura:
-
-#### Tabela 5: Nome Original / Nome Novo
-
-| **ID** | **Nome Original** | **Nome Novo** | **Rastreabilidade** | **Origem** |
-|--------|-------------------|---------------|---------------------|------------|
-| RF05   | Atualização de Dados | Atualização diária de Dados | Questionário / Introspecção | Análise de Documentos |
-| RF07   | Correção de Inconsistências | Correção e retransmissão de dados | Análise de Documentos | Análise de Documentos |
-| RNF07  | Compatibilidade com Aplicativo Off-line | Funcionalidades Off-line | QST13 | Questionário |
-| RF-D01 | Agendamento no CRAS | Agendamento de atendimento no CRAS | Entrevista | Requisitos Desejados |
-| RF-D05 | Chat de Atendimento | Chatbot de atendimento automatizado | Entrevista | Requisitos Desejados |
-| RNF-D03 | Assistência por Voz | Navegação por voz | Entrevista | Requisitos Desejados |
-| RNF05  | Acessibilidade | Acessibilidade para deficiência visual | Entrevista | Análise de Documentos |
-| RF24 | Consulta de Benefícios | Acessar dados cadastrais | Entrevista | Entrevista |
-| RF26 | Verificar elegibilidade | Sistema deve informar se a família é elegível a programas sociais | Entrevista | Entrevista |
-<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
-
-<br>
-Estas mudanças visam facilitar o entendimento dos requisitos, além de tornar mais precisa a descrição das funcionalidades esperadas do sistema.
+O nome de alguns requisitos foram alterados para melhorar a clareza e torná-los mais precisos quanto à sua funcionalidade ou objetivo. Estas mudanças visam facilitar o entendimento dos requisitos, além de tornar mais precisa a descrição das funcionalidades esperadas do sistema.
 
 ## Referências
 
