@@ -2,7 +2,7 @@
 ## Introdução
 Esse documento tem o propósito de apresentar os resultados do questionário realizado pelo grupo 4 para a matéria de Requisitos de Software lecionada durante o período de 2025.1 pelo docente André Barros de Sales. O questionário é uma técnica estruturada usada para coletar informações de um conjunto de stakeholders (usuários, clientes, especialistas, etc.). Ele é composto por uma série de perguntas (fechadas, abertas ou mistas) que podem ser aplicadas presencialmente, por e-mail ou online.  
 
-O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo. Todos os dados coletados forão coletados com o consentimento dos usuários e nenhum dado sensível (tais como nome, cpf, telefones, e-mails) forão coletados. Foram obtidas 40 respostas no total.
+O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo. Todos os dados foram coletados com o consentimento dos usuários e nenhum dado sensível (tais como nome, cpf, telefones, e-mails). 40 respostas válidas foram contabilizadas, no total.
 
 ## Gráficos dos resultados
 Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados
