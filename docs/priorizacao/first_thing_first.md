@@ -66,4 +66,4 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da página da tecnica First Thing First| [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
-| 1.1 | 04/05/2025 | Priorização de requisitos | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.1 | 04/05/2025 | Priorização de requisitos | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan](https://github.com/RA-Salles) e [João Pedro Costa](https://github.com/johnaopedro) |
