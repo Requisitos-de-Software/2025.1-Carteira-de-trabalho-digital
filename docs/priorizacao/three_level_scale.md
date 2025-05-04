@@ -35,8 +35,8 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RF08    | Consulta de Dados                     | Consulta cadastral e benefícios.                                   | Questionário / Introspecção       | Alta       |
 | RF09    | Relatórios e Divulgação               | Geração de relatórios e compartilhamento com órgãos.               | Análise de Documentos             | Média      |
 | RF10    | Formulários de Coleta                 | Formulários principais e suplementares.                            | Análise de Documentos             | Alta       |
-| RF11    | Cadastro MEI                          | Cadastro de usuário como Baixa.                                      | Análise de Documentos             | Alta       |
-| RF12    | Informações MEI                       | Seção sobre MEI.                                                   | Análise de Documentos             | Baixa      |
+| RF11    | Cadastro MEI                          | Cadastro de usuário como MEI.                                      | Análise de Documentos             | Baixa       |
+| RF12    | Informações MEI                       | Seção sobre MEI.                                                   | Análise de Documentos             | Média      |
 | RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                  | Análise de Documentos             | Baixa      |
 | RF14  | Consultar dados cadastrais            | Visualização dos dados do Cadastro Único.                          | Introspecção                      | Alta       |
 | RF15  | Pré-cadastrar família                 | Início de pré-cadastro de unidade familiar.                        | Introspecção                      | Alta       |
@@ -65,7 +65,7 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RNF07   | Compatibilidade com Aplicativo Off-line | Compatível com app offline dos municípios.                         | Análise de documentos                | Alta       |
 | RNF08   | Transmissão via Conectividade Social  | Uso exclusivo da ferramenta da CAIXA.                              | Análise de documentos                | Alta       |
 | RNF09   | Acesso Restrito                       | Acesso restrito a instituições autorizadas.                        | Análise de documentos                | Alta       |
-| RNF10   | Integração MEI                        | Comunicação com sistemas voltados ao MEI.                          | Análise de documentos                | Alta       |
+| RNF10   | Integração MEI                        | Comunicação com sistemas voltados ao MEI.                          | Análise de documentos                | Baixa    |
 | RNF11 | Interface intuitiva e amigável        | Interface simples e de fácil navegação.                            | Introspecção                      | Alta       |
 | RNF12 | Suporte a grande base de usuários     | Suporte a muitos acessos simultâneos.                              | Introspecção                      | Alta       |
 | RNF13 | Integração com sistemas oficiais      | Integração com sistemas como CNIS.                                 | Introspecção                      | Alta       |
@@ -121,3 +121,4 @@ O nome de alguns requisitos foram alterados para melhorar a clareza e torná-los
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 28/04/2025 | Criação da página da técnica Three Level Scale| [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1    | 03/05/2025 | Atualização da aplicação da técnica | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2    | 04/05/2025 | Alteração nas prioridades do MEI | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
