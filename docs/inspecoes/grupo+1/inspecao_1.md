@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada pelo [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) sobre a [Lista de Verificação](../../verificacao/grupo+1/checklist_1.md) referente ao [Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE), cujo foco de trabalho está o aplicativo do IBGE, para a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
+Este documento apresenta o resultado da **inspeção** realizada pelo [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) sobre a [Lista de Verificação](../../verificacao/checklist_1.md) referente ao [Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE), cujo foco de trabalho está o aplicativo do IBGE, para a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
@@ -22,8 +22,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 
 <p align="center"><strong>Tabela 1:</strong> Inspeção dos Itens de Planejamento</p>
 
-<center>
-
 | **ID** |                                     **Item**                                      | **Resposta** |
 | :----: | :-------------------------------------------------------------------------------: | :----------: |
 |  P01   |                Página com integrantes (foto e nome, sem matrícula)                |   Conforme   |
@@ -38,8 +36,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  P10   |                   GitPages oferece opção de contraste de cores                    |   Conforme   |
 |  P11   |                         GitPages organizado de fácil uso                          |   Conforme   |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 #### Observações
@@ -50,8 +46,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 ### Desenvolvimento do Projeto
 
 <p align="center"><strong>Tabela 2:</strong> Inspeção dos Itens de Desenvolvimento</p>
-
-<center>
 
 | **ID** |                       **Item**                       | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
@@ -65,8 +59,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  DS08  |                Gravação das reuniões                 |   Conforme   |
 |  DS09  | Upload de apresentação no YouTube como não "listado" |   Conforme   |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 #### Observações
@@ -78,8 +70,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 
 <p align="center"><strong>Tabela 3:</strong> Inspeção do RichPicture</p>
 
-<center>
-
 | **ID** |                                       **Item**                                        | **Resposta** |
 | :----: | :-----------------------------------------------------------------------------------: | :----------: |
 |  RP01  |                 Todos os membros realizaram ao menos um Rich Picture                  | Não Conforme |
@@ -88,8 +78,6 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  RP04  |                        Uso de palavras-chave nos Rich Pictures                        |   Conforme   |
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             |   Conforme   |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       |   Conforme   |
-
-</center>
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
@@ -107,21 +95,13 @@ O vídeo abaixo refere-se à inspeção descrita neste artefato, realizada no **
 
 <p align="center"><strong>Tabela 4:</strong> Data e duração da gravação</p>
 
-<center>
-
 |    Data    | Início | Término |
 | :--------: | :----: | :-----: |
 | 14/04/2025 | 20:46  |  21:07  |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
-<center>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQMCIPQ6WIc?si=G5euwLcXrBi49KsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-</center>
 
 ## Conclusão
 
