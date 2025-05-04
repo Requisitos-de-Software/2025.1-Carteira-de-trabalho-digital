@@ -22,6 +22,41 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 - **Reduzir riscos técnicos** – Adotar uma abordagem incremental, desenvolvendo primeiro os aspectos mais seguros e previsíveis antes de funcionalidades mais complexas.
 - **Melhorar a experiência do usuário** – Garantir que o atendimento às famílias ocorra sem interrupções, otimizando processos essenciais antes de implementar melhorias secundárias.
 
+## Requisitos
+
+### Requisitos Funcionais (RF)
+
+| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** |
+|---------|----------------------------|-----------------|-------------|---------------|----------|
+| RF01   | Cadastro e atualização de dados das famílias.               | Sim | Sim | 1 | Fazer Agora |
+| RF02   | Integração com sistemas governamentais para conformidade.   | Sim | Sim | 1 | Fazer Agora |
+| RF03   | Geração de relatórios analíticos detalhados.                | Sim | Não | 2 | Planejar |
+| RF04   | Sistema de notificações automáticas para prazos e atualizações. | Sim | Não | 2 | Planejar |
+| RF05   | Funcionalidades para consulta e edição de informações pelos usuários. | Sim | Sim | 1 | Fazer Agora |
+| RF06   | Autenticação de usuários (login seguro com CPF e senha).       | Sim | Sim | 1 | Fazer Agora |
+| RF07   | Recuperação de senha por e-mail ou SMS.                        | Sim | Sim | 1 | Fazer Agora |
+| RF08   | Consulta de benefícios disponíveis.                            | Sim | Sim | 1 | Fazer Agora |
+| RF09   | Atualização de status de inscrição.                            | Sim | Sim | 1 | Fazer Agora |
+| RF10   | Histórico de atualizações no cadastro.                         | Sim | Não | 1 | Fazer Agora |
+
+
+### Requisitos Não Funcionais (RNF)
+
+| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** |
+|---------|----------------------------|-----------------|-------------|---------------|----------|
+| RNF01  | Garantir a acessibilidade para pessoas com deficiência (padrões WCAG). | Sim | Sim | 1 | Fazer Agora |
+| RNF02  | Tempo de resposta do sistema inferior a 2 segundos por operação. | Sim | Não | 2 | Planejar |
+| RNF03  | Interface amigável e intuitiva para melhorar a experiência do usuário. | Sim | Não | 2 | Planejar |
+| RNF04  | Capacidade de suportar até 10 mil usuários simultâneos.      | Sim | Sim | 1 | Fazer Agora |
+| RNF05  | Disponibilidade do sistema 99,9% do tempo.                  | Sim | Sim | 1 | Fazer Agora |
+| RNF06  | Conformidade com a Lei Geral de Proteção de Dados (LGPD).       | Sim | Sim | 1 | Fazer Agora |
+| RNF07  | Criptografia de dados sensíveis em trânsito e em repouso.       | Sim | Sim | 1 | Fazer Agora |
+| RNF08  | Compatibilidade com dispositivos móveis variados.              | Sim | Não | 2 | Planejar |
+| RNF09  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar |
+| RNF10  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar |
+| RNF11  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar |
+| RNF11  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
+
 ## Referências
 
 > WIEGERS, Karl E. **First Things First: Prioritizing Requirements**. *Software Development*, setembro 1999. Acesso em: 23 abr. 2025.
@@ -31,3 +66,4 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da página da tecnica First Thing First| [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.1 | 04/05/2025 | Priorização de requisitos | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan](https://github.com/RA-Salles) |
