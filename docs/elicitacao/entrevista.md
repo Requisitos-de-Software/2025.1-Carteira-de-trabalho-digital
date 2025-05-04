@@ -116,7 +116,7 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | RF-D05   | Chat de Atendimento            | Funcional       | Chat de atendimento ao usuário                 | “chat de atendimento”                                                          |
 | RNF-D01  | Tutoriais Interativos          | Não funcional   | Tutoriais interativos para guiar tarefas críticas | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 | RNF-D02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-| RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários com baixa alfabetização | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários necessitados | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
