@@ -18,11 +18,17 @@ nav:
     - Introdução: elicitacao/index.md
     - Perfil de Usuário: elicitacao/perfil_usuario.md
     - Personas: elicitacao/personas.md
-    - Técnicas: 
+    - Técnicas de Elicitação: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
       - Questionário: elicitacao/tecnicas/questionario.md
+      - Entrevista: elicitacao/tecnicas/entrevista.md
+      - Análise de Documentação: elicitacao/tecnicas/analise_documentacao.md
     - Priorização:
+      - Introdução: elicitacao/priorizacao/index.md
       - $100: elicitacao/priorizacao/100dollars.md
+      - MoSCoW: elicitacao/priorizacao/moscow.md
+      - First Things First: elicitacao/priorizacao/first_thing_first.md
+      - Three Level Scale: elicitacao/priorizacao/three_level_scale.md
     
   - Verificação:
     - Grupo:
