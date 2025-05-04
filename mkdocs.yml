@@ -21,6 +21,8 @@ nav:
     - Técnicas: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
       - Questionário: elicitacao/tecnicas/questionario.md
+    - Priorização:
+      - $100: elicitacao/priorizacao/100dollars.md
     
   - Verificação:
     - Grupo:
