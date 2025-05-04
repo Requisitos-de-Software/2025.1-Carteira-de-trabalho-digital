@@ -144,8 +144,6 @@ A combinação dos dados do questionário e das entrevistas permitiu construir u
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021). Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
 
 ## Histórico de Versão
-
-## Histórico de Versão
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 03/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) | 
