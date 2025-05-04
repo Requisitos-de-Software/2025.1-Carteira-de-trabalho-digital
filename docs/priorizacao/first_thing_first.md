@@ -55,7 +55,7 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 | RNF09  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar |
 | RNF10  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar |
 | RNF11  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar |
-| RNF11  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
+| RNF12  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
 
 ## Referências
 
