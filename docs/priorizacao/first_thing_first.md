@@ -59,15 +59,14 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 | RNF01  | Garantir a acessibilidade para pessoas com deficiência (padrões WCAG). | Sim | Sim | 1 | Fazer Agora |
 | RNF02  | Tempo de resposta do sistema inferior a 2 segundos por operação. | Sim | Não | 2 | Planejar |
 | RNF03  | Interface amigável e intuitiva para melhorar a experiência do usuário. | Sim | Não | 2 | Planejar |
-| RNF04  | Capacidade de suportar até 10 mil usuários simultâneos.      | Sim | Sim | 1 | Fazer Agora |
-| RNF05  | Disponibilidade do sistema 99,9% do tempo.                  | Sim | Sim | 1 | Fazer Agora |
-| RNF06  | Conformidade com a Lei Geral de Proteção de Dados (LGPD).       | Sim | Sim | 1 | Fazer Agora |
-| RNF07  | Criptografia de dados sensíveis em trânsito e em repouso.       | Sim | Sim | 1 | Fazer Agora |
-| RNF08  | Compatibilidade com dispositivos móveis variados.              | Sim | Não | 2 | Planejar |
-| RNF09  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar |
-| RNF10  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar |
-| RNF11  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar |
-| RNF12  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
+| RNF04  | Disponibilidade do sistema 99,9% do tempo.                  | Sim | Sim | 1 | Fazer Agora |
+| RNF05  | Conformidade com a Lei Geral de Proteção de Dados (LGPD).       | Sim | Sim | 1 | Fazer Agora |
+| RNF06  | Criptografia de dados sensíveis em trânsito e em repouso.       | Sim | Sim | 1 | Fazer Agora |
+| RNF07  | Compatibilidade com dispositivos móveis variados.              | Sim | Não | 2 | Planejar |
+| RNF08  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar |
+| RNF9  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar |
+| RNF10  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar |
+| RNF11  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
 
 ## Referências
 
