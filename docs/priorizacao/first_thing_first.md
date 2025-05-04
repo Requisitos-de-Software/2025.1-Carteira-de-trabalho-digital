@@ -24,6 +24,18 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 
 ## Requisitos
 
+### Diagrama 
+
+<p align="center">
+    <strong>Figura 1:</strong> Diagrama First Things First.
+</p>
+
+![First-things-first](../assets/diagrama-ftf.jpg)
+
+<p align="center">
+    <strong>Autor:</strong> Stephen R. Covey, 1989
+</p>
+
 ### Requisitos Funcionais (RF)
 
 | **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** |
@@ -59,7 +71,10 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 
 ## Referências
 
-> WIEGERS, Karl E. **First Things First: Prioritizing Requirements**. *Software Development*, setembro 1999. Acesso em: 23 abr. 2025.
+> - WIEGERS, Karl E. **First Things First: Prioritizing Requirements**. *Software Development*, setembro 1999. Acesso em: 23 abr. 2025.
+> - COVEY, S. The 7 Habits of Highly Effective Teens: Workbook. [s.l.] Mango Media Inc., 2015.
+
+‌
 
 ## Histórico de Versões
 
