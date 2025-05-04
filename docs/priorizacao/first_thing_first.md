@@ -38,35 +38,35 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 
 ### Requisitos Funcionais (RF)
 
-| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** |
-|---------|----------------------------|-----------------|-------------|---------------|----------|
-| RF01   | Cadastro e atualização de dados das famílias.               | Sim | Sim | 1 | Fazer Agora |
-| RF02   | Integração com sistemas governamentais para conformidade.   | Sim | Sim | 1 | Fazer Agora |
-| RF03   | Geração de relatórios analíticos detalhados.                | Sim | Não | 2 | Planejar |
-| RF04   | Sistema de notificações automáticas para prazos e atualizações. | Sim | Não | 2 | Planejar |
-| RF05   | Funcionalidades para consulta e edição de informações pelos usuários. | Sim | Sim | 1 | Fazer Agora |
-| RF06   | Autenticação de usuários (login seguro com CPF e senha).       | Sim | Sim | 1 | Fazer Agora |
-| RF07   | Recuperação de senha por e-mail ou SMS.                        | Sim | Sim | 1 | Fazer Agora |
-| RF08   | Consulta de benefícios disponíveis.                            | Sim | Sim | 1 | Fazer Agora |
-| RF09   | Atualização de status de inscrição.                            | Sim | Sim | 1 | Fazer Agora |
-| RF10   | Histórico de atualizações no cadastro.                         | Sim | Não | 1 | Fazer Agora |
+| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** | **Rastreabilidade**|
+|---------|----------------------------|-----------------|-------------|---------------|----------|----------------|
+| RF01   | Cadastro e atualização de dados das famílias.               | Sim | Sim | 1 | Fazer Agora | Análise de documentos |
+| RF02   | Integração com sistemas governamentais para conformidade.   | Sim | Sim | 1 | Fazer Agora | Instrospecção|
+| RF03   | Geração de relatórios analíticos detalhados.                | Sim | Não | 2 | Planejar | Análise de documentos |
+| RF04   | Sistema de notificações automáticas para prazos e atualizações. | Sim | Não | 2 | Planejar | Introspecção |
+| RF05   | Funcionalidades para consulta e edição de informações pelos usuários. | Sim | Sim | 1 | Fazer Agora | Análise de documentos |
+| RF06   | Autenticação de usuários (login seguro com CPF e senha).       | Sim | Sim | 1 | Fazer Agora | Questionário |
+| RF07   | Recuperação de senha por e-mail ou SMS.                        | Sim | Sim | 1 | Fazer Agora | Introspecção |
+| RF08   | Consulta de benefícios disponíveis.                            | Sim | Sim | 1 | Fazer Agora | Questionário |
+| RF09   | Atualização de status de inscrição.                            | Sim | Sim | 1 | Fazer Agora | Análise de documentos |
+| RF10   | Histórico de atualizações no cadastro.                         | Sim | Não | 1 | Fazer Agora | Introspecção |
 
 
 ### Requisitos Não Funcionais (RNF)
 
-| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** |
-|---------|----------------------------|-----------------|-------------|---------------|----------|
-| RNF01  | Garantir a acessibilidade para pessoas com deficiência (padrões WCAG). | Sim | Sim | 1 | Fazer Agora |
-| RNF02  | Tempo de resposta do sistema inferior a 2 segundos por operação. | Sim | Não | 2 | Planejar |
-| RNF03  | Interface amigável e intuitiva para melhorar a experiência do usuário. | Sim | Não | 2 | Planejar |
-| RNF04  | Disponibilidade do sistema 99,9% do tempo.                  | Sim | Sim | 1 | Fazer Agora |
-| RNF05  | Conformidade com a Lei Geral de Proteção de Dados (LGPD).       | Sim | Sim | 1 | Fazer Agora |
-| RNF06  | Criptografia de dados sensíveis em trânsito e em repouso.       | Sim | Sim | 1 | Fazer Agora |
-| RNF07  | Compatibilidade com dispositivos móveis variados.              | Sim | Não | 2 | Planejar |
-| RNF08  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar |
-| RNF9  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar |
-| RNF10  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar |
-| RNF11  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar |
+| **ID**  | **Descrição do Requisito** | **Importante?** | **Urgente?**| **Quadrante** | **Ação** | **Rastreabilidade** |
+|---------|----------------------------|-----------------|-------------|---------------|----------|-----------------|
+| RNF01  | Garantir a acessibilidade para pessoas com deficiência (padrões WCAG). | Sim | Sim | 1 | Fazer Agora | Introspecção |
+| RNF02  | Tempo de resposta do sistema inferior a 2 segundos por operação. | Sim | Não | 2 | Planejar | Introspecção|
+| RNF03  | Interface amigável e intuitiva para melhorar a experiência do usuário. | Sim | Não | 2 | Planejar | Entrevista |
+| RNF04  | Disponibilidade do sistema 99,9% do tempo.                  | Sim | Sim | 1 | Fazer Agora | Introspecção |
+| RNF05  | Conformidade com a Lei Geral de Proteção de Dados (LGPD).       | Sim | Sim | 1 | Fazer Agora | Análise de documento |
+| RNF06  | Criptografia de dados sensíveis em trânsito e em repouso.       | Sim | Sim | 1 | Fazer Agora | Introspecção |
+| RNF07  | Compatibilidade com dispositivos móveis variados.              | Sim | Não | 2 | Planejar | Introspecção |
+| RNF08  | Operação funcional em redes de baixa velocidade (modo offline). | Sim | Não | 2 | Planejar | Análise de documentos |
+| RNF9  | Atualizações automáticas sem necessidade de reinstalação manual. | Não | Não | 4 | Eliminar | Introspecção |
+| RNF10  | Modo escuro, uma alternativa visual para ambientes com pouca luz  | Não | Não | 4 | Eliminar | Introspecção |
+| RNF11  | Disponibilidade do app em múltiplos idiomas.          | Não | Não | 4 | Eliminar | Introspecção |
 
 ## Referências
 
