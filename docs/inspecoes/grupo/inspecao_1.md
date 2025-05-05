@@ -16,7 +16,7 @@ Durante a análise, as respostas serão preenchidas de acordo com a conformidade
 
 ## Inspeção dos Itens
 
-As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos elementos de Planejamento, Desenvolvimento do Projeto e Conteúdo da Disciplina.
+As Tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos elementos de Planejamento, Desenvolvimento do Projeto e Conteúdo da Disciplina.
 
 ---
 
@@ -93,7 +93,7 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 
 ## Referências
 
-> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/grupo/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
+> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação - Entrega 1](../../verificacao/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
 
 ## Histórico de versão
 
