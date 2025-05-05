@@ -18,6 +18,7 @@ nav:
     - Introdução: elicitacao/index.md
     - Perfil de Usuário: elicitacao/perfil_usuario.md
     - Personas: elicitacao/personas.md
+    - Requisitos Desejaveis: elicitacao/requisitos_desejaveis.md
     - Técnicas de Elicitação: 
       - Instrospecção: elicitacao/tecnicas/introspecção.md
       - Questionário: elicitacao/tecnicas/questionario.md

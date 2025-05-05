@@ -59,8 +59,6 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 
 ### Requisitos Funcionais
 
-#### Já Existentes
-
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
 | RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              |
@@ -72,22 +70,7 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-#### Desejáveis
-
-| RF    | Nome do RF                                | Descrição                                                                 |
-|-------|-------------------------------------------|---------------------------------------------------------------------------|
-| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
-| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
-| RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      |
-| RF09  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
-| RF10  | Agendamento de atendimento no CRAS       | Possibilita o agendamento de atendimento nos postos de CRAS.             |
-<center>
-    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
-</center>
-
 ### Requisitos Não-Funcionais
-
-#### Já Existentes
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
@@ -98,26 +81,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-#### Desejáveis
-
-| RNF   | Nome do RNF                              | Descrição                                                                 |
-|-------|------------------------------------------|---------------------------------------------------------------------------|
-| RNF04 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. |
-| RNF05 | Desempenho otimizado para internet limitada | O aplicativo oferece desempenho otimizado para conexões de internet mais lentas.|
-| RNF06 | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. |
-| RNF07 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.|
-| RNF08 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. |
-| RNF09 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. |
-<center>
-    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
-</center>
----
-
 ## Requisitos Elicitados (Finais)
 
 ### Requisitos Funcionais
-
-#### Já Existentes
 
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
@@ -135,23 +101,9 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-#### Desejáveis
-
-| RF    | Nome do RF                                | Descrição                                                                 |
-|-------|-------------------------------------------|---------------------------------------------------------------------------|
-| RF11  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
-| RF12  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
-| RF13  | Simulador de benefícios sociais           | Permite ao usuário simular benefícios sociais com base em suas informações.|
-| RF14  | Upload de documentos                      | Possibilita o envio de documentos digitalizados para o sistema.          |
-| RF15  | Agendamento de atendimento no CRAS        | Permite marcar atendimentos nos postos de atendimento presencial (CRAS). |
-<center>
-    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
-</center>
 ---
 
 ### Requisitos Não-Funcionais
-
-#### Já Existentes
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
@@ -167,22 +119,7 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-#### Desejáveis
-
-| RNF   | Nome do RNF                              | Descrição                                                                 |
-|-------|------------------------------------------|---------------------------------------------------------------------------|
-| RNF09 | Acessibilidade para pessoas com deficiência visual | Inclusão de leitores de tela e navegação adaptada.                  |
-| RNF10 | Desempenho otimizado para internet limitada | Operação eficiente em conexões lentas.                             |
-| RNF11 | Possibilidade de outros idiomas          | Disponibilidade do app em múltiplos idiomas.                             |
-| RNF12 | Backup e restauração de sessão           | Recuperação da sessão em caso de interrupções.                           |
-| RNF13 | Modo escuro                              | Alternativa visual para ambientes com pouca luz.                         |
-| RNF14 | Alta disponibilidade e recuperação de desastres | Mecanismos para manter o sistema funcional mesmo em situações críticas. |
-<center>
-    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
-</center>
-
 ---
-
 
 
 ## Conclusão
@@ -201,3 +138,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.2    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
