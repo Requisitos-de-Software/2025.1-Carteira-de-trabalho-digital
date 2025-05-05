@@ -105,22 +105,6 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-### Requisitos Desejados (RD)
-
-| ID       | Nome do Requisito               | Tipo            | Descrição                                      | Trecho original                                                                 |
-|----------|---------------------------------|-----------------|------------------------------------------------|---------------------------------------------------------------------------------|
-| RF-D01   | Agendamento no CRAS            | Funcional       | Agendamento de atendimentos no CRAS pelo app   | “ausência de funcionalidades … que permitam o agendamento direto … foi apontada como uma limitação importante.” |
-| RF-D02   | Notificações Personalizadas    | Funcional       | Notificações personalizadas (pendências, atualizações, confirmações) | “Notificações personalizadas: Informações sobre pendências no cadastro, atualizações de programas sociais e confirmação de agendamentos.” |
-| RF-D03   | Atualização Cadastral          | Funcional       | Passo a passo claro para atualização cadastral | “confusão quanto à documentação necessária … ausência de um passo a passo objetivo para realização dessas ações …” |
-| RF-D04   | Simulador de Benefícios        | Funcional       | Simulador de elegibilidade para benefícios     | “Simuladores de elegibilidade para benefícios sociais”                          |
-| RF-D05   | Chat de Atendimento            | Funcional       | Chat de atendimento ao usuário                 | “chat de atendimento”                                                          |
-| RNF-D01  | Tutoriais Interativos          | Não funcional   | Tutoriais interativos para guiar tarefas críticas | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-| RNF-D02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-| RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários necessitados | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-<center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
-</center>
-
 ## Referências
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
@@ -132,3 +116,4 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | 1.0    | 30/04/2025 | Criação do documento | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Julia Gabriela](https://github.com/JuliaGabP), [Amanda Cruz](https://github.com/mandicrz) | [João Vitor](https://github.com/jvopBR) |
 | 1.1 | 30/04/2025 | Correção das datas e adição de links | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
 | 1.2 | 03/05/2025 | Adição dos requisitos identificados e criação das tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
