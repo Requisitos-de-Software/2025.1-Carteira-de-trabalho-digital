@@ -51,7 +51,11 @@ Analisando famílias e pessoas em situação de trabalho infantil, temos, 7.156 
 Alguns dos principais benefícios do Cadastro Único são, Bolsa Família, Pé de Meia, Tarifa Social de Energia, Auxílio Gás, Programa Minha Casa Minha Vida, entre outros.
 
 ## Requisitos Elicitados
-Essa seção contém os requisitos elicitados por consequência da análise da documentação. Os requisitos serão apresentados por meio das Tabelas 2
+Essa seção contém os requisitos elicitados por consequência da análise da documentação. Os requisitos serão apresentados por meio das Tabelas 2 e 3, que contêm os requisitos funcionais e não funcionais, respectivamente.
+
+Legenda - Tabela 2:
+ 
+- RFx: Requisitos Funcionais nºx.
 
 <center> <b>Tabela 2:</b> Requisitos Funcionais </center>
 
@@ -78,6 +82,10 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 <!--these are to keep the tables farther away!-->
 </br>
 </br>
+
+Legenda - Tabela 3:
+
+- RNFx: Requisitos Não-Funcionais nºx.
 
 <center> <b>Tabela 3:</b> Requisitos Não Funcionais </center>
 
@@ -112,3 +120,4 @@ Essa seção contém os requisitos elicitados por consequência da análise da d
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 02/05/2025 | Criação do documento | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP), [Ryan Salles](https://github.com/RA-Salles)| [Gabriel](https://github.com/Gabrielfcoelho) |
 | 1.1 | 02/05/2025 | Formatação, Padronização | [Ryan Salles](https://github.com/RA-Salles) | [Gabriel](https://github.com/Gabrielfcoelho) |
+| 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |

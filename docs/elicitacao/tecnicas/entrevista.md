@@ -83,9 +83,13 @@ Com base nos relatos, os entrevistados propuseram diversas melhorias que poderia
 A análise das entrevistas evidencia que, embora o aplicativo CadÚnico represente um avanço importante na digitalização dos serviços sociais, ainda há um longo caminho a ser percorrido para torná-lo verdadeiramente acessível e funcional para todos os públicos. A implementação das melhorias sugeridas pelos próprios usuários pode fortalecer o papel do aplicativo como instrumento de democratização do acesso a direitos sociais, ao mesmo tempo em que reduz a sobrecarga do atendimento presencial e melhora a comunicação entre o cidadão e o Estado.
 
 ## Requisitos Identificados
-Nesta seção, apresentamos os requisitos funcionais e não funcionais identificados a partir das entrevistas realizadas. Os requisitos foram categorizados em três grupos: Requisitos Funcionais (RF), Requisitos Não Funcionais (RNF) e Requisitos Desejados (RD). Cada requisito é acompanhado de um ID, tipo, descrição e o trecho original da entrevista que o inspirou.
+Nesta seção, apresentamos os requisitos funcionais e não funcionais identificados a partir das entrevistas realizadas. Os requisitos foram categorizados em três grupos: Requisitos Funcionais (RF), Requisitos Não Funcionais (RNF) e Requisitos Desejados (RD). Os requisitos desejados estarão em um documento separado. Cada requisito é acompanhado de um ID, tipo, descrição e o trecho original da entrevista que o inspirou. Abaixo temos a tabela 1 e a tabela 2, que apresentam os requisitos funcionais e não funcionais identificados.
 
-### Requisitos Funcionais (RF)
+Legenda - Tabela 1:
+ 
+- RFx: Requisitos Funcionais nºx.
+
+<center><b>Tabela 1:</b> Requisitos Funcionais</center>
 
 | ID       | Nome do Requisito               | Tipo       | Descrição                                | Trecho original                                                                 |
 |----------|---------------------------------|------------|------------------------------------------|---------------------------------------------------------------------------------|
@@ -95,7 +99,11 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-### Requisitos Não Funcionais (RNF)
+Legenda - Tabela 2:
+
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
 
 | ID       | Nome do Requisito               | Tipo            | Descrição                                | Trecho original                                                                 |
 |----------|---------------------------------|-----------------|------------------------------------------|---------------------------------------------------------------------------------|
@@ -117,3 +125,4 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 | 1.1 | 30/04/2025 | Correção das datas e adição de links | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
 | 1.2 | 03/05/2025 | Adição dos requisitos identificados e criação das tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |

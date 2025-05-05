@@ -128,6 +128,13 @@ A fim de manter a rastreabilidade dos requisitos, a legenda utilizada será:
 
 O estado de um requisito poderá ser **implementado**, **não implementado** ou **desconhecido**.
 
+Abaixo temos a tabela 1 com os requisitos funcionais e a tabela 2 com os requisitos não funcionais.
+
+Legenda - Tabela 1:
+ 
+- RFx: Requisitos Funcionais nºx.
+- RNFx: Requisitos Não-Funcionais nºx.
+
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
 
 | Tipo | Nome | Descrição | ID | Estado |
@@ -144,6 +151,11 @@ O estado de um requisito poderá ser **implementado**, **não implementado** ou 
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>.
 </center>
+
+Legenda - Tabela 2:
+ 
+- RFx: Requisitos Funcionais nºx.
+- RNFx: Requisitos Não-Funcionais nºx.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
 
@@ -176,3 +188,4 @@ O estado de um requisito poderá ser **implementado**, **não implementado** ou 
 | 1.1    | 28/04/2025 | Melhora na organização do documento | [Julia Gabriela](https://github.com/JuliaGabP)       | [Ryan Salles](https://github.com/RA-Salles)  |
 | 1.2    | 30/04/2025 | Conserto de imagens quebradas       | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.3     | 03/05/2025 | Adicionando requisitos elicitados   | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro) |
+| 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |

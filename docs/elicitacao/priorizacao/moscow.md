@@ -141,3 +141,4 @@ Essa seção apresenta os requisitos não funcionais priorizados por meio da Tab
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 28/04/2025 | Criação da página da técnica MoSCoW | [Ryan Salles](https://github.com/RA-Salles) |  [João Pedro Costa](https://github.com/johnaopedro)|
+| 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |

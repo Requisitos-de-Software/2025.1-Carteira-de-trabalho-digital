@@ -1,10 +1,16 @@
 # Requisitos desejáveis
 
-Nesta seção, são apresentados os requisitos desejáveis identificados na introspecção e na entrevista. Os requisitos desejáveis são aqueles foram identificados como não implementados nas determinadas tecnicas de elicitação.
+Nesta seção, são apresentados os requisitos desejáveis identificados na introspecção e na [entrevista](./tecnicas/entrevista.md). Os requisitos desejáveis são aqueles foram identificados como não implementados nas determinadas tecnicas de elicitação.
 
 ## Requisitos desejaveis identificados na introspecção:
 
-### Requisitos Funcionais Desejáveis
+Abaixo temos a tabela 1 e a tabela 2, que apresentam os requisitos funcionais e não funcionais desejáveis identificados na [introspecção](./tecnicas/introspecção.md). Os requisitos foram organizados em duas tabelas, uma para os requisitos funcionais e outra para os não funcionais.
+
+Legenda - Tabela 1:
+ 
+- RFx: Requisitos Funcionais nºx.
+
+<center> <b>Tabela 1:</b> Requisitos Funcionais Desejaveis </center>
 
 | RF    | Nome do RF                                | Descrição                                                                 |
 |-------|-------------------------------------------|---------------------------------------------------------------------------|
@@ -17,7 +23,11 @@ Nesta seção, são apresentados os requisitos desejáveis identificados na intr
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-### Requisitos Não Funcionais Desejáveis
+Legenda - Tabela 2:
+ 
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center> <b>Tabela 2:</b> Requisitos Não Funcionais Desejaveis </center>
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
@@ -33,23 +43,33 @@ Nesta seção, são apresentados os requisitos desejáveis identificados na intr
 
 ## Requisitos desejáveis identificados na entrevista:
 
-### Requisitos Funcionais Desejáveis
+Abaixo temos a tabela 3 e a tabela 4, que apresentam os requisitos funcionais e não funcionais desejáveis identificados na [entrevista](./tecnicas/entrevista.md). Os requisitos foram organizados em duas tabelas, uma para os requisitos funcionais e outra para os não funcionais.
+
+Legenda - Tabela 3:
+ 
+- RFx: Requisitos Funcionais nºx.
+
+<center> <b>Tabela 3:</b> Requisitos Funcionais Desejaveis </center>
 
 | ID       | Nome do Requisito               | Tipo            | Descrição                                      | Trecho original                                                                 |
 |----------|---------------------------------|-----------------|------------------------------------------------|---------------------------------------------------------------------------------|
-| RF-D01   | Agendamento no CRAS            | Funcional       | Agendamento de atendimentos no CRAS pelo app   | “ausência de funcionalidades … que permitam o agendamento direto … foi apontada como uma limitação importante.” |
-| RF-D02   | Notificações Personalizadas    | Funcional       | Notificações personalizadas (pendências, atualizações, confirmações) | “Notificações personalizadas: Informações sobre pendências no cadastro, atualizações de programas sociais e confirmação de agendamentos.” |
-| RF-D03   | Atualização Cadastral          | Funcional       | Passo a passo claro para atualização cadastral | “confusão quanto à documentação necessária … ausência de um passo a passo objetivo para realização dessas ações …” |
-| RF-D04   | Simulador de Benefícios        | Funcional       | Simulador de elegibilidade para benefícios     | “Simuladores de elegibilidade para benefícios sociais”                          |
-| RF-D05   | Chat de Atendimento            | Funcional       | Chat de atendimento ao usuário                 | “chat de atendimento”                                                          |
+| RF01   | Agendamento no CRAS            | Funcional       | Agendamento de atendimentos no CRAS pelo app   | “ausência de funcionalidades … que permitam o agendamento direto … foi apontada como uma limitação importante.” |
+| RF02   | Notificações Personalizadas    | Funcional       | Notificações personalizadas (pendências, atualizações, confirmações) | “Notificações personalizadas: Informações sobre pendências no cadastro, atualizações de programas sociais e confirmação de agendamentos.” |
+| RF03   | Atualização Cadastral          | Funcional       | Passo a passo claro para atualização cadastral | “confusão quanto à documentação necessária … ausência de um passo a passo objetivo para realização dessas ações …” |
+| RF04   | Simulador de Benefícios        | Funcional       | Simulador de elegibilidade para benefícios     | “Simuladores de elegibilidade para benefícios sociais”                          |
+| RF05   | Chat de Atendimento            | Funcional       | Chat de atendimento ao usuário                 | “chat de atendimento”                                                          |
 
-### Requisitos Não Funcionais Desejáveis
+Legenda - Tabela 4:
+ 
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center> <b>Tabela 4:</b> Requisitos Não Funcionais Desejaveis </center>
 
 | ID       | Nome do Requisito               | Tipo            | Descrição                                      | Trecho original                                                                 |
 |----------|---------------------------------|-----------------|------------------------------------------------|---------------------------------------------------------------------------------|
-| RNF-D01  | Tutoriais Interativos          | Não funcional   | Tutoriais interativos para guiar tarefas críticas | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-| RNF-D02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
-| RNF-D03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários necessitados | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF01  | Tutoriais Interativos          | Não funcional   | Tutoriais interativos para guiar tarefas críticas | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
+| RNF03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários necessitados | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
@@ -65,3 +85,4 @@ Nesta seção, são apresentados os requisitos desejáveis identificados na intr
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 04/05/2025 | Adicionando requisitos desejáveis e tabelas removidas das outras documentações | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.1 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
