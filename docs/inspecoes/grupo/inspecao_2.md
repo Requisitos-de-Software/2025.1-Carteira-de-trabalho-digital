@@ -29,7 +29,7 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 |  DS01  |         Padronização do Histórico de Versão          |   Conforme   |
 |  DS02  |          Autor e revisor para cada artefato          |   Conforme   |
 |  DS03  | Referências e/ou bibliografia em todos os artefatos  |   Conforme   |
-|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |   Conforme   |
+|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |   Incompleto |
 |  DS05  |          Introdução do texto dos artefatos           |   Conforme   |
 |  DS06  | Cronograma executado além do inicialmente planejado  |   Conforme   |
 |  DS07  |                  Atas das reuniões                   |   Conforme   |
@@ -50,14 +50,14 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 |  CD02  | Existe um cronograma (com data, horário e local) estabelecido para a realização da elicitação dos requisitos com o cliente e/ou membros do projeto?                            |   Conforme   |
 |  CD03  | Foi especificado quais técnicas de elicitação foram empregadas (quanto mais técnicas, melhor)?                             |   Conforme   |
 |  CD04  | A participação do cliente e/ou persona na elicitação de requisitos?                    |   Conforme   |
-|  CD05  | A gravação e os registros da elicitação dos requisitos estão disponíveis (pré-rastreabilidade)?                  |   Conforme   |
-|  CD06  | Cada requisito tem pelo menos uma fonte de origem identificada?                      |   Conforme   |
+|  CD05  | A gravação e os registros da elicitação dos requisitos estão disponíveis (pré-rastreabilidade)?                  |   Incompleto   |
+|  CD06  | Cada requisito tem pelo menos uma fonte de origem identificada?                      |   Incompleto   |
 |  CD07  | São apresentados os requisitos implementados e não implementados para a aplicação?        |   Conforme   |
-|  CD08  | Está sendo apresentado como o requisito pode ser verificado na aplicação (critério de aceitação)?                        |   Conforme   |
-|  CD09  | Existe um cronograma (com data, horário e local) definido para a realização da priorização dos requisitos com o cliente e/ou membros do projeto?              |   Conforme   |
-|  CD10  | São apresentadas pelo menos quatro técnicas de priorização (quanto mais, melhor)? MoSCoW, 100 $, First Thing First, ROI, QFD, TQM, ou outra técnica? A técnica MoSCoW/100$ deve ser utilizada no projeto somente após a aplicação de outras duas técnicas de priorização. Deve-se adicionar a referência bibliográfica e a imagem do texto da referência para cada uma das técnicas.              |   Conforme   |
-|  CD11  | A participação do cliente e/ou persona no processo de priorização?                   |   Conforme   |
-|  CD12  | A gravação e os registros da atividade de priorização dos requisitos estão disponíveis?                  |   Conforme   |
+|  CD08  | Está sendo apresentado como o requisito pode ser verificado na aplicação (critério de aceitação)?                        |  Não Conforme  |
+|  CD09  | Existe um cronograma (com data, horário e local) definido para a realização da priorização dos requisitos com o cliente e/ou membros do projeto? | Incompleto |
+|  CD10  | São apresentadas pelo menos quatro técnicas de priorização (quanto mais, melhor)? MoSCoW, 100 $, First Thing First, ROI, QFD, TQM, ou outra técnica? A técnica MoSCoW/100$ deve ser utilizada no projeto somente após a aplicação de outras duas técnicas de priorização. Deve-se adicionar a referência bibliográfica e a imagem do texto da referência para cada uma das técnicas.              | Conforme |
+|  CD11  | A participação do cliente e/ou persona no processo de priorização?                   |   Não Conforme   |
+|  CD12  | A gravação e os registros da atividade de priorização dos requisitos estão disponíveis?                  |   Não Conforme   |
 |  CD13  | As personas possuem nome e sobrenome?                                    |   Conforme   |
 |  CD14  | As persona possuem uma foto realista?                                       |   Conforme   |
 |  CD15  | As personas possuem status (primária/secundária/antipersona)?          |   Conforme   |
@@ -82,3 +82,4 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 | Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 04/05/2025 | Elaboração da Inspeção   | [João Pedro](https://github.com/johnaopedro) e [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.1   | 04/05/2025 | Adicionando informação de conformidade | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/johnaopedro) |
