@@ -1,6 +1,7 @@
 # Requisitos desejáveis
 
 Nesta seção, são apresentados os requisitos desejáveis identificados na introspecção e na [entrevista](./tecnicas/entrevista.md). Os requisitos desejáveis são aqueles foram identificados como não implementados nas determinadas tecnicas de elicitação.
+Note que os requisitos desejaveis podem estar implementados, mas não foram identificados durante a elicitação.
 
 ## Requisitos desejaveis identificados na introspecção:
 
