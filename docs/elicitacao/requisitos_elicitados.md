@@ -5,7 +5,13 @@
 Esse documento visa apresentar todos os requisitos elicitados pelas técnicas de elicitação por meio das Tabelas 1 e 2. 
 
 Legenda:
+<<<<<<< Updated upstream
 - RFX 
+=======
+
+- RFx: Requisitos Funcionais nºx.
+- RNFx: Requisitos Não-Funcionais nºx.
+>>>>>>> Stashed changes
 
 # Requisitos Funcionais 
 
