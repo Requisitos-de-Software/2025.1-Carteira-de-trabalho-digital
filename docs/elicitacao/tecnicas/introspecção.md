@@ -25,10 +25,13 @@ Fonte: João Pedro e Julia Paulino.
 
 ## João Pedro
 
-João Pedro realizou a introspecção se colocando na posição de um usuário do aplicativo Cadastro Único. A partir dessa simulação, foram elicitados requisitos.
+João Pedro realizou a introspecção se colocando na posição de um usuário do aplicativo Cadastro Único. A partir dessa simulação, foram elicitados requisitos. Abaixo estão as tabelas 1 e 2, que apresentam os requisitos funcionais e não funcionais, respectivamente.
 
+Legenda - Tabela 1:
+ 
+- RFx: Requisitos Funcionais nºx.
 
-### Requisitos Funcionais
+<center><b>Tabela 1:</b> Requisitos Funcionais</center>
 | RF    | Nome do RF                                | Descrição                                                                 |
 |-------|-------------------------------------------|---------------------------------------------------------------------------|
 | RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. |
@@ -40,7 +43,11 @@ João Pedro realizou a introspecção se colocando na posição de um usuário d
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
-### Requisitos não-funcionais
+Legenda - Tabela 2:
+
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
 | RNF01 | Usabilidade                              | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência. |
@@ -55,9 +62,13 @@ João Pedro realizou a introspecção se colocando na posição de um usuário d
 
 ## Julia Paulino
 
-Julia Paulino realizou a introspecção se colocando na posição de uma usuária do aplicativo Cadastro Único. A partir dessa simulação, foram elicitados requisitos divididos entre **já existentes no aplicativo** e **ainda não existentes (desejáveis)**.
+Julia Paulino realizou a introspecção se colocando na posição de uma usuária do aplicativo Cadastro Único. A partir dessa simulação, foram elicitados requisitos divididos entre **já existentes no aplicativo** e **ainda não existentes (desejáveis)**. Abaixo estão as tabelas 3 e 4, que apresentam os requisitos funcionais e não funcionais, respectivamente.
 
-### Requisitos Funcionais
+Legenda - Tabela 3:
+ 
+- RFx: Requisitos Funcionais nºx.
+
+<center><b>Tabela 3:</b> Requisitos Funcionais</center>
 
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
@@ -70,7 +81,11 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-### Requisitos Não-Funcionais
+Legenda - Tabela 4:
+
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center><b>Tabela 4:</b> Requisitos Não Funcionais</center>
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
@@ -82,9 +97,14 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 </center>
 
 ## Requisitos Elicitados (Finais)
+Abaixo estão os requisitos finais, que foram elicitados a partir da introspecção realizada por João Pedro e Julia Paulino. Os requisitos foram unificados, removendo os requisitos desejáveis e mantendo apenas os já existentes no aplicativo. Abaixo estão as tabelas 5 e 6, que apresentam os requisitos funcionais e não funcionais, respectivamente.
 
-### Requisitos Funcionais
 
+Legenda - Tabela 5:
+ 
+- RFx: Requisitos Funcionais nºx.
+
+<center><b>Tabela 5:</b> Requisitos Funcionais</center>
 | RF    | Nome do RF                          | Descrição                                                                 |
 |-------|--------------------------------------|---------------------------------------------------------------------------|
 | RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              |
@@ -102,8 +122,11 @@ Julia Paulino realizou a introspecção se colocando na posição de uma usuári
 </center>
 
 ---
+Legenda - Tabela 6:
 
-### Requisitos Não-Funcionais
+- RNFx: Requisitos Não-Funcionais nºx.
+
+<center><b>Tabela 6:</b> Requisitos Não Funcionais</center>
 
 | RNF   | Nome do RNF                              | Descrição                                                                 |
 |-------|------------------------------------------|---------------------------------------------------------------------------|
@@ -139,3 +162,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 | 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.2    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |

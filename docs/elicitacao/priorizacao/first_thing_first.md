@@ -30,7 +30,7 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
     <strong>Figura 1:</strong> Diagrama First Things First.
 </p>
 
-![First-things-first](../assets/diagrama-ftf.jpg)
+![First-things-first](../../assets/diagrama-ftf.jpg)
 
 <p align="center">
     <strong>Autor:</strong> Stephen R. Covey, 1989
@@ -81,3 +81,4 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 23/04/2025 | Criação da página da tecnica First Thing First| [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.1 | 04/05/2025 | Priorização de requisitos | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan](https://github.com/RA-Salles) e [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
