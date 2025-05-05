@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada sobre a [Lista de Verificação](../../verificacao/grupo/checklist_1.md) do **nosso grupo** referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
+Este documento apresenta o resultado da **inspeção** do nosso grupo([Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico)) realizada sobre a [Lista de Verificação](../../verificacao/checklist_1.md) referente a **Entrega 1** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
@@ -18,11 +18,11 @@ Durante a análise, as respostas serão preenchidas de acordo com a conformidade
 
 As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos elementos de Planejamento, Desenvolvimento do Projeto e Conteúdo da Disciplina.
 
+---
+
 ### Planejamento
 
 <p align="center"><strong>Tabela 1:</strong> Inspeção dos Itens de Planejamento</p>
-
-<center>
 
 | **ID** |                                     **Item**                                      | **Resposta** |
 | :----: | :-------------------------------------------------------------------------------: | :----------: |
@@ -38,19 +38,17 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  P10   |                   GitPages oferece opção de contraste de cores                    |   Conforme   |
 |  P11   |                         GitPages organizado de fácil uso                          |   Conforme   |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
 #### Observações
 
 - **P09:** Algumas ferramentas utilizadas não foram listadas ou descritas no artefato de [ferramentas](../../planejamento/ferramentas.md).
 
+---
+
 ### Desenvolvimento do Projeto
 
 <p align="center"><strong>Tabela 2:</strong> Inspeção dos Itens de Desenvolvimento</p>
-
-<center>
 
 | **ID** |                       **Item**                       | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
@@ -64,16 +62,13 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  DS08  |                Gravação das reuniões                 |   Conforme   |
 |  DS09  | Upload de apresentação no YouTube como não "listado" |   Conforme   |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
 
+---
 
 ### Conteúdo da Disciplina
 
 <p align="center"><strong>Tabela 3:</strong> Inspeção do RichPicture</p>
-
-<center>
 
 | **ID** |                                       **Item**                                        | **Resposta** |
 | :----: | :-----------------------------------------------------------------------------------: | :----------: |
@@ -84,9 +79,9 @@ As tabelas de 1 a 3, representadas a seguir, contêm os itens inspecionados dos 
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             |   Conforme   |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       |   Conforme   |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+---
 
 ## Sugestão de Melhorias
 

@@ -32,10 +32,9 @@ nav:
       - Three Level Scale: elicitacao/priorizacao/three_level_scale.md
     
   - Verificação:
-    - Grupo:
-      - Entrega 1: verificacao/grupo/checklist_1.md
-    - Grupo+1:
-      - Entrega 1: verificacao/grupo+1/checklist_1.md
+      - Entrega 1: verificacao/checklist_1.md
+      - Entrega 2: verificacao/checklist_2.md
+      
   - Inspeções:
     - Grupo:
       - Entrega 1: inspecoes/grupo/inspecao_1.md

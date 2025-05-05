@@ -2,11 +2,11 @@
 
 ## Introdução
 
-Este documento apresenta uma lista de verificação do nosso grupo referente a **Etapa 1** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
+Este documento apresenta uma lista de verificação criada para o [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) e do Grupo+1 ([Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE)) referente a **Etapa 1** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
 
 ## Checklist como Método de Verificação
 
-O checklist, que significa Lista de Verificação, uma técnica importante durante a revisão das etapas do projeto, ajudando a garantir que cada parte esteja em conformidade com os requisitos estabelecidos. Para validar a eficácia e a completude do checklist, utilizaremos a técnica de [inspeção](../../inspecoes/grupo/inspecao_1.md), que consiste em uma revisão sistemática para verificar a clareza, relevância e aplicabilidade de cada item listado. Seu principal objetivo é:
+O **checklist**, que significa **Lista de Verificação**, uma técnica importante durante a revisão das etapas do projeto, ajudando a garantir que cada parte esteja em conformidade com os requisitos estabelecidos. Para validar a eficácia e a completude do checklist, utilizaremos a técnica de **inspeção**, que consiste em uma revisão sistemática para verificar a clareza, relevância e aplicabilidade de cada item listado, tanto do nosso grupo quanto do grupo avaliado. Seu principal objetivo é:
 
 - Identificar possíveis erros em qualquer parte do projeto.
 - Verificar se o projeto atende aos requisitos especificados.
@@ -16,13 +16,14 @@ O checklist, que significa Lista de Verificação, uma técnica importante duran
 
 ## Checklists - Entrega 1
 
-As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de planejamento, desenvolvimento da documentação e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas iniciais e os requisitos técnicos sejam atendidos.
+As Tabelas 1, 2 e 3 apresentam checklists para os elementos de planejamento, desenvolvimento da documentação e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas iniciais e os requisitos técnicos sejam atendidos.
+
+--- 
 
 ### Planejamento do Projeto
 
 <p align="center"><strong>Tabela 1:</strong> Checklist de Planejamento</p>
 
-<center>
 
 | **ID** |                                     **Item**                                      |                                        **Referência**                                         |
 | :----: | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
@@ -38,15 +39,14 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  P10   |                   GitPages oferece opção de contraste de cores                    | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 |  P11   |                         GitPages organizado de fácil uso                          | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+--- 
 
 ### Desenvolvimento do Projeto
 
 <p align="center"><strong>Tabela 2:</strong> Checklist de Desenvolvimento</p>
 
-<center>
 
 | **ID** |                       **Item**                       |                                        **Referência**                                         |
 | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
@@ -60,15 +60,13 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  DS08  |                Gravação das reuniões                 | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 |  DS09  | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
-</center>
-
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+---
 
 ### Conteúdo da Disciplina
 
 <p align="center"><strong>Tabela 3:</strong> Checklist de Conteúdo da Disciplina</p>
-
-<center>
 
 | **ID** |                                       **Item**                                        |                                                                                                             **Referência**                                                                                                             |
 | :----: | :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -79,11 +77,11 @@ As Tabelas 1, 2 e 3 apresentam checklists de verificação para os elementos de 
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 
-</center>
+---
 
 ## Conclusão
 
-O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano de ensino, promovendo qualidade e organização. A inspeção poderá identificar inconsistências e assegurar a padronização, facilitando o gerenciamento do nosso projeto.
+O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano de ensino, promovendo qualidade e organização. A inspeção poderá identificar inconsistências e assegurar a padronização, facilitando o gerenciamento do nosso grupo e do inspecionado.
 
 ## Referências
 
@@ -101,3 +99,4 @@ O checklist da Etapa 1 garante que os artefatos atendam aos requisitos do plano 
 |  2.0   | 25/04/2025 | Modificação da Estrutura | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.1   | 28/04/2025 |      Alterando ID's      | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.2   | 30/04/2025 |    Padronizando fontes   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.3   | 04/05/2025 |    Unificando arquivos   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
