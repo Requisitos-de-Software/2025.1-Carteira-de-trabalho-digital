@@ -17,7 +17,9 @@ Requisitos percebidos como urgentes, mas que não são importantes para os objet
 ## Aplicação no App Cadastro Único
 
 No contexto do aplicativo Cadastro Único, o método pode ser aplicado para organizar e priorizar os requisitos de forma eficiente. A seguir, apresentamos os requisitos funcionais e não funcionais identificados, categorizados de acordo com a técnica Three-Level Scale. A partir dos requisitos obtidos pelas tecnicas de elicitação, que são [questionário](../tecnicas/questionario.md), [entrevista](../tecnicas/entrevista.md) e [análise de documentos](../tecnicas/analise_documentacao.md) e [introspecção](../tecnicas/introspecção.md), foram definidos os requisitos funcionais e não funcionais do sistema. Os requisitos foram organizados em tabelas, com suas respectivas descrições, rastreabilidade e prioridades.
-Os requisitos foram classificados em três níveis de prioridade, com base na importância e urgência de cada um deles. A seguir, apresentamos as tabelas com os requisitos priorizados.
+Os requisitos foram classificados em três níveis de prioridade, com base na importância e urgência de cada um deles.
+
+Note que alguns requisitos podem se repetir por conta de serem identificados em mais de uma técnica de elicitação. Além disso, os requisitos foram organizados em duas tabelas, uma para os requisitos funcionais e outra para os não funcionais. A seguir, apresentamos as tabelas com os requisitos priorizados.
 
 ### Requisitos Priorizados
 
@@ -76,35 +78,6 @@ Os requisitos foram classificados em três níveis de prioridade, com base na im
 | RNF18 | Disponibilidade                       | 99% de disponibilidade.                                            | Introspecção                      | Alta       |
 | RNF19 | Interface Intuitiva                     | Interface intuitiva e de fácil navegação.  | Entrevista                        | Alta       |
 | RNF20 | Tela Inicial Organizada            | Organização clara da tela inicial.                               | Entrevista                        | Alta       |
-<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
- 
-### Requisitos Desejaveis Priorizados
-
-#### Tabela 3: Requisitos Funcionais  
-| ID     | Nome do Requisito           | Descrição                                                            | Rastreabilidade | Prioridade |
-| ------ | --------------------------- | -------------------------------------------------------------------- | --------------- | ---------- |
-| RF-D01 | Agendamento no CRAS         | Agendamento de atendimentos no CRAS pelo app                         | Entrevista e Introspecção      | Alta  |
-| RF-D02 | Notificações Personalizadas | Notificações personalizadas (pendências, atualizações, confirmações) | Entrevista e Introspecção      | Média  |
-| RF-D03 | Atualização Cadastral       | Passo a passo claro para atualização cadastral                       | Entrevista      | Baixa  |
-| RF-D04 | Simulador de Benefícios     | Simulador de elegibilidade para benefícios                           | Entrevista e Introspecção      | Baixa  |
-| RF-D05 | Chat de Atendimento         | Chat de atendimento ao usuário                                       | Entrevista      | Alta  |
-| RF-D06 | Chatbot de Atendimento | Implementa um chatbot para atendimento automatizado ao usuário. | Introspecção     | Alta  |
-| RF-D07 | Upload de Documentos   | Possibilita o envio de documentos digitalizados para o sistema. | Introspecção     | Baixa  |
-
-<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
-
-#### Tabela 4: Requisitos Não Funcionais  
-| ID      | Nome do Requisito     | Descrição                                                    | Rastreabilidade | Prioridade    |
-| ------- | --------------------- | ------------------------------------------------------------ | --------------- | ------------- |
-| RNF-D01 | Tutoriais Interativos | Tutoriais interativos para guiar tarefas críticas            | Entrevista      | Média |
-| RNF-D02 | Vídeos Explicativos   | Vídeos explicativos dentro do app                            | Entrevista      | Baixa |
-| RNF-D03 | Assistência por Voz   | Ferramenta de assistência por voz para usuários necessitados | Entrevista e Introspecção      | Alta |
-| RNF-D04 | Desempenho otimizado para internet limitada     | Operação eficiente em conexões lentas                                  | Introspecção      | Alta       |
-| RNF-D05 | Possibilidade de outros idiomas                 | Disponibilidade do app em múltiplos idiomas                            | Introspecção      | Média      |
-| RNF-D06 | Backup e restauração de sessão                  | Recuperação da sessão em caso de interrupções                          | Introspecção      | Alta       |
-| RNF-D07 | Modo escuro                                     | Alternativa visual para ambientes com pouca luz                        | Introspecção      | Baixa      |
-| RNF-D08 | Alta disponibilidade e recuperação de desastres | Mecanismos para manter o sistema funcional mesmo em situações críticas | Introspecção      | Alta       |
-
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ### Renomeação de Requisitos
