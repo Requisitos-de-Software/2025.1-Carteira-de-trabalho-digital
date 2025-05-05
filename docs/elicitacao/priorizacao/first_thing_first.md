@@ -1,3 +1,5 @@
+# First Things First FTF
+
 # Introdução
 
 A metodologia First Things First: Prioritizing Requirements, apresentada por Karl Wiegers, enfatiza a necessidade de priorização eficaz de requisitos em projetos de software. Como nem sempre é possível entregar todas as funcionalidades desejadas na primeira versão de um sistema, os stakeholders devem definir quais aspectos são mais críticos para o sucesso inicial do projeto. A priorização permite gerenciar expectativas, resolver conflitos e otimizar recursos, garantindo que as funções essenciais sejam implementadas primeiro.

@@ -15,7 +15,7 @@ Legenda - Tabela 1:
 
 | RF    | Nome do RF                                | Descrição                                                                 |
 |-------|-------------------------------------------|---------------------------------------------------------------------------|
-| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.          |
+| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.           |
 | RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.|
 | RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      |
 | RF09  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
