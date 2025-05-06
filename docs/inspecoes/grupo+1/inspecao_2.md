@@ -8,7 +8,7 @@ Este documento apresenta o resultado da **inspeção** realizada pelo [Grupo 4](
 
 A técnica utilizada para avaliação foi a Inspeção, que consiste em uma revisão detalhada do documento de checklist. Cada artefato foi analisado e revisado um por um pelos inspetores [Amanda Cruz](https://github.com/mandicrz), [Gabriel Coelho](https://github.com/Gabrielfcoelho), [João Igor](https://github.com/JoaoPC10), [João Pedro](https://github.com/johnaopedro), [João Vitor](https://github.com/jvopBR), [Julia Paulino](https://github.com/JuliaGabP) e [Ryan Salles](https://github.com/RA-Salles), durante uma reunião gravada no [Microsoft Teams](https://teams.microsoft.com/v2/), buscando identificar:
 
-- Itens faltando ou inconscistências;
+- Itens faltando ou inconsistências;
 - Clareza e precisão das descrições;
 - Conformidade com o Plano de Ensino e diretrizes do professor.
 
@@ -16,7 +16,7 @@ Durante a análise, as respostas serão preenchidas de acordo com a conformidade
 
 ## Inspeção dos Itens
 
-As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos elementos de Desenvolvimento do Projeto e Conteúdo da Disciplina.
+As Tabelas 1 e 2, representadas a seguir, contêm os itens inspecionados dos elementos de Desenvolvimento do Projeto e Conteúdo da Disciplina.
 
 ---
 
@@ -29,7 +29,7 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 |  DS01  |         Padronização do Histórico de Versão          |   Conforme   |
 |  DS02  |          Autor e revisor para cada artefato          |   Conforme   |
 |  DS03  | Referências e/ou bibliografia em todos os artefatos  |   Conforme   |
-|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |   Conforme |
+|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |   Conforme   |
 |  DS05  |          Introdução do texto dos artefatos           |   Conforme   |
 |  DS06  | Cronograma executado além do inicialmente planejado  |   Conforme   |
 |  DS07  |                  Atas das reuniões                   |   Conforme   |
@@ -88,11 +88,14 @@ O vídeo abaixo refere-se à inspeção descrita neste artefato, realizada no **
 
 |    Data    | Início | Término |
 | :--------: | :----: | :-----: |
-| 14/04/2025 | 9:07   |  9:42   |
+| 05/05/2025 | 21:00  |  21:35  |
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+<center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5QEY5X9iC3I?si=-I38LlLXdB67nNkF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
 
 ## Conclusão
 
