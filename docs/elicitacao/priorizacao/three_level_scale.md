@@ -83,7 +83,7 @@ Note que alguns requisitos podem se repetir por conta de serem identificados em 
 
 ## Conclusão
 
-A aplicação do método Three-Level Scale neste estudo permitiu organizar e priorizar os requisitos funcionais e não funcionais do sistema Cadastro Único, considerando sua importância e urgência. Essa priorização é essencial para alinhar as expectativas dos stakeholders e garantir que os esforços sejam direcionados aos aspectos mais críticos do sistema.
+A aplicação do método Three-Level Scale neste estudo permitiu organizar e priorizar os requisitos funcionais e não funcionais do sistema Cadastro Único, considerando sua importância e urgência. Essa priorização é essencial para garantir que os esforços sejam direcionados aos aspectos mais críticos do sistema.
 
 ## Referências
 
