@@ -6,7 +6,7 @@ Este artefato tem por fim traçar um **perfil de usuário**, com o objetivo de c
 
 ## Metodologia
 
-A construção do perfil de usuário foi realizada com base em dois métodos principais: o [questionário](./tecnicas/questionario.md) e as [entrevistas](./entrevista.md). Ambos os métodos contribuíram para a definição das características dos usuários e ajudam a garantir que o sistema seja projetado de acordo com suas necessidades, sendo as entrevistas uma forma de validar os dados obtidos no questionário e aprofundar os conhecimentos qualitativos.
+A construção do perfil de usuário foi realizada com base em dois métodos principais: o [questionário](./tecnicas/questionario.md) e as [entrevistas](./tecnicas/entrevista.md). Ambos os métodos contribuíram para a definição das características dos usuários e ajudam a garantir que o sistema seja projetado de acordo com suas necessidades, sendo as entrevistas uma forma de validar os dados obtidos no questionário e aprofundar os conhecimentos qualitativos.
 
 ## Questionário
 O questionário realizado obteve o total de 40 respostas. Com isso, todas as informações obtidas a partir desta técnica tiveram **autorização dos usuários no que se refere a coleta** das mesmas, como mostra a Figura 1, e seus devidos gráficos com as respostas relevantes para o artefato estão presentes nas Figuras 2 a 10.
@@ -147,3 +147,4 @@ A combinação dos dados do questionário e das entrevistas permitiu construir u
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 03/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) | 
+|  1.1   | 06/05/2025 | Ajustando links  | [João Pedro Costa](https://github.com/joaopedro) | [Ryan Salles](https://github.com/RA-Salles)     |

@@ -1,0 +1,15 @@
+/* Centralizar tabelas */
+table {
+    margin: 0 auto;
+}
+
+/* Centralizar imagens */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centralizar texto com a classe .center */
+.center {
+    text-align: center;
+}

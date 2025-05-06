@@ -109,7 +109,7 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 
 ## Referências
 
-> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação do Grupo + 1 - Entrega 1](../../verificacao/grupo+1/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
+> GITHUB. 2025.1-Cadastro-Único. Artefato de [Lista de Verificação do Grupo + 1 - Entrega 1](../../verificacao/checklist_1.md). Disponível em: <https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico>. Acesso em: 30 abr. 2025. 
 
 ## Histórico de versão
 
@@ -117,3 +117,4 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 | :----: | :--------: | :-------------------------: | :-------------------: | :---------------: |
 |  1.0   | 14/04/2025 |     Criação da inspeção     | [Ryan Salles](https://github.com/RA-Salles), [João Pedro](https://github.com/johnaopedro) | [ Julia Paulino](https://github.com/JuliaGabP) |
 |  2.0   | 30/04/2025 |     Mudança na estrutura    | [Amanda Cruz](https://github.com/mandicrz) | [Julia Paulino](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Pedro](https://github.com/johnaopedro) |
+|  2.1   | 06/05/2025 |     Ajustando links e referências     | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

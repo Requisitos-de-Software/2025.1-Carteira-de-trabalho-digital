@@ -155,6 +155,22 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23/04/2025.
 
+##### Imagem 1: Introspecção
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias_no_texto/introspeccao1.png" alt="Introspecção">
+</div>
+
+**Fonte:** Adaptado de GOGUEN, Joseph A.; LINDE, Charlotte. *Techniques for requirements elicitation*. In: IEEE INTERNATIONAL SYMPOSIUM ON REQUIREMENTS ENGINEERING, 1993. p. 152–164.
+
+##### Imagem 2: Introspecção
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias_no_texto/introspeccao2.png" alt="Introspecção">
+</div>
+
+**Fonte:** Adaptado de GOGUEN, Joseph A.; LINDE, Charlotte. *Techniques for requirements elicitation*. In: IEEE INTERNATIONAL SYMPOSIUM ON REQUIREMENTS ENGINEERING, 1993. p. 152–164.
+
 ## Histórico de Versões
 
 | Versão | Data | Descrição  | Autor        | Revisor |
@@ -163,3 +179,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 | 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.2    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.4 | 06/05/2025 | Adicionando imagens e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
