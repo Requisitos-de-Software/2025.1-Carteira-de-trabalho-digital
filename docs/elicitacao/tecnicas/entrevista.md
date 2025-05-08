@@ -123,7 +123,7 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
 <div style="text-align: center;">
-    <img src="../../../assets/referencias/entrevista/referencia_entrevista.png" alt="Entrevista">
+    <img src="../../assets/referencias/entrevista/referencia_entrevista.png" alt="Entrevista">
 </div>
 
 ## Histórico de Versões
