@@ -25,7 +25,7 @@ nav:
       - Questionário: elicitacao/tecnicas/questionario.md
       - Entrevista: elicitacao/tecnicas/entrevista.md
       - Análise de Documentação: elicitacao/tecnicas/analise_documentacao.md
-    - Priorização:
+    - Técnicas de Priorização:
       - Introdução: elicitacao/priorizacao/introducao.md
       - $100: elicitacao/priorizacao/100dollars.md
       - MoSCoW: elicitacao/priorizacao/moscow.md
@@ -50,6 +50,9 @@ nav:
     - Ata 3: atas/reuniao3.md
     - Ata 4: atas/reuniao4.md
     - Ata 5: atas/reuniao5.md
+    - Reuniões de Elicitação:
+      - Reunião 1: atas/tecnicas/reuniaoElicitacao1.md
+      - Reunião 2: atas/tecnicas/reuniaoElicitacao2.md
   - Apresentações:
     - Apresentação I: apresentacoes/apresentacao1.md
     - Apresentação II: apresentacoes/apresentacao2.md

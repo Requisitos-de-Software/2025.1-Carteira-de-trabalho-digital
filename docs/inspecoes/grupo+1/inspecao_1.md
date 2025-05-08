@@ -117,4 +117,4 @@ A inspeção evidenciou que a maior parte dos itens avaliados encontra-se confor
 | :----: | :--------: | :-------------------------: | :-------------------: | :---------------: |
 |  1.0   | 14/04/2025 |     Criação da inspeção     | [Ryan Salles](https://github.com/RA-Salles), [João Pedro](https://github.com/johnaopedro) | [ Julia Paulino](https://github.com/JuliaGabP) |
 |  2.0   | 30/04/2025 |     Mudança na estrutura    | [Amanda Cruz](https://github.com/mandicrz) | [Julia Paulino](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Pedro](https://github.com/johnaopedro) |
-|  2.1   | 06/05/2025 |     Ajustando links e referências     | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.1   | 06/05/2025 |     Ajustando links e referências     | [João Pedro Costa](https://github.com/johnaopedro) | | [Julia Gabriela](https://github.com/JuliaGabP)                      |

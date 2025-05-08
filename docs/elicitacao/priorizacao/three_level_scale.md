@@ -92,7 +92,7 @@ A aplicação do método Three-Level Scale neste estudo permitiu organizar e pri
 ##### Imagem 1: Three Level Scale
 
 <div style="text-align: center;">
-    <img src="../../../assets/referencias_no_texto/three_level_scale1.png" alt="Three Level Scale 1">
+    <img src="../../../assets/referencias/three_level_scale/three_level_scale1.png" alt="Three Level Scale 1">
 </div>
 
 **Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320.
@@ -100,7 +100,7 @@ A aplicação do método Three-Level Scale neste estudo permitiu organizar e pri
 ##### Imagem 2: Three Level Scale
 
 <div style="text-align: center;">
-    <img src="../../../assets/referencias_no_texto/three_level_scale2.png" alt="Three Level Scale 2">
+    <img src="../../../assets/referencias/three_level_scale/three_level_scale2.png" alt="Three Level Scale 2">
 </div>
 
 **Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320.
@@ -113,4 +113,4 @@ A aplicação do método Three-Level Scale neste estudo permitiu organizar e pri
 | 1.1    | 03/05/2025 | Atualização da aplicação da técnica | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 04/05/2025 | Alteração nas prioridades do MEI | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.4 | 06/05/2025 | Ajustando conteúdo, adicionando imagens e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.4 | 06/05/2025 | Ajustando conteúdo, adicionando imagens, o video e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |

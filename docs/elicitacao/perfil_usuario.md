@@ -147,4 +147,4 @@ A combinação dos dados do questionário e das entrevistas permitiu construir u
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 03/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) | 
-|  1.1   | 06/05/2025 | Ajustando links  | [João Pedro Costa](https://github.com/joaopedro) | [Ryan Salles](https://github.com/RA-Salles)     |
+|  1.1   | 06/05/2025 | Ajustando links  | [João Pedro Costa](https://github.com/joaopedro) | [Julia Gabriela](https://github.com/JuliaGabP)                      |
