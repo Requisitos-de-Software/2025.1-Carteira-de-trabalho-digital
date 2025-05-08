@@ -2,7 +2,7 @@
 
 <p align="center"><strong>Figura 1:</strong> Logomarca do Aplicativo Cadastro Único</p>
 
-<div align="center"><img src= "./docs/assets/cadunico.jpg" width="200px;" alt=""/></div>
+<div align="center"><img src= "docs/assets/LogoCadUn.png" width="200px;" alt=""/></div>
 
 <p align="center"><strong>Fonte: </strong> Governo Federal do Brasil. Disponível em: <a href="https://www.gov.br/pt-br/apps/cad">gov.br</a>. Acesso em: 30 abr. 2025</p>
 
@@ -47,3 +47,4 @@ A equipe responsável pelo desenvolvimento deste projeto é composta por:
 | 1.1 | 16/04/2025 | Correção de fontes e numeração de elementos | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)         |
 | 1.2 | 25/04/2025 | Mudanças no aplicativo                      | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Merlin](https://github.com/jvopBR)|
 | 1.3 | 01/05/2025 | Correção da Fonte da Imagem | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [João Igor](https://github.com/JoaoPC10) e [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.4 | 06/05/2025 | Ajustando imagem | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)         |

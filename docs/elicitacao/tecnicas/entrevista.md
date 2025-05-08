@@ -41,7 +41,7 @@ O roteiro de perguntas teve como objetivo compreender a experiência dos usuári
 
 ## Relatório e Vídeos das Entrevistas
 
-* Relatório disponível em: [Relatório das Entrevistas](../assets/Entrevistas-CadUnico.pdf)  
+* Relatório disponível em: [Relatório das Entrevistas](../../assets/Entrevistas-CadUnico.pdf)  
 * Entrevista da Leticia: [clique aqui](https://youtu.be/YT80-MCh1vs)  
 * Entrevista do Felipe: [clique aqui](https://youtu.be/4QlX683lf-s)  
 * Entrevista do Luiz: [clique aqui](https://youtu.be/1VPUozZrUN8)  
@@ -126,3 +126,4 @@ Legenda - Tabela 2:
 | 1.2 | 03/05/2025 | Adição dos requisitos identificados e criação das tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.5 | 06/05/2025 | Corrigindo link quebrado | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |

@@ -20,7 +20,7 @@ Requisitos percebidos como urgentes, mas que não são importantes para os objet
 No contexto do aplicativo Cadastro Único, o método pode ser aplicado para organizar e priorizar os requisitos de forma eficiente. A seguir, apresentamos os requisitos funcionais e não funcionais identificados, categorizados de acordo com a técnica Three-Level Scale. A partir dos requisitos obtidos pelas tecnicas de elicitação, que são [questionário](../tecnicas/questionario.md), [entrevista](../tecnicas/entrevista.md) e [análise de documentos](../tecnicas/analise_documentacao.md) e [introspecção](../tecnicas/introspecção.md), foram definidos os requisitos funcionais e não funcionais do sistema. Os requisitos foram organizados em tabelas, com suas respectivas descrições, rastreabilidade e prioridades.
 Os requisitos foram classificados em três níveis de prioridade, com base na importância e urgência de cada um deles.
 
-Note que alguns requisitos podem se repetir por conta de serem identificados em mais de uma técnica de elicitação. Além disso, os requisitos foram organizados em duas tabelas, uma para os requisitos funcionais e outra para os não funcionais. A seguir, apresentamos as tabelas com os requisitos priorizados.
+Note que alguns requisitos podem se repetir por conta de serem identificados em mais de uma técnica de elicitação. Além disso, alguns foram renomeados para melhorar a clareza. Os requisitos foram organizados em duas tabelas 1 e 2, uma para os requisitos funcionais e outra para os não funcionais. A seguir, apresentamos as tabelas com os requisitos priorizados. 
 
 ### Requisitos Priorizados
 
@@ -81,13 +81,29 @@ Note que alguns requisitos podem se repetir por conta de serem identificados em 
 | RNF20 | Tela Inicial Organizada            | Organização clara da tela inicial.                               | Entrevista                        | Alta       |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-### Renomeação de Requisitos
+## Conclusão
 
-O nome de alguns requisitos foram alterados para melhorar a clareza e torná-los mais precisos quanto à sua funcionalidade ou objetivo. Estas mudanças visam facilitar o entendimento dos requisitos, além de tornar mais precisa a descrição das funcionalidades esperadas do sistema.
+A aplicação do método Three-Level Scale neste estudo permitiu organizar e priorizar os requisitos funcionais e não funcionais do sistema Cadastro Único, considerando sua importância e urgência. Essa priorização é essencial para garantir que os esforços sejam direcionados aos aspectos mais críticos do sistema.
 
 ## Referências
 
 > Three level scale: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320. ISBN 0735679665.
+
+##### Imagem 1: Three Level Scale
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/three_level_scale/three_level_scale1.png" alt="Three Level Scale 1">
+</div>
+
+**Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320.
+
+##### Imagem 2: Three Level Scale
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/three_level_scale/three_level_scale2.png" alt="Three Level Scale 2">
+</div>
+
+**Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 319-320.
 
 ## Histórico de Versões
 
@@ -97,3 +113,4 @@ O nome de alguns requisitos foram alterados para melhorar a clareza e torná-los
 | 1.1    | 03/05/2025 | Atualização da aplicação da técnica | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 04/05/2025 | Alteração nas prioridades do MEI | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.4 | 06/05/2025 | Ajustando conteúdo, adicionando imagens, o video e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |

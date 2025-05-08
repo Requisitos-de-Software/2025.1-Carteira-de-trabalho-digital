@@ -151,9 +151,30 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 
 ---
 
+## Video
+O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada no **Microsoft Teams**:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wHObTZEY-_U?si=iRPZL2cwhnsewNyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Referências
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23/04/2025.
+
+##### Imagem 1: Introspecção
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/introspeccao/introspeccao1.png" alt="Introspecção">
+</div>
+
+**Fonte:** Adaptado de GOGUEN, Joseph A.; LINDE, Charlotte. *Techniques for requirements elicitation*. In: IEEE INTERNATIONAL SYMPOSIUM ON REQUIREMENTS ENGINEERING, 1993. p. 152–164.
+
+##### Imagem 2: Introspecção
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/introspeccao/introspeccao2.png" alt="Introspecção">
+</div>
+
+**Fonte:** Adaptado de GOGUEN, Joseph A.; LINDE, Charlotte. *Techniques for requirements elicitation*. In: IEEE INTERNATIONAL SYMPOSIUM ON REQUIREMENTS ENGINEERING, 1993. p. 152–164.
 
 ## Histórico de Versões
 
@@ -163,3 +184,4 @@ Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em v
 | 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.2    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.4 | 07/05/2025 | Adicionando imagens, o video e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
