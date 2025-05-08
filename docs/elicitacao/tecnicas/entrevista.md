@@ -116,6 +116,9 @@ Legenda - Tabela 2:
 ## Referências
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/entrevista/referencia_entrevista.png" alt="Entrevista">
+</div>
 
 ## Histórico de Versões
 
@@ -127,3 +130,4 @@ Legenda - Tabela 2:
 | 1.3    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.5 | 06/05/2025 | Corrigindo link quebrado | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.6 | 07/05/2025 | Adicionando imagem da referência | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Gabriel Flores](https://github.com/Gabrielfcoelho)              |
