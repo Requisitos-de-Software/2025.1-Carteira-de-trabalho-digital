@@ -174,6 +174,10 @@ Legenda - Tabela 2:
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>.
 </center>
 
+## Video
+O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada no **Microsoft Teams**:
+
+<iframe width="560" height="315" src="https://youtu.be/1FFlny7MSBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Referências Bibliográficas
@@ -190,4 +194,5 @@ Legenda - Tabela 2:
 | 1.2    | 30/04/2025 | Conserto de imagens quebradas       | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro), [João Merlin](https://github.com/jvopBR), [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.3     | 03/05/2025 | Adicionando requisitos elicitados   | [Ryan Salles](https://github.com/RA-Salles)          | [João Pedro](https://github.com/johnaopedro) |
 | 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.4 | 07/05/2025 | Adicionando imagem das referências |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
+| 1.5 | 07/05/2025 | Adicionando imagem das referências |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
+| 1.6 | 08/05/2025 | Inserindo vídeo de apresentação |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
