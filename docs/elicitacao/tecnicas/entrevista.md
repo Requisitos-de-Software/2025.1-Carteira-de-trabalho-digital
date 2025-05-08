@@ -113,6 +113,12 @@ Legenda - Tabela 2:
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
+## Video
+O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada no **Microsoft Teams**:
+
+<iframe width="560" height="315" src="https://youtu.be/Lq3GKLNmMAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Referências
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Item: 7.5.4, Acesso em 25 abr. 2025
@@ -131,3 +137,4 @@ Legenda - Tabela 2:
 | 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.5 | 06/05/2025 | Corrigindo link quebrado | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.6 | 07/05/2025 | Adicionando imagem da referência | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Gabriel Flores](https://github.com/Gabrielfcoelho)              |
+| 1.7 | 08/05/2025 | Adicionando vídeo | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Ryan Salles](https://github.com/RA-Salles)              |
