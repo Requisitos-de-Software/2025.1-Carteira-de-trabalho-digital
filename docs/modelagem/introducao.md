@@ -2,39 +2,27 @@
 
 ## Introdução à Modelagem
 
-Modelagem é a capacidade de criar modelos que são capazes de representar os fluxos/comportamentos de um software, através
-de modelos abstratos ou técnicos com apelo visual, por isso modelos simples e claros de entender são o objetivo de
-utilizar a modelagem, como por exemplo o Rich Picture que já foi feito anteriormente. É importante frisar que
-dependendo da proposta da modelagem o nível de abstração e complexidade muda.
+Modelagem é o processo de criar representações abstratas ou técnicas que descrevem os fluxos e comportamentos de um software. Essas representações geralmente possuem apelo visual, e, por isso, devem ser simples e fáceis de entender. Um exemplo disso é o Rich Picture, já abordado anteriormente. É importante destacar que, dependendo da proposta da modelagem, o nível de abstração e complexidade pode variar.
 
 # Técnicas de Modelagem Tradicionais
 
 ## Casos de Uso
 
-Os Casos de Uso são utilizados para descrever um conjunto de ações que um sistema ou um conjunto de sistemas deve desempenhar em colaboração com um ou mais usuários externos ao sistema, assim, devem prover algum resultado observável e de valor para as partes interessadas do sistema.Na notação UML, também são chamados diagramas comportamentais.
+Casos de Uso são utilizados para descrever um conjunto de ações que um sistema (ou um conjunto de sistemas) deve realizar em colaboração com um ou mais usuários externos. Essas ações devem fornecer um resultado observável e valioso para as partes interessadas. Na notação UML, os Casos de Uso são representados por diagramas comportamentais.
 
 ## Especificação Suplementar
 
-A Especificação Suplementar se trata de de um documento em linguagem natural, que busca explicitar os requisitos não funcionais do sistema que será construído com o objetivo de deixar as partes interessadas e a equipe de desenvolvimento atualizados quanto aos atributos de qualidade, usabilidade, confiabilidade,desempenho e suportabilidade.
+A Especificação Suplementar é um documento em linguagem natural que visa explicitar os requisitos não funcionais do sistema a ser desenvolvido. Seu objetivo é manter as partes interessadas e a equipe de desenvolvimento informadas sobre atributos como qualidade, usabilidade, confiabilidade, desempenho e suportabilidade.
 
 #  Técnicas de Modelagem Ágeis
 
 ## Cenário
 
-Cenários são conhecidas técnicas visuais usadas para compreender as relações entre ambientes e sistemas.
-Para o cenário exemplificar essa ideia, alguns elementos são usados para tal, como: Título, Objetivo,
-Contexto, Recurso, Atores e Episódios. Além disso, cenários têm caráter evolutivo, ou seja, não se tem a
-versão definitiva logo de cara, o que obriga a manter um gerenciamento, provendo mecanismos para manter
-a rastreabilidade, o controle de configuração e a eliminação de inconsistências e desatualizações entre os
-cenários.
+Cenários são técnicas visuais utilizadas para compreender as relações entre ambientes e sistemas. Para ilustrar essas relações, os cenários fazem uso de elementos como: Título, Objetivo, Contexto, Recurso, Atores e Episódios. Além disso, cenários possuem caráter evolutivo, ou seja, não têm uma versão definitiva desde o início. Isso exige um gerenciamento contínuo, com mecanismos para garantir a rastreabilidade, o controle de versões e a eliminação de inconsistências e desatualizações.
 
 ## Léxico
 
-Léxico é uma técnica que tem como objetivo descrever as símbolos de uma linguagem, um exemplo é o
-LAL(Léxico Ampliado da Linguagem).O léxico tem algumas características, uma delas é que cada símbolo é
-descrito com noção(a denotação do símbolo) e impacto(descreve o efeito de algo na aplicação, sentido
-conotativo). Para isso existem algumas regras gerais que devem ser seguidas: Cada símbolo tem zero ou mais
-sinônimos, cada símbolo tem uma ou mais noções e cada símbolo tem um ou mais impactos.
+Léxico é uma técnica que tem como objetivo descrever os símbolos de uma linguagem. Um exemplo é o LAL (Léxico Ampliado da Linguagem). O léxico possui algumas características: cada símbolo é descrito por sua noção (denotação do símbolo) e por seu impacto (efeito causado na aplicação). Algumas regras gerais devem ser seguidas: cada símbolo pode ter zero ou mais sinônimos, uma ou mais noções, e um ou mais impactos.
 
 
 ## Referências
@@ -47,5 +35,6 @@ sinônimos, cada símbolo tem uma ou mais noções e cada símbolo tem um ou mai
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 07/05/2025 | Criação da página de análise das técnicas de modelagem  | [João Igor](https://github.com/JoaoPC10)       | [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)
-| 1.1    | 07/05/2025 | Adição das definições das técnicas  | [João Igor](https://github.com/JoaoPC10)       | [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)
+| 1.0    | 07/05/2025 | Criação da página de análise das técnicas de modelagem  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.1    | 07/05/2025 | Adição das definições das técnicas  | [João Igor](https://github.com/JoaoPC10)  e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 09/05/2025 | Alterações e correçõestextuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
