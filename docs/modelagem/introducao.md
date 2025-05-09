@@ -30,6 +30,13 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
+<div style="text-align: center">
+<img src="../assets/referencias/modelagem/RefCasosDeUso.png" width="400"/>
+<img src="../assets/referencias/modelagem/RefEspSup.png" width="400"/>
+<img src="../assets/referencias/modelagem/RefCen.png" width="400"/>
+<img src="../assets/referencias/modelagem/RefLex.png" width="400"/>
+</div>
+
 
 ## Histórico de Versões
 
