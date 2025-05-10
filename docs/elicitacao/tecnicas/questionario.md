@@ -177,7 +177,7 @@ Legenda - Tabela 2:
 ## Video
 O vídeo abaixo refere-se à questionário descrita neste artefato, realizada no **Microsoft Teams**:
 
-<iframe width="560" height="315" src="https://youtu.be/embed/1FFlny7MSBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1FFlny7MSBE?si=epTF6obv_R7BwMZH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Referências Bibliográficas
@@ -197,3 +197,4 @@ O vídeo abaixo refere-se à questionário descrita neste artefato, realizada no
 | 1.4 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.5 | 07/05/2025 | Adicionando imagem das referências |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
 | 1.6 | 08/05/2025 | Inserindo vídeo de apresentação |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
+| 1.7 | 09/05/2025 | Corrigindo link quebrado |[Julia Gabriela](https://github.com/JuliaGabP)              | [Ryan Salles](https://github.com/RA-Salles)     |
