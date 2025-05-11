@@ -58,6 +58,8 @@
  Autor: <a href="https://github.com/Gabrielfcoelho" target = "_blank">Gabriel Flores</a></h6>
 </center>
 
+
+
 ## Referências
    > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 abr. 2025. 
 
