@@ -2,10 +2,6 @@
 
 Esse documento descreverá os cenários para o aplicativo CadÚnico
 
-## Introdução 
-
-Cenários são uma forma de modelagem de requisitos 
-
 ## Cenários
 
 Essa seção contém os cenários elaborados com base nos requisitos elicitados e observações realizadas durante a etapa de elicitação. 
@@ -68,6 +64,46 @@ familiar).
 - Caso falte algum dado obrigatório, o app impede o envio e destaca os campos
 incompletos.
 
+**Cenário 4: Conferir informações sobre benefícios**
+
+**Nome do Cenário:** Conferir Informações sobre benefícios
+**Ator principal:**  Usuário com ou sem autenticação. 
+**Ator Secundário:** Aplicativo CadÚnico.
+**Contexto:** O usuário gostaria de verificar o funcionamento de demais benefícios disponíveis e descobrir se são aplicáveis para sua condição.
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo.  
+**Fluxo principal:**  
+1. O usuário abre o aplicativo. 
+2. O usuário acessa a tela de informações.
+3. O aplicativo acessa sua base de dados local e apresenta os benefícios disponíveis.
+4. O usuário acessa a tela específica sobre o benefício que gostaria de saber mais sobre.
+5. O usuário lê as informações.  
+
+**Pós-condições:** O usuário obtém as informações.
+**Exceções:**  
+1. Navegador do computador e/ou celular estão desatualizados.
+2. O computador não possui internet. 
+
+**Cenário 5: Verificar postos de atentdimento**
+
+**Nome do Cenário:** Verificar postos de atendimento
+**Ator principal:**  Usuário com ou sem autenticação 
+**Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico. 
+**Contexto:** O usuário gostaria de verificar o local e horário de postos de atentdimento para poder ser atendido pessoalmente.
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
+**Fluxo principal:**  
+1. O usuário abre o aplicativo. 
+2. O usuário acessa a tela de informações sobre postos de atendimento.
+3. O usuário insere estado, município e tipo de posto.
+4. O sistema verifica as informações mais recentes e envia para o aplicativo.
+5. O aplicativo apresenta as informações recebidas pelo sistema. 
+6. O usuário verifica os postos de atendimento. 
+
+**Pós-condições:** O usuário obtém as informações desejadas.
+**Exceções:**  
+1. Navegador do computador e/ou celular estão desatualizados.
+2. O usuário não possui acesso à internet. 
+3. O usuário obtém um erro de interface e necessita resetar o aplicativo. 
+
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
 
@@ -88,4 +124,5 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema | [Ryan Salles](https://github.com/RA-Salles), [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 |  1.1   | 12/05/2025 | Criação de cenários e referências| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 |  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+| 1.3    | 12/05/2025 | Inserindo 2 novos cenários.
 
