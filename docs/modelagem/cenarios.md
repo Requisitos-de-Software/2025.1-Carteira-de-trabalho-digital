@@ -69,7 +69,7 @@ incompletos.
 CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
 
 <div style="text-align: center;">
-    <img src="../../assets/referencias/cenarios/referencia_cenarios.jpeg" alt="Cenários">
+    <img src="../docs/assets/referencias/cenarios/referencia_cenarios.jpeg" alt="Cenários">
 </div>
 
 ## Bibliografia
