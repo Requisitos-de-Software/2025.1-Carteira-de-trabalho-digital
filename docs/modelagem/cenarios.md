@@ -68,7 +68,7 @@ familiar).
 - Caso falte algum dado obrigatório, o app impede o envio e destaca os campos
 incompletos.
 
-## Video
+## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DohE9Bf-ppg?si=w5koy8vx1bkrT6M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
