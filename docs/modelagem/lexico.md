@@ -61,8 +61,8 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 8 maio 2025.
 
 <div style="text-align: center">
-<img src="../assets/referencias/modelagem/RefLex.png" width="400"/>
-<img src="../assets/referencias/modelagem/RefTabLex.png" width="400"/>
+<img src="../../docs/assets/referencias/modelagem/RefLex.png" width="400"/>
+<img src="../../docs/assets/referencias/modelagem/RefTabLex.png" width="400"/>
 </div>
 
 
