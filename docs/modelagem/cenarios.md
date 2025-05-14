@@ -152,7 +152,7 @@ incompletos.
 2. Campos de filtro mal preenchidos ou inválidos.  
 3. Falha de conexão impede a exibição dos resultados.
 
-**Cenário 9: Chatbot**
+**Cenário 8: Chatbot**
 
 **Nome do Cenário:** Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas  
 **Ator principal:** Usuário Cadastrado com dúvidas
@@ -176,7 +176,7 @@ incompletos.
 3. O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.
 4. O Assistente Virtual não está em manutentção, frustrando a tentativa de uso. 
 
-**Cenário 8: Modo Escuro**
+**Cenário 9: Modo Escuro**
 
 **Nome do Cenário:** Modo Escuro
 **Ator principal:** Usuário.
@@ -213,9 +213,9 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema | [Ryan Salles](https://github.com/RA-Salles), [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.1   | 12/05/2025 | Criação de cenários e referências| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-| 1.3    | 12/05/2025 | Inserindo 2 novos cenários. | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro) |
-| 1.4    | 13/05/2025 | Inserindo 2 novos cenários. | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-| 1.5    | 13/05/2025 | Adicionando introdução | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-
+|  1.1   | 12/05/2025 | Criação de cenários e referências        | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+|  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+|  1.3   | 12/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro)    |
+|  1.4   | 13/05/2025 | Inserindo 2 novos cenários.              | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+|  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+|  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro)    |
