@@ -51,6 +51,10 @@ Legenda:
 | RF32    | Atualização Cadastral                     | Entrevista                            | Não |
 | RF33    | Simulador de Benefícios                   | Entrevista                            | Não |
 | RF34    | Chat de Atendimento                       | Entrevista                            | Não |
+| RF35    | Tutoriais Interativos                     | Entrevista                            | Não |
+| RF36    | Vídeos Explicativos                       | Entrevista                            | Não |
+| RF37    | Assistência por Voz                       | Entrevista                            | Não |
+| RF38    | Modo escuro                               | Introspecção                          | Não |
 
 <center>
     Autor(es): 
@@ -86,8 +90,8 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 | RNF17 | Desempenho otimizado para internet limitada        | Introspecção                         | Não |
 | RNF18 | Possibilidade de outros idiomas                    | Introspecção                         | Não |
 | RNF19 | Backup e restauração de sessão                     | Introspecção                         | Não |
-| RNF20 | Modo escuro                                        | Introspecção                         | Não |
-| RNF21 | Alta disponibilidade e recuperação de desastres    | Introspecção                         | Não |
+| RNF20 | Alta disponibilidade e recuperação de desastres    | Introspecção                         | Não |
+
 
 <center>
     Autor(es): 
