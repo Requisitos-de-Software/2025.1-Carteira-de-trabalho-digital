@@ -24,34 +24,27 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 ## Referências
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
-<div align = "center">
-
 ##### Imagem 1: Léxico
-
-<img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
+<div align = "center">
+<img src="../assets/referencias/modelagem/RefLex.png" width="400"/>
 </div>
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
-<div align = "center">
-
 ##### Imagem 2: Especificação suplementar
-<img src="../../assets/referencias/modelagem/RefEspSup.png" width="400"/>
+<div align = "center">
+<img src="../assets/referencias/modelagem/RefEspSup.png" width="400"/>
 </div>
 
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 
-<div style="text-align: center;">
-
 ##### Imagem 3: Cenário
-
+<div style="text-align: center;">
 <img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
 </div>
 
-<div style="text-align: center;">
-
 ##### Imagem 4: Casos de Uso
-
+<div style="text-align: center;">
 <img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
 </div>
 
