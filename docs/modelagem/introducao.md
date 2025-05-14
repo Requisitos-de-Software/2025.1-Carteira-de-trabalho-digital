@@ -24,14 +24,12 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 ## Referências
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
-##### Imagem 1: Léxico
 <div align = "center">
 <img src="../assets/referencias/modelagem/RefLex.png" width="400"/>
 </div>
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
-##### Imagem 2: Especificação suplementar
 <div align = "center">
 <img src="../assets/referencias/modelagem/RefEspSup.png" width="400"/>
 </div>
@@ -39,6 +37,7 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 
 ##### Imagem 3: Cenário
+
 <div style="text-align: center;">
 <img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
 </div>
