@@ -35,16 +35,11 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 </div>
 
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
-
-##### Imagem 3: Cenário
-
 <div style="text-align: center;">
-<img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
+<img src="../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
 </div>
-
-##### Imagem 4: Casos de Uso
 <div style="text-align: center;">
-<img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
+<img src="../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
 </div>
 
 ## Histórico de Versões
