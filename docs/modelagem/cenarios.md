@@ -104,6 +104,52 @@ incompletos.
 2. O usuário não possui acesso à internet. 
 3. O usuário obtém um erro de interface e necessita resetar o aplicativo. 
 
+**Cenário 6: Cadastro de Família**
+
+**Nome do Cenário:** Cadastrar nova família no sistema  
+**Ator principal:** Responsável familiar  
+**Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico  
+**Contexto:** O responsável familiar deseja cadastrar sua família no Cadastro Único para acessar benefícios sociais.  
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet; documentos dos membros da família.  
+
+**Fluxo principal:**  
+1. O usuário acessa o aplicativo.  
+2. O usuário seleciona a opção “Cadastrar Família”.  
+3. O sistema solicita dados pessoais do responsável (nome, CPF, nascimento, endereço, telefone).  
+4. O usuário insere os dados dos demais membros da família (nome, parentesco, CPF/RG, data de nascimento, escolaridade, renda).  
+5. O sistema valida os dados e verifica duplicidades.  
+6. O usuário revisa e confirma o cadastro.  
+7. O sistema emite um protocolo e registra o envio para análise.  
+
+**Pós-condições:** A família é registrada como novo grupo familiar no sistema, com cadastro pendente de validação.  
+**Exceções:**  
+1. CPF do responsável já cadastrado em outro grupo familiar.  
+2. Dados de algum membro incompletos ou inválidos.  
+3. Falha na comunicação com o sistema durante o envio do formulário.  
+
+**Cenário 7: Alteração de Dados da Família Cadastrada**
+
+**Nome do Cenário:** Atualizar dados da composição familiar  
+**Ator principal:** Responsável familiar  
+**Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico  
+**Contexto:** A família cadastrada passou por mudanças (como saída ou entrada de membros, mudança de endereço ou de renda) e deseja atualizar o cadastro.  
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet; o responsável deve estar autenticado no aplicativo.  
+
+**Fluxo principal:**  
+1. O usuário abre o aplicativo.  
+2. O usuário acessa a opção “Atualizar Cadastro Familiar”.  
+3. O sistema exibe os dados da família previamente cadastrados.  
+4. O usuário edita informações desejadas: adição/remoção de membros, alteração de renda, escolaridade ou endereço.  
+5. O sistema valida os novos dados inseridos.  
+6. O usuário confirma as alterações e envia o formulário.  
+7. O sistema gera um protocolo e registra a atualização como pendente de validação.  
+
+**Pós-condições:** As informações da família são atualizadas no sistema e aguardam análise por um agente responsável.  
+**Exceções:**  
+1. Tentativa de excluir todos os membros da família.  
+2. Dados inconsistentes (ex: renda muito alta ou CEP inválido).  
+3. Falha no envio devido a problemas de conexão ou sessão expirada.  
+
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
 
@@ -125,4 +171,5 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.1   | 12/05/2025 | Criação de cenários e referências| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 |  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 | 1.3    | 12/05/2025 | Inserindo 2 novos cenários. | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro) |
+| 1.4    | 13/05/2025 | Inserindo 2 novos cenários. | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 
