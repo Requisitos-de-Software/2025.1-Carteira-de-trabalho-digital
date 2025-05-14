@@ -1,6 +1,8 @@
 # Cenários
 
-Esse documento descreverá os cenários para o aplicativo CadÚnico
+## Introdução
+
+Este documento apresenta uma série de cenários desenvolvidos como parte do processo de engenharia de requisitos do aplicativo Cadastro Único (CadÚnico). Os cenários são descrições estruturadas de possíveis interações entre usuários e o sistema, com o objetivo de capturar comportamentos esperados, identificar requisitos e apoiar a validação das funcionalidades. Cada cenário contém informações sobre os atores envolvidos, o contexto da interação, pré-condições, fluxo principal de ações, pós-condições e exceções possíveis.
 
 ## Cenários
 
@@ -172,4 +174,5 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação| [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 | 1.3    | 12/05/2025 | Inserindo 2 novos cenários. | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro) |
 | 1.4    | 13/05/2025 | Inserindo 2 novos cenários. | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
+| 1.5    | 13/05/2025 | Adicionando introdução | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
 
