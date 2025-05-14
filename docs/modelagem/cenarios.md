@@ -129,28 +129,28 @@ incompletos.
 2. Dados de algum membro incompletos ou inválidos.  
 3. Falha na comunicação com o sistema durante o envio do formulário.  
 
-**Cenário 7: Alteração de Dados da Família Cadastrada**
+**Cenário 7: Filtrar Benefícios Sociais**
 
-**Nome do Cenário:** Atualizar dados da composição familiar  
-**Ator principal:** Responsável familiar  
+**Nome do Cenário:** Filtrar informações sobre benefícios sociais  
+**Ator principal:** Usuário (autenticado ou não)  
 **Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico  
-**Contexto:** A família cadastrada passou por mudanças (como saída ou entrada de membros, mudança de endereço ou de renda) e deseja atualizar o cadastro.  
-**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet; o responsável deve estar autenticado no aplicativo.  
+**Contexto:** O usuário deseja visualizar apenas os benefícios sociais que sejam relevantes ao seu perfil ou interesse, utilizando filtros para facilitar a busca.  
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
 
 **Fluxo principal:**  
 1. O usuário abre o aplicativo.  
-2. O usuário acessa a opção “Atualizar Cadastro Familiar”.  
-3. O sistema exibe os dados da família previamente cadastrados.  
-4. O usuário edita informações desejadas: adição/remoção de membros, alteração de renda, escolaridade ou endereço.  
-5. O sistema valida os novos dados inseridos.  
-6. O usuário confirma as alterações e envia o formulário.  
-7. O sistema gera um protocolo e registra a atualização como pendente de validação.  
+2. O usuário acessa a seção “Benefícios Disponíveis”.  
+3. O sistema apresenta a lista completa de benefícios.  
+4. O usuário seleciona filtros como: tipo de benefício, público-alvo, localização, faixa de renda, entre outros.  
+5. O sistema processa os filtros aplicados.  
+6. O sistema exibe os benefícios que correspondem aos critérios selecionados.  
+7. O usuário visualiza os detalhes dos benefícios listados.  
 
-**Pós-condições:** As informações da família são atualizadas no sistema e aguardam análise por um agente responsável.  
+**Pós-condições:** O usuário acessa apenas os benefícios que correspondem aos filtros aplicados.  
 **Exceções:**  
-1. Tentativa de excluir todos os membros da família.  
-2. Dados inconsistentes (ex: renda muito alta ou CEP inválido).  
-3. Falha no envio devido a problemas de conexão ou sessão expirada.  
+1. Nenhum benefício corresponde aos filtros utilizados.  
+2. Campos de filtro mal preenchidos ou inválidos.  
+3. Falha de conexão impede a exibição dos resultados.
 
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
