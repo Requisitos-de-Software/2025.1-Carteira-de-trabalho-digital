@@ -11,7 +11,7 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 </center>  
 
 | Léxico |  Classificação | Sinônimos | Noção | Impacto |
-|:----------:|:-----------:|:----------:|:----------:|---------|
+|:----------:|:-----------:|:----------:|:----------:|:-------:|
 | Nome do Léxico | Verbo/Objeto/Estado | Palavras ou expressões com sentido parecido | Quem é o sujeito? | Quais ações executa ou sofre|
 
 <center>
@@ -44,7 +44,7 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 | [Cadastro Inativo](#cadastro-inativo) | Estado | [Cadastro vencido](#cadastro-inativo) | [Cadastro](#cadastro) fora do prazo de validade, exigindo atualização. | Pode bloquear o acesso a [programas sociais](#programa-social). |
 | [Família Elegível](#família-elegível) | Estado | [Apta ao benefício](#família-elegível) | [Família](#família) que atende aos critérios de um ou mais [programas sociais](#programa-social). | Pode receber os benefícios previstos. |
 | [Família Inelegível](#família-inelegível) | Estado | [Não apta ao benefício](#família-inelegível) | [Família](#família) que não atende aos critérios exigidos. | Não pode receber os benefícios. |
-| [Cadastro Pendente](#cadastro-pendente) | Estado | [Cadastro incompleto](#cadastro-pendente) | [Cadastro](#cadastro) em processo de validação ou com dados faltantes. | [Cadastro](#cadastro) em processo de validação ou com dados faltantes. |
+| [Cadastro Pendente](#cadastro-pendente) | Estado | [Cadastro incompleto](#cadastro-pendente) | [Cadastro](#cadastro) em processo de validação ou com dados faltantes. |  Pode atrasar a concessão de benefícios. |
 
 <center>
     Autor(es): 
@@ -70,4 +70,4 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 | 1.0    | 07/05/2025 | Criação da página de análise das técnicas de modelagem  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1    | 08/05/2025 | Adição das Informações | [João Igor](https://github.com/JoaoPC10) e  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2 | 09/05/2025 | Criação da tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.3 | 14/05/2025 | Criação de hiper links | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3 | 14/05/2025 | Criação de hiper links na tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
