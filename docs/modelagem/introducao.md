@@ -1,34 +1,3 @@
-# Introdução
-
-## Cenários
-
-
-## Casos de Uso
-
-
-
-
-## Referências
-
-
-
-##### Imagem 1: Cenário
-
-
-
-##### Imagem 3: Casos de Uso
-
-<div style="text-align: center;">
-    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
-</div>
-
-**Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
-
-
-## Histórico de Versão
-| Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
-| :----: | :--------: | :--------------: | :-------------------: | :----------------: |
-
 # Introdução à Modelagem
 
 Modelagem é o processo de criar representações abstratas ou técnicas que descrevem os fluxos e comportamentos de um software. Essas representações geralmente possuem apelo visual, e, por isso, devem ser simples e fáceis de entender. Um exemplo disso é o Rich Picture, já abordado anteriormente. É importante destacar que, dependendo da proposta da modelagem, o nível de abstração e complexidade pode variar.
@@ -57,7 +26,7 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 
 <div align = "center">
 
-###### Imagem 1: Léxico
+##### Imagem 1: Léxico
 
 <img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
 </div>
@@ -92,4 +61,4 @@ Léxico é uma técnica que tem como objetivo descrever os símbolos de uma ling
 | :-----: | :----: | :----------: | :------------: | :--------: |
 |  1.0   | 08/05/2025 | Criação da página e adição das técnicas Casos de Uso e Cenários  | [João Pedro Costa](https://github.com/joaopedro) | [Julia Gabriela](https://github.com/JuliaGabP)                      
 | 1.1    | 07/05/2025 | Adição das Técnicas de Léxico e Especificação suplementar  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.2 | 09/05/2025 | Alterações e correçõestextuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 09/05/2025 | Alterações e correções textuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
