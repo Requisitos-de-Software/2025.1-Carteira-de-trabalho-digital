@@ -150,7 +150,50 @@ incompletos.
 **Exceções:**  
 1. Tentativa de excluir todos os membros da família.  
 2. Dados inconsistentes (ex: renda muito alta ou CEP inválido).  
-3. Falha no envio devido a problemas de conexão ou sessão expirada.  
+3. Falha no envio devido a problemas de conexão ou sessão expirada.
+
+**Cenário 8: Chatbot**
+
+**Nome do Cenário:** Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas  
+**Ator principal:** Usuário Cadastrado com dúvidas
+**Ator Secundário:** Sistema de chatbot hipotético Assistente Virtual, Aplicativo CadÚnico,   
+**Contexto:** Um usuário possui alguma duvida relacionada a realização de uma operação ou benefício.  
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
+
+**Fluxo principal:**  
+1. O usuário abre o aplicativo.  
+2. O usuário aperta no botão de login.
+3. O usuário é autenticado pelo Gov.br.
+4. O usuário acessa a opção "conversar com o assistente virtual".
+5. O usuário é movido à tela de interface do assistente virtual. 
+6. O usuário realiza uma pergunta relacionada a benefícios ou operações no aplicativo. 
+7. O sistema virtual responde a dúvida.  
+
+**Pós-condições:** O usuário tem sua dúvida sanada.   
+**Exceções:**  
+1. Usuário não está cadastrado e falha na parte de autenticação.
+2. Usuário não possui conexão com a internet em seu aparelho.
+3. O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.
+4. O Assistente Virtual não está em manutentção, frustrando a tentativa de uso. 
+
+**Cenário 8: Modo Escuro**
+
+**Nome do Cenário:** Modo Escuro
+**Ator principal:** Usuário.
+**Ator Secundário:** Aplicativo CadÚnico,   
+**Contexto:** Um usuário está tentando utilizar o aplicativo em um ambiente de baixa luminosidade e a interface padrão é muito clara.  
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
+
+**Fluxo principal:**  
+1. O usuário abre o aplicativo.
+2. O usuário se incomoda com a luminosidade.
+3. O usuário aperta em um botão descrito como "Modo Escuro". 
+4. O aplicativo atualiza a interface para utilizar cores mais frias.
+
+**Pós-condições:** O usuário se sente mais confortável com o esquema de cores redefinido.   
+**Exceções:**  
+1. O esquema de cores redefinido torna o usuário mais desconfortável no momento. 
+2. O usuário não consegue encontrar o botão "Modo Escuro".
 
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
