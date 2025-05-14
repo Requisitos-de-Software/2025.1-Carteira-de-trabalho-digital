@@ -207,7 +207,6 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
     <img src="../../assets/referencias/cenarios/referencia_cenarios.jpeg" alt="Cenários">
 </div>
 
-## Bibliografia
 
 ## Histórico de Versão
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |

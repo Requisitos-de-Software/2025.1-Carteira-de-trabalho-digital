@@ -55,4 +55,4 @@ INSERIR DESCRIÇÃO DE UMA DESCRIÇÃO SUPLEMENTAR; INSERIR DESCRIÇÃO DO FURPS
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema  | [João Pedro Costa](https://github.com/joaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.1   | 11/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | A DEFINIR |
+|  1.1   | 11/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/joaopedro) |
