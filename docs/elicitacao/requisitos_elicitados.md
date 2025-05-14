@@ -12,7 +12,7 @@ Legenda:
 # Requisitos Funcionais 
 
 <center>
-    <b>Tabela 3:</b> Requisitos Funcionais Elicitados
+    <b>Tabela 1:</b> Requisitos Funcionais Elicitados
 </center>
 
 | ID      | Nome                                      | Rastreabilidade                       | Implementado |
@@ -66,7 +66,7 @@ Legenda:
 Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabela 4.
 
 <center>
-    <b>Tabela 4:</b> Requisitos Não Funcionais elicitados
+    <b>Tabela 2:</b> Requisitos Não Funcionais elicitados
 </center>
 
 | ID    | Descrição                                          | Rastreabilidade                      | Implementado | 
