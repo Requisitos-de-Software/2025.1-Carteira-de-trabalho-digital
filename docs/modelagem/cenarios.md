@@ -85,12 +85,12 @@ incompletos.
 1. Navegador do computador e/ou celular estão desatualizados.
 2. O computador não possui internet. 
 
-**Cenário 5: Verificar postos de atentdimento**
+**Cenário 5: Verificar postos de atendimento**
 
 **Nome do Cenário:** Verificar postos de atendimento
 **Ator principal:**  Usuário com ou sem autenticação 
 **Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico. 
-**Contexto:** O usuário gostaria de verificar o local e horário de postos de atentdimento para poder ser atendido pessoalmente.
+**Contexto:** O usuário gostaria de verificar o local e horário de postos de atendimento para poder ser atendido pessoalmente.
 **Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
 **Fluxo principal:**  
 1. O usuário abre o aplicativo. 
@@ -174,7 +174,7 @@ incompletos.
 1. Usuário não está cadastrado e falha na parte de autenticação.
 2. Usuário não possui conexão com a internet em seu aparelho.
 3. O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.
-4. O Assistente Virtual não está em manutentção, frustrando a tentativa de uso. 
+4. O Assistente Virtual está em manutenção, frustrando a tentativa de uso. 
 
 **Cenário 9: Modo Escuro**
 
@@ -211,10 +211,10 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 ## Histórico de Versão
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
-|  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema | [Ryan Salles](https://github.com/RA-Salles), [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.1   | 12/05/2025 | Criação de cenários e referências        | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.3   | 12/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro)    |
-|  1.4   | 13/05/2025 | Inserindo 2 novos cenários.              | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/joaopedro) |
-|  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/joaopedro)    |
+|  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema | [Ryan Salles](https://github.com/RA-Salles), [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.1   | 12/05/2025 | Criação de cenários e referências        | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.2   | 12/05/2025 | Inserindo vídeo e atualizando formatação | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.3   | 12/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
+|  1.4   | 13/05/2025 | Inserindo 2 novos cenários.              | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
