@@ -29,6 +29,11 @@ informativa.
 - Se ocorrer falha de comunicação com o banco de dados, o sistema exibe uma mensagem
 de erro.
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+</center>
+
 **Cenário 2: Alteração de Dados Cadastrais**  
 **Nome do Cenário:** Atualização de dados pessoais e residênciais  
 **Ator principal:** Usuário cadastrado  
@@ -46,6 +51,11 @@ notificação de que a atualização está em processo.
 **Exceções:**  
 - Se o CPF estiver em inconsistência, o sistema bloqueia a alteração e exibe mensagem.
 - Se o endereço informado for inválido (CEP inexistente), o sistema solicita correção.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+</center>
 
 **Cenário 3: Realizar Cadastro no Aplicativo**  
 **Nome do Cenário:** Primeiro cadastro no CadÚnico  
@@ -66,6 +76,11 @@ familiar).
 - Caso falte algum dado obrigatório, o app impede o envio e destaca os campos
 incompletos.
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+</center>
+
 **Cenário 4: Conferir informações sobre benefícios**
 
 **Nome do Cenário:** Conferir Informações sobre benefícios
@@ -84,6 +99,11 @@ incompletos.
 **Exceções:**  
 1. Navegador do computador e/ou celular estão desatualizados.
 2. O computador não possui internet. 
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+</center>
 
 **Cenário 5: Verificar postos de atendimento**
 
@@ -105,6 +125,11 @@ incompletos.
 1. Navegador do computador e/ou celular estão desatualizados.
 2. O usuário não possui acesso à internet. 
 3. O usuário obtém um erro de interface e necessita resetar o aplicativo. 
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+</center>
 
 **Cenário 6: Cadastro de Família**
 
@@ -129,6 +154,11 @@ incompletos.
 2. Dados de algum membro incompletos ou inválidos.  
 3. Falha na comunicação com o sistema durante o envio do formulário.  
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+</center>
+
 **Cenário 7: Filtrar Benefícios Sociais**
 
 **Nome do Cenário:** Filtrar informações sobre benefícios sociais  
@@ -151,6 +181,12 @@ incompletos.
 1. Nenhum benefício corresponde aos filtros utilizados.  
 2. Campos de filtro mal preenchidos ou inválidos.  
 3. Falha de conexão impede a exibição dos resultados.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+
+</center>
 
 **Cenário 8: Chatbot**
 
@@ -176,6 +212,11 @@ incompletos.
 3. O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.
 4. O Assistente Virtual está em manutenção, frustrando a tentativa de uso. 
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+</center>
+
 **Cenário 9: Modo Escuro**
 
 **Nome do Cenário:** Modo Escuro
@@ -194,6 +235,11 @@ incompletos.
 **Exceções:**  
 1. O esquema de cores redefinido torna o usuário mais desconfortável no momento. 
 2. O usuário não consegue encontrar o botão "Modo Escuro".
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+</center>
 
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
@@ -218,3 +264,4 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.4   | 13/05/2025 | Inserindo 2 novos cenários.              | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
+|  1.7   | 14/05/2025 | Adição de autores a cada cenário         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
