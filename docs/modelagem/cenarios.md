@@ -241,6 +241,33 @@ incompletos.
     <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
 </center>
 
+## Rastreabilidade 
+
+Essa seção apresenta a rastreabilidade Cenário-Requisito por meio da tabela 1. A legenda utilizada será a seguinte:
+
+- CNX: Cenário número X. 
+- RFX: Requisito número X.
+
+Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca modelar. 
+
+<center>
+    <b>Tabela 1:</b> 
+</center>
+
+| Cenário | Requisito |
+| :-----: | :-------: |
+| CN01     | RF24     |
+| CN02     | RF05     |
+| CN03     | RF02     |
+| CN04     | RF24     |
+| CN05     | RF16     |
+| CN06     | RF06     |
+| CN07     | RF23     |
+| CN08     | RF26     |
+| CN09     | RF38     |
+
+
+
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
 
