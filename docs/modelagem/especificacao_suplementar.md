@@ -28,6 +28,39 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 ## 1. Introdução
 
+Este documento apresenta a Especificação Suplementar do aplicativo Cadastro Único, detalhando os requisitos que não foram completamente descritos nos casos de uso. O objetivo é registrar requisitos legais, de qualidade (como usabilidade, desempenho, confiabilidade e suportabilidade), além de outros aspectos técnicos e operacionais do sistema.
+
+Abrange também restrições de projeto, interfaces e componentes adquiridos, com o intuito de fornecer um suporte completo à equipe de desenvolvimento.
+
+### Finalidade
+
+Este documento tem por finalidade especificar os requisitos suplementares não implementados no sistema, para que possam ser planejados, desenvolvidos e integrados às versões futuras do aplicativo Cadastro Único.
+
+### Escopo
+
+Abrange os requisitos funcionais e não funcionais elicitados por técnicas formais, porém ainda não implementados na versão atual do sistema. Estes requisitos são cruciais para a ampliação das funcionalidades voltadas ao público MEI, acessibilidade e suporte técnico.
+
+### Definições, Acrônimos e Abreviações
+
+| Termo | Definição |
+|-------|-----------|
+| **RF** | Requisito Funcional |
+| **RNF** | Requisito Não Funcional |
+| **MEI** | Microempreendedor Individual |
+| **LGPD** | Lei Geral de Proteção de Dados |
+| **MTBF** | Mean Time Between Failures |
+| **MTTR** | Mean Time To Repair |
+
+### Visão Geral
+
+Esta especificação apresenta:
+- Os requisitos funcionais não implementados (Seção 3);  
+- Os requisitos de usabilidade relacionados (Seção 4);  
+- Os requisitos de confiabilidade, desempenho e suportabilidade ainda não presentes (Seções 5 a 7);  
+- As restrições de projeto (Seção 8);  
+- Os requisitos técnicos e de ambiente (Seção 9);  
+- As interfaces previstas, requisitos de licenciamento, anexos e aprovações.
+
 ## 2. Identificação do Projeto
 
 | Campo               | Informação                      |
@@ -38,7 +71,36 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 
 ## 3. Funcionalidade  
-### 3.1. Requisito Funcional Um
+
+### 3.1. RF11 – Cadastro MEI  
+Permitir que o usuário se cadastre como Microempreendedor Individual e envie informações referentes ao seu CNPJ, atividades econômicas e vínculo com programas sociais.
+
+### 3.2. RF12 – Informações MEI  
+Apresentar uma seção com conteúdos informativos sobre MEI, incluindo direitos, deveres, tributos e formalização.
+
+### 3.3. RF13 – Personalização MEI  
+Personalizar o conteúdo e navegação do aplicativo de acordo com o setor de atuação e a região geográfica do usuário MEI.
+
+### 3.4. RF23 – Filtragem de Benefícios  
+Permitir a aplicação de filtros para visualização de benefícios por tipo (educacional, saúde, habitação) e status (ativo, suspenso, cancelado).
+
+### 3.5. RNF01 – Desempenho  
+Definir parâmetros de tempo de resposta e carga suportada, com foco em picos de acesso, para garantir estabilidade nas funcionalidades futuras relacionadas ao MEI e filtragem de benefícios.
+
+### 3.6. RNF05 – Acessibilidade  
+Garantir que as novas funcionalidades sejam compatíveis com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado).
+
+### 3.7. RNF07 – Compatibilidade com Aplicativo Off-line  
+As novas funcionalidades devem funcionar também no modo offline, sincronizando os dados automaticamente quando houver conexão.
+
+### 3.8. RNF08 – Transmissão via Conectividade Social  
+A transmissão de informações do cadastro MEI e dados filtrados de benefícios deverá ser realizada pela ferramenta Conectividade Social da CAIXA.
+
+### 3.9. RNF10 – Integração MEI  
+O sistema deverá permitir integração com a base de dados da Receita Federal e sistemas da Redesim para validação e consulta de CNPJ MEI.
+
+### 3.10. RNF14 – Usabilidade  
+As novas funcionalidades devem respeitar princípios de usabilidade, como consistência, feedback ao usuário e baixa curva de aprendizagem.
 
 ## 4. Usabilidade  
 ### 4.1. Requisito de Usabilidade Um
@@ -74,6 +136,12 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 ## 14. Referências
 
+1. IEEE Std 830-1998 – *Recommended Practice for Software Requirements Specifications*  
+2. LGPD – Lei nº 13.709/2018  
+3. Portarias Senarc nº 123/2020 e 456/2021  
+4. WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. Microsoft Press, 3ª ed., 2013.
+
+
 ## 15. Aprovações
 
 | Participante | Assinatura | Data |
@@ -99,6 +167,7 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 | Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
-|  1.0   | 16/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.0   | 16/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) e [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.1   | 16/05/2025 |   Criação da introdução e metodologia   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.2   | 16/05/2025 |   Criação da estrutura de especificação suplementar   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.2   | 16/05/2025 |   Criação da estrutura de especificação suplementar   | [João Pedro Costa](https://github.com/johnaopedro) e [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.3   | 16/05/2025 |   Preenchimento de cinco seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
