@@ -16,12 +16,11 @@ CadÚnico, como Bolsa Família.
 **Pré-condições:** O usuário já possui cadastro validado no CadÚnico e está autenticado no
 aplicativo.  
 **Fluxo principal:**  
-1. O usuário acessa o aplicativo do CadÚnico.
-2. Seleciona a opção “Meus Benefícios”.
-3. O sistema busca as informações junto à base do governo.
+1. O usuário acessa o aplicativo do CadÚnico.<br>
+2. Seleciona a opção “Meus Benefícios”.<br>
+3. O sistema busca as informações junto à base do governo.<br>
 4. É exibida uma lista de benefícios ativos, com nome do programa, status
-(ativo/suspenso), valor recebido e data da última atualização.   
-
+(ativo/suspenso), valor recebido e data da última atualização.<br>
 **Pós-condições:** O usuário visualiza seus benefícios ativos de forma clara e atualizada.  
 **Exceções:**  
 - Caso o usuário não possua benefícios ativos, o sistema exibe uma mensagem
@@ -40,16 +39,15 @@ de erro.
 **Contexto:** O usuário mudou de endereço e precisa atualizar suas informações no CadÚnico.  
 **Pré-condições:** O usuário está logado e seu cadastro já existe no sistema.  
 **Fluxo principal:**  
-1. O usuário acessa o aplicativo e entra na seção “Atualizar Cadastro”.  
-2. Informa que deseja alterar dados residenciais.  
-3. Atualiza endereço, telefone e informações de contato.  
-4. Confirma os dados e envia para análise.  
+1. O usuário acessa o aplicativo e entra na seção “Atualizar Cadastro”.<br>
+2. Informa que deseja alterar dados residenciais.<br>
+3. Atualiza endereço, telefone e informações de contato.<br>
+4. Confirma os dados e envia para análise.<br>
 5. O sistema notifica que a atualização será verificada por um agente público.  
-
 **Pós-condições:** Os dados atualizados são enviados para análise, e o usuário recebe uma
 notificação de que a atualização está em processo.    
 **Exceções:**  
-- Se o CPF estiver em inconsistência, o sistema bloqueia a alteração e exibe mensagem.
+- Se o CPF estiver em inconsistência, o sistema bloqueia a alteração e exibe mensagem.<br>
 - Se o endereço informado for inválido (CEP inexistente), o sistema solicita correção.
 
 <center>
@@ -63,16 +61,15 @@ notificação de que a atualização está em processo.
 **Contexto:** O usuário nunca utilizou o CadÚnico e quer se cadastrar pelo aplicativo.  
 **Pré-condições:** O usuário possui documentos válidos e acesso à internet.  
 **Fluxo principal:**  
-1. O usuário instala e abre o aplicativo.
-2. Seleciona “Fazer Primeiro Cadastro”.
+1. O usuário instala e abre o aplicativo.<br>
+2. Seleciona “Fazer Primeiro Cadastro”.<br>
 3. Preenche os dados pessoais (nome, CPF, data de nascimento, endereço, composição
-familiar).
-4. Envia a solicitação.
+familiar).<br>
+4. Envia a solicitação.<br>
 5. O sistema gera um protocolo e informa que o usuário será contactado para validação.  
-
 **Pós-condições:** Um cadastro preliminar é criado e enviado para avaliação por um agente social.  
 **Exceções:**  
-- Se o CPF já existir no sistema, o cadastro é bloqueado e o sistema sugere login.
+- Se o CPF já existir no sistema, o cadastro é bloqueado e o sistema sugere login.<br>
 - Caso falte algum dado obrigatório, o app impede o envio e destaca os campos
 incompletos.
 
@@ -83,22 +80,21 @@ incompletos.
 
 **Cenário 4: Conferir informações sobre benefícios**
 
-**Nome do Cenário:** Conferir Informações sobre benefícios
-**Ator principal:**  Usuário com ou sem autenticação. 
-**Ator Secundário:** Aplicativo CadÚnico.
-**Contexto:** O usuário gostaria de verificar o funcionamento de demais benefícios disponíveis e descobrir se são aplicáveis para sua condição.
+**Nome do Cenário:** Conferir Informações sobre benefícios<br>
+**Ator principal:**  Usuário com ou sem autenticação. <br>
+**Ator Secundário:** Aplicativo CadÚnico.<br>
+**Contexto:** O usuário gostaria de verificar o funcionamento de demais benefícios disponíveis e descobrir se são aplicáveis para sua condição.<br>
 **Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo.  
 **Fluxo principal:**  
-1. O usuário abre o aplicativo. 
-2. O usuário acessa a tela de informações.
-3. O aplicativo acessa sua base de dados local e apresenta os benefícios disponíveis.
-4. O usuário acessa a tela específica sobre o benefício que gostaria de saber mais sobre.
-5. O usuário lê as informações.  
-
-**Pós-condições:** O usuário obtém as informações.
+1. O usuário abre o aplicativo. <br>
+2. O usuário acessa a tela de informações.<br>
+3. O aplicativo acessa sua base de dados local e apresenta os benefícios disponíveis.<br>
+4. O usuário acessa a tela específica sobre o benefício que gostaria de saber mais sobre.<br>
+5. O usuário lê as informações.  <br>
+**Pós-condições:** O usuário obtém as informações.<br>
 **Exceções:**  
-1. Navegador do computador e/ou celular estão desatualizados.
-2. O computador não possui internet. 
+- Navegador do computador e/ou celular estão desatualizados.<br>
+- O computador não possui internet. 
 
 <center>
     Autor(es): 
@@ -107,24 +103,23 @@ incompletos.
 
 **Cenário 5: Verificar postos de atendimento**
 
-**Nome do Cenário:** Verificar postos de atendimento
-**Ator principal:**  Usuário com ou sem autenticação 
-**Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico. 
-**Contexto:** O usuário gostaria de verificar o local e horário de postos de atendimento para poder ser atendido pessoalmente.
-**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
+**Nome do Cenário:** Verificar postos de atendimento<br>
+**Ator principal:**  Usuário com ou sem autenticação <br>
+**Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico. <br>
+**Contexto:** O usuário gostaria de verificar o local e horário de postos de atendimento para poder ser atendido pessoalmente.<br>
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  <br>
 **Fluxo principal:**  
-1. O usuário abre o aplicativo. 
-2. O usuário acessa a tela de informações sobre postos de atendimento.
-3. O usuário insere estado, município e tipo de posto.
-4. O sistema verifica as informações mais recentes e envia para o aplicativo.
-5. O aplicativo apresenta as informações recebidas pelo sistema. 
-6. O usuário verifica os postos de atendimento. 
-
-**Pós-condições:** O usuário obtém as informações desejadas.
+1. O usuário abre o aplicativo. <br>
+2. O usuário acessa a tela de informações sobre postos de atendimento.<br>
+3. O usuário insere estado, município e tipo de posto.<br>
+4. O sistema verifica as informações mais recentes e envia para o aplicativo.<br>
+5. O aplicativo apresenta as informações recebidas pelo sistema. <br>
+6. O usuário verifica os postos de atendimento. <br>
+**Pós-condições:** O usuário obtém as informações desejadas.<br>
 **Exceções:**  
-1. Navegador do computador e/ou celular estão desatualizados.
-2. O usuário não possui acesso à internet. 
-3. O usuário obtém um erro de interface e necessita resetar o aplicativo. 
+- Navegador do computador e/ou celular estão desatualizados.<br>
+- O usuário não possui acesso à internet. <br>
+- O usuário obtém um erro de interface e necessita resetar o aplicativo. <br>
 
 <center>
     Autor(es): 
@@ -138,7 +133,6 @@ incompletos.
 **Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico  
 **Contexto:** O responsável familiar deseja cadastrar sua família no Cadastro Único para acessar benefícios sociais.  
 **Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet; documentos dos membros da família.  
-
 **Fluxo principal:**  
 1. O usuário acessa o aplicativo.  
 2. O usuário seleciona a opção “Cadastrar Família”.  
@@ -147,12 +141,11 @@ incompletos.
 5. O sistema valida os dados e verifica duplicidades.  
 6. O usuário revisa e confirma o cadastro.  
 7. O sistema emite um protocolo e registra o envio para análise.  
-
 **Pós-condições:** A família é registrada como novo grupo familiar no sistema, com cadastro pendente de validação.  
 **Exceções:**  
-1. CPF do responsável já cadastrado em outro grupo familiar.  
-2. Dados de algum membro incompletos ou inválidos.  
-3. Falha na comunicação com o sistema durante o envio do formulário.  
+- CPF do responsável já cadastrado em outro grupo familiar.  
+- Dados de algum membro incompletos ou inválidos.  
+- Falha na comunicação com o sistema durante o envio do formulário.  
 
 <center>
     Autor(es): 
@@ -166,7 +159,6 @@ incompletos.
 **Ator Secundário:** Sistema CadÚnico, Aplicativo CadÚnico  
 **Contexto:** O usuário deseja visualizar apenas os benefícios sociais que sejam relevantes ao seu perfil ou interesse, utilizando filtros para facilitar a busca.  
 **Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
-
 **Fluxo principal:**  
 1. O usuário abre o aplicativo.  
 2. O usuário acessa a seção “Benefícios Disponíveis”.  
@@ -175,12 +167,11 @@ incompletos.
 5. O sistema processa os filtros aplicados.  
 6. O sistema exibe os benefícios que correspondem aos critérios selecionados.  
 7. O usuário visualiza os detalhes dos benefícios listados.  
-
 **Pós-condições:** O usuário acessa apenas os benefícios que correspondem aos filtros aplicados.  
 **Exceções:**  
-1. Nenhum benefício corresponde aos filtros utilizados.  
-2. Campos de filtro mal preenchidos ou inválidos.  
-3. Falha de conexão impede a exibição dos resultados.
+- Nenhum benefício corresponde aos filtros utilizados.  
+- Campos de filtro mal preenchidos ou inválidos.  
+- Falha de conexão impede a exibição dos resultados.
 
 <center>
     Autor(es): 
@@ -190,12 +181,11 @@ incompletos.
 
 **Cenário 8: Chatbot**
 
-**Nome do Cenário:** Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas  
-**Ator principal:** Usuário Cadastrado com dúvidas
+**Nome do Cenário:** Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas  <br>
+**Ator principal:** Usuário Cadastrado com dúvidas<br>
 **Ator Secundário:** Sistema de chatbot hipotético Assistente Virtual, Aplicativo CadÚnico,   
 **Contexto:** Um usuário possui alguma duvida relacionada a realização de uma operação ou benefício.  
-**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
-
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.<br>
 **Fluxo principal:**  
 1. O usuário abre o aplicativo.  
 2. O usuário aperta no botão de login.
@@ -204,13 +194,12 @@ incompletos.
 5. O usuário é movido à tela de interface do assistente virtual. 
 6. O usuário realiza uma pergunta relacionada a benefícios ou operações no aplicativo. 
 7. O sistema virtual responde a dúvida.  
-
 **Pós-condições:** O usuário tem sua dúvida sanada.   
 **Exceções:**  
-1. Usuário não está cadastrado e falha na parte de autenticação.
-2. Usuário não possui conexão com a internet em seu aparelho.
-3. O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.
-4. O Assistente Virtual está em manutenção, frustrando a tentativa de uso. 
+- Usuário não está cadastrado e falha na parte de autenticação.<br>
+- Usuário não possui conexão com a internet em seu aparelho.<br>
+- O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.<br>
+- O Assistente Virtual está em manutenção, frustrando a tentativa de uso. 
 
 <center>
     Autor(es): 
@@ -219,22 +208,20 @@ incompletos.
 
 **Cenário 9: Modo Escuro**
 
-**Nome do Cenário:** Modo Escuro
-**Ator principal:** Usuário.
+**Nome do Cenário:** Modo Escuro<br>
+**Ator principal:** Usuário.<br>
 **Ator Secundário:** Aplicativo CadÚnico,   
-**Contexto:** Um usuário está tentando utilizar o aplicativo em um ambiente de baixa luminosidade e a interface padrão é muito clara.  
-**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  
-
+**Contexto:** Um usuário está tentando utilizar o aplicativo em um ambiente de baixa luminosidade e a interface padrão é muito clara.  <br>
+**Pré-condições:** Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.  <br>
 **Fluxo principal:**  
-1. O usuário abre o aplicativo.
-2. O usuário se incomoda com a luminosidade.
-3. O usuário aperta em um botão descrito como "Modo Escuro". 
-4. O aplicativo atualiza a interface para utilizar cores mais frias.
-
+1. O usuário abre o aplicativo.<br>
+2. O usuário se incomoda com a luminosidade.<br>
+3. O usuário aperta em um botão descrito como "Modo Escuro". <br>
+4. O aplicativo atualiza a interface para utilizar cores mais frias.<br>
 **Pós-condições:** O usuário se sente mais confortável com o esquema de cores redefinido.   
 **Exceções:**  
-1. O esquema de cores redefinido torna o usuário mais desconfortável no momento. 
-2. O usuário não consegue encontrar o botão "Modo Escuro".
+- O esquema de cores redefinido torna o usuário mais desconfortável no momento. <br>
+- O usuário não consegue encontrar o botão "Modo Escuro".
 
 <center>
     Autor(es): 
@@ -244,6 +231,7 @@ incompletos.
 
 
 **Cenário 10: Cadastro MEI**
+
 **Nome do Cenário:** Formalização do MEI via aplicativo do CadÚnico  
 **Ator principal:** Usuário com perfil elegível para formalização  
 **Contexto:** O usuário deseja formalizar sua atividade como Microempreendedor Individual diretamente pelo app do CadÚnico, aproveitando os dados já cadastrados.  
@@ -254,7 +242,6 @@ incompletos.
 3. O usuário complementa com nome fantasia e atividade econômica.  
 4. Informa endereço comercial (se diferente do residencial) e confirma os dados.  
 5. Envia solicitação para análise e geração do CNPJ.  
-
 **Pós-condições:** A solicitação de cadastro MEI é enviada para o sistema da Receita Federal e o usuário pode acompanhar o status pelo próprio app.  
 **Exceções:**  
 - Se os dados estiverem desatualizados ou incompletos, o sistema solicita atualização antes de prosseguir.  
@@ -268,6 +255,7 @@ incompletos.
 ---
 
 **Cenário 11: Informações MEI**
+
 **Nome do Cenário:** Consulta de situação MEI integrada ao CadÚnico  
 **Ator principal:** Usuário já formalizado como MEI  
 **Contexto:** O usuário deseja consultar dados do seu CNPJ MEI, verificar sua situação fiscal e obrigações dentro do app do CadÚnico.  
@@ -277,7 +265,6 @@ incompletos.
 2. O sistema exibe dados como: CNPJ, CNAE, status (ativo/inativo), débitos em aberto, DAS.  
 3. O usuário pode baixar documentos e gerar boletos.  
 4. O sistema fornece orientações se houver pendências.  
-
 **Pós-condições:** O usuário acessa sua situação atual como MEI sem precisar consultar múltiplos portais.  
 **Exceções:**  
 - Se o CNPJ estiver inativo, o sistema alerta com instruções para regularização.  
@@ -291,6 +278,7 @@ incompletos.
 ---
 
 **Cenário 12: Personalização MEI** 
+
 **Nome do Cenário:** Ajuste de preferências de notificação e acessibilidade  
 **Ator principal:** Usuário MEI cadastrado no CadÚnico  
 **Contexto:** O usuário deseja configurar como receber notificações e adaptar a interface do app a suas necessidades.  
@@ -300,7 +288,6 @@ incompletos.
 2. Escolhe como deseja receber lembretes: WhatsApp, SMS ou e-mail.  
 3. Ativa modo acessível (ex: fonte grande, alto contraste).  
 4. Salva as preferências.  
-
 **Pós-condições:** O sistema passa a respeitar as novas configurações nas próximas interações.  
 **Exceções:**  
 - Se o número de celular ou e-mail forem inválidos, o sistema alerta e solicita correção.  
@@ -314,6 +301,7 @@ incompletos.
 ---
 
 **Cenário 13: Integração MEI**
+
 **Nome do Cenário:** Consulta e sincronização automática com a base de dados do MEI  
 **Ator principal:** Sistema do CadÚnico  
 **Contexto:** O CadÚnico precisa acessar e manter atualizadas as informações do MEI vinculadas ao CPF do usuário, sem necessidade de inserção manual de dados.  
@@ -324,7 +312,6 @@ incompletos.
 3. Recupera informações como: data de formalização, atividade principal, situação cadastral, pendências e débitos.  
 4. Atualiza automaticamente os dados no perfil do usuário no app CadÚnico.  
 5. Exibe aviso ou status atualizado ao usuário, caso ele acesse a área “MEI”.  
-
 **Pós-condições:** O perfil do usuário no CadÚnico reflete corretamente sua situação como MEI, com base em dados oficiais e atualizados.  
 **Exceções:**  
 - Se a conexão com a Receita Federal estiver instável, o sistema armazena tentativa e realiza nova sincronização posteriormente.  
@@ -393,3 +380,4 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  1.7   | 14/05/2025 | Adição de autores a cada cenário         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
+|  1.9   | 16/05/2025 | Corrigindo formatação e erros de digitação | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
