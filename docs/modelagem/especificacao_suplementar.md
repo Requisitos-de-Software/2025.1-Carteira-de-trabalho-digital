@@ -72,34 +72,22 @@ Esta especificação apresenta:
 
 ## 3. Funcionalidade  
 
-### 3.1. RF11 – Cadastro MEI  
-Permitir que o usuário se cadastre como Microempreendedor Individual e envie informações referentes ao seu CNPJ, atividades econômicas e vínculo com programas sociais.
-
-### 3.2. RF12 – Informações MEI  
-Apresentar uma seção com conteúdos informativos sobre MEI, incluindo direitos, deveres, tributos e formalização.
-
-### 3.3. RF13 – Personalização MEI  
-Personalizar o conteúdo e navegação do aplicativo de acordo com o setor de atuação e a região geográfica do usuário MEI.
-
-### 3.4. RF23 – Filtragem de Benefícios  
-Permitir a aplicação de filtros para visualização de benefícios por tipo (educacional, saúde, habitação) e status (ativo, suspenso, cancelado).
-
-### 3.5. RNF01 – Desempenho  
+### 3.1. RNF01 – Desempenho  
 Definir parâmetros de tempo de resposta e carga suportada, com foco em picos de acesso, para garantir estabilidade nas funcionalidades futuras relacionadas ao MEI e filtragem de benefícios.
 
-### 3.6. RNF05 – Acessibilidade  
+### 3.2. RNF05 – Acessibilidade  
 Garantir que as novas funcionalidades sejam compatíveis com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado).
 
-### 3.7. RNF07 – Compatibilidade com Aplicativo Off-line  
+### 3.3. RNF07 – Compatibilidade com Aplicativo Off-line  
 As novas funcionalidades devem funcionar também no modo offline, sincronizando os dados automaticamente quando houver conexão.
 
-### 3.8. RNF08 – Transmissão via Conectividade Social  
+### 3.4. RNF08 – Transmissão via Conectividade Social  
 A transmissão de informações do cadastro MEI e dados filtrados de benefícios deverá ser realizada pela ferramenta Conectividade Social da CAIXA.
 
-### 3.9. RNF10 – Integração MEI  
+### 3.5. RNF10 – Integração MEI  
 O sistema deverá permitir integração com a base de dados da Receita Federal e sistemas da Redesim para validação e consulta de CNPJ MEI.
 
-### 3.10. RNF14 – Usabilidade  
+### 3.6. RNF14 – Usabilidade  
 As novas funcionalidades devem respeitar princípios de usabilidade, como consistência, feedback ao usuário e baixa curva de aprendizagem.
 
 ## 4. Usabilidade  
