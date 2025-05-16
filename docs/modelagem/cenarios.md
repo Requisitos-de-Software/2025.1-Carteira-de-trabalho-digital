@@ -31,7 +31,7 @@ de erro.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 **Cenário 2: Alteração de Dados Cadastrais**  
@@ -54,7 +54,7 @@ notificação de que a atualização está em processo.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 **Cenário 3: Realizar Cadastro no Aplicativo**  
@@ -78,7 +78,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 **Cenário 4: Conferir informações sobre benefícios**
@@ -102,7 +102,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 **Cenário 5: Verificar postos de atendimento**
@@ -128,7 +128,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 **Cenário 6: Cadastro de Família**
@@ -156,7 +156,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
 **Cenário 7: Filtrar Benefícios Sociais**
@@ -184,7 +184,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 
 </center>
 
@@ -214,7 +214,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 **Cenário 9: Modo Escuro**
@@ -238,7 +238,101 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">Ryan Salles</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+
+
+**Cenário 10: Cadastro MEI**
+**Nome do Cenário:** Formalização do MEI via aplicativo do CadÚnico  
+**Ator principal:** Usuário com perfil elegível para formalização  
+**Contexto:** O usuário deseja formalizar sua atividade como Microempreendedor Individual diretamente pelo app do CadÚnico, aproveitando os dados já cadastrados.  
+**Pré-condições:** O usuário está logado no app CadÚnico, com dados pessoais e familiares atualizados.  
+**Fluxo principal:**  
+1. O usuário acessa o app CadÚnico e clica em “Quero ser MEI”.  
+2. O sistema recupera dados do cadastro e pré-preenche o formulário.  
+3. O usuário complementa com nome fantasia e atividade econômica.  
+4. Informa endereço comercial (se diferente do residencial) e confirma os dados.  
+5. Envia solicitação para análise e geração do CNPJ.  
+
+**Pós-condições:** A solicitação de cadastro MEI é enviada para o sistema da Receita Federal e o usuário pode acompanhar o status pelo próprio app.  
+**Exceções:**  
+- Se os dados estiverem desatualizados ou incompletos, o sistema solicita atualização antes de prosseguir.  
+- Se o CPF não for elegível (ex: já vinculado a outro CNPJ), o sistema informa impedimento.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+---
+
+**Cenário 11: Informações MEI**
+**Nome do Cenário:** Consulta de situação MEI integrada ao CadÚnico  
+**Ator principal:** Usuário já formalizado como MEI  
+**Contexto:** O usuário deseja consultar dados do seu CNPJ MEI, verificar sua situação fiscal e obrigações dentro do app do CadÚnico.  
+**Pré-condições:** O usuário está logado e possui um CNPJ MEI vinculado ao seu CPF.  
+**Fluxo principal:**  
+1. O usuário acessa o app e seleciona a opção “Minha Situação MEI”.  
+2. O sistema exibe dados como: CNPJ, CNAE, status (ativo/inativo), débitos em aberto, DAS.  
+3. O usuário pode baixar documentos e gerar boletos.  
+4. O sistema fornece orientações se houver pendências.  
+
+**Pós-condições:** O usuário acessa sua situação atual como MEI sem precisar consultar múltiplos portais.  
+**Exceções:**  
+- Se o CNPJ estiver inativo, o sistema alerta com instruções para regularização.  
+- Em caso de falha de conexão com a Receita Federal, o sistema exibe erro temporário.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+---
+
+**Cenário 12: Personalização MEI** 
+**Nome do Cenário:** Ajuste de preferências de notificação e acessibilidade  
+**Ator principal:** Usuário MEI cadastrado no CadÚnico  
+**Contexto:** O usuário deseja configurar como receber notificações e adaptar a interface do app a suas necessidades.  
+**Pré-condições:** O usuário está logado no aplicativo CadÚnico.  
+**Fluxo principal:**  
+1. O usuário acessa o menu “Configurações”.  
+2. Escolhe como deseja receber lembretes: WhatsApp, SMS ou e-mail.  
+3. Ativa modo acessível (ex: fonte grande, alto contraste).  
+4. Salva as preferências.  
+
+**Pós-condições:** O sistema passa a respeitar as novas configurações nas próximas interações.  
+**Exceções:**  
+- Se o número de celular ou e-mail forem inválidos, o sistema alerta e solicita correção.  
+- Se o sistema de envio de mensagens estiver fora do ar, o app informa atraso nos lembretes.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+---
+
+**Cenário 13: Integração MEI**
+**Nome do Cenário:** Consulta e sincronização automática com a base de dados do MEI  
+**Ator principal:** Sistema do CadÚnico  
+**Contexto:** O CadÚnico precisa acessar e manter atualizadas as informações do MEI vinculadas ao CPF do usuário, sem necessidade de inserção manual de dados.  
+**Pré-condições:** O usuário possui cadastro ativo no CadÚnico e tem um CNPJ MEI registrado na Receita Federal.  
+**Fluxo principal:**  
+1. O sistema do CadÚnico realiza integração periódica com a base da Receita Federal.  
+2. Identifica usuários com CNPJ MEI associado ao CPF no cadastro.  
+3. Recupera informações como: data de formalização, atividade principal, situação cadastral, pendências e débitos.  
+4. Atualiza automaticamente os dados no perfil do usuário no app CadÚnico.  
+5. Exibe aviso ou status atualizado ao usuário, caso ele acesse a área “MEI”.  
+
+**Pós-condições:** O perfil do usuário no CadÚnico reflete corretamente sua situação como MEI, com base em dados oficiais e atualizados.  
+**Exceções:**  
+- Se a conexão com a Receita Federal estiver instável, o sistema armazena tentativa e realiza nova sincronização posteriormente.  
+- Em caso de dados inconsistentes entre CPF e CNPJ, o sistema bloqueia a integração e emite alerta técnico para revisão manual.
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## Rastreabilidade 
@@ -265,6 +359,10 @@ Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca model
 | CN07     | RF23     |
 | CN08     | RF26     |
 | CN09     | RF38     |
+| CN10     | RF11     |
+| CN11     | RF12     |
+| CN12     | RF13     |
+| CN13     | RF10     |
 
 
 
@@ -281,6 +379,8 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 </div>
 
 
+
+
 ## Histórico de Versão
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
@@ -292,3 +392,4 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  1.7   | 14/05/2025 | Adição de autores a cada cenário         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
+|  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
