@@ -21,6 +21,7 @@ aplicativo.
 3. O sistema busca as informações junto à base do governo.<br>
 4. É exibida uma lista de benefícios ativos, com nome do programa, status
 (ativo/suspenso), valor recebido e data da última atualização.<br>
+
 **Pós-condições:** O usuário visualiza seus benefícios ativos de forma clara e atualizada.  
 **Exceções:**  
 - Caso o usuário não possua benefícios ativos, o sistema exibe uma mensagem
@@ -43,6 +44,7 @@ de erro.
 2. Informa que deseja alterar dados residenciais.<br>
 3. Atualiza endereço, telefone e informações de contato.<br>
 4. Confirma os dados e envia para análise.<br>
+
 5. O sistema notifica que a atualização será verificada por um agente público.  
 **Pós-condições:** Os dados atualizados são enviados para análise, e o usuário recebe uma
 notificação de que a atualização está em processo.    
@@ -67,6 +69,7 @@ notificação de que a atualização está em processo.
 familiar).<br>
 4. Envia a solicitação.<br>
 5. O sistema gera um protocolo e informa que o usuário será contactado para validação.  
+
 **Pós-condições:** Um cadastro preliminar é criado e enviado para avaliação por um agente social.  
 **Exceções:**  
 - Se o CPF já existir no sistema, o cadastro é bloqueado e o sistema sugere login.<br>
@@ -91,6 +94,7 @@ incompletos.
 3. O aplicativo acessa sua base de dados local e apresenta os benefícios disponíveis.<br>
 4. O usuário acessa a tela específica sobre o benefício que gostaria de saber mais sobre.<br>
 5. O usuário lê as informações.  <br>
+
 **Pós-condições:** O usuário obtém as informações.<br>
 **Exceções:**  
 - Navegador do computador e/ou celular estão desatualizados.<br>
@@ -115,6 +119,7 @@ incompletos.
 4. O sistema verifica as informações mais recentes e envia para o aplicativo.<br>
 5. O aplicativo apresenta as informações recebidas pelo sistema. <br>
 6. O usuário verifica os postos de atendimento. <br>
+
 **Pós-condições:** O usuário obtém as informações desejadas.<br>
 **Exceções:**  
 - Navegador do computador e/ou celular estão desatualizados.<br>
@@ -141,6 +146,7 @@ incompletos.
 5. O sistema valida os dados e verifica duplicidades.  
 6. O usuário revisa e confirma o cadastro.  
 7. O sistema emite um protocolo e registra o envio para análise.  
+
 **Pós-condições:** A família é registrada como novo grupo familiar no sistema, com cadastro pendente de validação.  
 **Exceções:**  
 - CPF do responsável já cadastrado em outro grupo familiar.  
@@ -167,6 +173,7 @@ incompletos.
 5. O sistema processa os filtros aplicados.  
 6. O sistema exibe os benefícios que correspondem aos critérios selecionados.  
 7. O usuário visualiza os detalhes dos benefícios listados.  
+
 **Pós-condições:** O usuário acessa apenas os benefícios que correspondem aos filtros aplicados.  
 **Exceções:**  
 - Nenhum benefício corresponde aos filtros utilizados.  
@@ -194,6 +201,7 @@ incompletos.
 5. O usuário é movido à tela de interface do assistente virtual. 
 6. O usuário realiza uma pergunta relacionada a benefícios ou operações no aplicativo. 
 7. O sistema virtual responde a dúvida.  
+
 **Pós-condições:** O usuário tem sua dúvida sanada.   
 **Exceções:**  
 - Usuário não está cadastrado e falha na parte de autenticação.<br>
@@ -218,6 +226,7 @@ incompletos.
 2. O usuário se incomoda com a luminosidade.<br>
 3. O usuário aperta em um botão descrito como "Modo Escuro". <br>
 4. O aplicativo atualiza a interface para utilizar cores mais frias.<br>
+
 **Pós-condições:** O usuário se sente mais confortável com o esquema de cores redefinido.   
 **Exceções:**  
 - O esquema de cores redefinido torna o usuário mais desconfortável no momento. <br>
@@ -242,6 +251,7 @@ incompletos.
 3. O usuário complementa com nome fantasia e atividade econômica.  
 4. Informa endereço comercial (se diferente do residencial) e confirma os dados.  
 5. Envia solicitação para análise e geração do CNPJ.  
+
 **Pós-condições:** A solicitação de cadastro MEI é enviada para o sistema da Receita Federal e o usuário pode acompanhar o status pelo próprio app.  
 **Exceções:**  
 - Se os dados estiverem desatualizados ou incompletos, o sistema solicita atualização antes de prosseguir.  
@@ -265,6 +275,7 @@ incompletos.
 2. O sistema exibe dados como: CNPJ, CNAE, status (ativo/inativo), débitos em aberto, DAS.  
 3. O usuário pode baixar documentos e gerar boletos.  
 4. O sistema fornece orientações se houver pendências.  
+
 **Pós-condições:** O usuário acessa sua situação atual como MEI sem precisar consultar múltiplos portais.  
 **Exceções:**  
 - Se o CNPJ estiver inativo, o sistema alerta com instruções para regularização.  
@@ -288,6 +299,7 @@ incompletos.
 2. Escolhe como deseja receber lembretes: WhatsApp, SMS ou e-mail.  
 3. Ativa modo acessível (ex: fonte grande, alto contraste).  
 4. Salva as preferências.  
+
 **Pós-condições:** O sistema passa a respeitar as novas configurações nas próximas interações.  
 **Exceções:**  
 - Se o número de celular ou e-mail forem inválidos, o sistema alerta e solicita correção.  
@@ -312,6 +324,7 @@ incompletos.
 3. Recupera informações como: data de formalização, atividade principal, situação cadastral, pendências e débitos.  
 4. Atualiza automaticamente os dados no perfil do usuário no app CadÚnico.  
 5. Exibe aviso ou status atualizado ao usuário, caso ele acesse a área “MEI”.  
+
 **Pós-condições:** O perfil do usuário no CadÚnico reflete corretamente sua situação como MEI, com base em dados oficiais e atualizados.  
 **Exceções:**  
 - Se a conexão com a Receita Federal estiver instável, o sistema armazena tentativa e realiza nova sincronização posteriormente.  
