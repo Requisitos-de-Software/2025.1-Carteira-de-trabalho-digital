@@ -28,7 +28,8 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | Fluxo de exceção | <ul><li>Usuário sem benefícios ativos: sistema exibe mensagem informativa</li><li>Falha de comunicação com a base de dados: sistema exibe mensagem de erro</li></ul> |
 | Pós-condições | O usuário visualiza seus benefícios de forma clara e atualizada. |
 | Data de Criação | 17/05/2025 |
-| Rastreabilidade | RF25 |
+| Rastreabilidade | [RF24] (https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
 ---
@@ -45,7 +46,8 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | Fluxo de exceção | <ul><li>CPF com inconsistência: sistema bloqueia alteração e exibe mensagem</li><li>CEP inválido: sistema solicita correção</li></ul> |
 | Pós-condições | Os dados são enviados para análise e o usuário é notificado que há uma atualização em processamento. |
 | Data de Criação | 17/05/2025 |
-| Rastreabilidade | RF26 |
+| Rastreabilidade | [RF25](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
 ---
@@ -62,12 +64,13 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | Fluxo de exceção | <ul><li>CPF já existente: sistema bloqueia e sugere login</li><li>Dados obrigatórios faltando: sistema impede envio e destaca os campos incompletos</li></ul> |
 | Pós-condições | Um cadastro preliminar é criado e enviado para avaliação por um agente social. |
 | Data de Criação | 17/05/2025 |
-| Rastreabilidade | RF27 |
+| Rastreabilidade | [RF19](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
+---
 
-
-## [#UC06] Filtrar Benefícios Sociais
+## [#UC06] Cadastrar família
 
 | UC06 | Informações |
 |------|-------------|
