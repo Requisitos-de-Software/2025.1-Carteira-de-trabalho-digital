@@ -20,10 +20,11 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 ## Histórico de Revisões
 
+### Tabela 1: Histórico de Revisões
 | Versão | Data | Descrição | Autor |
 |--------|------|-----------|-------|
 |        |      |           |       |
-
+<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar</a></center>
 ---
 
 ## 1. Introdução
@@ -42,6 +43,8 @@ Abrange os requisitos funcionais e não funcionais elicitados por técnicas form
 
 ### Definições, Acrônimos e Abreviações
 
+#### Tabela 2: Definições, Acrônimos e Abreviações
+
 | Termo | Definição |
 |-------|-----------|
 | **RF** | Requisito Funcional |
@@ -50,6 +53,7 @@ Abrange os requisitos funcionais e não funcionais elicitados por técnicas form
 | **LGPD** | Lei Geral de Proteção de Dados |
 | **MTBF** | Mean Time Between Failures |
 | **MTTR** | Mean Time To Repair |
+<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar</a></center>
 
 ### Visão Geral
 
@@ -63,109 +67,73 @@ Esta especificação apresenta:
 
 ## 2. Identificação do Projeto
 
+### Tabela 3: Identificação do Projeto
+
 | Campo               | Informação                      |
 |---------------------|----------------------------------|
 | Projeto             | Cadúnico – Cadastro Único |
 | Requisitante        | Prof. Andre Barros de Sales            |
 | Gerente de Projetos | [Ryan Salles](https://github.com/RA-Salles)     |
+<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar por [João Pedro](https://github.com/johnaopedro)</a></center>
 
+## 3. Funcionalidade
 
-## 3. Funcionalidade  
-
-### 3.1. RNF01 – Desempenho  
-Definir parâmetros de tempo de resposta e carga suportada, com foco em picos de acesso, para garantir estabilidade nas funcionalidades futuras relacionadas ao MEI e filtragem de benefícios.
-
-### 3.2. RNF05 – Acessibilidade  
-Garantir que as novas funcionalidades sejam compatíveis com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado).
-
-### 3.3. RNF07 – Compatibilidade com Aplicativo Off-line  
-As novas funcionalidades devem funcionar também no modo offline, sincronizando os dados automaticamente quando houver conexão.
-
-### 3.4. RNF08 – Transmissão via Conectividade Social  
-A transmissão de informações do cadastro MEI e dados filtrados de benefícios deverá ser realizada pela ferramenta Conectividade Social da CAIXA.
-
-### 3.5. RNF10 – Integração MEI  
-O sistema deverá permitir integração com a base de dados da Receita Federal e sistemas da Redesim para validação e consulta de CNPJ MEI.
-
-### 3.6. RNF14 – Usabilidade  
-As novas funcionalidades devem respeitar princípios de usabilidade, como consistência, feedback ao usuário e baixa curva de aprendizagem.
+Os requisitos funcionais foram elicitados na seção de elicitação e a tabela 1 da página de [requisitos elicitados](../../elicitacao/requisitos_elicitados) demonstra todos os requisitos priorizados.
 
 ## 4. Usabilidade
 
-[Esta seção deve incluir todos os requisitos que afetam a usabilidade. Estes são alguns exemplos:
-- Especifique o tempo de treinamento necessário para que usuários normais e usuários avançados se tornem produtivos em operações específicas;
-- Especifique períodos de tempo mensuráveis para tarefas típicas;
-- Especifique requisitos que estejam em conformidade com os padrões comuns de usabilidade.]
+Diz respeito ao quão fácil é para o usuário realizar uma tarefa com a aplicação.
 
-### 4.1. RNF05 – Acessibilidade  
-Garantir compatibilidade com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado), em conformidade com WCAG 2.1 nível AA.
+### Tabela 4: Requisitos de Usabilidade
 
-### 4.2. RNF11 – Interface intuitiva e amigável  
-Fornecer telas organizadas com linguagem simples, ícones compreensíveis e navegação clara, seguindo padrões de Material Design e Gov.br.
-
-### 4.3. RNF14 – Usabilidade  
-Oferecer feedback imediato a ações do usuário, mensagens de erro claras e recursos visuais para correção ou retomada de tarefas interrompidas.
-
----
+| ID     | Descrição |
+|--------|-----------|
+| USA01 | Garantir compatibilidade com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado), em conformidade com WCAG 2.1 nível AA. |
+| USA02 | Fornecer telas organizadas com linguagem simples, ícones compreensíveis e navegação clara, seguindo padrões de Material Design e Gov.br. |
+| USA03 | Oferecer feedback imediato a ações do usuário, mensagens de erro claras e recursos visuais para correção ou retomada de tarefas interrompidas. |
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 5. Confiabilidade
 
-[Os requisitos de confiabilidade do sistema devem ser especificados aqui. Abaixo, algumas sugestões:
-- Disponibilidade: especifique a porcentagem de tempo disponível, janelas de manutenção e operação em modo degradado;
-- MTBF e MTTR: tempos médios entre falhas e para reparo em caso de indisponibilidade;
-- Taxa de erros ou defeitos: máximo aceitável de erros por KLOC ou ponto de função.]
+Diz respeito ao quão confiável é o sistema, ou seja, qual é a frequência de falhas, possibilidade de recuperação e prevenção e tempo entre as falhas.
 
-### 5.1. RNF02 – Segurança  
-Proteger dados sensíveis com autenticação OAuth2, criptografia TLS 1.2+ em trânsito e em repouso, e controle de acesso baseado em perfil.
+### Tabela 5: Requisitos de Confiabilidade
 
-### 5.2. RNF04 – Conformidade Legal  
-Atender à LGPD (Lei 13.709/2018), garantindo consentimento expresso, direitos de acesso, retificação e exclusão de dados pessoais.
-
-### 5.3. RNF06 – Disponibilidade  
-Manter disponibilidade mínima de 99,5% mensal, com redundância de servidores, failover automático e operação offline das funções críticas.
-
-### 5.4. RNF09 – Acesso Restrito  
-Restringir acesso a dados sensíveis por perfil de usuário, exigindo autenticação e registrando logs de acesso e alterações.
-
----
+| ID     | Descrição |
+|--------|-----------|
+| CON01 | Proteger dados sensíveis com autenticação OAuth2, criptografia TLS 1.2+ em trânsito e em repouso, e controle de acesso baseado em perfil. |
+| CON02 | Atender à LGPD (Lei 13.709/2018), garantindo consentimento expresso, direitos de acesso, retificação e exclusão de dados pessoais. |
+| CON03 | Manter disponibilidade mínima de 99,5% mensal, com redundância de servidores, failover automático e operação offline das funções críticas. |
+| CON04 | Restringir acesso a dados sensíveis por perfil de usuário, exigindo autenticação e registrando logs de acesso e alterações. |
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 6. Desempenho
 
-[As características de desempenho do sistema devem ser descritas nesta seção. Inclua tempos de resposta específicos:
-- Tempo de resposta médio e máximo;
-- Taxa de transferência (transações por segundo);
-- Capacidade (número de usuários ou transações suportadas);
-- Modos de degradação e utilização de recursos (CPU, memória, rede).]
+Requisitos que dizem respeito às condições que os requisitos devem operar. A velocidade, limites superiores e inferiores, tempo de resposta, restrições de interface e de funções, etc.
 
-### 6.1. RNF01 – Desempenho  
-Responder a operações principais em até 2 segundos em redes 3G e suportar pelo menos 5.000 usuários simultâneos em picos de acesso.
+### Tabela 6: Requisitos de Desempenho
 
-### 6.2. RNF12 – Suporte a grande base de usuários  
-Utilizar infraestrutura escalável horizontalmente (balanceamento de carga, serviços elásticos) para manter performance estável sob alta demanda.
-
----
+| ID     | Descrição |
+|--------|-----------|
+| DES01 | Responder a operações principais em até 2 segundos em redes 3G e suportar pelo menos 5.000 usuários simultâneos em picos de acesso. |
+| DES02 | Utilizar infraestrutura escalável horizontalmente (balanceamento de carga, serviços elásticos) para manter performance estável sob alta demanda. |
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 7. Suportabilidade
 
-[Esta seção indica todos os requisitos que aprimorarão a suportabilidade ou manutenibilidade do sistema, incluindo padrões de codificação, convenções de nomeação, bibliotecas de classes, acesso à manutenção e utilitários de manutenção.]
+Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso inclui requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado, documentação adequada, facilidade de teste e diagnóstico de problemas.
 
-### 7.1. RNF03 – Escalabilidade  
-Adotar arquitetura modular e desacoplada (microsserviços), permitindo atualização e expansão de componentes sem interrupção do serviço.
+### Tabela 7: Requisitos de Suportabilidade
 
-### 7.2. RNF07 – Compatibilidade com Aplicativo Off-line  
-Disponibilizar funcionalidades críticas (consulta, cadastro preliminar, atualização) em modo offline, sincronizando automaticamente quando online.
-
-### 7.3. RNF08 – Transmissão via Conectividade Social  
-Exportar e enviar dados via protocolo Conectividade Social da CAIXA, respeitando layouts e pacotes exigidos.
-
-### 7.4. RNF10 – Integração MEI  
-Validar CNPJ MEI em tempo real junto à Receita Federal e Redesim, exibindo status cadastral automaticamente.
-
-### 7.5. RNF13 – Integração com sistemas oficiais  
-Conectar com SIBEC, Gov.br e demais APIs RESTful governamentais para busca e atualização de dados cadastrais.
-
-### 7.6. RNF15 – Compatibilidade com Dispositivos  
-Suportar smartphones Android (≥ 6.0) e iOS (≥ 12.0) e navegadores modernos, adaptando-se a diferentes tamanhos de tela e modos de acessibilidade.
+| ID     | Descrição |
+|--------|-----------|
+| SUP01 | Adotar arquitetura modular e desacoplada (microsserviços), permitindo atualização e expansão de componentes sem interrupção do serviço. |
+| SUP02 | Disponibilizar funcionalidades críticas (consulta, cadastro preliminar, atualização) em modo offline, sincronizando automaticamente quando online. |
+| SUP03 | Exportar e enviar dados via protocolo Conectividade Social da CAIXA, respeitando layouts e pacotes exigidos. |
+| SUP04 | Validar CNPJ MEI em tempo real junto à Receita Federal e Redesim, exibindo status cadastral automaticamente. |
+| SUP05 | Conectar com SIBEC, Gov.br e demais APIs RESTful governamentais para busca e atualização de dados cadastrais. |
+| SUP06 | Suportar smartphones Android (≥ 6.0) e iOS (≥ 12.0) e navegadores modernos, adaptando-se a diferentes tamanhos de tela e modos de acessibilidade. |
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 8. Restrições de Projeto
 
@@ -322,7 +290,6 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 3. Portarias Senarc nº 123/2020 e 456/2021  
 4. WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. Microsoft Press, 3ª ed., 2013.
 
-
 ## 15. Aprovações
 
 | Participante | Assinatura | Data |
@@ -353,3 +320,4 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 |  1.2   | 16/05/2025 |   Criação da estrutura de especificação suplementar   | [João Pedro Costa](https://github.com/johnaopedro) e [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.3   | 16/05/2025 |   Preenchimento de cinco seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 16/05/2025 |   Preenchimento das seções 8 à 13   | [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.5   | 17/05/2025 |   Preenchimento das 8 seções restantes   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
