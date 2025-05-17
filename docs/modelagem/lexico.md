@@ -20,7 +20,7 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
     <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
-## Tabela de Léxicos
+## Tabela de Léxicos Adições por Gabriel Flores e João Igor
 
 | Léxico |  Classificação | Sinônimos | Noção | Impacto |
 |:----------:|:-----------:|:----------:|:----------:|-------|
@@ -52,14 +52,27 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
     <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
+## Tabela de Léxicos – Adições por João Pedro Costa
+
+| Léxico | Classificação | Sinônimos | Noção | Impacto |
+|:------:|:-------------:|:---------:|:-----:|:-------:|
+| [Acessar Aplicativo](#acessar-aplicativo) | Verbo | [Entrar no app](#acessar-aplicativo), [Logar no sistema](#acessar-aplicativo) | Ação do usuário de abrir o aplicativo do [Cadastro Único](#cadastro) em seu dispositivo móvel, por meio de autenticação via senha ou biometria. | Permite ao cidadão visualizar, acompanhar ou modificar dados, facilitando o acesso remoto aos serviços sociais. |
+| [Receber Notificação](#receber-notificação) | Verbo | [Ser avisado](#receber-notificação), [Receber alerta](#receber-notificação) | Recurso do aplicativo que envia mensagens automáticas ao usuário sobre prazos, atualizações de status do [cadastro](#cadastro) ou convocações para [entrevista](#realizar-entrevista). | Mantém o cidadão informado, reduzindo ausências e melhorando o cumprimento de exigências do sistema. |
+| [Anexar Documentos](#anexar-documentos) | Verbo | [Enviar arquivos](#anexar-documentos), [Fazer upload de documentos](#anexar-documentos) | Ação do usuário de carregar fotos ou arquivos digitais de [documentos pessoais](#documentos-pessoais) diretamente pelo aplicativo. | Permite completar ou atualizar o [cadastro](#cadastro) sem necessidade de comparecer presencialmente ao CRAS, tornando o processo mais acessível e ágil. |
+
+
+<center>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a> <br>
+</center> 
+
 ## Referências
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 8 maio 2025.
 
 <div align = "center">
-<img src="../../docs/assets/referencias/modelagem/RefLex.png" width="400"/>
+<img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
 <br>
-<img src="../../docs/assets/referencias/modelagem/RefTabLex.png" width="400"/>
+<img src="../../assets/referencias/modelagem/RefTabLex.png" width="400"/>
 </div>
 
 
@@ -71,3 +84,5 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 | 1.1    | 08/05/2025 | Adição das Informações | [João Igor](https://github.com/JoaoPC10) e  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2 | 09/05/2025 | Criação da tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 14/05/2025 | Criação de hiper links na tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.4 | 16/05/2025 | Criação de outros lexicos relacionados ao conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.5 | 16/05/2025 | Corrigindo imagens | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
