@@ -16,9 +16,60 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 
 ## Casos de Uso
 
-## [#UC01]Tabela 2: Filtrar Benefícios Sociais
+## [#UC01] Visualização de Benefícios Ativos
 
-| UC01 | Informações |
+| UC01 | Visualização de Benefícios Ativos |
+|------|----------------------------|
+| Descrição | Permite ao usuário visualizar os benefícios sociais ativos vinculados ao seu cadastro no CadÚnico, como o Bolsa Família. |
+| Ator | Usuário cadastrado |
+| Pré-condições | O usuário possui cadastro validado no CadÚnico e está autenticado no aplicativo. |
+| Ação | O usuário acessa a opção “Meus Benefícios” para verificar seus benefícios ativos. |
+| Fluxo principal | <ul><li>O usuário acessa o aplicativo do CadÚnico</li><li>Seleciona a opção “Meus Benefícios”</li><li>O sistema busca as informações na base de dados do governo</li><li>É exibida uma lista com nome do programa, status (ativo/suspenso), valor recebido e última atualização</li></ul> |
+| Fluxo de exceção | <ul><li>Usuário sem benefícios ativos: sistema exibe mensagem informativa</li><li>Falha de comunicação com a base de dados: sistema exibe mensagem de erro</li></ul> |
+| Pós-condições | O usuário visualiza seus benefícios de forma clara e atualizada. |
+| Data de Criação | 17/05/2025 |
+| Rastreabilidade | RF25 |
+<font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
+
+---
+
+## [#UC02] Atualização de Dados Cadastrais
+
+| UC02 | Atualização de Dados Cadastrais |
+|------|-------------------------------|
+| Descrição | Permite ao usuário atualizar seus dados pessoais e residenciais no CadÚnico, como endereço e telefone. |
+| Ator | Usuário cadastrado |
+| Pré-condições | O usuário está logado no aplicativo e possui cadastro existente. |
+| Ação | O usuário acessa a seção “Atualizar Cadastro” para alterar informações residenciais. |
+| Fluxo principal | <ul><li>Usuário acessa o aplicativo</li><li>Vai até a seção “Atualizar Cadastro”</li><li>Seleciona a opção para alterar dados residenciais</li><li>Atualiza endereço, telefone e contato</li><li>Confirma e envia os dados</li><li>O sistema notifica que os dados serão analisados por um agente público</li></ul> |
+| Fluxo de exceção | <ul><li>CPF com inconsistência: sistema bloqueia alteração e exibe mensagem</li><li>CEP inválido: sistema solicita correção</li></ul> |
+| Pós-condições | Os dados são enviados para análise e o usuário é notificado que há uma atualização em processamento. |
+| Data de Criação | 17/05/2025 |
+| Rastreabilidade | RF26 |
+<font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
+
+---
+
+## [#UC03] Primeiro Cadastro no CadÚnico
+
+| UC03 | Primeiro Cadastro no CadÚnico |
+|------|----------------------------|
+| Descrição | Permite a novos usuários realizar seu primeiro cadastro no CadÚnico através do aplicativo. |
+| Ator | Novo usuário |
+| Pré-condições | O usuário possui documentos válidos e acesso à internet. |
+| Ação | O usuário realiza o primeiro cadastro preenchendo os dados exigidos pelo sistema. |
+| Fluxo principal | <ul><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Fazer Primeiro Cadastro”</li><li>Preenche dados pessoais: nome, CPF, nascimento, endereço, composição familiar</li><li>Envia a solicitação</li><li>O sistema gera um protocolo e informa que o usuário será contatado para validação</li></ul> |
+| Fluxo de exceção | <ul><li>CPF já existente: sistema bloqueia e sugere login</li><li>Dados obrigatórios faltando: sistema impede envio e destaca os campos incompletos</li></ul> |
+| Pós-condições | Um cadastro preliminar é criado e enviado para avaliação por um agente social. |
+| Data de Criação | 17/05/2025 |
+| Rastreabilidade | RF27 |
+<font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
+
+
+
+## [#UC06] Filtrar Benefícios Sociais
+
+| UC06 | Informações |
 |------|-------------|
 | **Descrição** | Permite ao responsável familiar registrar sua família no Cadastro Único para acessar benefícios sociais. |
 | **Ator** | Responsável familiar |
@@ -35,9 +86,9 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 
 ---
 
-## [#UC02]Tabela 3: Filtrar Benefícios Sociais
+## [#UC07] Filtrar Benefícios Sociais
 
-| UC02 | Informações |
+| UC07 | Informações |
 |------|-------------|
 | **Descrição** | Permite ao usuário buscar e filtrar informações sobre benefícios sociais disponíveis de acordo com seu perfil ou interesse. |
 | **Ator** | Usuário (autenticado ou não) |
@@ -145,4 +196,4 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0 | 16/05/2025 | Criação da pagina e adição de casos de uso | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1 | 16/05/2025 | Adicionando referencias sobre o tema e imagens| [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.2 | 16/05/2025 | Adicionando casos de uso | [Julia Gabriela](https://github.com/JuliaGabP) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 16/05/2025 | Adicionando 5 casos de uso | [Julia Gabriela](https://github.com/JuliaGabP) |  [Ryan Salles](https://github.com/RA-Salles) |
