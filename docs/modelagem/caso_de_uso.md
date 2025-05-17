@@ -6,12 +6,12 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 ## Metodologia
 <font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
 
-| Nome | Função | Elemento
-|------|------|:-------:
-| Ator | - | -
-| Elipse (Caso de Uso) | - | -
-| Retângulo (Sistema) | - | -
-| Flecha (Relações) | - | -
+| Nome                 | Função                                                            | Elemento
+|----------------------|----------------------------------------------------------------   |:-------: |
+| Ator                 | Determina algo ou alguém que interagirá com o sistema             | - |
+| Elipse (Caso de Uso) | Determina os casos de uso dentro do sistema                       | - |
+| Retângulo (Sistema)  | Determina limites do sistema                                      | - |
+| Flecha (Relações)    | Determina relações entre os casos de uso ou atores e casos de uso | - |
 
 
 ## Casos de Uso
@@ -69,6 +69,43 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
 ---
+
+## [#UC04] Conferir informações sobre benefícios
+
+| UC03 | Conferir informações sobre benefícios|
+|------|----------------------------|
+| Descrição | Permite aos usuários com ou sem autenticação lerem acerca dos possíveis benefícios disponíveis no aplicativo |
+| Ator | Usuário |
+| Pré-condições | O usuário possui o aplicativo instalado em seu dispositivo compatível |
+| Ação | O usuário confere informações sobre os benefícios e informa-se |
+| Fluxo principal | <ul><li>Usuário instala e abre o aplicativo</li> <li>Seleciona a opção "Programas sociais"</li><li> Sistema lista programas sociais com informações disponíveis</li> <li> Usuário clica na opção desejada </li> <li>Sistema lista as informações disponíveis sobre o programa social escolhido </li> </ul> |
+| Fluxo de exceção | <ul><li>Erro de interface: Sistema lista informações incorretamente ou de forma ilegível</li><li>Sem conexão em computadores: sistema não inicia</li></ul> |
+| Pós-condições | O usuário possui informações sobre o programa social escolhido |
+| Data de Criação | 17/05/2025 |
+| Rastreabilidade | [RF24](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font>
+
+---
+
+## [#UC05] Verificar postos de atendimento
+
+| UC03 | Verificar postos de atendimento |
+|------|----------------------------|
+| Descrição | Permite aos usuários verificar postos de atendimento disponíveis |
+| Atores | Usuário, Sistema CadÚnico|
+| Pré-condições | O usuário um dispositivo compatível com o aplicativo e acesso à internet. |
+| Ação | O usuário confere informações sobre os postos de atendimento disponíveis. |
+| Fluxo principal | <ul><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Postos de atendimento”</li><li>Preenche dados para requisição de informação: Estado, Município, Tipo Posto</li><li>Envia a solicitação</li><li>O sistema lista os postos disponíveis</li> <li> </li></ul> |
+| Fluxo de exceção | <ul><li> Carregamento infinito: sistema passa um período indeterminado obtendo informações sobre o posto escolhido e demais interações são bloqueadas</li><li>Sem conexão: aplicativo não apresenta opções para requisição em caso de falta de conexão com a internet</li></ul> |
+| Pós-condições | O sistema  lista informações sobre os postos disponíveis. |
+| Data de Criação | 17/05/2025 |
+| Rastreabilidade | [RF16](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font>
+
+---
+
 
 ## [#UC06] Cadastrar família
 
@@ -200,3 +237,4 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | 1.0 | 16/05/2025 | Criação da pagina e adição de casos de uso | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1 | 16/05/2025 | Adicionando referencias sobre o tema e imagens| [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2 | 16/05/2025 | Adicionando 5 casos de uso | [Julia Gabriela](https://github.com/JuliaGabP) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.3 | 17/05/2025 | Adicionando casos de uso 4 e 5 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
