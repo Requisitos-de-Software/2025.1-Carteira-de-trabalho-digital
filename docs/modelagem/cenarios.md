@@ -379,5 +379,5 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.5   | 13/05/2025 | Adicionando introdução                   | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.6   | 13/05/2025 | Inserindo 2 novos cenários.              | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  1.7   | 14/05/2025 | Adição de autores a cada cenário         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
-|  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | A DEFINIR |
+|  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.9   | 16/05/2025 | Corrigindo formatação e erros de digitação | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
