@@ -90,17 +90,82 @@ O sistema deverá permitir integração com a base de dados da Receita Federal e
 ### 3.6. RNF14 – Usabilidade  
 As novas funcionalidades devem respeitar princípios de usabilidade, como consistência, feedback ao usuário e baixa curva de aprendizagem.
 
-## 4. Usabilidade  
-### 4.1. Requisito de Usabilidade Um
+## 4. Usabilidade
 
-## 5. Confiabilidade  
-### 5.1. Requisito de Confiabilidade Um
+[Esta seção deve incluir todos os requisitos que afetam a usabilidade. Estes são alguns exemplos:
+- Especifique o tempo de treinamento necessário para que usuários normais e usuários avançados se tornem produtivos em operações específicas;
+- Especifique períodos de tempo mensuráveis para tarefas típicas;
+- Especifique requisitos que estejam em conformidade com os padrões comuns de usabilidade.]
 
-## 6. Desempenho  
-### 6.1. Requisito de Desempenho Um
+### 4.1. RNF05 – Acessibilidade  
+Garantir compatibilidade com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado), em conformidade com WCAG 2.1 nível AA.
 
-## 7. Suportabilidade  
-### 7.1. Requisito de Suportabilidade Um
+### 4.2. RNF11 – Interface intuitiva e amigável  
+Fornecer telas organizadas com linguagem simples, ícones compreensíveis e navegação clara, seguindo padrões de Material Design e Gov.br.
+
+### 4.3. RNF14 – Usabilidade  
+Oferecer feedback imediato a ações do usuário, mensagens de erro claras e recursos visuais para correção ou retomada de tarefas interrompidas.
+
+---
+
+## 5. Confiabilidade
+
+[Os requisitos de confiabilidade do sistema devem ser especificados aqui. Abaixo, algumas sugestões:
+- Disponibilidade: especifique a porcentagem de tempo disponível, janelas de manutenção e operação em modo degradado;
+- MTBF e MTTR: tempos médios entre falhas e para reparo em caso de indisponibilidade;
+- Taxa de erros ou defeitos: máximo aceitável de erros por KLOC ou ponto de função.]
+
+### 5.1. RNF02 – Segurança  
+Proteger dados sensíveis com autenticação OAuth2, criptografia TLS 1.2+ em trânsito e em repouso, e controle de acesso baseado em perfil.
+
+### 5.2. RNF04 – Conformidade Legal  
+Atender à LGPD (Lei 13.709/2018), garantindo consentimento expresso, direitos de acesso, retificação e exclusão de dados pessoais.
+
+### 5.3. RNF06 – Disponibilidade  
+Manter disponibilidade mínima de 99,5% mensal, com redundância de servidores, failover automático e operação offline das funções críticas.
+
+### 5.4. RNF09 – Acesso Restrito  
+Restringir acesso a dados sensíveis por perfil de usuário, exigindo autenticação e registrando logs de acesso e alterações.
+
+---
+
+## 6. Desempenho
+
+[As características de desempenho do sistema devem ser descritas nesta seção. Inclua tempos de resposta específicos:
+- Tempo de resposta médio e máximo;
+- Taxa de transferência (transações por segundo);
+- Capacidade (número de usuários ou transações suportadas);
+- Modos de degradação e utilização de recursos (CPU, memória, rede).]
+
+### 6.1. RNF01 – Desempenho  
+Responder a operações principais em até 2 segundos em redes 3G e suportar pelo menos 5.000 usuários simultâneos em picos de acesso.
+
+### 6.2. RNF12 – Suporte a grande base de usuários  
+Utilizar infraestrutura escalável horizontalmente (balanceamento de carga, serviços elásticos) para manter performance estável sob alta demanda.
+
+---
+
+## 7. Suportabilidade
+
+[Esta seção indica todos os requisitos que aprimorarão a suportabilidade ou manutenibilidade do sistema, incluindo padrões de codificação, convenções de nomeação, bibliotecas de classes, acesso à manutenção e utilitários de manutenção.]
+
+### 7.1. RNF03 – Escalabilidade  
+Adotar arquitetura modular e desacoplada (microsserviços), permitindo atualização e expansão de componentes sem interrupção do serviço.
+
+### 7.2. RNF07 – Compatibilidade com Aplicativo Off-line  
+Disponibilizar funcionalidades críticas (consulta, cadastro preliminar, atualização) em modo offline, sincronizando automaticamente quando online.
+
+### 7.3. RNF08 – Transmissão via Conectividade Social  
+Exportar e enviar dados via protocolo Conectividade Social da CAIXA, respeitando layouts e pacotes exigidos.
+
+### 7.4. RNF10 – Integração MEI  
+Validar CNPJ MEI em tempo real junto à Receita Federal e Redesim, exibindo status cadastral automaticamente.
+
+### 7.5. RNF13 – Integração com sistemas oficiais  
+Conectar com SIBEC, Gov.br e demais APIs RESTful governamentais para busca e atualização de dados cadastrais.
+
+### 7.6. RNF15 – Compatibilidade com Dispositivos  
+Suportar smartphones Android (≥ 6.0) e iOS (≥ 12.0) e navegadores modernos, adaptando-se a diferentes tamanhos de tela e modos de acessibilidade.
 
 ## 8. Restrições de Projeto
 
