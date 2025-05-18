@@ -363,6 +363,8 @@ Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca model
 | CN11     | RF12     |
 | CN12     | RF13     |
 | CN13     | RF10     |
+| CN14     | RF30     |
+| CN15     | RF29     |
 
 
 

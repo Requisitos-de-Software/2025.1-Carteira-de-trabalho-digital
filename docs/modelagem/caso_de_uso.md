@@ -336,6 +336,25 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 
 <font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/mandicrz">Amanda Cruz Lima</a></b></p></font>
 
+### [#UC16] - Upload de documentos
+
+<font size="2"><p style="text-align: center"><b>Tabela 17:</b> Especificação de upload de documentos</p></font>
+ 
+| UC16            | Upload de documentos|
+|------------------|----------|
+| **Descrição**    | Permite que o usuário envie documentos digitalizados (como comprovante de residência, RG, CPF) diretamente pelo aplicativo para complementação do cadastro |
+| **Ator(es)**         | Usuário e Sistema CadÚnico|
+| **Pré-condições**| O usuário deve estar logado no sistema e com o cadastro iniciado |
+| **Ação**         | Enviar documentos por meio da interface do aplicativo|
+| **Fluxo principal** | <ol><li>Usuário acessa a etapa de envio de documentos</li><li>O aplicativo exibe uma lista de documentos obrigatórios</li><li>O usuário seleciona e faz o upload dos arquivos do celular</li><li>O sistema valida o formato e o tamanho</li><li>Os documentos são armazenados com sucesso</li></ol>|
+| **Fluxo alternativo** | Documento em formato inválido → mensagem de erro e sugestão de formatos suportados|
+| **Fluxo de exceção** | Falha de conexão com o sistema CadÚnico → documentos transferidos armazenados |
+| **Pós-condições** | Documentos associados ao cadastro do usuário, já estão vinculados ao seu cadsstro|
+| **Data de Criação** | 18/05/2025 |
+| **Rastreabilidade** | [RF29](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/JoaoPC10">João Igor</a></b></p></font>
+
 ---
 
 ### Tabela de Rastreabilidade UC-CEN-RF
@@ -362,6 +381,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC12           | CN12       | RF13                   |
 | UC13           | CN13       | RF10                   |
 | UC14           | CN14       | RF30                   |
+| UC15           | CN15       | RF29                   |
 
 </center>
 
@@ -393,5 +413,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
 | 1.7 | 18/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+
 
 
