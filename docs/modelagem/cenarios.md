@@ -241,76 +241,81 @@ incompletos.
 
 **Cenário 10: Cadastro MEI**
 
-**Nome do Cenário:** Formalização do MEI via aplicativo do CadÚnico  
-**Ator principal:** Usuário com perfil elegível para formalização  
-**Contexto:** O usuário deseja formalizar sua atividade como Microempreendedor Individual diretamente pelo app do CadÚnico, aproveitando os dados já cadastrados.  
-**Pré-condições:** O usuário está logado no app CadÚnico, com dados pessoais e familiares atualizados.  
+**Nome do Cenário:** Registro da condição de MEI no cadastro do usuário  
+**Ator principal:** Usuário em processo de cadastro no CadÚnico  
+**Contexto:** Ao se cadastrar no aplicativo, o usuário deve poder informar que é um Microempreendedor Individual (MEI) para receber conteúdos e serviços direcionados.  
+**Pré-condições:** O usuário está na etapa de preenchimento do cadastro no aplicativo CadÚnico.  
 **Fluxo principal:**  
-1. O usuário acessa o app CadÚnico e clica em “Quero ser MEI”.  
-2. O sistema recupera dados do cadastro e pré-preenche o formulário.  
-3. O usuário complementa com nome fantasia e atividade econômica.  
-4. Informa endereço comercial (se diferente do residencial) e confirma os dados.  
-5. Envia solicitação para análise e geração do CNPJ.  
+1. O usuário acessa o aplicativo e inicia o processo de cadastro.  
+2. Durante o preenchimento de dados pessoais, encontra a opção “Sou MEI”.  
+3. Marca a opção para indicar sua condição de Microempreendedor Individual.  
+4. Finaliza o processo de cadastro.  
+5. O sistema armazena essa informação no perfil do usuário.  
 
-**Pós-condições:** A solicitação de cadastro MEI é enviada para o sistema da Receita Federal e o usuário pode acompanhar o status pelo próprio app.  
+**Pós-condições:** O perfil do usuário é registrado com o status de MEI, permitindo personalização e integração futura com dados do microempreendedor.  
 **Exceções:**  
-- Se os dados estiverem desatualizados ou incompletos, o sistema solicita atualização antes de prosseguir.  
-- Se o CPF não for elegível (ex: já vinculado a outro CNPJ), o sistema informa impedimento.
+- Se o usuário não marcar a opção, o sistema continua o fluxo normalmente, sem definir o status como MEI.  
+- Caso o usuário selecione "Sou MEI", mas não tenha um CNPJ válido posteriormente, o sistema pode solicitar verificação adicional.
 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
----
 
 **Cenário 11: Informações MEI**
 
-**Nome do Cenário:** Consulta de situação MEI integrada ao CadÚnico  
-**Ator principal:** Usuário já formalizado como MEI  
-**Contexto:** O usuário deseja consultar dados do seu CNPJ MEI, verificar sua situação fiscal e obrigações dentro do app do CadÚnico.  
-**Pré-condições:** O usuário está logado e possui um CNPJ MEI vinculado ao seu CPF.  
+**Nome do Cenário:** Acesso a conteúdos informativos sobre microempreendedorismo  
+**Ator principal:** Usuário MEI autenticado no CadÚnico  
+**Contexto:** O usuário deseja se informar sobre obrigações, direitos e oportunidades relacionadas ao MEI diretamente no aplicativo.  
+**Pré-condições:** O usuário está autenticado no aplicativo e possui perfil MEI ativo.  
 **Fluxo principal:**  
-1. O usuário acessa o app e seleciona a opção “Minha Situação MEI”.  
-2. O sistema exibe dados como: CNPJ, CNAE, status (ativo/inativo), débitos em aberto, DAS.  
-3. O usuário pode baixar documentos e gerar boletos.  
-4. O sistema fornece orientações se houver pendências.  
+1. O usuário acessa a seção “MEI” no menu do aplicativo.  
+2. Visualiza conteúdos informativos organizados por temas, como:  
+   - Formalização e CNPJ  
+   - Obrigações fiscais e contábeis  
+   - Emissão de nota fiscal  
+   - Benefícios e direitos do MEI  
+   - Programas e linhas de crédito  
+3. O sistema permite navegação entre os temas e acesso a links úteis.  
 
-**Pós-condições:** O usuário acessa sua situação atual como MEI sem precisar consultar múltiplos portais.  
+**Pós-condições:** O usuário compreende melhor suas responsabilidades como MEI e sabe onde buscar serviços públicos e suporte.  
 **Exceções:**  
-- Se o CNPJ estiver inativo, o sistema alerta com instruções para regularização.  
-- Em caso de falha de conexão com a Receita Federal, o sistema exibe erro temporário.
+- Se o usuário não estiver identificado como MEI, o sistema exibe convite para formalização com link de orientação.  
+- Caso os conteúdos não estejam disponíveis offline, o sistema informa a necessidade de conexão.
 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
----
 
-**Cenário 12: Personalização MEI** 
+**Cenário 12: Personalização MEI**
 
-**Nome do Cenário:** Ajuste de preferências de notificação e acessibilidade  
+**Nome do Cenário:** Exibição de conteúdos personalizados da seção MEI  
 **Ator principal:** Usuário MEI cadastrado no CadÚnico  
-**Contexto:** O usuário deseja configurar como receber notificações e adaptar a interface do app a suas necessidades.  
-**Pré-condições:** O usuário está logado no aplicativo CadÚnico.  
+**Contexto:** O usuário acessa a seção MEI do aplicativo e espera visualizar informações relacionadas ao seu setor de atuação e localização.  
+**Pré-condições:** O usuário está autenticado e possui setor de atuação e município informados no cadastro.  
 **Fluxo principal:**  
-1. O usuário acessa o menu “Configurações”.  
-2. Escolhe como deseja receber lembretes: WhatsApp, SMS ou e-mail.  
-3. Ativa modo acessível (ex: fonte grande, alto contraste).  
-4. Salva as preferências.  
+1. O usuário acessa a seção “MEI” do aplicativo.  
+2. O sistema identifica o setor econômico registrado no perfil do usuário.  
+3. O sistema verifica a região (com base na localização ou município cadastrado).  
+4. Exibe conteúdos personalizados, como:  
+   - Editais e cursos regionais  
+   - Notícias específicas do setor (ex: agricultura, comércio)  
+   - Obrigações fiscais diferenciadas por estado ou setor  
+5. Permite ao usuário interagir com os conteúdos (favoritar, compartilhar, acessar links externos).  
 
-**Pós-condições:** O sistema passa a respeitar as novas configurações nas próximas interações.  
+**Pós-condições:** O usuário visualiza conteúdos relevantes e adaptados ao seu perfil profissional e territorial.  
 **Exceções:**  
-- Se o número de celular ou e-mail forem inválidos, o sistema alerta e solicita correção.  
-- Se o sistema de envio de mensagens estiver fora do ar, o app informa atraso nos lembretes.
+- Se o setor de atuação estiver vazio, o sistema solicita preenchimento antes da personalização.  
+- Se a localização estiver desativada, utiliza o município do cadastro como referência.
 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
----
 
 **Cenário 13: Integração MEI**
 
