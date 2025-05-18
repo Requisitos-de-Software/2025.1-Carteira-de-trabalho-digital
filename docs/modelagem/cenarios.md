@@ -354,6 +354,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 Essa seção apresenta a rastreabilidade Cenário-Requisito. A legenda utilizada será a seguinte:
 
 - CNX: Cenário número X. 
+- RXY: Requisito de tipo X número y.
 - RFX: Requisito Funcional número X.
 
 Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
