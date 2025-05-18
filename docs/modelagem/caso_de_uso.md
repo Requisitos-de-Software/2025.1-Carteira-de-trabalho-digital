@@ -381,7 +381,8 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC12           | CN12       | RF13                   |
 | UC13           | CN13       | RF10                   |
 | UC14           | CN14       | RF30                   |
-| UC15           | CN15       | RF29                   |
+| UC15           | CN15       | RF35                   |
+| UC16           | CN16       | RF29                   |
 
 </center>
 
