@@ -65,7 +65,7 @@
 
 | Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
 |-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
-| Modelagem de Requisitos: Cenários             | Início: 13/05 Fim: 18/05    | Amanda, João Igor, Julia, Ryan             | Início: 15/05 Fim: 18/05   | Ryan      |
+| Modelagem de Requisitos: Cenários             | Início: 13/05 Fim: 18/05    | Amanda, João Igor, Julia, Ryan             | Início: 15/05 Fim: 18/05   | João Pedro     |
 | Modelagem de Requisitos: Léxico               | Início: 03/05 Fim: 09/05    | João Igor, Gabriel         | Início: 09/05 Fim: 17/05   | Ryan             |
 | Modelagem de Requisitos: Use Case             | Início:13/05 Fim: 18/05    | Amanda, João Pedro, Ryan, Gabrel Flores, João Igor, Julia | Início: 15/05 Fim: 18/05   | Gabriel Flores           |
 | Modelagem de Requisitos: Especificação Suplementar | Início: 13/05 Fim: 18/05 | Julia, João Pedro          | Início: 15/05 Fim: 18/05   | Ryan          |
