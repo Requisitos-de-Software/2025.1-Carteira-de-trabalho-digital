@@ -9,7 +9,8 @@ Depois que os vários requisitos são elicitados , para saber por onde começar 
 Na sociedade moderna a pincipal maneira de se atribuir valor a algo é através do dinheiro. Pensando nisso a técnica do 100 doláres foi criada. Consiste em entregar 100 dólares, fictícios, para a equipe de priorização, com isso cada membro da equipe aloca a quantidade que acha necessária no requisito, quanto mais dólares maior é a prioridade.
 
 ### MoSCoW
-É uma técnica de priorização que consiste em determinar 4 escalasd e importância para os requisitos:
+É uma técnica de priorização que consiste em determinar 4 escalas de importância para os requisitos:
+
 - *Must(Deve)*: que afetam diretamente a imagem do cliente. Se um dos itens não é concluído e entregue, ele não pode ser considerado como concluído com sucesso;
 
 - *Should(Deveria)*: importantes, mas, no momento, não são ncessários, do ponto de vista estratégico, para a entrega;

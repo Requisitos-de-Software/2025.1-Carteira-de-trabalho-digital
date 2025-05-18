@@ -33,6 +33,7 @@ nav:
       - Three Level Scale: elicitacao/priorizacao/three_level_scale.md
   - Modelagem:
     - Introdução: modelagem/introducao.md
+    - Cenários: modelagem/cenarios.md
     
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
