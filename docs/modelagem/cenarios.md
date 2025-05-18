@@ -348,6 +348,23 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
     <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz Lima</a>
 </center>
 
+### Cenário 16: Upload de documentos
+
+<center>
+    Tabela 17: Cenário de upload de documentos
+</center>
+
+| Cenário 16               | Upload de documentos obrigatórios pelo usuário                                  |
+|--------------------------|----------------------------------------------------------------------------------|
+| **Nome do Cenário**      | Upload de documentos obrigatórios pelo usuário                                  |
+| **Ator Principal**       | Usuário                                                                          |
+| **Ator Secundário**      | Sistema do CadÚnico                                                              |
+| **Contexto**             | O CadÚnico precisa oferecer ao usuário a possibilidade de enviar documentos obrigatórios de forma digital, sem necessidade de comparecimento presencial. |
+| **Pré-condições**        | O usuário possui login válido no aplicativo do CadÚnico e acessa a área do aplicativo responsável por receber e enviar para análise os documentos. |
+| **Fluxo Principal**      | 1. O usuário acessa a funcionalidade de upload de documentos no aplicativo do CadÚnico.<br>2. O sistema exibe lista de documentos exigidos conforme o serviço requisitado.<br>3. O usuário seleciona os arquivos desejados.<br>4. O sistema valida o tipo e o tamanho dos arquivos.<br>5. Os documentos são enviados.<br>6. O sistema exibe confirmação de envio. |
+| **Pós-condições**        | Os documentos ficam vinculados à solicitação do usuário e disponíveis para análise dos atendentes do CadÚnico. |
+| **Exceções**             | - Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio.<br>- Arquivo corrompido → sistema solicita novo envio ao usuário. |
+
 
 ## Rastreabilidade 
 
@@ -355,12 +372,11 @@ Essa seção apresenta a rastreabilidade Cenário-Requisito. A legenda utilizada
 
 - CNX: Cenário número X. 
 - RXY: Requisito de tipo X número y.
-- RFX: Requisito Funcional número X.
 
-Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
+Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
 
 <center>
-    <b>Tabela 16:</b> 
+    <b>Tabela 18:</b> 
 </center>
 
 <center>
@@ -379,9 +395,10 @@ Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o c
 | CN10     | RF11     |
 | CN11     | RF12     |
 | CN12     | RF13     |
-| CN13     | RF10     |
+| CN13     | RNF10    |
 | CN14     | RF30     |
 | CN15     | RF35     |
+| CN16     | RF29     |
 
 </center>
 
@@ -423,3 +440,5 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  1.9   | 16/05/2025 | Corrigindo formatação e erros de digitação | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.0   | 18/05/2025 | Adição de 2 cenários e formatação        | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.1   | 18/05/2025 | Corrigindo conflitos e erros       | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.2   | 18/05/2025 | Adicionando 1 cenário novo      | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
