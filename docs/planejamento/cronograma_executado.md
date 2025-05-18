@@ -58,6 +58,27 @@
  Autor: <a href="https://github.com/Gabrielfcoelho" target = "_blank">Gabriel Flores</a></h6>
 </center>
 
+## Entrega 3 - Modelagem de Requisitos parte 1
+
+<center>Tabela 03: Cronograma para as atividades da entrega 3</center>
+
+
+| Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
+|-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
+| Modelagem de Requisitos: Cenários             | Início: 13/05 Fim: 18/05    | Amanda, João Igor, Julia, Ryan             | Início: 15/05 Fim: 18/05   | João Pedro     |
+| Modelagem de Requisitos: Léxico               | Início: 03/05 Fim: 09/05    | João Igor, Gabriel         | Início: 09/05 Fim: 17/05   | Ryan             |
+| Modelagem de Requisitos: Use Case             | Início:13/05 Fim: 18/05    | Amanda, João Pedro, Ryan, Gabrel Flores, João Igor, Julia | Início: 15/05 Fim: 18/05   | Gabriel Flores           |
+| Modelagem de Requisitos: Especificação Suplementar | Início: 13/05 Fim: 18/05 | Julia, João Pedro          | Início: 15/05 Fim: 18/05   | Ryan          |
+| Cronograma ocorrido                           | Início: 17/05 Fim: 18/05    | João Igor                  | Início: 18/05 Fim: 18/05   | Gabriel Flores     
+| Atas                                          | Início: 02/05 Fim: 19/05    | Ryan                       | Início: 19/05 Fim: 19/05   | Amanda           |
+| Gravações                                     | Início: 02/05 Fim: 19/05    | Ryan                       | Início: 19/05 Fim: 19/05   | Gabriel Flores         |
+| Gravação da apresentação                      | Início: 18/05 Fim: 18/05    | Amanda, Gabriel, João Pedro, João Igor,  Julia, Ryan                     | Início: 18/05 Fim: 18/05   | João Pedro      |
+| Inspeções                                     | Início: 19/05 Fim: 19/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 14/05 Fim: 14/05   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+| Correção após inspeção                        | Início: 21/05 Fim: 22/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 16/05 Fim: 16/05   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+<center>
+ Autor(a): <a href="https://github.com/JoaoPC10" target = "_blank">João Igor</a></h6>
+</center>
+
 
 
 ## Referências
@@ -71,3 +92,4 @@
 |  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 04/05/2025 | Cronograma executado da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.4 | 18/05/2025 | Cronograma executado da entrega 3 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
