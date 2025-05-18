@@ -5,7 +5,9 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 
 ## Metodologia
 
-O diagrama de casos de uso é uma representação visual da interação de atores com o sistema e visa facilitar o entendimento de como se dará o uso por parte dos atores primários e como os atores secundários se relacionam às funcionalidades que o sistema apresenta. A Tabela 1 apresenta os elementos presentes no diagrama de caso de uso e suas funcionalidades. 
+O diagrama de casos de uso é uma representação visual da interação de atores com o sistema e visa facilitar o entendimento de como se dará o uso por parte dos atores primários e como os atores secundários se relacionam às funcionalidades que o sistema apresenta. Para melhor entender a interação do usuário com os sistemas e aplicativo, as personas **Larissa Mendes Costa** e **Beatriz Oliveira Santos** foram utilizadas para modelar os atores *Usuário Cadastrado* e *Novo Usuário*, respectivamente. Para o ator generalizado *Usuário*, ambas as personas foram utilizadas. 
+
+A Tabela 1 apresenta os elementos presentes no diagrama de caso de uso e suas funcionalidades. 
 
 <font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
 
@@ -340,3 +342,4 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.4 | 17/05/2025 | Adicionando casos de uso 8 e 9 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.5 | 17/05/2025 | Consertando tabela e casos de uso |[João Pedro Costa](https://github.com/johnaopedro) |[Ryan Salles](https://github.com/RA-Salles) | 
 | 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
+| 1.7 | 19/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
