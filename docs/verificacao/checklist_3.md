@@ -41,6 +41,10 @@ A tabela abaixo apresenta uma lista de verificação para os cenários. O objeti
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+<br>
+
+Fonte(s): Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. https://leanpub.com/ihc-ux
+
 ## Checklist de Verificação - Diagrama de Caso de Uso
 
 A tabela abaixo apresenta uma lista de verificação para o Diagrama de Caso de Uso. O objetivo é garantir que todos os elementos essenciais estejam presentes e que a representação gráfica siga as diretrizes da UML.
@@ -75,6 +79,15 @@ A tabela abaixo apresenta uma lista de verificação para o Diagrama de Caso de 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+<br>
+Fonte(s): 
+
+> SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011, p. 74-75. Disponivel em: https://www.facom.ufu.br/~william/Disciplinas%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf
+
+> WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144.
+
+>  DEVMEDIA. O que é UML e diagramas de caso de uso: introdução prática à UML. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. 
+
 ## Checklist de Verificação - Especificação Suplementar
 
 Abaixo está uma lista de verificação para a Especificação Suplementar. O objetivo é garantir que todos os requisitos funcionais e não funcionais estejam claramente definidos e documentados.
@@ -94,16 +107,31 @@ Abaixo está uma lista de verificação para a Especificação Suplementar. O ob
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
+<br>
+Fonte: BRASIL. MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação-Geral de Sistemas. Sigla do Projeto – Nome do Projeto: especificação suplementar. Versão 1.0. [recurso eletrônico]. Brasília, [s.d.]. Disponível em: https://aprender3.unb.br/pluginfile.php/3096129/mod_resource/content/2/SiglaProjeto_EspecificacaoSuplementar.pdf.
+
 
 ## Referências
 
-> BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. p. 172-177.
+> BRASIL. MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação-Geral de Sistemas. Sigla do Projeto – Nome do Projeto: especificação suplementar. Versão 1.0. [recurso eletrônico]. Brasília, [s.d.]. Disponível em: https://aprender3.unb.br/pluginfile.php/3096129/mod_resource/content/2/SiglaProjeto_EspecificacaoSuplementar.pdf.
 
-> SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011, p. 74-75. 
+#### Imagem 1: Especificação Suplementar
+
+<div style=>
+    <img src="../../assets/referencias/verificacao3/fonte1.png">
+</div>
+<br></br>
+
+**Fonte:** Adaptado de BRASIL. MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação-Geral de Sistemas. Sigla do Projeto – Nome do Projeto: especificação suplementar. Versão 1.0. [recurso eletrônico]. Brasília, [s.d.].
+
+> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. https://leanpub.com/ihc-ux
+
+> SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011, p. 74-75. Disponivel em: https://www.facom.ufu.br/~william/Disciplinas%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf
 
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144.
 
 >  DEVMEDIA. O que é UML e diagramas de caso de uso: introdução prática à UML. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. 
+
 
 ## Histórico de Versão
 
