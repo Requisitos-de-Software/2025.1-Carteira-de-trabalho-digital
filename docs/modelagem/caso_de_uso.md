@@ -414,7 +414,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
 | 1.7 | 18/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
-| 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 
 
 
