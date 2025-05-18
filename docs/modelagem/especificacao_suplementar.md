@@ -1,7 +1,9 @@
-# Introdução
+# Especificação Suplementar
+
+## Introdução
 A Especificação Suplementar é um documento em linguagem natural, cujo objetivo principal é descrever de forma detalhada os requisitos não funcionais de um sistema. Diferentemente dos casos de uso, que focam em funcionalidades e fluxos de interação, a Especificação Suplementar captura aspectos de qualidade, restrições e características que o software deve atender, mas que não são expressos nos diagramas comportamentais.
 
-# Metodologia
+## Metodologia
 Para elaborar a Especificação Suplementar, utiliza-se como guia o modelo FURPS+, que organiza os requisitos não funcionais nas seguintes categorias:
 
 - Usability (Usabilidade): facilidade de uso pelo usuário.
@@ -14,27 +16,27 @@ Para elaborar a Especificação Suplementar, utiliza-se como guia o modelo FURPS
 
 Cada requisito não funcional é descrito em linguagem natural e classificado conforme essas categorias, permitindo aos engenheiros de software entenderem claramente as expectativas de qualidade e as restrições do projeto. Essa especificação serve como complemento aos casos de uso, garantindo que aspectos críticos de usabilidade, confiabilidade, desempenho e manutenção sejam considerados desde as primeiras fases de desenvolvimento.
 
-# Especificação Suplementar
+## Especificação Suplementar - FURPS+
 
-## 1. Introdução
+### 1. Introdução
 
 Este documento apresenta a Especificação Suplementar do aplicativo Cadastro Único, detalhando os requisitos que não foram completamente descritos nos casos de uso. O objetivo é registrar requisitos legais, de qualidade (como usabilidade, desempenho, confiabilidade e suportabilidade), além de outros aspectos técnicos e operacionais do sistema.
 
 Abrange também restrições de projeto, interfaces e componentes adquiridos, com o intuito de fornecer um suporte completo à equipe de desenvolvimento.
 
-### Finalidade
+#### Finalidade
 
 Este documento tem por finalidade especificar os requisitos suplementares não implementados no sistema, para que possam ser planejados, desenvolvidos e integrados às versões futuras do aplicativo Cadastro Único.
 
-### Escopo
+#### Escopo
 
 Abrange os requisitos funcionais e não funcionais elicitados por técnicas formais, porém ainda não implementados na versão atual do sistema. Estes requisitos são cruciais para a ampliação das funcionalidades voltadas ao público MEI, acessibilidade e suporte técnico.
 
-### Definições, Acrônimos e Abreviações
+#### Definições, Acrônimos e Abreviações
 
 Aqui tem-se a tabela 1 com definições, acrônimos e abreviações utilizadas neste documento. É importante ressaltar que os termos utilizados são comuns na área de Engenharia de Software e podem variar conforme o contexto.
 
-#### Tabela 1: Definições, Acrônimos e Abreviações
+##### Tabela 1: Definições, Acrônimos e Abreviações
 | Termo | Definição |
 |-------|-----------|
 | **RF** | Requisito Funcional |
@@ -43,7 +45,7 @@ Aqui tem-se a tabela 1 com definições, acrônimos e abreviações utilizadas n
 | **LGPD** | Lei Geral de Proteção de Dados |
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-### Visão Geral
+#### Visão Geral
 
 Esta especificação apresenta:
 - Os requisitos funcionais (Seção 3);  
@@ -53,11 +55,11 @@ Esta especificação apresenta:
 - Os requisitos técnicos e de ambiente (Seção 9);  
 - As interfaces previstas, requisitos de licenciamento, anexos e aprovações.
 
-## 2. Identificação do Projeto
+### 2. Identificação do Projeto
 
 Nesta seção, são apresentadas informações gerais sobre o projeto, como nome, versão, data de criação e responsáveis. Abaixo esta a tabela 2 com as informações do projeto.
 
-### Tabela 2: Identificação do Projeto
+#### Tabela 2: Identificação do Projeto
 
 | Campo               | Informação                      |
 |---------------------|----------------------------------|
@@ -67,15 +69,15 @@ Nesta seção, são apresentadas informações gerais sobre o projeto, como nome
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 
-## 3. Funcionalidade
+### 3. Funcionalidade
 
 Os requisitos funcionais foram elicitados na seção de elicitação e a tabela 1 da página de [requisitos elicitados](../../elicitacao/requisitos_elicitados) demonstra todos os requisitos priorizados.
 
-## 4. Usabilidade
+### 4. Usabilidade
 
 Nesta seção, são apresentados os requisitos de usabilidade do sistema, que visam garantir uma experiência positiva para o usuário. A usabilidade é um aspecto crítico para a aceitação e eficácia do aplicativo, especialmente considerando o público-alvo. Abaixo está a Tabela 3 com os requisitos de usabilidade.
 
-### Tabela 3: Requisitos de Usabilidade
+#### Tabela 3: Requisitos de Usabilidade
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -84,11 +86,11 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 | [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | Possibilidade de outros idiomas                  | Introspecção           |
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-## 5. Confiabilidade
+### 5. Confiabilidade
 
 Nesta seção, são apresentados os requisitos de confiabilidade do sistema, que visam garantir a segurança, privacidade e integridade dos dados. A confiabilidade é essencial para a confiança do usuário no aplicativo e para o cumprimento das normas legais. Abaixo está a Tabela 4 com os requisitos de confiabilidade.
 
-### Tabela 4: Requisitos de Confiabilidade
+#### Tabela 4: Requisitos de Confiabilidade
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -96,11 +98,11 @@ Nesta seção, são apresentados os requisitos de confiabilidade do sistema, que
 | [RNF20](../elicitacao/requisitos_elicitados.md#rnf20)  | Alta disponibilidade e recuperação de desastres | Introspecção           |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-## 6. Desempenho
+### 6. Desempenho
 
 Requisitos que dizem respeito às condições que os requisitos devem operar. A velocidade, limites superiores e inferiores, tempo de resposta, restrições de interface e de funções, etc.
 
-### Tabela 5: Requisitos de Desempenho
+#### Tabela 5: Requisitos de Desempenho
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -108,11 +110,11 @@ Requisitos que dizem respeito às condições que os requisitos devem operar. A 
 | [RNF17](../elicitacao/requisitos_elicitados.md#rnf17)  | Desempenho otimizado para internet limitada      | Introspecção           |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-## 7. Suportabilidade
+### 7. Suportabilidade
 
 Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso inclui requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado, documentação adequada, facilidade de teste e diagnóstico de problemas.
 
-### Tabela 6: Requisitos de Suportabilidade
+#### Tabela 6: Requisitos de Suportabilidade
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -122,41 +124,21 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 | [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-## 8. Restrições de Projeto
+### 8. Restrições de Projeto
 
-### 8.1. Infraestrutura Tecnológica Limitada
-O aplicativo deverá ser compatível com dispositivos móveis Android a partir da versão 6.0 (Marshmallow) e com navegadores modernos para acesso via web, considerando o uso por públicos de baixa renda com dispositivos mais antigos.
+| ID      | Nome                                  | Descrição                                                                                                                | Justificativa                                                                                 |
+| ------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| REQ001  | Infraestrutura Tecnológica Limitada  | O aplicativo deverá ser compatível com dispositivos móveis Android a partir da versão 6.0 (Marshmallow) e com navegadores modernos para acesso via web, considerando o uso por públicos de baixa renda com dispositivos mais antigos. | Grande parte dos usuários do CadÚnico possui celulares com recursos limitados de processamento e memória. |
+| REQ002  | Adesão à LGPD                        | Todos os dados coletados, processados e armazenados pelo aplicativo devem estar em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), garantindo consentimento explícito e controle sobre os dados pessoais do usuário. | O sistema lida com dados sensíveis e precisa atender exigências legais de privacidade.       |
+| REQ003  | Integração com Sistemas Governamentais Existentes | A aplicação deverá manter compatibilidade com a base de dados do Governo Federal e com sistemas como o SIBEC, Receita Federal e Conectividade Social da CAIXA, para validação e atualização de informações. | Para evitar redundância de informações e garantir veracidade dos dados.                      |
+| REQ004  | Acesso com Baixa Conectividade       | O projeto deve considerar o uso do aplicativo em regiões com baixa qualidade de internet. Funcionalidades críticas devem ser parcialmente disponíveis no modo offline, com sincronização posterior. | O público-alvo do CadÚnico reside frequentemente em áreas com infraestrutura limitada.      |
+| REQ005  | Compatibilidade com Tecnologias Assistivas | A interface do aplicativo deve ser compatível com leitores de tela, alto contraste, comandos por voz e navegação via teclado, atendendo aos requisitos de acessibilidade. | Inclusão digital de pessoas com deficiência visual ou motora é uma diretriz do governo federal. |
+| REQ006  | Atualizações via Lojas Oficiais      | As atualizações do aplicativo devem ser distribuídas exclusivamente pelas lojas Google Play e App Store, não sendo permitido o uso de APKs externos por questões de segurança. | Minimizar o risco de ataques, fraudes ou instalação de versões corrompidas do aplicativo.   | 
+<center>Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Paulino</a></center>
 
-**Justificativa:** Grande parte dos usuários do CadÚnico possui celulares com recursos limitados de processamento e memória.
+### 9. Outros Requisitos do Produto
 
-### 8.2. Adesão à LGPD
-Todos os dados coletados, processados e armazenados pelo aplicativo devem estar em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), garantindo consentimento explícito e controle sobre os dados pessoais do usuário.
-
-**Justificativa:** O sistema lida com dados sensíveis e precisa atender exigências legais de privacidade.
-
-### 8.3. Integração com Sistemas Governamentais Existentes
-A aplicação deverá manter compatibilidade com a base de dados do Governo Federal e com sistemas como o SIBEC, Receita Federal e Conectividade Social da CAIXA, para validação e atualização de informações.
-
-**Justificativa:** Para evitar redundância de informações e garantir veracidade dos dados.
-
-### 8.4. Acesso com Baixa Conectividade
-O projeto deve considerar o uso do aplicativo em regiões com baixa qualidade de internet. Funcionalidades críticas devem ser parcialmente disponíveis no modo offline, com sincronização posterior.
-
-**Justificativa:** O público-alvo do CadÚnico reside frequentemente em áreas com infraestrutura limitada.
-
-### 8.5. Compatibilidade com Tecnologias Assistivas
-A interface do aplicativo deve ser compatível com leitores de tela, alto contraste, comandos por voz e navegação via teclado, atendendo aos requisitos de acessibilidade.
-
-**Justificativa:** Inclusão digital de pessoas com deficiência visual ou motora é uma diretriz do governo federal.
-
-### 8.6. Atualizações via Lojas Oficiais
-As atualizações do aplicativo devem ser distribuídas exclusivamente pelas lojas Google Play e App Store, não sendo permitido o uso de APKs externos por questões de segurança.
-
-**Justificativa:** Minimizar o risco de ataques, fraudes ou instalação de versões corrompidas do aplicativo.
-
-## 9. Outros Requisitos do Produto
-
-### 9.1. Padrões Aplicáveis
+#### 9.1. Padrões Aplicáveis
 O aplicativo deverá seguir os seguintes padrões técnicos e de qualidade:
 
 - **ABNT NBR ISO/IEC 25010:2011** – Qualidade de produto de software;
@@ -165,7 +147,7 @@ O aplicativo deverá seguir os seguintes padrões técnicos e de qualidade:
 - **OWASP Mobile Security Project** – Diretrizes para segurança de aplicativos móveis;
 - **IEEE Std 830-1998** – Requisitos de software e especificação.
 
-### 9.2. Requisitos do Sistema
+#### 9.2. Requisitos do Sistema
 - O aplicativo deverá ser compatível com:
   - Android 6.0 (Marshmallow) ou superior;
   - iOS 12.0 ou superior;
@@ -176,13 +158,13 @@ O aplicativo deverá seguir os seguintes padrões técnicos e de qualidade:
   - 200MB de espaço disponível;
   - Conexão mínima de 3G ou Wi-Fi.
 
-### 9.3. Requisitos Ambientais
+#### 9.3. Requisitos Ambientais
 - O sistema deve funcionar em ambientes com variações de conectividade, com tolerância a interrupções momentâneas de rede.
 - O aplicativo deve ser otimizado para operar em ambientes com pouca luminosidade (modo escuro) e temperaturas elevadas, comuns em regiões afastadas ou em áreas rurais.
 - O sistema web deve ter comportamento responsivo e ser compatível com monitores de baixa resolução (a partir de 1024x768).
 
 
-## 10. Componentes Comprados
+### 10. Componentes Comprados
 
 O aplicativo poderá utilizar APIs públicas e serviços de terceiros para ampliar sua funcionalidade. Os seguintes componentes adquiridos ou externos são considerados:
 
@@ -193,8 +175,8 @@ O aplicativo poderá utilizar APIs públicas e serviços de terceiros para ampli
 
 Todos os componentes deverão possuir documentação oficial, atualizações regulares e estar em conformidade com a LGPD.
 
-## 11. Interfaces  
-### 11.1. Interfaces de Usuário 
+### 11. Interfaces  
+#### 11.1. Interfaces de Usuário 
 
 A interface do aplicativo será responsiva e acessível, com foco em:
 
@@ -203,7 +185,7 @@ A interface do aplicativo será responsiva e acessível, com foco em:
 - Utilização de padrões de design do Governo Federal (Gov.br);
 - Layout adaptável para smartphones e tablets.
   
-### 11.2. Interfaces de Hardware  
+#### 11.2. Interfaces de Hardware  
 
 O sistema deve ser compatível com dispositivos móveis Android e iOS, utilizando recursos de:
 
@@ -211,20 +193,20 @@ O sistema deve ser compatível com dispositivos móveis Android e iOS, utilizand
 - Câmera para envio de documentos;
 - Armazenamento local para modo offline.
 
-### 11.3. Interfaces de Software  
+#### 11.3. Interfaces de Software  
 
 - Integração com a base do CadÚnico;
 - Conectividade com Receita Federal (CNPJ MEI);
 - Integração com APIs RESTful;
 - Comunicação com servidores Gov.br para autenticação.
 
-### 11.4. Interfaces de Comunicações
+#### 11.4. Interfaces de Comunicações
 
 - HTTPS (protocolo seguro) para todas as transações de dados;
 - WebSockets para sincronização em tempo real quando disponível;
 - Transmissão de dados via Conectividade Social para casos específicos.
 
-## 12. Requisitos de Licenciamento
+### 12. Requisitos de Licenciamento
 
 O sistema deve estar em conformidade com:
 
@@ -234,9 +216,9 @@ O sistema deve estar em conformidade com:
 
 A redistribuição e modificação do sistema estarão condicionadas aos termos definidos pelo Governo Federal e acordos com os fornecedores de API e dados.
 
-## 13. Anexos
+### 13. Anexos
 
-### Anexo A – Fluxo de Atualização de Dados Cadastrais
+#### Anexo A – Fluxo de Atualização de Dados Cadastrais
 Apresenta o diagrama de fluxo de interação do usuário ao atualizar os dados da composição familiar. O fluxo inclui autenticação, exibição dos dados anteriores, edição, envio para validação e geração de protocolo.
 
 **Objetivo:** Ajudar a validar a lógica da funcionalidade e antecipar possíveis exceções durante a atualização cadastral.
@@ -246,7 +228,7 @@ Tabela com os requisitos funcionais e não funcionais extraídos a partir de ent
 
 **Objetivo:** Justificar a origem dos requisitos implementados e reforçar decisões de projeto baseadas em evidências reais.
 
-### Anexo C – Documento de Casos de Uso
+#### Anexo C – Documento de Casos de Uso
 Inclui os principais casos de uso desenvolvidos para o projeto, como:
 
 - UC01: Cadastro de Família  
@@ -258,12 +240,12 @@ Cada caso de uso apresenta descrição, pré-condições, fluxos principais, flu
 
 **Objetivo:** Fornecer documentação clara das funcionalidades para análise, desenvolvimento e validação.
 
-### Anexo D – Checklist de Priorização de Requisitos
+#### Anexo D – Checklist de Priorização de Requisitos
 Lista de verificação com critérios aplicados para priorizar os requisitos elicitados (impacto, urgência, viabilidade técnica, custo-benefício etc.). Baseado em técnicas como MoSCoW e 100-dollar test.
 
 **Objetivo:** Apoiar a definição de escopo e garantir que funcionalidades críticas sejam entregues nas primeiras versões.
 
-### Anexo E – Checklist de Cenários
+#### Anexo E – Checklist de Cenários
 Contém a lista de verificação para validar os cenários propostos no projeto. Avalia completude, clareza, consistência, presença de exceções e adequação ao fluxo principal.
 
 **Objetivo:** Garantir que os cenários cubram os casos de uso reais e sirvam de base para testes futuros.
@@ -295,7 +277,7 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 |  1.0   | 16/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) e [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.1   | 16/05/2025 |   Criação da introdução e metodologia   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.2   | 16/05/2025 |   Criação da estrutura de especificação suplementar   | [João Pedro Costa](https://github.com/johnaopedro) e [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.3   | 16/05/2025 |   Preenchimento de cinco seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.3   | 16/05/2025 |   Preenchimento das três primeiras seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 16/05/2025 |   Preenchimento das seções 8 à 13   | [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.5   | 17/05/2025 |   Preenchimento das 8 seções restantes   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.5   | 17/05/2025 |   Preenchimento das seções de: Identificação do Projeto, Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade    | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.6   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
