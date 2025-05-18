@@ -216,40 +216,6 @@ O sistema deve estar em conformidade com:
 
 A redistribuição e modificação do sistema estarão condicionadas aos termos definidos pelo Governo Federal e acordos com os fornecedores de API e dados.
 
-### 13. Anexos
-
-#### Anexo A – Fluxo de Atualização de Dados Cadastrais
-Apresenta o diagrama de fluxo de interação do usuário ao atualizar os dados da composição familiar. O fluxo inclui autenticação, exibição dos dados anteriores, edição, envio para validação e geração de protocolo.
-
-**Objetivo:** Ajudar a validar a lógica da funcionalidade e antecipar possíveis exceções durante a atualização cadastral.
-
-### Anexo B – Lista de Requisitos Elicitados por Entrevistas e Questionários
-Tabela com os requisitos funcionais e não funcionais extraídos a partir de entrevistas com usuários reais e aplicação de formulários. Inclui data da coleta, perfil do usuário e tipo do requisito identificado (RF ou RNF).
-
-**Objetivo:** Justificar a origem dos requisitos implementados e reforçar decisões de projeto baseadas em evidências reais.
-
-#### Anexo C – Documento de Casos de Uso
-Inclui os principais casos de uso desenvolvidos para o projeto, como:
-
-- UC01: Cadastro de Família  
-- UC02: Atualização Cadastral  
-- UC03: Filtrar Benefícios  
-- UC04: Visualizar Postos de Atendimento
-
-Cada caso de uso apresenta descrição, pré-condições, fluxos principais, fluxos alternativos e exceções.
-
-**Objetivo:** Fornecer documentação clara das funcionalidades para análise, desenvolvimento e validação.
-
-#### Anexo D – Checklist de Priorização de Requisitos
-Lista de verificação com critérios aplicados para priorizar os requisitos elicitados (impacto, urgência, viabilidade técnica, custo-benefício etc.). Baseado em técnicas como MoSCoW e 100-dollar test.
-
-**Objetivo:** Apoiar a definição de escopo e garantir que funcionalidades críticas sejam entregues nas primeiras versões.
-
-#### Anexo E – Checklist de Cenários
-Contém a lista de verificação para validar os cenários propostos no projeto. Avalia completude, clareza, consistência, presença de exceções e adequação ao fluxo principal.
-
-**Objetivo:** Garantir que os cenários cubram os casos de uso reais e sirvam de base para testes futuros.
-
 ## Referências
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 16 maio 2025.
 
@@ -280,4 +246,5 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 |  1.3   | 16/05/2025 |   Preenchimento das três primeiras seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 16/05/2025 |   Preenchimento das seções 8 à 13   | [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.5   | 17/05/2025 |   Preenchimento das seções de: Identificação do Projeto, Funcionalidade, Usabilidade, Confiabilidade, Desempenho, Suportabilidade    | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.6   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.6   | 17/05/2025 |   Removendo itens errados   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.7   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
