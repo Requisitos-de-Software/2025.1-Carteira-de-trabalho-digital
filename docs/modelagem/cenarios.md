@@ -332,7 +332,7 @@ incompletos.
 
 <center>
     Autor(es): 
-   <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## Rastreabilidade 
