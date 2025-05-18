@@ -223,13 +223,13 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 | Cenário 10               | Cadastro MEI                                                                  |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Nome do Cenário**      | Formalização do MEI via aplicativo do CadÚnico                                |
-| **Ator Principal**       | Usuário com perfil elegível para formalização                                 |
-| **Contexto**             | O usuário deseja formalizar sua atividade como Microempreendedor Individual diretamente pelo app do CadÚnico, aproveitando os dados já cadastrados. |
-| **Pré-condições**        | O usuário está logado no app CadÚnico, com dados pessoais e familiares atualizados. |
-| **Fluxo Principal**      | 1. O usuário acessa o app CadÚnico e clica em “Quero ser MEI”.<br>2. O sistema recupera dados do cadastro e pré-preenche o formulário.<br>3. O usuário complementa com nome fantasia e atividade econômica.<br>4. Informa endereço comercial (se diferente do residencial) e confirma os dados.<br>5. Envia solicitação para análise e geração do CNPJ. |
-| **Pós-condições**        | A solicitação de cadastro MEI é enviada para o sistema da Receita Federal e o usuário pode acompanhar o status pelo próprio app. |
-| **Exceções**             | - Se os dados estiverem desatualizados ou incompletos, o sistema solicita atualização antes de prosseguir.<br>- Se o CPF não for elegível (ex: já vinculado a outro CNPJ), o sistema informa impedimento. |
+| **Nome do Cenário**      | Registro da condição de MEI no cadastro do usuário                                |
+| **Ator Principal**       | Usuário em processo de cadastro no CadÚnico                                 |
+| **Contexto**             | Ao se cadastrar no aplicativo, o usuário deve poder informar que é um Microempreendedor Individual (MEI) para receber conteúdos e serviços direcionados. |
+| **Pré-condições**        | O usuário está na etapa de preenchimento do cadastro no aplicativo CadÚnico. |
+| **Fluxo Principal**      | 1. O usuário acessa o aplicativo e inicia o processo de cadastro.<br>2. Durante o preenchimento de dados pessoais, encontra a opção “Sou MEI”.<br>3. Marca a opção para indicar sua condição de Microempreendedor Individual.<br>4. Finaliza o processo de cadastro.<br>5. O sistema armazena essa informação no perfil do usuário. |
+| **Pós-condições**        | O perfil do usuário é registrado com o status de MEI, permitindo personalização e integração futura com dados do microempreendedor. |
+| **Exceções**             | - Se o usuário não marcar a opção, o sistema continua o fluxo normalmente, sem definir o status como MEI.<br>- Caso o usuário selecione "Sou MEI", mas não tenha um CNPJ válido posteriormente, o sistema pode solicitar verificação adicional. |
 
 <center>
     Autor(es): 
@@ -240,18 +240,18 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 ### Cenário 11: Informações MEI
 
 <center>
-    Tabela 12: Cenário de consulta de informações MEI
+    Tabela 12: Cenário de informações MEI
 </center>
 
 | Cenário 11               | Informações MEI                                                               |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Nome do Cenário**      | Consulta de situação MEI integrada ao CadÚnico                                |
-| **Ator Principal**       | Usuário já formalizado como MEI                                               |
-| **Contexto**             | O usuário deseja consultar dados do seu CNPJ MEI, verificar sua situação fiscal e obrigações dentro do app do CadÚnico. |
-| **Pré-condições**        | O usuário está logado e possui um CNPJ MEI vinculado ao seu CPF.              |
-| **Fluxo Principal**      | 1. O usuário acessa o app e seleciona a opção “Minha Situação MEI”.<br>2. O sistema exibe dados como: CNPJ, CNAE, status (ativo/inativo), débitos em aberto, DAS.<br>3. O usuário pode baixar documentos e gerar boletos.<br>4. O sistema fornece orientações se houver pendências. |
-| **Pós-condições**        | O usuário acessa sua situação atual como MEI sem precisar consultar múltiplos portais. |
-| **Exceções**             | - Se o CNPJ estiver inativo, o sistema alerta com instruções para regularização.<br>- Em caso de falha de conexão com a Receita Federal, o sistema exibe erro temporário. |
+| **Nome do Cenário**      | Acesso a conteúdos informativos sobre microempreendedorismo                                |
+| **Ator Principal**       | Usuário MEI autenticado no CadÚnico                                               |
+| **Contexto**             | O usuário deseja se informar sobre obrigações, direitos e oportunidades relacionadas ao MEI diretamente no aplicativo. |
+| **Pré-condições**        | O usuário está autenticado no aplicativo e possui perfil MEI ativo.              |
+| **Fluxo Principal**      | 1. O usuário acessa a seção “MEI” no menu do aplicativo.<br>2. Visualiza conteúdos informativos organizados por temas, como: Formalização e CNPJ, Obrigações Fiscais e Contábeis.<br>3. O sistema permite navegação entre os temas e acesso a links úteis.|
+| **Pós-condições**        | O usuário compreende melhor suas responsabilidades como MEI e sabe onde buscar serviços públicos e suporte. |
+| **Exceções**             | - Se o usuário não estiver identificado como MEI, o sistema exibe convite para formalização com link de orientação.<br>- Caso os conteúdos não estejam disponíveis offline, o sistema informa a necessidade de conexão. |
 
 <center>
     Autor(es): 
@@ -267,13 +267,13 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 | Cenário 12               | Personalização MEI                                                            |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Nome do Cenário**      | Ajuste de preferências de notificação e acessibilidade                        |
+| **Nome do Cenário**      | Exibição de conteúdos personalizados da seção MEI                        |
 | **Ator Principal**       | Usuário MEI cadastrado no CadÚnico                                            |
-| **Contexto**             | O usuário deseja configurar como receber notificações e adaptar a interface do app a suas necessidades. |
-| **Pré-condições**        | O usuário está logado no aplicativo CadÚnico.                                 |
-| **Fluxo Principal**      | 1. O usuário acessa o menu “Configurações”.<br>2. Escolhe como deseja receber lembretes: WhatsApp, SMS ou e-mail.<br>3. Ativa modo acessível (ex: fonte grande, alto contraste).<br>4. Salva as preferências. |
-| **Pós-condições**        | O sistema passa a respeitar as novas configurações nas próximas interações.   |
-| **Exceções**             | - Se o número de celular ou e-mail forem inválidos, o sistema alerta e solicita correção.<br>- Se o sistema de envio de mensagens estiver fora do ar, o app informa atraso nos lembretes. |
+| **Contexto**             | O usuário acessa a seção MEI do aplicativo e espera visualizar informações relacionadas ao seu setor de atuação e localização. |
+| **Pré-condições**        | O usuário está autenticado e possui setor de atuação e município informados no cadastro. |
+| **Fluxo Principal**      | 1. O usuário acessa a seção “MEI” do aplicativo.<br>2. O sistema identifica o setor econômico registrado no perfil do usuário.<br>3. O sistema verifica a região (com base na localização ou município cadastrado).<br>4.Exibe conteúdos personalizados, como: Editais e cursos regionais, notícias específicas do setor (ex: agricultura, comércio).<br> 5. Permite ao usuário interagir com os conteúdos (favoritar, compartilhar, acessar links externos). |
+| **Pós-condições**        | O usuário visualiza conteúdos relevantes e adaptados ao seu perfil profissional e territorial. |
+| **Exceções**             | - Se o setor de atuação estiver vazio, o sistema solicita preenchimento antes da personalização.<br>- Se a localização estiver desativada, utiliza o município do cadastro como referência. |
 
 <center>
     Autor(es): 
@@ -290,7 +290,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 | Cenário 13               | Integração MEI                                                                |
 |--------------------------|-------------------------------------------------------------------------------|
 | **Nome do Cenário**      | Consulta e sincronização automática com a base de dados do MEI                |
-| **Ator Principal**       | Sistema do CadÚnico                                                           |
+| **Ator Principal**       | Sistema do CadÚnico, Sistema MEI.    |
 | **Contexto**             | O CadÚnico precisa acessar e manter atualizadas as informações do MEI vinculadas ao CPF do usuário, sem necessidade de inserção manual de dados. |
 | **Pré-condições**        | O usuário possui cadastro ativo no CadÚnico e tem um CNPJ MEI registrado na Receita Federal. |
 | **Fluxo Principal**      | 1. O sistema do CadÚnico realiza integração periódica com a base da Receita Federal.<br>2. Identifica usuários com CNPJ MEI associado ao CPF no cadastro.<br>3. Recupera informações como: data de formalização, atividade principal, situação cadastral, pendências e débitos.<br>4. Atualiza automaticamente os dados no perfil do usuário no app CadÚnico.<br>5. Exibe aviso ou status atualizado ao usuário, caso ele acesse a área “MEI”. |
@@ -384,12 +384,19 @@ Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o c
 
 </center>
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ## Vídeo
 O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
 
 <div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DohE9Bf-ppg?si=w5koy8vx1bkrT6M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XD85MKcj9k?si=P60ufthC229R1Yfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </div>
 
 ## Referências
@@ -414,3 +421,4 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.9   | 16/05/2025 | Corrigindo formatação e erros de digitação | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.0   | 18/05/2025 | Adição de 2 cenários e formatação        | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.1   | 18/05/2025 | Corrigindo conflitos e erros       | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
