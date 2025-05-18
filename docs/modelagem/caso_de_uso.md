@@ -84,7 +84,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC04] Conferir informações sobre benefícios
 
-| UC03 | Conferir informações sobre benefícios|
+| UC04 | Conferir informações sobre benefícios|
 |------|----------------------------|
 | **Descrição** | Permite aos usuários com ou sem autenticação lerem acerca dos possíveis benefícios disponíveis no aplicativo |
 | **Ator** | Usuário |
@@ -102,7 +102,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC05] Verificar postos de atendimento
 
-| UC03 | Verificar postos de atendimento |
+| UC05 | Verificar postos de atendimento |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários verificar postos de atendimento disponíveis |
 | **Atores** | Usuário, Sistema CadÚnico|
@@ -121,7 +121,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC06] Cadastrar família
 
-| UC06 | Informações |
+| UC06 | Cadastrar família |
 |------|-------------|
 | **Descrição** | Permite ao responsável familiar registrar sua família no Cadastro Único para acessar benefícios sociais. |
 | **Ator** | Responsável familiar |
@@ -140,7 +140,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC07] Filtrar Benefícios Sociais
 
-| UC07 | Informações |
+| UC07 | Filtrar Benefícios Sociais |
 |------|-------------|
 | **Descrição** | Permite ao usuário buscar e filtrar informações sobre benefícios sociais disponíveis de acordo com seu perfil ou interesse. |
 | **Ator** | Usuário (autenticado ou não) |
@@ -159,7 +159,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC08] Chatbot
 
-| UC03 | Acessar chatbot |
+| UC08 | Acessar chatbot |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários consultar um assiste virtual configurado para responder questões e dúvidas frequentes |
 | **Atores** | Usuário, Assistente Virtual|
@@ -175,9 +175,9 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ---
 
-## [#UC08] Modo Escuro
+## [#UC09] Modo Escuro
 
-| UC03 | Ativar modo escuro |
+| UC09 | Ativar modo escuro |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários ativar um "modo escuro", o qual altera a saturação e luminosidade da interface para uso em ambientes de baixa luminosidade |
 | **Atores** | Usuário|
@@ -193,77 +193,67 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ---
 
-## [#UC10] - Formalização do MEI via aplicativo do CadÚnico
+## [#UC10] - Indicação de MEI no momento do cadastro
 
-| Campo            | Detalhes |
+| UC10 | Indicação de MEI no momento do cadastro |
 |------------------|----------|
-| **Autor**        | João Pedro Costa |
-| **Descrição**    | Permite que o usuário formalize-se como Microempreendedor Individual (MEI) diretamente pelo app do CadÚnico, aproveitando os dados já cadastrados. |
-| **Ator**         | Usuário com perfil elegível para formalização |
-| **Pré-condições**| Usuário logado com dados atualizados |
-| **Ação**         | O usuário solicita formalização como MEI |
-| **Fluxo principal** | 1. O usuário acessa o app CadÚnico<br>2. Seleciona "Quero ser MEI"<br>3. O sistema recupera dados e pré-preenche o formulário<br>4. O usuário completa com nome fantasia e atividade<br>5. Informa endereço comercial (se diferente)<br>6. Envia solicitação |
-| **Fluxo alternativo** | Dados desatualizados → sistema solicita atualização |
-| **Fluxo de exceção** | Falha na conexão durante envio → sistema exibe erro e permite reenviar |
-| **Pós-condições** | Solicitação enviada para Receita Federal; usuário acompanha o status pelo app |
+| **Descrição**    | Permite que o usuário informe, durante o processo de cadastro no CadÚnico, que é um Microempreendedor Individual (MEI). |
+| **Ator**         | Usuário em processo de cadastro |
+| **Pré-condições**| Usuário acessando o app e iniciando novo cadastro |
+| **Ação**         | Indicação da condição de MEI durante o cadastro |
+| **Fluxo principal** | 1. O usuário inicia o cadastro no app CadÚnico<br>2. Preenche dados pessoais<br>3. Marca a opção “Sou MEI”<br>4. Finaliza o cadastro |
+| **Fluxo alternativo** | O usuário ignora a opção → sistema registra como não MEI |
+| **Fluxo de exceção** | Dados inconclusivos → sistema alerta para verificação posterior |
+| **Pós-condições** | A condição de MEI é registrada no perfil do usuário |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | RF11 |
+| **Rastreabilidade** | [RF11](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
 ---
 
-## [#UC11] - Consulta de situação MEI integrada ao CadÚnico
+## [#UC11] - Acesso a informações sobre MEI
 
-| Campo            | Detalhes |
+| UC11 | Acesso a informações sobre MEI |
 |------------------|----------|
-| **Autor**        | João Pedro Costa |
-| **Descrição**    | Permite consultar a situação do CNPJ MEI e obrigações fiscais pelo app CadÚnico |
-| **Ator**         | Usuário já formalizado como MEI |
-| **Pré-condições**| Usuário logado com CNPJ MEI vinculado ao CPF |
-| **Ação**         | Consulta da situação MEI |
-| **Fluxo principal** | 1. Usuário acessa o app<br>2. Clica em "Minha Situação MEI"<br>3. Sistema consulta dados na Receita Federal<br>4. Exibe CNPJ, CNAE, status, débitos, DAS<br>5. Fornece orientações em caso de pendências |
-| **Fluxo alternativo** | CNPJ inativo → sistema alerta e orienta sobre regularização |
-| **Fluxo de exceção** | Falha na consulta → sistema exibe erro temporário |
-| **Pós-condições** | Usuário visualiza a situação MEI centralizada no app |
+| **Descrição**    | Permite que usuários MEI consultem conteúdos informativos sobre microempreendedorismo no app CadÚnico. |
+| **Ator**         | Usuário com perfil MEI |
+| **Pré-condições**| Usuário logado com perfil registrado como MEI |
+| **Ação**         | Consulta de informações sobre MEI |
+| **Fluxo principal** | 1. O usuário acessa a seção “MEI” no app<br>2. Visualiza temas como obrigações, benefícios, formalização, linhas de crédito<br>3. Acessa conteúdos de interesse, com links e orientações |
+| **Fluxo alternativo** | Perfil não registrado como MEI → sistema exibe convite para formalização |
+| **Fluxo de exceção** | Conteúdo indisponível → sistema exibe mensagem informativa |
+| **Pós-condições** | O usuário adquire conhecimento sobre seus direitos e deveres como MEI |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | RF12 |
+| **Rastreabilidade** | [RF12](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
 ---
 
-## [#UC12] - Ajuste de preferências de notificação e acessibilidade
+## [#UC12] - Personalização de conteúdos da seção MEI
 
-| Campo            | Detalhes |
+| UC12            | Personalização de conteúdos da seção MEI |
 |------------------|----------|
-| **Autor**        | João Pedro Costa |
-| **Descrição**    | Permite configurar notificações e acessibilidade no app CadÚnico |
+| **Descrição**    | Permite que o sistema personalize os conteúdos exibidos na seção MEI com base no setor de atuação e localização do usuário. |
 | **Ator**         | Usuário MEI cadastrado |
-| **Pré-condições**| Usuário logado no app |
-| **Ação**         | Ajuste de preferências |
-| **Fluxo principal** | 1. Acessa “Configurações”<br>2. Escolhe canal de notificação (WhatsApp, SMS, e-mail)<br>3. Ativa recursos de acessibilidade (fonte, contraste)<br>4. Salva configurações |
-| **Fluxo alternativo** | E-mail ou número inválido → sistema solicita correção |
-| **Fluxo de exceção** | Falha nos serviços de envio → app alerta sobre atraso |
-| **Pós-condições** | Preferências aplicadas às próximas interações |
+| **Pré-condições**| Usuário logado com setor de atuação e município informados |
+| **Ação**         | Personalização automática de conteúdos |
+| **Fluxo principal** | 1. O usuário acessa a seção “MEI”<br>2. O sistema identifica setor e região<br>3. Exibe conteúdos segmentados (editais, obrigações, notícias)<br>4. Permite interação com os conteúdos |
+| **Fluxo alternativo** | Setor não informado → sistema solicita preenchimento complementar |
+| **Fluxo de exceção** | Localização não disponível → sistema utiliza município do cadastro |
+| **Pós-condições** | O usuário visualiza conteúdos relevantes ao seu perfil |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | RF13 | 
+| **Rastreabilidade** | [RF13](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
-<!-- WARNING WARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNING
-
-THE FUNCTIONAL REQUIREMENT FOR THIS USE CASE IS !!WRONG!!
-
-    RF13 refers to "personalização mei"
-    This is related to ACCESSIBILITY!
-
-fixthisplz!
-
--l0c
--->
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
 ---
 
 ## [#UC13] - Consulta e sincronização automática com a base de dados do MEI
 
-| Campo            | Detalhes |
+| UC13           | Consulta e sincronização automática com a base de dados do MEI |
 |------------------|----------|
-| **Autor**        | João Pedro Costa |
 | **Descrição**    | Permite que o CadÚnico sincronize dados MEI com a Receita Federal automaticamente |
 | **Ator**         | Sistema do CadÚnico |
 | **Pré-condições**| Usuário com CNPJ MEI ativo vinculado ao CPF no CadÚnico |
@@ -273,14 +263,9 @@ fixthisplz!
 | **Fluxo de exceção** | Falha de conexão com Receita → tentativa armazenada e reagendada |
 | **Pós-condições** | Perfil MEI atualizado automaticamente no CadÚnico |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | RF10 |
+| **Rastreabilidade** | [RNF10](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
-<!--
-This one looks alright
-
--l0c
- -->
-
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
 ## Tabela de Rastreabilidade UC-CEN-RF
 
@@ -324,8 +309,9 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0 | 16/05/2025 | Criação da pagina e adição de casos de uso | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.0 | 16/05/2025 | Criação da pagina e adição de casos de uso 10, 11, 12, 13 | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1 | 16/05/2025 | Adicionando referencias sobre o tema e imagens| [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2 | 16/05/2025 | Adicionando 5 casos de uso | [Julia Gabriela](https://github.com/JuliaGabP) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 17/05/2025 | Adicionando casos de uso 4 e 5 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.4 | 17/05/2025 | Adicionando casos de uso 8 e 9 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.4 | 17/05/2025 | Consertando tabela e casos de uso |[João Pedro Costa](https://github.com/johnaopedro) |[Ryan Salles](https://github.com/RA-Salles) | 
