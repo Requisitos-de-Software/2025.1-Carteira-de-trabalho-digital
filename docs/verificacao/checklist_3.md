@@ -100,8 +100,9 @@ A Tabela 3 abaixo apresenta uma lista de verificação para os cenários. O obje
 A Tabela 4 abaixo apresenta uma lista de verificação para o Diagrama de Caso de Uso. O objetivo é garantir que todos os elementos essenciais estejam presentes e que a representação gráfica siga as diretrizes da UML.
 
 <p align="center"><strong>Tabela 4:</strong> Checklist - Diagrama de Caso de Uso</p>
+
 | ID | Tópico | Descrição | Resposta (Sim/Não) | Referência |
-|---|---|---|---|---|
+|----|--------|-----------|--------------------|------------|
 | 1 | Caso de Uso | O caso de uso descreve uma sequência clara de interações entre o sistema e um ator externo? | | [Wiegers & Beatty, 2013, p. 144](#ref-wiegers2013) |
 | 2 | Caso de Uso | Existe um ator externo identificado que interage com o sistema? | | [Wiegers & Beatty, 2013, p. 144](#ref-wiegers2013) |
 | 3 | Caso de Uso | O resultado do caso de uso tem valor para o ator (usuário)? | | [Wiegers & Beatty, 2013, p. 144](#ref-wiegers2013) |
@@ -119,10 +120,10 @@ A Tabela 4 abaixo apresenta uma lista de verificação para o Diagrama de Caso d
 | 15 | Caso de Uso | O caso de uso foi utilizado como técnica para elicitar requisitos de stakeholders? | | [Sommerville, 2011, p. 75](#ref-sommerville2011) |
 | 16 | Caso de Uso | Há consciência de suas limitações quanto a requisitos não funcionais e de domínio? | | [Sommerville, 2011, p. 75](#ref-sommerville2011) |
 | 17 | Caso de Uso | Existem relações de include e/ou extend? | | [DevMedia, 2012](#ref-devmedia2012) |
-| 18 | Caso de Uso | O caso de uso tem um cenário? | | [DevMedia, 2012](#ref-devmedia2012) |
-| 19 | Caso de Uso | O caso de uso tem um ator? | | [DevMedia, 2012](#ref-devmedia2012) |
-| 20 | Caso de Uso | O caso de uso tem Use Case? | | [DevMedia, 2012](#ref-devmedia2012) |
-| 21 | Caso de Uso | Existe comunicação no caso de uso? | | [DevMedia, 2012](#ref-devmedia2012) |
+| 18 | Caso de Uso | O caso de uso tem um cenário?            | | [DevMedia, 2012](#ref-devmedia2012) |
+| 19 | Caso de Uso | O caso de uso tem um ator?               | | [DevMedia, 2012](#ref-devmedia2012) |
+| 20 | Caso de Uso | O caso de uso tem Use Case?              | | [DevMedia, 2012](#ref-devmedia2012) |
+| 21 | Caso de Uso | Existe comunicação no caso de uso?       | | [DevMedia, 2012](#ref-devmedia2012) |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -228,3 +229,4 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 |  1.2   | 18/05/2025 | Adicionando lista de verificação de cenários  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)      | 
 |  1.3   | 18/05/2025 | Adicionando lista de verificação de especificação suplementar  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       | 
 |  1.4  | 18/05/2025 | Adicionando lista de verificação do professor  | [Amanda Cruz](https://github.com/mandicrz)  | [João Pedro Costa](https://github.com/johnaopedro) | 
+|  1.5  | 18/05/2025 | Tabela quebrada consertada | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
