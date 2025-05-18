@@ -16,6 +16,8 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 
 ## Casos de Uso
 
+As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso de uso. 
+
 ## [#UC01] Visualização de Benefícios Ativos
 
 | UC01 | Visualização de Benefícios Ativos |
@@ -231,7 +233,19 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | **Fluxo de exceção** | Falha nos serviços de envio → app alerta sobre atraso |
 | **Pós-condições** | Preferências aplicadas às próximas interações |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | RF13 |
+| **Rastreabilidade** | RF13 | 
+
+<!-- WARNING WARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNINGWARNING
+
+THE FUNCTIONAL REQUIREMENT FOR THIS USE CASE IS !!WRONG!!
+
+    RF13 refers to "personalização mei"
+    This is related to ACCESSIBILITY!
+
+fixthisplz!
+
+-l0c
+-->
 
 ---
 
