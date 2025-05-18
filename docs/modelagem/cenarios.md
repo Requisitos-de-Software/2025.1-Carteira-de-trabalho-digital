@@ -330,9 +330,28 @@ incompletos.
 - Se a conexão com a Receita Federal estiver instável, o sistema armazena tentativa e realiza nova sincronização posteriormente.  
 - Em caso de dados inconsistentes entre CPF e CNPJ, o sistema bloqueia a integração e emite alerta técnico para revisão manual.
 
+**Cenário 16: Upload de Arquivos**
+
+**Nome do Cenário:** Upload de documentos obrigatórios pelo usuário  
+**Ator principal:** Usuário
+**Contexto:** O CadÚnico precisa oferecer ao usuário a possibilidade de enviar documentos obrigatórios de forma digital, sem necessidade de comparecimento presencial.  
+**Pré-condições:** O usuário possui login válido no aplicativo do CadÚnico e acessa a área do aplicativo responsável por receber e enviar para análise os documentos.  
+**Fluxo principal:**  
+1. O usuário acessa a funcionalidade de upload de documentos no aplicativo do CadÚnico.  
+2. O sistema exibe lista de documentos exigidos conforme o serviço requisitado.  
+3. O usuário seleciona os arquivos desejados.  
+4. O sistema valida o tipo e o tamanho dos arquivos. 
+5. Os documentos são enviados.  
+6. O sistema exibe confirmação de envio.
+
+**Pós-condições:** Os documentos ficam vinculados à solicitação do usuário e disponíveis para análise dos atendentes do CadÚnico.  
+**Exceções:**  
+- Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio. 
+- Arquivo corrompido → sistema solicita novo envio ao usuário.
+
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
 ## Rastreabilidade 
