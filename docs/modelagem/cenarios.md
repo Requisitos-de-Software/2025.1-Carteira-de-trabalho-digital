@@ -332,7 +332,7 @@ incompletos.
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+   <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## Rastreabilidade 
@@ -363,8 +363,6 @@ Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca model
 | CN11     | RF12     |
 | CN12     | RF13     |
 | CN13     | RF10     |
-| CN14     | RF30     |
-| CN15     | RF35     |
 
 
 
