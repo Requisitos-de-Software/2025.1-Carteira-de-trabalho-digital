@@ -28,9 +28,9 @@ We really need to add these images someway somehow. We could use the bilheteria 
 
 ## Casos de Uso
 
-As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso de uso. 
+As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especificação de cada caso de uso. 
 
-## [#UC01] Visualização de Benefícios Ativos
+### [#UC01] Visualização de Benefícios Ativos
 
 <font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de visualização de benefíficos ativos</p></font>
 
@@ -50,7 +50,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC02] Atualização de Dados Cadastrais
+### [#UC02] Atualização de Dados Cadastrais
 
 <font size="2"><p style="text-align: center"><b>Tabela 3:</b> Especificação de dados cadastrais</p></font>
 
@@ -70,7 +70,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC03] Primeiro Cadastro no CadÚnico
+### [#UC03] Primeiro Cadastro no CadÚnico
 
 <font size="2"><p style="text-align: center"><b>Tabela 4:</b> Especificação de primeiro cadastro no sistema</p></font>
 
@@ -90,7 +90,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC04] Conferir informações sobre benefícios
+### [#UC04] Conferir informações sobre benefícios
 
 <font size="2"><p style="text-align: center"><b>Tabela 5:</b> Especificação de consulta de informações sobre benefícios</p></font>
 
@@ -110,7 +110,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC05] Verificar postos de atendimento
+### [#UC05] Verificar postos de atendimento
 
 <font size="2"><p style="text-align: center"><b>Tabela 6:</b> Especificação de verificação de postos de atendimento</p></font>
 
@@ -130,7 +130,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC06] Cadastrar família
+### [#UC06] Cadastrar família
 
 <font size="2"><p style="text-align: center"><b>Tabela 7:</b> Especificação de cadastro familiar</p></font>
 
@@ -151,7 +151,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC07] Filtrar Benefícios Sociais
+### [#UC07] Filtrar Benefícios Sociais
 
 <font size="2"><p style="text-align: center"><b>Tabela 8:</b> Especificação de filtragem de benefícios</p></font>
 
@@ -172,7 +172,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC08] Chatbot
+### [#UC08] Chatbot
 
 <font size="2"><p style="text-align: center"><b>Tabela 9:</b> Especificação de chatbot automatizado</p></font>
 
@@ -192,7 +192,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC09] Modo Escuro
+### [#UC09] Modo Escuro
 
 <font size="2"><p style="text-align: center"><b>Tabela 10:</b> Especificação de modo escuro</p></font>
 
@@ -212,7 +212,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC10] - Indicação de MEI no momento do cadastro
+### [#UC10] - Indicação de MEI no momento do cadastro
 
 <font size="2"><p style="text-align: center"><b>Tabela 11:</b> Especificação de indicação MEI</p></font>
 
@@ -233,7 +233,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC11] - Acesso a informações sobre MEI
+### [#UC11] - Acesso a informações sobre MEI
 
 <font size="2"><p style="text-align: center"><b>Tabela 12:</b> Especificação de acesso a informações MEI</p></font>
 
@@ -254,7 +254,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC12] - Personalização de conteúdos da seção MEI
+### [#UC12] - Personalização de conteúdos da seção MEI
 
 <font size="2"><p style="text-align: center"><b>Tabela 13:</b> Especificação de personalização MEI</p></font>
 
@@ -275,7 +275,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC13] - Consulta e sincronização automática com a base de dados do MEI
+### [#UC13] - Consulta e sincronização automática com a base de dados do MEI
 
 <font size="2"><p style="text-align: center"><b>Tabela 14:</b> Especificação de consulta e integração MEI</p></font>
 
@@ -296,9 +296,9 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC14] - Agendamento no CRAS através do aplicativo
+### [#UC14] - Agendamento no CRAS através do aplicativo
 
-<font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de agendamento no CRAS</p></font>
+<font size="2"><p style="text-align: center"><b>Tabela 15:</b> Especificação de agendamento no CRAS</p></font>
  
 | UC14            | Agendamento no CRAS através do aplicativo|
 |------------------|----------|
@@ -317,9 +317,9 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## [#UC15] - Acesso a tutoriais interativos
+### [#UC15] - Acesso a tutoriais interativos
  
-<font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de tutorias interativos</p></font>
+<font size="2"><p style="text-align: center"><b>Tabela 16:</b> Especificação de tutorias interativos</p></font>
 
 | UC15            | Acesso a tutoriais interativos |
 |------------------|----------|
@@ -338,7 +338,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-## Tabela de Rastreabilidade UC-CEN-RF
+### Tabela de Rastreabilidade UC-CEN-RF
 
 A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
 
