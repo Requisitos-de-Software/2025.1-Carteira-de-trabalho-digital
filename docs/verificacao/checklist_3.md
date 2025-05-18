@@ -207,6 +207,17 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 <a id="ref-devmedia2012"></a>
 > DEVMEDIA. O que é UML e diagramas de caso de uso: introdução prática à UML. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408.
 
+## PDF Que une as referências
+### Especificação Suplementar
+<a href="../../assets/verificacao3/Checklist_ES.pdf" target="_blank">Especificação Suplementar</a> 
+<br>
+
+### Caso de Uso
+<a href="../../assets/verificacao3/Checklist_CU.pdf" target="_blank">Caso de Uso</a>
+<br>
+
+### Cenários
+<a href="../../assets/verificacao3/Checklist_Cenarios.pdf" target="_blank">Cenários</a>
 
 ## Histórico de Versão
 
