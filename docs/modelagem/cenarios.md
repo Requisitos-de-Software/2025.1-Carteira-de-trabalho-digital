@@ -372,9 +372,8 @@ Essa seção apresenta a rastreabilidade Cenário-Requisito. A legenda utilizada
 
 - CNX: Cenário número X. 
 - RXY: Requisito de tipo X número y.
-- RFX: Requisito Funcional número X.
 
-Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
+Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
 
 <center>
     <b>Tabela 18:</b> 
@@ -396,7 +395,7 @@ Cada dupla na Tabela 16 apresenta qual requisito funcional não-implementado o c
 | CN10     | RF11     |
 | CN11     | RF12     |
 | CN12     | RF13     |
-| CN13     | RF10     |
+| CN13     | RNF10    |
 | CN14     | RF30     |
 | CN15     | RF35     |
 | CN16     | RF29     |
@@ -442,3 +441,4 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  2.0   | 18/05/2025 | Adição de 2 cenários e formatação        | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.1   | 18/05/2025 | Corrigindo conflitos e erros       | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.2   | 18/05/2025 | Adicionando 1 cenário novo      | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
