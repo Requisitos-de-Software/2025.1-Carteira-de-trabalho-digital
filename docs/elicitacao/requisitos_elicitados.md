@@ -71,26 +71,26 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 
 | ID    | Descrição                                          | Rastreabilidade                      | Implementado | 
 |:-----:| :------------------------------------------------: | :----------------------------------: | :----------: |
-| RNF01 | Desempenho                                         | Análise de documentos                | Não |
+| [RNF01](#6-desempenho) | Desempenho                                         | Análise de documentos                | Não |
 | RNF02 | Segurança                                          | Análise de documentos / Introspecção | Sim |
 | RNF03 | Escalabilidade                                     | Análise de documentos                | Sim |
 | RNF04 | Conformidade Legal                                 | Análise de documentos                | Sim |
-| RNF05 | Acessibilidade                                     | Análise de documentos                | Não |
+| [RNF05](#7-suportabilidade) | Acessibilidade                                     | Análise de documentos                | Não |
 | RNF06 | Disponibilidade                                    | Análise de documentos / Introspecção | Sim |
-| RNF07 | Compatibilidade com Aplicativo Off-line            | Análise de documentos                | Não |
-| RNF08 | Transmissão via Conectividade Social               | Análise de documentos                | Não |
+| [RNF07](#7-suportabilidade) | Compatibilidade com Aplicativo Off-line            | Análise de documentos                | Não |
+| [RNF08](#7-suportabilidade) | Transmissão via Conectividade Social               | Análise de documentos                | Não |
 | RNF09 | Acesso Restrito                                    | Análise de documentos                | Sim |
-| RNF10 | Integração MEI                                     | Análise de documentos                | Não |
+| [RNF10](#7-suportabilidade) | Integração MEI                                     | Análise de documentos                | Não |
 | RNF11 | Interface intuitiva e amigável                     | Introspecção, Entrevista             | Sim |
 | RNF12 | Suporte a grande base de usuários                  | Introspecção                         | Sim |
 | RNF13 | Integração com sistemas oficiais                   | Introspecção                         | Sim |
-| RNF14 | Usabilidade                                        | Introspecção                         | Não |
+| [RNF14](#4-usabilidade) | Usabilidade                                        | Introspecção                         | Não |
 | RNF15 | Compatibilidade com Dispositivos                   | Introspecção                         | Sim | 
-| RNF16 | Acessibilidade para pessoas com deficiência visual | Introspecção                         | Não |
-| RNF17 | Desempenho otimizado para internet limitada        | Introspecção                         | Não |
-| RNF18 | Possibilidade de outros idiomas                    | Introspecção                         | Não |
-| RNF19 | Backup e restauração de sessão                     | Introspecção                         | Não |
-| RNF20 | Alta disponibilidade e recuperação de desastres    | Introspecção                         | Não |
+| [RNF16](#4-usabilidade) | Acessibilidade para pessoas com deficiência visual | Introspecção                         | Não |
+| [RNF17](#6-desempenho) | Desempenho otimizado para internet limitada        | Introspecção                         | Não |
+| [RNF18](#4-usabilidade) | Possibilidade de outros idiomas                    | Introspecção                         | Não |
+| [RNF19](#5-confiabilidade) | Backup e restauração de sessão                     | Introspecção                         | Não |
+| [RNF20](#5-confiabilidade) | Alta disponibilidade e recuperação de desastres    | Introspecção                         | Não |
 
 
 <center>

@@ -16,17 +16,6 @@ Cada requisito não funcional é descrito em linguagem natural e classificado co
 
 # Especificação Suplementar
 
----
-
-## Histórico de Revisões
-
-### Tabela 1: Histórico de Revisões
-| Versão | Data | Descrição | Autor |
-|--------|------|-----------|-------|
-|        |      |           |       |
-<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar</a></center>
----
-
 ## 1. Introdução
 
 Este documento apresenta a Especificação Suplementar do aplicativo Cadastro Único, detalhando os requisitos que não foram completamente descritos nos casos de uso. O objetivo é registrar requisitos legais, de qualidade (como usabilidade, desempenho, confiabilidade e suportabilidade), além de outros aspectos técnicos e operacionais do sistema.
@@ -43,22 +32,21 @@ Abrange os requisitos funcionais e não funcionais elicitados por técnicas form
 
 ### Definições, Acrônimos e Abreviações
 
-#### Tabela 2: Definições, Acrônimos e Abreviações
+Aqui tem-se a tabela 1 com definições, acrônimos e abreviações utilizadas neste documento. É importante ressaltar que os termos utilizados são comuns na área de Engenharia de Software e podem variar conforme o contexto.
 
+#### Tabela 1: Definições, Acrônimos e Abreviações
 | Termo | Definição |
 |-------|-----------|
 | **RF** | Requisito Funcional |
 | **RNF** | Requisito Não Funcional |
 | **MEI** | Microempreendedor Individual |
 | **LGPD** | Lei Geral de Proteção de Dados |
-| **MTBF** | Mean Time Between Failures |
-| **MTTR** | Mean Time To Repair |
-<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar</a></center>
+<center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ### Visão Geral
 
 Esta especificação apresenta:
-- Os requisitos funcionais não implementados (Seção 3);  
+- Os requisitos funcionais (Seção 3);  
 - Os requisitos de usabilidade relacionados (Seção 4);  
 - Os requisitos de confiabilidade, desempenho e suportabilidade ainda não presentes (Seções 5 a 7);  
 - As restrições de projeto (Seção 8);  
@@ -67,14 +55,17 @@ Esta especificação apresenta:
 
 ## 2. Identificação do Projeto
 
-### Tabela 3: Identificação do Projeto
+Nesta seção, são apresentadas informações gerais sobre o projeto, como nome, versão, data de criação e responsáveis. Abaixo esta a tabela 2 com as informações do projeto.
+
+### Tabela 2: Identificação do Projeto
 
 | Campo               | Informação                      |
 |---------------------|----------------------------------|
 | Projeto             | Cadúnico – Cadastro Único |
 | Requisitante        | Prof. Andre Barros de Sales            |
 | Gerente de Projetos | [Ryan Salles](https://github.com/RA-Salles)     |
-<center>Fonte: <a target="_blank">Adaptado de Template da Especificação Suplementar por [João Pedro](https://github.com/johnaopedro)</a></center>
+<center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+
 
 ## 3. Funcionalidade
 
@@ -82,57 +73,53 @@ Os requisitos funcionais foram elicitados na seção de elicitação e a tabela 
 
 ## 4. Usabilidade
 
-Diz respeito ao quão fácil é para o usuário realizar uma tarefa com a aplicação.
+Nesta seção, são apresentados os requisitos de usabilidade do sistema, que visam garantir uma experiência positiva para o usuário. A usabilidade é um aspecto crítico para a aceitação e eficácia do aplicativo, especialmente considerando o público-alvo. Abaixo está a Tabela 3 com os requisitos de usabilidade.
 
-### Tabela 4: Requisitos de Usabilidade
+### Tabela 3: Requisitos de Usabilidade
 
-| ID     | Descrição |
-|--------|-----------|
-| USA01 | Garantir compatibilidade com tecnologias assistivas (leitores de tela, alto contraste, navegação por teclado), em conformidade com WCAG 2.1 nível AA. |
-| USA02 | Fornecer telas organizadas com linguagem simples, ícones compreensíveis e navegação clara, seguindo padrões de Material Design e Gov.br. |
-| USA03 | Oferecer feedback imediato a ações do usuário, mensagens de erro claras e recursos visuais para correção ou retomada de tarefas interrompidas. |
-<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+| ID     | Descrição                                        | Rastreabilidade         |
+|--------|-------------------------------------------------|------------------------|
+| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | Usabilidade                                      | Introspecção           |
+| [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  | Acessibilidade para pessoas com deficiência visual | Introspecção         |
+| [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | Possibilidade de outros idiomas                  | Introspecção           |
+<center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 5. Confiabilidade
 
-Diz respeito ao quão confiável é o sistema, ou seja, qual é a frequência de falhas, possibilidade de recuperação e prevenção e tempo entre as falhas.
+Nesta seção, são apresentados os requisitos de confiabilidade do sistema, que visam garantir a segurança, privacidade e integridade dos dados. A confiabilidade é essencial para a confiança do usuário no aplicativo e para o cumprimento das normas legais. Abaixo está a Tabela 4 com os requisitos de confiabilidade.
 
-### Tabela 5: Requisitos de Confiabilidade
+### Tabela 4: Requisitos de Confiabilidade
 
-| ID     | Descrição |
-|--------|-----------|
-| CON01 | Proteger dados sensíveis com autenticação OAuth2, criptografia TLS 1.2+ em trânsito e em repouso, e controle de acesso baseado em perfil. |
-| CON02 | Atender à LGPD (Lei 13.709/2018), garantindo consentimento expresso, direitos de acesso, retificação e exclusão de dados pessoais. |
-| CON03 | Manter disponibilidade mínima de 99,5% mensal, com redundância de servidores, failover automático e operação offline das funções críticas. |
-| CON04 | Restringir acesso a dados sensíveis por perfil de usuário, exigindo autenticação e registrando logs de acesso e alterações. |
+| ID     | Descrição                                        | Rastreabilidade         |
+|--------|-------------------------------------------------|------------------------|
+| [RNF19](../elicitacao/requisitos_elicitados.md#rnf19)  | Backup e restauração de sessão                   | Introspecção           |
+| [RNF20](../elicitacao/requisitos_elicitados.md#rnf20)  | Alta disponibilidade e recuperação de desastres | Introspecção           |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 6. Desempenho
 
 Requisitos que dizem respeito às condições que os requisitos devem operar. A velocidade, limites superiores e inferiores, tempo de resposta, restrições de interface e de funções, etc.
 
-### Tabela 6: Requisitos de Desempenho
+### Tabela 5: Requisitos de Desempenho
 
-| ID     | Descrição |
-|--------|-----------|
-| DES01 | Responder a operações principais em até 2 segundos em redes 3G e suportar pelo menos 5.000 usuários simultâneos em picos de acesso. |
-| DES02 | Utilizar infraestrutura escalável horizontalmente (balanceamento de carga, serviços elásticos) para manter performance estável sob alta demanda. |
+| ID     | Descrição                                        | Rastreabilidade         |
+|--------|-------------------------------------------------|------------------------|
+| [RNF01](../elicitacao/requisitos_elicitados.md#rnf01)  | Desempenho                                       | Análise de documentos  |
+| [RNF17](../elicitacao/requisitos_elicitados.md#rnf17)  | Desempenho otimizado para internet limitada      | Introspecção           |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 7. Suportabilidade
 
 Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso inclui requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado, documentação adequada, facilidade de teste e diagnóstico de problemas.
 
-### Tabela 7: Requisitos de Suportabilidade
+### Tabela 6: Requisitos de Suportabilidade
 
-| ID     | Descrição |
-|--------|-----------|
-| SUP01 | Adotar arquitetura modular e desacoplada (microsserviços), permitindo atualização e expansão de componentes sem interrupção do serviço. |
-| SUP02 | Disponibilizar funcionalidades críticas (consulta, cadastro preliminar, atualização) em modo offline, sincronizando automaticamente quando online. |
-| SUP03 | Exportar e enviar dados via protocolo Conectividade Social da CAIXA, respeitando layouts e pacotes exigidos. |
-| SUP04 | Validar CNPJ MEI em tempo real junto à Receita Federal e Redesim, exibindo status cadastral automaticamente. |
-| SUP05 | Conectar com SIBEC, Gov.br e demais APIs RESTful governamentais para busca e atualização de dados cadastrais. |
-| SUP06 | Suportar smartphones Android (≥ 6.0) e iOS (≥ 12.0) e navegadores modernos, adaptando-se a diferentes tamanhos de tela e modos de acessibilidade. |
+| ID     | Descrição                                        | Rastreabilidade         |
+|--------|-------------------------------------------------|------------------------|
+| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade                                   | Análise de documentos  |
+| [RNF07](../elicitacao/requisitos_elicitados.md#rnf07)  | Compatibilidade com Aplicativo Off-line          | Análise de documentos  |
+| [RNF08](../elicitacao/requisitos_elicitados.md#rnf08)  | Transmissão via Conectividade Social             | Análise de documentos  |
+| [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## 8. Restrições de Projeto
@@ -271,8 +258,6 @@ Cada caso de uso apresenta descrição, pré-condições, fluxos principais, flu
 
 **Objetivo:** Fornecer documentação clara das funcionalidades para análise, desenvolvimento e validação.
 
----
-
 ### Anexo D – Checklist de Priorização de Requisitos
 Lista de verificação com critérios aplicados para priorizar os requisitos elicitados (impacto, urgência, viabilidade técnica, custo-benefício etc.). Baseado em técnicas como MoSCoW e 100-dollar test.
 
@@ -283,23 +268,15 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 
 **Objetivo:** Garantir que os cenários cubram os casos de uso reais e sirvam de base para testes futuros.
 
-## 14. Referências
-
-1. IEEE Std 830-1998 – *Recommended Practice for Software Requirements Specifications*  
-2. LGPD – Lei nº 13.709/2018  
-3. Portarias Senarc nº 123/2020 e 456/2021  
-4. WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. Microsoft Press, 3ª ed., 2013.
-
-## 15. Aprovações
-
-| Participante | Assinatura | Data |
-|--------------|------------|------|
-|              |            |      |
-
 ## Referências
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 16 maio 2025.
 
 > REPOSITÓRIO DA DISCIPLINA – Aprender 3. Template da Especificação Suplementar. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390972>. Acesso em: 16 maio 2025.
+
+> WIEGERS, Karl E.; BEATTY, Joy. *Software Requirements*. Microsoft Press, 3ª ed., 2013.
+
+> LGPD – Lei nº 13.709/2018 
+
 
 ### Imagem 1: 
 <div style="text-align: center;">
@@ -321,3 +298,4 @@ Contém a lista de verificação para validar os cenários propostos no projeto.
 |  1.3   | 16/05/2025 |   Preenchimento de cinco seções da especificação   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 16/05/2025 |   Preenchimento das seções 8 à 13   | [Julia Paulino](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.5   | 17/05/2025 |   Preenchimento das 8 seções restantes   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.6   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
