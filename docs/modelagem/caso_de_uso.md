@@ -32,6 +32,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC01] Visualização de Benefícios Ativos
 
+<font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de visualização de benefíficos ativos</p></font>
+
 | Campo            | Detalhes |
 |------|----------------------------|
 | **Descrição** | Permite ao usuário visualizar os benefícios sociais ativos vinculados ao seu cadastro no CadÚnico, como o Bolsa Família. |
@@ -49,6 +51,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 ---
 
 ## [#UC02] Atualização de Dados Cadastrais
+
+<font size="2"><p style="text-align: center"><b>Tabela 3:</b> Especificação de dados cadastrais</p></font>
 
 | Campo            | Detalhes |
 |------|-------------------------------|
@@ -68,6 +72,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC03] Primeiro Cadastro no CadÚnico
 
+<font size="2"><p style="text-align: center"><b>Tabela 4:</b> Especificação de primeiro cadastro no sistema</p></font>
+
 | Campo            | Detalhes |
 |------|----------------------------|
 | **Descrição** | Permite a novos usuários realizar seu primeiro cadastro no CadÚnico através do aplicativo. |
@@ -85,6 +91,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 ---
 
 ## [#UC04] Conferir informações sobre benefícios
+
+<font size="2"><p style="text-align: center"><b>Tabela 5:</b> Especificação de consulta de informações sobre benefícios</p></font>
 
 | UC04 | Conferir informações sobre benefícios|
 |------|----------------------------|
@@ -104,6 +112,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC05] Verificar postos de atendimento
 
+<font size="2"><p style="text-align: center"><b>Tabela 6:</b> Especificação de verificação de postos de atendimento</p></font>
+
 | UC05 | Verificar postos de atendimento |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários verificar postos de atendimento disponíveis |
@@ -120,10 +130,10 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
-
 ## [#UC06] Cadastrar família
 
-| Campo            | Detalhes |
+<font size="2"><p style="text-align: center"><b>Tabela 7:</b> Especificação de cadastro familiar</p></font>
+
 | UC06 | Cadastrar família |
 |------|-------------|
 | **Descrição** | Permite ao responsável familiar registrar sua família no Cadastro Único para acessar benefícios sociais. |
@@ -143,7 +153,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC07] Filtrar Benefícios Sociais
 
-| Campo            | Detalhes |
+<font size="2"><p style="text-align: center"><b>Tabela 8:</b> Especificação de filtragem de benefícios</p></font>
+
 | UC07 | Filtrar Benefícios Sociais |
 |------|-------------|
 | **Descrição** | Permite ao usuário buscar e filtrar informações sobre benefícios sociais disponíveis de acordo com seu perfil ou interesse. |
@@ -163,7 +174,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC08] Chatbot
 
-| Campo            | Detalhes |
+<font size="2"><p style="text-align: center"><b>Tabela 9:</b> Especificação de chatbot automatizado</p></font>
+
 | UC08 | Acessar chatbot |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários consultar um assistente virtual configurado para responder questões e dúvidas frequentes |
@@ -182,6 +194,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC09] Modo Escuro
 
+<font size="2"><p style="text-align: center"><b>Tabela 10:</b> Especificação de modo escuro</p></font>
+
 | UC09 | Ativar modo escuro |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários ativar um "modo escuro", o qual altera a saturação e luminosidade da interface para uso em ambientes de baixa luminosidade |
@@ -199,6 +213,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 ---
 
 ## [#UC10] - Indicação de MEI no momento do cadastro
+
+<font size="2"><p style="text-align: center"><b>Tabela 11:</b> Especificação de indicação MEI</p></font>
 
 | UC10 | Indicação de MEI no momento do cadastro |
 |------------------|----------|
@@ -219,6 +235,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC11] - Acesso a informações sobre MEI
 
+<font size="2"><p style="text-align: center"><b>Tabela 12:</b> Especificação de acesso a informações MEI</p></font>
+
 | UC11 | Acesso a informações sobre MEI |
 |------------------|----------|
 | **Descrição**    | Permite que usuários MEI consultem conteúdos informativos sobre microempreendedorismo no app CadÚnico. |
@@ -237,6 +255,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 ---
 
 ## [#UC12] - Personalização de conteúdos da seção MEI
+
+<font size="2"><p style="text-align: center"><b>Tabela 13:</b> Especificação de personalização MEI</p></font>
 
 | UC12            | Personalização de conteúdos da seção MEI |
 |------------------|----------|
@@ -257,6 +277,8 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ## [#UC13] - Consulta e sincronização automática com a base de dados do MEI
 
+<font size="2"><p style="text-align: center"><b>Tabela 14:</b> Especificação de consulta e integração MEI</p></font>
+
 | UC13           | Consulta e sincronização automática com a base de dados do MEI |
 |------------------|----------|
 | **Descrição**    | Permite que o CadÚnico sincronize dados MEI com a Receita Federal automaticamente |
@@ -272,8 +294,11 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 <font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
- ---
- ## [#UC14] - Agendamento no CRAS através do aplicativo
+---
+
+## [#UC14] - Agendamento no CRAS através do aplicativo
+
+<font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de agendamento no CRAS</p></font>
  
 | UC14            | Agendamento no CRAS através do aplicativo|
 |------------------|----------|
@@ -292,11 +317,34 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 
 ---
 
+## [#UC15] - Acesso a tutoriais interativos
+ 
+<font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de tutorias interativos</p></font>
+
+| UC15            | Acesso a tutoriais interativos |
+|------------------|----------|
+| **Descrição**    | Permite que o usuário acesse vídeos e tutoriais interativos para entender como utilizar os programas sociais disponíveis |
+| **Ator(es)**         | Usuário e Sistema CadÚnico |
+| **Pré-condições**| O sistema possui vídeos e tutoriais explicativos |
+| **Ação**         | Acesso a tutoriais interativos e vídeos explicativos sobre programas sociais |
+| **Fluxo principal** | 1. Acessa a seção “Tutoriais e Dicas”<br> 2. Sistema exibe uma lista de tutoriais.<br>3. Escolhe um tutorial para visualizar.<br>4. Sistema exibe o escolhido.<br>5. Interage com o conteúdo<br>6. Aplicativo registra a visualização e sugere outros conteúdos |
+| **Fluxo alternativo** | Tutorial não carregar corretamente → Tenta carregar novamente ou oferece uma opção alternativa para visualização |
+| **Fluxo de exceção** | Usuário com dificuldades para entender o conteúdo → Sugere um atendimento assistido por chat |
+| **Pós-condições** | O usuário visualiza o conteúdo e compreende os programas sociais com facilidade |
+| **Data de Criação** | 18/05/2025 |
+| **Rastreabilidade** | [RF35](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/mandicrz">Amanda Cruz Lima</a></b></p></font>
+
+---
+
 ## Tabela de Rastreabilidade UC-CEN-RF
 
 A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
 
 <center> <b>Tabela 3:</b> </center>
+
+<center>
 
 | Caso de Uso (UC) | Cenário (CN) | Requisito Funcional (RF) |
 | :------------: | :--------: | :--------------------: |
@@ -315,6 +363,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC13           | CN13       | RF10                   |
 | UC14           | CN14       | RF30                   |
 
+</center>
 
 ## Referências
 
@@ -342,4 +391,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.4 | 17/05/2025 | Adicionando casos de uso 8 e 9 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.5 | 17/05/2025 | Consertando tabela e casos de uso |[João Pedro Costa](https://github.com/johnaopedro) |[Ryan Salles](https://github.com/RA-Salles) | 
 | 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
-| 1.7 | 19/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.7 | 18/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
+
+
