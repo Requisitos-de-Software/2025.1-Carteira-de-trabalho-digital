@@ -8,6 +8,8 @@ Este documento apresenta uma série de cenários desenvolvidos como parte do pro
 
 Essa seção contém os cenários elaborados com base nos requisitos elicitados e observações realizadas durante a etapa de elicitação. 
 
+---
+
 **Cenário 1: Visualizar Benefícios**  
 **Nome do Cenário:** Visualização de benefícios ativos  
 **Ator principal:** Usuário cadastrado  
@@ -34,6 +36,8 @@ de erro.
     <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
+---
+
 **Cenário 2: Alteração de Dados Cadastrais**  
 **Nome do Cenário:** Atualização de dados pessoais e residênciais  
 **Ator principal:** Usuário cadastrado  
@@ -56,6 +60,8 @@ notificação de que a atualização está em processo.
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
+
+---
 
 **Cenário 3: Realizar Cadastro no Aplicativo**  
 **Nome do Cenário:** Primeiro cadastro no CadÚnico  
@@ -81,6 +87,8 @@ incompletos.
     <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
 
+---
+
 **Cenário 4: Conferir informações sobre benefícios**
 
 **Nome do Cenário:** Conferir Informações sobre benefícios<br>
@@ -104,6 +112,8 @@ incompletos.
     Autor(es): 
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
+
+---
 
 **Cenário 5: Verificar postos de atendimento**
 
@@ -131,6 +141,8 @@ incompletos.
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
+---
+
 **Cenário 6: Cadastro de Família**
 
 **Nome do Cenário:** Cadastrar nova família no sistema  
@@ -157,6 +169,8 @@ incompletos.
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
 </center>
+
+---
 
 **Cenário 7: Filtrar Benefícios Sociais**
 
@@ -186,6 +200,8 @@ incompletos.
 
 </center>
 
+---
+
 **Cenário 8: Chatbot**
 
 **Nome do Cenário:** Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas  <br>
@@ -214,6 +230,8 @@ incompletos.
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
+---
+
 **Cenário 9: Modo Escuro**
 
 **Nome do Cenário:** Modo Escuro<br>
@@ -237,7 +255,7 @@ incompletos.
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-
+---
 
 **Cenário 10: Cadastro MEI**
 
@@ -261,6 +279,8 @@ incompletos.
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
+
+---
 
 
 **Cenário 11: Informações MEI**
@@ -289,6 +309,7 @@ incompletos.
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+---
 
 **Cenário 12: Personalização MEI**
 
@@ -316,11 +337,12 @@ incompletos.
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+---
 
 **Cenário 13: Integração MEI**
 
 **Nome do Cenário:** Consulta e sincronização automática com a base de dados do MEI  
-**Ator principal:** Sistema do CadÚnico  
+**Ator principal:** Sistema do CadÚnico, Sistema MEI. 
 **Contexto:** O CadÚnico precisa acessar e manter atualizadas as informações do MEI vinculadas ao CPF do usuário, sem necessidade de inserção manual de dados.  
 **Pré-condições:** O usuário possui cadastro ativo no CadÚnico e tem um CNPJ MEI registrado na Receita Federal.  
 **Fluxo principal:**  
@@ -345,7 +367,7 @@ incompletos.
 Essa seção apresenta a rastreabilidade Cenário-Requisito por meio da tabela 1. A legenda utilizada será a seguinte:
 
 - CNX: Cenário número X. 
-- RFX: Requisito número X.
+- RXY: Requisito de tipo X número y.
 
 Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca modelar. 
 
@@ -353,21 +375,28 @@ Cada tupla na Tabela 1 apresenta qual requisito funcional o cenário busca model
     <b>Tabela 1:</b> 
 </center>
 
-| Cenário | Requisito |
-| :-----: | :-------: |
-| CN01     | RF24     |
-| CN02     | RF05     |
-| CN03     | RF02     |
-| CN04     | RF24     |
-| CN05     | RF16     |
-| CN06     | RF06     |
-| CN07     | RF23     |
-| CN08     | RF26     |
-| CN09     | RF38     |
-| CN10     | RF11     |
-| CN11     | RF12     |
-| CN12     | RF13     |
-| CN13     | RF10     |
+
+| Cenário CNX | Requisito RXY |
+| :---------: | :-----------: |
+| CN01        | RF24          |
+| CN02        | RF05          |
+| CN03        | RF02          |
+| CN04        | RF24          |
+| CN05        | RF16          |
+| CN06        | RF06          |
+| CN07        | RF23          |
+| CN08        | RF26          |
+| CN09        | RF38          |
+| CN10        | RF11          |
+| CN11        | RF12          |
+| CN12        | RF13          |
+| CN13        | RNF10         |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 
 
 
@@ -399,3 +428,4 @@ CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s
 |  1.7   | 14/05/2025 | Adição de autores a cada cenário         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  1.8   | 16/05/2025 | Adição de 4 novos cenários               | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.9   | 16/05/2025 | Corrigindo formatação e erros de digitação | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.0   | 18/05/2025 | Correção de mapeamento cenário-requisito  | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro](https://github.com/johnaopedro) |
