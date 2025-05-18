@@ -4,6 +4,9 @@
 Os casos de uso são uma técnica de modelagem que representa uma sequência de interações entre um sistema e um ator(es) externo, culminando em um resultado valioso para o ator. Os nomes dos casos de uso devem ser sempre estruturados como um verbo seguido de um objeto. É importante selecionar nomes fortes e descritivos para deixar evidente, pelo nome, que o caso de uso entregará algo valioso para algum usuário.
 
 ## Metodologia
+
+O diagrama de casos de uso é uma representação visual da interação de atores com o sistema e visa facilitar o entendimento de como se dará o uso por parte dos atores primários e como os atores secundários se relacionam às funcionalidades que o sistema apresenta. A Tabela 1 apresenta os elementos presentes no diagrama de caso de uso e suas funcionalidades. 
+
 <font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
 
 | Nome                 | Função                                                            | Elemento
@@ -13,6 +16,13 @@ Os casos de uso são uma técnica de modelagem que representa uma sequência de 
 | Retângulo (Sistema)  | Determina limites do sistema                                      | - |
 | Flecha (Relações)    | Determina relações entre os casos de uso ou atores e casos de uso | - |
 
+
+<!---
+We really need to add these images someway somehow. We could use the bilheteria digital model. I hope it works fine.
+
+-l0c.
+
+-->
 
 ## Casos de Uso
 
@@ -264,6 +274,36 @@ fixthisplz!
 | **Pós-condições** | Perfil MEI atualizado automaticamente no CadÚnico |
 | **Data de Criação** | 16/05/2025 |
 | **Rastreabilidade** | RF10 |
+
+<!--
+This one looks alright
+
+-l0c
+ -->
+
+
+## Tabela de Rastreabilidade UC-CEN-RF
+
+A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
+
+<center> <b>Tabela 3:</b> </center>
+
+| Caso de Uso UC | Cenário CN | Requisito Funcional RF |
+| :------------: | :--------: | :--------------------: |
+| UC01           | CN01       | RF24                   |
+| UC02           | CN02       | RF05                   |
+| UC03           | CN03       | RF02                   |
+| UC04           | CN04       | RF24                   |
+| UC05           | CN05       | RF16                   |
+| UC06           | CN06       | RF06                   |
+| UC07           | CN07       | RF23                   |
+| UC08           | CN08       | RF26                   |
+| UC09           | CN09       | RF38                   |
+| UC10           | CN10       | RF11                   |
+| UC11           | CN11       | RF12                   |
+| UC12           | CN12       | RF13                   |
+| UC13           | CN13       | RF10                   |
+
 
 ## Referências
 
