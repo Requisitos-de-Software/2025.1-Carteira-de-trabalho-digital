@@ -13,10 +13,10 @@ A Tabela 1 apresenta os elementos presentes no diagrama de caso de uso e suas fu
 
 | Nome                 | Função                                                            | Elemento
 |----------------------|----------------------------------------------------------------   |:-------: |
-| Ator                 | Determina algo ou alguém que interagirá com o sistema             | - |
-| Elipse (Caso de Uso) | Determina os casos de uso dentro do sistema                       | - |
-| Retângulo (Sistema)  | Determina limites do sistema                                      | - |
-| Flecha (Relações)    | Determina relações entre os casos de uso ou atores e casos de uso | - |
+| Ator                 | Determina algo ou alguém que interagirá com o sistema             |  ![alt text](../assets/modelagem/casos_de_uso/boneco_palito.png) |
+| Elipse (Caso de Uso) | Determina os casos de uso dentro do sistema                       | ![alt text](../assets/modelagem/casos_de_uso/elipse.png) |
+| Retângulo (Sistema)  | Determina limites do sistema                                      | ![alt text](../assets/modelagem/casos_de_uso/retangulo.png) |
+| Flecha (Relações)    | Determina relações entre os casos de uso ou atores e casos de uso. Pode ser pontilhada.| ![alt text](../assets/modelagem/casos_de_uso/seta.png) |
 
 
 <!---
