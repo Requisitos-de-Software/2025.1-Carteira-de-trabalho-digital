@@ -164,9 +164,9 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 | Campo            | Detalhes |
 | UC08 | Acessar chatbot |
 |------|----------------------------|
-| **Descrição** | Permite aos usuários consultar um assiste virtual configurado para responder questões e dúvidas frequentes |
+| **Descrição** | Permite aos usuários consultar um assistente virtual configurado para responder questões e dúvidas frequentes |
 | **Ator(es)** | Usuário, Assistente Virtual|
-| **Pré-condições** | O usuário um dispositivo compatível com o aplicativo e acesso à internet. |
+| **Pré-condições** | O usuário possui um dispositivo compatível com o aplicativo e acesso à internet. |
 | **Ação** | acessar Chatbot |
 | **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "login" </li><li>Usuário preenche informações de login e envia uma solicitação de autenticação</li><li> Usuário é autenticado pelo gov.br</li><li>Usuário aperta no botão "Assistente Virtual" e é movido para a tela do Assistente Virtual</li> <li> Usuário realiza uma pergunta</li> <li>O Assistente Virtual responde a pergunta</li></ol> |
 | **Fluxo de exceção** | <ul><li> Usuário não cadastrado: Usuário não consegue acessar a funcionalidade ao não conseguir passar pelo processo de autenticação</li><li>Sem conexão: aplicativo não realiza login ao não possuir conexão com o sistema gov.br</li> <li> Assistente em manutenção: O assistente virtual está em manutenção e está indisponível </li> <li> Assistente não sabe responder: Assistente Virtual não possui informações suficientes para responder ao usuário </li></ul> |
@@ -201,7 +201,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 | UC10 | Indicação de MEI no momento do cadastro |
 |------------------|----------|
 | **Descrição**    | Permite que o usuário informe, durante o processo de cadastro no CadÚnico, que é um Microempreendedor Individual (MEI). |
-| **Ator**         | Usuário em processo de cadastro |
+| **Ator(es)**         | Usuário em processo de cadastro |
 | **Pré-condições**| Usuário acessando o app e iniciando novo cadastro |
 | **Ação**         | Indicação da condição de MEI durante o cadastro |
 | **Fluxo principal** | 1. O usuário inicia o cadastro no app CadÚnico<br>2. Preenche dados pessoais<br>3. Marca a opção “Sou MEI”<br>4. Finaliza o cadastro |
@@ -220,7 +220,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 | UC11 | Acesso a informações sobre MEI |
 |------------------|----------|
 | **Descrição**    | Permite que usuários MEI consultem conteúdos informativos sobre microempreendedorismo no app CadÚnico. |
-| **Ator**         | Usuário com perfil MEI |
+| **Ator(es)**         | Usuário com perfil MEI |
 | **Pré-condições**| Usuário logado com perfil registrado como MEI |
 | **Ação**         | Consulta de informações sobre MEI |
 | **Fluxo principal** | 1. O usuário acessa a seção “MEI” no app<br>2. Visualiza temas como obrigações, benefícios, formalização, linhas de crédito<br>3. Acessa conteúdos de interesse, com links e orientações |
@@ -239,7 +239,7 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
 | UC12            | Personalização de conteúdos da seção MEI |
 |------------------|----------|
 | **Descrição**    | Permite que o sistema personalize os conteúdos exibidos na seção MEI com base no setor de atuação e localização do usuário. |
-| **Ator**         | Usuário MEI cadastrado |
+| **Ator(es)**         | Usuário MEI cadastrado |
 | **Pré-condições**| Usuário logado com setor de atuação e município informados |
 | **Ação**         | Personalização automática de conteúdos |
 | **Fluxo principal** | 1. O usuário acessa a seção “MEI”<br>2. O sistema identifica setor e região<br>3. Exibe conteúdos segmentados (editais, obrigações, notícias)<br>4. Permite interação com os conteúdos |
@@ -272,11 +272,11 @@ As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso
  ---
  ## [#UC14] - Agendamento no CRAS através do aplicativo
  
-| Campo            | Detalhes |
+| UC14            | Agendamento no CRAS através do aplicativo|
 |------------------|----------|
 | **Descrição**    | Permite que o usuário realize agendamento de atendimento nos postos do CRAS através do aplicativo CadÚnico |
 | **Ator(es)**         | Usuário e Sistema CRAS|
-| **Pré-condições**| Usuário com dispositivo compatível com o aplicativo e acesso a internet |
+| **Pré-condições**| Usuário com dispositivo compatível com o aplicativo e acesso à internet |
 | **Ação**         | Agendar atendimento no CRAS|
 | **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário navega até a seção "Agendar atendimento no CRAS" </li><li>Usuário adiciona as informações necessárias para realizar o agendamento</li><li>O sistema retorna uma mensagem para validar o processo</li></ol> |
 | **Fluxo alternativo** | Dados inconsistentes → alerta técnico para revisão |
