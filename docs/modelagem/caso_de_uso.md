@@ -26,21 +26,21 @@ We really need to add these images someway somehow. We could use the bilheteria 
 
 ## Casos de Uso
 
-As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso de uso. 
+As tabelas enumeradas como UC01 a UC14 apresentam a especificação de cada caso de uso. 
 
 ## [#UC01] Visualização de Benefícios Ativos
 
-| UC01 | Visualização de Benefícios Ativos |
+| Campo            | Detalhes |
 |------|----------------------------|
 | **Descrição** | Permite ao usuário visualizar os benefícios sociais ativos vinculados ao seu cadastro no CadÚnico, como o Bolsa Família. |
-| **Ator** | Usuário cadastrado |
+| **Ator(es)** | Usuário cadastrado |
 | **Pré-condições** | O usuário possui cadastro validado no CadÚnico e está autenticado no aplicativo. |
 | **Ação** | O usuário acessa a opção “Meus Benefícios” para verificar seus benefícios ativos. |
 | **Fluxo principal** | <ol><li>O usuário acessa o aplicativo do CadÚnico</li><li>Seleciona a opção “Meus Benefícios”</li><li>O sistema busca as informações na base de dados do governo</li><li>É exibida uma lista com nome do programa, status (ativo/suspenso), valor recebido e última atualização</li></ol> |
 |**Fluxo de exceção** | <ul><li>Usuário sem benefícios ativos: sistema exibe mensagem informativa</li><li>Falha de comunicação com a base de dados: sistema exibe mensagem de erro</li></ul> |
 | **Pós-condições** | O usuário visualiza seus benefícios de forma clara e atualizada. |
 | **Data de Criação** | 17/05/2025 |
-|****Rastreabilidade** | [RF24] (https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+| **Rastreabilidade** | [RF24](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
@@ -48,17 +48,17 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC02] Atualização de Dados Cadastrais
 
-| UC02 | Atualização de Dados Cadastrais |
+| Campo            | Detalhes |
 |------|-------------------------------|
 | **Descrição** | Permite ao usuário atualizar seus dados pessoais e residenciais no CadÚnico, como endereço e telefone. |
-| **Ator** | Usuário cadastrado |
+| **Ator(es)** | Usuário cadastrado |
 | **Pré-condições** | O usuário está logado no aplicativo e possui cadastro existente. |
 | **Ação** | O usuário acessa a seção “Atualizar Cadastro” para alterar informações residenciais. |
 | **Fluxo principal** | <ol><li>Usuário acessa o aplicativo</li><li>Vai até a seção “Atualizar Cadastro”</li><li>Seleciona a opção para alterar dados residenciais</li><li>Atualiza endereço, telefone e contato</li><li>Confirma e envia os dados</li><li>O sistema notifica que os dados serão analisados por um agente público</li></ol> |
 | **Fluxo de exceção** | <ul><li>CPF com inconsistência: sistema bloqueia alteração e exibe mensagem</li><li>CEP inválido: sistema solicita correção</li></ul> |
 | **Pós-condições** | Os dados são enviados para análise e o usuário é notificado que há uma atualização em processamento. |
 | **Data de Criação** | 17/05/2025 |
-| **Rastreabilidade** | [RF25](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+| **Rastreabilidade** | [RF05](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
@@ -66,17 +66,17 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC03] Primeiro Cadastro no CadÚnico
 
-| UC03 | Primeiro Cadastro no CadÚnico |
+| Campo            | Detalhes |
 |------|----------------------------|
 | **Descrição** | Permite a novos usuários realizar seu primeiro cadastro no CadÚnico através do aplicativo. |
-| **Ator** | Novo usuário |
+| **Ator(es)** | Novo usuário |
 | **Pré-condições** | O usuário possui documentos válidos e acesso à internet. |
 | **Ação** | O usuário realiza o primeiro cadastro preenchendo os dados exigidos pelo sistema. |
 | **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Fazer Primeiro Cadastro”</li><li>Preenche dados pessoais: nome, CPF, nascimento, endereço, composição familiar</li><li>Envia a solicitação</li><li>O sistema gera um protocolo e informa que o usuário será contatado para validação</li></ol> |
 | **Fluxo de exceção** | <ul><li>CPF já existente: sistema bloqueia e sugere login</li><li>Dados obrigatórios faltando: sistema impede envio e destaca os campos incompletos</li></ul> |
 | **Pós-condições** | Um cadastro preliminar é criado e enviado para avaliação por um agente social. |
 | **Data de Criação** | 17/05/2025 |
-| *8Rastreabilidade** | [RF19](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+| **Rastreabilidade** | [RF19](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
 <font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font>
 
@@ -86,8 +86,8 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 | UC04 | Conferir informações sobre benefícios|
 |------|----------------------------|
-| **Descrição** | Permite aos usuários com ou sem autenticação lerem acerca dos possíveis benefícios disponíveis no aplicativo |
-| **Ator** | Usuário |
+| **Descrição** | Permite aos usuários, com ou sem autenticação, ler sobre os possíveis benefícios disponíveis no aplicativo |
+| **Ator(es)** | Usuário |
 | **Pré-condições** | O usuário possui o aplicativo instalado em seu dispositivo compatível |
 | **Ação** | O usuário confere informações sobre os benefícios e informa-se |
 | **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li> <li>Seleciona a opção "Programas sociais"</li><li> Sistema lista programas sociais com informações disponíveis</li> <li> Usuário clica na opção desejada </li> <li>Sistema lista as informações disponíveis sobre o programa social escolhido </li> </ul> |
@@ -105,8 +105,8 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 | UC05 | Verificar postos de atendimento |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários verificar postos de atendimento disponíveis |
-| **Atores** | Usuário, Sistema CadÚnico|
-| **Pré-condições** | O usuário um dispositivo compatível com o aplicativo e acesso à internet. |
+| **Ator(es)** | Usuário, Sistema CadÚnico|
+| **Pré-condições** | O usuário possui um dispositivo compatível com o aplicativo e acesso à internet. |
 | **Ação** | O usuário confere informações sobre os postos de atendimento disponíveis. |
 | **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Postos de atendimento”</li><li>Preenche dados para requisição de informação: Estado, Município, Tipo Posto</li><li>Envia a solicitação</li><li>O sistema lista os postos disponíveis</li> <li> Usuário lê informações listadas </li></ol> |
 | **Fluxo de exceção** | <ul><li> Carregamento infinito: sistema passa um período indeterminado obtendo informações sobre o posto escolhido e demais interações são bloqueadas</li><li>Sem conexão: aplicativo não apresenta opções para requisição em caso de falta de conexão com a internet</li></ul> |
@@ -121,10 +121,11 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC06] Cadastrar família
 
+| Campo            | Detalhes |
 | UC06 | Cadastrar família |
 |------|-------------|
 | **Descrição** | Permite ao responsável familiar registrar sua família no Cadastro Único para acessar benefícios sociais. |
-| **Ator** | Responsável familiar |
+| **Ator(es)** | Responsável familiar |
 | **Pré-condições** | Acesso à internet, posse de documentos da família, uso de smartphone ou computador |
 | **Ação** | O usuário realiza o cadastro de sua família |
 | **Fluxo principal** | <ol><li>O usuário acessa o aplicativo</li><li>Seleciona a opção "Cadastrar Família"</li><li>Insere os dados pessoais e dos membros da família</li><li>Confirma os dados e envia</li><li>Recebe protocolo de envio</li></ol> |
@@ -140,10 +141,11 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC07] Filtrar Benefícios Sociais
 
+| Campo            | Detalhes |
 | UC07 | Filtrar Benefícios Sociais |
 |------|-------------|
 | **Descrição** | Permite ao usuário buscar e filtrar informações sobre benefícios sociais disponíveis de acordo com seu perfil ou interesse. |
-| **Ator** | Usuário (autenticado ou não) |
+| **Ator(es)** | Usuário (autenticado ou não) |
 | **Pré-condições** | Acesso ao aplicativo e à internet |
 | **Ação** | O usuário realiza filtros para buscar benefícios sociais no aplicativo |
 | **Fluxo principal** | <ol><li>O usuário acessa o aplicativo</li><li>Navega até a seção “Benefícios Disponíveis”</li><li>Utiliza filtros como tipo de benefício, região, faixa de renda ou público-alvo</li><li>O sistema retorna os benefícios correspondentes</li><li>O usuário visualiza detalhes dos benefícios</li></ol> |
@@ -159,13 +161,14 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 
 ## [#UC08] Chatbot
 
+| Campo            | Detalhes |
 | UC08 | Acessar chatbot |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários consultar um assiste virtual configurado para responder questões e dúvidas frequentes |
-| **Atores** | Usuário, Assistente Virtual|
+| **Ator(es)** | Usuário, Assistente Virtual|
 | **Pré-condições** | O usuário um dispositivo compatível com o aplicativo e acesso à internet. |
-| **Ação** | O usuário realiza uma pergunta para o chatbot |
-| **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "login" /li><li>Usuário preenche informações de login e envia uma solicitação de autenticação</li><li> Usuário é autenticado pelo gov.br</li><li>Usuário aperta no botão "Assitente Virtual" e é movido para a tela do Assistente Virtual</li> <li> Usuário realiza uma pergunta</li> <li>O Assistente Virtual responde a pergunta</li></ol> |
+| **Ação** | acessar Chatbot |
+| **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "login" </li><li>Usuário preenche informações de login e envia uma solicitação de autenticação</li><li> Usuário é autenticado pelo gov.br</li><li>Usuário aperta no botão "Assistente Virtual" e é movido para a tela do Assistente Virtual</li> <li> Usuário realiza uma pergunta</li> <li>O Assistente Virtual responde a pergunta</li></ol> |
 | **Fluxo de exceção** | <ul><li> Usuário não cadastrado: Usuário não consegue acessar a funcionalidade ao não conseguir passar pelo processo de autenticação</li><li>Sem conexão: aplicativo não realiza login ao não possuir conexão com o sistema gov.br</li> <li> Assistente em manutenção: O assistente virtual está em manutenção e está indisponível </li> <li> Assistente não sabe responder: Assistente Virtual não possui informações suficientes para responder ao usuário </li></ul> |
 | **Pós-condições** | O usuário tem sua dúvida esclarecida. |
 | **Data de Criação** | 17/05/2025 |
@@ -180,10 +183,10 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 | UC09 | Ativar modo escuro |
 |------|----------------------------|
 | **Descrição** | Permite aos usuários ativar um "modo escuro", o qual altera a saturação e luminosidade da interface para uso em ambientes de baixa luminosidade |
-| **Atores** | Usuário|
-| **Pré-condições** | O usuário um dispositivo compatível com o aplicativo|
-| **Ação** | O usuário realiza uma pergunta para o chatbot |
-| **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "modo escuro" /li><li>Aplicativo atualiza interface para utilizar cores com menor luminosidade e/ou cores mais frias</li></ol> |
+| **Ator(es)** | Usuário|
+| **Pré-condições** | O usuário possui um dispositivo compatível com o aplicativo|
+| **Ação** | ligar modo escuro |
+| **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "modo escuro" </li><li>Aplicativo atualiza interface para utilizar cores com menor luminosidade e/ou cores mais frias</li></ol> |
 | **Fluxo de exceção** | <ul><li> Cores desagradáveis: O novo esquema de cores torna o usuário mais desconfortável no momento</li><li> Má colocação: Usuário não consegue encontrar o botão "Modo escuro"</li></ul> |
 | **Pós-condições** | O usuário se sente mais confortável para utilizar o aplicativo |
 | **Data de Criação** | 17/05/2025 |
@@ -255,7 +258,7 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 | UC13           | Consulta e sincronização automática com a base de dados do MEI |
 |------------------|----------|
 | **Descrição**    | Permite que o CadÚnico sincronize dados MEI com a Receita Federal automaticamente |
-| **Ator**         | Sistema do CadÚnico |
+| **Ator(es)**         | Sistema do CadÚnico |
 | **Pré-condições**| Usuário com CNPJ MEI ativo vinculado ao CPF no CadÚnico |
 | **Ação**         | Sincronização automática de dados |
 | **Fluxo principal** | 1. Sistema realiza integração periódica com Receita Federal<br>2. Identifica usuários com CNPJ MEI<br>3. Recupera dados do MEI (status, atividade, débitos)<br>4. Atualiza o perfil do usuário no app<br>5. Notifica o usuário sobre atualizações |
@@ -266,6 +269,25 @@ As tabelas enumeradas como UC01 a UC13 apresentam a especificação de cada caso
 | **Rastreabilidade** | [RNF10](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
 <font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
+ ---
+ ## [#UC14] - Agendamento no CRAS através do aplicativo
+ 
+| Campo            | Detalhes |
+|------------------|----------|
+| **Descrição**    | Permite que o usuário realize agendamento de atendimento nos postos do CRAS através do aplicativo CadÚnico |
+| **Ator(es)**         | Usuário e Sistema CRAS|
+| **Pré-condições**| Usuário com dispositivo compatível com o aplicativo e acesso a internet |
+| **Ação**         | Agendar atendimento no CRAS|
+| **Fluxo principal** | <ol><li>Usuário instala e abre o aplicativo</li><li>Usuário navega até a seção "Agendar atendimento no CRAS" </li><li>Usuário adiciona as informações necessárias para realizar o agendamento</li><li>O sistema retorna uma mensagem para validar o processo</li></ol> |
+| **Fluxo alternativo** | Dados inconsistentes → alerta técnico para revisão |
+| **Fluxo de exceção** | Falha de conexão com o sistema CRAS → tentativa armazenada e reagendada |
+| **Pós-condições** | Agendamento de atendimento no CRAS realizado |
+| **Data de Criação** | 18/05/2025 |
+| **Rastreabilidade** | [RF30](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></b></p></font>
+
+---
 
 ## Tabela de Rastreabilidade UC-CEN-RF
 
@@ -273,14 +295,14 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 
 <center> <b>Tabela 3:</b> </center>
 
-| Caso de Uso UC | Cenário CN | Requisito Funcional RF |
+| Caso de Uso (UC) | Cenário (CN) | Requisito Funcional (RF) |
 | :------------: | :--------: | :--------------------: |
 | UC01           | CN01       | RF24                   |
 | UC02           | CN02       | RF05                   |
-| UC03           | CN03       | RF02                   |
+| UC03           | CN03       | RF19                   |
 | UC04           | CN04       | RF24                   |
 | UC05           | CN05       | RF16                   |
-| UC06           | CN06       | RF06                   |
+| UC06           | CN06       | RF01                   |
 | UC07           | CN07       | RF23                   |
 | UC08           | CN08       | RF26                   |
 | UC09           | CN09       | RF38                   |
@@ -288,6 +310,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC11           | CN11       | RF12                   |
 | UC12           | CN12       | RF13                   |
 | UC13           | CN13       | RF10                   |
+| UC14           | CN14       | RF30                   |
 
 
 ## Referências
@@ -315,3 +338,4 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.3 | 17/05/2025 | Adicionando casos de uso 4 e 5 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.4 | 17/05/2025 | Adicionando casos de uso 8 e 9 | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.5 | 17/05/2025 | Consertando tabela e casos de uso |[João Pedro Costa](https://github.com/johnaopedro) |[Ryan Salles](https://github.com/RA-Salles) | 
+| 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
