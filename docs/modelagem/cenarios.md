@@ -376,7 +376,7 @@ Essa seção apresenta a rastreabilidade Cenário-Requisito. A legenda utilizada
 Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o cenário busca modelar. 
 
 <center>
-    <b>Tabela 18:</b> 
+    <b> Tabela 18:</b> Rastreabilidade Cenário-Requisito  
 </center>
 
 | Cenário | Requisito |
