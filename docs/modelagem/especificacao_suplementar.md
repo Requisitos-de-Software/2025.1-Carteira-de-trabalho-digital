@@ -90,9 +90,9 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
-| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | Usabilidade geral                                      | Introspecção           |
-| [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  | Acessibilidade para pessoas com deficiência visual | Introspecção         |
-| [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | Possibilidade de outros idiomas                  | Introspecção           |
+| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | O sistema deve apresentar uma interface intuitiva, com elementos visuais claros, organização lógica das informações e navegação simplificada                                      | Introspecção           |
+| [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  |  O sistema deve ser totalmente acessível para pessoas com deficiência visual, incluindo compatibilidade com leitores de tela, suporte a navegação por teclado, contraste adequado entre elementos, textos alternativos para imagens e possibilidade de ajuste de tamanho de fonte | Introspecção         |
+| [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | O sistema deve oferecer suporte a múltiplos idiomas, permitindo que o usuário selecione o idioma de sua preferência                  | Introspecção           |
 
 
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
@@ -136,7 +136,7 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
-| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade geral                                  | Análise de documentos  |
+| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade geral, o sistema deve garantir acessibilidade geral, incluindo suporte a tecnologias assistivas                                  | Análise de documentos  |
 | [RNF07](../elicitacao/requisitos_elicitados.md#rnf07)  | Compatibilidade com Aplicativo Off-line          | Análise de documentos  |
 | [RNF08](../elicitacao/requisitos_elicitados.md#rnf08)  | Transmissão via Conectividade Social             | Análise de documentos  |
 | [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
