@@ -26,6 +26,25 @@ We really need to add these images someway somehow. We could use the bilheteria 
 
 -->
 
+## Diagrama de Casos de Uso
+
+A Figura 1 apresenta o Diagrama de Casos de Uso elaborado pelo grupo 4. 
+
+<center> 
+    <b>Figura 1:</b> Diagrama de Casos de Uso do CádÚnico
+</center>
+
+![Diagrama de Casos de Uso](../assets/modelagem/casos_de_uso/diagrama.png)
+
+<!--
+IT IS DONE. FOXTROT FINALLY!
+
+-l0c
+-->
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
+
 ## Casos de Uso
 
 As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especificação de cada caso de uso. 
@@ -415,6 +434,9 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.7 | 18/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 2.0 | 18/05/2025 | Adicionadas figuras e diagramas | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+
+
 
 
 
