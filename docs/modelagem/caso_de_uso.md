@@ -380,9 +380,7 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 
 A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
 
-<center> <b>Tabela 3:</b> </center>
-
-<center>
+<center> <b>Tabela 3: Tabela de Rastreabilidade</b> </center>
 
 | Caso de Uso (UC) | Cenário (CN) | Requisito Funcional (RF) |
 | :------------: | :--------: | :--------------------: |
@@ -403,6 +401,8 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC15           | CN15       | RF35                   |
 | UC16           | CN16       | RF29                   |
 
+<center> 
+    <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
 </center>
 
 ## Referências
