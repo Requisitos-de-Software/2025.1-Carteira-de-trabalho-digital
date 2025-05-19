@@ -1,4 +1,4 @@
-# ATA - Apresentação III - 04/05/2025
+# ATA - Apresentação III - 18/05/2025
 
 ## Participantes
 - Amanda Cruz
