@@ -37,13 +37,10 @@ nav:
     - Casos de Uso: modelagem/caso_de_uso.md
     - Léxicos: modelagem/lexico.md
     - Especificação Suplementar: modelagem/especificacao_suplementar.md
-
-    
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
       - Entrega 3: verificacao/checklist_3.md
-      
   - Inspeções:
     - Grupo:
       - Entrega 1: inspecoes/grupo/inspecao_1.md
@@ -64,7 +61,7 @@ nav:
   - Apresentações:
     - Apresentação I: apresentacoes/apresentacao1.md
     - Apresentação II: apresentacoes/apresentacao2.md
-   
+    - Apresentação III: apresentacoes/apresentacao3.md
 theme:
   logo: assets/LogoCadUn.png
   name: material
