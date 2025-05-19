@@ -24,6 +24,10 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 
 > VAZQUEZ, C. E.; SIMÕES, G. S. Engenharia de Requisitos: Software Orientado ao Negócio. 1 ed. Rio de Janeiro: Brasport, 2016. p. 279.
 
+> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
+
+
+
 #### Imagem 1: Modelagem
 
 <div style=>
@@ -52,23 +56,16 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 
 **Fonte:** Adaptado de WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 
-
-> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
+#### Imagem 4: Léxico
 
 <div align = "center">
     <img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
 </div>
 
-> WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
+**Fonte:** Adaptado de SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação.
 
-<div style="text-align: center;">
-    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
-</div>
 
-<div style="text-align: center;">
-    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
-</div>
-<br></br>
+
 
 ## Histórico de Versão
 
@@ -78,4 +75,5 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 |  1.1   | 08/05/2025 | Adição das técnicas Casos de Uso e Cenários  | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 09/05/2025 | Adição das Técnicas de Léxico e Especificação suplementar  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.3   | 09/05/2025 | Alterações e correções textuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
-|  1.4   | 11/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/joaopedro) |
+|  1.4   | 18/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.5   | 18/05/2025 | Consertando as imagens e histórico de versão quebrado     | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/johnaopedro) |
