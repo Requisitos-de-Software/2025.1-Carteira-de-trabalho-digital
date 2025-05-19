@@ -34,6 +34,7 @@ nav:
   - Modelagem:
     - Introdução: modelagem/introducao.md
     - Cenários: modelagem/cenarios.md
+    - Casos de Uso: modelagem/caso_de_uso.md
 
     
   - Verificação:
