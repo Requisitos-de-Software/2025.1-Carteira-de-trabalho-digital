@@ -55,7 +55,7 @@ Esta especificação apresenta:
 
 - Os requisitos funcionais (Seção 3);  
 - Os requisitos de usabilidade relacionados (Seção 4);  
-- Os requisitos de confiabilidade, desempenho e suportabilidade ainda não presentes (Seções 5 a 7);  
+- Os requisitos de confiabilidade, desempenho e suportabilidade (Seções 5 a 7);  
 - As restrições de projeto (Seção 8);  
 - Os requisitos técnicos e de ambiente (Seção 9);  
 - As interfaces previstas, requisitos de licenciamento, anexos e aprovações.
@@ -90,7 +90,7 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
-| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | Usabilidade                                      | Introspecção           |
+| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | Usabilidade geral                                      | Introspecção           |
 | [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  | Acessibilidade para pessoas com deficiência visual | Introspecção         |
 | [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | Possibilidade de outros idiomas                  | Introspecção           |
 
@@ -120,7 +120,7 @@ Requisitos que dizem respeito às condições que os requisitos devem operar. A 
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
-| [RNF01](../elicitacao/requisitos_elicitados.md#rnf01)  | Desempenho                                       | Análise de documentos  |
+| [RNF01](../elicitacao/requisitos_elicitados.md#rnf01)  | Desempenho de até 3 segundos de velocidade de acesso                                       | Análise de documentos  |
 | [RNF17](../elicitacao/requisitos_elicitados.md#rnf17)  | Desempenho otimizado para internet limitada      | Introspecção           |
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
@@ -136,7 +136,7 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
-| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade                                   | Análise de documentos  |
+| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade geral                                  | Análise de documentos  |
 | [RNF07](../elicitacao/requisitos_elicitados.md#rnf07)  | Compatibilidade com Aplicativo Off-line          | Análise de documentos  |
 | [RNF08](../elicitacao/requisitos_elicitados.md#rnf08)  | Transmissão via Conectividade Social             | Análise de documentos  |
 | [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
