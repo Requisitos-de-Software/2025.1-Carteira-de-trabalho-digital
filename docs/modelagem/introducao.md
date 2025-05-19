@@ -72,7 +72,7 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 08/05/2025 | Criando a pagina e adicionando a introdução de cada tema  | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.1   | 08/05/2025 | Adição das técnicas Casos de Uso e Cenários  | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP)                      
+|  1.1   | 08/05/2025 | Adição das técnicas Casos de Uso e Cenários  | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |                   
 |  1.2   | 09/05/2025 | Adição das Técnicas de Léxico e Especificação suplementar  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.3   | 09/05/2025 | Alterações e correções textuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 11/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/joaopedro) |

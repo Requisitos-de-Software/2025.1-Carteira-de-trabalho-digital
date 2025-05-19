@@ -34,8 +34,9 @@ nav:
   - Modelagem:
     - Introdução: modelagem/introducao.md
     - Cenários: modelagem/cenarios.md
+    - Especificação Suplementar: modelagem/especificacao_suplementar.md
+    - Léxico: modelagem/lexico.md
 
-    
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
@@ -45,6 +46,7 @@ nav:
     - Grupo:
       - Entrega 1: inspecoes/grupo/inspecao_1.md
       - Entrega 2: inspecoes/grupo/inspecao_2.md
+      - Entrega 3: inspecoes/grupo/inspecao_3.md
     - Grupo+1:
       - Entrega 1: inspecoes/grupo+1/inspecao_1.md
       - Entrega 2: inspecoes/grupo+1/inspecao_2.md
