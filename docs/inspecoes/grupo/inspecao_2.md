@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta o resultado da **inspeção** realizada pelos membros do [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) sobre a [Lista de Verificação da Entrega 2](../../verificacao/checklist_2.md) referente à **Entrega 2** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.itens verificados.
+Este documento apresenta o resultado da **inspeção** realizada pelos membros do [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) sobre a [Lista de Verificação da Entrega 2](../../verificacao/checklist_2.md) referente à **Entrega 2** do projeto. A inspeção tem como objetivo avaliar a completude, clareza e aplicabilidade dos itens verificados, conforme os critérios e orientações estabelecidos na disciplina.
 
 ## Metodologia
 
