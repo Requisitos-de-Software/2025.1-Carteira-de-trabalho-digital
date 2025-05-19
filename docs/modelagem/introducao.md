@@ -56,7 +56,7 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 7 maio 2025.
 
 <div align = "center">
-<img src="../assets/referencias/modelagem/RefLex.png" width="400"/>
+<img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
 
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 <div style="text-align: center;">
