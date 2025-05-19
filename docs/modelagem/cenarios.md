@@ -379,8 +379,6 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
     <b>Tabela 18:</b> 
 </center>
 
-<center>
-
 | Cenário | Requisito |
 | :-----: | :-------: |
 | CN01     | RF24     |
@@ -399,8 +397,6 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
 | CN14     | RF30     |
 | CN15     | RF35     |
 | CN16     | RF29     |
-
-</center>
 
 <center>
     Autor(es): 
