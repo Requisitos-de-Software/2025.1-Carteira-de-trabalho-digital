@@ -62,11 +62,11 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 
 <div style="text-align: center;">
-    <img src="../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
+    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
 </div>
 
 <div style="text-align: center;">
-    <img src="../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
+    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
 </div>
 <br></br>
 
