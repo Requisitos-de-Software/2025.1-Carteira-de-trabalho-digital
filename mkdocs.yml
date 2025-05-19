@@ -35,10 +35,12 @@ nav:
     - Introdução: modelagem/introducao.md
     - Cenários: modelagem/cenarios.md
     - Casos de Uso: modelagem/caso_de_uso.md
+
     
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
+      - Entrega 3: verificacao/checklist_3.md
       
   - Inspeções:
     - Grupo:
