@@ -36,7 +36,9 @@ Abrange os requisitos funcionais e não funcionais elicitados por técnicas form
 
 Aqui tem-se a tabela 1 com definições, acrônimos e abreviações utilizadas neste documento. É importante ressaltar que os termos utilizados são comuns na área de Engenharia de Software e podem variar conforme o contexto.
 
-<center><b>Tabela 1:</b> Definições, Acrônimos e Abreviações</center>
+<center>
+    <b>Tabela 1:</b> Definições, Acrônimos e Abreviações
+</center>
 
 | Termo | Definição |
 |-------|-----------|
@@ -64,15 +66,14 @@ Nesta seção, são apresentadas informações gerais sobre o projeto, como nome
 
 <center><b>Tabela 2:</b> Identificação do Projeto</center>
 
-<center>
 
-| Campo               | Informação                      |
-|---------------------|----------------------------------|
-| Projeto             | Cadúnico – Cadastro Único |
-| Requisitante        | Prof. Andre Barros de Sales            |
-| Gerente de Projetos | [Ryan Salles](https://github.com/RA-Salles)     |
 
-</center>
+| Campo               | Informação                        |
+|---------------------|---------------------------------- |
+| Projeto             | Cadúnico – Cadastro Único         |
+| Requisitante        | Prof. Andre Barros de Sales       |
+| Gerente de Projetos | [Ryan Salles](https://github.com/RA-Salles) |
+
 
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
@@ -86,7 +87,6 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 
 <center><b>Tabela 3:</b> Requisitos de Usabilidade</center>
 
-<center>
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -94,7 +94,6 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 | [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  | Acessibilidade para pessoas com deficiência visual | Introspecção         |
 | [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | Possibilidade de outros idiomas                  | Introspecção           |
 
-</center>
 
 <center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
@@ -105,14 +104,10 @@ Nesta seção, são apresentados os requisitos de confiabilidade do sistema, que
 
 <center><b>Tabela 4:</b> Requisitos de Confiabilidade</center>
 
-<center>
-
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
 | [RNF19](../elicitacao/requisitos_elicitados.md#rnf19)  | Backup e restauração de sessão                   | Introspecção           |
 | [RNF20](../elicitacao/requisitos_elicitados.md#rnf20)  | Alta disponibilidade e recuperação de desastres | Introspecção           |
-
-</center>
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
@@ -122,7 +117,6 @@ Requisitos que dizem respeito às condições que os requisitos devem operar. A 
 
 <center><b>Tabela 5:</b> Requisitos de Desempenho</center>
 
-<center>
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -131,7 +125,6 @@ Requisitos que dizem respeito às condições que os requisitos devem operar. A 
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
-</center>
 
 ### 7. Suportabilidade
 
@@ -139,7 +132,7 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 
 <center><b>Tabela 6:</b> Requisitos de Suportabilidade</center>
 
-<center>
+
 
 | ID     | Descrição                                        | Rastreabilidade         |
 |--------|-------------------------------------------------|------------------------|
@@ -149,8 +142,6 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 | [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
-
-</center>
 
 ### 8. Restrições de Projeto
 
