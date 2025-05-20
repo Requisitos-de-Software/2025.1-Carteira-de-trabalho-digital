@@ -1,5 +1,17 @@
 # Especificação Suplementar
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Preenchimento das seções 1 à 7; Adição das referências| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento das seções 8 à 12| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 A Especificação Suplementar é um documento em linguagem natural, cujo objetivo principal é descrever de forma detalhada os requisitos não funcionais de um sistema. Diferentemente dos casos de uso, que focam em funcionalidades e fluxos de interação, a Especificação Suplementar captura aspectos de qualidade, restrições e características que o software deve atender, mas que não são expressos nos diagramas comportamentais.
 
@@ -272,3 +284,4 @@ A redistribuição e modificação do sistema estarão condicionadas aos termos 
 |  1.6   | 17/05/2025 |   Removendo itens errados   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.7   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.8   | 18/05/2025 |   Correção de erros ortográficos e tabela   | [Amanda Cruz](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.9   | 20/05/2025 |   Criação da tabela de funções   | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
