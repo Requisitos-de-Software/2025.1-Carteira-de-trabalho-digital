@@ -2,6 +2,20 @@
 
 Modelagem é o ato de criar modelos, ou seja, padrões para construção de demais artefatos. Segundo VAZQUES & SIMÕES (2016), a modelagem é o ato de criar representações visuais e/ou descritivas para facilitar o acesso à informação de sua audiência. Possui o objetivo de sustentar análises, entedimentos e comunicação de uma forma amigável e intuitiva. Tendo isso em mente, deve-se modelar para atingir um nível mais elevado no que se diz a compreensão dos requisitos e, portanto, os desejos e necessidades dos clientes e usuários. 
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Documentação dos léxicos e especificação suplementar | 
+|[João Igor](https://github.com/JoaoPC10)|Documentação dos léxicos e especificação suplementar| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Documentação dos casos de uso e cenários| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação da tabela de funções| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Cenários
 
 Os cenários são uma técnica de modelagem que descrevem instâncias específicas de uso do sistema, ilustrando atividades discretas e independentes que um ator pode realizar para alcançar um resultado de valor. Cada cenário reflete uma única ocorrência de interação, sendo parte de um caso de uso mais amplo. Um caso de uso, por sua vez, é uma coleção de cenários de uso relacionados, que compartilham um objetivo comum. Durante a exploração dos requisitos do usuário, é possível iniciar com uma declaração geral de caso de uso e, a partir dela, desenvolver cenários mais específicos. Alternativamente, pode-se partir de um exemplo de cenário específico e generalizá-lo para um caso de uso mais abrangente.
@@ -77,3 +91,4 @@ A Especificação Suplementar é um documento em linguagem natural que visa expl
 |  1.3   | 09/05/2025 | Alterações e correções textuais | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
 |  1.4   | 18/05/2025 | Adicionando uma introdução mais robusta                   | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.5   | 18/05/2025 | Consertando as imagens e histórico de versão quebrado     | [Ryan Salles](https://github.com/RA-Salles)      | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.6   | 20/05/2025 | Criação tabela de funções     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
