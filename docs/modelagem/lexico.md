@@ -1,5 +1,19 @@
 # Léxico
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do documento; Composição do documento | 
+|[João Igor](https://github.com/JoaoPC10)|Criação do documento; Composição do documento| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Complementação de léxicos| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação da tabela de funções| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
 O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos, é a identificação de palavras ou frases peculiares ao meio social da aplicação sob estudo. Cada símbolo é descrito com noção, significado do símbolo, e impacto, descrição do efeito/uso/ocorrência do símbolo na aplicação.
@@ -86,3 +100,4 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 | 1.3 | 14/05/2025 | Criação de hiper links na tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.4 | 16/05/2025 | Criação de outros lexicos relacionados ao conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.5 | 16/05/2025 | Corrigindo imagens | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
+| 1.6 | 20/05/2025 | Criação da tabela de funções | [Julia Gabriela(https://github.com/JuliaGabP)] | [João Pedro Costa](https://github.com/johnaopedro)|
