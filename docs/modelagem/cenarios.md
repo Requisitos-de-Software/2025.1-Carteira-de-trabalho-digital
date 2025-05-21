@@ -1,5 +1,20 @@
 # Cenários
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Criação dos cenários 14 e 15| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão do cenário 16| 
+|[João Igor](https://github.com/JoaoPC10)|Criação do cenário 16| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral; Criação dos cenários 10 à 13| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Adição do vídeo de explicação e referências; Criação dos cenários 1, 2, 3, 6 e 7| 
+|[Ryan Salles](https://github.com/RA-Salles)|Criação da documentação com introduções, criação dos cenários 4, 5, 8 e 9| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
 Este documento apresenta uma série de cenários desenvolvidos como parte do processo de engenharia de requisitos do aplicativo Cadastro Único (CadÚnico). Os cenários são descrições estruturadas de possíveis interações entre usuários e o sistema, com o objetivo de capturar comportamentos esperados, identificar requisitos e apoiar a validação das funcionalidades. Cada cenário contém informações sobre os atores envolvidos, o contexto da interação, pré-condições, fluxo principal de ações, pós-condições e exceções possíveis.
@@ -36,7 +51,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 
@@ -58,7 +73,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ### Cenário 3: Realizar Cadastro no Aplicativo
@@ -79,7 +94,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ### Cenário 4: Conferir Informações sobre Benefícios
@@ -145,7 +160,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ### Cenário 7: Filtrar Benefícios Sociais
@@ -167,7 +182,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Júlia Gabriela</a>
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 
 </center>
 
@@ -365,6 +380,10 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 | **Pós-condições**        | Os documentos ficam vinculados à solicitação do usuário e disponíveis para análise dos atendentes do CadÚnico. |
 | **Exceções**             | - Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio.<br>- Arquivo corrompido → sistema solicita novo envio ao usuário. |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
 
 ## Rastreabilidade 
 
@@ -438,3 +457,4 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  2.1   | 18/05/2025 | Corrigindo conflitos e erros       | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 |  2.2   | 18/05/2025 | Adicionando 1 cenário novo      | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
+|  2.4   | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |

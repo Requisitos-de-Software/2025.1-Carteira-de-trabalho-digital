@@ -1,5 +1,20 @@
 # Casos de Uso
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Criação do caso de uso 15| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do caso de uso 14; Criação do diagrama| 
+|[João Igor](https://github.com/JoaoPC10)|Criação do caso de uso 16| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação da página; Criação dos casos de uso 10 à 13; Adição de referências e imagens; Revisão geral| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação dos casos de uso 1 à 3, 6 e 7.| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral; Criação dos casos de uso 4, 5, 8 e 9; Criação do diagrama.| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 Os casos de uso são uma técnica de modelagem que representa uma sequência de interações entre um sistema e um ator(es) externo, culminando em um resultado valioso para o ator. Os nomes dos casos de uso devem ser sempre estruturados como um verbo seguido de um objeto. É importante selecionar nomes fortes e descritivos para deixar evidente, pelo nome, que o caso de uso entregará algo valioso para algum usuário.
 
@@ -435,6 +450,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.0 | 18/05/2025 | Adicionadas figuras e diagramas | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+| 2.1 | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) |  [João Pedro Costa](https://github.com/johnaopedro) |
 
 
 
