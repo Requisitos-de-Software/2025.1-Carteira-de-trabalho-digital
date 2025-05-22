@@ -4,11 +4,12 @@
 
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias; Adição das referências| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das referências| 
+| [João Igor](https://github.com/JoaoPC10)||
 |[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## 1. Introdução
@@ -194,4 +195,4 @@ O objetivo deste documento é:
 | Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 22/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
