@@ -17,44 +17,44 @@ Legenda:
 
 | ID      | Nome                                      | Rastreabilidade                       | Implementado |
 | :-----: | :---------------------------------------: | :-----------------------------------: | :----------: | 
-| RF01    | Cadastro de Famílias                      | Questionário / Análise de documentos  | Sim |
-| RF02    | Cadastro de Pessoas                       | Questionário / Análise de documentos  | Sim |
-| RF03    | Cadastro de Domicílios                    | Questionário / Análise de documentos  | Sim |
-| RF04    | Cadastro de Agricultores Familiares       | Questionário / Análise de documentos  | Sim |
-| RF05    | Atualização de Dados                      | Questionário / Introspecção           | Sim |
-| RF06    | Processamento de Dados                    | Questionário / Análise de documentos  | Sim |
-| RF07    | Correção de Inconsistências               | Análise de Documentos                 | Sim |
-| RF08    | Consulta de Dados                         | Questionário / Introspecção           | Sim |
-| RF09    | Relatórios e Divulgação                   | Análise de Documentos                 | Sim |
-| RF10    | Formulários de Coleta                     | Análise de Documentos                 | Sim |
-| RF11    | Cadastro MEI                              | Análise de Documentos                 | Não |
-| RF12    | Informações MEI                           | Análise de Documentos                 | Não |
-| RF13    | Personalização MEI                        | Análise de Documentos                 | Não |
-| RF14    | Consultar dados cadastrais                | Introspecção                          | Sim |
-| RF15    | Pré-cadastrar família                     | Introspecção                          | Sim |
-| RF16    | Localizar postos de atendimento           | Introspecção                          | Sim |
-| RF17    | Enviar notificações                       | Introspecção                          | Sim |
-| RF18    | Integrar com o CNIS                       | Introspecção                          | Sim |
-| RF19    | Cadastro de Usuário                       | Introspecção                          | Sim |
-| RF20    | Atualização de Dados                      | Introspecção                          | Sim |
-| RF21    | Consultar Situação Cadastral              | Introspecção                          | Sim |
-| RF22    | Emissão de Comprovante de Cadastro        | Introspecção                          | Sim |
-| RF23    | Filtragem de Benefícios                   | Introspecção                          | Não |
-| RF24    | Consulta de Benefícios                    | Entrevista                            | Sim |
-| RF25    | Informações Cadastrais                    | Entrevista                            | Sim |
-| RF26    | Chatbot de atendimento automatizado       | Introspecção                          | Não |
-| RF27    | Notificação de pendências ou atualizações | Introspecção                          | Não |
-| RF28    | Simulador de benefícios sociais           | Introspecção                          | Não |
-| RF29    | Upload de documentos                      | Introspecção                          | Não |
-| RF30    | Agendamento de atendimento no CRAS        | Introspecção/Entrevista               | Não |
-| RF31    | Notificações Personalizadas               | Entrevista                            | Não |
-| RF32    | Atualização Cadastral                     | Entrevista                            | Não |
-| RF33    | Simulador de Benefícios                   | Entrevista                            | Não |
-| RF34    | Chat de Atendimento                       | Entrevista                            | Não |
-| RF35    | Tutoriais Interativos                     | Entrevista                            | Não |
-| RF36    | Vídeos Explicativos                       | Entrevista                            | Não |
-| RF37    | Assistência por Voz                       | Entrevista                            | Não |
-| RF38    | Modo escuro                               | Introspecção                          | Não |
+| [RF01](tecnicas/questionario.md) | Cadastro de Famílias                      | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim |
+| [RF02](tecnicas/questionario.md) | Cadastro de Pessoas                       | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim |
+| [RF03](tecnicas/questionario.md) | Cadastro de Domicílios                    | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim |
+| [RF04](tecnicas/questionario.md) | Cadastro de Agricultores Familiares       | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim |
+| [RF05](tecnicas/questionario.md) | Atualização de Dados                      | [Questionário](tecnicas/questionario.md) / [Introspecção](tecnicas/introspecção.md)           | Sim |
+| [RF06](tecnicas/questionario.md) | Processamento de Dados                    | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim |
+| [RF07](tecnicas/analise_documentacao.md) | Correção de Inconsistências               | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Sim |
+| [RF08](tecnicas/questionario.md) | Consulta de Dados                         | [Questionário](tecnicas/questionario.md) / [Introspecção](tecnicas/introspecção.md)           | Sim |
+| [RF09](tecnicas/analise_documentacao.md) | Relatórios e Divulgação                   | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Sim |
+| [RF10](tecnicas/analise_documentacao.md) | Formulários de Coleta                     | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Sim |
+| [RF11](tecnicas/analise_documentacao.md) | Cadastro MEI                              | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Não |
+| [RF12](tecnicas/analise_documentacao.md) | Informações MEI                           | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Não |
+| [RF13](tecnicas/analise_documentacao.md) | Personalização MEI                        | [Análise de Documentos](tecnicas/analise_documentacao.md)                 | Não |
+| [RF14](tecnicas/introspecção.md) | Consultar dados cadastrais                | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF15](tecnicas/introspecção.md) | Pré-cadastrar família                     | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF16](tecnicas/introspecção.md) | Localizar postos de atendimento           | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF17](tecnicas/introspecção.md) | Enviar notificações                       | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF18](tecnicas/introspecção.md) | Integrar com o CNIS                       | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF19](tecnicas/introspecção.md) | Cadastro de Usuário                       | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF20](tecnicas/introspecção.md) | Atualização de Dados                      | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF21](tecnicas/introspecção.md) | Consultar Situação Cadastral              | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF22](tecnicas/introspecção.md) | Emissão de Comprovante de Cadastro        | [Introspecção](tecnicas/introspecção.md)                          | Sim |
+| [RF23](tecnicas/introspecção.md) | Filtragem de Benefícios                   | [Introspecção](tecnicas/introspecção.md)                          | Não |
+| [RF24](tecnicas/entrevista.md) | Consulta de Benefícios                    | [Entrevista](tecnicas/entrevista.md)                            | Sim |
+| [RF25](tecnicas/entrevista.md) | Informações Cadastrais                    | [Entrevista](tecnicas/entrevista.md)                            | Sim |
+| [RF26](tecnicas/introspecção.md) | Chatbot de atendimento automatizado       | [Introspecção](tecnicas/introspecção.md)                          | Não |
+| [RF27](tecnicas/introspecção.md) | Notificação de pendências ou atualizações | [Introspecção](tecnicas/introspecção.md)                          | Não |
+| [RF28](tecnicas/introspecção.md) | Simulador de benefícios sociais           | [Introspecção](tecnicas/introspecção.md)                          | Não |
+| [RF29](tecnicas/introspecção.md) | Upload de documentos                      | [Introspecção](tecnicas/introspecção.md)                          | Não |
+| [RF30](tecnicas/entrevista.md) | Agendamento de atendimento no CRAS        | [Introspecção](tecnicas/introspecção.md)/[Entrevista](tecnicas/entrevista.md)               | Não |
+| [RF31](tecnicas/entrevista.md) | Notificações Personalizadas               | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF32](tecnicas/entrevista.md) | Atualização Cadastral                     | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF33](tecnicas/entrevista.md) | Simulador de Benefícios                   | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF34](tecnicas/entrevista.md) | Chat de Atendimento                       | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF35](tecnicas/entrevista.md) | Tutoriais Interativos                     | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF36](tecnicas/entrevista.md) | Vídeos Explicativos                       | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF37](tecnicas/entrevista.md) | Assistência por Voz                       | [Entrevista](tecnicas/entrevista.md)                            | Não |
+| [RF38](tecnicas/introspecção.md) | Modo escuro                               | [Introspecção](tecnicas/introspecção.md)                          | Não |
 
 <center>
     Autor(es): 
@@ -71,26 +71,26 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 
 | ID    | Descrição                                          | Rastreabilidade                      | Implementado | 
 |:-----:| :------------------------------------------------: | :----------------------------------: | :----------: |
-| [RNF01](#6-desempenho) | Desempenho                                         | Análise de documentos                | Não |
-| RNF02 | Segurança                                          | Análise de documentos / Introspecção | Sim |
-| RNF03 | Escalabilidade                                     | Análise de documentos                | Sim |
-| RNF04 | Conformidade Legal                                 | Análise de documentos                | Sim |
-| [RNF05](#7-suportabilidade) | Acessibilidade                                     | Análise de documentos                | Não |
-| RNF06 | Disponibilidade                                    | Análise de documentos / Introspecção | Sim |
-| [RNF07](#7-suportabilidade) | Compatibilidade com Aplicativo Off-line            | Análise de documentos                | Não |
-| [RNF08](#7-suportabilidade) | Transmissão via Conectividade Social               | Análise de documentos                | Não |
-| RNF09 | Acesso Restrito                                    | Análise de documentos                | Sim |
-| [RNF10](#7-suportabilidade) | Integração MEI                                     | Análise de documentos                | Não |
-| RNF11 | Interface intuitiva e amigável                     | Introspecção, Entrevista             | Sim |
-| RNF12 | Suporte a grande base de usuários                  | Introspecção                         | Sim |
-| RNF13 | Integração com sistemas oficiais                   | Introspecção                         | Sim |
-| [RNF14](#4-usabilidade) | Usabilidade                                        | Introspecção                         | Não |
-| RNF15 | Compatibilidade com Dispositivos                   | Introspecção                         | Sim | 
-| [RNF16](#4-usabilidade) | Acessibilidade para pessoas com deficiência visual | Introspecção                         | Não |
-| [RNF17](#6-desempenho) | Desempenho otimizado para internet limitada        | Introspecção                         | Não |
-| [RNF18](#4-usabilidade) | Possibilidade de outros idiomas                    | Introspecção                         | Não |
-| [RNF19](#5-confiabilidade) | Backup e restauração de sessão                     | Introspecção                         | Não |
-| [RNF20](#5-confiabilidade) | Alta disponibilidade e recuperação de desastres    | Introspecção                         | Não |
+| [RNF01](tecnicas/analise_documentacao.md) | Desempenho                                         | [Análise de documentos](tecnicas/analise_documentacao.md)                | Não |
+| [RNF02](tecnicas/analise_documentacao.md) | Segurança                                          | [Análise de documentos](tecnicas/analise_documentacao.md) / [Introspecção](tecnicas/introspecção.md) | Sim |
+| [RNF03](tecnicas/analise_documentacao.md) | Escalabilidade                                     | [Análise de documentos](tecnicas/analise_documentacao.md)                | Sim |
+| [RNF04](tecnicas/analise_documentacao.md) | Conformidade Legal                                 | [Análise de documentos](tecnicas/analise_documentacao.md)                | Sim |
+| [RNF05](tecnicas/analise_documentacao.md) | Acessibilidade                                     | [Análise de documentos](tecnicas/analise_documentacao.md)                | Não |
+| [RNF06](tecnicas/analise_documentacao.md) | Disponibilidade                                    | [Análise de documentos](tecnicas/analise_documentacao.md) / [Introspecção](tecnicas/introspecção.md) | Sim |
+| [RNF07](tecnicas/analise_documentacao.md) | Compatibilidade com Aplicativo Off-line            | [Análise de documentos](tecnicas/analise_documentacao.md)                | Não |
+| [RNF08](tecnicas/analise_documentacao.md) | Transmissão via Conectividade Social               | [Análise de documentos](tecnicas/analise_documentacao.md)                | Não |
+| [RNF09](tecnicas/analise_documentacao.md) | Acesso Restrito                                    | [Análise de documentos](tecnicas/analise_documentacao.md)                | Sim |
+| [RNF10](tecnicas/analise_documentacao.md) | Integração MEI                                     | [Análise de documentos](tecnicas/analise_documentacao.md)                | Não |
+| [RNF11](tecnicas/introspecção.md) | Interface intuitiva e amigável                     | [Introspecção](tecnicas/introspecção.md), [Entrevista](tecnicas/entrevista.md)             | Sim |
+| [RNF12](tecnicas/introspecção.md) | Suporte a grande base de usuários                  | [Introspecção](tecnicas/introspecção.md)                         | Sim |
+| [RNF13](tecnicas/introspecção.md) | Integração com sistemas oficiais                   | [Introspecção](tecnicas/introspecção.md)                         | Sim |
+| [RNF14](tecnicas/introspecção.md) | Usabilidade                                        | [Introspecção](tecnicas/introspecção.md)                         | Não |
+| [RNF15](tecnicas/introspecção.md) | Compatibilidade com Dispositivos                   | [Introspecção](tecnicas/introspecção.md)                         | Sim | 
+| [RNF16](tecnicas/introspecção.md) | Acessibilidade para pessoas com deficiência visual | [Introspecção](tecnicas/introspecção.md)                         | Não |
+| [RNF17](tecnicas/introspecção.md) | Desempenho otimizado para internet limitada        | [Introspecção](tecnicas/introspecção.md)                         | Não |
+| [RNF18](tecnicas/introspecção.md) | Possibilidade de outros idiomas                    | [Introspecção](tecnicas/introspecção.md)                         | Não |
+| [RNF19](tecnicas/introspecção.md) | Backup e restauração de sessão                     | [Introspecção](tecnicas/introspecção.md)                         | Não |
+| [RNF20](tecnicas/introspecção.md) | Alta disponibilidade e recuperação de desastres    | [Introspecção](tecnicas/introspecção.md)                         | Não |
 
 
 <center>
@@ -104,3 +104,4 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0     | 04/05/2025 | Criação do Documento de Requisitos Elicitados |  [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.1     | 13/05/2025 | Padronização, formatação e mesclagem com documento de requisitos desejáveis | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.2     | 22/05/2025 | Adicionando hyperlinks nos requisitos para direcioná-los as técnicas em que foram elicitados | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Paulino](https://github.com/JuliaGabP) |
