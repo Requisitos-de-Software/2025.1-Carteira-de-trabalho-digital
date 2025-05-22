@@ -99,27 +99,24 @@ Nesta seção, são apresentados os requisitos de usabilidade do sistema, que vi
 
 <center><b>Tabela 3:</b> Requisitos de Usabilidade</center>
 
+| ID     | Descrição Mensurável                                                                                                                                                                                                                                                                                                                                 | Rastreabilidade | Justificativa                                                                                                 |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------|
+| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | O sistema deve apresentar uma interface intuitiva, com elementos visuais claros, organização lógica das informações e navegação simplificada, de modo que pelo menos 90% dos usuários consigam realizar as principais tarefas (cadastro, consulta e atualização de dados) sem auxílio externo em até 3 minutos.         | Introspecção    | Facilita o uso por pessoas com baixa familiaridade tecnológica, reduzindo erros e aumentando a satisfação.    |
+| [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  | O sistema deve ser totalmente acessível para pessoas com deficiência visual, incluindo: 100% das telas compatíveis com leitores de tela, navegação completa por teclado, contraste mínimo de 4.5:1 entre elementos, textos alternativos em todas as imagens e ajuste de tamanho de fonte em pelo menos 3 níveis distintos. | Introspecção    | Garante inclusão digital e atendimento à legislação de acessibilidade (ex: Lei Brasileira de Inclusão).       |
+| [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | O sistema deve oferecer suporte a, no mínimo, 2 idiomas (português e inglês), permitindo que o usuário selecione o idioma de preferência em até 2 cliques/taps, com 100% dos textos traduzidos e revisados.                                                                                                            | Introspecção    | Atende públicos diversos e amplia o alcance do sistema, facilitando o uso por estrangeiros e imigrantes.      |
 
-| ID     | Descrição                                        | Rastreabilidade         |
-|--------|-------------------------------------------------|------------------------|
-| [RNF14](../elicitacao/requisitos_elicitados.md#rnf14)  | O sistema deve apresentar uma interface intuitiva, com elementos visuais claros, organização lógica das informações e navegação simplificada                                      | Introspecção           |
-| [RNF16](../elicitacao/requisitos_elicitados.md#rnf16)  |  O sistema deve ser totalmente acessível para pessoas com deficiência visual, incluindo compatibilidade com leitores de tela, suporte a navegação por teclado, contraste adequado entre elementos, textos alternativos para imagens e possibilidade de ajuste de tamanho de fonte | Introspecção         |
-| [RNF18](../elicitacao/requisitos_elicitados.md#rnf18)  | O sistema deve oferecer suporte a múltiplos idiomas, permitindo que o usuário selecione o idioma de sua preferência                  | Introspecção           |
-
-
-<center>Fonte: Adaptado de Template da Especificação Suplementar por <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+<center>Fonte: <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ### 5. Confiabilidade
 
 Nesta seção, são apresentados os requisitos de confiabilidade do sistema, que visam garantir a segurança, privacidade e integridade dos dados. A confiabilidade é essencial para a confiança do usuário no aplicativo e para o cumprimento das normas legais. Abaixo está a Tabela 4 com os requisitos de confiabilidade.
 
-
 <center><b>Tabela 4:</b> Requisitos de Confiabilidade</center>
 
-| ID     | Descrição                                        | Rastreabilidade         |
-|--------|-------------------------------------------------|------------------------|
-| [RNF19](../elicitacao/requisitos_elicitados.md#rnf19)  | Backup e restauração de sessão                   | Introspecção           |
-| [RNF20](../elicitacao/requisitos_elicitados.md#rnf20)  | Alta disponibilidade e recuperação de desastres | Introspecção           |
+| ID     | Descrição Mensurável                                                                                                                                                                                                 | Rastreabilidade | Justificativa                                                                                   |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------|
+| [RNF19](../elicitacao/requisitos_elicitados.md#rnf19)  | O sistema deve realizar backup automático das sessões do usuário a cada 5 minutos e permitir restauração completa em até 2 minutos após falha, sem perda de dados inseridos até o último backup.                        | Introspecção    | Minimiza perdas de dados e garante continuidade do serviço em caso de falhas ou quedas de energia.|
+| [RNF20](../elicitacao/requisitos_elicitados.md#rnf20)  | O sistema deve garantir disponibilidade mínima de 99,5% ao mês e implementar mecanismos de recuperação automática em até 10 minutos após falhas críticas, com notificação ao usuário em caso de indisponibilidade.        | Introspecção    | Garante confiança do usuário e cumprimento de padrões de qualidade exigidos para serviços públicos.|
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
@@ -129,14 +126,12 @@ Requisitos que dizem respeito às condições que os requisitos devem operar. A 
 
 <center><b>Tabela 5:</b> Requisitos de Desempenho</center>
 
-
-| ID     | Descrição                                        | Rastreabilidade         |
-|--------|-------------------------------------------------|------------------------|
-| [RNF01](../elicitacao/requisitos_elicitados.md#rnf01)  | Desempenho de até 3 segundos de velocidade de acesso                                       | Análise de documentos  |
-| [RNF17](../elicitacao/requisitos_elicitados.md#rnf17)  | Desempenho otimizado para internet limitada      | Introspecção           |
+| ID     | Descrição Mensurável                                                                                                                                                                                                 | Rastreabilidade | Justificativa                                                                                   |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------|
+| [RNF01](../elicitacao/requisitos_elicitados.md#rnf01)  | O sistema deve apresentar tempo de resposta inferior a 3 segundos para carregamento de qualquer tela principal (cadastro, consulta, atualização) em 95% das tentativas, sob conexão 3G ou superior.                      | Análise de documentos | Garante fluidez no uso, reduzindo frustração e abandono do aplicativo.                         |
+| [RNF17](../elicitacao/requisitos_elicitados.md#rnf17)  | O sistema deve manter funcionamento básico (cadastro e consulta) com latência de até 500ms e perda de até 10% de pacotes, permitindo sincronização posterior dos dados quando a conexão for restabelecida.               | Introspecção    | Atende usuários em regiões com internet instável, ampliando o acesso ao serviço.               |
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
-
 
 ### 7. Suportabilidade
 
@@ -144,14 +139,12 @@ Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso in
 
 <center><b>Tabela 6:</b> Requisitos de Suportabilidade</center>
 
-
-
-| ID     | Descrição                                        | Rastreabilidade         |
-|--------|-------------------------------------------------|------------------------|
-| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | Acessibilidade geral, o sistema deve garantir acessibilidade geral, incluindo suporte a tecnologias assistivas                                  | Análise de documentos  |
-| [RNF07](../elicitacao/requisitos_elicitados.md#rnf07)  | Compatibilidade com Aplicativo Off-line          | Análise de documentos  |
-| [RNF08](../elicitacao/requisitos_elicitados.md#rnf08)  | Transmissão via Conectividade Social             | Análise de documentos  |
-| [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | Integração MEI                                   | Análise de documentos  |
+| ID     | Descrição Mensurável                                                                                                                                                                                                 | Rastreabilidade | Justificativa                                                                                   |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------|
+| [RNF05](../elicitacao/requisitos_elicitados.md#rnf05)  | O sistema deve garantir acessibilidade geral, incluindo suporte a pelo menos 3 tecnologias assistivas (leitores de tela, comandos por voz, alto contraste) em 100% das funcionalidades.                                   | Análise de documentos | Facilita manutenção e atualização para públicos diversos, promovendo inclusão digital.         |
+| [RNF07](../elicitacao/requisitos_elicitados.md#rnf07)  | O sistema deve ser compatível com funcionamento off-line, permitindo que pelo menos 80% das funcionalidades críticas sejam acessíveis sem conexão, com sincronização automática ao restabelecer a internet.               | Análise de documentos | Garante continuidade do serviço em áreas remotas ou com conectividade limitada.                |
+| [RNF08](../elicitacao/requisitos_elicitados.md#rnf08)  | O sistema deve permitir transmissão de dados via Conectividade Social, com taxa de sucesso mínima de 98% nas integrações realizadas mensalmente.                                                                         | Análise de documentos | Assegura integração eficiente com sistemas governamentais, evitando retrabalho e inconsistências.|
+| [RNF10](../elicitacao/requisitos_elicitados.md#rnf10)  | O sistema deve integrar-se ao MEI, realizando validação automática de dados em até 2 minutos e atualização em tempo real, com registro de logs de todas as operações de integração.                                     | Análise de documentos | Facilita manutenção, auditoria e atualização dos dados, garantindo conformidade legal.         |
 
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
@@ -285,3 +278,4 @@ A redistribuição e modificação do sistema estarão condicionadas aos termos 
 |  1.7   | 17/05/2025 |   Revisão e formatação final do documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.8   | 18/05/2025 |   Correção de erros ortográficos e tabela   | [Amanda Cruz](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 |  1.9   | 20/05/2025 |   Criação da tabela de funções   | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  2.0   | 21/05/2025 |   Refinamento das descrições de requisitos  | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Paulino](https://github.com/JuliaGabP) |
