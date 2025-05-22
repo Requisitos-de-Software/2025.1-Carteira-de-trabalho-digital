@@ -6,7 +6,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do documento; Composição do documento | 
 |[João Igor](https://github.com/JoaoPC10)|Criação do documento; Composição do documento| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Complementação de léxicos| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Complementação de léxicos relacionados a UC10, UC11 e UC12| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação da tabela de funções| 
 |[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
 <center>
@@ -77,13 +77,13 @@ As tabelas seguem o seguinte padrão estrutural:
 - Impacto: conotação ou efeito prático que sua aplicação produz no sistema.
 - Classificação: categoria do símbolo (Sujeito, Verbo, Objeto ou Estado).
 - Dicionário: sinônimos e expressões equivalentes.
-- Rastreamento: Código Caso de Uso/Cenário
+- Rastreabilidade: Código Caso de Uso/Cenário
 <br>
 <center> 
-    <b>Tabela 3:</b> Léxico para UC10 (Indicação de MEI no momento do cadastro)
+    <b>Tabela 3:</b> Léxico para UC10
 </center>  
 
-| **ID** | **Noção** | **Impacto** | **Classificação** | **Dicionário** | **Rastreamento** |
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
 |--------|-----------|-------------|------------------|----------------|------------------|
 | <a id="l-uc10-01"></a>L-UC10-01 | [MEI](#l-uc10-01) | Microempreendedor Individual - categoria empresarial simplificada | Permite identificação do perfil empresarial do [usuário](#l-uc10-04) no sistema | Objeto | UC10 |
 | <a id="l-uc10-02"></a>L-UC10-02 | [Indicar MEI](#l-uc10-02) | Ação de informar a condição de [MEI](#l-uc10-01) durante o [cadastro](#l-uc10-03) | Registra o perfil empresarial no sistema CadÚnico | Verbo | UC10 |
@@ -94,10 +94,10 @@ As tabelas seguem o seguinte padrão estrutural:
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 <br>
 <center> 
-    <b>Tabela 4:</b> Léxico para UC11 (Acesso a informações sobre MEI)
+    <b>Tabela 4:</b> Léxico para UC11
 </center>  
 
-| **ID** | **Noção** | **Impacto** | **Classificação** | **Dicionário** | **Rastreamento** |
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
 |--------|-----------|-------------|------------------|----------------|------------------|
 | <a id="l-uc11-01"></a>L-UC11-01 | [Seção MEI](#l-uc11-01) | Área específica do app dedicada a conteúdos sobre [MEI](#l-uc10-01) | Centraliza informações relevantes para microempreendedores | Objeto | UC11 |
 | <a id="l-uc11-02"></a>L-UC11-02 | [Consultar informações](#l-uc11-02) | Ação de acessar conteúdos informativos sobre [MEI](#l-uc10-01) | Proporciona conhecimento sobre direitos e deveres do [MEI](#l-uc10-01) | Verbo | UC11 |
@@ -110,10 +110,10 @@ As tabelas seguem o seguinte padrão estrutural:
 <center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 <br>
 <center>
-    <b>Tabela 5:</b> Léxico para UC12 (Personalização de conteúdos da seção MEI)
+    <b>Tabela 5:</b> Léxico para UC12
 </center> 
 
-| **ID** | **Noção** | **Impacto** | **Classificação** | **Dicionário** | **Rastreamento** |
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
 |--------|-----------|-------------|------------------|----------------|------------------|
 | <a id="l-uc12-01"></a>L-UC12-01 | [Personalização](#l-uc12-01) | Adaptação de conteúdos baseada no perfil do [usuário](#l-uc10-04) | Torna a experiência mais relevante e direcionada | Estado | UC12 |
 | <a id="l-uc12-02"></a>L-UC12-02 | [Setor de atuação](#l-uc12-02) | Área de atividade econômica do [MEI](#l-uc10-01) | Permite segmentação de [conteúdos](#l-uc12-04) específicos | Objeto | UC12 |
