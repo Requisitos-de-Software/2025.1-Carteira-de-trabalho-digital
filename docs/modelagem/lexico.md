@@ -6,7 +6,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do documento; Composição do documento | 
 |[João Igor](https://github.com/JoaoPC10)|Criação do documento; Composição do documento| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Complementação de léxicos| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Complementação de léxicos relacionados a UC10, UC11 e UC12| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação da tabela de funções| 
 |[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
 <center>
@@ -66,18 +66,64 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
     <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
-## Tabela de Léxicos – Adições por João Pedro Costa
+## Léxicos – Adições por João Pedro Costa
 
-| Léxico | Classificação | Sinônimos | Noção | Impacto |
-|:------:|:-------------:|:---------:|:-----:|:-------:|
-| [Acessar Aplicativo](#acessar-aplicativo) | Verbo | [Entrar no app](#acessar-aplicativo), [Logar no sistema](#acessar-aplicativo) | Ação do usuário de abrir o aplicativo do [Cadastro Único](#cadastro) em seu dispositivo móvel, por meio de autenticação via senha ou biometria. | Permite ao cidadão visualizar, acompanhar ou modificar dados, facilitando o acesso remoto aos serviços sociais. |
-| [Receber Notificação](#receber-notificação) | Verbo | [Ser avisado](#receber-notificação), [Receber alerta](#receber-notificação) | Recurso do aplicativo que envia mensagens automáticas ao usuário sobre prazos, atualizações de status do [cadastro](#cadastro) ou convocações para [entrevista](#realizar-entrevista). | Mantém o cidadão informado, reduzindo ausências e melhorando o cumprimento de exigências do sistema. |
-| [Anexar Documentos](#anexar-documentos) | Verbo | [Enviar arquivos](#anexar-documentos), [Fazer upload de documentos](#anexar-documentos) | Ação do usuário de carregar fotos ou arquivos digitais de [documentos pessoais](#documentos-pessoais) diretamente pelo aplicativo. | Permite completar ou atualizar o [cadastro](#cadastro) sem necessidade de comparecer presencialmente ao CRAS, tornando o processo mais acessível e ágil. |
+Esta seção apresenta os léxicos adicionais criados para os casos de uso UC10, UC11 e UC12, específicos para o contexto do Microempreendedor Individual no sistema CadÚnico. Estes léxicos têm como objetivo fornecer uma compreensão aprofundada dos termos utilizados, garantindo uniformidade conceitual e facilitando a comunicação.
 
+As tabelas seguem o seguinte padrão estrutural:
 
+- ID: identificador único do termo.
+- Noção: significado literal que o termo denota
+- Impacto: conotação ou efeito prático que sua aplicação produz no sistema.
+- Classificação: categoria do símbolo (Sujeito, Verbo, Objeto ou Estado).
+- Dicionário: sinônimos e expressões equivalentes.
+- Rastreabilidade: Código Caso de Uso/Cenário
+<br>
+<center> 
+    <b>Tabela 3:</b> Léxico para UC10
+</center>  
+
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
+|--------|-----------|-------------|------------------|----------------|------------------|
+| <a id="l-uc10-01"></a>L-UC10-01 | [MEI](#l-uc10-01) | Microempreendedor Individual - categoria empresarial simplificada | Permite identificação do perfil empresarial do [usuário](#l-uc10-04) no sistema | Objeto | UC10 |
+| <a id="l-uc10-02"></a>L-UC10-02 | [Indicar MEI](#l-uc10-02) | Ação de informar a condição de [MEI](#l-uc10-01) durante o [cadastro](#l-uc10-03) | Registra o perfil empresarial no sistema CadÚnico | Verbo | UC10 |
+| <a id="l-uc10-03"></a>L-UC10-03 | [Cadastro](#l-uc10-03) | Processo de criação de conta no app CadÚnico | Estabelece o perfil do [usuário](#l-uc10-04) no sistema | Estado | UC10 |
+| <a id="l-uc10-04"></a>L-UC10-04 | [Usuário](#l-uc10-04) | Pessoa física que utiliza o app CadÚnico | Interage com o sistema para realizar [cadastro](#l-uc10-03) | Sujeito | UC10 |
+| <a id="l-uc10-05"></a>L-UC10-05 | [Opção "Sou MEI"](#l-uc10-05) | Campo de seleção para [indicar](#l-uc10-02) condição de [MEI](#l-uc10-01) | Permite ao sistema categorizar o [usuário](#l-uc10-04) como [MEI](#l-uc10-01) | Objeto | UC10 |
+
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+<br>
+<center> 
+    <b>Tabela 4:</b> Léxico para UC11
+</center>  
+
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
+|--------|-----------|-------------|------------------|----------------|------------------|
+| <a id="l-uc11-01"></a>L-UC11-01 | [Seção MEI](#l-uc11-01) | Área específica do app dedicada a conteúdos sobre [MEI](#l-uc10-01) | Centraliza informações relevantes para microempreendedores | Objeto | UC11 |
+| <a id="l-uc11-02"></a>L-UC11-02 | [Consultar informações](#l-uc11-02) | Ação de acessar conteúdos informativos sobre [MEI](#l-uc10-01) | Proporciona conhecimento sobre direitos e deveres do [MEI](#l-uc10-01) | Verbo | UC11 |
+| <a id="l-uc11-03"></a>L-UC11-03 | [Usuário MEI](#l-uc11-03) | [Usuário](#l-uc10-04) com perfil registrado como Microempreendedor Individual | Tem acesso a conteúdos específicos para sua categoria | Sujeito | UC11 |
+| <a id="l-uc11-04"></a>L-UC11-04 | [Obrigações MEI](#l-uc11-04) | Deveres legais e fiscais do Microempreendedor Individual | Informa responsabilidades que o [MEI](#l-uc10-01) deve cumprir | Objeto | UC11 |
+| <a id="l-uc11-05"></a>L-UC11-05 | [Benefícios MEI](#l-uc11-05) | Vantagens e direitos do Microempreendedor Individual | Esclarece privilégios da categoria empresarial | Objeto | UC11 |
+| <a id="l-uc11-06"></a>L-UC11-06 | [Formalização](#l-uc11-06) | Processo de regularização como [MEI](#l-uc10-01) | Orienta sobre como se tornar [MEI](#l-uc10-01) legalmente | Estado | UC11 |
+| <a id="l-uc11-07"></a>L-UC11-07 | [Linhas de crédito](#l-uc11-07) | Opções de financiamento disponíveis para [MEI](#l-uc10-01) | Facilita acesso a recursos financeiros | Objeto | UC11 |
+
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+<br>
 <center>
-    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a> <br>
+    <b>Tabela 5:</b> Léxico para UC12
 </center> 
+
+| ID | Noção | Impacto | Classificação | Dicionário | Rastreabilidade |
+|--------|-----------|-------------|------------------|----------------|------------------|
+| <a id="l-uc12-01"></a>L-UC12-01 | [Personalização](#l-uc12-01) | Adaptação de conteúdos baseada no perfil do [usuário](#l-uc10-04) | Torna a experiência mais relevante e direcionada | Estado | UC12 |
+| <a id="l-uc12-02"></a>L-UC12-02 | [Setor de atuação](#l-uc12-02) | Área de atividade econômica do [MEI](#l-uc10-01) | Permite segmentação de [conteúdos](#l-uc12-04) específicos | Objeto | UC12 |
+| <a id="l-uc12-03"></a>L-UC12-03 | [Localização](#l-uc12-03) | Município e região onde o [MEI](#l-uc10-01) atua | Filtra [conteúdos](#l-uc12-04) regionais relevantes | Objeto | UC12 |
+| <a id="l-uc12-04"></a>L-UC12-04 | [Conteúdos segmentados](#l-uc12-04) | Informações filtradas por [setor](#l-uc12-02) e [região](#l-uc12-03) | Apresenta informações mais precisas ao [usuário](#l-uc10-04) | Objeto | UC12 |
+| <a id="l-uc12-05"></a>L-UC12-05 | [Editais](#l-uc12-05) | Chamadas públicas para [MEI](#l-uc10-01) por região/setor | Oferece oportunidades específicas do perfil | Objeto | UC12 |
+| <a id="l-uc12-06"></a>L-UC12-06 | [Sistema identifica](#l-uc12-06) | Ação automática de reconhecimento do perfil | Automatiza a [personalização](#l-uc12-01) sem intervenção manual | Verbo | UC12 |
+| <a id="l-uc12-07"></a>L-UC12-07 | [Interação com conteúdos](#l-uc12-07) | Ação do [usuário](#l-uc10-04) de engajar com as informações | Permite aproveitamento efetivo dos [conteúdos](#l-uc12-04) | Verbo | UC12 |
+
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
 
 ## Referências
 
@@ -100,4 +146,5 @@ O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos
 | 1.3 | 14/05/2025 | Criação de hiper links na tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.4 | 16/05/2025 | Criação de outros lexicos relacionados ao conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
 | 1.5 | 16/05/2025 | Corrigindo imagens | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.6 | 20/05/2025 | Criação da tabela de funções | [Julia Gabriela(https://github.com/JuliaGabP)] | [João Pedro Costa](https://github.com/johnaopedro)|
+| 1.6 | 20/05/2025 | Criação da tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP)] | [João Pedro Costa](https://github.com/johnaopedro)|
+| 1.7 | 22/05/2025 | Corrigindo conteúdo das tabelas de léxico de UC10, UC11 e UC12 | [João Pedro Costa](https://github.com/johnaopedro)| [Julia Gabriela](https://github.com/JuliaGabP) |
