@@ -21,8 +21,10 @@ Legenda - Tabela 1:
 | RF09  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            |
 | RF10  | Agendamento de atendimento no CRAS       | Possibilita o agendamento de atendimento nos postos de CRAS.             |
 <center>
-    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
+
+<!--TODO: merged requirements left most of these broken. Numeration must be updated else we Echo Sierra & Delta -->
 
 Legenda - Tabela 2:
  
@@ -39,7 +41,7 @@ Legenda - Tabela 2:
 | RNF08 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. |
 | RNF09 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. |
 <center>
-    Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## Requisitos desejáveis identificados na entrevista:
@@ -72,7 +74,7 @@ Legenda - Tabela 4:
 | RNF02  | Vídeos Explicativos            | Não funcional   | Vídeos explicativos dentro do app              | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 | RNF03  | Assistência por Voz            | Não funcional   | Ferramenta de assistência por voz para usuários necessitados | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.” |
 <center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
 ## Referências
@@ -87,3 +89,4 @@ Legenda - Tabela 4:
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 04/05/2025 | Adicionando requisitos desejáveis e tabelas removidas das outras documentações | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.1 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.2 | 25/05/2025 | Corrigindo autoria de tabelas          | [Ryan Salles](https://github.com/RA-Salles) | [Julia Gabriela](https://github.com/JuliaGabP) |
