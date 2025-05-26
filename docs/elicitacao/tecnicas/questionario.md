@@ -211,4 +211,4 @@ O vídeo abaixo refere-se à questionário descrita neste artefato, realizada no
 | 1.5 | 07/05/2025 | Adicionando imagem das referências |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
 | 1.6 | 08/05/2025 | Inserindo vídeo de apresentação |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
 | 1.7 | 09/05/2025 | Corrigindo link quebrado |[Julia Gabriela](https://github.com/JuliaGabP)              | [Ryan Salles](https://github.com/RA-Salles)     |
-| 1.8 | 26/05/2025 | Atualizações |[Julia Gabriela](https://github.com/JuliaGabP)              | [Ryan Salles](https://github.com/RA-Salles)     |
+| 1.8 | 26/05/2025 | Atualizações |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)     |
