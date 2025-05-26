@@ -1,8 +1,21 @@
 # Personas
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Criação do documento e das personas| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão Geral| 
+|[Ryan Salles](https://github.com/RA-Salles)|Formatação| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
-Este documento visa documentar a criação das **Personas** para o aplicativo do **Cadastro Único**, como parte do processo de elicitação de requisitos. 
+Este documento visa documentar a criação das **Personas** para o aplicativo do **Cadastro Único**, como parte do processo de elicitação de requisitos. Obtivemos algumas dificuldades em encontrar usuários dispostos a realizarem entrevistas, principalmente pessoalmente, pelo fato de que se sentem expostos em falar que recebem auxílio, logo criamos as personas para casos de emergências, quando não conseguirmos realizar reuniões.
 
 ## Metodologia
 
@@ -156,4 +169,5 @@ Este documento apresentou as Personas do aplicativo do Cadastro Único, observan
 | 1.1   | 25/04/2025 | Modificando as personas | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.2   | 26/04/2025 | Formatação, links       | [Ryan Salles](https://github.com/RA-Salles)| [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.3   | 28/04/2025 | Unificando e modificando antipersonas | [Amanda Cruz](https://github.com/RA-Salles)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.4   | 26/05/2025 | Criando tabela de funções e adicionando motivação| [Julia Gabriela](https://github.com/JuliaGabP)| [João Pedro Costa](https://github.com/johnaopedro) |
 
