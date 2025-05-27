@@ -59,21 +59,21 @@ Legenda - Tabela 2:
 
 <center> <b>Tabela 2:</b> Requisitos Funcionais </center>
 
-| **ID** | **Requisito Funcional** | **Descrição** |
-|:------:|:-----------------------:|:-------------:|
-| RF01   | Cadastro de Famílias    | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais. |
-| RF02   | Cadastro de Pessoas     | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.  |
-| RF03   | Cadastro de Domicílios  | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.  |
-| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda. |
-| RF05   | Atualização de Dados | Permitir a atualização diária dos dados das famílias cadastradas. |
-| RF06   | Processamento de Dados | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.|
-| RF07   | Correção de Inconsistências  | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.  |
-| RF08   | Consulta de Dados | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS. |
-| RF09   | Relatórios e Divulgação | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade. |
-| RF10   | Formulários de Coleta  | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
-| RF11   | Cadastro MEI    | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI. |
-| RF12   | Informações MEI    | Conter seção de informações sobre microempreendedorismo individual. |
-| RF13   | Personalização MEI | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua. |
+| **ID** | **Requisito Funcional**             | **Descrição**                                                                                                                                                                              |
+| :----: | :---------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| RF01   | Cadastro de Famílias                | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais.                                                                  |
+| RF02   | Cadastro de Pessoas                 | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.                                                            |
+| RF03   | Cadastro de Domicílios              | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.                                                    |
+| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                          |
+| RF05   | Atualização de Dados                | Permitir a atualização diária dos dados das famílias cadastradas.                                                                                                                          |
+| RF06   | Processamento de Dados              | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.                                             |
+| RF07   | Correção de Inconsistências         | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.                                                                                              |
+| RF08   | Consulta de Dados                   | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS.                                                                           |
+| RF09   | Relatórios e Divulgação             | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade.    |
+| RF10   | Formulários de Coleta               | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
+| RF11   | Cadastro MEI                        | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI.                                                                                                |
+| RF12   | Informações MEI                     | Conter seção de informações sobre microempreendedorismo individual.                                                                                                                        |
+| RF13   | Personalização MEI                  | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua.                                            |
 
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
