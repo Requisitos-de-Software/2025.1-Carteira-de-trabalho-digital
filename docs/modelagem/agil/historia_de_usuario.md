@@ -5,7 +5,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das referências| 
-| [João Igor](https://github.com/JoaoPC10)||
+| [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3 á 16|
 |[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
 <center>
     Autor(es): 
@@ -133,13 +133,13 @@ O objetivo deste documento é:
 - **Então** não informa justificativa de ativação/inativação e aciona opção de confirmação  
 - **Então** o sistema apresenta mensagem "O campo justificativa não foi preenchido."
 
----
+----------------------------------------------------------------------------------
 
 ### EU_002 - Gerenciar Idiomas do Candidato
 
 #### 1. DESCRIÇÃO
 
-**Objetivo:** Permitir que usuários incluam, consultem e alterem informações sobre idiomas dos candidatos no sistema.
+**Objetivo:** O sistema deve permitir que usuários incluam, consultem e alterem informações sobre idiomas dos candidatos no sistema.
 
 **Perfil(s):** Operador do Sistema, Gestor de RH
 
@@ -185,7 +185,121 @@ O objetivo deste documento é:
 - **E** aciono o botão salvar
 - **Então** o sistema apresenta mensagem "Selecione pelo menos um idioma"
 
----
+-------------------------------------------------------------------------------------
+## Lista de Histórias de Usuário
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_003 | 
+| **Título** | Filtrar informações sobre benefícios socias | 
+| **Objetivo** | O sistema deve fornecer um filtro para os serviços prestados, auxiliando a busca do usuário | 
+| **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN07](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_004 | 
+| **Título** | Alteração de Dados Cadastrais | 
+| **Objetivo** | O sistema deve permitir que o beneficiário altere seus dados pessoais durante o uso da sessão do aplicativo | 
+| **Perfil(s)** | Pessoas cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN02](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_005 | 
+| **Título** | Realizar Cadastro no Aplicativo | 
+| **Objetivo** | O sistema deve permitir que o beneficiário se cadastre na plaforma sem a necessidade da validação presencial | 
+| **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
+| **Critérios de Aceite** | [CN03](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_006 | 
+| **Título** | Conferir Informações sobre Benefícios | 
+| **Objetivo** | O sistema deve permitir que o usuário consiga visualizar os benefícios prestados pelo governo | 
+| **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN04](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_007 | 
+| **Título** | Verificar Postos de Atendimento | 
+| **Objetivo** | O sistema deve permitir que o beneficiário consiga visualizar o local, dia e horário que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN05](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_008 | 
+| **Título** | Dispor de ChatBot | 
+| **Objetivo** | O sistema deve dispor de um chatbot(assistente virtual de perguntas e respostas) para sanar as dúvidas dos beneficiários de maneira mais eficiente | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN08](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_009 | 
+| **Título** | Dispor de um Modo Escuro| 
+| **Objetivo** | O sistema deve dispor de um Modo Escuro, aonde se dever inverter as cores do aplicativo, tornando-o melhor usável em ambientes escuros | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN09](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_010 | 
+| **Título** | Registro da condição de MEI| 
+| **Objetivo** | O sistema deve possuir um campo, na área de cadastro, para informar se o usuário que está se cadastrando é um MEI| 
+| **Perfil(s)** | Pessoas que não são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN10](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_011 | 
+| **Título** | Consulta de Informações MEI| 
+| **Objetivo** | O sistema deve informar sobre as obrigações, direitos e oportunidades relacionadas ao MEI| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN11](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_012 | 
+| **Título** | Exibição de Informações personalisadas MEI| 
+| **Objetivo** | O sistema deve sugerir informações ao MEI, baseadas na sua área de atuação e localização| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN12](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_013 | 
+| **Título** | Assimilação constante MEI| 
+| **Objetivo** | O sistema deve manter atualizado o cadastro MEI do usuário, automaticamente, sem a necessidade da inserção manual das novas informações| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN13](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_014 | 
+| **Título** | Agendamento no CRAS| 
+| **Objetivo** | O sistema deve que o usuário agende sua consulta no CRAS| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN14](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_015 | 
+| **Título** | Acesso a Tutoriais Interativos| 
+| **Objetivo** | O sistema deve fornecer ao beneficiário um seção com vídeos interativos e explicativos, para a melhor compreenssão dos programas sociais disponíveis e como utilizá-los| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN15](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+| Campo | Descrição | 
+|-------|-----------|
+| **ID** | EU_016 | 
+| **Título** | Upload de documentos obrigatórios| 
+| **Objetivo** | O sistema deve permitir que o usuário envie seus documentos comprobatórios para análise, sem a necessidade da presença em uma unidade do CRAS| 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Critérios de Aceite** | [CN16](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
 ## Referências
 
 > COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.
@@ -196,3 +310,4 @@ O objetivo deste documento é:
 | :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 22/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
