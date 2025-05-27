@@ -1,11 +1,24 @@
 # Questionário
+
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral | 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento e desenvolvimento do questionário| 
+|[Ryan Salles](https://github.com/RA-Salles)|Desenvolvimento do questionário; Revisão geral; Adição dos requisitos elicitados| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 Esse documento tem o propósito de apresentar os resultados do questionário realizado pelo grupo 4 para a matéria de Requisitos de Software lecionada durante o período de 2025.1 pelo docente André Barros de Sales. O questionário é uma técnica estruturada usada para coletar informações de um conjunto de stakeholders (usuários, clientes, especialistas, etc.). Ele é composto por uma série de perguntas (fechadas, abertas ou mistas) que podem ser aplicadas presencialmente, por e-mail ou online.  
 
 O presente questionário foi elaborado com o propósito de conhecer mais sobre os usuários do aplicativo Cadastro Único para compreender por quê ele existe, quais suas principais funcionalidades e quais dificuldades os usuários possivelmente poderiam ter ao utilizar o aplicativo. Todos os dados foram coletados com o consentimento dos usuários e nenhum dado sensível (tais como nome, cpf, telefones, e-mails). 40 respostas válidas foram contabilizadas, no total.
 
 ## Gráficos dos resultados
-Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados
+Essa seção apresentará os resultados em formato de gráficos para facilitar a visualização dos dados. O questionário foi enviado em grupos de auxílio da UnB, onde estudantes que necessitem de auxilio governamental estão presentes, aumentando a chance de que sejam usuários do aplicativo Cadastro Único. As respostas foram obtidas do dia 27 de abril de 2025 até o dia 04 de maio de 2025. Infelizmente quando fizemos o questionário cometemos o equívoco de excluir respostas de pessoas que poderiam ser possíveis usuários do sistema, pois focamos apenas em pessoas que atualmente fazem uso do aplicativo, desconsiderando aqueles que também poderiam ter direito aos auxílios.
 Gráfico sobre o consentimento de compartilhar as respostas a seguir  
 **Gráfico 1: Aprova do termo de consentimento**  
 <img src="../../../assets/grafico1.png" alt="Gráfico 1">
@@ -198,3 +211,4 @@ O vídeo abaixo refere-se à questionário descrita neste artefato, realizada no
 | 1.5 | 07/05/2025 | Adicionando imagem das referências |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
 | 1.6 | 08/05/2025 | Inserindo vídeo de apresentação |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)    |
 | 1.7 | 09/05/2025 | Corrigindo link quebrado |[Julia Gabriela](https://github.com/JuliaGabP)              | [Ryan Salles](https://github.com/RA-Salles)     |
+| 1.8 | 26/05/2025 | Atualizações |[Julia Gabriela](https://github.com/JuliaGabP)              | [João Pedro Costa](https://github.com/johnaopedro)     |
