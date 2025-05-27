@@ -171,6 +171,17 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 
 ## NFR 03 - Desempenho
 
+## RNF 07 - Julia Gabriela
+
+## RNF 16 - João Pedro
+
+## RNF 17
+
+## RNF 18
+
+## RNF 19
+
+## RNF 20
 
 ## Rastreabilidade
 
@@ -194,6 +205,7 @@ Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível 
 | Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
 | :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
 |  1.0   | 22/05/2025 |   Criação do Documento; estruturação e início do preenchimento de dados | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
-|  1.1   | 22/05/2025 |   Preenchimento softgoal e criação dos cartões de especificação | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.1   | 22/05/2025 |   Preenchimento softgoal e criação dos cartões de especificação | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
+|  1.2   | 27/05/2025 |   Definição de requisito por pessoa | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 
 
