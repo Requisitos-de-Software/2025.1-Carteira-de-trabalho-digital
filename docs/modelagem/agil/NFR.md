@@ -166,22 +166,39 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 ## NFR 00 - Geral
 
 ## NFR 01 - Usabilidade
+**RNF 07 - Julia Gabriela**  
+O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
+**RNF 16 - João Pedro**
+**RNF 18 - Amanda**
+
+### Requisitos não funcionais - usabilidade  
+Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
+**Tabela X - Requisitos Não-Funcionais Usabilidade**
+|RNF(Fonte)|Descrição|Classificação|Origem|
+|----------|---------|-------------|------|
+|[RNF07](../../elicitacao/requisitos_elicitados.md)|Compatibilidade com Aplicativo Off-line|Compatibilidade|Análise de documentos|
+|[RNF16](../../elicitacao/requisitos_elicitados.md)|Acessibilidade para deficientes visuais|Acessibilidade|Introspecção|
+|[RNF18](../../elicitacao/requisitos_elicitados.md)|Possibilidade de outros idioma|Internacionalização|Introspecção|
+
+### Propagação dos impactos - usabilidade
+A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
 ## NFR 02 - Eficiência
+**RNF 19 - João Igor**
+**RNF 20 - Ryan**
+
+### Requisitos não funcionais - eficiência
+
+### Propagação dos impactos - eficiência
+
 
 ## NFR 03 - Desempenho
+**RNF 17 - Gabriel**
 
-## RNF 07 - Julia Gabriela
+### Requisitos não funcionais - desempenho
 
-## RNF 16 - João Pedro
+### Propagação dos impactos - desempenho
 
-## RNF 17
-
-## RNF 18
-
-## RNF 19
-
-## RNF 20
 
 ## Rastreabilidade
 
