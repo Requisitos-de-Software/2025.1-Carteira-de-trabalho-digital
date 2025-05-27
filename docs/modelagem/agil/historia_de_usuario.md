@@ -192,7 +192,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_003 | 
 | **Título** | Filtrar informações sobre benefícios socias | 
-| **Objetivo** | O sistema deve fornecer um filtro para os serviços prestados, auxiliando a busca do usuário | 
+| **Objetivo** | Eu como usuário gostaria de filtrar os serviços prestados, auxiliando minha busca | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN07](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -200,7 +200,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_004 | 
 | **Título** | Alteração de Dados Cadastrais | 
-| **Objetivo** | O sistema deve permitir que o beneficiário altere seus dados pessoais durante o uso da sessão do aplicativo | 
+| **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN02](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -208,7 +208,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_005 | 
 | **Título** | Realizar Cadastro no Aplicativo | 
-| **Objetivo** | O sistema deve permitir que o beneficiário se cadastre na plaforma sem a necessidade da validação presencial | 
+| **Objetivo** | Eu como usuário gostaria de me cadastrar na plaforma sem a necessidade da validação presencial | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
 | **Critérios de Aceite** | [CN03](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -216,7 +216,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_006 | 
 | **Título** | Conferir Informações sobre Benefícios | 
-| **Objetivo** | O sistema deve permitir que o usuário consiga visualizar os benefícios prestados pelo governo | 
+| **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN04](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -224,7 +224,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_007 | 
 | **Título** | Verificar Postos de Atendimento | 
-| **Objetivo** | O sistema deve permitir que o beneficiário consiga visualizar o local, dia e horário que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
+| **Objetivo** | Eu como usuário gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN05](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -232,7 +232,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_008 | 
 | **Título** | Dispor de ChatBot | 
-| **Objetivo** | O sistema deve dispor de um chatbot(assistente virtual de perguntas e respostas) para sanar as dúvidas dos beneficiários de maneira mais eficiente | 
+| **Objetivo** | Eu como usuário gostaria de dispor de um chatbot(assistente virtual de perguntas e respostas) para sanar minhas dúvidas de maneira mais eficiente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN08](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -240,7 +240,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_009 | 
 | **Título** | Dispor de um Modo Escuro| 
-| **Objetivo** | O sistema deve dispor de um Modo Escuro, aonde se dever inverter as cores do aplicativo, tornando-o melhor usável em ambientes escuros | 
+| **Objetivo** |Eu como usuário gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN09](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -248,7 +248,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_010 | 
 | **Título** | Registro da condição de MEI| 
-| **Objetivo** | O sistema deve possuir um campo, na área de cadastro, para informar se o usuário que está se cadastrando é um MEI| 
+| **Objetivo** | Eu como usuário gostaria de um campo, na área de cadastro, para informar que sou um MEI| 
 | **Perfil(s)** | Pessoas que não são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN10](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -256,7 +256,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_011 | 
 | **Título** | Consulta de Informações MEI| 
-| **Objetivo** | O sistema deve informar sobre as obrigações, direitos e oportunidades relacionadas ao MEI| 
+| **Objetivo** | Eu como usuário gostaria de ser informado sobre as obrigações, direitos e oportunidades relacionadas ao MEI| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN11](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -264,7 +264,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_012 | 
 | **Título** | Exibição de Informações personalisadas MEI| 
-| **Objetivo** | O sistema deve sugerir informações ao MEI, baseadas na sua área de atuação e localização| 
+| **Objetivo** | Eu como usuário gostaria de saber as informações vinculadas ao MEI, baseadas na sua área de atuação e localização| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN12](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -272,7 +272,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_013 | 
 | **Título** | Assimilação constante MEI| 
-| **Objetivo** | O sistema deve manter atualizado o cadastro MEI do usuário, automaticamente, sem a necessidade da inserção manual das novas informações| 
+| **Objetivo** | Eu como usuário gostaria de manter atualizado o meu cadastro MEI, automaticamente, sem a necessidade da inserção manual das novas informações| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN13](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -280,7 +280,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_014 | 
 | **Título** | Agendamento no CRAS| 
-| **Objetivo** | O sistema deve que o usuário agende sua consulta no CRAS| 
+| **Objetivo** | Eu como usuário gostaria de agendar uma consulta no CRAS| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN14](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -288,7 +288,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_015 | 
 | **Título** | Acesso a Tutoriais Interativos| 
-| **Objetivo** | O sistema deve fornecer ao beneficiário um seção com vídeos interativos e explicativos, para a melhor compreenssão dos programas sociais disponíveis e como utilizá-los| 
+| **Objetivo** | Eu como usuário gostaria de uma seção com vídeos interativos e explicativos, para a melhor compreenssão dos programas sociais disponíveis e como utilizá-los| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN15](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
@@ -296,7 +296,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_016 | 
 | **Título** | Upload de documentos obrigatórios| 
-| **Objetivo** | O sistema deve permitir que o usuário envie seus documentos comprobatórios para análise, sem a necessidade da presença em uma unidade do CRAS| 
+| **Objetivo** | Eu como usuário gostaria de enviar meus documentos comprobatórios para análise, sem a necessidade da presença em uma unidade do CRAS| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN16](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
