@@ -7,7 +7,7 @@ REQUISITOS JA USADOS: 1,2,3 11, 12, 26, 30
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências| 
-| [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3 á 16|
+| [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9|
 |[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
 <center>
     Autor(es): 
@@ -66,6 +66,7 @@ O objetivo deste documento é:
 
 ## 6. Histórias de Usuário
 
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_003 – Filtrar informações sobre benefícios socias
 
 | Campo | Descrição | 
@@ -77,7 +78,7 @@ O objetivo deste documento é:
 | **Critérios de Aceite** | [CN07](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
 ---
-
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_004 – Alteração de Dados Cadastrais
 
 | Campo | Descrição | 
@@ -89,7 +90,7 @@ O objetivo deste documento é:
 | **Critérios de Aceite** | [CN02](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
 ---
-
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_005 – Realizar Cadastro no Aplicativo
 
 | Campo | Descrição | 
@@ -101,7 +102,7 @@ O objetivo deste documento é:
 | **Critérios de Aceite** | [CN03](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
 ---
-
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_006 – Conferir Informações sobre Benefícios
 
 | Campo | Descrição | 
@@ -113,7 +114,7 @@ O objetivo deste documento é:
 | **Critérios de Aceite** | [CN04](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
 ---
-
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_007 – Verificar Postos de Atendimento
 
 | Campo | Descrição | 
@@ -126,7 +127,7 @@ O objetivo deste documento é:
 
 ---
 
-
+**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_009 – Dispor de um Modo Escuro
 
 | Campo | Descrição | 
