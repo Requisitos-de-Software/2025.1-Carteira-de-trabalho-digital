@@ -64,7 +64,7 @@ O objetivo deste documento é:
 
 ## 6. Histórias de Usuário
 
-##
+### EU_003 – Filtrar informações sobre benefícios socias
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -74,6 +74,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN07](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_004 – Alteração de Dados Cadastrais
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_004 | 
@@ -81,6 +85,10 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN02](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_005 – Realizar Cadastro no Aplicativo
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -90,6 +98,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
 | **Critérios de Aceite** | [CN03](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_006 – Conferir Informações sobre Benefícios
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_006 | 
@@ -97,6 +109,10 @@ O objetivo deste documento é:
 | **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN04](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_007 – Verificar Postos de Atendimento
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -106,6 +122,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN05](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_008 – Dispor de ChatBot
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_008 | 
@@ -113,6 +133,10 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de dispor de um chatbot(assistente virtual de perguntas e respostas) para sanar minhas dúvidas de maneira mais eficiente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN08](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_009 – Dispor de um Modo Escuro
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -122,6 +146,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN09](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_010 – Registro da condição de MEI
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_010 | 
@@ -129,6 +157,10 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de um campo, na área de cadastro, para informar que sou um MEI| 
 | **Perfil(s)** | Pessoas que não são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN10](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_011 – Consulta de Informações MEI
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -138,6 +170,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN11](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_012 – Exibição de Informações personalisadas MEI
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_012 | 
@@ -145,6 +181,10 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de saber as informações vinculadas ao MEI, baseadas na sua área de atuação e localização| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN12](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_013 – Assimilação constante MEI
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -154,6 +194,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN13](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_014 – Agendamento no CRAS
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_014 | 
@@ -161,6 +205,10 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de agendar uma consulta no CRAS| 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN14](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+
+---
+
+### EU_015 – Acesso a Tutoriais Interativos
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -170,6 +218,10 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN15](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+---
+
+### EU_016 – Upload de documentos obrigatórios
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_016 | 
@@ -178,7 +230,7 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN16](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
-## 5. Modelo de História de Usuário
+---
 
 ### História EU_019 – Cadastro MEI
 
