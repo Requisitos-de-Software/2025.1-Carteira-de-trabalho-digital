@@ -1,5 +1,7 @@
 # Documento de Histórias de Usuário
 
+REQUISITOS JA USADOS: 1,2,3 11, 12, 26, 30
+
 ## Funções dos autores
 
 | Nome                 | Função                                                            | 
@@ -124,17 +126,6 @@ O objetivo deste documento é:
 
 ---
 
-### EU_008 – Dispor de ChatBot
-
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_008 | 
-| **Título** | Dispor de ChatBot | 
-| **Objetivo** | Eu como usuário gostaria de dispor de um chatbot(assistente virtual de perguntas e respostas) para sanar minhas dúvidas de maneira mais eficiente | 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN08](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
----
 
 ### EU_009 – Dispor de um Modo Escuro
 
@@ -145,30 +136,6 @@ O objetivo deste documento é:
 | **Objetivo** |Eu como usuário gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN09](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
----
-
-### EU_010 – Registro da condição de MEI
-
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_010 | 
-| **Título** | Registro da condição de MEI| 
-| **Objetivo** | Eu como usuário gostaria de um campo, na área de cadastro, para informar que sou um MEI| 
-| **Perfil(s)** | Pessoas que não são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN10](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
----
-
-### EU_011 – Consulta de Informações MEI
-
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_011 | 
-| **Título** | Consulta de Informações MEI| 
-| **Objetivo** | Eu como usuário gostaria de ser informado sobre as obrigações, direitos e oportunidades relacionadas ao MEI| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN11](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
 ---
 
@@ -196,17 +163,6 @@ O objetivo deste documento é:
 
 ---
 
-### EU_014 – Agendamento no CRAS
-
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_014 | 
-| **Título** | Agendamento no CRAS| 
-| **Objetivo** | Eu como usuário gostaria de agendar uma consulta no CRAS| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN14](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
----
 
 ### EU_015 – Acesso a Tutoriais Interativos
 
@@ -242,7 +198,7 @@ O objetivo deste documento é:
 |**Título**|Registro da condição de MEI no cadastro do usuário|
 |**Objetivo**|Eu, como usuário em processo de cadastro no CadÚnico, quero informar que sou Microempreendedor Individual para receber conteúdos e serviços direcionados.|
 |**Perfil(s)**|Usuário em processo de cadastro no CadÚnico|
-|**Critérios de Aceite**|- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional. <br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
+|**Critérios de Aceite**|- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional. <br> Para mais detalhes cheque o cenário: [CN10](../../modelagem/cenarios.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF11](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -259,7 +215,7 @@ O objetivo deste documento é:
 |**Título**|Acesso a conteúdos informativos sobre microempreendedorismo|
 |**Objetivo**|Eu, como usuário MEI autenticado no CadÚnico, quero acessar informações sobre obrigações, direitos e oportunidades para me informar melhor.|
 |**Perfil(s)**|Usuário MEI autenticado no CadÚnico|
-|**Critérios de Aceite**|- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
+|**Critérios de Aceite**|- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.<br> Para mais detalhes cheque o cenário: [CN11](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF12](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -276,7 +232,7 @@ O objetivo deste documento é:
 |**Título**|Chat de Atendimento|
 |**Objetivo**|Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.|
 |**Perfil(s)**|Usuário|
-|**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
+|**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.<br> Para mais detalhes cheque o cenário: [CN08](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF26](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -293,7 +249,7 @@ O objetivo deste documento é:
 |**Título**|Agendamento no CRAS|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero realizar o agendamento de atendimento no CRAS para evitar filas e facilitar o processo.|
 |**Perfil(s)**|Usuário do CadÚnico|
-|**Critérios de Aceite**|- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
+|**Critérios de Aceite**|- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.<br> Para mais detalhes cheque o cenário: [CN14](../../modelagem/cenarios.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF30](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -310,7 +266,7 @@ O objetivo deste documento é:
 |**Título**|Cadastro de Famílias|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero cadastrar famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais para garantir o acesso aos benefícios.|
 |**Perfil(s)**|Usuário do CadÚnico|
-|**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
+|**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF01](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -327,7 +283,7 @@ O objetivo deste documento é:
 | **Título**          | Cadastro de Pessoas  |
 | **Objetivo**        | Eu, como usuário do CadÚnico, quero registrar informações pessoais, como dados de identificação, documentação, frequência escolar e grau de instrução para compor corretamente o cadastro familiar. |
 | **Perfil(s)**       | Usuário do CadÚnico  |
-| **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md) |
+| **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais.|
 | **Prioridade**      | Alta  |
 |**Rastreabilidade**|[RF02](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -362,4 +318,4 @@ O objetivo deste documento é:
 |  1.0   | 22/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 10 a 16 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
