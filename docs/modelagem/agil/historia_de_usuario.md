@@ -55,138 +55,16 @@ O objetivo deste documento é:
 |-------|-----------|-------------|
 | **ID** | Identificador único da história (formato: EU_XXX) | Sim |
 | **Título** | Nome descritivo da funcionalidade | Sim |
-| **Objetivo** | Descrição clara do propósito da história | Sim |
+| **Objetivo** | Descrição clara do propósito da história do ponto de vista do usuário | Sim |
 | **Perfil(s)** | Usuários que utilizarão a funcionalidade | Sim |
-| **Fluxo de Negócio** | Representação visual do processo | Não |
-| **Protótipo** | Esboço da interface ou comportamento | Não |
-| **Especificação do Protótipo** | Detalhamento dos campos e componentes | Não |
-| **Sistemas/Histórias Relacionadas** | Dependências e integrações | Não |
-| **Critérios de Aceite** | Cenários de teste e validação | Sim |
+| **Critérios de Aceite** | - xxx - xxx| Sim |
 | **Prioridade** | Alta, Média ou Baixa | Sim |
-| **Estimativa** | Story Points ou horas | Sim |
-| **Sprint** | Sprint de desenvolvimento planejada | Não |
-| **Status** | Backlog, Em Desenvolvimento, Concluída | Sim |
+| **Rastreabilidade** | Rastreabilidade do requisito |
+| **Implementado** | Se esta ou não |
 
 ## 6. Histórias de Usuário
 
-### EU_001 - Gerenciar Status de Servidor no Quadro de Acesso
-
-#### 1. DESCRIÇÃO
-
-**Objetivo:** Permitir que administradores ativem e inativem servidores no quadro de acesso do sistema, mantendo histórico das alterações com justificativas.
-
-**Perfil(s):** Administrador do Sistema
-
-#### 2. FLUXO DE NEGÓCIO
-
-```
-[Administrador] → [Acessar Quadro de Acesso] → [Selecionar Servidor] → [Escolher Ação] → [Inativar/Ativar] → [Inserir Justificativa] → [Confirmar] → [Sistema Atualiza Status]
-```
-
-#### 3. PROTÓTIPO
-
-*Interface com lista de servidores, botões de ação e modal de justificativa*
-
-#### 3.1 ESPECIFICAÇÃO DO PROTÓTIPO
-
-| Campo | Descrição |
-|-------|-----------|
-| Lista de Servidores | Tabela com nome, matrícula, status atual e ações disponíveis |
-| Botão Inativar | Disponível apenas para servidores ativos |
-| Botão Ativar | Disponível apenas para servidores inativos |
-| Campo Justificativa | Campo de texto obrigatório para informar motivo da alteração |
-| Botão Confirmar | Executa a ação após validação dos campos |
-| Mensagem de Sucesso | Feedback visual da operação realizada |
-
-#### 4. SISTEMAS E/OU HISTÓRIAS IMPACTADAS E/OU RELACIONADAS
-
-- EU_002 - Consultar Histórico de Alterações
-- EU_003 - Relatório de Servidores por Status
-- Sistema de Auditoria - Log de Operações
-
-#### 5. CRITÉRIOS DE ACEITE
-
-**Cenário 01: Inativar Servidor Quadro Acesso (Administrador)**
-- **Descrição:** Dado que necessita inativar registro de servidor ao quadro de acesso  
-- **Quando:** em "Quadro de Acesso"  
-- **E** seleciona registro de candidato que deseja inativar  
-- **E** aciona opção de inativação  
-- **Então** o sistema apresenta campo de justificativa  
-- **Então** informa justificativa de inativação e aciona opção de confirmação  
-- **Então** o sistema apresenta o registro como inativo e a mensagem "Servidor Inativado com sucesso."
-
-**Cenário 02: Ativar Servidor Inativo no Quadro Acesso (Administrador)**
-- **Descrição:** Dado que necessita ativar registro de servidor inativo no quadro de acesso  
-- **Quando:** em "Quadro de Acesso"  
-- **E** seleciona registro de candidato que deseja ativar  
-- **E** aciona opção de ativação  
-- **Então** o sistema apresenta campo de justificativa  
-- **Então** informa justificativa de ativação e aciona opção de confirmação  
-- **Então** o sistema apresenta o registro como ativo e a mensagem "Servidor Ativado com sucesso."
-
-**Cenário 03: Validação Campo Obrigatório - Justificativa**
-- **Descrição:** Dado que necessita ativar/inativar registro de servidor no quadro de acesso  
-- **Quando:** em "Quadro de Acesso"  
-- **E** seleciona registro de candidato que deseja ativar/inativar  
-- **E** aciona opção de ativação/inativação  
-- **Então** o sistema apresenta campo de justificativa  
-- **Então** não informa justificativa de ativação/inativação e aciona opção de confirmação  
-- **Então** o sistema apresenta mensagem "O campo justificativa não foi preenchido."
-
-----------------------------------------------------------------------------------
-
-### EU_002 - Gerenciar Idiomas do Candidato
-
-#### 1. DESCRIÇÃO
-
-**Objetivo:** O sistema deve permitir que usuários incluam, consultem e alterem informações sobre idiomas dos candidatos no sistema.
-
-**Perfil(s):** Operador do Sistema, Gestor de RH
-
-#### 2. FLUXO DE NEGÓCIO
-
-```
-[Usuário] → [Acessar Dados do Candidato] → [Seção Idiomas] → [Incluir/Consultar/Alterar] → [Selecionar Idiomas] → [Salvar] → [Sistema Confirma Operação]
-```
-
-#### 3. PROTÓTIPO
-
-*Interface com seleção múltipla de idiomas conforme portaria nº 147 do MAPA*
-
-#### 3.1 ESPECIFICAÇÃO DO PROTÓTIPO
-
-| Campo | Descrição |
-|-------|-----------|
-| Incluir Idioma | Título da seção para adicionar novos idiomas |
-| Lista de Idiomas | Seleção múltipla com opções: Espanhol, Francês, Japonês, Russo, Mandarim e Árabe |
-| Campo Obrigatório | Pelo menos um idioma deve ser selecionado |
-| Botão Salvar | Confirma a inclusão/alteração dos idiomas |
-
-#### 4. SISTEMAS E/OU HISTÓRIAS IMPACTADAS E/OU RELACIONADAS
-
-- EU_007 - Consultar Idiomas do Candidato
-- EU_009 - Alterar Idiomas do Candidato  
-- EU_011 - Anexar Documentos
-
-#### 5. CRITÉRIOS DE ACEITE
-
-**Cenário 01: Incluir Idiomas com Sucesso**
-- **Descrição:** Dado que preciso incluir idiomas para um candidato
-- **Quando** acesso a seção de idiomas do candidato
-- **E** seleciono um ou mais idiomas da lista disponível
-- **E** aciono o botão salvar
-- **Então** o sistema registra os idiomas selecionados
-- **E** apresenta mensagem "Idiomas incluídos com sucesso"
-
-**Cenário 02: Validação de Seleção Obrigatória**
-- **Descrição:** Dado que preciso incluir idiomas para um candidato
-- **Quando** acesso a seção de idiomas do candidato
-- **E** não seleciono nenhum idioma
-- **E** aciono o botão salvar
-- **Então** o sistema apresenta mensagem "Selecione pelo menos um idioma"
-
--------------------------------------------------------------------------------------
-## Lista de Histórias de Usuário
+##
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -300,9 +178,130 @@ O objetivo deste documento é:
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 | **Critérios de Aceite** | [CN16](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
 
+## 5. Modelo de História de Usuário
+
+### História EU_019 – Cadastro MEI
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_019|
+|**Título**|Registro da condição de MEI no cadastro do usuário|
+|**Objetivo**|Eu, como usuário em processo de cadastro no CadÚnico, quero informar que sou Microempreendedor Individual para receber conteúdos e serviços direcionados.|
+|**Perfil(s)**|Usuário em processo de cadastro no CadÚnico|
+|**Critérios de Aceite**|- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF11](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_020 – Acesso a conteúdos informativos sobre MEI
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_020|
+|**Título**|Acesso a conteúdos informativos sobre microempreendedorismo|
+|**Objetivo**|Eu, como usuário MEI autenticado no CadÚnico, quero acessar informações sobre obrigações, direitos e oportunidades para me informar melhor.|
+|**Perfil(s)**|Usuário MEI autenticado no CadÚnico|
+|**Critérios de Aceite**|- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF12](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_021 – Chat de Atendimento
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_021|
+|**Título**|Chat de Atendimento|
+|**Objetivo**|Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.|
+|**Perfil(s)**|Usuário|
+|**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF26](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_022 – Agendamento no CRAS
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_022|
+|**Título**|Agendamento no CRAS|
+|**Objetivo**|Eu, como usuário do CadÚnico, quero realizar o agendamento de atendimento no CRAS para evitar filas e facilitar o processo.|
+|**Perfil(s)**|Usuário do CadÚnico|
+|**Critérios de Aceite**|- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF30](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_023 – Cadastro de Famílias
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_023|
+|**Título**|Cadastro de Famílias|
+|**Objetivo**|Eu, como usuário do CadÚnico, quero cadastrar famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais para garantir o acesso aos benefícios.|
+|**Perfil(s)**|Usuário do CadÚnico|
+|**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF01](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_024 – Cadastro de Pessoas
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_024|
+| **Título**          | Cadastro de Pessoas  |
+| **Objetivo**        | Eu, como usuário do CadÚnico, quero registrar informações pessoais, como dados de identificação, documentação, frequência escolar e grau de instrução para compor corretamente o cadastro familiar. |
+| **Perfil(s)**       | Usuário do CadÚnico  |
+| **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais. |
+| **Prioridade**      | Alta  |
+|**Rastreabilidade**|[RF02](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
+---
+
+### História EU_025 – Cadastro de Domicílios
+
+**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_025|
+|**Título**|Cadastro de Domicílios|
+|**Objetivo**|Eu, como usuário, quero registrar características do meu domicílio para que meu perfil tenha informações completas sobre minha residência.|
+|**Perfil(s)**|Usuário do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve permitir o registro do tipo de construção.<br>- Registrar informações sobre abastecimento de água.<br>- Registrar tipo de iluminação.<br>- Registrar escoamento sanitário.<br>- Validar os dados informados e salvar no perfil.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF03](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+
 ## Referências
 
 > COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.
+
+> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. Acesso em: 28 de maio 2025.
 
 ## Histórico de Versão
 
@@ -311,3 +310,4 @@ O objetivo deste documento é:
 |  1.0   | 22/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 10 a 16 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
