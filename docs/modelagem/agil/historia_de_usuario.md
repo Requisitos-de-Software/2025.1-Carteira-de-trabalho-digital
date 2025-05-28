@@ -4,7 +4,7 @@
 
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das referências| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências| 
 | [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3 á 16|
 |[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
 <center>
@@ -190,7 +190,7 @@ O objetivo deste documento é:
 |**Título**|Registro da condição de MEI no cadastro do usuário|
 |**Objetivo**|Eu, como usuário em processo de cadastro no CadÚnico, quero informar que sou Microempreendedor Individual para receber conteúdos e serviços direcionados.|
 |**Perfil(s)**|Usuário em processo de cadastro no CadÚnico|
-|**Critérios de Aceite**|- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional.|
+|**Critérios de Aceite**|- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional. <br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF11](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -207,7 +207,7 @@ O objetivo deste documento é:
 |**Título**|Acesso a conteúdos informativos sobre microempreendedorismo|
 |**Objetivo**|Eu, como usuário MEI autenticado no CadÚnico, quero acessar informações sobre obrigações, direitos e oportunidades para me informar melhor.|
 |**Perfil(s)**|Usuário MEI autenticado no CadÚnico|
-|**Critérios de Aceite**|- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.|
+|**Critérios de Aceite**|- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF12](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -224,7 +224,7 @@ O objetivo deste documento é:
 |**Título**|Chat de Atendimento|
 |**Objetivo**|Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.|
 |**Perfil(s)**|Usuário|
-|**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.|
+|**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF26](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -241,7 +241,7 @@ O objetivo deste documento é:
 |**Título**|Agendamento no CRAS|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero realizar o agendamento de atendimento no CRAS para evitar filas e facilitar o processo.|
 |**Perfil(s)**|Usuário do CadÚnico|
-|**Critérios de Aceite**|- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.|
+|**Critérios de Aceite**|- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF30](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -258,7 +258,7 @@ O objetivo deste documento é:
 |**Título**|Cadastro de Famílias|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero cadastrar famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais para garantir o acesso aos benefícios.|
 |**Perfil(s)**|Usuário do CadÚnico|
-|**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.|
+|**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF01](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -275,7 +275,7 @@ O objetivo deste documento é:
 | **Título**          | Cadastro de Pessoas  |
 | **Objetivo**        | Eu, como usuário do CadÚnico, quero registrar informações pessoais, como dados de identificação, documentação, frequência escolar e grau de instrução para compor corretamente o cadastro familiar. |
 | **Perfil(s)**       | Usuário do CadÚnico  |
-| **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais. |
+| **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md) |
 | **Prioridade**      | Alta  |
 |**Rastreabilidade**|[RF02](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -292,7 +292,7 @@ O objetivo deste documento é:
 |**Título**|Cadastro de Domicílios|
 |**Objetivo**|Eu, como usuário, quero registrar características do meu domicílio para que meu perfil tenha informações completas sobre minha residência.|
 |**Perfil(s)**|Usuário do CadÚnico|
-|**Critérios de Aceite**|- O sistema deve permitir o registro do tipo de construção.<br>- Registrar informações sobre abastecimento de água.<br>- Registrar tipo de iluminação.<br>- Registrar escoamento sanitário.<br>- Validar os dados informados e salvar no perfil.|
+|**Critérios de Aceite**|- O sistema deve permitir o registro do tipo de construção.<br>- Registrar informações sobre abastecimento de água.<br>- Registrar tipo de iluminação.<br>- Registrar escoamento sanitário.<br>- Validar os dados informados e salvar no perfil.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF03](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
