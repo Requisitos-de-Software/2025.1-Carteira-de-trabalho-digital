@@ -44,14 +44,14 @@ Legenda - Tabela 1:
 - RFx: Requisitos Funcionais nºx.
 
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
-| RF    | Nome do RF                                | Descrição                                                                 | Implementado |
-|-------|-------------------------------------------|---------------------------------------------------------------------------|--------------|
-| RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim |
-| RF02  | Atualização de Dados                      | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais a qualquer momento. | Sim |
-| RF03  | Consultar Situação Cadastral              | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício. | Sim |
-| RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado. | Sim |
-| RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados. | Sim |
-| RF06  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            | Não |
+| RF    | Nome do RF                                | Descrição                                                                                                                                  | Implementado |
+|-------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim          |
+| RF02  | Atualização de Dados                      | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais a qualquer momento.                                                 | Sim          |
+| RF03  | Consultar Situação Cadastral              | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício.                                   | Sim          |
+| RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                            | Sim          |
+| RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                 | Sim          |
+| RF06  | Upload de documentos                      | Permite ao usuário fazer upload de documentos para o sistema.                                                                              | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -61,15 +61,15 @@ Legenda - Tabela 2:
 - RNFx: Requisitos Não-Funcionais nºx.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
-| RNF   | Nome do RNF                              | Descrição                                                                 | Implementado |
-|-------|------------------------------------------|---------------------------------------------------------------------------|--------------|
-| RNF01 | Usabilidade                              | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência. | Sim |
-| RNF02 | Segurança                                | O sistema deve garantir a segurança dos dados pessoais dos usuários, utilizando criptografia e práticas de segurança adequadas. | Sim |
-| RNF03 | Performance                              | O sistema deve ser capaz de processar as informações de cadastro e consultas rapidamente, com tempo de resposta inferior a 3 segundos. | Não |
-| RNF04 | Compatibilidade com Dispositivos         | O aplicativo deve ser compatível com as principais plataformas móveis (Android e iOS). | Sim |
-| RNF05 | Disponibilidade                          | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo. | Não |
-| RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. | Não |
-| RNF07 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.| Não |
+| RNF   | Nome do RNF                                        | Descrição                                                                                                                              | Implementado |
+|-------|------------------------------------------          |---------------------------------------------------------------------------                                                             |--------------|
+| RNF01 | Usabilidade                                        | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência.            | Sim          |
+| RNF02 | Segurança                                          | O sistema deve garantir a segurança dos dados pessoais dos usuários, utilizando criptografia e práticas de segurança adequadas.        | Sim          |
+| RNF03 | Performance                                        | O sistema deve ser capaz de processar as informações de cadastro e consultas rapidamente, com tempo de resposta inferior a 3 segundos. | Não          |
+| RNF04 | Compatibilidade com Dispositivos                   | O aplicativo deve ser compatível com as principais plataformas móveis (Android e iOS).                                                 | Sim          |
+| RNF05 | Disponibilidade                                    | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo.                                      | Não          |
+| RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                       | Não          |
+| RNF07 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -85,19 +85,19 @@ Legenda - Tabela 3:
 
 <center><b>Tabela 3:</b> Requisitos Funcionais</center>
 
-| RF    | Nome do RF                          | Descrição                                                                 | Implementado |
-|-------|--------------------------------------|---------------------------------------------------------------------------|--------------|
-| RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              | Sim |
-| RF02  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      | Sim |
-| RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         | Sim |
-| RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     | Sim |
-| RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          | Sim |
-| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.           | Não |
-| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.| Sim |
-| RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      | Não |
-| RF09 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Sim |
-| RF10 | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. | Não |
-<center>
+| RF    | Nome do RF                                | Descrição                                                                 | Implementado |
+|-------|--------------------------------------     |---------------------------------------------------------------------------|--------------|
+| RF01  | Consultar dados cadastrais                | Permite ao usuário visualizar seus dados no Cadastro Único.                                                      | Sim |
+| RF02  | Pré-cadastrar família                     | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                                              | Sim |
+| RF03  | Localizar postos de atendimento           | Mostra os CRAS mais próximos com base na localização do usuário.                                                 | Sim |
+| RF04  | Enviar notificações                       | Permite o envio de mensagens importantes ao usuário por meio do app.                                             | Sim |
+| RF05  | Integrar com o CNIS                       | Traz dados de vínculos e contribuições automaticamente do CNIS.                                                  | Sim |
+| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.                                                  | Não |
+| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                      | Sim |
+| RF08  | Simulador de benefícios sociais           | Permite ao usuário simular quais benefícios sociais poderia receber.                                             | Não |
+| RF09  | Modo escuro                               | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Sim |
+| RF10  | Possibilidade de outros idiomas           | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                           | Não |
+<center> 
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
