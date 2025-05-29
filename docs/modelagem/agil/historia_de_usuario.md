@@ -1,6 +1,6 @@
 # Documento de Histórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 26, 27, 29, 30, 
+REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
 
 ## Funções dos autores
 
@@ -8,7 +8,7 @@ REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 26, 27, 29, 30,
 |----------------------|----------------------------------------------------------------   |
 |[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências| 
 | [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9|
-|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral; Criação de 6 histórias de usuário| 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -140,52 +140,105 @@ O objetivo deste documento é:
 
 ---
 
-### EU_012 – Exibição de Informações personalisadas MEI
+### História EU_0X – Possibilidade de outros idiomas
 
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_012 | 
-| **Título** | Exibição de Informações personalisadas MEI| 
-| **Objetivo** | Eu como usuário gostaria de saber as informações vinculadas ao MEI, baseadas na sua área de atuação e localização| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN12](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Possibilidade de outros idiomas|
+|**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo em outro idioma.|
+|**Perfil(s)**|Usuários gerais do CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de alterar o idioma do aplicativo, de forma que ele fique conciso <br> Para mais detalhes cheque a introspecção: [IS16](../../modelagem/introspecção.md)|
+|**Prioridade**|Baixa|
+|**Rastreabilidade**|[RF39](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+---
+
+### História EU_0X – Modo escuro
+
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Modo escuro|
+|**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo na forma escura.|
+|**Perfil(s)**|Usuários gerais do CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de configurar para seu aplicativo ficar no modo escuro, de forma que o constraste de cores continue com qualidade <br> Para mais detalhes cheque a introspecção: [IS15](../../modelagem/introspecção.md)|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF38](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
 
 ---
 
-### EU_013 – Assimilação constante MEI
 
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_013 | 
-| **Título** | Assimilação constante MEI| 
-| **Objetivo** | Eu como usuário gostaria de manter atualizado o meu cadastro MEI, automaticamente, sem a necessidade da inserção manual das novas informações| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN13](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+### História EU_0X– Visualização de informações cadastrais
 
----
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
-
-### EU_015 – Acesso a Tutoriais Interativos
-
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_015 | 
-| **Título** | Acesso a Tutoriais Interativos| 
-| **Objetivo** | Eu como usuário gostaria de uma seção com vídeos interativos e explicativos, para a melhor compreenssão dos programas sociais disponíveis e como utilizá-los| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN15](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Visualização de informações cadastrais|
+|**Objetivo**|Eu, como usuário desejo poder visualizar minhas informações cadastrais|
+|**Perfil(s)**|Usuários cadastrados no CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de visualizar suas informações cadastrais <br> Para mais detalhes cheque a entrevista: [ENT2](../../modelagem/entrevista.md)|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF25](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 
 ---
 
-### EU_016 – Upload de documentos obrigatórios
+### História EU_0X– Consulta de benefícios
 
-| Campo | Descrição | 
-|-------|-----------|
-| **ID** | EU_016 | 
-| **Título** | Upload de documentos obrigatórios| 
-| **Objetivo** | Eu como usuário gostaria de enviar meus documentos comprobatórios para análise, sem a necessidade da presença em uma unidade do CRAS| 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN16](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Consulta de benefícios|
+|**Objetivo**|Eu, como usuário desejo consultar a situação do meu benefício|
+|**Perfil(s)**|Usuários com benefícios no CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de visualizar as situações de seus benefícios. <br> Para mais detalhes cheque a entrevista: [ENT1](../../modelagem/entrevista.md)|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+
+---
+
+### História EU_0X– Emissão de comprovante de cadastro
+
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Emissão de comprovante de cadastro|
+|**Objetivo**|Eu, como usuário desejo poder emitir um comprovante de cadastro no sistema|
+|**Perfil(s)**|Usuários cadastrados no CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário cadastrado deve ser capaz de emitir um comprovante de cadastro no sistema. <br> Para mais detalhes cheque a introspecção: [IS9](../../modelagem/introspecção.md)|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF22](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+
+---
+
+### História EU_0X– Atualização de dados
+
+**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_0X|
+|**Título**|Atualização de dados|
+|**Objetivo**|Eu, como usuário desejo poder atualizar os meus dados no sistema|
+|**Perfil(s)**|Usuários cadastrados no CadÚnico|
+|**Critérios de Aceite**|- . Qualquer usuário cadastrado deve ser capaz atualizar seus dados pelo sistema. <br> Para mais detalhes cheque a introspecção: [IS7](../../modelagem/introspecção.md)|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF20](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 
 ---
 
@@ -320,3 +373,4 @@ O objetivo deste documento é:
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
