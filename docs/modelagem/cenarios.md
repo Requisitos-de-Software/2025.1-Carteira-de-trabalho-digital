@@ -398,24 +398,24 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
     <b> Tabela 18:</b> Rastreabilidade Cenário-Requisito  
 </center>
 
-| Cenário | Requisito |
-| :-----: | :-------: |
-| CN01     | RF24     |
-| CN02     | RF05     |
-| CN03     | RF02     |
-| CN04     | RF24     |
-| CN05     | RF16     |
-| CN06     | RF06     |
-| CN07     | RF23     |
-| CN08     | RF26     |
-| CN09     | RF38     |
-| CN10     | RF11     |
-| CN11     | RF12     |
-| CN12     | RF13     |
-| CN13     | RNF10    |
-| CN14     | RF30     |
-| CN15     | RF35     |
-| CN16     | RF29     |
+| Cenário  | Requisito   |
+| :------: | :---------: |
+| CN01     | RF24        |
+| CN02     | RF05        |
+| CN03     | RF02        |
+| CN04     | RF24        |
+| CN05     | RF16        |
+| CN06     | RF06        |
+| CN07     | RF23        |
+| CN08     | RF26        |
+| CN09     | RF38        |
+| CN10     | RF11        |
+| CN11     | RF12        |
+| CN12     | RF13        |
+| CN13     | RF11, RF13  |
+| CN14     | RF30        |
+| CN15     | RF35        |
+| CN16     | RF29        |
 
 <center>
     Autor(es): 
