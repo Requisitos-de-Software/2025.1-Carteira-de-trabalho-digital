@@ -1,6 +1,6 @@
 # Documento de Histórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3 11, 12, 26, 30
+REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 26, 27, 29, 30, 
 
 ## Funções dos autores
 
