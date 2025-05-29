@@ -162,7 +162,7 @@ Legenda - Tabela 6:
 | ID   | RNF   | Nome do RNF                                        | Descrição                                                                                                | Implementado |
 |------|-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------|
 | IS17 | RNF14 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
-| IS18 | RNF03 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
+| IS18 | RNF12 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
 | IS19 | RNF13 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
 | IS20 | RNF14 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
 | IS21 | RNF02 | Segurança                                          | Uso de criptografia e proteção de dados sensíveis.                                                       | Sim          |
