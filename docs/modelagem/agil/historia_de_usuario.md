@@ -67,11 +67,11 @@ O objetivo deste documento é:
 ## 6. Histórias de Usuário
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_003 – Filtrar informações sobre benefícios socias
+### EU_01 – Filtrar informações sobre benefícios socias
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_003 | 
+| **ID** | EU_01 | 
 | **Título** | Filtrar informações sobre benefícios socias | 
 | **Objetivo** | Eu como usuário gostaria de filtrar os serviços prestados, auxiliando minha busca | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
@@ -79,11 +79,11 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_004 – Alteração de Dados Cadastrais
+### EU_02 – Alteração de Dados Cadastrais
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_004 | 
+| **ID** | EU_02 | 
 | **Título** | Alteração de Dados Cadastrais | 
 | **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
@@ -91,11 +91,11 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_005 – Realizar Cadastro no Aplicativo
+### EU_03 – Realizar Cadastro no Aplicativo
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_005 | 
+| **ID** | EU_03 | 
 | **Título** | Realizar Cadastro no Aplicativo | 
 | **Objetivo** | Eu como usuário gostaria de me cadastrar na plaforma sem a necessidade da validação presencial | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
@@ -103,11 +103,11 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_006 – Conferir Informações sobre Benefícios
+### EU_04 – Conferir Informações sobre Benefícios
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_006 | 
+| **ID** | EU_04 | 
 | **Título** | Conferir Informações sobre Benefícios | 
 | **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
@@ -115,11 +115,11 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_007 – Verificar Postos de Atendimento
+### EU_05 – Verificar Postos de Atendimento
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_007 | 
+| **ID** | EU_05 | 
 | **Título** | Verificar Postos de Atendimento | 
 | **Objetivo** | Eu como usuário gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
@@ -128,11 +128,11 @@ O objetivo deste documento é:
 ---
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_009 – Dispor de um Modo Escuro
+### EU_06 – Dispor de um Modo Escuro
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_009 | 
+| **ID** | EU_06 | 
 | **Título** | Dispor de um Modo Escuro| 
 | **Objetivo** |Eu como usuário gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
@@ -140,13 +140,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_0X – Possibilidade de outros idiomas
+### História EU_07 – Possibilidade de outros idiomas
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_07|
 |**Título**|Possibilidade de outros idiomas|
 |**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo em outro idioma.|
 |**Perfil(s)**|Usuários gerais do CadÚnico|
@@ -156,13 +156,13 @@ O objetivo deste documento é:
 |**Implementado**|Não|
 ---
 
-### História EU_0X – Modo escuro
+### História EU_08 – Modo escuro
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_08|
 |**Título**|Modo escuro|
 |**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo na forma escura.|
 |**Perfil(s)**|Usuários gerais do CadÚnico|
@@ -174,13 +174,13 @@ O objetivo deste documento é:
 ---
 
 
-### História EU_0X– Visualização de informações cadastrais
+### História EU_09– Visualização de informações cadastrais
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_09|
 |**Título**|Visualização de informações cadastrais|
 |**Objetivo**|Eu, como usuário desejo poder visualizar minhas informações cadastrais|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
@@ -191,13 +191,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_0X– Consulta de benefícios
+### História EU_10– Consulta de benefícios
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_10|
 |**Título**|Consulta de benefícios|
 |**Objetivo**|Eu, como usuário desejo consultar a situação do meu benefício|
 |**Perfil(s)**|Usuários com benefícios no CadÚnico|
@@ -208,13 +208,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_0X– Emissão de comprovante de cadastro
+### História EU_11– Emissão de comprovante de cadastro
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_11|
 |**Título**|Emissão de comprovante de cadastro|
 |**Objetivo**|Eu, como usuário desejo poder emitir um comprovante de cadastro no sistema|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
@@ -225,13 +225,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_0X– Atualização de dados
+### História EU_12– Atualização de dados
 
 **Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_0X|
+|**ID**|EU_12|
 |**Título**|Atualização de dados|
 |**Objetivo**|Eu, como usuário desejo poder atualizar os meus dados no sistema|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
@@ -242,13 +242,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_019 – Cadastro MEI
+### História EU_13 – Cadastro MEI
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_019|
+|**ID**|EU_13|
 |**Título**|Registro da condição de MEI no cadastro do usuário|
 |**Objetivo**|Eu, como usuário em processo de cadastro no CadÚnico, quero informar que sou Microempreendedor Individual para receber conteúdos e serviços direcionados.|
 |**Perfil(s)**|Usuário em processo de cadastro no CadÚnico|
@@ -259,13 +259,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_020 – Acesso a conteúdos informativos sobre MEI
+### História EU_14 – Acesso a conteúdos informativos sobre MEI
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_020|
+|**ID**|EU_14|
 |**Título**|Acesso a conteúdos informativos sobre microempreendedorismo|
 |**Objetivo**|Eu, como usuário MEI autenticado no CadÚnico, quero acessar informações sobre obrigações, direitos e oportunidades para me informar melhor.|
 |**Perfil(s)**|Usuário MEI autenticado no CadÚnico|
@@ -276,13 +276,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_021 – Chat de Atendimento
+### História EU_15 – Chat de Atendimento
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_021|
+|**ID**|EU_15|
 |**Título**|Chat de Atendimento|
 |**Objetivo**|Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.|
 |**Perfil(s)**|Usuário|
@@ -293,13 +293,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_022 – Agendamento no CRAS
+### História EU_16 – Agendamento no CRAS
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_022|
+|**ID**|EU_16|
 |**Título**|Agendamento no CRAS|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero realizar o agendamento de atendimento no CRAS para evitar filas e facilitar o processo.|
 |**Perfil(s)**|Usuário do CadÚnico|
@@ -310,13 +310,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_023 – Cadastro de Famílias
+### História EU_17 – Cadastro de Famílias
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_023|
+|**ID**|EU_17|
 |**Título**|Cadastro de Famílias|
 |**Objetivo**|Eu, como usuário do CadÚnico, quero cadastrar famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais para garantir o acesso aos benefícios.|
 |**Perfil(s)**|Usuário do CadÚnico|
@@ -327,13 +327,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_024 – Cadastro de Pessoas
+### História EU_18 – Cadastro de Pessoas
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_024|
+|**ID**|EU_18|
 | **Título**          | Cadastro de Pessoas  |
 | **Objetivo**        | Eu, como usuário do CadÚnico, quero registrar informações pessoais, como dados de identificação, documentação, frequência escolar e grau de instrução para compor corretamente o cadastro familiar. |
 | **Perfil(s)**       | Usuário do CadÚnico  |
@@ -344,13 +344,13 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_025 – Cadastro de Domicílios
+### História EU_19 – Cadastro de Domicílios
 
 **Autor**: [João Pedro Costa](https://github.com/johnaopedro)
 
 |Campo|Descrição|
 |------|---------|
-|**ID**|EU_025|
+|**ID**|EU_19|
 |**Título**|Cadastro de Domicílios|
 |**Objetivo**|Eu, como usuário, quero registrar características do meu domicílio para que meu perfil tenha informações completas sobre minha residência.|
 |**Perfil(s)**|Usuário do CadÚnico|
@@ -373,4 +373,4 @@ O objetivo deste documento é:
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
