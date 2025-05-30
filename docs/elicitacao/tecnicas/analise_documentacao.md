@@ -76,6 +76,7 @@ Legenda - Tabela 2:
 | AD11   | RF11   | Cadastro MEI                        | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI.                                                                                                |
 | AD12   | RF12   | Informações MEI                     | Conter seção de informações sobre microempreendedorismo individual.                                                                                                                        |
 | AD13   | RF13   | Personalização MEI                  | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua.                                            |
+| AD14   | RF40   | Integração MEI                      | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                              |
 
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -93,16 +94,15 @@ Legenda - Tabela 3:
 
 | **ID**| **RF** | **Requisito Não Funcional**              | **Descrição**                                                                                                                                                                        |
 | :---: | :----: |:---------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| AD14  | RNF01  | Desempenho                               | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.                                                                                                         |
-| AD15  | RNF02  | Segurança                                | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados. |
-| AD16  | RNF03  | Escalabilidade                           | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                          |
-| AD17  | RNF04  | Conformidade Legal                       | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                           |
-| AD18  | RNF05  | Acessibilidade                           | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                        |
-| AD19  | RNF06  | Disponibilidade                          | Garantir que o sistema esteja disponível para uso diário.                                                                                                                            |
-| AD20  | RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                 |
-| AD21  | RNF08  | Transmissão via Conectividade Social     | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                       |
-| AD22  | RNF09  | Acesso Restrito                          | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                   |
-| AD23  | RNF10  | Integração MEI                           | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                        |
+| AD15  | RNF01  | Desempenho                               | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.                                                                                                         |
+| AD16  | RNF02  | Segurança                                | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados. |
+| AD17  | RNF03  | Escalabilidade                           | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                          |
+| AD18  | RNF04  | Conformidade Legal                       | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                           |
+| AD19  | RNF05  | Acessibilidade                           | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                        |
+| AD20  | RNF06  | Disponibilidade                          | Garantir que o sistema esteja disponível para uso diário.                                                                                                                            |
+| AD21  | RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                 |
+| AD22  | RNF08  | Transmissão via Conectividade Social     | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                       |
+| AD23  | RNF09  | Acesso Restrito                          | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                   |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>

@@ -161,17 +161,17 @@ Legenda - Tabela 6:
 
 | ID   | RNF   | Nome do RNF                                        | Descrição                                                                                                | Implementado |
 |------|-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------|
-| IS17 | RNF14 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
-| IS18 | RNF12 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
-| IS19 | RNF13 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
-| IS20 | RNF14 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
+| IS17 | RNF10 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
+| IS18 | RNF11 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
+| IS19 | RNF12 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
+| IS20 | RNF13 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
 | IS21 | RNF02 | Segurança                                          | Uso de criptografia e proteção de dados sensíveis.                                                       | Sim          |
 | IS22 | RNF01 | Performance                                        | Resposta rápida nas interações do usuário (até 3 segundos).                                              | Não          |
-| IS23 | RNF05 | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                            | Sim          |
-| IS24 | RNF08 | Disponibilidade                                    | Garantia de 99% de disponibilidade com mínimas interrupções.                                             | Sim          |
-| IS25 | RNF09 | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não          |
-| IS26 | RNF10 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.         | Sim          |
-| IS27 | RNF11 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.  | Não          |
+| IS23 | RNF14 | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                            | Sim          |
+| IS24 | RNF06 | Disponibilidade                                    | Garantia de 99% de disponibilidade com mínimas interrupções.                                             | Sim          |
+| IS25 | RNF17 | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não          |
+| IS26 | RNF15 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.         | Sim          |
+| IS27 | RNF16 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.  | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>

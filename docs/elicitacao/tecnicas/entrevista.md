@@ -131,8 +131,8 @@ Legenda - Tabela 2:
 
 | ID    | RFN   | Nome do Requisito               | Tipo            | Descrição                                | Trecho original                                                                                     | Implementado |
 |-------|-------|---------------------------------|-----------------|------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------|
-| ENT11 | RNF11 | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”                         | Não          |
-| ENT12 | RNF11 | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” | Não          |
+| ENT11 | RNF10 | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”                         | Não          |
+| ENT12 | RNF10 | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” | Não          |
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
