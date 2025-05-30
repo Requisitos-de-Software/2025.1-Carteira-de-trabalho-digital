@@ -1,5 +1,17 @@
 # Perfil de Usuário
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Criação do documento e desenvolvimento do perfil do usuário| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Correção de links| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral e criação da tabela de funções| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
 Este artefato tem por fim traçar um **perfil de usuário**, com o objetivo de compreender as características e necessidades dos indivíduos para os quais o sistema está sendo projetado. Segundo **Barbosa e Silva** (2021), o perfil de usuário é construído a partir de dados como cargo, função, faixa etária e nível de instrução, com a finalidade de agrupar usuários com características semelhantes. Além disso, **Hackos e Redish** (1998) destacam que o perfil inclui informações sobre a relação do usuário com a tecnologia e o conhecimento sobre as tarefas a serem realizadas, facilitando a criação de sistemas mais eficientes e alinhados às necessidades reais dos usuários.
@@ -147,4 +159,5 @@ A combinação dos dados do questionário e das entrevistas permitiu construir u
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 03/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz) | [Julia Gabriela](https://github.com/JuliaGabP) | 
-|  1.1   | 06/05/2025 | Ajustando links  | [João Pedro Costa](https://github.com/joaopedro) | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+|  1.1   | 06/05/2025 | Ajustando links  | [João Pedro Costa](https://github.com/joaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.2   | 26/05/2025 | Adicionando tabela de funções  | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/joaopedro)  |
