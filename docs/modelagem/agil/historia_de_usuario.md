@@ -1,6 +1,6 @@
 # Documento de Histórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
+REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
 
 ## Funções dos autores
 
@@ -9,6 +9,7 @@ REQUISITOS JA USADOS: 1,2,3, 4, 5, 6, 7, 11, 12, 20, 22, 24, 26, 27, 29, 30, 25,
 |[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências| 
 | [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9|
 |[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral; Criação de 6 histórias de usuário| 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25 |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -359,6 +360,104 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF03](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+---
+
+### História EU_20 – Cadastro de Agricultores Familiares
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_20|
+|**Título**|Cadastro de Agricultores Familiares|
+|**Objetivo**|Eu, como agricultor familiar, desejo cadastrar minhas informações no sistema para acessar benefícios específicos e garantir minha inclusão em programas sociais.|
+|**Perfil(s)**|Agricultores familiares|
+|**Critérios de Aceite**|- O sistema deve permitir o cadastro de agricultores familiares.<br>- Deve validar os dados obrigatórios do agricultor.<br>- O usuário deve receber confirmação do cadastro.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF04](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+---
+
+### História EU_21 – Processamento de Dados
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_21|
+|**Título**|Processamento de Dados|
+|**Objetivo**|Eu, como usuário, desejo que meus dados sejam processados corretamente para garantir a atualização e integridade das informações no sistema.|
+|**Perfil(s)**|Usuários do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve processar os dados inseridos de forma automática.<br>- Garantir a integridade e atualização das informações.<br>- Notificar o usuário em caso de erro no processamento.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF06](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+---
+
+### História EU_22 – Correção de Inconsistências
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_22|
+|**Título**|Correção de Inconsistências|
+|**Objetivo**|Eu, como usuário, desejo corrigir inconsistências nos meus dados para garantir que meu cadastro esteja correto e atualizado.|
+|**Perfil(s)**|Usuários do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve identificar e informar inconsistências nos dados.<br>- Permitir ao usuário corrigir as informações.<br>- Confirmar a correção e atualizar o cadastro.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF07](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+---
+
+### História EU_23 – Localizar Postos de Atendimento
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_23|
+|**Título**|Localizar Postos de Atendimento|
+|**Objetivo**|Eu, como usuário, desejo localizar os postos de atendimento mais próximos para facilitar meu acesso aos serviços do CadÚnico.|
+|**Perfil(s)**|Usuários do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve exibir postos de atendimento próximos com base na localização do usuário.<br>- Permitir busca por município ou endereço.<br>- Exibir informações de contato e horários de funcionamento.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF16](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
+---
+
+### História EU_24 – Notificação de Pendências ou Atualizações
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_24|
+|**Título**|Notificação de Pendências ou Atualizações|
+|**Objetivo**|Eu, como usuário, desejo ser notificado sobre pendências ou atualizações no meu cadastro para manter meus dados sempre regulares.|
+|**Perfil(s)**|Usuários do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve notificar o usuário sobre pendências ou atualizações necessárias.<br>- Permitir visualização detalhada da pendência.<br>- Orientar o usuário sobre como regularizar a situação.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF27](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+---
+
+### História EU_25 – Upload de Documentos
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**|EU_25|
+|**Título**|Upload de Documentos|
+|**Objetivo**|Eu, como usuário, desejo enviar documentos digitalizados pelo aplicativo para complementar ou atualizar meu cadastro sem precisar ir presencialmente ao posto de atendimento.|
+|**Perfil(s)**|Usuários do CadÚnico|
+|**Critérios de Aceite**|- O sistema deve permitir upload de documentos em formatos aceitos.<br>- Validar tipo e tamanho dos arquivos.<br>- Confirmar o envio e associar ao cadastro do usuário.|
+|**Prioridade**|Alta|
+|**Rastreabilidade**|[RF29](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
+---
+
 ## Referências
 
 > COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.
@@ -374,3 +473,4 @@ O objetivo deste documento é:
 |  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25  | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
