@@ -458,6 +458,103 @@ O objetivo deste documento é:
 |**Implementado**|Não|
 ---
 
+### História EU_26 - Chatbot
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_26|
+|**Título**             | Chatbot|
+|**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva" |
+|**Perfil(s)**          | Usuário do CadÚnico |
+|**Critérios de Aceite**| - O usuário consegue acessar o sistema; - O chatbot é capaz de entender perguntas em linguagem natural; - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
+|**Prioridade**         | A DEFINIR |
+|**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Não |
+---
+
+### História EU_27 - Chat de Atendimento
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_27|
+|**Título**             | Chat de atendimento |
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
+---
+
+### História EU_28 - Tutoriais Interativos
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 |EU_28|
+|**Título**             | Tutoriais Interativos |
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
+---
+
+### História EU_29 - Assistência por voz
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 |EU_29|
+|**Título**             | Assistência por voz|
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF37](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
+---
+
+### História EU_30 - Filtragem de Benefícios
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 |EU_30|
+|**Título**             ||
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF23](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
+---
+
+### História EU_31 - Notificações Personalizadas
+
+**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 |EU_31|
+|**Título**             ||
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF09](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
+---
+
+
 ## Rastreabilidade
 
 A tabela X apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
@@ -466,32 +563,38 @@ A tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 </center>
 
 | Estória de Usuário  | Requisito |
-| EU_01               |           |
-| EU_02               |           |
-| EU_03               |           |
-| EU_04               |           |
-| EU_05               |           |
-| EU_06               |           |
-| EU_07               |           |
-| EU_08               |           |
-| EU_09               |           |
-| EU_10               |           |
-| EU_11               |           |
-| EU_12               |           |
-| EU_13               |           |
-| EU_14               |           |
-| EU_15               |           |
-| EU_16               |           |
-| EU_17               |           |
-| EU_18               |           |
-| EU_19               |           |
-| EU_20               |           |
-| EU_21               |           |
-| EU_22               |           |
-| EU_23               |           |
-| EU_24               |           |
-| EU_25               |           |
-| EU_26               |           |
+| EU_01               | RF24      |
+| EU_02               | RF20      |
+| EU_03               | RF02      |
+| EU_04               | -         |
+| EU_05               | RF16      |
+| EU_06               | RF38      |
+| EU_07               | RF39      |
+| EU_08               | RF38      |
+| EU_09               | RF25      |
+| EU_10               | RF24      |
+| EU_11               | RF22      |
+| EU_12               | RF20      |
+| EU_13               | RF11      |
+| EU_14               | RF12      |
+| EU_15               | RF26      |
+| EU_16               | RF30      |
+| EU_17               | RF01      |
+| EU_18               | RF02      |
+| EU_19               | RF03      |
+| EU_20               | RF04      |
+| EU_21               | RF06      |
+| EU_22               | RF07      |
+| EU_23               | RF16      |
+| EU_24               | RF27      |
+| EU_25               | RF29      |
+| EU_26               | RF26      |
+| EU_27               | RF34      |
+| EU_28               | RF35      |
+| EU_29               | RF37      |
+| EU_30               | RF23      |
+| EU_31               | RF09      |
+
 
 <center>
 </center>
