@@ -206,6 +206,11 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
 ### Propagação dos impactos - eficiência
 A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
+| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
+|----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
+|           |       |      |      |   |
+
+
 ## NFR 03 - Desempenho
 
 ### Diagrama de Desempenho(SIG)
