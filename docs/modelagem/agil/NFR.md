@@ -7,7 +7,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)|-| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)| Adaptação de Figura e criação das tabelas da NFR 03| 
 |[João Igor](https://github.com/JoaoPC10)|-| 
-|[João Pedro Costa](https://github.com/johnaopedro)|-| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Desenvolvimento do RNF16 no NFR| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
 |[Ryan Salles](https://github.com/RA-Salles)|-| 
 <center>
@@ -169,6 +169,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **RNF 07 - Julia Gabriela**  
 O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
 **RNF 16 - João Pedro**
+O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital. 
 **RNF 18 - Amanda**
 
 ### Requisitos não funcionais - usabilidade  
@@ -259,5 +260,6 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 |  1.1   | 22/05/2025 |   Preenchimento softgoal e criação dos cartões de especificação | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 |  1.2   | 27/05/2025 |   Complementação do documento | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 |  1.3  | 30/05/2025  |  Adaptação de Figura e criação das tabelas da NFR 03 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.4  | 30/05/2025  |  Adições referentes ao RNF16 | [João Pedro Costa](https://github.com/johnaopedro)| [Julia Paulino](https://github.com/JuliaGabP) |
 
 
