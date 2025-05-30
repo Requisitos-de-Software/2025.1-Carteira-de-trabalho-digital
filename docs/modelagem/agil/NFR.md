@@ -195,10 +195,38 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 ## NFR 03 - Desempenho
 **RNF 17 - Gabriel**
 
+### Diagrama de Desempenho(SIG)
+
+    A[Desempenho] -->|AND| B[Tempo de Resposta]
+    A -->|AND| C[Eficiência de Recursos]
+    B -->|++| D[Uso de Cache]
+    B -->|++| E[Design Responsivo]
+    C -->|++| F[Compressão de Dados]
+    C -->|+| G[Balanceamento de Carga]
+    G -->|--| H[Consumo de Energia]
+    E -->|--| I[Qualidade Visual]
+
 ### Requisitos não funcionais - desempenho
+Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
+
+**Tabela X - Requisitos Não Funcionais de Desempenho**
+
+| RNF | Descrição                                 | Classificação | Origem        |
+|-----|-------------------------------------------|---------------|---------------|
+| RNF17 | Desempenho otimizado para internet limitada | Desempenho    | Introspecção  |
 
 ### Propagação dos impactos - desempenho
 
+A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
+
+**Tabela X - Propagação dos impactos**
+
+| Elemento Impactado     | Tipo de Impacto | Justificativa                                                                 |
+|------------------------|-----------------|--------------------------------------------------------------------------------|
+| Qualidade visual       | Negativo (-)    | Pode ser necessário reduzir imagens e recursos gráficos para manter leveza.   |
+| Consumo de recursos    | Positivo (++)   | Técnicas como cache e compressão otimizam o uso de CPU e memória.             |
+| Confiabilidade         | Positivo (+)    | Um sistema que funciona com baixa internet tende a ser mais estável.          |
+| Manutenibilidade       | Neutro          | Pouco ou nenhum impacto direto.                
 
 ## Rastreabilidade
 
