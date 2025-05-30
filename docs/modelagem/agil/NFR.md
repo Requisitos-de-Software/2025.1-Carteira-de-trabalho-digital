@@ -6,7 +6,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|-| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)| Adaptação de Figura e criação das tabelas da NFR 03| 
-|[João Igor](https://github.com/JoaoPC10)|-| 
+|[João Igor](https://github.com/JoaoPC10)|Criação de tabelas e desenvolvimento do RNF19 no NFR| 
 |[João Pedro Costa](https://github.com/johnaopedro)|Desenvolvimento do RNF16 no NFR| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
 |[Ryan Salles](https://github.com/RA-Salles)|-| 
@@ -166,14 +166,15 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 ## NFR 00 - Geral
 
 ## NFR 01 - Usabilidade
-**RNF 07 - Julia Gabriela**  
-O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
-**RNF 16 - João Pedro**
-O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital. 
+**RNF 07 - Julia Gabriela**  O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
+
+**RNF 16 - João Pedro** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital. 
+
 **RNF 18 - Amanda**
 
 ### Requisitos não funcionais - usabilidade  
 Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
+
 **Tabela X - Requisitos Não-Funcionais Usabilidade**
 |RNF(Fonte)|Descrição|Classificação|Origem|
 |----------|---------|-------------|------|
@@ -185,19 +186,31 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
 A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
 ## NFR 02 - Eficiência
-**RNF 19 - João Igor**
+**RNF 19 - João Igor** 
+Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
+
 **RNF 20 - Ryan**
+ 
 
 ### Requisitos não funcionais - eficiência
+Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
+
+**Tabela X - Requisitos Não-Funcionais Eficiência**
+
+|RNF(Fonte)|Descrição|Classificação|Origem|
+|----------|---------|-------------|------|
+|[RNF19](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão|Confiabilidade|Análise de documentos|
+
+
 
 ### Propagação dos impactos - eficiência
-
+A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
 ## NFR 03 - Desempenho
 
 ### Diagrama de Desempenho(SIG)
 
-**Figura 03 : Diagram de Desempenho(SIG)**
+**Figura 03 : Diagrama de Desempenho(SIG)**
 
 ![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
 
