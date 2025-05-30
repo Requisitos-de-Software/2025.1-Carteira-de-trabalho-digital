@@ -5,7 +5,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|-| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|-| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Adaptação de Figura e criação das tabelas da NFR 03| 
 |[João Igor](https://github.com/JoaoPC10)|-| 
 |[João Pedro Costa](https://github.com/johnaopedro)|-| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
@@ -193,18 +193,14 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 
 
 ## NFR 03 - Desempenho
-**RNF 17 - Gabriel**
 
 ### Diagrama de Desempenho(SIG)
 
-    A[Desempenho] -->|AND| B[Tempo de Resposta]
-    A -->|AND| C[Eficiência de Recursos]
-    B -->|++| D[Uso de Cache]
-    B -->|++| E[Design Responsivo]
-    C -->|++| F[Compressão de Dados]
-    C -->|+| G[Balanceamento de Carga]
-    G -->|--| H[Consumo de Energia]
-    E -->|--| I[Qualidade Visual]
+**Figura 03 : Diagram de Desempenho(SIG)**
+
+![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
+
+**Fonte**: Adaptado Figura 27 SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019.
 
 ### Requisitos não funcionais - desempenho
 Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
@@ -215,26 +211,36 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
 |-----|-------------------------------------------|---------------|---------------|
 | RNF17 | Desempenho otimizado para internet limitada | Desempenho    | Introspecção  |
 
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
 ### Propagação dos impactos - desempenho
 
-A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
+A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura 03.
 
 **Tabela X - Propagação dos impactos**
 
-| Elemento Impactado     | Tipo de Impacto | Justificativa                                                                 |
-|------------------------|-----------------|--------------------------------------------------------------------------------|
-| Qualidade visual       | Negativo (-)    | Pode ser necessário reduzir imagens e recursos gráficos para manter leveza.   |
-| Consumo de recursos    | Positivo (++)   | Técnicas como cache e compressão otimizam o uso de CPU e memória.             |
-| Confiabilidade         | Positivo (+)    | Um sistema que funciona com baixa internet tende a ser mais estável.          |
-| Manutenibilidade       | Neutro          | Pouco ou nenhum impacto direto.                
+| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
+|----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
+| Desempenho           | Segurança (Safety)       | Fortemente Negativo       | --     | Melhoria no desempenho pode comprometer diretamente a segurança física    |
+| Desempenho           | Segurança (Security)     | Parcialmente Negativo     | -      | Otimizações de desempenho podem abrir brechas na segurança lógica         |
+| Desempenho           | Consumo de Energia       | Fortemente Negativo       | --     | Mais desempenho costuma requerer mais energia                             |
+| Desempenho           | Custo                    | Parcialmente Negativo     | -      | Melhor desempenho tende a aumentar o custo do sistema                     |
+| Consumo de Energia   | Desempenho               | Fortemente Positivo       | ++     | Reduzir o consumo de energia melhora o desempenho geral                   |
+| Estrutura Física     | Desempenho               | Impacto Desconhecido      | ?      | A relação entre estrutura física e desempenho não é bem definida          |
+| Segurança (Safety)   | Desempenho               | Parcialmente Negativo     | -      | Requisitos de segurança podem limitar o desempenho                        |
+| Segurança (Security) | Desempenho               | Parcialmente Negativo     | -      | Medidas de segurança podem introduzir atrasos ou limitações               |
+
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 ## Rastreabilidade
 
 ## Vídeo
 
 ## Referências
-Página 1 à 26; Requisitos Não-Funcionais. [s.l: s.n.]. Disponível em: <https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf>. Acesso em: 22 maio. 2025.
-Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível em: <http://jaejaneiro.orgfree.com/engsofnfr.pdf>. Acesso em: 22 maio. 2025.
+- Página 1 à 26; Requisitos Não-Funcionais. [s.l: s.n.]. Disponível em: <https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf>. Acesso em: 22 maio. 2025.
+- Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível em: <http://jaejaneiro.orgfree.com/engsofnfr.pdf>. Acesso em: 22 maio. 2025.
+- SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019.
+
 
 ##### Imagem 1: NFR
 <div style="text-align: center;">
@@ -252,5 +258,6 @@ Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível 
 |  1.0   | 22/05/2025 |   Criação do Documento; estruturação e início do preenchimento de dados | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.1   | 22/05/2025 |   Preenchimento softgoal e criação dos cartões de especificação | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 |  1.2   | 27/05/2025 |   Complementação do documento | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
+|  1.3  | 30/05/2025  |  Adaptação de Figura e criação das tabelas da NFR 03 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Paulino](https://github.com/JuliaGabP) |
 
 
