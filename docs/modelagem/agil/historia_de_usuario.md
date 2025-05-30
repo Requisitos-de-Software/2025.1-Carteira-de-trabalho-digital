@@ -4,12 +4,12 @@ REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25
 
 ## Funções dos autores
 
-| Nome                 | Função                                                            | 
-|----------------------|----------------------------------------------------------------   |
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências| 
-| [João Igor](https://github.com/JoaoPC10)|Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9|
-|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral; Criação de 6 histórias de usuário| 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25 |
+| Nome                                                | Função                                                            | 
+|----------------------                               |----------------------------------------------------------------   |
+| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
+| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9                                                                                 |
+| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -458,6 +458,44 @@ O objetivo deste documento é:
 |**Implementado**|Não|
 ---
 
+## Rastreabilidade
+
+A tabela X apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
+
+<center>
+</center>
+
+| Estória de Usuário  | Requisito |
+| EU_01               |           |
+| EU_02               |           |
+| EU_03               |           |
+| EU_04               |           |
+| EU_05               |           |
+| EU_06               |           |
+| EU_07               |           |
+| EU_08               |           |
+| EU_09               |           |
+| EU_10               |           |
+| EU_11               |           |
+| EU_12               |           |
+| EU_13               |           |
+| EU_14               |           |
+| EU_15               |           |
+| EU_16               |           |
+| EU_17               |           |
+| EU_18               |           |
+| EU_19               |           |
+| EU_20               |           |
+| EU_21               |           |
+| EU_22               |           |
+| EU_23               |           |
+| EU_24               |           |
+| EU_25               |           |
+| EU_26               |           |
+
+<center>
+</center>
+
 ## Referências
 
 > COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.
@@ -466,11 +504,11 @@ O objetivo deste documento é:
 
 ## Histórico de Versão
 
-| Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
-| :----: | :--------: | :----------------------: | :----------------------------------------: | :-----------------------------------------: |
-|  1.0   | 22/05/2025 |   Criação do Documento   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências   | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.2   | 26/05/2025 | Adição das Histórias de Usuário  | [João Igor](https://github.com/JoaoPC10) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25 | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
-|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro) |
-|  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25  | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
+| Versão |    Data    |        Descrição                                                       |                   Autor                             |                   Revisor                          |
+| :----: | :--------: | :----------------------:                                               | :----------------------------------------:          | :-----------------------------------------:        |
+|  1.0   | 22/05/2025 |   Criação do Documento                                                 | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.2   | 26/05/2025 | Adição das Histórias de Usuário                                        | [João Igor](https://github.com/JoaoPC10)            | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                              | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
