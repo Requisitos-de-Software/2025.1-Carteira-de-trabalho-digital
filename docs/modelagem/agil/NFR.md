@@ -4,12 +4,13 @@
 
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
-|[Amanda Cruz](https://github.com/mandicrz)|-| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação da figura e das tabelas da NFR 03| 
-|[João Igor](https://github.com/JoaoPC10)|Criação de tabelas e desenvolvimento do RNF19 no NFR| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Desenvolvimento do RNF16 no NFR| 
+|[Amanda Cruz](https://github.com/mandicrz)| Correção de texto; Preenchimento da parte teórica e figuras; Explicação e SIG do NFR00; SIG e propagação de impactos do NFR01; | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação da figura e das tabelas da NFR 03 | 
+|[João Igor](https://github.com/JoaoPC10)| Criação de tabelas e desenvolvimento do RNF19 no NFR | 
+|[João Pedro Costa](https://github.com/johnaopedro)| Desenvolvimento do RNF16 no NFR | 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
 |[Ryan Salles](https://github.com/RA-Salles)|-| 
+
 <center>
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -20,42 +21,73 @@ O desenvolvimento de sistemas de software não depende apenas da implementação
 
 ## Softgoal Interdependency Graph
 O Softgoal Interdependency Graph (SIG) é um grafo orientado usado para modelar os requisitos não funcionais (softgoals) e como eles se reforçam, conflitam ou dependem entre si. Ele permite visualizar:
+
 - Quais atributos de qualidade são desejados;
 - Como esses atributos se relacionam;
 - Quais decisões de design podem contribuir ou prejudicar certos softgoals.
 
-## Tipos de representações Metas Flexíveis(Softgoal)
-### Metas Flexíveis Refinamentos (Softgoal Refinements)
+## Tipos de representações de Metas Flexíveis (Softgoals)
+
+De acordo com Silva, existem três tipos de softgoals: Softgoals NFR, Softgoals de Operacionalização e Softgoals
+de Afirmação. (SILVA, 2019). Os mesmos estão citados abaixo, complementados pela Figura 1.
+
+- Softgoals NFR
+- Softgoals de Operacionalização
+- Softgoals de Afirmação.
+
+
+<center>
+    <b>Figura 1:</b> Tipos de Softgoals
+</center>
+
+![Tipos de Softgoal](../../assets/modelagem/casos_de_uso/agil/tipos_NFR.png)
+
+<center>
+    Fonte: CHUNG et al., 2000
+</center>
+
+### Refinamentos de Metas Flexíveis (Softgoal Refinements)
+
 **Decomposições**  
 A decomposição consiste em quebrar um softgoal genérico em sub-softgoals mais específicos, geralmente da mesma natureza. Isso facilita a análise, priorização e implementação desses objetivos de qualidade.
+
 Softgoal geral: Alta Usabilidade
+
 Decomposição:
+
 - Interface Intuitiva
 - Tempo de aprendizado reduzido
 - Consistência na navegação
 
 **Operacionalização**  
+
 A operacionalização transforma um softgoal abstrato em ações ou decisões técnicas concretas que podem ser implementadas para alcançar esse objetivo.
+
 Softgoal: Alta Segurança
+
 Operacionalizações:
+
 - Criptografar dados em trânsito
 - Autenticação por dois fatores
 - Limitar tentativas de login
 
 **AND e OR**  
-Esses refinamentos indicam se todas as ações ou sub-softgoals são necessárias (AND) ou se qualquer uma delas já contribui para alcançar o objetivo (OR).
+Esses refinamentos indicam se todas as ações ou sub-softgoals são **necessárias** (AND) ou se qualquer uma delas **já contribui** para alcançar o objetivo (OR).
+
 **AND: Todos os sub-softgoals precisam ser satisfeitos.**  
 Exemplo: Para Alta Confiabilidade, é necessário AND:
+
 - Alta disponibilidade
 - Monitoramento contínuo
 - Backup automático
 
 **OR: Uma entre várias alternativas pode ser suficiente.**  
 Exemplo: Para Interface Responsiva, pode-se usar OR:
+
 - Framework mobile-first
 - Design adaptativo com CSS media queries
 
-### Metas Flexíveis Contribuições (Softgoal Contribuitions)  
+### Contribuições de Metas Flexíveis (Softgoal Contribuitions)  
 **Contibuições positivas**  
 Indicam que um softgoal ou uma decisão de design contribui de forma benéfica para outro softgoal. Podem ser fracas (+) ou fortes (++).  
 Exemplo: Autenticação por biometria → (++ ) → Segurança de acesso
@@ -64,23 +96,54 @@ Exemplo: Autenticação por biometria → (++ ) → Segurança de acesso
 Indicam que um softgoal ou uma decisão interfere negativamente em outro softgoal, mostrando trade-offs. Podem ser fracas (-) ou fortes (--).  
 Exemplo: Autenticação por biometria → (--) → Facilidade de acesso
 
-### Metas Flexíveis Operações e afirmações (Softgoal Operations and Claims)
+### Operações e Afirmações de Metas Flexíveis (Softgoal Operations and Claims)
 **Operacionalizações**  
 São ações específicas ou decisões de projeto que tornam possível o atendimento de um softgoal. Elas representam a implementação concreta de uma meta de qualidade.
+
 Softgoal: Desempenho elevado
+
 Operacionalizações:
+
 - Uso de cache em consultas frequentes
 - Balanceamento de carga entre servidores
 
 **Afirmações**  
 São critérios de avaliação ou indicadores que mostram se um softgoal foi atendido. Elas ajudam na validação e verificação de requisitos não funcionais.
+
 Softgoal: Alta Disponibilidade
+
 Afirmações:
+
 - “O sistema deve estar disponível 99,9% do tempo mensal.”
 - “Nenhum downtime superior a 5 minutos será tolerado por semana.”
 
+## Propagação de Impactos
+
+No NFR Framework, a propagação de impactos é a análise de como as escolhas de design e as relações entre os softgoals (as metas de qualidade) afetam o atendimento geral dos Requisitos Não Funcionais (RNFs). Basicamente, busca-se entender e mostrar o nível de satisfação de um softgoal, olhando como seus "filhos" (sejam eles decomposições ou operacionalizações mais específicas) estão contribuindo para ele.
+
+Essa análise costuma ser feita de baixo para cima no Softgoal Interdependency Graph (SIG). Ou seja, primeiro se avalia o efeito das operacionalizações (as soluções técnicas concretas) e, depois, esse efeito é "espalhado" para os softgoals de nível mais alto. Para isso, é fundamental observar o tipo de cada contribuição – se ela ajuda, atrapalha, ou se várias contribuições precisam acontecer juntas (lógica E/AND) ou se apenas uma já é o bastante (lógica OU/OR).
+
+Para documentar o resultado dessa análise, são utilizados rótulos que indicam o estado de satisfação de cada softgoal, ilustrados pela Figura 1. As notações comuns incluem:
+
+- **✓ (Satisfeito):** Mostra que este item ajuda de forma positiva a realizar ou atender outro softgoal.
+- **𝒲+ (Fracamente Satisfeito):** Sugere que o softgoal é atendido, mas de forma parcial ou com algumas ressalvas menores, a contribuição positiva existe, mas não é total.
+- **✗ (Negado):** Indica que este requisito atrapalha diretamente ou vai contra o que outro softgoal precisa para ser alcançado.
+- **𝒲 (Fracamente Negado):** Similar ao "Negado", mas o impacto negativo é menos severa.
+- **c (Conflitante):** Sinaliza uma situação onde existem tanto influências positivas quanto negativas significativas sobre o softgoal, impedindo uma conclusão clara sobre sua satisfação ou negação.
+- **u (Indeterminado):** Utilizado quando não há informação suficiente para julgar o estado de satisfação do softgoal.
+
+<center>
+    <b>Figura 1:</b> Rótulos da Propagação de Impactos
+</center>
+
+![Propagação de Impactos](../../assets/modelagem/casos_de_uso/agil/propagacao_nfr.png)
+
+<center>
+    Fonte: Silva, 2019. Baseado em CHUNG et al., 2000
+</center>
+
 ## Metodologia
-Os frameworks foram separados por temas, esses temas foram divididos em três para limitar o escopo aqui trabalhado. Após isso, fez-se uma introspecção para a construção do SIG a partir dos tópicos gerais definidos, a fim de fazer relações com os requisitos não funcionais, após isso, fez-se o uma revisão na literatura e foi feita a validação do SIG confeccionado. A plataforma utilizada para a elaboração foi o X.
+Os frameworks foram separados por temas, esses temas foram divididos em três para limitar o escopo aqui trabalhado. Após isso, fez-se uma introspecção para a construção do SIG a partir dos tópicos gerais definidos, a fim de fazer relações com os requisitos não funcionais, após isso, fez-se o uma revisão na literatura e foi feita a validação do SIG confeccionado. A plataforma utilizada para a elaboração foi o [Draw.io](https://www.drawio.com/).
 
 ## Cartões de Especificação
 Cartões de especificação (ou specification cards) são documentos concisos e padronizados usados para registrar e comunicar requisitos de um sistema, especialmente em projetos de software. Eles funcionam como pequenos resumos informativos que descrevem um requisito por vez.
@@ -165,25 +228,83 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 
 ## NFR 00 - Geral
 
+A Figura 2 apresenta o Softgoal Interdependency Graph (SIG) elaborado para o sistema Cadastro Único. Este diagrama foca nos Requisitos Não Funcionais (RNFs) chave que orientam a abordagem dos requisitos ainda não implementados pelo aplicativo.
+
+<center>
+    <b>Figura 2:</b> SIG - Visão Geral
+</center>
+
+![SIG Visão Geral](../../assets/modelagem/casos_de_uso/agil/NFR00_geral%20(1).png)
+
+<center>
+    Autor(es):
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+O diagrama modela Usabilidade, Desempenho e Confiabilidade como os pilares centrais de qualidade para o Cadastro Único. Ele ilustra suas interdependências, como as contribuições positivas do Desempenho para a Confiabilidade, e de ambos para uma Usabilidade eficaz. Adicionalmente, a Figura 2 evidencia um trade-off importante: a busca por uma Usabilidade mais elaborada pode impactar negativamente o Desempenho.
+
+Essa visão geral fundamenta a análise detalhada dos NFRs específicos e, também, não implementados, explorada nas seções seguintes.
+
 ## NFR 01 - Usabilidade
-**RNF 07 - Julia Gabriela**  O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
+Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura 3:
 
-**RNF 16 - João Pedro** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital. 
+- **RNF 07 - Julia Gabriela:** O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
+- **RNF 16 - João Pedro:** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital.
+- **RNF 18 - Amanda:** O sistema deve ser acessível a usuários que falam diferentes idiomas, ampliando o público-alvo.
 
-**RNF 18 - Amanda**
+<center>
+    <b>Figura 3:</b> SIG - Usabilidade
+</center>
 
-### Requisitos não funcionais - usabilidade  
-Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
+![SIG Usabilidade](../../assets/modelagem/casos_de_uso/agil/NFR01_usabilidade.png)
 
-**Tabela X - Requisitos Não-Funcionais Usabilidade**
+<center>
+    Autor(es):
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+### Requisitos Não Funcionais - Usabilidade  
+Na Tabela 1, estão listados os RNF presentes no NFR Framework de Usabilidade :
+
+<center>
+    <b>Tabela 1:</b> Requisitos Não-Funcionais de Usabilidade
+</center>
+
 |RNF(Fonte)|Descrição|Classificação|Origem|
 |----------|---------|-------------|------|
 |[RNF07](../../elicitacao/requisitos_elicitados.md)|Compatibilidade com Aplicativo Off-line|Compatibilidade|Análise de documentos|
 |[RNF16](../../elicitacao/requisitos_elicitados.md)|Acessibilidade para deficientes visuais|Acessibilidade|Introspecção|
-|[RNF18](../../elicitacao/requisitos_elicitados.md)|Possibilidade de outros idioma|Internacionalização|Introspecção|
+|[RNF18](../../elicitacao/requisitos_elicitados.md)|Possibilidade de outros idiomas|Internacionalização|Introspecção|
 
-### Propagação dos impactos - usabilidade
-A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+### Propagação de Impactos - Usabilidade
+A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa à Figura 3.
+
+<center>
+    <b>Tabela 3:</b> Propagação de Impactos de Usabilidade
+</center>
+
+
+| NFR                    | Impacto  |       Avaliador         |
+| :--------------------: | :------ :| :---------------------: |
+|  Leitor de tela        |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+|  Textos Alternativos   |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Cache de Dados Offline |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Seleção de Idiomas     |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Acessibilidade         |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Compatibilidade        |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Internacionalização    |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+| Usabilidade            |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
+
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ## NFR 02 - Eficiência
 **RNF 19 - João Igor** 
@@ -192,7 +313,7 @@ Evita perda de informações em caso de falhas, melhorando a experiência do usu
 **RNF 20 - Ryan**
  
 
-### Requisitos não funcionais - eficiência
+### Requisitos Não Funcionais - Eficiência
 Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
 
 **Tabela X - Requisitos Não-Funcionais Eficiência**
@@ -203,7 +324,7 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
 
 
 
-### Propagação dos impactos - eficiência
+### Propagação de Impactos - Eficiência
 A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
 | Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
@@ -215,13 +336,13 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 
 ### Diagrama de Desempenho(SIG)
 
-**Figura XX : Diagram de Desempenho(SIG)**
+**Figura XX : Diagrama de Desempenho(SIG)**
 
 ![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
 
 **Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
-### Requisitos não funcionais - desempenho
+### Requisitos Não Funcionais - Desempenho
 Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
 
 **Tabela X - Requisitos Não Funcionais de Desempenho**
@@ -232,7 +353,7 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
 
 **Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
-### Propagação dos impactos - desempenho
+### Propagação de Impactos - Desempenho
 
 A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura 03.
 
@@ -259,20 +380,32 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 ## Vídeo
 
 ## Referências
-- Página 1 à 26; Requisitos Não-Funcionais. [s.l: s.n.]. Disponível em: <https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf>. Acesso em: 22 maio. 2025.
-- Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível em: <http://jaejaneiro.orgfree.com/engsofnfr.pdf>. Acesso em: 22 maio. 2025.
-- SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019.
+
+> Página 1 à 26; Requisitos Não-Funcionais. [s.l: s.n.]. Disponível em: <https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf>. Acesso em: 22 maio. 2025.
+
+> Página 1 à 19; NFR Framework Engenharia de Software. [s.l: s.n.]. Disponível em: <http://jaejaneiro.orgfree.com/engsofnfr.pdf>. Acesso em: 22 maio. 2025.
+
+> SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019.
 
 
 ##### Imagem 1: NFR
 <div style="text-align: center;">
-    <img src="../../assets/referencias/agil/referencias_nfr1.png" alt="NFR">
+    <img src="../../../assets/referencias/agil/referencias_nfr1.png" alt="NFR">
 </div>
+
+<center>
+    <b>Fonte:</b> Requisitos Não-Funcionais. Jaelson Castro, 2014.
+</center>
+
 
 ##### Imagem 2: NFR
 <div style="text-align: center;">
-    <img src="../../assets/referencias/agil/referencias_nfr2.png" alt="NFR">
+    <img src="../../../assets/referencias/agil/referencias_nfr2.png" alt="NFR">
 </div>
+
+<center>
+    <b>Fonte:</b> NFR Framework Engenharia de Software.
+</center>
 
 ## Histórico de Versão
 | Versão |    Data    |        Descrição         |                   Autor                    |                   Revisor                   |
@@ -282,5 +415,11 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 |  1.2   | 27/05/2025 |   Complementação do documento | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 |  1.3  | 30/05/2025  |  Adaptação de Figura e criação das tabelas da NFR 03 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Paulino](https://github.com/JuliaGabP) |
 |  1.4  | 30/05/2025  |  Adições referentes ao RNF16 | [João Pedro Costa](https://github.com/johnaopedro)| [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.5  | 30/05/2025  |  Correções de formatação para markdown | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.6  | 30/05/2025  | Complemento da parte teórica | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.7  | 30/05/2025  | Adição e complementos do NFR00 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.8  | 31/05/2025  | Adição e complementos do NFR01 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
+
+
 
 
