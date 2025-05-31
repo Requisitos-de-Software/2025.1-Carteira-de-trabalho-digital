@@ -1,15 +1,16 @@
 # Documento de Histórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
-
 ## Funções dos autores
 
-| Nome                                                | Função                                                            | 
-|----------------------                               |----------------------------------------------------------------   |
-| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
-| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9                                                                                 |
-| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
+| Nome                                                | Função                                                                                                                                      | 
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências         | 
+| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9                                                                                         |
+| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                            | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                                |
+| [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das histórias de usuário 26 a 31, Entrevista com PO para validação, Elaboração Inicial da Tabela X para rastreabilidade, Revisão |                                                                                        |
+
+
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -462,16 +463,16 @@ O objetivo deste documento é:
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo|Descrição|
-|------|---------|
-|**ID**                 | EU_26|
-|**Título**             | Chatbot|
-|**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva" |
-|**Perfil(s)**          | Usuário do CadÚnico |
-|**Critérios de Aceite**| - O usuário consegue acessar o sistema; - O chatbot é capaz de entender perguntas em linguagem natural; - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
-|**Prioridade**         | A DEFINIR |
-|**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       | Não |
+|Campo                  |Descrição                                                                                                                                                                                |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**ID**                 | EU_26                                                                                                                                                                                   |
+|**Título**             | Chatbot                                                                                                                                                                                 |
+|**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva"                                                                          |
+|**Perfil(s)**          | Usuário do CadÚnicov                                                                                                                                         |
+|**Critérios de Aceite**| - O usuário consegue acessar o sistema <br> - O chatbot é capaz de entender perguntas em linguagem natural<br> - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
+|**Prioridade**         | A DEFINIR                                                                                                                                                                               |
+|**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)                                                                                                                                        |
+|**Implementado**       | Não                                                                                                                                                                                     |
 ---
 
 ### História EU_27 - Chat de Atendimento
@@ -480,14 +481,14 @@ O objetivo deste documento é:
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 | EU_27|
-|**Título**             | Chat de atendimento |
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
-|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**ID**                 | EU_27                                                                                                                                                                                                                        |
+|**Título**             | Chat de atendimento                                                                                                                                                                                                          |
+|**Objetivo**           | "Eu, como usuário, gostaria de uma linha de acesso direto a um atendente cuja experiência e capacidades técnicas para resolver rapidamente problemas, requisições, dúvidas e dificuldades sem a necessidade de ir a um CRAS" |
+|**Perfil(s)**          | Usuário do CádÚnico                                                                                                                                                                                                          |
+|**Critérios de Aceite**| - O usuário consegue acessar o sistema <br> - O atendente é capaz de receber e enviar mensagens em tempo real <br> - O usuário é capaz de receber e enviar mensagens em tempo real                                           |
+|**Prioridade**         | A DEFINIR                                                                                                                                                                                                                    |
+|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                             |
+|**Implementado**       | Não                                                                                                                                                                                                                          |
 ---
 
 ### História EU_28 - Tutoriais Interativos
@@ -496,14 +497,14 @@ O objetivo deste documento é:
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 |EU_28|
-|**Título**             | Tutoriais Interativos |
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
-|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**ID**                 |EU_28                                                                                                                                                                                                                                  |
+|**Título**             | Tutoriais Interativos                                                                                                                                                                                                                 |
+|**Objetivo**           | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
+|**Perfil(s)**          | Usuário novo do CadÚnico                                                                                                                                                                                                              |
+|**Critérios de Aceite**| - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo                                           |
+|**Prioridade**         | A DEFINIR                                                                                                                                                                                                                             |
+|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                                      |
+|**Implementado**       | Não                                                                                                                                                                                                                                   |
 ---
 
 ### História EU_29 - Assistência por voz
@@ -557,46 +558,49 @@ O objetivo deste documento é:
 
 ## Rastreabilidade
 
-A tabela X apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
+A Tabela I apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
 
 <center>
+    <b>Tabela 1:</b> Rastreabilidade de relacionamento EU-REQ-CN
 </center>
 
-| Estória de Usuário  | Requisito |
-| EU_01               | RF24      |
-| EU_02               | RF20      |
-| EU_03               | RF02      |
-| EU_04               | -         |
-| EU_05               | RF16      |
-| EU_06               | RF38      |
-| EU_07               | RF39      |
-| EU_08               | RF38      |
-| EU_09               | RF25      |
-| EU_10               | RF24      |
-| EU_11               | RF22      |
-| EU_12               | RF20      |
-| EU_13               | RF11      |
-| EU_14               | RF12      |
-| EU_15               | RF26      |
-| EU_16               | RF30      |
-| EU_17               | RF01      |
-| EU_18               | RF02      |
-| EU_19               | RF03      |
-| EU_20               | RF04      |
-| EU_21               | RF06      |
-| EU_22               | RF07      |
-| EU_23               | RF16      |
-| EU_24               | RF27      |
-| EU_25               | RF29      |
-| EU_26               | RF26      |
-| EU_27               | RF34      |
-| EU_28               | RF35      |
-| EU_29               | RF37      |
-| EU_30               | RF23      |
-| EU_31               | RF09      |
+| Estória de Usuário  | Requisito | Cenário |
+| :-----------------: | :-------: | :-----: |          
+| EU_01               | RF24      | CN      |
+| EU_02               | RF20      | CN      |
+| EU_03               | RF02      | CN      |
+| EU_04               | -         | CN      |
+| EU_05               | RF16      | CN      |
+| EU_06               | RF38      | CN      |
+| EU_07               | RF39      | CN      |
+| EU_08               | RF38      | CN      |
+| EU_09               | RF25      | CN      |
+| EU_10               | RF24      | CN      |
+| EU_11               | RF22      | CN      |
+| EU_12               | RF20      | CN      |
+| EU_13               | RF11      | CN      |
+| EU_14               | RF12      | CN      |
+| EU_15               | RF26      | CN      |
+| EU_16               | RF30      | CN      |
+| EU_17               | RF01      | CN      |
+| EU_18               | RF02      | CN      |
+| EU_19               | RF03      | CN      |
+| EU_20               | RF04      | CN      |
+| EU_21               | RF06      | CN      |
+| EU_22               | RF07      | CN      |
+| EU_23               | RF16      | CN      |
+| EU_24               | RF27      | CN      |
+| EU_25               | RF29      | CN      |
+| EU_26               | RF26      | CN      |
+| EU_27               | RF34      | CN      |
+| EU_28               | RF35      | CN      |
+| EU_29               | RF37      | CN      |
+| EU_30               | RF23      | CN      |
+| EU_31               | RF09      | CN      |
 
 
 <center>
+    <b>Autor(es):</b> <a href="">
 </center>
 
 ## Referências
