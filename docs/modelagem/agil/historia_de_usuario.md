@@ -1,4 +1,4 @@
-# Documento de Histórias de Usuário
+# Documento de Estórias de Usuário
 
 ## Funções dos autores
 
@@ -53,7 +53,7 @@ O objetivo deste documento é:
 | [Nome do Scrum Master] | Scrum Master | Facilitação do processo e remoção de impedimentos | [Nome] |
 | [Nome do Tech Lead] | Líder Técnico | Orientação técnica e arquitetura | [Nome] |
 
-## 5. Modelo de História de Usuário
+## 5. Modelo de Estória de Usuário
 
 | Campo | Descrição | Obrigatório |
 |-------|-----------|-------------|
@@ -66,7 +66,7 @@ O objetivo deste documento é:
 | **Rastreabilidade** | Rastreabilidade do requisito |
 | **Implementado** | Se esta ou não |
 
-## 6. Histórias de Usuário
+## 6. Estórias de Usuário
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_01 – Filtrar informações sobre benefícios socias
@@ -513,14 +513,14 @@ O objetivo deste documento é:
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 |EU_29|
-|**Título**             | Assistência por voz|
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
+|**ID**                 | EU_29 |
+|**Título**             | Assistência por voz |
+|**Objetivo**           | "Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela" |
+|**Perfil(s)**          | Usuário com baixa ou nenhuma visibilidade|
+|**Critérios de Aceite**| - O aplicativo deve ser capaz de reconhecer a voz do usuário <br> - O aplicativo deve ser capaz de realizar operações a partir de comandos por voz <br> - O aplicativo, mediante boa pronúncia e um microfone funcionando segundo especificação do fabricante do dispositivo, possuir taxa de acerto do comando pronunciado de no mínimo 95% |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF37](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       | Não |
 ---
 
 ### História EU_30 - Filtragem de Benefícios
@@ -530,13 +530,13 @@ O objetivo deste documento é:
 |Campo|Descrição|
 |------|---------|
 |**ID**                 |EU_30|
-|**Título**             ||
+|**Título**             | |
 |**Objetivo**           ||
 |**Perfil(s)**          ||
 |**Critérios de Aceite**||
 |**Prioridade**         ||
 |**Rastreabilidade**    |[RF23](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       | Não |
 ---
 
 ### História EU_31 - Notificações Personalizadas
@@ -545,15 +545,17 @@ O objetivo deste documento é:
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 |EU_31|
-|**Título**             ||
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
+|**ID**                 | EU_31 |
+|**Título**             | Notificações personalizadas |
+|**Objetivo**           | "Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "|
+|**Perfil(s)**          | Usuário |
+|**Critérios de Aceite**| - O aplicativo deve ser capaz de enviar notificações <br> - O aplicativo deve possuir forma de configuração de notificações <br> - O sistema de notificação deve ser capaz de ser desativado|
+|**Prioridade**         | Baixa |
 |**Rastreabilidade**    |[RF09](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       | Não |
 ---
+
+### 
 
 
 ## Rastreabilidade
@@ -566,37 +568,39 @@ A Tabela I apresenta a rastreabilidade geral das histórias de usuário para os 
 
 | Estória de Usuário  | Requisito | Cenário      |
 | :-----------------: | :-------: | :-----:      |          
-| EU_01               | RF23      | CN07         |
-| EU_02               | RF20      | CN02         |
-| EU_03               | RF02      | CN03         |
+| **EU_01**           | RF23      | CN07         |
+| **EU_02**           | RF20      | CN02         |
+| **EU_03**           | RF02      | CN03         |
 | EU_04               | RF24      | CN04         |
-| EU_05               | RF16      | CN05         |
-| EU_06               | RF38      | CN09         |
+| **EU_05**           | RF16      | CN05         |
+| **EU_06**           | RF38      | CN09         |
 | EU_07               | RF39      | -            |
-| EU_08               | RF38      | CN09         |
+| **EU_08**           | RF38      | CN09         |
 | EU_09               | RF25      | -            |
 | EU_10               | RF24      | CN01         |
 | EU_11               | RF22      | -            |
-| EU_12               | RF20      | -            |
+| **EU_12**           | RF20      | -            |
 | EU_13               | RF11      | CN13, CN10   |
 | EU_14               | RF12      | CN11         |
 | EU_15               | RF26      | CN08         |
 | EU_16               | RF30      | CN14         |
 | EU_17               | RF01      | -            |
-| EU_18               | RF02      | CN03         |
+| **EU_18**           | RF02      | CN03         |
 | EU_19               | RF03      | -            |
 | EU_20               | RF04      | -            |
 | EU_21               | RF06      | CN06         |
 | EU_22               | RF07      | -            |
-| EU_23               | RF16      | CN05         |
+| **EU_23**           | RF16      | CN05         |
 | EU_24               | RF27      | -            |
 | EU_25               | RF29      | CN16         |
 | EU_26               | RF26      | CN08         |
 | EU_27               | RF34      | -            |
 | EU_28               | RF35      | CN15         |
 | EU_29               | RF37      | -            |
-| EU_30               | RF23      | CN07         |
+| **EU_30**           | RF23      | CN07         |
 | EU_31               | RF09      | -            |
+
+UTILIZADAS: 01, 02, 03, 04, 06, 07, 09, 11, 12, 16, 20, 23, 24, 25, 26, 27, 29, 30, 34, 35, 37, 38, 39 
 
 DUPLICATAS:
 - 01-30
@@ -605,7 +609,9 @@ DUPLICATAS:
 - 05-23
 - 06-08
 
-MELHORAR DESCRIÇÃO: 
+MELHORAR: 
+- 01 a 06 -> inserir criterios de aceite mais específicos, inserir prioridade.
+- 07 a 12 -> inserir objetivo de realizar operação na estória, 
 
 
 
