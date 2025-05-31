@@ -289,17 +289,12 @@ A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa
 </center>
 
 
-| NFR                    | Impacto  |       Avaliador         |
-| :--------------------: | :------ :| :---------------------: |
-|  Leitor de tela        |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-|  Textos Alternativos   |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Cache de Dados Offline |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Seleção de Idiomas     |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Acessibilidade         |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Compatibilidade        |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Internacionalização    |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-| Usabilidade            |    ✓     | [Amanda Cruz](https://github.com/mandicrz)   |
-
+| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
+|----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
+| Leitor de Tela, <br/> Textos Alternativos | Acessibilidade      | Satisfeito  | ✓ | Satisfeito via Leitor de Tela (++✓) e Textos Alternativos (+✓). |
+| Cache de Dados Offline  | Compatibilidade | Satisfeito  | ✓ | Satisfeito via Cache de Dados Offline (++✓). |
+| Seleção de Idiomas | Internacionalização | Satisfeito   | ✓ | Satisfeito via Seleção de Idiomas (++✓).                              |
+| Acessibilidade, <br/>Compatibilidade,<br/>Internacionalização | Usabilidade         | Satisfeito                       | ✓                 | Satisfeito por decomposição AND de filhos |
 
 <center>
     Autor(es): 
