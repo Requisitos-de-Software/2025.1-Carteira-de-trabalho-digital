@@ -32,6 +32,28 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 - Colaboração: Desenvolvimento conjunto com o Product Owner e desenvolvedores
 - Critérios mensuráveis: Definição de critérios de aceite claros e testáveis
 
+As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
+necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
+da tabela 1.
+
+<center>
+<b>Tabela 1:</b> Participantes da reunião 
+</center>
+
+| Participante      | Função                          |
+| :--------:        | :-----------------------------: |
+| Davi G. A. Pierre | Usuário/ Project Owner          |
+| Julia Paulino     | Desenvolvedor/Secretário        |
+| João Pedro Costa  | Desenvolvedora                  |
+| Ryan Salles       | Desenvolvedor/Entrevistador     |
+<center>
+<b>Autor(es):</b> 
+</center>
+
+A reunião foi realizada e gravada via **Microsoft Teams**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSUJdqnPAb4?si=2k0uWOnWp9peWcgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 3. Objetivo
 
 O objetivo deste documento é:
