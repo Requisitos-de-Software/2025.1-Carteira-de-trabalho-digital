@@ -196,11 +196,11 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 
 ### Diagrama de Desempenho(SIG)
 
-**Figura 03 : Diagram de Desempenho(SIG)**
+**Figura XX : Diagram de Desempenho(SIG)**
 
 ![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
 
-**Fonte**: Adaptado Figura 27 SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019.
+**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 ### Requisitos não funcionais - desempenho
 Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
@@ -209,7 +209,7 @@ Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
 
 | RNF | Descrição                                 | Classificação | Origem        |
 |-----|-------------------------------------------|---------------|---------------|
-| RNF17 | Desempenho otimizado para internet limitada | Desempenho    | Introspecção  |
+| [RNF17](../../elicitacao/requisitos_elicitados.md) | Desempenho otimizado para internet limitada | Desempenho    | Introspecção  |
 
 **Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
@@ -219,16 +219,19 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 
 **Tabela X - Propagação dos impactos**
 
-| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
-|----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
-| Desempenho           | Segurança (Safety)       | Fortemente Negativo       | --     | Melhoria no desempenho pode comprometer diretamente a segurança física    |
-| Desempenho           | Segurança (Security)     | Parcialmente Negativo     | -      | Otimizações de desempenho podem abrir brechas na segurança lógica         |
-| Desempenho           | Consumo de Energia       | Fortemente Negativo       | --     | Mais desempenho costuma requerer mais energia                             |
-| Desempenho           | Custo                    | Parcialmente Negativo     | -      | Melhor desempenho tende a aumentar o custo do sistema                     |
-| Consumo de Energia   | Desempenho               | Fortemente Positivo       | ++     | Reduzir o consumo de energia melhora o desempenho geral                   |
-| Estrutura Física     | Desempenho               | Impacto Desconhecido      | ?      | A relação entre estrutura física e desempenho não é bem definida          |
-| Segurança (Safety)   | Desempenho               | Parcialmente Negativo     | -      | Requisitos de segurança podem limitar o desempenho                        |
-| Segurança (Security) | Desempenho               | Parcialmente Negativo     | -      | Medidas de segurança podem introduzir atrasos ou limitações               |
+| Requisito Origem                   | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
+|------------------------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
+| Funcionar em conexões de até 1Mbps | Tempo de Resposta        | Contribuição Positiva     | +      | Requisitos de leveza melhoram tempo de resposta                          |
+| Tempo de Resposta                 | Tempo                    | Contribuição Positiva     | +      | Redução no tempo de resposta melhora o tempo total                       |
+| Tempo                             | Desempenho               | Refinamento AND           | AND    | É necessário bom controle de tempo para garantir desempenho              |
+| Consumo de Recursos               | Desempenho               | Refinamento AND           | AND    | Requisitos de eficiência de recursos contribuem para o desempenho        |
+| Tempo de Atraso                   | Tempo                    | Refinamento AND           | AND    | O tempo de atraso influencia diretamente o tempo                         |
+| Disponibilidade de Recursos       | Consumo de Recursos      | Refinamento AND           | AND    | Melhor disponibilidade reduz gargalos                                    |
+| Taxa de Utilização                | Consumo de Recursos      | Refinamento AND           | AND    | Alta taxa de uso impacta o uso total de recursos                         |
+| Taxa de Vazão                     | Tempo                    | Refinamento AND           | AND    | Influencia o tempo de processamento das tarefas                          |
+| Desempenho                        | Custo                    | Contribuição Negativa     | -      | Maior desempenho pode aumentar o custo do sistema                        |
+| Desempenho                        | Consumo de Energia       | Contribuição Negativa     | -      | Melhor desempenho pode demandar mais energia                             |
+| Consumo de Energia                | Desempenho               | Contribuição Positiva     | ++     | Eficiência energética favorece o desempenho global                       |
 
 **Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
