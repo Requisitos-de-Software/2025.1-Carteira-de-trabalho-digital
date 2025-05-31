@@ -5,7 +5,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|-| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Adaptação de Figura e criação das tabelas da NFR 03| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação da figura e das tabelas da NFR 03| 
 |[João Igor](https://github.com/JoaoPC10)|Criação de tabelas e desenvolvimento do RNF19 no NFR| 
 |[João Pedro Costa](https://github.com/johnaopedro)|Desenvolvimento do RNF16 no NFR| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
