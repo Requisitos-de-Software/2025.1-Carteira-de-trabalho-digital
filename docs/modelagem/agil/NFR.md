@@ -303,61 +303,95 @@ A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
 </center>
 
 ## NFR 02 - Eficiência
-**RNF 19 - João Igor** 
-Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
 
-**RNF 20 - Ryan**
+Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura X:
+
+-**RNF 19 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
+
+-**RNF 20 - Ryan:**
  
 
 ### Requisitos Não Funcionais - Eficiência
-Na Tabela X, estão listados os RNF presentes no NFR Famework de Usabilidade :
+Na Tabela X, estão listados os RNF presentes no NFR Framework de Eficiência :
 
-**Tabela X - Requisitos Não-Funcionais Eficiência**
+<center>
+    <b>Tabela X:</b> Requisitos Não-Funcionais de Eficiência
+</center>
+
 
 |RNF(Fonte)|Descrição|Classificação|Origem|
 |----------|---------|-------------|------|
 |[RNF19](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão|Confiabilidade|Análise de documentos|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/X" target="_blank"> X </a>
+</center>
 
 
 ### Propagação de Impactos - Eficiência
 A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
+<center>
+    <b>Tabela X:</b> Propagação de Impactos de Eficiência
+</center>
+
+
 | Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
 |----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
 |           |       |      |      |   |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/X" target="_blank">X</a>
+</center>
+
 
 ## NFR 03 - Desempenho
+O requisito, representado abaixo, foi utilizado para realizar o diagrama da Figura 3:
 
-### Diagrama de Desempenho(SIG)
+- **RNF17 - Gabriel Flores:** Desempenho otimizado para internet limitada.
 
-**Figura XX : Diagrama de Desempenho(SIG)**
+
+<center>
+    <b>Figura X:</b> SIG - Desempenho
+</center>
 
 ![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
 
 ### Requisitos Não Funcionais - Desempenho
-Na Tabela X, estão listados os RNF presentes no NFR Famework de Desempenho :
+Na Tabela X, estão listados os RNF presentes no NFR Framework de Desempenho:
 
-**Tabela X - Requisitos Não Funcionais de Desempenho**
+<center>
+    <b>Tabela X:</b> Requisitos Não-Funcionais de Desempenho
+</center>
 
 | RNF | Descrição                                 | Classificação | Origem        |
 |-----|-------------------------------------------|---------------|---------------|
 | [RNF17](../../elicitacao/requisitos_elicitados.md) | Desempenho otimizado para internet limitada | Desempenho    | Introspecção  |
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
 
 ### Propagação de Impactos - Desempenho
 
-A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura 03.
+A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
 
-**Tabela X - Propagação dos impactos**
+<center>
+    <b>Tabela X:</b> Propagação de Impactos de Desempenho
+</center>
+
 
 | Requisito Origem                   | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
 |------------------------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
@@ -373,7 +407,10 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 | Desempenho                        | Consumo de Energia       | Contribuição Negativa     | -      | Melhor desempenho pode demandar mais energia                             |
 | Consumo de Energia                | Desempenho               | Contribuição Positiva     | ++     | Eficiência energética favorece o desempenho global                       |
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
 
 ## Rastreabilidade
 
