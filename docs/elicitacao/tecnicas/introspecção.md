@@ -2,11 +2,11 @@
 
 ## Funções dos autores
 
-| Nome                 | Função                                                            | 
-|----------------------|----------------------------------------------------------------   |
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação da página; Desenvolvimento da introspecção; Criação das tabelas.| 
-|[Julia Gabriela](https://github.com/JuliaGabP)|Desenvolvimento da introspecção; Criação das tabelas.| 
-|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral.| 
+| Nome                                              | Função                                                                  | 
+|---------------------------------------------------|-------------------------------------------------------------------------|
+|[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento da introspecção; Criação das tabelas. | 
+|[Julia Gabriela](https://github.com/JuliaGabP)     |Desenvolvimento da introspecção; Criação das tabelas.                    | 
+|[Ryan Salles](https://github.com/RA-Salles)        |Revisão geral.                                                           | 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -44,14 +44,14 @@ Legenda - Tabela 1:
 - RFx: Requisitos Funcionais nºx.
 
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
-| RF    | Nome do RF                                | Descrição                                                                 | Implementado |
-|-------|-------------------------------------------|---------------------------------------------------------------------------|--------------|
-| RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim |
-| RF02  | Atualização de Dados                      | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais a qualquer momento. | Sim |
-| RF03  | Consultar Situação Cadastral              | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício. | Sim |
-| RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado. | Sim |
-| RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados. | Sim |
-| RF06  | Upload de documentos                     | Permite ao usuário fazer upload de documentos para o sistema.            | Não |
+| RF    | Nome do RF                                | Descrição                                                                                                                                  | Implementado |
+|-------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim          |
+| RF02  | Atualização de Dados                      | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais a qualquer momento.                                                 | Sim          |
+| RF03  | Consultar Situação Cadastral              | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício.                                   | Sim          |
+| RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                            | Sim          |
+| RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                 | Sim          |
+| RF06  | Upload de documentos                      | Permite ao usuário fazer upload de documentos para o sistema.                                                                              | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -61,15 +61,15 @@ Legenda - Tabela 2:
 - RNFx: Requisitos Não-Funcionais nºx.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
-| RNF   | Nome do RNF                              | Descrição                                                                 | Implementado |
-|-------|------------------------------------------|---------------------------------------------------------------------------|--------------|
-| RNF01 | Usabilidade                              | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência. | Sim |
-| RNF02 | Segurança                                | O sistema deve garantir a segurança dos dados pessoais dos usuários, utilizando criptografia e práticas de segurança adequadas. | Sim |
-| RNF03 | Performance                              | O sistema deve ser capaz de processar as informações de cadastro e consultas rapidamente, com tempo de resposta inferior a 3 segundos. | Não |
-| RNF04 | Compatibilidade com Dispositivos         | O aplicativo deve ser compatível com as principais plataformas móveis (Android e iOS). | Sim |
-| RNF05 | Disponibilidade                          | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo. | Não |
-| RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. | Não |
-| RNF07 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.| Não |
+| RNF   | Nome do RNF                                        | Descrição                                                                                                                              | Implementado |
+|-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| RNF01 | Usabilidade                                        | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência.            | Sim          |
+| RNF02 | Segurança                                          | O sistema deve garantir a segurança dos dados pessoais dos usuários, utilizando criptografia e práticas de segurança adequadas.        | Sim          |
+| RNF03 | Performance                                        | O sistema deve ser capaz de processar as informações de cadastro e consultas rapidamente, com tempo de resposta inferior a 3 segundos. | Não          |
+| RNF04 | Compatibilidade com Dispositivos                   | O aplicativo deve ser compatível com as principais plataformas móveis (Android e iOS).                                                 | Sim          |
+| RNF05 | Disponibilidade                                    | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo.                                      | Não          |
+| RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                       | Não          |
+| RNF07 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -85,19 +85,19 @@ Legenda - Tabela 3:
 
 <center><b>Tabela 3:</b> Requisitos Funcionais</center>
 
-| RF    | Nome do RF                          | Descrição                                                                 | Implementado |
-|-------|--------------------------------------|---------------------------------------------------------------------------|--------------|
-| RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              | Sim |
-| RF02  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      | Sim |
-| RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         | Sim |
-| RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     | Sim |
-| RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          | Sim |
-| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.           | Não |
-| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.| Sim |
-| RF08  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      | Não |
-| RF09 | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Sim |
-| RF10 | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. | Não |
-<center>
+| RF    | Nome do RF                                | Descrição                                                                                                        | Implementado |
+|-------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------|
+| RF01  | Consultar dados cadastrais                | Permite ao usuário visualizar seus dados no Cadastro Único.                                                      | Sim          |
+| RF02  | Pré-cadastrar família                     | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                                              | Sim          |
+| RF03  | Localizar postos de atendimento           | Mostra os CRAS mais próximos com base na localização do usuário.                                                 | Sim          |
+| RF04  | Enviar notificações                       | Permite o envio de mensagens importantes ao usuário por meio do app.                                             | Sim          |
+| RF05  | Integrar com o CNIS                       | Traz dados de vínculos e contribuições automaticamente do CNIS.                                                  | Sim          |
+| RF06  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.                                                  | Não          |
+| RF07  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                      | Sim          |
+| RF08  | Simulador de benefícios sociais           | Permite ao usuário simular quais benefícios sociais poderia receber.                                             | Não          |
+| RF09  | Modo escuro                               | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Sim          |
+| RF10  | Possibilidade de outros idiomas           | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                           | Não          |
+<center> 
     Autor(es): <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
@@ -127,24 +127,26 @@ Legenda - Tabela 5:
 - ISx: Requisito nºx elicitado pela introspecção.
 
 <center><b>Tabela 5:</b> Requisitos Funcionais</center>
-| ID   | RF    | Nome do RF                          | Descrição                                                                 | Implementado |
-|------|-------|--------------------------------------|---------------------------------------------------------------------------|--------------|
-| IS1  | RF01  | Consultar dados cadastrais          | Permite ao usuário visualizar seus dados no Cadastro Único.              | Sim |
-| IS2  | RF02  | Pré-cadastrar família               | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      | Sim |
-| IS3  | RF03  | Localizar postos de atendimento     | Mostra os CRAS mais próximos com base na localização do usuário.         | Sim |
-| IS4  | RF04  | Enviar notificações                 | Permite o envio de mensagens importantes ao usuário por meio do app.     | Sim |
-| IS5  | RF05  | Integrar com o CNIS                 | Traz dados de vínculos e contribuições automaticamente do CNIS.          | Sim |
-| IS6  | RF06  | Cadastro de Usuário                 | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. | Sim |
-| IS7  | RF07  | Atualização de Dados                | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.  | Sim |
-| IS8  | RF08  | Consultar Situação Cadastral        | Permite verificar o status do cadastro e da situação dos benefícios.     | Sim |
-| IS9  | RF09  | Emissão de Comprovante de Cadastro  | Gera um comprovante de cadastro atualizado para o usuário.               | Sim |
-| IS10 | RF10  | Filtragem de Benefícios             | Permite visualizar benefícios disponíveis com base nos dados cadastrados.| Sim |
-| IS11 | RF11  | Upload de documentos                 | Permite ao usuário fazer upload de documentos para o sistema.            | Não |
-| IS12 | RF12  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.           | Não |
-| IS13 | RF13  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.| Sim |
-| IS14 | RF14  | Simulador de benefícios sociais          | Permite ao usuário simular quais benefícios sociais poderia receber.      | Não |
-| IS15 | RF15  | Modo escuro                              | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Sim |
-| IS16 | RF16  | Possibilidade de outros idiomas          | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade. | Não |
+
+| ID   | RF    | Nome do RF                                | Descrição                                                                                                        | Implementado |
+|------|-------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------|
+| IS1  | RF14  | Consultar dados cadastrais                | Permite ao usuário visualizar seus dados no Cadastro Único.                                                      | Sim          |
+| IS2  | RF15  | Pré-cadastrar família                     | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                                              | Sim          |
+| IS3  | RF16  | Localizar postos de atendimento           | Mostra os CRAS mais próximos com base na localização do usuário.                                                 | Sim          |
+| IS4  | RF17  | Enviar notificações                       | Permite o envio de mensagens importantes ao usuário por meio do app.                                             | Sim          |
+| IS5  | RF18  | Integrar com o CNIS                       | Traz dados de vínculos e contribuições automaticamente do CNIS.                                                  | Sim          |
+| IS6  | RF19  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais.                            | Sim          |
+| IS7  | RF20  | Atualização de Dados                      | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.                                          | Sim          |
+| IS8  | RF21  | Consultar Situação Cadastral              | Permite verificar o status do cadastro e da situação dos benefícios.                                             | Sim          |
+| IS9  | RF22  | Emissão de Comprovante de Cadastro        | Gera um comprovante de cadastro atualizado para o usuário.                                                       | Sim          |
+| IS10 | RF23  | Filtragem de Benefícios                   | Permite visualizar benefícios disponíveis com base nos dados cadastrados.                                        | Sim          |
+| IS11 | RF29  | Upload de documentos                      | Permite ao usuário fazer upload de documentos para o sistema.                                                    | Não          |
+| IS12 | RF26  | Chatbot de atendimento automatizado       | Implementa um chatbot para atendimento automatizado ao usuário.                                                  | Não          |
+| IS13 | RF27  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                      | Sim          |
+| IS14 | RF28  | Simulador de benefícios sociais           | Permite ao usuário simular quais benefícios sociais poderia receber.                                             | Não          |
+| IS15 | RF38  | Modo escuro                               | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Não          |
+| IS16 | RF39  | Possibilidade de outros idiomas           | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                           | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
@@ -157,19 +159,19 @@ Legenda - Tabela 6:
 
 <center><b>Tabela 6:</b> Requisitos Não Funcionais</center>
 
-| ID   | RNF   | Nome do RNF                              | Descrição                                                                 | Implementado |
-|------|-------|------------------------------------------|---------------------------------------------------------------------------|--------------|
-| IS17 | RNF01 | Interface intuitiva e amigável           | O design do aplicativo é simples e de fácil navegação.                    | Sim |
-| IS18 | RNF02 | Capacidade de atender grande base de usuários | Suporta um grande número de acessos simultâneos.                          | Sim |
-| IS19 | RNF03 | Integração com sistemas oficiais do governo | Integrado com sistemas como o CNIS.                                      | Sim |
-| IS20 | RNF04 | Usabilidade                              | Navegação intuitiva e acessibilidade geral.                              | Sim |
-| IS21 | RNF05 | Segurança                                | Uso de criptografia e proteção de dados sensíveis.                       | Sim |
-| IS22 | RNF06 | Performance                              | Resposta rápida nas interações do usuário (até 3 segundos).              | Não |
-| IS23 | RNF07 | Compatibilidade com Dispositivos         | Compatível com Android e iOS.                                            | Sim |
-| IS24 | RNF08 | Disponibilidade                          | Garantia de 99% de disponibilidade com mínimas interrupções.             | Sim |
-| IS25 | RNF09 | Alta disponibilidade e recuperação de desastres | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não |
-| IS26 | RNF10 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela. | Sim |
-| IS27 | RNF11 | Backup e restauração de sessão           | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.| Não |
+| ID   | RNF   | Nome do RNF                                        | Descrição                                                                                                | Implementado |
+|------|-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------|
+| IS17 | RNF10 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
+| IS18 | RNF11 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
+| IS19 | RNF12 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
+| IS20 | RNF13 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
+| IS21 | RNF02 | Segurança                                          | Uso de criptografia e proteção de dados sensíveis.                                                       | Sim          |
+| IS22 | RNF01 | Performance                                        | Resposta rápida nas interações do usuário (até 3 segundos).                                              | Não          |
+| IS23 | RNF14 | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                            | Sim          |
+| IS24 | RNF06 | Disponibilidade                                    | Garantia de 99% de disponibilidade com mínimas interrupções.                                             | Sim          |
+| IS25 | RNF17 | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não          |
+| IS26 | RNF15 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.         | Sim          |
+| IS27 | RNF16 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.  | Não          |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
@@ -210,11 +212,11 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição  | Autor        | Revisor |
-| :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 23/04/2025 | Introdução e requisitos iniciais | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.1    | 03/05/2025 | Correções de ortográfia | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.2    | 04/05/2025 | Removendo requisitos desejáveis | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.3 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
-| 1.4 | 07/05/2025 | Adicionando imagens, o video e referências | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
-| 1.5 | 23/05/2025 | Adicionando coluna indicando implementação, adicionando dados de IS e desejados  | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| Versão  | Data       | Descrição                                                                        | Autor(es)                                                                                                           | Revisor                                                             |
+| :-----: | :----:     | :------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| 1.0     | 23/04/2025 | Introdução e requisitos iniciais                                                 | [João Pedro Costa](https://github.com/johnaopedro) [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)                         |
+| 1.1     | 03/05/2025 | Correções de ortográfia                                                          | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Ryan Salles](https://github.com/RA-Salles)                         |
+| 1.2     | 04/05/2025 | Removendo requisitos desejáveis                                                  | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Ryan Salles](https://github.com/RA-Salles)                         |
+| 1.3     | 04/05/2025 | Adicionando links e corrigindo tabelas                                           | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Ryan Salles](https://github.com/RA-Salles)                         |
+| 1.4     | 07/05/2025 | Adicionando imagens, o video e referências                                       | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.5     | 23/05/2025 | Adicionando coluna indicando implementação, adicionando dados de IS e desejados  | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
