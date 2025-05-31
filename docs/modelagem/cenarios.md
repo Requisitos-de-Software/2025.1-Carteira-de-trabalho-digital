@@ -36,10 +36,10 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 ### Cenário 1: Visualizar Benefícios
 
 <center>
-    Tabela 2: Cenário de visualização de benefícios
+    Tabela 2: Cenário de visualização de benefícios ativos
 </center>
 
-| Cenário 1                | Visualizar Benefícios                                                         |
+| Cenário 1                | Visualizar Benefícios ativos                                                   |
 |--------------------------|-------------------------------------------------------------------------------|
 | **Nome do Cenário**      | Visualização de benefícios ativos                                             |
 | **Ator Principal**       | Usuário cadastrado                                                            |
@@ -122,7 +122,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, c
 ### Cenário 5: Verificar Postos de Atendimento
 
 <center>
-    Tabela 6: Cenário de verificar postos de atendiment
+    Tabela 6: Cenário de verificar postos de atendimento
 </center>
 
 | Cenário 5                | Verificar Postos de Atendimento                                               |
@@ -400,22 +400,22 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
 
 | Cenário  | Requisito        |
 | :------: | :--------------: |
-| CN01     | RF24             |
-| CN02     | RF05             |
-| CN03     | RF02             |
-| CN04     | RF24             |
-| CN05     | RF16             |
-| CN06     | RF06             |
-| CN07     | RF23             |
-| CN08     | RF26             |
-| CN09     | RF38             |
-| CN10     | RF11             |
-| CN11     | RF12             |
-| CN12     | RF13             |
-| CN13     | RF11, RF13, RF40 |
-| CN14     | RF30             |
-| CN15     | RF35             |
-| CN16     | RF29             |
+| CN01     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
+| CN02     | [RF05](../../elicitacao/requisitos_elicitados.md)             |
+| CN03     | [RF02](../../elicitacao/requisitos_elicitados.md)             |
+| CN04     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
+| CN05     | [RF16](../../elicitacao/requisitos_elicitados.md)             |
+| CN06     | [RF06](../../elicitacao/requisitos_elicitados.md)             |
+| CN07     | [RF23](../../elicitacao/requisitos_elicitados.md)             |
+| CN08     | [RF26](../../elicitacao/requisitos_elicitados.md)             |
+| CN09     | [RF38](../../elicitacao/requisitos_elicitados.md)             |
+| CN10     | [RF11](../../elicitacao/requisitos_elicitados.md)             |
+| CN11     | [RF12](../../elicitacao/requisitos_elicitados.md)             |
+| CN12     | [RF13](../../elicitacao/requisitos_elicitados.md)             |
+| CN13     | [RF11, RF13, RF40](../../elicitacao/requisitos_elicitados.md) |
+| CN14     | [RF30](../../elicitacao/requisitos_elicitados.md)             |
+| CN15     | [RF35](../../elicitacao/requisitos_elicitados.md)             |
+| CN16     | [RF29](../../elicitacao/requisitos_elicitados.md)             |
 
 <center>
     Autor(es): 

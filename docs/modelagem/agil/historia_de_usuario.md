@@ -564,39 +564,49 @@ A Tabela I apresenta a rastreabilidade geral das histórias de usuário para os 
     <b>Tabela 1:</b> Rastreabilidade de relacionamento EU-REQ-CN
 </center>
 
-| Estória de Usuário  | Requisito | Cenário |
-| :-----------------: | :-------: | :-----: |          
-| EU_01               | RF24      | CN      |
-| EU_02               | RF20      | CN      |
-| EU_03               | RF02      | CN      |
-| EU_04               | -         | CN      |
-| EU_05               | RF16      | CN      |
-| EU_06               | RF38      | CN      |
-| EU_07               | RF39      | CN      |
-| EU_08               | RF38      | CN      |
-| EU_09               | RF25      | CN      |
-| EU_10               | RF24      | CN      |
-| EU_11               | RF22      | CN      |
-| EU_12               | RF20      | CN      |
-| EU_13               | RF11      | CN      |
-| EU_14               | RF12      | CN      |
-| EU_15               | RF26      | CN      |
-| EU_16               | RF30      | CN      |
-| EU_17               | RF01      | CN      |
-| EU_18               | RF02      | CN      |
-| EU_19               | RF03      | CN      |
-| EU_20               | RF04      | CN      |
-| EU_21               | RF06      | CN      |
-| EU_22               | RF07      | CN      |
-| EU_23               | RF16      | CN      |
-| EU_24               | RF27      | CN      |
-| EU_25               | RF29      | CN      |
-| EU_26               | RF26      | CN      |
-| EU_27               | RF34      | CN      |
-| EU_28               | RF35      | CN      |
-| EU_29               | RF37      | CN      |
-| EU_30               | RF23      | CN      |
-| EU_31               | RF09      | CN      |
+| Estória de Usuário  | Requisito | Cenário      |
+| :-----------------: | :-------: | :-----:      |          
+| EU_01               | RF23      | CN07         |
+| EU_02               | RF20      | CN02         |
+| EU_03               | RF02      | CN03         |
+| EU_04               | RF24      | CN04         |
+| EU_05               | RF16      | CN05         |
+| EU_06               | RF38      | CN09         |
+| EU_07               | RF39      | -            |
+| EU_08               | RF38      | CN09         |
+| EU_09               | RF25      | -            |
+| EU_10               | RF24      | CN01         |
+| EU_11               | RF22      | -            |
+| EU_12               | RF20      | -            |
+| EU_13               | RF11      | CN13, CN10   |
+| EU_14               | RF12      | CN11         |
+| EU_15               | RF26      | CN08         |
+| EU_16               | RF30      | CN14         |
+| EU_17               | RF01      | -            |
+| EU_18               | RF02      | CN03         |
+| EU_19               | RF03      | -            |
+| EU_20               | RF04      | -            |
+| EU_21               | RF06      | CN06         |
+| EU_22               | RF07      | -            |
+| EU_23               | RF16      | CN05         |
+| EU_24               | RF27      | -            |
+| EU_25               | RF29      | CN16         |
+| EU_26               | RF26      | CN08         |
+| EU_27               | RF34      | -            |
+| EU_28               | RF35      | CN15         |
+| EU_29               | RF37      | -            |
+| EU_30               | RF23      | CN07         |
+| EU_31               | RF09      | -            |
+
+DUPLICATAS:
+- 01-30
+- 02-12
+- 03-18
+- 05-23
+- 06-08
+
+MELHORAR DESCRIÇÃO: 
+
 
 
 <center>
