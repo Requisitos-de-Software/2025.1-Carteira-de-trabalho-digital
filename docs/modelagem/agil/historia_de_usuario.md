@@ -125,31 +125,31 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_03 – Formulários de Coleta
+### EU_03 – Enviar notificações
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_03 | 
-| **Título** | Formulários de Coleta | 
-| **Objetivo** | Eu, como usuário, gostaria que minha situação financeira fosse levada em consideração para a liberação do benefício | 
-| **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
-|**Critérios de Aceite**|- O sistema deve |
+| **Título** | Enviar notificações | 
+| **Objetivo** | Eu, como usuário, gostaria de receber notificações relacionadas ao meu cadastro | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+|**Critérios de Aceite**|- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário|
 |**Prioridade**|Média|
-|**Rastreabilidade**|[RF10](../../elicitacao/requisitos_elicitados.md)|
+|**Rastreabilidade**|[RF17](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_04 – Consultar Situação Cadastral 
+### EU_04 – Cadastro de Usuário 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_04 | 
-| **Título** | Consultar Situação Cadastral  | 
-| **Objetivo** |Eu, como usuário, gostaria de consiguir a situação do meu benefício | 
+| **Título** | Cadastro de Usuário  | 
+| **Objetivo** |Eu, como usuário, gostaria de me cadastrar no CadÚnico | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**| sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço etc.|
 |**Prioridade**|Média|
-|**Rastreabilidade**|[RF21](../../elicitacao/requisitos_elicitados.md)|
+|**Rastreabilidade**|[RF19](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
 ---
@@ -160,9 +160,9 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_05 | 
 | **Título** | Pré-cadastrar família | 
-| **Objetivo** | Eu, como usuário, gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
+| **Objetivo** | Eu, como usuário, gostaria de realizar um pré-cadastro da minha família para ter acesso aos benefícios| 
 | **Perfil(s)** | Pessoas que não cadastradas no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**|O sistema deve permitir que uma pessoa não cadastrada no CadÚnico inicie um pré-cadastro para sua família|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF15](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
@@ -173,11 +173,11 @@ O objetivo deste documento é:
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_06 | 
-| **Título** | D Consultar dados cadastrais | 
+| **ID** | EU_06 |
+| **Título** | Consultar dados cadastrais | 
 | **Objetivo** |Eu, como usuário, gostaria de visualizar os dados que estão na plataforma | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**|O sistema deve exibir as informações de cadastro do usuário|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF14](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
@@ -757,12 +757,13 @@ A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 
 | Estória de Usuário  | Requisito | Cenário      |
 | :-----------------: | :-------: | :-----:      |          
-| **EU_01**           | RF23      | CN07         |
-| **EU_02**           | RF20      | CN02         |
-| **EU_03**           | RF02      | CN03         |
-| EU_04               | RF24      | CN04         |
-| **EU_05**           | RF16      | CN05         |
-| **EU_06**           | RF38      | CN09         |
+| EU_01               | RF24      | CN01         |
+| EU_02               | RF17      |              |
+| EU_03               | RF19      |              |
+| EU_04               | RF21      | CN01         |
+| EU_05               | RF15      | CN05         |
+| EU_06               | RF14      | CN09         |
+| EU_07               | RF39      | -            |
 | EU_07               | RF39      | -            |
 | **EU_08**           | RF38      | CN09         |
 | EU_09               | RF25      | -            |
