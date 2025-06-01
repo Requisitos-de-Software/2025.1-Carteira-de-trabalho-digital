@@ -40,8 +40,8 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 
 
     As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
-necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
-da Tabela 2.
+necessidade de implementação no aplicativo. Os participantes das entrevistas são apresentados por meio
+da Tabela 2 e 3.
 
 <center>
     <b>Tabela 2:</b> Participantes da reunião 
@@ -50,8 +50,8 @@ da Tabela 2.
 | Participante      | Função                          |
 | :--------:        | :-----------------------------: |
 | Davi G. A. Pierre | Usuário/ Project Owner          |
-| Julia Paulino     | Desenvolvedor/Secretário        |
-| João Pedro Costa  | Desenvolvedora                  |
+| João Pedro Costa  | Desenvolvedor/Secretário        |
+| Julia Paulino     | Desenvolvedora                  |
 | Ryan Salles       | Desenvolvedor/Entrevistador     |
 
 <center>
@@ -59,9 +59,28 @@ da Tabela 2.
     <a href= "https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-A reunião de validação, disponibilizada a seguir, foi realizada e gravada via **Microsoft Teams** no dia 30/05/2025.
+<center>
+    <b>Tabela 3:</b> Participantes da reunião 
+</center>
+
+| Participante      | Função                          |
+| :--------:        | :-----------------------------: |
+| Lucas M. Arruda   | Usuário/ Project Owner          |
+| João Pedro Costa  | Desenvolvedora/Secretário       |
+| Ryan Salles       | Desenvolvedor/Entrevistador     |
+
+<center>
+    <b>Autor(es):</b> 
+    <a href= "https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+A primeira reunião de validação, disponibilizada a seguir, foi realizada e gravada via **Microsoft Teams** no dia 30/05/2025.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mSUJdqnPAb4?si=2k0uWOnWp9peWcgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+A segunda reunião, que conteve um trecho sobre validação, disponibilizada a seguir, foi realizada e gravada via **Microsoft Teams** no dia 01/06/2025.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T9YJ_fNqxn4?si=XW0fHgTrpbb4Jtso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Objetivo
 
@@ -77,7 +96,7 @@ O objetivo deste documento é:
 O modelo de estrutura a ser seguido na criação das Estórias de Usuário pode ser visualizado através da Tabela 3.
 
 <center>
-    <b>Tabela 3</b>: Modelo de Estória de Usuário
+    <b>Tabela 4</b>: Modelo de Estória de Usuário
 </center>
 
 | Campo | Descrição | Obrigatório |
@@ -104,7 +123,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### EU_01 – Filtrar informações sobre benefícios sociais
 
 <center>
-    <b>Tabela 4:</b> EU_01 - Filtrar informações sobre benefícios sociais
+    <b>Tabela 5:</b> EU_01 - Filtrar informações sobre benefícios sociais
 </center>
 
 
@@ -129,7 +148,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### EU_02 – Alteração de dados cadastrais
 
 <center>
-    <b>Tabela 5:</b> EU_02 - Alteração de dados cadastrais
+    <b>Tabela 6:</b> EU_02 - Alteração de dados cadastrais
 </center>
 
 | Campo | Descrição | 
@@ -153,7 +172,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### EU_03 – Enviar notificações
 
 <center>
-    <b>Tabela 6:</b> EU_03 - Enviar notificações
+    <b>Tabela 7:</b> EU_03 - Enviar notificações
 </center>
 
 | Campo | Descrição | 
@@ -178,7 +197,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### EU_04 – Cadastro de usuário
 
 <center>
-    <b>Tabela 7:</b> EU_04 - Cadastro de usuário
+    <b>Tabela 8:</b> EU_04 - Cadastro de usuário
 </center>
 
 | Campo | Descrição | 
@@ -201,7 +220,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 ### EU_05 – Pré-cadastrar Família 
 <center>
-    <b>Tabela 8:</b> EU_05 - Pré-cadastrar Família
+    <b>Tabela 9:</b> EU_05 - Pré-cadastrar Família
 </center>
 
 | Campo | Descrição | 
@@ -225,7 +244,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### EU_06 –  Consultar dados cadastrais 
 
 <center>
-    <b>Tabela 9:</b> EU_06 - Consultar dados cadastrais
+    <b>Tabela 10:</b> EU_06 - Consultar dados cadastrais
 </center>
 
 | Campo | Descrição | 
@@ -250,7 +269,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_07 – Possibilidade de outros idiomas
 
 <center>
-    <b>Tabela 10:</b> EU_07 - Possibilidade de outros idiomas
+    <b>Tabela 11:</b> EU_07 - Possibilidade de outros idiomas
 </center>
 
 |Campo|Descrição|
@@ -274,7 +293,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_08 – Modo escuro
 
 <center>
-    <b>Tabela 11:</b> EU_08 - Modo escuro
+    <b>Tabela 12:</b> EU_08 - Modo escuro
 </center>
 
 |Campo|Descrição|
@@ -298,7 +317,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_09– Visualização de informações cadastrais
 
 <center>
-    <b>Tabela 12:</b> EU_09 - Visualização de informações cadastrais
+    <b>Tabela 13:</b> EU_09 - Visualização de informações cadastrais
 </center>
 
 |Campo|Descrição|
@@ -322,7 +341,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_10– Consulta de benefícios
 
 <center>
-    <b>Tabela 13:</b> EU_10 - Consulta de benefícios
+    <b>Tabela 14:</b> EU_10 - Consulta de benefícios
 </center>
 
 |Campo|Descrição|
@@ -346,7 +365,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_11– Emissão de comprovante de cadastro
 
 <center>
-    <b>Tabela 14:</b> EU_11 - Emissão de comprovante de cadastro
+    <b>Tabela 15:</b> EU_11 - Emissão de comprovante de cadastro
 </center>
 
 |Campo|Descrição|
@@ -370,7 +389,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_12– Atualização de dados
 
 <center>
-    <b>Tabela 15:</b> EU_12 - Atualização de dados
+    <b>Tabela 16:</b> EU_12 - Atualização de dados
 </center>
 
 |Campo|Descrição|
@@ -395,7 +414,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_13 – Cadastro MEI
 
 <center>
-    <b>Tabela 16:</b> EU_13 - Cadastro MEI
+    <b>Tabela 17:</b> EU_13 - Cadastro MEI
 </center>
 
 |Campo|Descrição|
@@ -419,7 +438,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_14 – Acesso a conteúdos informativos sobre MEI
 
 <center>
-    <b>Tabela 17:</b> EU_14 - Acesso a conteúdos informativos sobre MEI
+    <b>Tabela 18:</b> EU_14 - Acesso a conteúdos informativos sobre MEI
 </center>
 
 |Campo|Descrição|
@@ -443,7 +462,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_15 – Chat de Atendimento
 
 <center>
-    <b>Tabela 18:</b> EU_15 - Chat de atendimento
+    <b>Tabela 19:</b> EU_15 - Chat de atendimento
 </center>
 
 |Campo|Descrição|
@@ -467,7 +486,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_16 – Agendamento no CRAS
 
 <center>
-    <b>Tabela 19:</b> EU_16 - Agendamento no CRAS
+    <b>Tabela 20:</b> EU_16 - Agendamento no CRAS
 </center>
 
 |Campo|Descrição|
@@ -491,7 +510,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_17 – Cadastro de Famílias
 
 <center>
-    <b>Tabela 20:</b> EU_17 - Cadastro de famílias
+    <b>Tabela 21:</b> EU_17 - Cadastro de famílias
 </center>
 
 |Campo|Descrição|
@@ -515,7 +534,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_18 – Cadastro de Pessoas
 
 <center>
-    <b>Tabela 21:</b> EU_18 - Cadastro de pessoas
+    <b>Tabela 22:</b> EU_18 - Cadastro de pessoas
 </center>
 
 |Campo|Descrição|
@@ -539,7 +558,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_19 – Cadastro de Domicílios
 
 <center>
-    <b>Tabela 22:</b> EU_19 - Cadastro de domicílios
+    <b>Tabela 23:</b> EU_19 - Cadastro de domicílios
 </center>
 
 |Campo|Descrição|
@@ -564,7 +583,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 
 <center>
-    <b>Tabela 23:</b> EU_20 - Cadastro de agricultores familiares
+    <b>Tabela 24:</b> EU_20 - Cadastro de agricultores familiares
 </center>
 
 |Campo|Descrição|
@@ -588,7 +607,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_21 – Processamento de Dados
 
 <center>
-    <b>Tabela 24:</b> EU_21 - Processamento de Dados
+    <b>Tabela 25:</b> EU_21 - Processamento de Dados
 </center>
 
 |Campo|Descrição|
@@ -613,7 +632,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_22 – Correção de Inconsistências
 
 <center>
-    <b>Tabela 25:</b> EU_22 - Correção de Inconscistências
+    <b>Tabela 26:</b> EU_22 - Correção de Inconscistências
 </center>
 
 |Campo|Descrição|
@@ -637,7 +656,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_23 – Localizar Postos de Atendimento
 
 <center>
-    <b>Tabela 26:</b> EU_23 - Localizar postos de atendimento
+    <b>Tabela 27:</b> EU_23 - Localizar postos de atendimento
 </center>
 
 |Campo|Descrição|
@@ -661,7 +680,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_24 – Notificação de Pendências ou Atualizações
 
 <center>
-    <b>Tabela 27:</b> EU_24 - Notificação de pendências ou atualizações
+    <b>Tabela 28:</b> EU_24 - Notificação de pendências ou atualizações
 </center>
 
 |Campo|Descrição|
@@ -685,7 +704,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_25 – Upload de Documentos
 
 <center>
-    <b>Tabela 28:</b> EU_25 - Upload de documentos
+    <b>Tabela 29:</b> EU_25 - Upload de documentos
 </center>
 
 |Campo|Descrição|
@@ -709,7 +728,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_26 - Chatbot
 
 <center>
-    <b>Tabela 29:</b> EU_26 - Chatbot
+    <b>Tabela 30:</b> EU_26 - Chatbot
 </center>
 
 |Campo                  |Descrição|
@@ -734,7 +753,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 
 <center>
-    <b>Tabela 30:</b> EU_27 - Chat de atendimento
+    <b>Tabela 31:</b> EU_27 - Chat de atendimento
 </center>
 
 |Campo                  |Descrição|
@@ -758,7 +777,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 
 <center>
-    <b>Tabela 31:</b> EU_28 - Tutoriais interativos
+    <b>Tabela 32:</b> EU_28 - Tutoriais interativos
 </center>
 
 
@@ -784,7 +803,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_29 - Assistência por voz
 
 <center>
-    <b>Tabela 32:</b> EU_29 - Assistência por voz
+    <b>Tabela 33:</b> EU_29 - Assistência por voz
 </center>
 
 |Campo                  |Descrição|
@@ -809,7 +828,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 
 <center>
-    <b>Tabela 33:</b> EU_30 - Simular benefícios
+    <b>Tabela 34:</b> EU_30 - Simular benefícios
 </center>
 
 |Campo                  |Descrição|
@@ -833,7 +852,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_31 - Notificações Personalizadas
 
 <center>
-    <b>Tabela 34:</b> EU_31 - Notificações personalizadas
+    <b>Tabela 35:</b> EU_31 - Notificações personalizadas
 </center>
 
 |Campo                  |Descrição|
@@ -857,7 +876,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_32 - Coleta de Dados via Formulários
 
 <center>
-    <b>Figura 35:</b> EU_32 - Coleta de Dados via Formulários
+    <b>Figura 36:</b> EU_32 - Coleta de Dados via Formulários
 </center>
 
 |Campo|Descrição|
@@ -881,7 +900,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_33 - Atualização dos Dados Familiares
 
 <center>
-    <b>Figura 36:</b> EU_33 - Atualização dos Dados Familiares
+    <b>Figura 37:</b> EU_33 - Atualização dos Dados Familiares
 </center>
 
 |Campo|Descrição|
@@ -905,7 +924,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_34 - Importação Automática de Dados do CNIS
 
 <center>
-    <b>Figura 37:</b> EU_34 - Importação Automática de Dados do CNIS
+    <b>Figura 38:</b> EU_34 - Importação Automática de Dados do CNIS
 </center>
 
 |Campo|Descrição|
@@ -929,7 +948,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_35 - Suporte com Vídeos Explicativos
 
 <center>
-    <b>Figura 38:</b> EU_35 - Suporte com Vídeos Explicativos
+    <b>Figura 39:</b> EU_35 - Suporte com Vídeos Explicativos
 </center>
 
 |Campo|Descrição|
@@ -953,7 +972,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_36 - Conteúdo MEI Personalizado por Setor e Região
 
 <center>
-    <b>Figura 39:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
+    <b>Figura 40:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
 </center>
 
 |Campo|Descrição|
@@ -977,7 +996,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 ### História EU_37 - Integração com Sistemas MEI
 
 <center>
-    <b>Figura 40:</b> EU_37 - Integração com Sistemas MEI
+    <b>Figura 41:</b> EU_37 - Integração com Sistemas MEI
 </center>
 
 |Campo|Descrição|
@@ -1000,10 +1019,10 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 ## Rastreabilidade
 
-A Tabela 41 apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
+A Tabela 42 apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
 
 <center>
-    <b>Tabela 41:</b> Rastreabilidade de relacionamento EU-REQ-CN
+    <b>Tabela 42:</b> Rastreabilidade de relacionamento EU-REQ-CN
 </center>
 
 | Estória de Usuário  | Requisito | Cenário      |
@@ -1076,13 +1095,14 @@ MELHORAR:
 
 ## Histórico de Versão
 
-| Versão |    Data    |        Descrição                                                       |                   Autor                             |                   Revisor                          |
-| :----: | :--------: | :----------------------:                                               | :----------------------------------------:          | :-----------------------------------------:        |
-|  1.0   | 22/05/2025 |   Criação do Documento                                                 | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
-|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
-|  1.2   | 26/05/2025 | Adição das minhas Histórias de Usuário                                        | [João Igor](https://github.com/JoaoPC10)            | [Julia Gabriela](https://github.com/JuliaGabP)     |
-|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                              | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
-|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
-|  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
-|  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                 | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.7   | 01/06/2025 | Padronização do  documento e enumeração de tabelas                     | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| Versão |    Data    |        Descrição                                                                                             |                   Autor                             |                   Revisor                          |
+| :----: | :--------: | :----------------------:                                                                                     | :----------------------------------------:          | :-----------------------------------------:        |
+|  1.0   | 22/05/2025 | Criação do Documento                                                                                         | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências                                       | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.2   | 26/05/2025 | Adição das minhas Histórias de Usuário                                                                       | [João Igor](https://github.com/JoaoPC10)            | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                                                                    | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                                                           | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                                                                     | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                                                       | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.7   | 01/06/2025 | Padronização do  documento e enumeração de tabelas                                                           | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.8   | 01/06/2025 | Atualização da numeração de tabelas, inserção de entrevista, tabela de rastreabilidade e estórias de 26 a 31 | [Ryan Salles](https://github.com/RA-Salles)         | [Amanda Cruz](https://github.com/mandicrz)         |
