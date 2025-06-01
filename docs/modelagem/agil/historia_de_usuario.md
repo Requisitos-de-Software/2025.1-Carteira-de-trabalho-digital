@@ -9,6 +9,7 @@
 | [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                            | 
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                                |
 | [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das histórias de usuário 26 a 31, Entrevista com PO para validação, Elaboração Inicial da Tabela X para rastreabilidade, Revisão |                                                                                        |
+| [Amanda Cruz](https://github.com/mandicrz)         | Criação das Histórias de Usuário 32, 33, 34, 35, 36 e 37                       |                                                                                          
 
 
 <center>
@@ -34,7 +35,7 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 
 As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
 necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
-da tabela 1.
+da Tabela 1.
 
 <center>
 <b>Tabela 1:</b> Participantes da reunião 
@@ -46,6 +47,7 @@ da tabela 1.
 | Julia Paulino     | Desenvolvedor/Secretário        |
 | João Pedro Costa  | Desenvolvedora                  |
 | Ryan Salles       | Desenvolvedor/Entrevistador     |
+
 <center>
 <b>Autor(es):</b> 
 </center>
@@ -178,6 +180,7 @@ O objetivo deste documento é:
 |**Prioridade**|Baixa|
 |**Rastreabilidade**|[RF39](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
+
 ---
 
 ### História EU_08 – Modo escuro
@@ -399,6 +402,7 @@ O objetivo deste documento é:
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF04](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
 ---
 
 ### História EU_21 – Processamento de Dados
@@ -415,6 +419,7 @@ O objetivo deste documento é:
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF06](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
 ---
 
 ### História EU_22 – Correção de Inconsistências
@@ -431,6 +436,7 @@ O objetivo deste documento é:
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF07](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
 ---
 
 ### História EU_23 – Localizar Postos de Atendimento
@@ -447,6 +453,7 @@ O objetivo deste documento é:
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF16](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
 ---
 
 ### História EU_24 – Notificação de Pendências ou Atualizações
@@ -463,6 +470,7 @@ O objetivo deste documento é:
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF27](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
+
 ---
 
 ### História EU_25 – Upload de Documentos
@@ -479,6 +487,7 @@ O objetivo deste documento é:
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF29](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
+
 ---
 
 ### História EU_26 - Chatbot
@@ -495,6 +504,7 @@ O objetivo deste documento é:
 |**Prioridade**         | A DEFINIR                                                                                                                                                                               |
 |**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)                                                                                                                                        |
 |**Implementado**       | Não                                                                                                                                                                                     |
+
 ---
 
 ### História EU_27 - Chat de Atendimento
@@ -527,6 +537,7 @@ O objetivo deste documento é:
 |**Prioridade**         | A DEFINIR                                                                                                                                                                                                                             |
 |**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                                      |
 |**Implementado**       | Não                                                                                                                                                                                                                                   |
+
 ---
 
 ### História EU_29 - Assistência por voz
@@ -543,6 +554,7 @@ O objetivo deste documento é:
 |**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF37](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
+
 ---
 
 ### História EU_30 - Filtragem de Benefícios
@@ -559,6 +571,7 @@ O objetivo deste documento é:
 |**Prioridade**         ||
 |**Rastreabilidade**    |[RF23](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
+
 ---
 
 ### História EU_31 - Notificações Personalizadas
@@ -575,17 +588,159 @@ O objetivo deste documento é:
 |**Prioridade**         | Baixa |
 |**Rastreabilidade**    |[RF09](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
+
 ---
 
-### 
+### História EU_32 - Coleta de Dados via Formulários
 
+<center>
+    <b>Figura X:</b> EU_32 - Coleta de Dados via Formulários
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_32 |
+|**Título**             | Coleta de Dados via Formulários |
+|**Objetivo**           | "Eu, como Usuário, quero usar formulários no aplicativo para conseguir registrar facilmente todos os dados importantes sobre domicílios, famílias, pessoas, suas ligações com programas sociais e informações de quem vive na rua, para que o aplicativo tenha dados sempre corretos e atualizados." |
+|**Perfil(s)**          | Usuário |
+|**Critérios de Aceite**| - O aplicativo deve oferecer formulários principais e suplementares para o cadastro.<br>- O sistema deve permitir o registro completo de informações de domicílios, famílias e indivíduos. <br>- O sistema deve permitir o registro da vinculação a programas sociais e de dados específicos sobre pessoas em situação de rua. |
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF10](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Sim |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_33 - Atualização dos Dados Familiares
+
+<center>
+    <b>Figura X:</b> EU_33 - Atualização dos Dados Familiares
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_33 |
+|**Título**             | Atualização dos Dados Familiares |
+|**Objetivo**           | "Eu, como Usuário, quero poder atualizar facilmente os dados cadastrais da minha família para que estejam de acordo e possamos manter o nosso acesso a programas e benefícios sociais." |
+|**Perfil(s)**          | Usuário responsável da família |
+|**Critérios de Aceite**| - O sistema deve permitir a edição das informações pessoais dos membros da família.<br>- O sistema deve permitir a alteração dos dados de endereço e renda da família.<br>- O sistema deve salvar as modificações e confirmar que os dados da família foram atualizados. |
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF05](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Sim |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_34 - Importação Automática de Dados do CNIS
+
+<center>
+    <b>Figura X:</b> EU_34 - Importação Automática de Dados do CNIS
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_34 |
+|**Título**             | Importação Automática de Dados do CNIS |
+|**Objetivo**           | "Eu, como Usuário, quero que o sistema busque e importe automaticamente os dados de vínculos empregatícios e contribuições diretamente do CNIS, para que o processo de cadastro seja mais rápido, com informações mais precisas e menos sujeito a erros de digitação." |
+|**Perfil(s)**          | Usuário |
+|**Critérios de Aceite**| - O sistema deve ter a capacidade de se conectar ao CNIS para consultar dados de um cidadão (com as devidas autorizações). <br>- O sistema deve importar e exibir de forma clara para os dados retornados pelo CNIS. <br>- O sistema deve permitir que o usuário utilize os dados importados do CNIS para preencher ou validar as informações. | 
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF18](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Sim |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_35 - Suporte com Vídeos Explicativos
+
+<center>
+    <b>Figura X:</b> EU_35 - Suporte com Vídeos Explicativos
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_35 |
+|**Título**             | Suporte com Vídeos Explicativos |
+|**Objetivo**           | "Eu, como Usuário, quero poder assistir a vídeos dentro do aplicativo que expliquem as principais funcionalidades e processos, para que eu consiga entender melhor como usar o sistema e ganhar mais confiança." |
+|**Perfil(s)**          | Usuário novo ou com dificuldades digitais |
+|**Critérios de Aceite**| - O aplicativo deve possuir uma área ou links contextuais para acesso a vídeos explicativos. <br>- Os vídeos devem abordar o uso das funcionalidades mais importantes ou que geram mais dúvidas. <br>- Os vídeos devem ter linguagem simples, ser curtos e de fácil compreensão.|
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF36](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Não |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_36 - Conteúdo MEI Personalizado por Setor e Região
+
+<center>
+    <b>Figura X:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_36 |
+|**Título**             | Conteúdo MEI Personalizado por Setor e Região |
+|**Objetivo**           | "Eu, como Usuário MEI, quero que os conteúdos e informações da seção MEI do sistema sejam adaptados ao meu setor de atividade e à minha região, para que eu possa encontrar facilmente orientações e recursos que sejam verdadeiramente relevantes para o meu negócio." |
+|**Perfil(s)**          | Usuário MEI |
+|**Critérios de Aceite**| - O sistema deve identificar o setor de atuação e a região do Usuário MEI a partir dos seus dados cadastrais.<br>- O sistema deve exibir conteúdos na seção MEI que sejam especificamente relevantes para o setor de atuação e região geográfica do usuário." | 
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF13](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Não |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_37 - Integração com Sistemas MEI
+
+<center>
+    <b>Figura X:</b> EU_37 - Integração com Sistemas MEI
+</center>
+
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_37 |
+|**Título**             | Integração com Sistemas MEI |
+|**Objetivo**           | "Eu, como Usuário MEI, quero que o sistema possa trocar informações de forma segura e padronizada com outros sistemas relevantes para Microempreendedores Individuais, para simplificar meus processos, evitar redigitação e manter minhas informações consistentes entre as plataformas." |
+|**Perfil(s)**          | Usuário MEI |
+|**Critérios de Aceite**| - O sistema deve ser capaz de se comunicar com sistemas externos designados para MEIs. <br>- O sistema deve permitir o envio e/ou recebimento de dados específicos de MEIs de/para esses sistemas externos. <br>- A troca de dados com os sistemas MEI deve ser realizada de forma segura. | 
+|**Prioridade**         | A definir |
+|**Rastreabilidade**    |[RF40](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Não |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
 
 ## Rastreabilidade
 
-A Tabela I apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
+A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
 
 <center>
-    <b>Tabela 1:</b> Rastreabilidade de relacionamento EU-REQ-CN
+    <b>Tabela X:</b> Rastreabilidade de relacionamento EU-REQ-CN
 </center>
 
 | Estória de Usuário  | Requisito | Cenário      |
@@ -621,8 +776,15 @@ A Tabela I apresenta a rastreabilidade geral das histórias de usuário para os 
 | EU_29               | RF37      | -            |
 | **EU_30**           | RF23      | CN07         |
 | EU_31               | RF09      | -            |
+| EU_32               | RF10      | -            |
+| EU_33               | RF05      | -            |
+| EU_34               | RF18      | -            |
+| EU_35               | RF36      | -            |
+| EU_36               | RF13      | CN12         |
+| EU_37               | RF40      | CN13         |
 
-UTILIZADAS: 01, 02, 03, 04, 06, 07, 09, 11, 12, 16, 20, 23, 24, 25, 26, 27, 29, 30, 34, 35, 37, 38, 39 
+
+UTILIZADAS: 01, 02, 03, 04, 05, 06, 07, 09, 10, 11, 12, 13, 16, 18, 20, 23, 24, 25, 26, 27, 29, 30, 34, 35, 36, 37, 38, 39, 40
 
 DUPLICATAS:
 - 01-30
@@ -635,10 +797,9 @@ MELHORAR:
 - 01 a 06 -> inserir criterios de aceite mais específicos, inserir prioridade.
 - 07 a 12 -> inserir objetivo de realizar operação na estória, 
 
-
-
 <center>
-    <b>Autor(es):</b> <a href="">
+    <b>Autor(es):</b>
+    <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
 </center>
 
 ## Referências
@@ -657,3 +818,4 @@ MELHORAR:
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                              | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
 |  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                 | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
