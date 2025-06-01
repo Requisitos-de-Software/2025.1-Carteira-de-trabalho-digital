@@ -5,6 +5,7 @@
 | Nome                                              | Função                                                                  | 
 |---------------------------------------------------|-------------------------------------------------------------------------|
 |[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 14 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de Desenvolvimento do projeto e Conteudo da disciplina; | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -109,6 +110,35 @@ A Tabela 3 abaixo apresenta uma lista de verificação para as historias de usu�
 
 ---
 
+### Backlog
+
+A Tabela 4 abaixo apresenta uma lista de verificação para o Backlog. O objetivo é garantir que o Backlog esteja completo, claro e atenda aos critérios estabelecidos.
+
+<p align="center"><strong>Tabela 4:</strong> Checklist - Backlog</p>
+
+| Item | Item de Verificação | Verificação | Referência |
+|------|------------------------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | O Product Backlog está definido como uma lista de todas as funcionalidades desejadas para o produto?  |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 2    | Foi indicado que o Product Owner é o responsável por definir e priorizar o conteúdo do backlog?       |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 3    | Está claro que o Product Backlog não precisa estar completo no início do projeto?                     |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 4    | O documento indica que o backlog cresce e muda com o tempo, conforme o conhecimento do produto evolui?|             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 5    | Os itens do Product Backlog são especificados utilizando as histórias de usuário?                     |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 6    | Os itens focam no "o que" deve ser feito, e não no "como"?                                            |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 7    | Está indicado que os itens podem ter critérios de aceitação?                                          |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 8    | A prioridade de execução está bem definida?                                                           |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 9    | O backlog utiliza Épicos?                                                                             |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 10   | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 11   | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 12   | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+---
+
 
 ## Referências
 
@@ -140,9 +170,10 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 
 <p align="center"><strong>Fonte:</strong> André Barros, 2025</p>
 
-> ATLASSIAN. How to write user stories. Disponível em: <https://www.atlassian.com/agile/project-management/user-stories>. Acesso em: 01 jun. 2025.
-> SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011.
-> BRASIL. Ministério da Agricultura. Lista de Verificação da Qualidade de Artefatos. Disponível em: <https://www.gov.br/agricultura/pt-br/assuntos/tecnologia-da-informacao/arquivos/Lista_de_Verificacao_da_Qualidade_de_Artefatos.xls/view>. Acesso em: 01 jun. 2025.
+> ATLASSIAN. How to write user stories. Disponível em: <https://www.atlassian.com/agile/project-management/user-stories>. Acesso em: 01 jun. 2025.  
+> SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011.  
+> BRASIL. Ministério da Agricultura. Lista de Verificação da Qualidade de Artefatos. Disponível em: <https://www.gov.br/agricultura/pt-br/assuntos/tecnologia-da-informacao/arquivos/Lista_de_Verificacao_da_Qualidade_de_Artefatos.xls/view>. Acesso em: 01 jun. 2025.  
+> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em 01 jun. 2025.
 
 
 ## Histórico de Versão
@@ -152,3 +183,4 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 |  1.0   | 01/06/2025 | Criando a pagina  | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)      | 
 |  1.1   | 01/06/2025 | Adicionando lista de verificação de historia de usuário  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       | 
 |  1.2  | 01/06/2025 | Adicionando lista de verificação do professor  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       |
+| 1.3 | 01/06/2025 |Adicionando itens de verificação de Backlog | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)
