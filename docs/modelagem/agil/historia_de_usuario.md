@@ -1,4 +1,4 @@
-# Documento de Histórias de Usuário
+# Documento de Estórias de Usuário
 
 REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
 
@@ -32,6 +32,29 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 - Colaboração: Desenvolvimento conjunto com o Product Owner e desenvolvedores
 - Critérios mensuráveis: Definição de critérios de aceite claros e testáveis
 
+
+    As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
+necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
+da tabela 1.
+
+<center>
+<b>Tabela 1:</b> Participantes da reunião 
+</center>
+
+| Participante      | Função                          |
+| :--------:        | :-----------------------------: |
+| Davi G. A. Pierre | Usuário/ Project Owner          |
+| Julia Paulino     | Desenvolvedor/Secretário        |
+| João Pedro Costa  | Desenvolvedora                  |
+| Ryan Salles       | Desenvolvedor/Entrevistador     |
+<center>
+<b>Autor(es):</b> 
+</center>
+
+A reunião foi realizada e gravada via **Microsoft Teams**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSUJdqnPAb4?si=2k0uWOnWp9peWcgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 3. Objetivo
 
 O objetivo deste documento é:
@@ -53,7 +76,7 @@ O objetivo deste documento é:
 | [Nome do Scrum Master] | Scrum Master | Facilitação do processo e remoção de impedimentos | [Nome] |
 | [Nome do Tech Lead] | Líder Técnico | Orientação técnica e arquitetura | [Nome] |
 
-## 5. Modelo de História de Usuário
+## 5. Modelo de Estória de Usuário
 
 | Campo | Descrição | Obrigatório |
 |-------|-----------|-------------|
@@ -66,7 +89,7 @@ O objetivo deste documento é:
 | **Rastreabilidade** | Rastreabilidade do requisito |
 | **Implementado** | Se esta ou não |
 
-## 6. Histórias de Usuário
+## 6. Estórias de Usuário
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_01 – Filtrar informações sobre benefícios socias
@@ -90,7 +113,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_02 | 
 | **Título** | Alteração de Dados Cadastrais | 
-| **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
+| **Objetivo** | Eu, como usuário, gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
 |**Critérios de Aceite**|O sistema deve ter uma área de alteração, que permita a troca dos dados do usuário.|
 |**Prioridade**|Média|
@@ -99,27 +122,27 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_03 – Realizar Cadastro no Aplicativo
+### EU_03 – Formulários de Coleta
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_03 | 
-| **Título** | Realizar Cadastro no Aplicativo | 
-| **Objetivo** | Eu como usuário gostaria de me cadastrar na plaforma sem a necessidade da validação presencial | 
+| **Título** | Formulários de Coleta | 
+| **Objetivo** | Eu, como usuário, gostaria que minha situação financeira fosse levada em consideração para a liberação do benefício | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**|- O sistema deve |
 |**Prioridade**||
 |**Rastreabilidade**|[RF10](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_04 – Conferir Informações sobre Benefícios
+### EU_04 – Consultar Situação Cadastral 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_04 | 
-| **Título** | Conferir Informações sobre Benefícios | 
-| **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
+| **Título** | Consultar Situação Cadastral  | 
+| **Objetivo** |Eu, como usuário, gostaria de consiguir a situação do meu benefício | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
 |**Prioridade**||
@@ -128,13 +151,13 @@ O objetivo deste documento é:
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_05 – Verificar Postos de Atendimento
+### EU_05 – Pré-cadastrar família 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_05 | 
-| **Título** | Verificar Postos de Atendimento | 
-| **Objetivo** | Eu como usuário gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
+| **Título** | Pré-cadastrar família | 
+| **Objetivo** | Eu, como usuário, gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
 |**Prioridade**||
@@ -149,7 +172,7 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_06 | 
 | **Título** | Dispor de um Modo Escuro| 
-| **Objetivo** |Eu como usuário gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
+| **Objetivo** |Eu, como usuário, gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
 |**Prioridade**|
@@ -526,16 +549,14 @@ O objetivo deste documento é:
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo|Descrição|
-|------|---------|
-|**ID**                 |EU_29|
-|**Título**             | Assistência por voz|
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
+|**ID**                 | EU_29 |
+|**Título**             | Assistência por voz |
+|**Objetivo**           | "Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela" |
+|**Perfil(s)**          | Usuário com baixa ou nenhuma visibilidade|
+|**Critérios de Aceite**| - O aplicativo deve ser capaz de reconhecer a voz do usuário <br> - O aplicativo deve ser capaz de realizar operações a partir de comandos por voz <br> - O aplicativo, mediante boa pronúncia e um microfone funcionando segundo especificação do fabricante do dispositivo, possuir taxa de acerto do comando pronunciado de no mínimo 95% |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF37](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       | Não |
 ---
 
 ### História EU_30 - Filtragem de Benefícios
@@ -551,23 +572,21 @@ O objetivo deste documento é:
 |**Critérios de Aceite**||
 |**Prioridade**         ||
 |**Rastreabilidade**    |[RF23](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       |Não|
 ---
 
 ### História EU_31 - Notificações Personalizadas
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo|Descrição|
-|------|---------|
-|**ID**                 |EU_31|
-|**Título**             ||
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
+|**ID**                 | EU_31 |
+|**Título**             | Notificações personalizadas |
+|**Objetivo**           | "Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "|
+|**Perfil(s)**          | Usuário |
+|**Critérios de Aceite**| - O aplicativo deve ser capaz de enviar notificações <br> - O aplicativo deve possuir forma de configuração de notificações <br> - O sistema de notificação deve ser capaz de ser desativado|
+|**Prioridade**         | Baixa |
 |**Rastreabilidade**    |[RF09](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|**Implementado**       | Não |
 ---
 
 
