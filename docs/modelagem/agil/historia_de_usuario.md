@@ -20,7 +20,7 @@ A descrição das funções dos autores na criação e no desenvolvimento do art
 | [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
 | [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
-| [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão   |
+| [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das Histórias de Usuário 26 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão   |
 
 <center>
     <b>Autor(es):</b>
