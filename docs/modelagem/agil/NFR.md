@@ -168,7 +168,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 
 ---
 
-### Requisito Nº: 16 [RNF16](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
+### Requisito Nº: 15 [RNF15](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
 **Classificação:** Acessibilidade  
 **Descrição:** Acessibilidade para pessoas com deficiência visual.  
 **Justificativa:** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital.  
@@ -207,7 +207,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 
 ---
 
-### Requisito Nº: 19 [RNF19](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
+### Requisito Nº: 16 [RNF16](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
 **Classificação:** Confiabilidade  
 **Descrição:** Backup e restauração de sessão.  
 **Justificativa:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.  
@@ -220,7 +220,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 
 ---
 
-### Requisito Nº: 20 [RNF20](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
+### Requisito Nº: 17 [RNF17](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md)  
 **Classificação:** Confiabilidade  
 **Descrição:** Alta disponibilidade e recuperação de desastres.  
 **Justificativa:** O sistema deve estar disponível continuamente e ser capaz de se recuperar rapidamente de falhas.  
@@ -314,7 +314,7 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
 
 -**RNF 19 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
 
--**RNF 20 - Ryan:**
+-**RNF 20 - Ryan:** 
  
 <center>
     <b>Figura 4:</b> SIG - Eficiência
