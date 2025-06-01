@@ -312,9 +312,9 @@ A seguir, na Tabela 3, temos a avaliação da propagação dos impactos relativa
 
 Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura 4:
 
--**RNF 19 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
+-**RNF 16 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
 
--**RNF 20 - Ryan:** Prepara o sistema para responder à falhas catastróficas no lado do cliente, permitindo que dados sejam recuperados via servidor, melhorando a confiabilidade do aplicativo.
+-**RNF 17 - Ryan:** Prepara o sistema para responder à falhas catastróficas no lado do cliente, permitindo que dados sejam recuperados via servidor, melhorando a confiabilidade do aplicativo.
  
 <center>
     <b>Figura 4:</b> SIG - Eficiência
@@ -327,11 +327,11 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
     <a href="https://github.com/X" target="_blank">X</a>
 </center>
 
-### Requisitos Não Funcionais - Eficiência
-Na Tabela 4, estão listados os RNF presentes no NFR Framework de Eficiência:
+### Requisitos Não Funcionais - Confiabilidade
+Na Tabela 4, estão listados os RNF presentes no NFR Framework de Confiabilidade:
 
 <center>
-    <b>Tabela 4:</b> Requisitos Não-Funcionais de Eficiência
+    <b>Tabela 4:</b> Requisitos Não-Funcionais de Confiabilidade
 </center>
 
 
@@ -346,17 +346,17 @@ Na Tabela 4, estão listados os RNF presentes no NFR Framework de Eficiência:
 </center>
 
 
-### Propagação de Impactos - Eficiência
+### Propagação de Impactos - Confiabilidade
 A seguir, na Tabela 5, temos a avaliação da propagação dos impactos relativa à Figura 5.
 
 <center>
-    <b>Tabela 5:</b> Propagação de Impactos de Eficiência
+    <b>Tabela 5:</b> Propagação de Impactos de Confiabilidade
 </center>
 
 
-| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
-|----------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
-|           |       |      |      |   |
+| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                  |
+|----------------------|--------------------------|---------------------------|---------|----------------------------------------------------------------------------|
+|                      |                          |                           |         |                                                                            |
 
 <center>
     Autor(es): 
@@ -406,19 +406,19 @@ A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa
 </center>
 
 
-| Requisito Origem                   | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                 |
-|------------------------------------|--------------------------|---------------------------|--------|---------------------------------------------------------------------------|
+| Requisito Origem                   | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                               |
+|------------------------------------|--------------------------|---------------------------|--------|--------------------------------------------------------------------------|
 | Funcionar em conexões de até 1Mbps | Tempo de Resposta        | Contribuição Positiva     | +      | Requisitos de leveza melhoram tempo de resposta                          |
-| Tempo de Resposta                 | Tempo                    | Contribuição Positiva     | +      | Redução no tempo de resposta melhora o tempo total                       |
-| Tempo                             | Desempenho               | Refinamento AND           | AND    | É necessário bom controle de tempo para garantir desempenho              |
-| Consumo de Recursos               | Desempenho               | Refinamento AND           | AND    | Requisitos de eficiência de recursos contribuem para o desempenho        |
-| Tempo de Atraso                   | Tempo                    | Refinamento AND           | AND    | O tempo de atraso influencia diretamente o tempo                         |
-| Disponibilidade de Recursos       | Consumo de Recursos      | Refinamento AND           | AND    | Melhor disponibilidade reduz gargalos                                    |
-| Taxa de Utilização                | Consumo de Recursos      | Refinamento AND           | AND    | Alta taxa de uso impacta o uso total de recursos                         |
-| Taxa de Vazão                     | Tempo                    | Refinamento AND           | AND    | Influencia o tempo de processamento das tarefas                          |
-| Desempenho                        | Custo                    | Contribuição Negativa     | -      | Maior desempenho pode aumentar o custo do sistema                        |
-| Desempenho                        | Consumo de Energia       | Contribuição Negativa     | -      | Melhor desempenho pode demandar mais energia                             |
-| Consumo de Energia                | Desempenho               | Contribuição Positiva     | ++     | Eficiência energética favorece o desempenho global                       |
+| Tempo de Resposta                  | Tempo                    | Contribuição Positiva     | +      | Redução no tempo de resposta melhora o tempo total                       |
+| Tempo                              | Desempenho               | Refinamento AND           | AND    | É necessário bom controle de tempo para garantir desempenho              |
+| Consumo de Recursos                | Desempenho               | Refinamento AND           | AND    | Requisitos de eficiência de recursos contribuem para o desempenho        |
+| Tempo de Atraso                    | Tempo                    | Refinamento AND           | AND    | O tempo de atraso influencia diretamente o tempo                         |
+| Disponibilidade de Recursos        | Consumo de Recursos      | Refinamento AND           | AND    | Melhor disponibilidade reduz gargalos                                    |
+| Taxa de Utilização                 | Consumo de Recursos      | Refinamento AND           | AND    | Alta taxa de uso impacta o uso total de recursos                         |
+| Taxa de Vazão                      | Tempo                    | Refinamento AND           | AND    | Influencia o tempo de processamento das tarefas                          |
+| Desempenho                         | Custo                    | Contribuição Negativa     | -      | Maior desempenho pode aumentar o custo do sistema                        |
+| Desempenho                         | Consumo de Energia       | Contribuição Negativa     | -      | Melhor desempenho pode demandar mais energia                             |
+| Consumo de Energia                 | Desempenho               | Contribuição Positiva     | ++     | Eficiência energética favorece o desempenho global                       |
 
 <center>
     Autor(es): 
