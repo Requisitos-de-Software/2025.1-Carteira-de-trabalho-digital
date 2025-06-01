@@ -1,6 +1,16 @@
 # NFR Framework
 
+
+
+## Introdução
+O desenvolvimento de sistemas de software não depende apenas da implementação de requisitos funcionais, mas também da garantia de que esses sistemas cumpram atributos de qualidade, como desempenho, segurança, usabilidade e confiabilidade. Esses atributos são descritos por meio dos requisitos não funcionais (Non-Functional Requirements – NFRs), que exercem papel importante na aceitação, desempenho e manutenção do sistema ao longo do tempo. O NFR Framework, surge como uma abordagem sistemática para representar, analisar e decompor requisitos não funcionais desde as fases iniciais da engenharia de requisitos. O framework utiliza uma estrutura baseada em metas e refinamentos para tratar a natureza muitas vezes ambígua e subjetiva dos NFRs, permitindo que diferentes alternativas de design sejam avaliadas e conciliadas com os objetivos de qualidade do sistema.
+
 ## Funções dos autores
+A descrição das funções dos autores na criação e no desenvolvimento do artefato estão representadas na Tabela 1 abaixo.
+
+<center>
+    <b>Tabela 1:</b> Funções dos autores no artefato
+</center>
 
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
@@ -15,9 +25,6 @@
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
-
-## Introdução
-O desenvolvimento de sistemas de software não depende apenas da implementação de requisitos funcionais, mas também da garantia de que esses sistemas cumpram atributos de qualidade, como desempenho, segurança, usabilidade e confiabilidade. Esses atributos são descritos por meio dos requisitos não funcionais (Non-Functional Requirements – NFRs), que exercem papel importante na aceitação, desempenho e manutenção do sistema ao longo do tempo. O NFR Framework, surge como uma abordagem sistemática para representar, analisar e decompor requisitos não funcionais desde as fases iniciais da engenharia de requisitos. O framework utiliza uma estrutura baseada em metas e refinamentos para tratar a natureza muitas vezes ambígua e subjetiva dos NFRs, permitindo que diferentes alternativas de design sejam avaliadas e conciliadas com os objetivos de qualidade do sistema.
 
 ## Softgoal Interdependency Graph
 O Softgoal Interdependency Graph (SIG) é um grafo orientado usado para modelar os requisitos não funcionais (softgoals) e como eles se reforçam, conflitam ou dependem entre si. Ele permite visualizar:
@@ -264,10 +271,10 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
 </center>
 
 ### Requisitos Não Funcionais - Usabilidade  
-Na Tabela 1, estão listados os RNF presentes no NFR Framework de Usabilidade :
+Na Tabela 2, estão listados os RNF presentes no NFR Framework de Usabilidade :
 
 <center>
-    <b>Tabela 1:</b> Requisitos Não-Funcionais de Usabilidade
+    <b>Tabela 2:</b> Requisitos Não-Funcionais de Usabilidade
 </center>
 
 |RNF(Fonte)|Descrição|Classificação|Origem|
@@ -282,7 +289,7 @@ Na Tabela 1, estão listados os RNF presentes no NFR Framework de Usabilidade :
 </center>
 
 ### Propagação de Impactos - Usabilidade
-A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa à Figura 3.
+A seguir, na Tabela 3, temos a avaliação da propagação dos impactos relativa à Figura 3.
 
 <center>
     <b>Tabela 3:</b> Propagação de Impactos de Usabilidade
@@ -303,18 +310,28 @@ A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa
 
 ## NFR 02 - Eficiência
 
-Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura X:
+Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura 4:
 
 -**RNF 19 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
 
 -**RNF 20 - Ryan:**
  
+<center>
+    <b>Figura 4:</b> SIG - Eficiência
+</center>
 
-### Requisitos Não Funcionais - Eficiência
-Na Tabela X, estão listados os RNF presentes no NFR Framework de Eficiência :
+
 
 <center>
-    <b>Tabela X:</b> Requisitos Não-Funcionais de Eficiência
+    Autor(es):
+    <a href="https://github.com/X" target="_blank">X</a>
+</center>
+
+### Requisitos Não Funcionais - Eficiência
+Na Tabela 4, estão listados os RNF presentes no NFR Framework de Eficiência:
+
+<center>
+    <b>Tabela 4:</b> Requisitos Não-Funcionais de Eficiência
 </center>
 
 
@@ -329,10 +346,10 @@ Na Tabela X, estão listados os RNF presentes no NFR Framework de Eficiência :
 
 
 ### Propagação de Impactos - Eficiência
-A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
+A seguir, na Tabela 5, temos a avaliação da propagação dos impactos relativa à Figura 5.
 
 <center>
-    <b>Tabela X:</b> Propagação de Impactos de Eficiência
+    <b>Tabela 5:</b> Propagação de Impactos de Eficiência
 </center>
 
 
@@ -347,13 +364,13 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 
 
 ## NFR 03 - Desempenho
-O requisito, representado abaixo, foi utilizado para realizar o diagrama da Figura 3:
+O requisito, representado abaixo, foi utilizado para realizar o diagrama da Figura 5:
 
 - **RNF17 - Gabriel Flores:** Desempenho otimizado para internet limitada.
 
 
 <center>
-    <b>Figura X:</b> SIG - Desempenho
+    <b>Figura 5:</b> SIG - Desempenho
 </center>
 
 ![DiagramaDesempenho](../../assets/modelagem/casos_de_uso/agil/diagramaDesempenho.png)
@@ -364,10 +381,10 @@ O requisito, representado abaixo, foi utilizado para realizar o diagrama da Figu
 </center>
 
 ### Requisitos Não Funcionais - Desempenho
-Na Tabela X, estão listados os RNF presentes no NFR Framework de Desempenho:
+Na Tabela 6, estão listados os RNF presentes no NFR Framework de Desempenho:
 
 <center>
-    <b>Tabela X:</b> Requisitos Não-Funcionais de Desempenho
+    <b>Tabela 6:</b> Requisitos Não-Funcionais de Desempenho
 </center>
 
 | RNF | Descrição                                 | Classificação | Origem        |
@@ -381,10 +398,10 @@ Na Tabela X, estão listados os RNF presentes no NFR Framework de Desempenho:
 
 ### Propagação de Impactos - Desempenho
 
-A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa à Figura X.
+A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa à Figura 5.
 
 <center>
-    <b>Tabela X:</b> Propagação de Impactos de Desempenho
+    <b>Tabela 5:</b> Propagação de Impactos de Desempenho
 </center>
 
 
@@ -451,6 +468,7 @@ A seguir, na Tabela X, temos a avaliação da propagação dos impactos relativa
 |  1.6  | 30/05/2025  | Complemento da parte teórica | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
 |  1.7  | 30/05/2025  | Adição e complementos do NFR00 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
 |  1.8  | 31/05/2025  | Adição e complementos do NFR01 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
+|  1.9  | 01/05/2025  | Enumerando corretamente as tabelas | [Amanda Cruz](https://github.com/mandicrz)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 
 
 
