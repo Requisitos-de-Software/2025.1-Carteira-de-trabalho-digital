@@ -1,30 +1,34 @@
-# Documento de Estórias de Usuário
+# Estórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
-
-## Funções dos autores
-
-| Nome                                                | Função                                                            | 
-|----------------------                               |----------------------------------------------------------------   |
-| [Amanda Cruz](https://github.com/mandicrz)          | Criação das Histórias de Usuário: 32 até 37 |                              
-| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
-| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
-| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
-| [Ryan Salles](https://github.com/RA-Salles) | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                                                                                       |
-
-<center>
-    Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
-</center>
-
-## 1. Introdução
+## Introdução
 
 Este documento tem como finalidade apresentar as Histórias de Usuário (User Stories) desenvolvidas para o sistema, seguindo as diretrizes estabelecidas pela Coordenação Geral de Tecnologia da Informação (CGTI). As histórias de usuário são uma técnica ágil utilizada para capturar requisitos de software de forma simples e centrada no usuário, descrevendo funcionalidades do ponto de vista de quem irá utilizá-las.
 
 O presente documento serve como base para a validação das funcionalidades do sistema, garantindo que as necessidades dos usuários sejam atendidas de forma eficaz e que os critérios de aceite sejam claramente definidos.
 
-## 2. Metodologia
+## Funções dos autores
+A descrição das funções dos autores na criação e no desenvolvimento do artefato estão representadas na Tabela 1 abaixo.
+
+<center>
+    <b>Tabela 1:</b> Funções dos autores no artefato
+</center>
+
+| Nome                                                | Função                                                            | 
+|----------------------                               |----------------------------------------------------------------   |
+| [Amanda Cruz](https://github.com/mandicrz)          | Criação das Histórias de Usuário: 32 até 37; Enumeração de tabelas e padronização                  |          
+| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
+| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
+| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
+| [Ryan Salles](https://github.com/RA-Salles) | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                |
+
+<center>
+    <b>Autor(es):</b>
+    <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
+</center>
+
+
+## Metodologia
 
 A elaboração das histórias de usuário seguiu as seguintes diretrizes metodológicas:
 
@@ -37,10 +41,10 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 
     As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
 necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
-da Tabela 1.
+da Tabela 2.
 
 <center>
-<b>Tabela 1:</b> Participantes da reunião 
+    <b>Tabela 2:</b> Participantes da reunião 
 </center>
 
 | Participante      | Função                          |
@@ -51,14 +55,15 @@ da Tabela 1.
 | Ryan Salles       | Desenvolvedor/Entrevistador     |
 
 <center>
-<b>Autor(es):</b> 
+    <b>Autor(es):</b> 
+    <a href= "https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-A reunião foi realizada e gravada via **Microsoft Teams**.
+A reunião de validação, disponibilizada a seguir, foi realizada e gravada via **Microsoft Teams** no dia 30/05/2025.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mSUJdqnPAb4?si=2k0uWOnWp9peWcgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 3. Objetivo
+## Objetivo
 
 O objetivo deste documento é:
 
@@ -68,18 +73,12 @@ O objetivo deste documento é:
 - Garantir rastreabilidade dos requisitos ao longo do ciclo de desenvolvimento
 - Padronizar a especificação de funcionalidades seguindo boas práticas ágeis
 
-## 4. Tabela de Participantes
+## Modelo de Estória de Usuário
+O modelo de estrutura a ser seguido na criação das Estórias de Usuário pode ser visualizado através da Tabela 3.
 
-| Nome | Papel | Responsabilidade | Nome |
-|------|-------|------------------|---------|
-| [Nome do Product Owner] | Product Owner | Definição e priorização das histórias de usuário | [Nome] |
-| [Nome do Gestor de Negócio] | Gestor de Negócio | Levantamento de requisitos e validação | [Nome] |
-| [Nome do Analista] | Analista de Sistemas | Especificação técnica e critérios de aceite | [Nome] |
-| [Nome do Designer] | Designer UX/UI | Criação de protótipos e interfaces | [Nome] |
-| [Nome do Scrum Master] | Scrum Master | Facilitação do processo e remoção de impedimentos | [Nome] |
-| [Nome do Tech Lead] | Líder Técnico | Orientação técnica e arquitetura | [Nome] |
-
-## 5. Modelo de Estória de Usuário
+<center>
+    <b>Tabela 3</b>: Modelo de Estória de Usuário
+</center>
 
 | Campo | Descrição | Obrigatório |
 |-------|-----------|-------------|
@@ -89,13 +88,25 @@ O objetivo deste documento é:
 | **Perfil(s)** | Usuários que utilizarão a funcionalidade | Sim |
 | **Critérios de Aceite** | - xxx - xxx| Sim |
 | **Prioridade** | Alta, Média ou Baixa | Sim |
-| **Rastreabilidade** | Rastreabilidade do requisito |
-| **Implementado** | Se esta ou não |
+| **Rastreabilidade** | Rastreabilidade do requisito | Sim |
+| **Implementado** | Se está implementado ou não | Sim |
 
-## 6. Estórias de Usuário
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
 
-**Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_01 – Filtrar informações sobre benefícios socias
+## Estórias de Usuário
+As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único estão definidas, segundo o modelo explicado anteriormente, na Tabela 4 a 39.
+
+---
+
+### EU_01 – Filtrar informações sobre benefícios sociais
+
+<center>
+    <b>Tabela 4:</b> EU_01 - Filtrar informações sobre benefícios sociais
+</center>
+
 
 | Campo | Descrição | 
 |-------|-----------|
@@ -103,19 +114,28 @@ O objetivo deste documento é:
 | **Título** | Filtrar informações sobre benefícios socias | 
 | **Objetivo** | Eu, como usuário, gostaria de filtrar os serviços prestados, auxiliando minha busca | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
-|**Critérios de Aceite**| - O sistema deve exibir uma opção para slecionar os itens que o usuário desejar ver.|
+|**Critérios de Aceite**| - O sistema deve exibir uma opção para selecionar os itens que o usuário desejar ver.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
 ---
-**Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_02 – Alteração de Dados Cadastrais
+
+### EU_02 – Alteração de dados cadastrais
+
+<center>
+    <b>Tabela 5:</b> EU_02 - Alteração de dados cadastrais
+</center>
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_02 | 
-| **Título** | Alteração de Dados Cadastrais | 
+| **Título** | Alteração de dados cadastrais | 
 | **Objetivo** | Eu, como usuário, gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
 |**Critérios de Aceite**|O sistema deve ter uma área de alteração, que permita a troca dos dados do usuário.|
@@ -123,69 +143,115 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF20](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
 ---
-**Autor**: [João Igor](https://github.com/JoaoPC10)
+
 ### EU_03 – Enviar notificações
+
+<center>
+    <b>Tabela 6:</b> EU_03 - Enviar notificações
+</center>
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_03 | 
 | **Título** | Enviar notificações | 
-| **Objetivo** | Eu, como usuário, gostaria de receber notificações relacionadas ao meu cadastro | 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**|- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário ou de alaguma atualização|
+| **Objetivo** | Eu, como usuário, gostaria de receber notificações relacionadas ao meu cadastro. | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico |
+|**Critérios de Aceite**|- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF17](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+
 ---
-**Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_04 – Cadastro de Usuário 
+
+### EU_04 – Cadastro de usuário
+
+<center>
+    <b>Tabela 7:</b> EU_04 - Cadastro de usuário
+</center>
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_04 | 
-| **Título** | Cadastro de Usuário  | 
-| **Objetivo** |Eu, como usuário, gostaria de me cadastrar no CadÚnico | 
+| **Título** | Cadastro de usuário  | 
+| **Objetivo** |Eu, como usuário, gostaria de me cadastrar no CadÚnico. | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**| sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço etc.|
+|**Critérios de Aceite**|- O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço etc|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF19](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
 ---
-**Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_05 – Pré-cadastrar família 
+
+### EU_05 – Pré-cadastrar Família 
+<center>
+    <b>Tabela 8:</b> EU_05 - Pré-cadastrar Família
+</center>
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_05 | 
 | **Título** | Pré-cadastrar família | 
-| **Objetivo** | Eu, como usuário, gostaria de realizar um pré-cadastro da minha família para ter acesso aos benefícios| 
+| **Objetivo** | Eu, como usuário, gostaria de realizar um pré-cadastro da minha família para ter acesso aos benefícios. | 
 | **Perfil(s)** | Pessoas que não cadastradas no CadÚnico|
-|**Critérios de Aceite**|O sistema deve permitir que uma pessoa não cadastrada no CadÚnico inicie um pré-cadastro para sua família|
+|**Critérios de Aceite**|- O sistema deve permitir que uma pessoa não cadastrada no CadÚnico inicie um pré-cadastro para sua família.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF15](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
 ---
 
-**Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_06 –  Consultar dados cadastrais 
+
+<center>
+    <b>Tabela 9:</b> EU_06 - Consultar dados cadastrais
+</center>
 
 | Campo | Descrição | 
 |-------|-----------|
-| **ID** | EU_06 |
+| **ID** | EU_06 | 
 | **Título** | Consultar dados cadastrais | 
-| **Objetivo** |Eu, como usuário, gostaria de visualizar os dados que estão na plataforma | 
+| **Objetivo** |Eu, como usuário, gostaria de visualizar os dados que estão na plataforma. | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**|O sistema deve exibir as informações de cadastro do usuário|
+|**Critérios de Aceite**|- O sistema deve exibir as informações de cadastro do usuário.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF14](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+
 ---
 
 ### História EU_07 – Possibilidade de outros idiomas
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 10:</b> EU_07 - Possibilidade de outros idiomas
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -193,16 +259,23 @@ O objetivo deste documento é:
 |**Título**|Possibilidade de outros idiomas|
 |**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo em outro idioma.|
 |**Perfil(s)**|Usuários gerais do CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de alterar o idioma do aplicativo, de forma que ele fique conciso <br> Para mais detalhes cheque a introspecção: [IS16](../../modelagem/introspecção.md)|
+|**Critérios de Aceite**|- Qualquer usuário deve ser capaz de alterar o idioma do aplicativo, de forma que ele fique conciso <br> Para mais detalhes cheque a introspecção: [IS16](../../modelagem/introspecção.md)|
 |**Prioridade**|Baixa|
 |**Rastreabilidade**|[RF39](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ---
 
 ### História EU_08 – Modo escuro
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 11:</b> EU_08 - Modo escuro
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -210,17 +283,23 @@ O objetivo deste documento é:
 |**Título**|Modo escuro|
 |**Objetivo**|Eu, como usuário desejo poder acessar o aplicativo na forma escura.|
 |**Perfil(s)**|Usuários gerais do CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de configurar para seu aplicativo ficar no modo escuro, de forma que o constraste de cores continue com qualidade <br> Para mais detalhes cheque a introspecção: [IS15](../../modelagem/introspecção.md)|
+|**Critérios de Aceite**|- Qualquer usuário deve ser capaz de configurar para seu aplicativo ficar no modo escuro, de forma que o constraste de cores continue com qualidade <br> Para mais detalhes cheque a introspecção: [IS15](../../modelagem/introspecção.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF38](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
----
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
+---
 
 ### História EU_09– Visualização de informações cadastrais
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 12:</b> EU_09 - Visualização de informações cadastrais
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -228,16 +307,23 @@ O objetivo deste documento é:
 |**Título**|Visualização de informações cadastrais|
 |**Objetivo**|Eu, como usuário desejo poder visualizar minhas informações cadastrais|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de visualizar suas informações cadastrais <br> Para mais detalhes cheque a entrevista: [ENT2](../../modelagem/entrevista.md)|
+|**Critérios de Aceite**|- Qualquer usuário deve ser capaz de visualizar suas informações cadastrais <br> Para mais detalhes cheque a entrevista: [ENT2](../../modelagem/entrevista.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF25](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ---
 
 ### História EU_10– Consulta de benefícios
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 13:</b> EU_10 - Consulta de benefícios
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -245,16 +331,23 @@ O objetivo deste documento é:
 |**Título**|Consulta de benefícios|
 |**Objetivo**|Eu, como usuário desejo consultar a situação do meu benefício|
 |**Perfil(s)**|Usuários com benefícios no CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário deve ser capaz de visualizar as situações de seus benefícios. <br> Para mais detalhes cheque a entrevista: [ENT1](../../modelagem/entrevista.md)|
+|**Critérios de Aceite**|- Qualquer usuário deve ser capaz de visualizar as situações de seus benefícios. <br> Para mais detalhes cheque a entrevista: [ENT1](../../modelagem/entrevista.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ---
 
 ### História EU_11– Emissão de comprovante de cadastro
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 14:</b> EU_11 - Emissão de comprovante de cadastro
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -262,16 +355,23 @@ O objetivo deste documento é:
 |**Título**|Emissão de comprovante de cadastro|
 |**Objetivo**|Eu, como usuário desejo poder emitir um comprovante de cadastro no sistema|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário cadastrado deve ser capaz de emitir um comprovante de cadastro no sistema. <br> Para mais detalhes cheque a introspecção: [IS9](../../modelagem/introspecção.md)|
+|**Critérios de Aceite**|- Qualquer usuário cadastrado deve ser capaz de emitir um comprovante de cadastro no sistema. <br> Para mais detalhes cheque a introspecção: [IS9](../../modelagem/introspecção.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF22](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 ---
 
 ### História EU_12– Atualização de dados
 
-**Autor**: [Julia Gabriela](https://github.com/JuliaGabP)
+<center>
+    <b>Tabela 15:</b> EU_12 - Atualização de dados
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -279,16 +379,24 @@ O objetivo deste documento é:
 |**Título**|Atualização de dados|
 |**Objetivo**|Eu, como usuário desejo poder atualizar os meus dados no sistema|
 |**Perfil(s)**|Usuários cadastrados no CadÚnico|
-|**Critérios de Aceite**|- . Qualquer usuário cadastrado deve ser capaz atualizar seus dados pelo sistema. <br> Para mais detalhes cheque a introspecção: [IS7](../../modelagem/introspecção.md)|
+|**Critérios de Aceite**|- Qualquer usuário cadastrado deve ser capaz atualizar seus dados pelo sistema. <br> Para mais detalhes cheque a introspecção: [IS7](../../modelagem/introspecção.md)|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF20](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 
 ---
 
 ### História EU_13 – Cadastro MEI
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 16:</b> EU_13 - Cadastro MEI
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -301,11 +409,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF11](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_14 – Acesso a conteúdos informativos sobre MEI
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 17:</b> EU_14 - Acesso a conteúdos informativos sobre MEI
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -318,11 +433,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF12](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_15 – Chat de Atendimento
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 18:</b> EU_15 - Chat de atendimento
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -335,11 +457,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF26](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_16 – Agendamento no CRAS
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 19:</b> EU_16 - Agendamento no CRAS
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -352,11 +481,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF30](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_17 – Cadastro de Famílias
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 20:</b> EU_17 - Cadastro de famílias
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -369,11 +505,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF01](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_18 – Cadastro de Pessoas
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 21:</b> EU_18 - Cadastro de pessoas
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -386,11 +529,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF02](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_19 – Cadastro de Domicílios
 
-**Autor**: [João Pedro Costa](https://github.com/johnaopedro)
+<center>
+    <b>Tabela 22:</b> EU_19 - Cadastro de domicílios
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -403,11 +553,19 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF03](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ---
 
 ### História EU_20 – Cadastro de Agricultores Familiares
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+
+<center>
+    <b>Tabela 23:</b> EU_20 - Cadastro de agricultores familiares
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -420,11 +578,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF04](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_21 – Processamento de Dados
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    <b>Tabela 24:</b> EU_21 - Processamento de Dados
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -437,11 +602,19 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF06](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_22 – Correção de Inconsistências
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    <b>Tabela 25:</b> EU_22 - Correção de Inconscistências
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -454,11 +627,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF07](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_23 – Localizar Postos de Atendimento
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    <b>Tabela 26:</b> EU_23 - Localizar postos de atendimento
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -471,11 +651,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF16](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_24 – Notificação de Pendências ou Atualizações
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    <b>Tabela 27:</b> EU_24 - Notificação de pendências ou atualizações
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -488,11 +675,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF27](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_25 – Upload de Documentos
 
-**Autor**: [Gabriel Flores](https://github.com/Gabrielfcoelho)
+<center>
+    <b>Tabela 28:</b> EU_25 - Upload de documentos
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -505,11 +699,18 @@ O objetivo deste documento é:
 |**Rastreabilidade**|[RF29](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ---
 
 ### História EU_26 - Chatbot
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+<center>
+    <b>Tabela 29:</b> EU_26 - Chatbot
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -521,11 +722,20 @@ O objetivo deste documento é:
 |**Prioridade**         | A DEFINIR |
 |**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 ---
 
 ### História EU_27 - Chat de Atendimento
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+<center>
+    <b>Tabela 30:</b> EU_26 - Chatbot
+</center>
 
 |Campo|Descrição|
 |------|---------|
@@ -537,29 +747,48 @@ O objetivo deste documento é:
 |**Prioridade**         ||
 |**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       ||
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 ---
 
 ### História EU_28 - Tutoriais Interativos
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+<center>
+    <b>Tabela 31:</b> EU_28 - Tutoriais interativos
+</center>
+
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 |EU_28                                                                                                                                                                                                                                  |
-|**Título**             | Tutoriais Interativos                                                                                                                                                                                                                 |
-|**Objetivo**           | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
-|**Perfil(s)**          | Usuário novo do CadÚnico                                                                                                                                                                                                              |
-|**Critérios de Aceite**| - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo                                           |
-|**Prioridade**         | A DEFINIR                                                                                                                                                                                                                             |
-|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                                      |
-|**Implementado**       | Não                                                                                                                                                                                                                                   |
+| **ID** | EU_ 28 |
+|**Título** | Tutoriais Interativos |
+| **Objetivo** | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
+| **Perfil(s)** | Usuário novo do CadÚnico |
+| **Critérios de Aceite** | - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo |
+|**Prioridade** | A DEFINIR |
+|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md) |
+|**Implementado**       | Não  |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 
 ---
 
 ### História EU_29 - Assistência por voz
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+<center>
+    <b>Tabela 32:</b> EU_29 - Assistência por voz
+</center>
 
+|Campo|Descrição|
+|------|---------|
 |**ID**                 | EU_29 |
 |**Título**             | Assistência por voz |
 |**Objetivo**           | "Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela" |
@@ -569,29 +798,46 @@ O objetivo deste documento é:
 |**Rastreabilidade**    |[RF37](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 ---
 
-### História EU_30 - Simular Benefícios
+### História EU_30 - Simular benefícios
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+
+<center>
+    <b>Tabela 33:</b> EU_30 - Simular benefícios
+</center>
 
 |Campo|Descrição|
 |------|---------|
 |**ID**                 |EU_30|
-|**Título**             | Simular benefícios |
-|**Objetivo**           | Eu, como usuário, gostaria de simular os benefícios segundo meus dados cadastrados para que possa garantir acesso aos meus direitos de forma mais fácil e informada |
-|**Perfil(s)**          | Usuário do CádÚnico |
-|**Critérios de Aceite**| - O usuário é capaz de simular os benefícios possíveis <br> - O aplicativo deve ser capaz de gerar um pré-relatório com validade para uso em um CRAS <br> - O aplicativo deve simular os benefícios utilizando os dados do usuário cadastrado de forma correta <br> - O relatório gerado deve ser enviado ao sistema para que possa estar disponível para atendentes |
-|**Prioridade**         | Alta |
+|**Título**             |Simular benefícios|
+|**Objetivo**           |Eu, como usuário, gostaria de simular os benefícios segundo meus dados cadastrados para que possa garantir acesso aos meus direitos de forma mais fácil e informada. |
+|**Perfil(s)**          |Usuário do CadÚnico|
+|**Critérios de Aceite**|- O usuário é capaz de simular os benefícios possíveis <br> - O aplicativo deve ser capaz de gerar um pré-relatório com validade para uso em um CRAS <br> - O aplicativo deve simular os benefícios utilizando os dados do usuário cadastrado de forma correta <br> - O relatório gerado deve ser enviado ao sistema para que possa estar disponível para atendentes |
+|**Prioridade**         |Alta|
 |**Rastreabilidade**    |[RF33](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ---
 
 ### História EU_31 - Notificações Personalizadas
 
-**Autor**: [Ryan Salles](https://github.com/RA-Salles)
+<center>
+    <b>Tabela 34:</b> EU_31 - Notificações personalizadas
+</center>
 
+|Campo|Descrição|
+|------|---------|
 |**ID**                 | EU_31 |
 |**Título**             | Notificações personalizadas |
 |**Objetivo**           | "Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "|
@@ -601,12 +847,17 @@ O objetivo deste documento é:
 |**Rastreabilidade**    |[RF09](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 ---
 
 ### História EU_32 - Coleta de Dados via Formulários
 
 <center>
-    <b>Figura X:</b> EU_32 - Coleta de Dados via Formulários
+    <b>Figura 35:</b> EU_32 - Coleta de Dados via Formulários
 </center>
 
 |Campo|Descrição|
@@ -630,7 +881,7 @@ O objetivo deste documento é:
 ### História EU_33 - Atualização dos Dados Familiares
 
 <center>
-    <b>Figura X:</b> EU_33 - Atualização dos Dados Familiares
+    <b>Figura 36:</b> EU_33 - Atualização dos Dados Familiares
 </center>
 
 |Campo|Descrição|
@@ -654,7 +905,7 @@ O objetivo deste documento é:
 ### História EU_34 - Importação Automática de Dados do CNIS
 
 <center>
-    <b>Figura X:</b> EU_34 - Importação Automática de Dados do CNIS
+    <b>Figura 37:</b> EU_34 - Importação Automática de Dados do CNIS
 </center>
 
 |Campo|Descrição|
@@ -678,7 +929,7 @@ O objetivo deste documento é:
 ### História EU_35 - Suporte com Vídeos Explicativos
 
 <center>
-    <b>Figura X:</b> EU_35 - Suporte com Vídeos Explicativos
+    <b>Figura 38:</b> EU_35 - Suporte com Vídeos Explicativos
 </center>
 
 |Campo|Descrição|
@@ -702,7 +953,7 @@ O objetivo deste documento é:
 ### História EU_36 - Conteúdo MEI Personalizado por Setor e Região
 
 <center>
-    <b>Figura X:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
+    <b>Figura 39:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
 </center>
 
 |Campo|Descrição|
@@ -726,7 +977,7 @@ O objetivo deste documento é:
 ### História EU_37 - Integração com Sistemas MEI
 
 <center>
-    <b>Figura X:</b> EU_37 - Integração com Sistemas MEI
+    <b>Figura 40:</b> EU_37 - Integração com Sistemas MEI
 </center>
 
 |Campo|Descrição|
@@ -749,10 +1000,10 @@ O objetivo deste documento é:
 
 ## Rastreabilidade
 
-A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
+A Tabela 41 apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.
 
 <center>
-    <b>Tabela X:</b> Rastreabilidade de relacionamento EU-REQ-CN
+    <b>Tabela 41:</b> Rastreabilidade de relacionamento EU-REQ-CN
 </center>
 
 | Estória de Usuário  | Requisito | Cenário      |
@@ -812,6 +1063,7 @@ MELHORAR:
 - 07 a 12 -> inserir objetivo de realizar operação na estória, 
 
 -->
+
 <center>
     <b>Autor(es):</b>
     <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
@@ -834,3 +1086,4 @@ MELHORAR:
 |  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                 | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.7   | 01/06/2025 | Padronização do  documento e enumeração de tabelas                     | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
