@@ -1,5 +1,15 @@
 # Lista de Verificação - Entrega 3
 
+## Funções dos autores
+
+| Nome                                              | Função                                                                  | 
+|---------------------------------------------------|-------------------------------------------------------------------------|
+|[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 14 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de Desenvolvimento do projeto e Conteudo da disciplina; | 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ## Introdução
 
 Este documento apresenta uma lista de verificação criada para o [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) e o Grupo+1 ([Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE)) referente a **Etapa 4** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
