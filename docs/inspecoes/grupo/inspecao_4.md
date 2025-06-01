@@ -81,6 +81,9 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 </center>
 
 ---
+
+### Historias de Usuário
+
 | **ID** |                        **Item**                      | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
 | 01  | A história de usuário segue o formato “Como usuário, quero ação”? |  |
@@ -96,7 +99,7 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 | 11  | A User Story inclui uma contextualização que posiciona a funcionalidade no produto? |  |
 | 12  | A User Story inclui protótipos ou links para protótipos atualizados? |  |
 | 13  | A linguagem utilizada na User Story é alinhada ao vocabulário do usuário, evitando termos técnicos desnecessários? |  |
-| 14  | Os critérios de aceitação estão redigidos na voz ativa, facilitando a compreensão do executor da ação? |  |
+| 14  | Os riscos podem ser identificados na descrição? |  |
 | 15  | Os critérios de aceitação são atualizados continuamente com base no feedback do time? |  |
 | 16  | Foi lida e aprovada por alguém fora da equipe? |  |
 | 17  | Evita detalhamento em linguagem de usuário final? Ex: “fácil de usar” ou "bem rápido" |  |
