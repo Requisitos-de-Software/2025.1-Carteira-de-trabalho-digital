@@ -41,32 +41,69 @@ A reunião foi realizada via **Microsoft Teams** no dia 01/06/2025.
 
 O backlog foi construído levando em conta as seguintes áreas de uso do software, que correspondem aos épicos: Autenticação, Informação, Requisição, Customização, Acessibilidade, Integração, Segurança. Cada épico possuirá sua própria subseção.
 
+As features e estórias serão apresentadas segundo o modelo da tabela 2.
+
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+
 ### Épico 1: Autenticação
 
-O Épico 1 trata de aspectos de autenticação do usuário para fins de login e disponibilização de serviços com o mínimo preenchimento de informações adicionais e é apresentado por meio da tabela 1.
+O Épico 1 trata de aspectos de autenticação do usuário para fins de login e disponibilização de serviços com o mínimo preenchimento de informações adicionais e é apresentado por meio da tabela 3.
+
+<center>
+    <b>Tabela 3: </b>
+</center>
+
+| Feature                        | Estórias                 | Prioridade  |
+| :-----:                        | : ---------------------: | :---------: |
+| FT_01 - Capacidade de Login    |  -                       | Alta        |
+| FT_02 - Capacidade de Cadastro | EU_04                    |             |
+
+
 
 ### Épico 2: Informação
 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
-Esse Épico é apresentado por meio da tabela 2.
+Esse Épico é apresentado por meio da tabela 4.
 
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_03 - Atualização de Dados   | EU_02 <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_04 - Obtenção de informação | EU_01 <br> EU_03 <br>        |                                        |
+| FT_05 - |
 
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
-uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 3.
+uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 5.
+
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_05 - Formulários | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+
 
 ### Épico 4: Customização
-O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 4.
+O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 6.
+
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 
 ### Épico 5: Acessibilidade
-O épico 5 trata de aspectos de acessibilidade do aplicativo. Esse épico é apresentado por meio da tabela 5.
+O épico 5 trata de aspectos de acessibilidade do aplicativo. 
+Esse épico é apresentado por meio da tabela 7.
+
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 
 ### Épico 6: Integração
-O Épico 6 agrupa estórias relacionadas a integração do aplicativo com demais sistemas para permitir intercomunicação dos sistemas, permitindo ao aplicativo comunicar com mais de um sistema e repassar informações a outros sistemas senão o principal. Esse épico é apresentado por meio da tabela 6.
+O Épico 6 agrupa estórias relacionadas a integração do aplicativo com demais sistemas para permitir intercomunicação dos sistemas, permitindo ao aplicativo comunicar com mais de um sistema e repassar informações a outros sistemas senão o principal.
+Esse épico é apresentado por meio da tabela 8.
 
-### Épico 7: Segurança
-O Épico 7 trata de estórias e funcionalidades relacionadas à segurança do aplicativo, que visa manter os dados do usuário seguros. Esse épico é apresentado por meio da tabela 7.
-
+| Feature | Estórias                 | Prioridade                             |
+| :-----: | : ---------------------: | :------------------------------------: |
+| FT_XX - Integração com    | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 
 
 ## Referências Bibliográficas
