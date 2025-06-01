@@ -10,6 +10,7 @@ REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25
 | [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
 | [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
+| [Ryan Salles](https://github.com/RA-Salles) | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                                                                                       |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -74,9 +75,9 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_01 | 
 | **Título** | Filtrar informações sobre benefícios socias | 
-| **Objetivo** | Eu como usuário gostaria de filtrar os serviços prestados, auxiliando minha busca | 
+| **Objetivo** | Eu, como usuário, gostaria de filtrar os serviços prestados, auxiliando minha busca | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**| - O sistema deve exibir uma opção para slecionar os itens que o usuário desejar ver.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -91,7 +92,7 @@ O objetivo deste documento é:
 | **Título** | Alteração de Dados Cadastrais | 
 | **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
-|**Critérios de Aceite**||
+|**Critérios de Aceite**|O sistema deve ter uma área de alteração, que permita a troca dos dados do usuário.|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF20](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
@@ -107,7 +108,7 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de me cadastrar na plaforma sem a necessidade da validação presencial | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**|
+|**Prioridade**||
 |**Rastreabilidade**|[RF10](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
@@ -121,14 +122,14 @@ O objetivo deste documento é:
 | **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**|
+|**Prioridade**||
 |**Rastreabilidade**|[RF21](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
 ### EU_05 – Verificar Postos de Atendimento
-1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
+
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_05 | 
@@ -136,7 +137,7 @@ O objetivo deste documento é:
 | **Objetivo** | Eu como usuário gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**|
+|**Prioridade**||
 |**Rastreabilidade**|[RF15](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
@@ -580,10 +581,10 @@ A tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 | Estória de Usuário  | Requisito |
 | EU_01               | RF24      |
 | EU_02               | RF20      |
-| EU_03               | RF02      |
-| EU_04               | -         |
-| EU_05               | RF16      |
-| EU_06               | RF38      |
+| EU_03               | RF10      |
+| EU_04               | RF21      |
+| EU_05               | RF15      |
+| EU_06               | RF08      |
 | EU_07               | RF39      |
 | EU_08               | RF38      |
 | EU_09               | RF25      |
