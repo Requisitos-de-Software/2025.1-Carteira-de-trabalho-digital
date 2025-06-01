@@ -1,19 +1,23 @@
 # Lista de Verificação - Entrega 4
 
+## Introdução
+
+Este documento apresenta uma lista de verificação criada para o [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) e o Grupo+1 ([Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE)) referente a **Etapa 4** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
+
 ## Funções dos autores
+
+<p align="center"><strong>Tabela 1:</strong> Funções dos autores no artefato</p>
 
 | Nome                                              | Função                                                                  | 
 |---------------------------------------------------|-------------------------------------------------------------------------|
+|[Amanda Cruz](https://github.com/mandicrz) | Adição de itens do checklist de NFR Framework e revisão do artefato | 
 |[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 15 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de desenvolvimento do projeto e Conteudo da disciplina; | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog |
+
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
-
-## Introdução
-
-Este documento apresenta uma lista de verificação criada para o [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) e o Grupo+1 ([Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE)) referente a **Etapa 4** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
 
 ## Checklist como Método de Verificação
 
@@ -27,11 +31,11 @@ O **checklist**, que significa **Lista de Verificação**, uma técnica importan
 
 ## Checklists - Entrega 4
 
-As Tabelas 1 e 2 apresentam checklists para os elementos de desenvolvimento do projeto e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas e os requisitos técnicos sejam atendidos de acordo com o **Plano de Ensino** do professor.
+As Tabelas 2 e 3 apresentam checklists para os elementos de desenvolvimento do projeto e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas e os requisitos técnicos sejam atendidos de acordo com o **Plano de Ensino** do professor.
 
 ### Desenvolvimento do Projeto
 
-<p align="center"><strong>Tabela 1:</strong> Checklist de Desenvolvimento do Projeto</p>
+<p align="center"><strong>Tabela 2:</strong> Checklist de Desenvolvimento do Projeto</p>
 
 | **ID** |                       **Item**                       |                                        **Referência**                                         |
 | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
@@ -49,9 +53,11 @@ As Tabelas 1 e 2 apresentam checklists para os elementos de desenvolvimento do p
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+---
+
 ### Conteúdo da Disciplina
 
-<p align="center"><strong>Tabela 2:</strong> Checklist de Conteúdo da Disciplina - Modelagem de Requisitos - Ágil</p>
+<p align="center"><strong>Tabela 3:</strong> Checklist de Conteúdo da Disciplina - Modelagem de Requisitos - Ágil</p>
 
 | **ID** |                       **Item**                       |                                        **Referência**                                         |
 | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
@@ -71,6 +77,7 @@ As Tabelas 1 e 2 apresentam checklists para os elementos de desenvolvimento do p
 |  CD14  | Os softgoals condizem com o contexto? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 01 de junho 2025. |
 |  CD15  | Os softgoals representam metas bem definidas? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 01 de junho 2025. |
 |  CD16  | Os impactos foram corretamente propagados? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 01 de junho 2025. |
+
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -80,9 +87,9 @@ As Tabelas 1 e 2 apresentam checklists para os elementos de desenvolvimento do p
 
 ### Historia de Usuário
 
-A Tabela 3 abaixo apresenta uma lista de verificação para as historias de usuário. O objetivo é garantir que todas as histórias estejam completas, claras e atendam aos critérios estabelecidos.
+A Tabela 4 abaixo apresenta uma lista de verificação para as historias de usuário. O objetivo é garantir que todas as histórias estejam completas, claras e atendam aos critérios estabelecidos.
 
-<p align="center"><strong>Tabela 3:</strong> Checklist - Historia de Usuário</p>
+<p align="center"><strong>Tabela 4:</strong> Checklist - Historia de Usuário</p>
 
 | ID  | Tópico                             | Descrição                                                                 | Resposta (Sim/Não) | Referência |
 |-----|------------------------------------|---------------------------------------------------------------------------|--------------------|------------|
@@ -113,10 +120,9 @@ A Tabela 3 abaixo apresenta uma lista de verificação para as historias de usu�
 | 25  | Objetivo | A funcionalidade proposta contribui para o objetivo geral do produto?  |                    | EASY AGILE. How to write good user stories in agile software development. Easy Agile Blog, 2022. Disponível em: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development. Acesso em: 01 jun 2025. |
 | 26  | Objetivo | Foca no que o sistema deve fazer, e não em como a tela será desenhada?  |                    | EASY AGILE. How to write good user stories in agile software development. Easy Agile Blog, 2022. Disponível em: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development. Acesso em: 01 jun 2025. |
 
-
 <center>
     Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>,
     <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
@@ -124,9 +130,9 @@ A Tabela 3 abaixo apresenta uma lista de verificação para as historias de usu�
 
 ### Backlog
 
-A Tabela 4 abaixo apresenta uma lista de verificação para o Backlog. O objetivo é garantir que o Backlog esteja completo, claro e atenda aos critérios estabelecidos.
+A Tabela 5 abaixo apresenta uma lista de verificação para o Backlog. O objetivo é garantir que o Backlog esteja completo, claro e atenda aos critérios estabelecidos.
 
-<p align="center"><strong>Tabela 4:</strong> Checklist - Backlog</p>
+<p align="center"><strong>Tabela 5:</strong> Checklist - Backlog</p>
 
 | Item | Item de Verificação | Verificação | Referência |
 |------|------------------------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
@@ -151,10 +157,33 @@ A Tabela 4 abaixo apresenta uma lista de verificação para o Backlog. O objetiv
 
 ---
 
+### NFR Framework
+A Tabela 6 abaixo apresenta uma lista de verificação para o artefato NFR Framework. O objetivo é garantir que o NFR esteja completo, claro e atenda aos critérios estabelecidos.
+
+<p align="center"><strong>Tabela 6:</strong> Checklist - NFR Framework </p>
+
+| **ID** |                       **Item**                       |                                        **Referência**                                         |**Autor**|
+| :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :-----: |
+|   1    | Os três tipos de softgoals (NFR, Operacionalização, Afirmação) foram devidamente identificados e representados no SIG com suas notações gráficas específicas (ex: nuvens claras, grossas, tracejadas)? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   2    | Os softgoals foram detalhados através dos tipos de refinamentos apropriados (ex: decomposição, priorização) para derivar sub-softgoals mais específicos? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 32 e 33, Seção 2.4.4.1. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   3    | As relações de impacto entre softgoals (pai-filho) foram modeladas usando os diversos tipos de contribuições (AND, OR, MAKE, etc.)? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 34-37, Seção 2.4.4.2. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   4    | Foram atribuídos rótulos de avaliação (propagação de impactos) aos softgoals para indicar seu status após a análise do SIG? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 38, Seção 2.4.5. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   5    | Os Requisitos Não-Funcionais (RNFs) centrais do projeto foram capturados e representados como softgoals desde o início? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 30, Seção 2.4.1. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   6    | Foi construído o SIG para visualizar os softgoals, suas inter-relações e o racional de design do sistema? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 30 e 31, Seção 2.4.1 e 2.4.2. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   7    | Cada softgoal NFR possui seu "tipo" (a qualidade NFR, ex: Confiabilidade) e "tópico" (o objeto da qualidade) claramente definidos para especificar seu escopo? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 32, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   8    | O SIG registra explicitamente as decisões de desenvolvimento tomadas, as alternativas consideradas e as justificativas para as escolhas feitas? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 30 e 31, Seção 2.4.2. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|   9    | Os softgoals NFR estão organizados de forma hierárquica dentro do SIG? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+|  10    | Para cada softgoal NFR importante, foram identificadas e representadas no SIG uma ou mais soluções de implementação (softgoals de operacionalização) que buscam atendê-lo? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
+
+
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
 
 ## Referências
 
-As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
+As referências das Tabelas 2 e 3 tiveram como referência as Figuras 1 a 4.
 
 > BARROS, André. Plano de Ensino, RE-012025, Turma 3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3106711/mod_resource/content/55/Lista%20de%20Verifificac%CC%A7a%CC%83o%20-%20Plano_de_Ensino%20RE%20012025%20Turma%2003%20v1.pdf>. Acesso em: 01 junho 2025.
 
@@ -183,9 +212,14 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 <p align="center"><strong>Fonte:</strong> André Barros, 2025</p>
 
 > ATLASSIAN. How to write user stories. Disponível em: <https://www.atlassian.com/agile/project-management/user-stories>. Acesso em: 01 jun. 2025.  
+
 > SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011.  
+
 > BRASIL. Ministério da Agricultura. Lista de Verificação da Qualidade de Artefatos. Disponível em: <https://www.gov.br/agricultura/pt-br/assuntos/tecnologia-da-informacao/arquivos/Lista_de_Verificacao_da_Qualidade_de_Artefatos.xls/view>. Acesso em: 01 jun. 2025.  
+
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em 01 jun. 2025.
+
+> SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. Disponível em: <https://repositorio.ufpe.br/handle/123456789/34150>. Acesso em: 01 jun.
 
 
 ## Histórico de Versão
@@ -196,3 +230,4 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 |  1.1   | 01/06/2025 | Adicionando lista de verificação de historia de usuário  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       | 
 |  1.2  | 01/06/2025 | Adicionando lista de verificação do professor  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       |
 | 1.3 | 01/06/2025 |Adicionando itens de verificação de Backlog | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)   |
+| 1.4 | 01/06/2025 |Adicionando itens de verificação de NFR Framework | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
