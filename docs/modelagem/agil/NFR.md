@@ -256,7 +256,7 @@ Essa visão geral fundamenta a análise detalhada dos NFRs específicos e, tamb�
 Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura 3:
 
 - **RNF 07 - Julia Gabriela:** O sistema deve permitir funcionalidades básicas mesmo sem conexão com a internet. 
-- **RNF 16 - João Pedro:** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital.
+- **RNF 15 - João Pedro:** O sistema deve ser utilizável por pessoas com deficiência visual, promovendo inclusão digital.
 - **RNF 18 - Amanda:** O sistema deve ser acessível a usuários que falam diferentes idiomas, ampliando o público-alvo.
 
 <center>
@@ -314,7 +314,7 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
 
 -**RNF 19 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
 
--**RNF 20 - Ryan:** 
+-**RNF 20 - Ryan:** Prepara o sistema para responder à falhas catastróficas no lado do cliente, permitindo que dados sejam recuperados via servidor, melhorando a confiabilidade do aplicativo.
  
 <center>
     <b>Figura 4:</b> SIG - Eficiência
@@ -337,11 +337,12 @@ Na Tabela 4, estão listados os RNF presentes no NFR Framework de Eficiência:
 
 |RNF(Fonte)|Descrição|Classificação|Origem|
 |----------|---------|-------------|------|
-|[RNF19](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão|Confiabilidade|Análise de documentos|
-
+|[RNF16](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão|Confiabilidade|Análise de documentos|
+|[RNF17](../../elicitacao/requisitos_elicitados.md)|Alta disponibilidade e recuperação de desastres|Confiabilidade|Introspecção|
 <center>
     Autor(es): 
-    <a href="https://github.com/X" target="_blank"> X </a>
+    <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
+    <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
 </center>
 
 
