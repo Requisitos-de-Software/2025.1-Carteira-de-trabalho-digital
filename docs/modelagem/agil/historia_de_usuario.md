@@ -829,7 +829,7 @@ MELHORAR:
 | :----: | :--------: | :----------------------:                                               | :----------------------------------------:          | :-----------------------------------------:        |
 |  1.0   | 22/05/2025 |   Criação do Documento                                                 | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
 |  1.1   | 22/05/2025 | Adaptação do template das histórias de usuário e adição de referências | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
-|  1.2   | 26/05/2025 | Adição das Histórias de Usuário                                        | [João Igor](https://github.com/JoaoPC10)            | [Julia Gabriela](https://github.com/JuliaGabP)     |
+|  1.2   | 26/05/2025 | Adição das minhas Histórias de Usuário                                        | [João Igor](https://github.com/JoaoPC10)            | [Julia Gabriela](https://github.com/JuliaGabP)     |
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                              | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
 |  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
