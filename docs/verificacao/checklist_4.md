@@ -4,7 +4,7 @@
 
 | Nome                                              | Função                                                                  | 
 |---------------------------------------------------|-------------------------------------------------------------------------|
-|[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 14 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de Desenvolvimento do projeto e Conteudo da disciplina; | 
+|[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 15 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de desenvolvimento do projeto e Conteudo da disciplina; | 
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog
 <center>
     Autor(es): 
@@ -170,15 +170,15 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 
 <p align="center"><strong>Fonte:</strong> André Barros, 2025</p>
 
-<p align="center"><strong>Figura 3:</strong> Lista de Verificação - Planejamento (CD02-CD13)</p>
+<p align="center"><strong>Figura 3:</strong> Lista de Verificação - Planejamento (CD01-CD02)</p>
 
-![Fonte3](../assets/verificacao3/fonte3.png)
+![Fonte3](../assets/verificacao4/fonte0.png)
 
 <p align="center"><strong>Fonte:</strong> André Barros, 2025</p>
 
-<p align="center"><strong>Figura 4:</strong> Lista de Verificação - Planejamento (CD14-CD18)</p>
+<p align="center"><strong>Figura 4:</strong> Lista de Verificação - Planejamento (CD03-CD16)</p>
 
-![Fonte4](../assets/verificacao3/fonte4.png)
+![Fonte4](../assets/verificacao4/fonte1.png)
 
 <p align="center"><strong>Fonte:</strong> André Barros, 2025</p>
 
@@ -195,4 +195,4 @@ As referências das Tabelas 1 e 2 tiveram como referência as Figuras 1 a 4.
 |  1.0   | 01/06/2025 | Criando a pagina  | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)      | 
 |  1.1   | 01/06/2025 | Adicionando lista de verificação de historia de usuário  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       | 
 |  1.2  | 01/06/2025 | Adicionando lista de verificação do professor  | [João Pedro Costa](https://github.com/johnaopedro) | [Amanda Cruz](https://github.com/mandicrz)       |
-| 1.3 | 01/06/2025 |Adicionando itens de verificação de Backlog | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)
+| 1.3 | 01/06/2025 |Adicionando itens de verificação de Backlog | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)   |
