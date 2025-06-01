@@ -764,7 +764,6 @@ A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 | EU_05               | RF15      | CN06         |
 | EU_06               | RF14      | -            |
 | EU_07               | RF39      | -            |
-| EU_07               | RF39      | -            |
 | **EU_08**           | RF38      | CN09         |
 | EU_09               | RF25      | -            |
 | EU_10               | RF24      | CN01         |
