@@ -712,14 +712,14 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
     <b>Tabela 29:</b> EU_26 - Chatbot
 </center>
 
-|Campo|Descrição|
-|------|---------|
+|Campo                  |Descrição|
+|------                 |---------|
 |**ID**                 | EU_26|
 |**Título**             | Chatbot|
 |**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva" |
 |**Perfil(s)**          | Usuário do CadÚnico |
 |**Critérios de Aceite**| - O usuário consegue acessar o sistema; - O chatbot é capaz de entender perguntas em linguagem natural; - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
-|**Prioridade**         | A DEFINIR |
+|**Prioridade**         | Baixa |
 |**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
@@ -734,19 +734,19 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 
 <center>
-    <b>Tabela 30:</b> EU_26 - Chatbot
+    <b>Tabela 30:</b> EU_27 - Chat de atendimento
 </center>
 
-|Campo|Descrição|
-|------|---------|
-|**ID**                 | EU_27|
-|**Título**             | Chat de atendimento |
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
-|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**       ||
+|Campo                  |Descrição|
+|------                 |---------|
+|**ID**                 | EU_27                                                                                                                                                                                                                        |
+|**Título**             | Chat de atendimento                                                                                                                                                                                                          |
+|**Objetivo**           | "Eu, como usuário, gostaria de uma linha de acesso direto a um atendente cuja experiência e capacidades técnicas para resolver rapidamente problemas, requisições, dúvidas e dificuldades sem a necessidade de ir a um CRAS" |
+|**Perfil(s)**          | Usuário do CádÚnico                                                                                                                                                                                                          |
+|**Critérios de Aceite**| - O usuário consegue acessar o sistema <br> - O atendente é capaz de receber e enviar mensagens em tempo real <br> - O usuário é capaz de receber e enviar mensagens em tempo real                                           |
+|**Prioridade**         | Alta                                                                                                                                                                                                                    |
+|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                             |
+|**Implementado**       | Não                                                                                                                                                                                                                          |
 
 <center>
     Autor(es): 
@@ -762,16 +762,16 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 </center>
 
 
-|Campo|Descrição|
-|------|---------|
-| **ID** | EU_ 28 |
-|**Título** | Tutoriais Interativos |
-| **Objetivo** | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
-| **Perfil(s)** | Usuário novo do CadÚnico |
+|Campo                    |Descrição|
+|------                   |---------|
+| **ID**                  | EU_ 28 |
+|**Título**               | Tutoriais Interativos |
+| **Objetivo**            | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
+| **Perfil(s)**           | Usuário novo do CadÚnico |
 | **Critérios de Aceite** | - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo |
-|**Prioridade** | A DEFINIR |
-|**Rastreabilidade**    |[RF35](../../elicitacao/requisitos_elicitados.md) |
-|**Implementado**       | Não  |
+|**Prioridade**           | A DEFINIR |
+|**Rastreabilidade**      |[RF35](../../elicitacao/requisitos_elicitados.md) |
+|**Implementado**         | Não  |
 
 <center>
     Autor(es): 
@@ -787,8 +787,8 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
     <b>Tabela 32:</b> EU_29 - Assistência por voz
 </center>
 
-|Campo|Descrição|
-|------|---------|
+|Campo                  |Descrição|
+|------                 |---------|
 |**ID**                 | EU_29 |
 |**Título**             | Assistência por voz |
 |**Objetivo**           | "Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela" |
@@ -812,8 +812,8 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
     <b>Tabela 33:</b> EU_30 - Simular benefícios
 </center>
 
-|Campo|Descrição|
-|------|---------|
+|Campo                  |Descrição|
+|------                 |---------|
 |**ID**                 |EU_30|
 |**Título**             |Simular benefícios|
 |**Objetivo**           |Eu, como usuário, gostaria de simular os benefícios segundo meus dados cadastrados para que possa garantir acesso aos meus direitos de forma mais fácil e informada. |
@@ -836,8 +836,8 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
     <b>Tabela 34:</b> EU_31 - Notificações personalizadas
 </center>
 
-|Campo|Descrição|
-|------|---------|
+|Campo                  |Descrição|
+|------                 |---------|
 |**ID**                 | EU_31 |
 |**Título**             | Notificações personalizadas |
 |**Objetivo**           | "Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "|
