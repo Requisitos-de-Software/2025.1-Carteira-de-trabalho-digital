@@ -16,6 +16,27 @@ O backlog apresentado foi desenvolvido a partir dos requisitos elicitados, reuni
 
 O backlog é construído a partir da observação de temáticas comuns nas estórias de usuário, que definem os épicos, funcionalidades e agrupam as estórias.
 
+Para fins de construir o backlog, uma reunião à distância com um dos POs foi realizada. Os participantes são apresentados por meio da tabela 1.
+
+<center>
+    <b>Tabela 1:<b> Participantes da Reunião com o PO.
+</center>
+
+| Nome            | Função                     |
+| :-------------: | :------------------------: |
+| Lucas M. Arruda | Project Owner/Usuário      |
+| João Pedro      | Desenvolvedor/Secretário   |
+| Ryan Salles     | Entrevistador/Desenvolvedor|
+
+<center>
+    <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
+
+
+A reunião foi realizada via **Microsoft Teams** no dia 01/06/2025.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T9YJ_fNqxn4?si=XW0fHgTrpbb4Jtso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Backlog 
 
 O backlog foi construído levando em conta as seguintes áreas de uso do software, que correspondem aos épicos: Autenticação, Informação, Requisição, Customização, Acessibilidade, Integração, Segurança. Cada épico possuirá sua própria subseção.
