@@ -71,7 +71,7 @@ Esse Épico é apresentado por meio da tabela 4.
 | :-----: | : ---------------------: | :------------------------------------: |
 | FT_03 - Atualização de Dados   | EU_02 <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 | FT_04 - Obtenção de informação | EU_01 <br> EU_03 <br>        |                                        |
-| FT_05 - |
+| FT_05 - Ajuda                  |
 
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
@@ -80,7 +80,7 @@ uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apres
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
 | FT_05 - Formulários | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
-
+|                     |                          |                                        |
 
 ### Épico 4: Customização
 O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 6.
