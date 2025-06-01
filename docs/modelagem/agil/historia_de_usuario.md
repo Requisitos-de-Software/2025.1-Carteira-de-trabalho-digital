@@ -15,7 +15,7 @@ A descrição das funções dos autores na criação e no desenvolvimento do art
 
 | Nome                                                | Função                                                            | 
 |----------------------                               |----------------------------------------------------------------   |
-| [Amanda Cruz](https://github.com/mandicrz)          | Criação das Histórias de Usuário: 32 até 37; Enumeração de tabelas e padronização                  |          
+| [Amanda Cruz](https://github.com/mandicrz)          | Criação das Histórias de Usuário: 32 até 37; Enumeração de tabelas e padronização; Adição das fontes exigidas pelo professor                 |          
 | [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
 | [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
 | [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
@@ -39,9 +39,7 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 - Critérios mensuráveis: Definição de critérios de aceite claros e testáveis
 
 
-    As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
-necessidade de implementação no aplicativo. Os participantes das entrevistas são apresentados por meio
-da Tabela 2 e 3.
+As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e necessidade de implementação no aplicativo. Os participantes das entrevistas são apresentados por meio da Tabela 2 e 3.
 
 <center>
     <b>Tabela 2:</b> Participantes da reunião 
@@ -1093,6 +1091,44 @@ MELHORAR:
 
 > PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. Acesso em: 28 de maio 2025.
 
+> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15a [slide em PDF], P. 12 - 14. Aprender3, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf>. Acesso em: 01 jun. 2025.
+
+#### O que é História de Usuário? (User Story)
+As Figuras 1 a 3 a seguir explicam o que são as histórias de usuário, também exemplificando os critérios de aceitação, e foram responsáveis por auxiliar o processo de criação do artefato.
+
+<center>
+    <b>Figura 1:</b> User Story - Parte 1
+</center>
+
+![US Fonte 1](../../assets/modelagem/US/us_fonte1.png)
+
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício. 
+</center>
+
+<center>
+    <b>Figura 2:</b> User Story - Parte 2
+</center>
+
+![US Fonte 2](../../assets/modelagem/US/us_fonte2.png)
+
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício.
+</center>
+
+<center>
+    <b>Figura 3:</b> User Story - Parte 3
+</center>
+
+![US Fonte 3](../../assets/modelagem/US/us_fonte3.png)
+
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício. 
+</center>
+
 ## Histórico de Versão
 
 | Versão |    Data    |        Descrição                                                                                             |                   Autor                             |                   Revisor                          |
@@ -1106,3 +1142,4 @@ MELHORAR:
 |  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                                                       | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)        |
 |  1.7   | 01/06/2025 | Padronização do  documento e enumeração de tabelas                                                           | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles)        |
 |  1.8   | 01/06/2025 | Atualização da numeração de tabelas, inserção de entrevista, tabela de rastreabilidade e estórias de 26 a 31 | [Ryan Salles](https://github.com/RA-Salles)         | [Amanda Cruz](https://github.com/mandicrz)         |
+|  1.9   | 01/06/2025 | Adição de imagens das referências | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles) |
