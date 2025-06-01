@@ -1,7 +1,5 @@
 # Documento de Estórias de Usuário
 
-REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
-
 ## Funções dos autores
 
 | Nome                                                | Função                                                            | 
@@ -11,7 +9,7 @@ REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25
 | [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
 | [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
-| [Ryan Salles](https://github.com/RA-Salles) | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                                                                                       |
+| [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                                                                                       |
 
 <center>
     Autor(es): 
@@ -616,7 +614,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário, quero usar formulários no aplicativo para conseguir registrar facilmente todos os dados importantes sobre domicílios, famílias, pessoas, suas ligações com programas sociais e informações de quem vive na rua, para que o aplicativo tenha dados sempre corretos e atualizados." |
 |**Perfil(s)**          | Usuário |
 |**Critérios de Aceite**| - O aplicativo deve oferecer formulários principais e suplementares para o cadastro.<br>- O sistema deve permitir o registro completo de informações de domicílios, famílias e indivíduos. <br>- O sistema deve permitir o registro da vinculação a programas sociais e de dados específicos sobre pessoas em situação de rua. |
-|**Prioridade**         | A definir |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF10](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Sim |
 
@@ -640,7 +638,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário, quero poder atualizar facilmente os dados cadastrais da minha família para que estejam de acordo e possamos manter o nosso acesso a programas e benefícios sociais." |
 |**Perfil(s)**          | Usuário responsável da família |
 |**Critérios de Aceite**| - O sistema deve permitir a edição das informações pessoais dos membros da família.<br>- O sistema deve permitir a alteração dos dados de endereço e renda da família.<br>- O sistema deve salvar as modificações e confirmar que os dados da família foram atualizados. |
-|**Prioridade**         | A definir |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF05](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Sim |
 
@@ -664,7 +662,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário, quero que o sistema busque e importe automaticamente os dados de vínculos empregatícios e contribuições diretamente do CNIS, para que o processo de cadastro seja mais rápido, com informações mais precisas e menos sujeito a erros de digitação." |
 |**Perfil(s)**          | Usuário |
 |**Critérios de Aceite**| - O sistema deve ter a capacidade de se conectar ao CNIS para consultar dados de um cidadão (com as devidas autorizações). <br>- O sistema deve importar e exibir de forma clara para os dados retornados pelo CNIS. <br>- O sistema deve permitir que o usuário utilize os dados importados do CNIS para preencher ou validar as informações. | 
-|**Prioridade**         | A definir |
+|**Prioridade**         | Média |
 |**Rastreabilidade**    |[RF18](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Sim |
 
@@ -688,7 +686,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário, quero poder assistir a vídeos dentro do aplicativo que expliquem as principais funcionalidades e processos, para que eu consiga entender melhor como usar o sistema e ganhar mais confiança." |
 |**Perfil(s)**          | Usuário novo ou com dificuldades digitais |
 |**Critérios de Aceite**| - O aplicativo deve possuir uma área ou links contextuais para acesso a vídeos explicativos. <br>- Os vídeos devem abordar o uso das funcionalidades mais importantes ou que geram mais dúvidas. <br>- Os vídeos devem ter linguagem simples, ser curtos e de fácil compreensão.|
-|**Prioridade**         | A definir |
+|**Prioridade**         | Média |
 |**Rastreabilidade**    |[RF36](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
@@ -712,7 +710,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário MEI, quero que os conteúdos e informações da seção MEI do sistema sejam adaptados ao meu setor de atividade e à minha região, para que eu possa encontrar facilmente orientações e recursos que sejam verdadeiramente relevantes para o meu negócio." |
 |**Perfil(s)**          | Usuário MEI |
 |**Critérios de Aceite**| - O sistema deve identificar o setor de atuação e a região do Usuário MEI a partir dos seus dados cadastrais.<br>- O sistema deve exibir conteúdos na seção MEI que sejam especificamente relevantes para o setor de atuação e região geográfica do usuário." | 
-|**Prioridade**         | A definir |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF13](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
@@ -736,7 +734,7 @@ O objetivo deste documento é:
 |**Objetivo**           | "Eu, como Usuário MEI, quero que o sistema possa trocar informações de forma segura e padronizada com outros sistemas relevantes para Microempreendedores Individuais, para simplificar meus processos, evitar redigitação e manter minhas informações consistentes entre as plataformas." |
 |**Perfil(s)**          | Usuário MEI |
 |**Critérios de Aceite**| - O sistema deve ser capaz de se comunicar com sistemas externos designados para MEIs. <br>- O sistema deve permitir o envio e/ou recebimento de dados específicos de MEIs de/para esses sistemas externos. <br>- A troca de dados com os sistemas MEI deve ser realizada de forma segura. | 
-|**Prioridade**         | A definir |
+|**Prioridade**         | Alta |
 |**Rastreabilidade**    |[RF40](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
@@ -832,4 +830,4 @@ MELHORAR:
 |  1.3   | 28/05/2025 | Adição de Historias de Usuário de 19 a 25                              | [João Pedro Costa](https://github.com/johnaopedro)  | [Julia Gabriela](https://github.com/JuliaGabP)     |
 |  1.4   | 29/05/2025 | Adição de 6 Histórias de Usuário, correção dos IDs                     | [Julia Gabriela](https://github.com/JuliaGabP)      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  1.5   | 29/05/2025 | Adição da histórias de usuário 20 até 25                               | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Pedro Costa](https://github.com/johnaopedro) |
-|  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                 | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.6   | 01/06/2025 | Adição da histórias de usuário 32 a 37                                 | [Amanda Cruz](https://github.com/mandicrz)          | [Ryan Salles](https://github.com/RA-Salles) |
