@@ -1,16 +1,17 @@
 # Documento de Estórias de Usuário
 
+REQUISITOS JA USADOS: 1,2,3, 4, 6, 7, 11, 12, 16, 20, 22, 24, 26, 27, 29, 30, 25,38, 39
+
 ## Funções dos autores
 
-| Nome                                                | Função                                                                                                                                      | 
-|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências         | 
-| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 3, 4, 5, 6, 7 e 9                                                                                         |
-| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                            | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                                |
-| [Ryan Salles](https://github.com/RA-Salles)         | Elaboração das histórias de usuário 26 a 31, Entrevista com PO para validação, Elaboração Inicial da Tabela X para rastreabilidade, Revisão |                                                                                        |
-| [Amanda Cruz](https://github.com/mandicrz)         | Criação das Histórias de Usuário 32, 33, 34, 35, 36 e 37                       |                                                                                          
-
+| Nome                                                | Função                                                            | 
+|----------------------                               |----------------------------------------------------------------   |
+| [Amanda Cruz](https://github.com/mandicrz)          | Criação das Histórias de Usuário: 32 até 37 |                              
+| [João Pedro Costa](https://github.com/johnaopedro)  | Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências | 
+| [João Igor](https://github.com/JoaoPC10)            | Criação das Histórias de Usuário: 1 à 6                                                                                 |
+| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral; Criação de 6 histórias de usuário                                                                                    | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação das histórias de usuário 20 até a 25                                                                                        |
+| [Ryan Salles](https://github.com/RA-Salles) | Elaboração das Histórias de Usuário 16 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão                                                                                       |
 
 <center>
     Autor(es): 
@@ -33,7 +34,8 @@ A elaboração das histórias de usuário seguiu as seguintes diretrizes metodol
 - Colaboração: Desenvolvimento conjunto com o Product Owner e desenvolvedores
 - Critérios mensuráveis: Definição de critérios de aceite claros e testáveis
 
-As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
+
+    As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e 
 necessidade de implementação no aplicativo. Os participantes da entrevista são apresentados por meio
 da Tabela 1.
 
@@ -99,9 +101,12 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_01 | 
 | **Título** | Filtrar informações sobre benefícios socias | 
-| **Objetivo** | Eu como usuário gostaria de filtrar os serviços prestados, auxiliando minha busca | 
+| **Objetivo** | Eu, como usuário, gostaria de filtrar os serviços prestados, auxiliando minha busca | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN07](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+|**Critérios de Aceite**| - O sistema deve exibir uma opção para slecionar os itens que o usuário desejar ver.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
@@ -111,59 +116,71 @@ O objetivo deste documento é:
 |-------|-----------|
 | **ID** | EU_02 | 
 | **Título** | Alteração de Dados Cadastrais | 
-| **Objetivo** | Eu como usuário gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
+| **Objetivo** | Eu, como usuário, gostaria de alterar meus dados pessoais durante o uso do aplicativo | 
 | **Perfil(s)** | Pessoas cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN02](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+|**Critérios de Aceite**|O sistema deve ter uma área de alteração, que permita a troca dos dados do usuário.|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF20](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Não|
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_03 – Realizar Cadastro no Aplicativo
+### EU_03 – Formulários de Coleta
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_03 | 
-| **Título** | Realizar Cadastro no Aplicativo | 
-| **Objetivo** | Eu como usuário gostaria de me cadastrar na plaforma sem a necessidade da validação presencial | 
+| **Título** | Formulários de Coleta | 
+| **Objetivo** | Eu, como usuário, gostaria que minha situação financeira fosse levada em consideração para a liberação do benefício | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
-| **Critérios de Aceite** | [CN03](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
+|**Critérios de Aceite**|- O sistema deve |
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF10](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_04 – Conferir Informações sobre Benefícios
+### EU_04 – Consultar Situação Cadastral 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_04 | 
-| **Título** | Conferir Informações sobre Benefícios | 
-| **Objetivo** |Eu como usuário gostaria de consiguir visualizar os benefícios prestados pelo governo | 
-| **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN04](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
+| **Título** | Consultar Situação Cadastral  | 
+| **Objetivo** |Eu, como usuário, gostaria de consiguir a situação do meu benefício | 
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+|**Critérios de Aceite**||
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF21](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 
 ---
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_05 – Verificar Postos de Atendimento
+### EU_05 – Pré-cadastrar família 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_05 | 
-| **Título** | Verificar Postos de Atendimento | 
-| **Objetivo** | Eu como usuário gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN05](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
+| **Título** | Pré-cadastrar família | 
+| **Objetivo** | Eu, como usuário, gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
+| **Perfil(s)** | Pessoas que não cadastradas no CadÚnico|
+|**Critérios de Aceite**||
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF15](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 ---
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_06 – Dispor de um Modo Escuro
+### EU_06 –  Consultar dados cadastrais 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_06 | 
-| **Título** | Dispor de um Modo Escuro| 
-| **Objetivo** |Eu como usuário gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
+| **Título** | D Consultar dados cadastrais | 
+| **Objetivo** |Eu, como usuário, gostaria de visualizar os dados que estão na plataforma | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-| **Critérios de Aceite** | [CN09](https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/) |
-
+|**Critérios de Aceite**||
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF14](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**|Sim|
 ---
 
 ### História EU_07 – Possibilidade de outros idiomas
@@ -494,17 +511,16 @@ O objetivo deste documento é:
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo                  |Descrição                                                                                                                                                                                |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**                 | EU_26                                                                                                                                                                                   |
-|**Título**             | Chatbot                                                                                                                                                                                 |
-|**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva"                                                                          |
-|**Perfil(s)**          | Usuário do CadÚnicov                                                                                                                                         |
-|**Critérios de Aceite**| - O usuário consegue acessar o sistema <br> - O chatbot é capaz de entender perguntas em linguagem natural<br> - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
-|**Prioridade**         | A DEFINIR                                                                                                                                                                               |
-|**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)                                                                                                                                        |
-|**Implementado**       | Não                                                                                                                                                                                     |
-
+|Campo|Descrição|
+|------|---------|
+|**ID**                 | EU_26|
+|**Título**             | Chatbot|
+|**Objetivo**           | "Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva" |
+|**Perfil(s)**          | Usuário do CadÚnico |
+|**Critérios de Aceite**| - O usuário consegue acessar o sistema; - O chatbot é capaz de entender perguntas em linguagem natural; - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários |
+|**Prioridade**         | A DEFINIR |
+|**Rastreabilidade**    |[RF26](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Não |
 ---
 
 ### História EU_27 - Chat de Atendimento
@@ -513,14 +529,14 @@ O objetivo deste documento é:
 
 |Campo|Descrição|
 |------|---------|
-|**ID**                 | EU_27                                                                                                                                                                                                                        |
-|**Título**             | Chat de atendimento                                                                                                                                                                                                          |
-|**Objetivo**           | "Eu, como usuário, gostaria de uma linha de acesso direto a um atendente cuja experiência e capacidades técnicas para resolver rapidamente problemas, requisições, dúvidas e dificuldades sem a necessidade de ir a um CRAS" |
-|**Perfil(s)**          | Usuário do CádÚnico                                                                                                                                                                                                          |
-|**Critérios de Aceite**| - O usuário consegue acessar o sistema <br> - O atendente é capaz de receber e enviar mensagens em tempo real <br> - O usuário é capaz de receber e enviar mensagens em tempo real                                           |
-|**Prioridade**         | A DEFINIR                                                                                                                                                                                                                    |
-|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)                                                                                                                                                                             |
-|**Implementado**       | Não                                                                                                                                                                                                                          |
+|**ID**                 | EU_27|
+|**Título**             | Chat de atendimento |
+|**Objetivo**           ||
+|**Perfil(s)**          ||
+|**Critérios de Aceite**||
+|**Prioridade**         ||
+|**Rastreabilidade**    |[RF34](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       ||
 ---
 
 ### História EU_28 - Tutoriais Interativos
@@ -544,8 +560,6 @@ O objetivo deste documento é:
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo|Descrição|
-|------|---------|
 |**ID**                 | EU_29 |
 |**Título**             | Assistência por voz |
 |**Objetivo**           | "Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela" |
@@ -564,7 +578,7 @@ O objetivo deste documento é:
 |Campo|Descrição|
 |------|---------|
 |**ID**                 |EU_30|
-|**Título**             | |
+|**Título**             ||
 |**Objetivo**           ||
 |**Perfil(s)**          ||
 |**Critérios de Aceite**||
@@ -578,8 +592,6 @@ O objetivo deste documento é:
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
-|Campo|Descrição|
-|------|---------|
 |**ID**                 | EU_31 |
 |**Título**             | Notificações personalizadas |
 |**Objetivo**           | "Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "|
