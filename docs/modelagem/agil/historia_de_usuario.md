@@ -133,7 +133,7 @@ O objetivo deste documento é:
 | **Título** | Enviar notificações | 
 | **Objetivo** | Eu, como usuário, gostaria de receber notificações relacionadas ao meu cadastro | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
-|**Critérios de Aceite**|- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário|
+|**Critérios de Aceite**|- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário ou de alaguma atualização|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF17](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
@@ -757,12 +757,12 @@ A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 
 | Estória de Usuário  | Requisito | Cenário      |
 | :-----------------: | :-------: | :-----:      |          
-| EU_01               | RF24      | CN01         |
-| EU_02               | RF17      |              |
-| EU_03               | RF19      |              |
-| EU_04               | RF21      | CN01         |
-| EU_05               | RF15      | CN05         |
-| EU_06               | RF14      | CN09         |
+| EU_01               | RF24      | CN07         |
+| EU_02               | RF20      | CN14         |
+| EU_03               | RF17      | CN03         |
+| EU_04               | RF19      | CN03         |
+| EU_05               | RF15      | CN06         |
+| EU_06               | RF14      | -            |
 | EU_07               | RF39      | -            |
 | EU_07               | RF39      | -            |
 | **EU_08**           | RF38      | CN09         |
