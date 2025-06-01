@@ -117,6 +117,7 @@ A Tabela 3 abaixo apresenta uma lista de verificação para as historias de usu�
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
 ---
