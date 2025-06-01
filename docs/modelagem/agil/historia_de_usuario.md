@@ -131,7 +131,7 @@ O objetivo deste documento é:
 | **Objetivo** | Eu, como usuário, gostaria que minha situação financeira fosse levada em consideração para a liberação do benefício | 
 | **Perfil(s)** | Pessoas que desejam se cadastrar no CadÚnico|
 |**Critérios de Aceite**|- O sistema deve |
-|**Prioridade**||
+|**Prioridade**|Média|
 |**Rastreabilidade**|[RF10](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
@@ -143,9 +143,9 @@ O objetivo deste documento é:
 | **ID** | EU_04 | 
 | **Título** | Consultar Situação Cadastral  | 
 | **Objetivo** |Eu, como usuário, gostaria de consiguir a situação do meu benefício | 
-| **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
+| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**||
+|**Prioridade**|Média|
 |**Rastreabilidade**|[RF21](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 
@@ -158,25 +158,25 @@ O objetivo deste documento é:
 | **ID** | EU_05 | 
 | **Título** | Pré-cadastrar família | 
 | **Objetivo** | Eu, como usuário, gostaria de visualizar o local, dia e horário em que os postos de atendimento estão funcionando, para poder ser atendido pessoalmente | 
-| **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
+| **Perfil(s)** | Pessoas que não cadastradas no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**||
+|**Prioridade**|Média|
 |**Rastreabilidade**|[RF15](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
 
 **Autor**: [João Igor](https://github.com/JoaoPC10)
-### EU_06 – Dispor de um Modo Escuro
+### EU_06 –  Consultar dados cadastrais 
 
 | Campo | Descrição | 
 |-------|-----------|
 | **ID** | EU_06 | 
-| **Título** | Dispor de um Modo Escuro| 
-| **Objetivo** |Eu, como usuário, gostaria de dispor de um Modo Escuro, tornando-o melhor usável em ambientes escuros | 
+| **Título** | D Consultar dados cadastrais | 
+| **Objetivo** |Eu, como usuário, gostaria de visualizar os dados que estão na plataforma | 
 | **Perfil(s)** | Pessoas que já são cadastradas no CadÚnico|
 |**Critérios de Aceite**||
-|**Prioridade**|
-|**Rastreabilidade**|[RF08](../../elicitacao/requisitos_elicitados.md)|
+|**Prioridade**|Média|
+|**Rastreabilidade**|[RF14](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Sim|
 ---
 
