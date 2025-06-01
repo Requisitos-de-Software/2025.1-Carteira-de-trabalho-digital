@@ -571,19 +571,19 @@ O objetivo deste documento é:
 
 ---
 
-### História EU_30 - Filtragem de Benefícios
+### História EU_30 - Simular Benefícios
 
 **Autor**: [Ryan Salles](https://github.com/RA-Salles)
 
 |Campo|Descrição|
 |------|---------|
 |**ID**                 |EU_30|
-|**Título**             ||
-|**Objetivo**           ||
-|**Perfil(s)**          ||
-|**Critérios de Aceite**||
-|**Prioridade**         ||
-|**Rastreabilidade**    |[RF23](../../elicitacao/requisitos_elicitados.md)|
+|**Título**             | Simular benefícios |
+|**Objetivo**           | Eu, como usuário, gostaria de simular os benefícios segundo meus dados cadastrados para que possa garantir acesso aos meus direitos de forma mais fácil e informada |
+|**Perfil(s)**          | Usuário do CádÚnico |
+|**Critérios de Aceite**| - O usuário é capaz de simular os benefícios possíveis <br> - O aplicativo deve ser capaz de gerar um pré-relatório com validade para uso em um CRAS <br> - O aplicativo deve simular os benefícios utilizando os dados do usuário cadastrado de forma correta <br> - O relatório gerado deve ser enviado ao sistema para que possa estar disponível para atendentes |
+|**Prioridade**         | Alta |
+|**Rastreabilidade**    |[RF33](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
 ---
@@ -786,7 +786,7 @@ A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 | EU_27               | RF34      | -            |
 | EU_28               | RF35      | CN15         |
 | EU_29               | RF37      | -            |
-| **EU_30**           | RF23      | CN07         |
+| EU_30           | RF33      | CN07         |
 | EU_31               | RF09      | -            |
 | EU_32               | RF10      | -            |
 | EU_33               | RF05      | -            |
@@ -795,8 +795,9 @@ A Tabela X apresenta a rastreabilidade geral das histórias de usuário para os 
 | EU_36               | RF13      | CN12         |
 | EU_37               | RF40      | CN13         |
 
+<!--
 
-UTILIZADAS: 01, 02, 03, 04, 05, 06, 07, 09, 10, 11, 12, 13, 16, 18, 20, 23, 24, 25, 26, 27, 29, 30, 34, 35, 36, 37, 38, 39, 40
+UTILIZADAS: 01, 02, 03, 04, 05, 06, 07, 09, 10, 11, 12, 13, 16, 18, 20, 23, 24, 25, 26, 27, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40
 
 DUPLICATAS:
 - 01-30
@@ -809,6 +810,7 @@ MELHORAR:
 - 01 a 06 -> inserir criterios de aceite mais específicos, inserir prioridade.
 - 07 a 12 -> inserir objetivo de realizar operação na estória, 
 
+-->
 <center>
     <b>Autor(es):</b>
     <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
