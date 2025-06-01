@@ -1,5 +1,19 @@
 # Entrevista
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Desenvolvimento da entrevista.| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão geral.| 
+|[João Pedro Costa](https://github.com/johnaopedro)| Criação das tabelas de requisitos; Revisão Geral.| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Desenvolvimento da entrevista.| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral.| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ## Introdução
 
 ### Entrevista
@@ -9,12 +23,12 @@ A entrevista é uma das técnicas mais utilizadas para coleta de dados na elicit
 
 | Entrevistador       | Entrevistado         | Data       | Horário   |
 |---------------------|----------------------|------------|-----------|
-| Julia Gabriela | Luís Felipe | 24/04/2025 | 19:30     |
-| Julia Gabriela | Rodrigo     | 25/04/2025 | 13:30     |
-| Julia Gabriela | Matheus     | 26/04/2025 | 14:30     |
-| Amanda Cruz    | Leticia     | 26/04/2025 | 21:32     |
-| Amanda Cruz    | Felipe      | 27/04/2025 | 18:00     |
-| Amanda Cruz    | Luiz        | 26/04/2025 | 21:09     |
+| Julia Gabriela      | Luís Felipe          | 24/04/2025 | 19:30     |
+| Julia Gabriela      | Rodrigo              | 25/04/2025 | 13:30     |
+| Julia Gabriela      | Matheus              | 26/04/2025 | 14:30     |
+| Amanda Cruz         | Leticia              | 26/04/2025 | 21:32     |
+| Amanda Cruz         | Felipe               | 27/04/2025 | 18:00     |
+| Amanda Cruz         | Luiz                 | 26/04/2025 | 21:09     |
 
 ## Metodologia
 
@@ -41,12 +55,12 @@ O roteiro de perguntas teve como objetivo compreender a experiência dos usuári
 
 ## Relatório e Vídeos das Entrevistas
 
-* Relatório disponível em: [Relatório das Entrevistas](../../assets/Entrevistas-CadUnico.pdf)  
-* Entrevista da Leticia: [clique aqui](https://youtu.be/YT80-MCh1vs)  
-* Entrevista do Felipe: [clique aqui](https://youtu.be/4QlX683lf-s)  
-* Entrevista do Luiz: [clique aqui](https://youtu.be/1VPUozZrUN8)  
+* Relatório disponível em:   [Relatório das Entrevistas](../../assets/Entrevistas-CadUnico.pdf)  
+* Entrevista da Leticia:     [clique aqui](https://youtu.be/YT80-MCh1vs)  
+* Entrevista do Felipe:      [clique aqui](https://youtu.be/4QlX683lf-s)  
+* Entrevista do Luiz:        [clique aqui](https://youtu.be/1VPUozZrUN8)  
 * Entrevista do Luis Felipe: [clique aqui](https://youtu.be/Pe8Xyo757EE)  
-* Entrevista do Rodrigo: [clique aqui](https://youtu.be/6kpNR9GHAfU)  
+* Entrevista do Rodrigo:     [clique aqui](https://youtu.be/6kpNR9GHAfU)  
 
 ## Análise das respostas
 
@@ -88,13 +102,22 @@ Nesta seção, apresentamos os requisitos funcionais e não funcionais identific
 Legenda - Tabela 1:
  
 - RFx: Requisitos Funcionais nºx.
+- ENTx: Requisito nºx elicitado pela entrevista.
 
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
 
-| ID       | Nome do Requisito               | Tipo       | Descrição                                | Trecho original                                                                 |
-|----------|---------------------------------|------------|------------------------------------------|---------------------------------------------------------------------------------|
-| RF-01   | Consulta de Benefícios          | Funcional  | Consulta de status de benefícios         | “consulta ao status dos benefícios”                                            |
-| RF-02   | Informações Cadastrais          | Funcional  | Visualização de informações cadastrais   | “visualização de informações cadastrais”                                       |
+| ID    | RF   | Nome do Requisito               | Tipo       | Descrição                                                            | Trecho original                                                                                                                           | Implementado |
+|-------|------|---------------------------------|------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| ENT1  | RF24 | Consulta de Benefícios          | Funcional  | Consulta de status de benefícios                                     | “consulta ao status dos benefícios”                                                                                                       | Não          |
+| ENT2  | RF25 | Informações Cadastrais          | Funcional  | Visualização de informações cadastrais                               | “visualização de informações cadastrais”                                                                                                  | Não          |
+| ENT3  | RF35 | Tutoriais Interativos           | Funcional  | Tutoriais interativos para guiar tarefas críticas                    | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.”                                           | Não          |
+| ENT4  | RF36 | Vídeos Explicativos             | Funcional  | Vídeos explicativos dentro do app                                    | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.”                                           | Não          |
+| ENT5  | RF37 | Assistência por Voz             | Funcional  | Ferramenta de assistência por voz para usuários necessitados         | “Inclusão de tutoriais interativos, orientações em vídeo e ferramentas de assistência por voz.”                                           | Não          |
+| ENT6  | RF30 | Agendamento no CRAS             | Funcional  | Agendamento de atendimentos no CRAS pelo app                         | “ausência de funcionalidades … que permitam o agendamento direto … foi apontada como uma limitação importante.”                           | Não          |
+| ENT7  | RF31 | Notificações Personalizadas     | Funcional  | Notificações personalizadas (pendências, atualizações, confirmações) | “Notificações personalizadas: Informações sobre pendências no cadastro, atualizações de programas sociais e confirmação de agendamentos.” | Não          |
+| ENT8  | RF32 | Atualização Cadastral           | Funcional  | Passo a passo claro para atualização cadastral                       | “confusão quanto à documentação necessária … ausência de um passo a passo objetivo para realização dessas ações …”                        | Não          |
+| ENT9  | RF33 | Simulador de Benefícios         | Funcional  | Simulador de elegibilidade para benefícios                           | “Simuladores de elegibilidade para benefícios sociais”                                                                                    | Não          |
+| ENT10 | RF34 | Chat de Atendimento             | Funcional  | Chat de atendimento ao usuário                                       | “chat de atendimento”                                                                                                                     | Não          |
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
@@ -102,13 +125,14 @@ Legenda - Tabela 1:
 Legenda - Tabela 2:
 
 - RNFx: Requisitos Não-Funcionais nºx.
+- ENTx: Requisito nºx elicitado pela entrevista.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
 
-| ID       | Nome do Requisito               | Tipo            | Descrição                                | Trecho original                                                                 |
-|----------|---------------------------------|-----------------|------------------------------------------|---------------------------------------------------------------------------------|
-| RNF-01  | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”    |
-| RNF-02  | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” |
+| ID    | RFN   | Nome do Requisito               | Tipo            | Descrição                                | Trecho original                                                                                     | Implementado |
+|-------|-------|---------------------------------|-----------------|------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------|
+| ENT11 | RNF10 | Interface Intuitiva             | Não funcional   | Interface intuitiva e de fácil navegação | “interface considerada intuitiva e de fácil navegação para tarefas básicas”                         | Não          |
+| ENT12 | RNF10 | Tela Inicial Organizada         | Não funcional   | Organização clara da tela inicial        | “A simplicidade funcional e a organização da tela inicial foram aspectos frequentemente elogiados.” | Não          |
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
@@ -139,3 +163,4 @@ O vídeo abaixo refere-se à entrevistas descrita neste artefato, realizada no *
 | 1.6 | 07/05/2025 | Adicionando imagem da referência | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Gabriel Flores](https://github.com/Gabrielfcoelho)              |
 | 1.7 | 08/05/2025 | Adicionando vídeo | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Ryan Salles](https://github.com/RA-Salles)              |
 | 1.8 | 09/05/2025 | Corrigindo link quebrado | [Julia Gabriela](https://github.com/JuliaGabP)                 | [Ryan Salles](https://github.com/RA-Salles)              |
+| 1.9 | 23/05/2025 | Adicionando coluna indicando implementação, adicionando dados de ENT e desejados  | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
