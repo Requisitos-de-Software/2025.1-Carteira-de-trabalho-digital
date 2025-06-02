@@ -69,6 +69,7 @@ nav:
     - Apresentação I: apresentacoes/apresentacao1.md
     - Apresentação II: apresentacoes/apresentacao2.md
     - Apresentação III: apresentacoes/apresentacao3.md
+    - Apresentação IV: apresentacoes/apresentacao4.md
 theme:
   logo: assets/LogoCadUn.png
   name: material
