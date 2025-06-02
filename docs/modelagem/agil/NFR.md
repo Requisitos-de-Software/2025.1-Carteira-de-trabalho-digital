@@ -320,11 +320,12 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
     <b>Figura 4:</b> SIG - Eficiência
 </center>
 
-
+![](../../assets/modelagem/casos_de_uso/agil/NFR02_confiabilidade.png)
 
 <center>
-    Autor(es):
-    <a href="https://github.com/X" target="_blank">X</a>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
+    <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
 </center>
 
 ### Requisitos Não Funcionais - Confiabilidade
@@ -337,8 +338,8 @@ Na Tabela 4, estão listados os RNF presentes no NFR Framework de Confiabilidade
 
 |RNF(Fonte)|Descrição|Classificação|Origem|
 |----------|---------|-------------|------|
-|[RNF16](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão|Confiabilidade|Análise de documentos|
-|[RNF17](../../elicitacao/requisitos_elicitados.md)|Alta disponibilidade e recuperação de desastres|Confiabilidade|Introspecção|
+|[RNF16](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão                 | Confiabilidade|Análise de documentos|
+|[RNF17](../../elicitacao/requisitos_elicitados.md)|Alta disponibilidade e recuperação de desastres| Confiabilidade|Introspecção         |
 <center>
     Autor(es): 
     <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
@@ -360,7 +361,8 @@ A seguir, na Tabela 5, temos a avaliação da propagação dos impactos relativa
 
 <center>
     Autor(es): 
-    <a href="https://github.com/X" target="_blank">X</a>
+    <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
+    <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
 </center>
 
 
