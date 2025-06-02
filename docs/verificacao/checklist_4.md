@@ -151,12 +151,13 @@ A Tabela 5 abaixo apresenta uma lista de verificação para o Backlog. O objetiv
 | 12   | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
 | 13     | Os épicos possuem features relacionadas?                                                            |             | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                                     |
 | 14     | Os épicos são rastreáveis para com as estórias de usuário?                                          |             | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                                     |
-| 15     | Os itens mais próximos do topo do backlog estão suficientemente granulares para serem passíveis de implementação em apenas uma sprint | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                 | 
+| 15     | Os itens mais próximos do topo do backlog estão suficientemente granulares para serem passíveis de implementação em apenas uma sprint |    | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                 | 
 
 
 <center>
     Autor(es): 
-    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores, </a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 ---
