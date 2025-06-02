@@ -13,7 +13,9 @@ Este documento apresenta uma lista de verificação criada para o [Grupo 4](http
 |[Amanda Cruz](https://github.com/mandicrz) | Adição de itens do checklist de NFR Framework e revisão do artefato | 
 |[Julia Gabriela](https://github.com/JuliaGabP) | Adição de itens do checklist de NFR Framework e revisão do artefato | 
 |[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento dos itens 1 a 15 na lista de verificação de historia de usuário; Desenvolvimento dos itens na lista de verificação da lista do professor de desenvolvimento do projeto e Conteudo da disciplina; | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação e adição de itens na lista de verificação de Backlog 1 a 12|
+| [João Igor](https://github.com/JoaoPC10) | Desenvolvimento dos itens 16 a 26 na lista de verificação de historia de usuário |
+| [Ryan Salles](https://github.com/RA-Salles) | Desenvolvimento dos itens 13 a 15 na lista de verificação de Backlog |
 
 <center>
     Autor(es): 
