@@ -8,7 +8,9 @@
 
 ## Introdução
 
-O backlog do produto é uma técnica de gerência de tarefas de um projeto que visa manter as tarefas organizadas e passíveis de serem concluídas em uma iteração, facilitando a organização, rastreabilidade e entrega contínua de valor às partes interessadas no projeto. O backlog é organizado em épicos, funcionalidades e estórias. 
+O backlog do produto é uma técnica de gerência de tarefas de um projeto que visa manter as tarefas organizadas e passíveis de serem concluídas em uma iteração, facilitando a organização, rastreabilidade e entrega contínua de valor às partes interessadas no projeto. O backlog é organizado em temas, épicos, funcionalidades e estórias. 
+
+O backlog é um artefato em constante mudança e pode sofrer alterações de granularidade de funcionalidade e prioridade de uma funcionalidade a fim de manter a capacidade iterativa da equipe que irá executá-lo.
 
 ## Metodologia
 
@@ -44,8 +46,15 @@ O backlog foi construído levando em conta as seguintes áreas de uso do softwar
 As features e estórias serão apresentadas segundo o modelo da tabela 2.
 
 | Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
+| :-----: | :---------------------:  | :------------------------------------: |
 | FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+
+### Temas
+
+Mediante análise das estórias de usuário, foi possível observar os seguintes temas:
+
+- Operações: classifica funcionalidades relacionadas a automação, obtenção de informação e autenticação. Funcionalidades voltadas a tornar o sistema mais eficiente e/ou eficaz.
+- Usabilidade: classifica funcionalidades relacionadas a acessibilidade, configuração e maior facilidade de uso. Funcionalidades voltadas a tornar o sistema mais abrangente à população brasileira.
 
 ### Épico 1: Autenticação
 
@@ -55,10 +64,10 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
     <b>Tabela 3: </b>
 </center>
 
-| Feature                        | Estórias                 | Prioridade  |
-| :-----:                        | : ---------------------: | :---------: |
-| FT_01 - Capacidade de Login    |  -                       | Alta        |
-| FT_02 - Capacidade de Cadastro | EU_04                    |             |
+| Feature                        | Estórias                                              | Prioridade  |
+| :-----:                        | :---------------------------------------------------: | :---------: |
+| FT_01 - Capacidade de Login    |  -                                                    | Alta        |
+| FT_02 - Capacidade de Cadastro de Informações | EU_04 <br> EU_13 <br> EU_17 <br> EU_20 | Alta        |
 
 
 
@@ -67,18 +76,17 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
 Esse Épico é apresentado por meio da tabela 4.
 
-| Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
-| FT_03 - Atualização de Dados   | EU_02 <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
-| FT_04 - Obtenção de informação | EU_01 <br> EU_03 <br>        |                                        |
-| FT_05 - Ajuda                  |
-
+| Feature                           | Estórias                | Prioridade                             |
+| :-----:                           | :---------------------: | :------------------------------------: |
+| FT_03 - Atualização de Dados      | EU_02 <br> EU_05 <br> EU_12 <br> EU_33                                             | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_04 - Obtenção de informação    | EU_01 <br> EU_03 <br> EU_10 <br> EU_14 <br> EU_23 <br> EU_24 <br> EU_27 <br> EU_36 |                                        |
+| FT_05 - Ajuda                     | EU_15 <br> EU_26 <br> EU_27 <br> EU_28 <br> EU_35 |
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
 uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 5.
 
-| Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
+| Feature | Estórias                             | Prioridade                             |
+| :-----: | :---------------------:             | :------------------------------------: |
 | FT_05 - Formulários | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 |                     |                          |                                        |
 
