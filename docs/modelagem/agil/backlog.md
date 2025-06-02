@@ -70,6 +70,11 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
 | FT_01 - Capacidade de Login    |  -                                                    | Alta        |
 | FT_02 - Capacidade de Cadastro de Informações | EU_04 -  Cadastro de usuário <br> EU_13 - Registro da condição de MEI no cadastro do usuário <br> EU_17 - Cadastro de Famílias  <br> EU_20 - Cadastro de Agricultores Familiares | Média <br> Alta <br> Alta <br> Alta     |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 
 
 ### Épico 2: Informação
@@ -83,13 +88,23 @@ Esse Épico é apresentado por meio da tabela 4.
 | FT_04 - Obtenção de informação    | EU_01 - Filtrar informações sobre benefícios socias <br> EU_03 - Enviar notificações <br> EU_10 - Consulta de benefícios <br> EU_14 - Acesso a conteúdos informativos sobre microempreendedorismo <br> EU_23 - Localizar Postos de Atendimento <br> EU_24 - Notificação de Pendências ou Atualizações  <br> EU_27 - Chat de atendimento <br> EU_36 - Conteúdo MEI Personalizado por Setor e Região | Média<br> Média<br> Alta<br> Média<br> Média<br> Alta<br> Alta<br> Alta                                       |
 | FT_05 - Ajuda                     | EU_15 - Chat de Atendimento <br> EU_26 - Chatbot  <br> EU_27 - Chat de atendimento  <br> EU_28 - Tutoriais Interativos  <br> EU_35 - Suporte com Vídeos Explicativos | Média <br>Baixa <br>Alta <br>Média |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
 uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 5.
 
 | Feature              | Estórias                                                                                                         | Prioridade                        |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| FT_05 - Formulários  | EU_17 - Cadastro de Famílias <br> EU_18 - Cadastro de Pessoas <br> EU_19 - Cadastro de Domicílios <br> EU_32 - Coleta de Dados via Formulários <br> EU_33 - Atualização de Dados Familiares | Alta <br> Alta <br> Média <br> Alta <br> Alta |
+| FT_05 - Formulários  | EU_16 - Agendamento no CRAS <br> EU_17 - Cadastro de Famílias <br> EU_18 - Cadastro de Pessoas <br> EU_19 - Cadastro de Domicílios <br> EU_32 - Coleta de Dados via Formulários <br> EU_33 - Atualização de Dados Familiares | Alta <br> Alta <br> Alta <br> Média <br> Alta <br> Alta |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
 
 ### Épico 4: Customização
 O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 6.
@@ -98,13 +113,23 @@ O épico 4 organiza estórias e funcionalidades relacionadas à customização d
 |------------------------|-----------------------------------------------------------------------------------------------|---------------------------|
 | FT_06 - Personalização | EU_07 - Possibilidade de outros idiomas <br> EU_08 - Modo escuro <br> EU_31 - Notificações personalizadas | Baixa <br> Média <br> Baixa |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
 ### Épico 5: Acessibilidade
 O épico 5 trata de aspectos de acessibilidade do aplicativo. 
 Esse épico é apresentado por meio da tabela 7.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
-| FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ### Épico 6: Integração
 O Épico 6 agrupa estórias relacionadas a integração do aplicativo com demais sistemas para permitir intercomunicação dos sistemas, permitindo ao aplicativo comunicar com mais de um sistema e repassar informações a outros sistemas senão o principal.
@@ -114,6 +139,10 @@ Esse épico é apresentado por meio da tabela 8.
 | :-----: | : ---------------------: | :------------------------------------: |
 | FT_XX - Integração com    | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ## Referências Bibliográficas
 
@@ -122,3 +151,4 @@ Esse épico é apresentado por meio da tabela 8.
 | Versão  | Data       | Descrição                                           | Autor                                       | Revisor                                     |
 | :-----: | :--------: | :-------------------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
 | 1.0     | 31/05/2025 | Criação do documento e inserção de informações base | [Ryan Salles](https://github.com/RA-Salles) | [AHDEFINEER DA SILVA](https://github.com/)  |
+| 1.1 | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4 | [Gabriel Flores](https://github.com/RA-Salles) | [Ryan Salles](https://github.com/RA-Salles) |
