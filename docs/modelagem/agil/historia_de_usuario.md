@@ -468,7 +468,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 |**ID**|EU_15|
 |**Título**|Chat de Atendimento|
 |**Objetivo**|Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.|
-|**Perfil(s)**|Usuário|
+|**Perfil(s)**|Usuário do CadÚnico|
 |**Critérios de Aceite**|- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.<br> Para mais detalhes cheque o cenário: [CN08](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF26](../../elicitacao/requisitos_elicitados.md)|
@@ -520,7 +520,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 |**Critérios de Aceite**|- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.|
 |**Prioridade**|Alta|
 |**Rastreabilidade**|[RF01](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**|Não|
+|**Implementado**|Sim|
 
 <center>
     Autor(es): 
@@ -544,7 +544,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 | **Critérios de Aceite** | - Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais.|
 | **Prioridade**      | Alta  |
 |**Rastreabilidade**|[RF02](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**|Não|
+|**Implementado**|Sim|
 
 <center>
     Autor(es): 
@@ -568,7 +568,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 |**Critérios de Aceite**|- O sistema deve permitir o registro do tipo de construção.<br>- Registrar informações sobre abastecimento de água.<br>- Registrar tipo de iluminação.<br>- Registrar escoamento sanitário.<br>- Validar os dados informados e salvar no perfil.<br> Para mais detalhes cheque o cenário: [CN](../../modelagem/cenarios.md)|
 |**Prioridade**|Média|
 |**Rastreabilidade**|[RF03](../../elicitacao/requisitos_elicitados.md)|
-|**Implementado**|Não|
+|**Implementado**|Sim|
 
 <center>
     Autor(es): 
