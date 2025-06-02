@@ -78,9 +78,10 @@ Esse Épico é apresentado por meio da tabela 4.
 
 | Feature                           | Estórias                                                                           | Prioridade                             |
 | :-----:                           | :---------------------:                                                            | :------------------------------------: |
-| FT_03 - Atualização de Dados      | EU_02 -  <br> EU_05 <br> EU_12 <br> EU_33                                             | Alta/Média/Baixa <br> Alta/Média/Baixa |
-| FT_04 - Obtenção de informação    | EU_01 <br> EU_03 <br> EU_10 <br> EU_14 <br> EU_23 <br> EU_24 <br> EU_27 <br> EU_36 |                                        |
-| FT_05 - Ajuda                     | EU_15 <br> EU_26 <br> EU_27 <br> EU_28 <br> EU_35 |
+| FT_03 - Atualização de Dados      | EU_02 - Alteração de dados cadastrais  <br> EU_05 - Pré-cadastrar família  <br> EU_12 - Atualização de dados <br> EU_33 - Atualização dos Dados Familiares | Média <br> Média <br> Alta <br> Alta |
+| FT_04 - Obtenção de informação    | EU_01 - Filtrar informações sobre benefícios socias <br> EU_03 - Enviar notificações <br> EU_10 - Consulta de benefícios <br> EU_14 - Acesso a conteúdos informativos sobre microempreendedorismo <br> EU_23 - Localizar Postos de Atendimento <br> EU_24 - Notificação de Pendências ou Atualizações  <br> EU_27 - Chat de atendimento <br> EU_36 - Conteúdo MEI Personalizado por Setor e Região | Média<br> Média<br> Alta<br> Média<br> Média<br> Alta<br> Alta<br> Alta                                       |
+| FT_05 - Ajuda                     | EU_15 - Chat de Atendimento <br> EU_26 - Chatbot  <br> EU_27 - Chat de atendimento  <br> EU_28 - Tutoriais Interativos  <br> EU_35 - Suporte com Vídeos Explicativos | Média <br>Baixa <br>Alta <br>Média |
+
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
 uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 5.

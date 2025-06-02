@@ -336,7 +336,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 ---
 
-### História EU_10– Consulta de benefícios
+### História EU_10 – Consulta de benefícios
 
 <center>
     <b>Tabela 14:</b> EU_10 - Consulta de benefícios
@@ -786,7 +786,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 | **Objetivo**            | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
 | **Perfil(s)**           | Usuário novo do CadÚnico |
 | **Critérios de Aceite** | - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo |
-|**Prioridade**           | A DEFINIR |
+|**Prioridade**           | Média |
 |**Rastreabilidade**      |[RF35](../../elicitacao/requisitos_elicitados.md) |
 |**Implementado**         | Não  |
 
