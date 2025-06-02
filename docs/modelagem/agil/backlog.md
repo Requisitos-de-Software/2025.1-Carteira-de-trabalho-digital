@@ -135,7 +135,7 @@ Esse épico é apresentado por meio da tabela 7.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
-| FT_   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_07   | EU_29 - Assistência por voz | Alta |
 
 <center>
     Autor(es): 
@@ -148,7 +148,7 @@ Esse épico é apresentado por meio da tabela 8.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
-| FT_XX - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
+| FT_08 - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
 
 <center>
     Autor(es): 
@@ -158,6 +158,15 @@ Esse épico é apresentado por meio da tabela 8.
 ## Referências Bibliográficas
 
 > JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096147/mod_resource/content/1/RE%20-%20Aula%2015%20-%20Materiais.zip?forcedownload=1>. Acesso em: 01/06/2025
+
+<center>
+<b>Figura 1:</b> Exemplo de backlog
+</center>
+<center>
+<b>Fonte: </b> JAMES e WALTER (2017)
+</center>
+
+
 
 ## Histórico de Versão
 
