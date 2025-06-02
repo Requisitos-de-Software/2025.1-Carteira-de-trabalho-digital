@@ -37,6 +37,8 @@ nav:
     - Casos de Uso: modelagem/caso_de_uso.md
     - Léxicos: modelagem/lexico.md
     - Especificação Suplementar: modelagem/especificacao_suplementar.md
+    - Ágil: 
+      - NFR Framework: modelagem/agil/NFR.md
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
@@ -89,3 +91,6 @@ icon:
 
 extra_css:
   - assets/css/custom.css
+
+markdown_extensions:
+  - tables
