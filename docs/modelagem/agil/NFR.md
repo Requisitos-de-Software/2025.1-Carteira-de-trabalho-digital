@@ -19,7 +19,7 @@ A descrição das funções dos autores na criação e no desenvolvimento do art
 |[João Igor](https://github.com/JoaoPC10)| Criação de tabelas e desenvolvimento do RNF19 no NFR | 
 |[João Pedro Costa](https://github.com/johnaopedro)| Desenvolvimento do RNF16 no NFR; SIG e propagação de impactos do NFR01 | 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
-|[Ryan Salles](https://github.com/RA-Salles)|-| 
+|[Ryan Salles](https://github.com/RA-Salles)| Elaboração da Tabela 4, Figura 5 e Descrição do RNF17, itens de desenvolvimento do NFR 02| 
 
 <center>
     Autor(es): 
@@ -324,7 +324,6 @@ Os requisitos, representados abaixo, foram utilizados para realizar o diagrama d
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
     <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
 </center>
 
@@ -355,13 +354,18 @@ A seguir, na Tabela 5, temos a avaliação da propagação dos impactos relativa
 </center>
 
 
-| Requisito Origem     | Requisito Alvo           | Tipo de Impacto           | Símbolo | Descrição                                                                  |
-|----------------------|--------------------------|---------------------------|---------|----------------------------------------------------------------------------|
-|                      |                          |                           |         |                                                                            |
+| Requisito Origem                                                                    | Requisito Alvo                                    | Tipo de Impacto           | Símbolo | Descrição                                                                                                                               |
+|----------------------                                                               |----------------------                             |---------------------------|---------|----------------------------------------------------------------------------                                                             |
+| Implantar Infraestrutura de Servidoras Redundante                                   | Alta Disponibilidade                              |  Satisfeito               | ✓       | Satisfeito mediante implantação de infraestrutura redundante (++✓)                                                                     |
+| Cache para Recuperação                                                              | Recuperação de Desastres                          |  Satisfeito               | ✓       | Satisfeito mediante implantação de Cache para recuperação    (++✓)                                                                     |
+| Cache para Recuperação                                                              | Restauração de Sessão                             |  Satisfeito               | ✓       | Satisfeito mediante implantação de Cache para recuperação    (++✓)                                                                     |
+| Comunicação com Cloud,<br> Implantar Infraestrutura                                 | Backup                                            |  Satisfeito               | ✓       | Satisfeito mediante implantação de Capacidade de comunicação com cloud(++✓) e Implantação de Infraestrutura para guardar backups (++✓) |
+| Backup, <br> Restauração de Sessão                                                  | Backup e Restauração de Sessão                    |  Satisfeito               | ✓       | Satisfeito mediante implantação de Backup(+✓) e Restauração de Sessão(++✓)                                                             |
+| Alta Disponibilidade,<br> Recuperação de Desastres                                  | Alta Disponibilidade e Recuperação de Desastres   |  Satisfeito               | ✓       | Satisfeito mediante implantação de Alta Disponibilidade(+✓) e Recuperação de Desastres(++✓)                                            |
+| Backup e Restauração de Sessão,<br> Alta Disponibilidade e Recuperação de Desastres | Confiabilidade                                    |  Satisfeito               | ✓       | Satisfeito mediante implantação de Backup e Restauração de Sessão(++✓) e Alta Disponibilidade e Recuperaçõ de Desastres(++✓)           |
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
     <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
 </center>
 
