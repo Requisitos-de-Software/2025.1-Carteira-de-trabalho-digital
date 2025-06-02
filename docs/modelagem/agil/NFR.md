@@ -17,7 +17,7 @@ A descrição das funções dos autores na criação e no desenvolvimento do art
 |[Amanda Cruz](https://github.com/mandicrz)| Correção de texto; Preenchimento da parte teórica e figuras; Explicação e SIG do NFR00; SIG e propagação de impactos do NFR01; | 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação da figura e das tabelas da NFR 03 | 
 |[João Igor](https://github.com/JoaoPC10)| Criação de tabelas e desenvolvimento do RNF19 no NFR | 
-|[João Pedro Costa](https://github.com/johnaopedro)| Desenvolvimento do RNF16 no NFR | 
+|[João Pedro Costa](https://github.com/johnaopedro)| Desenvolvimento do RNF16 no NFR; SIG e propagação de impactos do NFR01 | 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
 |[Ryan Salles](https://github.com/RA-Salles)|-| 
 
