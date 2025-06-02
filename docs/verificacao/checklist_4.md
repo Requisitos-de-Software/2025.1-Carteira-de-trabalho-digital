@@ -175,14 +175,6 @@ A Tabela 6 abaixo apresenta uma lista de verificação para o artefato NFR Frame
 |   8    | O SIG registra explicitamente as decisões de desenvolvimento tomadas, as alternativas consideradas e as justificativas para as escolhas feitas? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 30 e 31, Seção 2.4.2. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
 |   9    | Os softgoals NFR estão organizados de forma hierárquica dentro do SIG? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
 |  10    | Para cada softgoal NFR importante, foram identificadas e representadas no SIG uma ou mais soluções de implementação (softgoals de operacionalização) que buscam atendê-lo? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados, P. 31, Seção 2.4.3. UFPE, 2019. | [Amanda Cruz](https://github.com/mandicrz) |
-
-
-<center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
-</center>
-
-| **ID** | **Item** | **Referência** | **Autor** |
-| :----: | :-------------------------------------------------- | :------------------------------------------------------------------------------------------- | :-----: |
 | 11 | Foram colocadas legendas e rótulos para as contribuições e contribuição dos NFRs? |SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019. | [JuliaGabP](https://github.com/JuliaGabP) |
 | 12 | Os requisitos utilizados para a criação dos NFRs foram apenas os não funcionais? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019 | [JuliaGabP](https://github.com/JuliaGabP) |
 | 13 | Foram feitas explicações e criação de legendas para os rótulos do NFR? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019| [JuliaGabP](https://github.com/JuliaGabP) |
@@ -194,10 +186,10 @@ A Tabela 6 abaixo apresenta uma lista de verificação para o artefato NFR Frame
 | 19 | Há explicação ou justificativa clara para a priorização de cada NFR? |SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019 | [JuliaGabP](https://github.com/JuliaGabP) |
 | 20 | Foram identificados e descritos possíveis conflitos entre NFRs e como eles foram resolvidos? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. UFPE, 2019| [JuliaGabP](https://github.com/JuliaGabP) |
 
----
 
-<center>Autor(a): [JuliaGabP](https://github.com/JuliaGabP)</center>
-
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
 
 ## Referências
 
