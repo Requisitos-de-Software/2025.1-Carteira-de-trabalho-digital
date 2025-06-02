@@ -39,7 +39,8 @@ nav:
     - Especificação Suplementar: modelagem/especificacao_suplementar.md
     - Agil:
       - Historia de Usuário: modelagem/agil/historia_de_usuario.md
-      - NFR Framework: modelagem/agil/NFR.md
+      - Backlog: modelagem/agil/backlog.md
+      - NFR Framework: modelagem/agil/NFR.md 
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
@@ -50,6 +51,7 @@ nav:
       - Entrega 1: inspecoes/grupo/inspecao_1.md
       - Entrega 2: inspecoes/grupo/inspecao_2.md
       - Entrega 3: inspecoes/grupo/inspecao_3.md
+      - Entrega 4: inspecoes/grupo/inspecao_4.md
     - Grupo+1:
       - Entrega 1: inspecoes/grupo+1/inspecao_1.md
       - Entrega 2: inspecoes/grupo+1/inspecao_2.md
