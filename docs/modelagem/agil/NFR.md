@@ -33,8 +33,8 @@ O Softgoal Interdependency Graph (SIG) é um grafo orientado usado para modelar 
 
 ## Tipos de representações de Metas Flexíveis (Softgoals)
 
-De acordo com Silva, existem três tipos de softgoals: Softgoals NFR, Softgoals de Operacionalização e Softgoals
-de Afirmação. (SILVA, 2019). Os mesmos estão citados abaixo, complementados pela Figura 1.
+De acordo com Silva (2019), existem três tipos de softgoals: Softgoals NFR, Softgoals de Operacionalização e Softgoals
+de Afirmação. Os mesmos estão citados abaixo, complementados pela Figura 1.
 
 - Softgoals NFR
 - Softgoals de Operacionalização
@@ -310,9 +310,8 @@ A seguir, na Tabela 3, temos a avaliação da propagação dos impactos relativa
 
 Os requisitos, representados abaixo, foram utilizados para realizar o diagrama da Figura 4:
 
--**RNF 16 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
-
--**RNF 17 - Ryan:** Prepara o sistema para responder à falhas catastróficas no lado do cliente, permitindo que dados sejam recuperados via servidor, melhorando a confiabilidade do aplicativo.
+- **RNF 16 - João Igor:** Evita perda de informações em caso de falhas, melhorando a experiência do usuário.
+- **RNF 17 - Ryan:** Prepara o sistema para responder à falhas catastróficas no lado do cliente, permitindo que dados sejam recuperados via servidor, melhorando a confiabilidade do aplicativo.
  
 <center>
     <b>Figura 4:</b> SIG - Eficiência
@@ -337,6 +336,7 @@ Na Tabela 4, estão listados os RNF presentes no NFR Framework de Confiabilidade
 |----------|---------|-------------|------|
 |[RNF16](../../elicitacao/requisitos_elicitados.md)|Backup e restauração de sessão                 | Confiabilidade|Análise de documentos|
 |[RNF17](../../elicitacao/requisitos_elicitados.md)|Alta disponibilidade e recuperação de desastres| Confiabilidade|Introspecção         |
+
 <center>
     Autor(es): 
     <a href="https://github.com/JoaoPC10" target="_blank"> João Igor </a>,
