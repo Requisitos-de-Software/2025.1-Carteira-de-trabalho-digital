@@ -1054,7 +1054,7 @@ A Tabela 42 apresenta a rastreabilidade geral das histórias de usuário para os
 | EU_27               | RF34      | -            |
 | EU_28               | RF35      | CN15         |
 | EU_29               | RF37      | -            |
-| EU_30           | RF33      | CN07         |
+| EU_30               | RF33      | CN07         |
 | EU_31               | RF09      | -            |
 | EU_32               | RF10      | -            |
 | EU_33               | RF05      | -            |
