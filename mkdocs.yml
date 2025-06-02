@@ -39,6 +39,7 @@ nav:
     - Especificação Suplementar: modelagem/especificacao_suplementar.md
     - Agil:
       - Historia de Usuário: modelagem/agil/historia_de_usuario.md
+      - NFR Framework: modelagem/agil/NFR.md
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
@@ -53,7 +54,6 @@ nav:
       - Entrega 2: inspecoes/grupo+1/inspecao_2.md
       - Entrega 3: inspecoes/grupo+1/inspecao_3.md
   - Atas de Reunião:
-    - Modelo de Ata: atas/modelo.md
     - Ata 1: atas/reuniao1.md
     - Ata 2: atas/reuniao2.md
     - Ata 3: atas/reuniao3.md
@@ -92,3 +92,6 @@ icon:
 
 extra_css:
   - assets/css/custom.css
+
+markdown_extensions:
+  - tables

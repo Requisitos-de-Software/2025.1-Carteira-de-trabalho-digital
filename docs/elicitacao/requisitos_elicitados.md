@@ -70,6 +70,8 @@ Legenda:
 | [RF39](tecnicas/introspecção.md)         | Possibilidade de outros idiomas             | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                                                                                                         | [Introspecção](tecnicas/introspecção.md)                                                              | Não          |
 | [RF40](tecnicas/analise_documentacao.md) | Integração MEI                              | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                                  | [Análise de documentos](tecnicas/analise_documentacao.md)                                             | Não          |
 
+<!--TODO: move rf39 back to being an rnf else we fold! -->
+
 <center>
     Autor(es): 
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>, 
@@ -103,8 +105,8 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 | [RNF14](tecnicas/introspecção.md)         | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                                                                                                         | [IS23](tecnicas/introspecção.md)                                                                     | Sim          | 
 | [RNF15](tecnicas/introspecção.md)         | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                                                                      | [IS26](tecnicas/introspecção.md)                                                                     | Não          |
 | [RNF16](tecnicas/introspecção.md)         | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                                                               | [IS27](tecnicas/introspecção.md)                                                                     | Não          |
-| [RNF17](tecnicas/introspecção.md)         | Alta disponibilidade e recuperação de desastres    | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                                                                      | [IS25](tecnicas/introspecção.md)                                                                     | Não          |
-
+| [RNF17](tecnicas/introspecção.md)         | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres.                                                                              | [IS25](tecnicas/introspecção.md)                                                                     | Não          |
+| [RNF18](tecnicas/introspecção.md)         | Possibilidade de outros idiomas                    | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                                                                                                | [Introspecção](tecnicas/introspecção.md)                                                             | Não          |
 
 <center>
     Autor(es): 

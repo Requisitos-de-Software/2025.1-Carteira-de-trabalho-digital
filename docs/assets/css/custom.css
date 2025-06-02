@@ -13,3 +13,7 @@ img {
 .center {
     text-align: center;
 }
+
+body {
+    text-align: justify;
+}
