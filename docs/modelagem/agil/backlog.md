@@ -5,6 +5,7 @@
 | Nome | Função |
 |-------|---------|
 |[Ryan Salles](https://github.com/RA-Salles) | Criação do documento, elaboração de épicos |
+|[Gabriel Flores](https://github.com/RA-Salles) | elaboração dos épicos 3 e 4 |
 
 ## Introdução
 
@@ -92,9 +93,9 @@ uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apres
 ### Épico 4: Customização
 O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 6.
 
-| Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
-| FT_XX   | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| Feature                | Estórias                                                                                      | Prioridade                |
+|------------------------|-----------------------------------------------------------------------------------------------|---------------------------|
+| FT_06 - Personalização | EU_07 - Possibilidade de outros idiomas <br> EU_08 - Modo escuro <br> EU_31 - Notificações personalizadas | Baixa <br> Média <br> Baixa |
 
 ### Épico 5: Acessibilidade
 O épico 5 trata de aspectos de acessibilidade do aplicativo. 
