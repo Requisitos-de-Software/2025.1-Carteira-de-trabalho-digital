@@ -125,18 +125,21 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 
 | **ID** |                                                  **Item**                                          | **Resposta** |
 | :----: | :-------------------------------------------------------------------------------------------------: | :---------: |
-| 1    | O Product Backlog está definido como uma lista de todas as funcionalidades desejadas para o produto?  |             |
-| 2    | Foi indicado que o Product Owner é o responsável por definir e priorizar o conteúdo do backlog?       |             |
-| 3    | Está claro que o Product Backlog não precisa estar completo no início do projeto?                     |             |
-| 4    | O documento indica que o backlog cresce e muda com o tempo, conforme o conhecimento do produto evolui?|             |
-| 5    | Os itens do Product Backlog são especificados utilizando as histórias de usuário?                     |             |
-| 6    | Os itens focam no "o que" deve ser feito, e não no "como"?                                            |             |
-| 7    | Está indicado que os itens podem ter critérios de aceitação?                                          |             |
-| 8    | A prioridade de execução está bem definida?                                                           |             |
-| 9    | O backlog utiliza Épicos?                                                                             |             |
-| 10   | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             |
-| 11   | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             |
-| 12   | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             |
+| 1      | O Product Backlog está definido como uma lista de todas as funcionalidades desejadas para o produto?  |             |
+| 2      | Foi indicado que o Product Owner é o responsável por definir e priorizar o conteúdo do backlog?       |             |
+| 3      | Está claro que o Product Backlog não precisa estar completo no início do projeto?                     |             |
+| 4      | O documento indica que o backlog cresce e muda com o tempo, conforme o conhecimento do produto evolui?|             |
+| 5      | Os itens do Product Backlog são especificados utilizando as histórias de usuário?                     |             |
+| 6      | Os itens focam no "o que" deve ser feito, e não no "como"?                                            |             |
+| 7      | Está indicado que os itens podem ter critérios de aceitação?                                          |             |
+| 8      | A prioridade de execução está bem definida?                                                           |             |
+| 9      | O backlog utiliza Épicos?                                                                             |             |
+| 10     | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             |
+| 11     | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             |
+| 12     | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             |
+| 13     | Os épicos possuem features relacionadas?                                                              |             |
+| 14     | Os épicos são rastreáveis para com as estórias de usuário?                                            |             |
+| 15     | Os itens mais próximos do topo do backlog estão suficientemente granulares para serem passíveis de implementação em apenas uma sprint |        |  
 
 <center>
     Autor(es): 
