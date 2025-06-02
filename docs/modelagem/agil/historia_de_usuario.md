@@ -336,7 +336,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 
 ---
 
-### História EU_10– Consulta de benefícios
+### História EU_10 – Consulta de benefícios
 
 <center>
     <b>Tabela 14:</b> EU_10 - Consulta de benefícios
