@@ -62,7 +62,7 @@ Mediante análise das estórias de usuário, foi possível observar os seguintes
 O Épico 1 trata de aspectos de autenticação do usuário para fins de login e disponibilização de serviços com o mínimo preenchimento de informações adicionais e é apresentado por meio da tabela 3.
 
 <center>
-    <b>Tabela 3: </b>
+    <b>Tabela 3: </b> Épico 1 - Autenticação
 </center>
 
 | Feature                        | Estórias                                              | Prioridade  |
@@ -70,18 +70,28 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
 | FT_01 - Capacidade de Login    |  -                                                    | Alta        |
 | FT_02 - Capacidade de Cadastro de Informações | EU_04 -  Cadastro de usuário <br> EU_13 - Registro da condição de MEI no cadastro do usuário <br> EU_17 - Cadastro de Famílias  <br> EU_20 - Cadastro de Agricultores Familiares | Média <br> Alta <br> Alta <br> Alta     |
 
-
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
 
 ### Épico 2: Informação
 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
 Esse Épico é apresentado por meio da tabela 4.
 
+<center>
+    <b>Tabela 4: </b> Épico 2 - Informação.
+</center>
+
 | Feature                           | Estórias                                                                           | Prioridade                             |
 | :-----:                           | :---------------------:                                                            | :------------------------------------: |
 | FT_03 - Atualização de Dados      | EU_02 - Alteração de dados cadastrais  <br> EU_05 - Pré-cadastrar família  <br> EU_12 - Atualização de dados <br> EU_33 - Atualização dos Dados Familiares | Média <br> Média <br> Alta <br> Alta |
 | FT_04 - Obtenção de informação    | EU_01 - Filtrar informações sobre benefícios socias <br> EU_03 - Enviar notificações <br> EU_10 - Consulta de benefícios <br> EU_14 - Acesso a conteúdos informativos sobre microempreendedorismo <br> EU_23 - Localizar Postos de Atendimento <br> EU_24 - Notificação de Pendências ou Atualizações  <br> EU_27 - Chat de atendimento <br> EU_36 - Conteúdo MEI Personalizado por Setor e Região | Média<br> Média<br> Alta<br> Média<br> Média<br> Alta<br> Alta<br> Alta                                       |
 | FT_05 - Ajuda                     | EU_15 - Chat de Atendimento <br> EU_26 - Chatbot  <br> EU_27 - Chat de atendimento  <br> EU_28 - Tutoriais Interativos  <br> EU_35 - Suporte com Vídeos Explicativos | Média <br>Baixa <br>Alta <br>Média |
+
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
 
 ### Épico 3: Requisição
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
