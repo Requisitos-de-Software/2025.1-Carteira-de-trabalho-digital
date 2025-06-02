@@ -164,4 +164,4 @@ Esse épico é apresentado por meio da tabela 8.
 | Versão  | Data       | Descrição                                           | Autor                                       | Revisor                                     |
 | :-----: | :--------: | :-------------------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
 | 1.0     | 31/05/2025 | Criação do documento e inserção de informações base | [Ryan Salles](https://github.com/RA-Salles) | [AHDEFINEER DA SILVA](https://github.com/)  |
-| 1.1 | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4 | [Gabriel Flores](https://github.com/RA-Salles) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.1 | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
