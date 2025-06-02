@@ -786,7 +786,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 | **Objetivo**            | "Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta" | 
 | **Perfil(s)**           | Usuário novo do CadÚnico |
 | **Critérios de Aceite** | - O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo |
-|**Prioridade**           | A DEFINIR |
+|**Prioridade**           | Média |
 |**Rastreabilidade**      |[RF35](../../elicitacao/requisitos_elicitados.md) |
 |**Implementado**         | Não  |
 
@@ -1032,29 +1032,29 @@ A Tabela 42 apresenta a rastreabilidade geral das histórias de usuário para os
 | EU_05               | RF15      | CN06         |
 | EU_06               | RF14      | -            |
 | EU_07               | RF39      | -            |
-| **EU_08**           | RF38      | CN09         |
+| EU_08               | RF38      | CN09         |
 | EU_09               | RF25      | -            |
 | EU_10               | RF24      | CN01         |
 | EU_11               | RF22      | -            |
-| **EU_12**           | RF20      | -            |
+| EU_12               | RF20      | -            |
 | EU_13               | RF11      | CN13, CN10   |
 | EU_14               | RF12      | CN11         |
 | EU_15               | RF26      | CN08         |
 | EU_16               | RF30      | CN14         |
 | EU_17               | RF01      | -            |
-| **EU_18**           | RF02      | CN03         |
+| EU_18               | RF02      | CN03         |
 | EU_19               | RF03      | -            |
 | EU_20               | RF04      | -            |
 | EU_21               | RF06      | CN06         |
 | EU_22               | RF07      | -            |
-| **EU_23**           | RF16      | CN05         |
+| EU_23               | RF16      | CN05         |
 | EU_24               | RF27      | -            |
 | EU_25               | RF29      | CN16         |
 | EU_26               | RF26      | CN08         |
 | EU_27               | RF34      | -            |
 | EU_28               | RF35      | CN15         |
 | EU_29               | RF37      | -            |
-| EU_30           | RF33      | CN07         |
+| EU_30               | RF33      | CN07         |
 | EU_31               | RF09      | -            |
 | EU_32               | RF10      | -            |
 | EU_33               | RF05      | -            |
