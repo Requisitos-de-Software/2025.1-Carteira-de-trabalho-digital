@@ -62,7 +62,7 @@ Mediante análise das estórias de usuário, foi possível observar os seguintes
 O Épico 1 trata de aspectos de autenticação do usuário para fins de login e disponibilização de serviços com o mínimo preenchimento de informações adicionais e é apresentado por meio da tabela 3.
 
 <center>
-    <b>Tabela 3: </b>
+    <b>Tabela 3: </b> Épico 1 - Autenticação
 </center>
 
 | Feature                        | Estórias                                              | Prioridade  |
@@ -75,12 +75,23 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
 
 ### Épico 2: Informação
 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
 Esse Épico é apresentado por meio da tabela 4.
+
+<center>
+    <b>Tabela 4: </b> Épico 2 - Informação.
+</center>
 
 | Feature                           | Estórias                                                                           | Prioridade                             |
 | :-----:                           | :---------------------:                                                            | :------------------------------------: |
@@ -137,7 +148,7 @@ Esse épico é apresentado por meio da tabela 8.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
-| FT_XX - Integração com    | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_XX - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
 
 <center>
     Autor(es): 
@@ -145,6 +156,8 @@ Esse épico é apresentado por meio da tabela 8.
 </center>
 
 ## Referências Bibliográficas
+
+> JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096147/mod_resource/content/1/RE%20-%20Aula%2015%20-%20Materiais.zip?forcedownload=1>. Acesso em: 01/06/2025
 
 ## Histórico de Versão
 
