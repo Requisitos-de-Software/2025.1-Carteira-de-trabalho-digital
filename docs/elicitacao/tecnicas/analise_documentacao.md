@@ -51,29 +51,32 @@ Analisando famílias e pessoas em situação de trabalho infantil, temos, 7.156 
 Alguns dos principais benefícios do Cadastro Único são, Bolsa Família, Pé de Meia, Tarifa Social de Energia, Auxílio Gás, Programa Minha Casa Minha Vida, entre outros.
 
 ## Requisitos Elicitados
-Essa seção contém os requisitos elicitados por consequência da análise da documentação. Os requisitos serão apresentados por meio das Tabelas 2 e 3, que contêm os requisitos funcionais e não funcionais, respectivamente.
+Essa seção contém os requisitos elicitados por consequência da análise da documentação. Os requisitos serão apresentados por meio das Tabelas 2 e 3, que contêm os requisitos funcionais e não-funcionais, respectivamente.
+Cada requisito apresentado possui um código interno de elicitação e um código geral, permitindo rastreabilidade. Os códigos internos ao documento não possuirão diferenciação entre funcional ou não-funcional.
 
 Legenda - Tabela 2:
  
 - RFx: Requisitos Funcionais nºx.
+- ADx: Requisito elicitado pela análise de documentação nºX 
 
 <center> <b>Tabela 2:</b> Requisitos Funcionais </center>
 
-| **ID** | **Requisito Funcional** | **Descrição** |
-|:------:|:-----------------------:|:-------------:|
-| RF01   | Cadastro de Famílias    | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais. |
-| RF02   | Cadastro de Pessoas     | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.  |
-| RF03   | Cadastro de Domicílios  | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.  |
-| RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda. |
-| RF05   | Atualização de Dados | Permitir a atualização diária dos dados das famílias cadastradas. |
-| RF06   | Processamento de Dados | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.|
-| RF07   | Correção de Inconsistências  | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.  |
-| RF08   | Consulta de Dados | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS. |
-| RF09   | Relatórios e Divulgação | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade. |
-| RF10   | Formulários de Coleta  | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
-| RF11   | Cadastro MEI    | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI. |
-| RF12   | Informações MEI    | Conter seção de informações sobre microempreendedorismo individual. |
-| RF13   | Personalização MEI | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua. |
+| **ID** | **RF** | **Requisito Funcional**             | **Descrição**                                                                                                                                                                              |
+| :----: | :----: | :---------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| AD01   | RF01   | Cadastro de Famílias                | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais.                                                                  |
+| AD02   | RF02   | Cadastro de Pessoas                 | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.                                                            |
+| AD03   | RF03   | Cadastro de Domicílios              | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.                                                    |
+| AD04   | RF04   | Cadastro de Agricultores Familiares | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                          |
+| AD05   | RF05   | Atualização de Dados                | Permitir a atualização diária dos dados das famílias cadastradas.                                                                                                                          |
+| AD06   | RF06   | Processamento de Dados              | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.                                             |
+| AD07   | RF07   | Correção de Inconsistências         | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.                                                                                              |
+| AD08   | RF08   | Consulta de Dados                   | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS.                                                                           |
+| AD09   | RF09   | Relatórios e Divulgação             | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade.    |
+| AD10   | RF10   | Formulários de Coleta               | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua. |
+| AD11   | RF11   | Cadastro MEI                        | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI.                                                                                                |
+| AD12   | RF12   | Informações MEI                     | Conter seção de informações sobre microempreendedorismo individual.                                                                                                                        |
+| AD13   | RF13   | Personalização MEI                  | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua.                                            |
+| AD14   | RF40   | Integração MEI                      | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                              |
 
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -85,22 +88,21 @@ Legenda - Tabela 2:
 
 Legenda - Tabela 3:
 
-- RNFx: Requisitos Não-Funcionais nºx.
-
+- RNFx : Requisitos Não-Funcional nºx.
+- ADx: Requisito elicitado pela análise de documentação nºX 
 <center> <b>Tabela 3:</b> Requisitos Não Funcionais </center>
 
-| **ID** | **Requisito Não Funcional** | **Descrição** |
-|:------:|:--------------------------:|:-------------:|
-| RNF01  | Desempenho | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.   |
-| RNF02  | Segurança  | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados. |
-| RNF03  | Escalabilidade | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias. |
-| RNF04  | Conformidade Legal | Atender às regulamentações definidas pela Senarc e portarias relacionadas. |
-| RNF05  | Acessibilidade | Garantir que o sistema seja acessível para operadores municipais e estaduais. |
-| RNF06  | Disponibilidade | Garantir que o sistema esteja disponível para uso diário. |
-| RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.  |
-| RNF08  | Transmissão via Conectividade Social  | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA. |
-| RNF09  | Acesso Restrito  | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.|
-| RNF10    | Integração MEI     | Permitir que o sistema converse com demais sistemas para MEIs |
+| **ID**| **RF** | **Requisito Não Funcional**              | **Descrição**                                                                                                                                                                        |
+| :---: | :----: |:---------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| AD15  | RNF01  | Desempenho                               | Garantir o processamento dos dados e retorno aos municípios em até 48 horas.                                                                                                         |
+| AD16  | RNF02  | Segurança                                | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados. |
+| AD17  | RNF03  | Escalabilidade                           | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                          |
+| AD18  | RNF04  | Conformidade Legal                       | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                           |
+| AD19  | RNF05  | Acessibilidade                           | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                        |
+| AD20  | RNF06  | Disponibilidade                          | Garantir que o sistema esteja disponível para uso diário.                                                                                                                            |
+| AD21  | RNF07  | Compatibilidade com Aplicativo Off-line  | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                 |
+| AD22  | RNF08  | Transmissão via Conectividade Social     | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                       |
+| AD23  | RNF09  | Acesso Restrito                          | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                   |
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>

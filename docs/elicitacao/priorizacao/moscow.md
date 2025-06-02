@@ -68,33 +68,33 @@ Essa subseção apresenta a priorização de requisitos funcionais por meio da t
     <b>Tabela 3:</b> Requisitos Funcionais Priorizados
 </center>
 
-| ID      | Nome do Requisito                     | Descrição                                                          | Rastreabilidade                   | Prioridade |
-| ------- | ------------------------------------- | ------------------------------------------------------------------ | --------------------------------- | ---------- |
-| RF01    | Cadastro de Famílias                  | Cadastro de famílias com renda até meio salário mínimo ou programas sociais. | Questionário / Análise de documentos | M       |
-| RF02    | Cadastro de Pessoas                   | Registro de identificação, escolaridade etc.                       | Questionário / Análise de documentos | M       |
-| RF03    | Cadastro de Domicílios                | Registro de tipo de construção, saneamento, etc.                   | Questionário / Análise de documentos | M      |
-| RF04    | Cadastro de Agricultores Familiares   | Registro de posse de terra, renda e trabalho.                      | Questionário / Análise de documentos | S      |
-| RF05    | Atualização de Dados                  | Atualização dos dados cadastrais.                                  | Questionário / Introspecção       | M       |
-| RF06    | Processamento de Dados                | Envio à CAIXA e geração de NIS.                                    | Questionário / Análise de documentos | M       |
-| RF07    | Correção de Inconsistências           | Correção e retransmissão de dados.                                 | Análise de Documentos             | M      |
-| RF08    | Consulta de Dados                     | Consulta cadastral e benefícios.                                   | Questionário / Introspecção       | M       |
-| RF09    | Relatórios e Divulgação               | Geração de relatórios e compartilhamento com órgãos.               | Análise de Documentos             | M    |
-| RF10    | Formulários de Coleta                 | Formulários principais e suplementares.                            | Análise de Documentos             | M       |
-| RF11    | Cadastro MEI                          | Cadastro de usuário como MEI.                                      | Análise de Documentos             | W       |
-| RF12    | Informações MEI                       | Seção sobre MEI.                                                   | Análise de Documentos             | C      |
-| RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                  | Análise de Documentos             | W      |
-| RF14  | Consultar dados cadastrais            | Visualização dos dados do Cadastro Único.                          | Introspecção                      | M       |
-| RF15  | Pré-cadastrar família                 | Início de pré-cadastro de unidade familiar.                        | Introspecção                      | M       |
-| RF16  | Localizar postos de atendimento       | Localiza CRAS com base na localização do usuário.                  | Introspecção                      | C      |
-| RF17  | Enviar notificações                   | Envio de mensagens importantes via app.                            | Introspecção                      | C      |
-| RF18  | Integrar com o CNIS                   | Integração automática com CNIS.                                    | Introspecção                      | S     |
-| RF19  | Cadastro de Usuário                   | Coleta de dados pessoais.                                          | Introspecção                      | M       |
-| RF20  | Atualização de Dados                  | Atualização dos dados cadastrais.                                  | Introspecção                      | M       |
-| RF21  | Consultar Situação Cadastral          | Verificação do status do cadastro.                                 | Introspecção                      | M       |
-| RF22  | Emissão de Comprovante de Cadastro    | Geração de comprovante de cadastro.                                | Introspecção                      | S      |
-| RF23  | Filtragem de Benefícios               | Filtro de benefícios conforme dados cadastrados.                   | Introspecção                      | S      |
-| RF24  | Consulta de Benefícios              | Consulta de status de benefícios.          | Entrevista                        | M       |
-| RF25  | Informações Cadastrais                       | Visualização de informações cadastrais.         | Entrevista                        | M       |
+| ID      | Nome do Requisito                     | Descrição                                                                    | Rastreabilidade                      | Prioridade |
+|---------|---------------------------------------|------------------------------------------------------------------------------| -------------------------------------|------------|
+| RF01    | Cadastro de Famílias                  | Cadastro de famílias com renda até meio salário mínimo ou programas sociais. | Questionário / Análise de documentos | M          |
+| RF02    | Cadastro de Pessoas                   | Registro de identificação, escolaridade etc.                                 | Questionário / Análise de documentos | M          |
+| RF03    | Cadastro de Domicílios                | Registro de tipo de construção, saneamento, etc.                             | Questionário / Análise de documentos | M          |
+| RF04    | Cadastro de Agricultores Familiares   | Registro de posse de terra, renda e trabalho.                                | Questionário / Análise de documentos | S          |
+| RF05    | Atualização de Dados                  | Atualização dos dados cadastrais.                                            | Questionário / Introspecção          | M          |
+| RF06    | Processamento de Dados                | Envio à CAIXA e geração de NIS.                                              | Questionário / Análise de documentos | M          |
+| RF07    | Correção de Inconsistências           | Correção e retransmissão de dados.                                           | Análise de Documentos                | M          |
+| RF08    | Consulta de Dados                     | Consulta cadastral e benefícios.                                             | Questionário / Introspecção          | M          |
+| RF09    | Relatórios e Divulgação               | Geração de relatórios e compartilhamento com órgãos.                         | Análise de Documentos                | M          |
+| RF10    | Formulários de Coleta                 | Formulários principais e suplementares.                                      | Análise de Documentos                | M          |
+| RF11    | Cadastro MEI                          | Cadastro de usuário como MEI.                                                | Análise de Documentos                | W          |
+| RF12    | Informações MEI                       | Seção sobre MEI.                                                             | Análise de Documentos                | C          |
+| RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                            | Análise de Documentos                | W          |
+| RF14    | Consultar dados cadastrais            | Visualização dos dados do Cadastro Único.                                    | Introspecção                         | M          |
+| RF15    | Pré-cadastrar família                 | Início de pré-cadastro de unidade familiar.                                  | Introspecção                         | M          |
+| RF16    | Localizar postos de atendimento       | Localiza CRAS com base na localização do usuário.                            | Introspecção                         | C          |
+| RF17    | Enviar notificações                   | Envio de mensagens importantes via app.                                      | Introspecção                         | C          |
+| RF18    | Integrar com o CNIS                   | Integração automática com CNIS.                                              | Introspecção                         | S          |
+| RF19    | Cadastro de Usuário                   | Coleta de dados pessoais.                                                    | Introspecção                         | M          |
+| RF20    | Atualização de Dados                  | Atualização dos dados cadastrais.                                            | Introspecção                         | M          |
+| RF21    | Consultar Situação Cadastral          | Verificação do status do cadastro.                                           | Introspecção                         | M          |
+| RF22    | Emissão de Comprovante de Cadastro    | Geração de comprovante de cadastro.                                          | Introspecção                         | S          |
+| RF23    | Filtragem de Benefícios               | Filtro de benefícios conforme dados cadastrados.                             | Introspecção                         | S          |
+| RF24    | Consulta de Benefícios                | Consulta de status de benefícios.                                            | Entrevista                           | M          |
+| RF25    | Informações Cadastrais                | Visualização de informações cadastrais.                                      | Entrevista                           | M          |
 
 <center>
     Autor(es): 
@@ -109,26 +109,26 @@ Essa seção apresenta os requisitos não funcionais priorizados por meio da Tab
     <b>Tabela 4:</b> Requisitos Não Funcionais Priorizados
 </center>
 
-| ID      | Nome do Requisito                     | Descrição                                                          | Rastreabilidade                   | Prioridade |
-| ------- | ------------------------------------- | ------------------------------------------------------------------ | --------------------------------- | ---------- |
-| RNF01   | Desempenho                            | Processamento de dados em até 48h.                                 | Análise de documentos                | M   |
-| RNF02   | Segurança                             | Confidencialidade e autenticação.                                  | Análise de documentos / Introspecção | M       |
-| RNF03   | Escalabilidade                        | Suportar até 19,5 milhões de famílias.                             | Análise de documentos                | M       |
-| RNF04   | Conformidade Legal                    | Atender portarias e regras da Senarc.                              | Análise de documentos                | M       |
-| RNF05   | Acessibilidade                        | Acessível para operadores estaduais e municipais.                  | Análise de documentos                | M       |
-| RNF06   | Disponibilidade                       | Sistema disponível diariamente.                                    | Análise de documentos / Introspecção | M       |
-| RNF07   | Compatibilidade com Aplicativo Off-line | Compatível com app offline dos municípios.                         | Análise de documentos                | M       |
-| RNF08   | Transmissão via Conectividade Social  | Uso exclusivo da ferramenta da CAIXA.                              | Análise de documentos                | M       |
-| RNF09   | Acesso Restrito                       | Acesso restrito a instituições autorizadas.                        | Análise de documentos                | M       |
-| RNF10   | Integração MEI                        | Comunicação com sistemas voltados ao MEI.                          | Análise de documentos                | W    |
-| RNF11 | Interface intuitiva e amigável        | Interface simples e de fácil navegação.                            | Introspecção, Entrevista                     | M       |
-| RNF12 | Suporte a grande base de usuários     | Suporte a muitos acessos simultâneos.                              | Introspecção                      | M       |
-| RNF13 | Integração com sistemas oficiais      | Integração com sistemas como CNIS.                                 | Introspecção                      | M       |
-| RNF14 | Usabilidade                           | Navegação intuitiva.                                               | Introspecção                      | M       |
-| RNF15 | Segurança                             | Criptografia e proteção de dados sensíveis.                        | Introspecção                      | M       |
-| RNF16 | Performance                           | Respostas em até 3 segundos.                                       | Introspecção                      | S       |
-| RNF17 | Compatibilidade com Dispositivos      | Compatível com Android e iOS.                                      | Introspecção                      | M       |
-| RNF18 | Disponibilidade                       | 99% de disponibilidade.                                            | Introspecção                      | M       |
+| ID      | Nome do Requisito                       | Descrição                                                          | Rastreabilidade                      | Prioridade |
+| ------- | -------------------------------------   | ------------------------------------------------------------------ | ---------------------------------    | ---------- |
+| RNF01   | Desempenho                              | Processamento de dados em até 48h.                                 | Análise de documentos                | M          |
+| RNF02   | Segurança                               | Confidencialidade e autenticação.                                  | Análise de documentos / Introspecção | M          |
+| RNF03   | Escalabilidade                          | Suportar até 19,5 milhões de famílias.                             | Análise de documentos                | M          |
+| RNF04   | Conformidade Legal                      | Atender portarias e regras da Senarc.                              | Análise de documentos                | M          |
+| RNF05   | Acessibilidade                          | Acessível para operadores estaduais e municipais.                  | Análise de documentos                | M          |
+| RNF06   | Disponibilidade                         | Sistema disponível diariamente.                                    | Análise de documentos / Introspecção | M          |
+| RNF07   | Compatibilidade com Aplicativo Off-line | Compatível com app offline dos municípios.                         | Análise de documentos                | M          |
+| RNF08   | Transmissão via Conectividade Social    | Uso exclusivo da ferramenta da CAIXA.                              | Análise de documentos                | M          |
+| RNF09   | Acesso Restrito                         | Acesso restrito a instituições autorizadas.                        | Análise de documentos                | M          |
+| RNF10   | Integração MEI                          | Comunicação com sistemas voltados ao MEI.                          | Análise de documentos                | W          |
+| RNF11   | Interface intuitiva e amigável          | Interface simples e de fácil navegação.                            | Introspecção, Entrevista             | M          |
+| RNF12   | Suporte a grande base de usuários       | Suporte a muitos acessos simultâneos.                              | Introspecção                         | M          |
+| RNF13   | Integração com sistemas oficiais        | Integração com sistemas como CNIS.                                 | Introspecção                         | M          |
+| RNF14   | Usabilidade                             | Navegação intuitiva.                                               | Introspecção                         | M          |
+| RNF15   | Segurança                               | Criptografia e proteção de dados sensíveis.                        | Introspecção                         | M          |
+| RNF16   | Performance                             | Respostas em até 3 segundos.                                       | Introspecção                         | S          |
+| RNF17   | Compatibilidade com Dispositivos        | Compatível com Android e iOS.                                      | Introspecção                         | M          |
+| RNF18   | Disponibilidade                         | 99% de disponibilidade.                                            | Introspecção                         | M          |
 <center>
     Autor(es): 
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>, 
@@ -140,7 +140,7 @@ Essa seção apresenta os requisitos não funcionais priorizados por meio da Tab
 > FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.
 
 # Histórico de Versões 
-| Versão | Data | Descrição  | Autor        | Revisor |
-| :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 28/04/2025 | Criação da página da técnica MoSCoW | [Ryan Salles](https://github.com/RA-Salles) |  [João Pedro Costa](https://github.com/johnaopedro)|
-| 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
+| Versão  | Data       | Descrição                              | Autor                                              | Revisor                                                          |
+| :-----: | :----:     | :----------:                           | :------------:                                     | :--------:                                                       |
+| 1.0     | 28/04/2025 | Criação da página da técnica MoSCoW    | [Ryan Salles](https://github.com/RA-Salles)        |  [João Pedro Costa](https://github.com/johnaopedro)              |
+| 1.2     | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)                      |
