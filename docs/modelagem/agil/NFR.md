@@ -1,7 +1,5 @@
 # NFR Framework
 
-
-
 ## Introdução
 O desenvolvimento de sistemas de software não depende apenas da implementação de requisitos funcionais, mas também da garantia de que esses sistemas cumpram atributos de qualidade, como desempenho, segurança, usabilidade e confiabilidade. Esses atributos são descritos por meio dos requisitos não funcionais (Non-Functional Requirements – NFRs), que exercem papel importante na aceitação, desempenho e manutenção do sistema ao longo do tempo. O NFR Framework, surge como uma abordagem sistemática para representar, analisar e decompor requisitos não funcionais desde as fases iniciais da engenharia de requisitos. O framework utiliza uma estrutura baseada em metas e refinamentos para tratar a natureza muitas vezes ambígua e subjetiva dos NFRs, permitindo que diferentes alternativas de design sejam avaliadas e conciliadas com os objetivos de qualidade do sistema.
 
@@ -18,7 +16,7 @@ A descrição das funções dos autores na criação e no desenvolvimento do art
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação da figura e das tabelas da NFR 03 | 
 |[João Igor](https://github.com/JoaoPC10)| Criação de tabelas e desenvolvimento do RNF19 no NFR | 
 |[João Pedro Costa](https://github.com/johnaopedro)| Desenvolvimento do RNF16 no NFR; SIG e propagação de impactos do NFR01 | 
-|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Explicação do requisito 07; Referências| 
 |[Ryan Salles](https://github.com/RA-Salles)| Elaboração da Tabela 4, Figura 5 e Descrição do RNF17, itens de desenvolvimento do NFR 02| 
 
 <center>
@@ -162,7 +160,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Análise de documentos  
 **Critério de Aceitação:** O sistema deve armazenar em cache dados essenciais para uso off-line.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Média  
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025
 
@@ -175,7 +173,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Introspecção  
 **Critério de Aceitação:** O sistema deve permitir navegação por leitores de tela e possuir alternativas textuais para conteúdos visuais.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Alta 
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025  
 
@@ -188,7 +186,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Introspecção  
 **Critério de Aceitação:** O sistema deve funcionar de forma responsiva com conexões de até 1 Mbps.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Alta  
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025  
 
@@ -201,7 +199,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Introspecção  
 **Critério de Aceitação:** O sistema deve permitir alterar o idioma da interface entre pelo menos três opções.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Baixa  
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025  
 
@@ -214,7 +212,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Introspecção  
 **Critério de Aceitação:** O sistema deve recuperar automaticamente a última sessão ativa do usuário em caso de falha.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Média  
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025  
 
@@ -227,7 +225,7 @@ Cartões de especificação (ou specification cards) são documentos concisos e 
 **Origem do Requisito:** Introspecção  
 **Critério de Aceitação:** O sistema deve possuir infraestrutura redundante e testes regulares de recuperação.  
 **Dependências:** Nenhuma  
-**Prioridade:** X  
+**Prioridade:** Alta  
 **Conflitos:** Nenhum  
 **Histórico:** 22/05/2025  
 
@@ -431,10 +429,6 @@ A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa
     <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
 </center>
 
-## Rastreabilidade
-
-## Vídeo
-
 ## Referências
 
 > Página 1 à 26; Requisitos Não-Funcionais. [s.l: s.n.]. Disponível em: <https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf>. Acesso em: 22 maio. 2025.
@@ -475,7 +469,8 @@ A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa
 |  1.6  | 30/05/2025  | Complemento da parte teórica | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
 |  1.7  | 30/05/2025  | Adição e complementos do NFR00 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
 |  1.8  | 31/05/2025  | Adição e complementos do NFR01 | [Amanda Cruz](https://github.com/mandicrz)| [Julia Paulino](https://github.com/JuliaGabP) |
-|  1.9  | 01/05/2025  | Enumerando corretamente as tabelas | [Amanda Cruz](https://github.com/mandicrz)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+|  1.9  | 01/06/2025  | Enumerando corretamente as tabelas | [Amanda Cruz](https://github.com/mandicrz)| [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+|  2.0  | 01/06/2025 |   Inserção da priodade dos requisitos | [Julia Paulino](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)|
 
 
 
