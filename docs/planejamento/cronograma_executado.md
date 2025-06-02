@@ -76,10 +76,27 @@
 | Inspeções                                     | Início: 19/05 Fim: 19/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 14/05 Fim: 14/05   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
 | Correção após inspeção                        | Início: 21/05 Fim: 22/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 16/05 Fim: 16/05   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
 <center>
- Autor(a): <a href="https://github.com/JoaoPC10" target = "_blank">João Igor</a></h6>
+ Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a></h6>
 </center>
 
+## Entrega 4 - Modelagem de Requisitos parte 2
+Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
+<center>Tabela 04: Cronograma para as atividades da entrega 4</center>
 
+| Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
+|-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
+| Modelagem de Requisitos - Ágil: NFR Framework | Início: 18/05 Fim: 28/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan             | Início: 23/05 Fim: 24/05   | João Pedro       |
+| Modelagem de Requisitos - Ágil: Backlogs      | Início: 18/05 Fim: 28/05    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan              | Início: 23/05 Fim: 28/05   | João Igor       |
+| Modelagem de Requisitos - Ágil: Histórias de Usuário | Início: 23/05 Fim: 28/05 | Amanda, Gabriel, João Pedro, João Igor, João Vítor, Julia, Ryan      | Início: 23/05 Fim: 28/05   | Ryan             |
+| Cronograma ocorrido                           | Início: 27/05 Fim: 27/05    | João Pedro               | Início: 27/05 Fim: 01/06   | Gabriel          |
+| Atas                                          | Início: 18/05 Fim: 01/06    | Ryan                       | Início: 28/05 Fim: 28/05   | Amanda           |
+| Gravações                                     | Início: 18/05 Fim: 01/06    | Ryan                       | Início: 28/05 Fim: 28/05   | Julia            |
+| Gravação da apresentação                      | Início: 26/05 Fim: 01/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 26/05 Fim: 26/05   | João Vítor       |
+| Inspeções                                     | Início: 28/05 Fim: 01/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 28/05 Fim: 28/05   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+
+<center>
+ Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
 
 ## Referências
    > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 abr. 2025. 
@@ -93,3 +110,4 @@
 | 1.2    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 04/05/2025 | Cronograma executado da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
 | 1.4 | 18/05/2025 | Cronograma executado da entrega 3 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.5 | 01/06/2025 | Cronograma executado da entrega 4 | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
