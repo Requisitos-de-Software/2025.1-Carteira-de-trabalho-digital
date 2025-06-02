@@ -149,6 +149,9 @@ A Tabela 5 abaixo apresenta uma lista de verificação para o Backlog. O objetiv
 | 10   | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
 | 11   | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
 | 12   | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15. Gama: Universidade de Brasília (UnB). Slide de apresentação.                  |
+| 13     | Os épicos possuem features relacionadas?                                                            |             | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                                     |
+| 14     | Os épicos são rastreáveis para com as estórias de usuário?                                          |             | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                                     |
+| 15     | Os itens mais próximos do topo do backlog estão suficientemente granulares para serem passíveis de implementação em apenas uma sprint | JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD.                                                                 | 
 
 
 <center>
@@ -241,6 +244,7 @@ As referências das Tabelas 2 e 3 tiveram como referência as Figuras 1 a 4.
 
 > COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.
 
+> JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096147/mod_resource/content/1/RE%20-%20Aula%2015%20-%20Materiais.zip?forcedownload=1>. Acesso em: 01/06/2025
 
 ## Histórico de Versão
 
