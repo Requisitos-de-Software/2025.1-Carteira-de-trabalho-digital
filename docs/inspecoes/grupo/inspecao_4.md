@@ -91,16 +91,16 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 | 03  | A história é curta e concisa? |  |
 | 04  | Existem critérios de aceitação definidos? |  |
 | 05  | A história é independente de outras? |  |
-| 06  | A história é negociável (pode ser modificada em conversa)? |  |
-| 07  | A história é testável? (pode-se verificar se foi completada?) |  |
-| 08  | Ela é estimável (é possível estimar tempo e esforço)? |  |
+| 06  | A história é negociável, pode ser modificada em conversa? |  |
+| 07  | A história é testável, pode-se verificar se foi completada? |  |
+| 08  | Ela é estimável, é possível estimar tempo e esforço? |  |
 | 09  | O nome do documento possui nomenclatura padrão? (EU_000_NomeDaEstoria) |  |
 | 10  | O documento possui formatação seguindo o template (título, estilo etc.)? |  |
-| 11  | A User Story inclui uma contextualização que posiciona a funcionalidade no produto? |  |
-| 12  | A User Story inclui protótipos ou links para protótipos atualizados? |  |
+| 11  | Existe relação entre as historias de usuário? |  |
+| 12  | Os criterios de aceite visão cenários? |  |
 | 13  | A linguagem utilizada na User Story é alinhada ao vocabulário do usuário, evitando termos técnicos desnecessários? |  |
 | 14  | Os riscos podem ser identificados na descrição? |  |
-| 15  | Os critérios de aceitação são atualizados continuamente com base no feedback do time? |  |
+| 15  | As historias muito grandes foram refinadas e divididas? |  |
 | 16  | Foi lida e aprovada por alguém fora da equipe? |  |
 | 17  | Evita detalhamento em linguagem de usuário final? Ex: “fácil de usar” ou "bem rápido" |  |
 | 18  | Tem ligação com objetivo de negócio? |  |
