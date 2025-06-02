@@ -75,15 +75,6 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-<center>
-    Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
-</center>
-
-<center>
-    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
-</center>
-
 ### Épico 2: Informação
 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
@@ -134,7 +125,7 @@ O épico 5 trata de aspectos de acessibilidade do aplicativo.
 Esse épico é apresentado por meio da tabela 7.
 
 | Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
+| :-----: | :---------------------: | :------------------------------------: |
 | FT_07   | EU_29 - Assistência por voz | Alta |
 
 <center>
@@ -147,7 +138,7 @@ O Épico 6 agrupa estórias relacionadas a integração do aplicativo com demais
 Esse épico é apresentado por meio da tabela 8.
 
 | Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
+| :-----: | :---------------------: | :------------------------------------: |
 | FT_08 - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
 
 <center>
@@ -162,6 +153,9 @@ Esse épico é apresentado por meio da tabela 8.
 <center>
 <b>Figura 1:</b> Exemplo de backlog
 </center>
+
+![exemplo_backlog](../../assets/modelagem/backlog/scrumrefcard.png)
+
 <center>
 <b>Fonte: </b> JAMES e WALTER (2017)
 </center>
