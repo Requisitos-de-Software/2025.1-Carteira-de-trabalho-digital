@@ -36,15 +36,15 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 
 | **ID** |                       **Item**                       | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
-|  DS01  |         Padronização do Histórico de Versão          |   Conforme   |
-|  DS02  |          Autor e revisor para cada artefato          |   Conforme   |
-|  DS03  | Referências e/ou bibliografia em todos os artefatos  |   Conforme   |
-|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |   Incompleto |
-|  DS05  |          Introdução do texto dos artefatos           |   Conforme   |
-|  DS06  | Cronograma executado além do inicialmente planejado  |   Conforme   |
-|  DS07  |                  Atas das reuniões                   |   Conforme   |
-|  DS08  |                Gravação das reuniões                 |   Conforme   |
-|  DS09  | Upload de apresentação no YouTube como não "listado" |   Conforme   |
+|  DS01  |         Padronização do Histórico de Versão          |     |
+|  DS02  |          Autor e revisor para cada artefato          |      |
+|  DS03  | Referências e/ou bibliografia em todos os artefatos  |      |
+|  DS04  |    Legenda e fonte em todas as imagens e tabelas     |    |
+|  DS05  |          Introdução do texto dos artefatos           |      |
+|  DS06  | Cronograma executado além do inicialmente planejado  |      |
+|  DS07  |                  Atas das reuniões                   |      |
+|  DS08  |                Gravação das reuniões                 |      |
+|  DS09  | Upload de apresentação no YouTube como não "listado" |      |
 
 <center>
     Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -125,18 +125,18 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 
 | **ID** |                                                  **Item**                                          | **Resposta** |
 | :----: | :-------------------------------------------------------------------------------------------------: | :---------: |
-| 1      | O Product Backlog está definido como uma lista de todas as funcionalidades desejadas para o produto?  |             |
-| 2      | Foi indicado que o Product Owner é o responsável por definir e priorizar o conteúdo do backlog?       |             |
-| 3      | Está claro que o Product Backlog não precisa estar completo no início do projeto?                     |             |
-| 4      | O documento indica que o backlog cresce e muda com o tempo, conforme o conhecimento do produto evolui?|             |
-| 5      | Os itens do Product Backlog são especificados utilizando as histórias de usuário?                     |             |
-| 6      | Os itens focam no "o que" deve ser feito, e não no "como"?                                            |             |
-| 7      | Está indicado que os itens podem ter critérios de aceitação?                                          |             |
-| 8      | A prioridade de execução está bem definida?                                                           |             |
-| 9      | O backlog utiliza Épicos?                                                                             |             |
-| 10     | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             |
-| 11     | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             |
-| 12     | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             |
+| 1    | O Product Backlog está definido como uma lista de todas as funcionalidades desejadas para o produto?  |             |
+| 2    | Foi indicado que o Product Owner é o responsável por definir e priorizar o conteúdo do backlog?       |             |
+| 3    | Está claro que o Product Backlog não precisa estar completo no início do projeto?                     |             |
+| 4    | O documento indica que o backlog cresce e muda com o tempo, conforme o conhecimento do produto evolui?|             |
+| 5    | Os itens do Product Backlog são especificados utilizando as histórias de usuário?                     |             |
+| 6    | Os itens focam no "o que" deve ser feito, e não no "como"?                                            |             |
+| 7    | Está indicado que os itens podem ter critérios de aceitação?                                          |             |
+| 8    | A prioridade de execução está bem definida?                                                           |             |
+| 9    | O backlog utiliza Épicos?                                                                             |             |
+| 10   | Os épicos são divididos em histórias de usuários mais detalhadas?                                     |             |
+| 11   | Há exemplos ou explicações de como Epics e User Stories são utilizados?                               |             |
+| 12   | O Product Backlog está conectado à modelagem de requisitos de maneira iterativa e incremental?        |             |
 | 13     | Os épicos possuem features relacionadas?                                                              |             |
 | 14     | Os épicos são rastreáveis para com as estórias de usuário?                                            |             |
 | 15     | Os itens mais próximos do topo do backlog estão suficientemente granulares para serem passíveis de implementação em apenas uma sprint |        |  
@@ -154,10 +154,31 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 
 | **ID** |                       **Item**                       | **Resposta** |
 | :----: | :--------------------------------------------------: | :----------: |
+|   1    | Os três tipos de softgoals (NFR, Operacionalização, Afirmação) foram devidamente identificados e representados no SIG com suas notações gráficas específicas (ex: nuvens claras, grossas, tracejadas)? | |
+|   2    | Os softgoals foram detalhados através dos tipos de refinamentos apropriados (ex: decomposição, priorização) para derivar sub-softgoals mais específicos? | |
+|   3    | As relações de impacto entre softgoals (pai-filho) foram modeladas usando os diversos tipos de contribuições (AND, OR, MAKE, etc.)? ||
+|   4    | Foram atribuídos rótulos de avaliação (propagação de impactos) aos softgoals para indicar seu status após a análise do SIG? | |
+|   5    | Os Requisitos Não-Funcionais (RNFs) centrais do projeto foram capturados e representados como softgoals desde o início? ||
+|   6    | Foi construído o SIG para visualizar os softgoals, suas inter-relações e o racional de design do sistema? ||
+|   7    | Cada softgoal NFR possui seu "tipo" (a qualidade NFR, ex: Confiabilidade) e "tópico" (o objeto da qualidade) claramente definidos para especificar seu escopo? ||
+|   8    | O SIG registra explicitamente as decisões de desenvolvimento tomadas, as alternativas consideradas e as justificativas para as escolhas feitas? ||
+|   9    | Os softgoals NFR estão organizados de forma hierárquica dentro do SIG? ||
+|  10    | Para cada softgoal NFR importante, foram identificadas e representadas no SIG uma ou mais soluções de implementação (softgoals de operacionalização) que buscam atendê-lo? | |
+|   11   | Foram colocadas legendas e rótulos para as contribuições e contribuição dos NFRs? | |
+|   12   | Os requisitos utilizados para a criação dos NFRs foram apenas os não funcionais? | |
+|   13   | Foram feitas explicações e criação de legendas para os rótulos do NFR? ||
+|   14   | Cada NFR está claramente associado a pelo menos uma necessidade do sistema ou do usuário? | |
+|   15   | Foi utilizada uma taxonomia (ex: desempenho) para classificar os NFRs? ||
+|   16   | Os NFRs estão descritos de forma mensurável, evitando termos vagos como "rápido" ou "seguro"? | |
+|   17   | Os NFRs foram validados com as partes interessadas? ||
+|   18   | Os NFRs estão documentados separadamente dos requisitos funcionais, mas com rastreabilidade entre eles? ||
+|   19   | Há explicação ou justificativa clara para a priorização de cada NFR? ||
+|   20   | Foram identificados e descritos possíveis conflitos entre NFRs e como eles foram resolvidos? | |
 
 <center>
-    Autor(es): 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>,
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ## Conclusão

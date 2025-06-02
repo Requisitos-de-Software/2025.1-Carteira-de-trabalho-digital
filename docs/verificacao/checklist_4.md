@@ -191,7 +191,8 @@ A Tabela 6 abaixo apresenta uma lista de verificação para o artefato NFR Frame
 
 
 <center>
-    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>,
+                <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
 ## Referências
