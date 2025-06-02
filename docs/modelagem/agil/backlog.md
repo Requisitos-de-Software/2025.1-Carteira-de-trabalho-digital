@@ -111,10 +111,12 @@ Esse épico é apresentado por meio da tabela 8.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | : ---------------------: | :------------------------------------: |
-| FT_XX - Integração com    | EU_XY <br> EU_XX         | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| FT_XX - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
 
 
 ## Referências Bibliográficas
+
+> JAMES, Michael; WALTER, Luke. SCRUM REFERENCE CARD. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096147/mod_resource/content/1/RE%20-%20Aula%2015%20-%20Materiais.zip?forcedownload=1>. Acesso em: 01/06/2025
 
 ## Histórico de Versão
 
