@@ -85,9 +85,9 @@ Esse Épico é apresentado por meio da tabela 4.
 O Épico 3 trata de aspectos de requisições do usuário ao sistema e disponibilização de serviços pelo aplicativo, automatizando funcionalidades que exigiriam 
 uma visita pessoal a um CRAS ou outro posto de atendimento. Esse Épico é apresentado por meio da tabela 5.
 
-| Feature | Estórias                 | Prioridade                             |
-| :-----: | : ---------------------: | :------------------------------------: |
-| FT_05 - Formulários | EU_17 - Cadastro de Famílias <br> EU_18 - Cadastro de Pessoas <br> EU_19 - Cadastro de Domicílios <br> EU_32 - Coleta de Dados via Formulários <br> EU_33 Atualização de Dados Familiares       | Alta <br> Alta <br> Média <br> Alta <br> Alta |
+| Feature              | Estórias                                                                                                         | Prioridade                        |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| FT_05 - Formulários  | EU_17 - Cadastro de Famílias <br> EU_18 - Cadastro de Pessoas <br> EU_19 - Cadastro de Domicílios <br> EU_32 - Coleta de Dados via Formulários <br> EU_33 - Atualização de Dados Familiares | Alta <br> Alta <br> Média <br> Alta <br> Alta |
 
 ### Épico 4: Customização
 O épico 4 organiza estórias e funcionalidades relacionadas à customização do funcionamento do aplicativo para permitir uma maior qualidade de uso. Esse épico é apresentado por meio da tabela 6.
