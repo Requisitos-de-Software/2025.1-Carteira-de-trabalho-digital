@@ -67,7 +67,7 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
 | Feature                        | Estórias                                              | Prioridade  |
 | :-----:                        | :---------------------------------------------------: | :---------: |
 | FT_01 - Capacidade de Login    |  -                                                    | Alta        |
-| FT_02 - Capacidade de Cadastro de Informações | EU_04 <br> EU_13 <br> EU_17 <br> EU_20 | Alta        |
+| FT_02 - Capacidade de Cadastro de Informações | EU_04 -  Cadastro de usuário <br> EU_13 - Registro da condição de MEI no cadastro do usuário <br> EU_17 - Cadastro de Famílias  <br> EU_20 - Cadastro de Agricultores Familiares | Média <br> Alta <br> Alta <br> Alta     |
 
 
 
@@ -76,9 +76,9 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
 O Épico 2 trata de aspectos de obtenção de informação por meio do aplicativo, como informações sobre benefícios, status de uso e eligibilidade e ajuda na operação.
 Esse Épico é apresentado por meio da tabela 4.
 
-| Feature                           | Estórias                | Prioridade                             |
-| :-----:                           | :---------------------: | :------------------------------------: |
-| FT_03 - Atualização de Dados      | EU_02 <br> EU_05 <br> EU_12 <br> EU_33                                             | Alta/Média/Baixa <br> Alta/Média/Baixa |
+| Feature                           | Estórias                                                                           | Prioridade                             |
+| :-----:                           | :---------------------:                                                            | :------------------------------------: |
+| FT_03 - Atualização de Dados      | EU_02 -  <br> EU_05 <br> EU_12 <br> EU_33                                             | Alta/Média/Baixa <br> Alta/Média/Baixa |
 | FT_04 - Obtenção de informação    | EU_01 <br> EU_03 <br> EU_10 <br> EU_14 <br> EU_23 <br> EU_24 <br> EU_27 <br> EU_36 |                                        |
 | FT_05 - Ajuda                     | EU_15 <br> EU_26 <br> EU_27 <br> EU_28 <br> EU_35 |
 ### Épico 3: Requisição
