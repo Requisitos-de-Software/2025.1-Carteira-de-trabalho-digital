@@ -6,7 +6,7 @@
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|| 
 |[João Igor](https://github.com/JoaoPC10)|| 
 |[João Pedro Costa](https://github.com/johnaopedro)|| 
-|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do doumento e preenchimento da parte teórica e bibliografia| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Criação da Matriz Geral; Inserção da bibliografia| 
 |[Ryan Salles](https://github.com/RA-Salles)||
 <center>
     Autor(es): 
@@ -26,28 +26,26 @@ O desenvolvimento desse documento objetiva:
 - **Auxiliar na priorização e planejamento:** Fornecer uma base sólida para definir o que deve ser feito primeiro, com base na criticidade, dependências e valor para o negócio.
 
 ## Tipos de matrizes
-Existem diferentes tipos de matrizes de rastreabilidade de requisitos, cada uma com um propósito específico. As mais comuns incluem:
+Existem diferentes tipos de matrizes de rastreabilidade de requisitos, cada uma com um objetivo específico. As mais comuns incluem:
 
-- **Matriz de rastreabilidade direta (forward traceability):** Relaciona os requisitos com os entregáveis do projeto (como casos de uso, código-fonte, casos de teste), garantindo que todos os requisitos sejam implementados.
+- **Matriz de rastreabilidade direta:** Relaciona os requisitos com os casos de uso do projeto, garantindo que todos os requisitos sejam implementados.
 
-- **Matriz de rastreabilidade reversa (backward traceability):** Mapeia os entregáveis de volta aos requisitos, assegurando que tudo o que foi desenvolvido ou testado tenha um requisito correspondente.
+- **Matriz de rastreabilidade reversa:** Mapeia os entregáveis de volta aos requisitos, assegurando que tudo o que foi desenvolvido ou testado tenha um requisito correspondente.
 
-- **Matriz bidirecional (bidirectional traceability):** Combina a rastreabilidade direta e reversa, permitindo uma visão completa do relacionamento entre requisitos, desenvolvimento e testes.
-
-- **Matriz de cobertura de testes:** Relaciona requisitos com casos de teste específicos, garantindo que cada requisito tenha uma ou mais validações associadas.
+- **Matriz bidirecional:** Combina a rastreabilidade direta e reversa, permitindo uma visão completa do relacionamento entre requisitos e desenvolvimento.
 
 - **Matriz de dependência de requisitos:** Exibe interdependências entre diferentes requisitos, ajudando na análise de impacto de alterações.
 
 ## Metodologia
 A construção e manutenção de uma matriz de rastreabilidade segue etapas metodológicas bem definidas:
 
-1. **Levantamento e categorização dos requisitos:** Identificar e documentar todos os requisitos do projeto, dividindo-os em grupos (funcionais, não funcionais, técnicos etc.).
+1. **Levantamento e categorização dos requisitos:** Identificar e documentar todos os requisitos do projeto, dividindo-os em grupos funcionais e não funcionais.
 
-2. **Definição de relacionamentos:** Determinar como os requisitos se conectam a outros elementos do projeto, como entregáveis, testes, casos de uso e módulos de sistema.
+2. **Definição de relacionamentos:** Determinar como os requisitos se conectam a outros elementos do projeto, como entregáveis e casos de uso.
 
-3. **Criação da matriz:** Utilizar ferramentas específicas (planilhas, templates online como o da Asana, ou softwares especializados como o Requiment) para construir a matriz com colunas bem definidas (ID do requisito, descrição, status, artefatos relacionados, etc.).
+3. **Criação da matriz:** Utilizar ferramentas específicas (planilhas ou templates online) para construir a matriz com colunas bem definidas.
 
-4. **Manutenção contínua:** Atualizar a matriz ao longo do projeto para refletir mudanças nos requisitos, status de testes e implementações. A matriz deve ser um documento vivo.
+4. **Manutenção contínua:** Atualizar a matriz ao longo do projeto para refletir mudanças nos requisitos e implementações. A matriz deve ser um documento atual.
 
 5. **Validação com stakeholders:** Revisar periodicamente a matriz com as partes interessadas para garantir alinhamento e detectar desvios.
 
@@ -56,7 +54,7 @@ A construção e manutenção de uma matriz de rastreabilidade segue etapas meto
 Essa metodologia permite um acompanhamento estruturado, promove a qualidade do produto e reduz os riscos de falhas por requisitos mal interpretados ou não implementados.
 
 ## Matriz Geral
-
+A seguinte matriz apresentada se categoriza como, Matriz de Rastreabilidade Direta
 | ID                                       | Nome                                        | Descrição                                                                                                                                                                                      | Rastreabilidade                                                                                       | Implementado |
 | :--------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | :----------: | 
 | [RF01](tecnicas/questionario.md)         | Cadastro de Famílias                        | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais                                                                       | [Questionário](tecnicas/questionario.md) / [Análise de documentos](tecnicas/analise_documentacao.md)  | Sim          |
@@ -141,4 +139,4 @@ Essa metodologia permite um acompanhamento estruturado, promove a qualidade do p
 ## Histórico de Versões
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 05/06/2025 | Criação do documento e preenchimento da parte teórica| [Julia Gabriela](https://github.com/JuliaGabP)                   | [Ryan Salles](https://github.com/RA-Salles)  |
+| 1.0    | 05/06/2025 | Criação do documento e preenchimento do mesmo| [Julia Gabriela](https://github.com/JuliaGabP)                   | [João Pedro Costa](https://github.com/johnaopedro)  |
