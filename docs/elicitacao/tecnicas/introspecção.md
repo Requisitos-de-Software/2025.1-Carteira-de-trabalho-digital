@@ -192,20 +192,38 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 
 ## Validação
 
-Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 4 e 5. 
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 7 e 8. 
+
+<center>
+    <b> Tabela 7:</b> Informações da Entrevista
+<center>
 
 | Campo   | Informação                                               |
 | :-----: | :------------------------------------------------------: |
 | Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
 | Data    | 05/06/2025                                               |
-| Horário | 10:10                                                    |
-| Duração | Cerca de 20 minutos                                      |
+| Horário | 09:20                                                    |
+| Duração | Cerca de 15 minutos                                      |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+<center>
+
+<center>
+    <b> Tabela 8:</b> Participantes da Entrevista
+<center>
 
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
 | Lucas                                        | Usuário/ Project Owner   |
 | [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
 | [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+<center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MilbSATgUrU?si=7MT7yWhMW_BiFMZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
