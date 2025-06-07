@@ -190,6 +190,26 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wHObTZEY-_U?si=iRPZL2cwhnsewNyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Validação
+
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 4 e 5. 
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 10:10                                                    |
+| Duração | Cerca de 20 minutos                                      |
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Lucas                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MilbSATgUrU?si=7MT7yWhMW_BiFMZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Referências
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23/04/2025.
