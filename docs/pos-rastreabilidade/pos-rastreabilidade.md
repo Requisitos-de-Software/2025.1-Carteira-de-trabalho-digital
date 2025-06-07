@@ -51,7 +51,7 @@ A tabela a seguir apresenta um template utilizado para a pós-rastreabilidade do
 
 ## Rastreabilidade
 
-Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos relacionados a cada um deles, conforme o modelo de pós-rastreabilidade adotado. As tabelas 3 a 42 contêm os requisitos e seus respectivos elos de rastreabilidade com os artefatos do projeto.
+Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos relacionados a cada um deles, conforme o modelo de pós-rastreabilidade adotado. As tabelas 3 a 60 contêm os requisitos e seus respectivos elos de rastreabilidade com os artefatos do projeto.
 
 ### RF01 - Cadastro de Famílias
 
@@ -1037,6 +1037,456 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 <p style="text-align: center">Tabela 42 - RF40</p>
 
 |RF40|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF01 - Desempenho
+
+<details markdown="1">
+<summary>Garantir o processamento dos dados e retorno aos municípios em até 48 horas e resposta rápida nas interações do usuário (até 3 segundos).</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 43 - RNF01</p>
+
+|RNF01|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF02 - Segurança
+
+<details markdown="1">
+<summary>Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 44 - RNF02</p>
+
+|RNF02|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF03 - Escalabilidade
+
+<details markdown="1">
+<summary>Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 45 - RNF03</p>
+
+|RNF03|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF04 - Conformidade Legal
+
+<details markdown="1">
+<summary>Atender às regulamentações definidas pela Senarc e portarias relacionadas.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 46 - RNF04</p>
+
+|RNF04|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF05 - Acessibilidade
+
+<details markdown="1">
+<summary>Garantir que o sistema seja acessível para operadores municipais e estaduais.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 47 - RNF05</p>
+
+|RNF05|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF06 - Disponibilidade
+
+<details markdown="1">
+<summary>Garantir que o sistema esteja disponível para uso diário.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 48 - RNF06</p>
+
+|RNF06|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF07 - Compatibilidade com Aplicativo Off-line
+
+<details markdown="1">
+<summary>O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 49 - RNF07</p>
+
+|RNF07|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF08 - Transmissão via Conectividade Social
+
+<details markdown="1">
+<summary>A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 50 - RNF08</p>
+
+|RNF08|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF09 - Acesso Restrito
+
+<details markdown="1">
+<summary>O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 51 - RNF09</p>
+
+|RNF09|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF10 - Interface intuitiva e amigável
+
+<details markdown="1">
+<summary>O design do aplicativo é simples e de fácil navegação.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 52 - RNF10</p>
+
+|RNF10|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF11 - Suporte a grande base de usuários
+
+<details markdown="1">
+<summary>Suporta um grande número de acessos simultâneos.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 53 - RNF11</p>
+
+|RNF11|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF12 - Integração com sistemas oficiais
+
+<details markdown="1">
+<summary>Integrado com sistemas como o CNIS.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 54 - RNF12</p>
+
+|RNF12|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF13 - Usabilidade
+
+<details markdown="1">
+<summary>Navegação intuitiva e acessibilidade geral.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 55 - RNF13</p>
+
+|RNF13|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF14 - Compatibilidade com Dispositivos
+
+<details markdown="1">
+<summary>Compatível com Android e iOS.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 56 - RNF14</p>
+
+|RNF14|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF15 - Acessibilidade para pessoas com deficiência visual
+
+<details markdown="1">
+<summary>O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 57 - RNF15</p>
+
+|RNF15|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF16 - Backup e restauração de sessão
+
+<details markdown="1">
+<summary>O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 58 - RNF16</p>
+
+|RNF16|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF17 - Alta disponibilidade e recuperação de desastres
+
+<details markdown="1">
+<summary>O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 59 - RNF17</p>
+
+|RNF17|Desenvolvimento|
+| :---: | :---: |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
+| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
+| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
+| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+<figcaption></figcaption>
+</figure>
+
+</details>
+
+### RNF18 - Possibilidade de outros idiomas
+
+<details markdown="1">
+<summary>O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.</summary>
+
+<figure markdown>
+
+<p style="text-align: center">Tabela 60 - RNF18</p>
+
+|RNF18|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
