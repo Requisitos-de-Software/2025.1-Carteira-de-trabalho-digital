@@ -1506,6 +1506,57 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 
 
 ## Bibliografia
+
+<center>
+    <b>Figura 1: </b> 
+</center>
+
+![SAYAO LEITE 2005](../assets/rastreabilidade/pos_rastreabilidade/aquarium.png)
+
+<center>
+    <b>Fonte:</b> Adaptado de SAYÃO e LEITE (2005). 
+</center>
+
+---
+
+<center>
+    <b>Figura 2: </b> 
+</center>
+
+![SAYAO LEITE 2005](../assets/rastreabilidade/pos_rastreabilidade/prepos.png)
+
+<center>
+    <b>Fonte:</b> SAYÃO e LEITE (2005). 
+</center>
+
+---
+
+<center>
+    <b>Figura 3: </b> 
+</center>
+
+![TORANZO CASTRO MELLO 2002](../assets/rastreabilidade/pos_rastreabilidade/types.png)
+
+<center>
+    <b>Fonte:</b> Adaptado de TORANZO, CASTRO e MELLO (2002). 
+</center>
+
+
+---
+
+<center>
+    <b>Figura 4: </b> 
+</center>
+
+![TORANZO CASTRO MELLO 2002](../assets/rastreabilidade/pos_rastreabilidade/conclusions.png)
+
+<center>
+    <b>Fonte:</b> TORANZO, CASTRO e MELLO (2002). 
+</center>
+
+---
+
+
 > SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 07 de jun de 2025.
 
 > TORANZO, M.; CASTRO, J; MELLO, E. Uma proposta para melhorar o rastreamento de requisitos. PUC-Rio: Workshop em Engenharia de Requisitos, Rio de Janeiro, 2002. Disponível em: http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/toranzo.pdf. Acesso em: 07 de jun de 2025.
