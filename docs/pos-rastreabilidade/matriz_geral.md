@@ -1,3 +1,5 @@
+# Matriz Geral de Rastreabilidade de Requisitos
+
 ## Funções dos autores
 
 | Nome                 | Função                                                            | 
@@ -5,9 +7,9 @@
 |[Amanda Cruz](https://github.com/mandicrz)|| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|| 
 |[João Igor](https://github.com/JoaoPC10)|| 
-|[João Pedro Costa](https://github.com/johnaopedro)|| 
+|[João Pedro Costa](https://github.com/johnaopedro)| Adição dos novos requisitos; Correção de erros; Revisão Geral| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Preenchimento da parte teórica; Criação da Matriz Geral; Inserção da bibliografia| 
-|[Ryan Salles](https://github.com/RA-Salles)||
+|[Ryan Salles](https://github.com/RA-Salles)| Adição dos novos requisitos|
 <center>
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -141,3 +143,4 @@ A seguinte matriz apresentada se categoriza como, Matriz de Rastreabilidade Dire
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 05/06/2025 | Criação do documento e preenchimento do mesmo| [Julia Gabriela](https://github.com/JuliaGabP)                   | [João Pedro Costa](https://github.com/johnaopedro)  |
+| 1.1    | 07/06/2025 | Adição de novos requisitos e revisão geral | [João Pedro Costa](https://github.com/johnaopedro) e [Ryan Salles](https://github.com/RA-Salles) | [Julia Gabriela](https://github.com/JuliaGabP)  |
