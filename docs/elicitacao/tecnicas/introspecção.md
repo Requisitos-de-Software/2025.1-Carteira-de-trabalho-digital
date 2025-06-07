@@ -145,7 +145,6 @@ Legenda - Tabela 5:
 | IS13 | RF27  | Notificação de pendências ou atualizações | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                      | Sim          |
 | IS14 | RF28  | Simulador de benefícios sociais           | Permite ao usuário simular quais benefícios sociais poderia receber.                                             | Não          |
 | IS15 | RF38  | Modo escuro                               | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz. | Não          |
-| IS16 | RF39  | Possibilidade de outros idiomas           | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                           | Não          |
 
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -161,17 +160,19 @@ Legenda - Tabela 6:
 
 | ID   | RNF   | Nome do RNF                                        | Descrição                                                                                                | Implementado |
 |------|-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------|
-| IS17 | RNF10 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
-| IS18 | RNF11 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
-| IS19 | RNF12 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
-| IS20 | RNF13 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
-| IS21 | RNF02 | Segurança                                          | Uso de criptografia e proteção de dados sensíveis.                                                       | Sim          |
-| IS22 | RNF01 | Performance                                        | Resposta rápida nas interações do usuário (até 3 segundos).                                              | Não          |
-| IS23 | RNF14 | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                            | Sim          |
-| IS24 | RNF06 | Disponibilidade                                    | Garantia de 99% de disponibilidade com mínimas interrupções.                                             | Sim          |
-| IS25 | RNF17 | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não          |
-| IS26 | RNF15 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.         | Sim          |
-| IS27 | RNF16 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.  | Não          |
+| IS16 | RNF10 | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                   | Sim          |
+| IS17 | RNF11 | Capacidade de atender grande base de usuários      | Suporta um grande número de acessos simultâneos.                                                         | Sim          |
+| IS18 | RNF12 | Integração com sistemas oficiais do governo        | Integrado com sistemas como o CNIS.                                                                      | Sim          |
+| IS19 | RNF13 | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                              | Sim          |
+| IS20 | RNF02 | Segurança                                          | Uso de criptografia e proteção de dados sensíveis.                                                       | Sim          |
+| IS21 | RNF01 | Performance                                        | Resposta rápida nas interações do usuário (até 3 segundos).                                              | Não          |
+| IS22 | RNF14 | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                            | Sim          |
+| IS23 | RNF06 | Disponibilidade                                    | Garantia de 99% de disponibilidade com mínimas interrupções.                                             | Sim          |
+| IS24 | RNF17 | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres. | Não          |
+| IS25 | RNF15 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.         | Sim          |
+| IS26 | RNF16 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.  | Não          |
+| IS27 | RF39  | Possibilidade de outros idiomas           | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                           | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>

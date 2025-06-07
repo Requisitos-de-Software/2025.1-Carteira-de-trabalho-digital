@@ -76,7 +76,7 @@ Legenda - Tabela 2:
 | AD11   | RF11   | Cadastro MEI                        | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI.                                                                                                |
 | AD12   | RF12   | Informações MEI                     | Conter seção de informações sobre microempreendedorismo individual.                                                                                                                        |
 | AD13   | RF13   | Personalização MEI                  | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua.                                            |
-| AD14   | RF40   | Integração MEI                      | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                              |
+| AD14   | RF39   | Integração MEI                      | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                              |
 
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>, <a href="https://github.com/jvopBR" target="_blank">João Merlin</a>, <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
