@@ -111,6 +111,25 @@ Legenda - Tabela 3:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RPNQ1v3XVAM?si=5ZOZIeOC_XRSglVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Validação
+
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 4 e 5. 
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 09:20                                                    |
+| Duração | Cerca de 15 minutos                                      |
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Lucas                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A5TdV51y-e4?si=nz5P5w3P8e7Ws9-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Referencias
 > Requirements Elicitation. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 7, p. 128-129. ISBN 0735679665. Acesso em: 1 de Maio 2025.
 
