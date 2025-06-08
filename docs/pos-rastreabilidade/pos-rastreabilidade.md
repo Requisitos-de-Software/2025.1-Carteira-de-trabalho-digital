@@ -443,7 +443,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | [CN05](../modelagem/cenarios.md) |
+| Recurso | [CN05](../modelagem/cenarios.md) e [Centro de Referência de Assistência Social(CRAS)](../modelagem/lexico.md)|
 | Representação | [UC05](../modelagem/caso_de_uso.md) |
 | Alocado | [EU_23](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF16](../elicitacao/requisitos_elicitados.md) |
@@ -518,7 +518,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Cadastro e Usuário](../modelagem/lexico.md) |
 | Representação | [UC03](../modelagem/caso_de_uso.md) |
 | Alocado | [EU_04](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF19](../elicitacao/requisitos_elicitados.md) |
@@ -544,7 +544,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Atualizar Cadastro e Usuário](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | [EU_02 e EU_12](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF20](../elicitacao/requisitos_elicitados.md) |
@@ -570,7 +570,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Consultar Cadastro](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | - |
 | Agregação | [RF21](../elicitacao/requisitos_elicitados.md) |
@@ -596,7 +596,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Emitir Comprovante e Cadastro](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | [EU_11](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF22](../elicitacao/requisitos_elicitados.md) |
@@ -622,7 +622,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | [CN07](../modelagem/cenarios.md) |
+| Recurso | [CN07](../modelagem/cenarios.md) e [Programa Social](../modelagem/lexico.md)|
 | Representação | [UC07](../modelagem/caso_de_uso.md) |
 | Alocado | - |
 | Agregação | [RF23](../elicitacao/requisitos_elicitados.md) |
@@ -648,7 +648,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | [CN01 e CN04](../modelagem/cenarios.md) |
+| Recurso | [CN01 e CN04](../modelagem/cenarios.md) e [Programa Social](../modelagem/lexico.md) |
 | Representação | [UC01 e UC04](../modelagem/caso_de_uso.md) |
 | Alocado | [EU_01 e EU_10](../modelagem/agil/historia_de_usuario.md)|
 | Agregação | [RF24](../elicitacao/requisitos_elicitados.md) |
@@ -674,7 +674,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Consultar Cadastro](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | [EU_09](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF25](../elicitacao/requisitos_elicitados.md) |
@@ -726,7 +726,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Cadastro Pendente](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | [EU_24](../modelagem/agil/historia_de_usuario.md) |
 | Agregação | [RF27](../elicitacao/requisitos_elicitados.md) |
@@ -752,7 +752,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso | - |
+| Recurso | [Programa Social](../modelagem/lexico.md) |
 | Representação | - |
 | Alocado | - |
 | Agregação | [RF28](../elicitacao/requisitos_elicitados.md) |
