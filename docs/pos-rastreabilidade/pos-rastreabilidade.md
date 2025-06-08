@@ -6,6 +6,7 @@
 
 | Nome                 | Função      | 
 |----------------------|-------------|
+|[Amanda Cruz](https://github.com/mandicrz)| Rastreabilidade dos requisitos não-funcionais 03 ao 16 |
 |[João Pedro Costa](https://github.com/johnaopedro)| Criação do documento; Desenvolvimento da pós-rastreabilidade; Modelagem e configuração das tabelas; Desenvolvimento da introdução e metodologia; Adição de todos os requisitos do projeto; Adição dos hyperlinks| 
 |[Ryan Salles](https://github.com/RA-Salles)| Revisão geral, Inserção de informação RF1-14 e RNF 17 e 18|
 |[Julia Gabriela](https://github.com/JuliaGabP)| Revisão geral|
@@ -1127,13 +1128,15 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF03|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF03](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
+
 
 <figcaption></figcaption>
 </figure>
@@ -1152,13 +1155,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF04|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF04](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1178,12 +1181,12 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF05](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1202,13 +1205,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF06|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF06](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1227,13 +1230,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF07|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | [Especificação Suplementar - SUP02](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | [NFR Framework - Eficiência](../modelagem/agil/NFR.md) |
+| Agregação | [RNF07](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1252,13 +1255,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF08|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | [Especificação Suplementar - SUP03](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF08](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1277,13 +1280,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF09|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF09](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1302,13 +1305,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF10|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | [Especificação Suplementar - SUP04](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF10](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1327,13 +1330,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF11|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF11](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1352,13 +1355,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF12|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF12](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1377,13 +1380,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF13|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF13](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1402,13 +1405,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF14|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | [Especificação Suplementar - USA01](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF14](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1428,12 +1431,12 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | [NFR Framework - Usabilidade](../modelagem/agil/NFR.md) |
+| Agregação | [RNF15](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1452,13 +1455,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF16|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | [Especificação Suplementar - USA02](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RNF16](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Amanda Cruz](https://github.com/mandicrz)
 
 <figcaption></figcaption>
 </figure>
@@ -1583,3 +1586,4 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |  1.2   | 07/06/2025 | Desenvolvimento das tabelas e formatação                | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.3   | 07/06/2025 | Adição de todos os requisitos do projeto                | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    | 
 |  1.4   | 07/06/2025 | Hyperlinks indicando a rastreabilidade dos requisitos   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    |
+|  1.5   | 08/06/2025 | Preenchimento das Tabelas   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles)    |
