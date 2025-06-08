@@ -200,7 +200,7 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 
 <center>
     <b> Tabela 7:</b> Informações da Entrevista
-<center>
+</center>
 
 | Campo   | Informação                                               |
 | :-----: | :------------------------------------------------------: |
@@ -212,11 +212,11 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 
 <center>
     <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
-<center>
+</center>
 
 <center>
     <b> Tabela 8:</b> Participantes da Entrevista
-<center>
+</center>
 
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
@@ -227,7 +227,7 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 
 <center>
     <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
-<center>
+</center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MilbSATgUrU?si=7MT7yWhMW_BiFMZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

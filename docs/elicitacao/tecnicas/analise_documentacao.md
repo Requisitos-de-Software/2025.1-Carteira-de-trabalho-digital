@@ -113,11 +113,9 @@ Legenda - Tabela 3:
 
 ## Validação
 
-Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 4 e 5. 
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio das Tabelas 4 e 5. 
 
-<center>
-    <b> Tabela 4:</b> Informações da Entrevista
-<center>
+<center> <b> Tabela 4:</b> Informações da Entrevista </center>
 
 | Campo   | Informação                                               |
 | :-----: | :------------------------------------------------------: |
@@ -126,14 +124,10 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 | Horário | 09:20                                                    |
 | Duração | Cerca de 15 minutos                                      |
 
+<center> <b>Autor(es)</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> </center> 
 
-<center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
-<center>
 
-<center>
-    <b> Tabela 5:</b> Participantes da Entrevista
-<center>
+<center> <b> Tabela 5:</b> Participantes da Entrevista </center>
 
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
@@ -141,10 +135,7 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 | [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
 | [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
 
-
-<center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
-<center>
+<center> <b>Autor(es)</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A5TdV51y-e4?si=nz5P5w3P8e7Ws9-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
