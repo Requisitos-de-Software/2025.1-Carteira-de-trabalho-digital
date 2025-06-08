@@ -44,6 +44,7 @@ Legenda - Tabela 1:
 - RFx: Requisitos Funcionais nºx.
 
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
+
 | RF    | Nome do RF                                | Descrição                                                                                                                                  | Implementado |
 |-------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim          |
@@ -52,6 +53,7 @@ Legenda - Tabela 1:
 | RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                            | Sim          |
 | RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                 | Sim          |
 | RF06  | Upload de documentos                      | Permite ao usuário fazer upload de documentos para o sistema.                                                                              | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -61,6 +63,7 @@ Legenda - Tabela 2:
 - RNFx: Requisitos Não-Funcionais nºx.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
+
 | RNF   | Nome do RNF                                        | Descrição                                                                                                                              | Implementado |
 |-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | RNF01 | Usabilidade                                        | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência.            | Sim          |
@@ -70,6 +73,7 @@ Legenda - Tabela 2:
 | RNF05 | Disponibilidade                                    | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo.                                      | Não          |
 | RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                       | Não          |
 | RNF07 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -190,6 +194,44 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wHObTZEY-_U?si=iRPZL2cwhnsewNyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Validação
+
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 7 e 8. 
+
+<center>
+    <b> Tabela 7:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 09:20                                                    |
+| Duração | Cerca de 15 minutos                                      |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b> Tabela 8:</b> Participantes da Entrevista
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Lucas                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MilbSATgUrU?si=7MT7yWhMW_BiFMZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Referências
 
 > GOGUEN, Joseph A.; LINDE, Charlotte. Techniques for Requirements Elicitation. In: IEEE International Symposium on Requirements Engineering, 1993. p. 152-164. Acesso em: 23/04/2025.
@@ -220,3 +262,4 @@ O vídeo abaixo refere-se à introspecção descrita neste artefato, realizada n
 | 1.3     | 04/05/2025 | Adicionando links e corrigindo tabelas                                           | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Ryan Salles](https://github.com/RA-Salles)                         |
 | 1.4     | 07/05/2025 | Adicionando imagens, o video e referências                                       | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.5     | 23/05/2025 | Adicionando coluna indicando implementação, adicionando dados de IS e desejados  | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 2.0     | 08/06/2025 | Adicionada gravação da validação                                                 | [Ryan Salles](https://github.com/RA-Salles)                                                                         | [João Pedro Costa](https://github.com/johnaopedro)                  |
