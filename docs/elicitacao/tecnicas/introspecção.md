@@ -44,6 +44,7 @@ Legenda - Tabela 1:
 - RFx: Requisitos Funcionais nºx.
 
 <center><b>Tabela 1:</b> Requisitos Funcionais</center>
+
 | RF    | Nome do RF                                | Descrição                                                                                                                                  | Implementado |
 |-------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | RF01  | Cadastro de Usuário                       | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários. | Sim          |
@@ -52,6 +53,7 @@ Legenda - Tabela 1:
 | RF04  | Emissão de Comprovante de Cadastro        | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                            | Sim          |
 | RF05  | Filtragem de Benefícios                   | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                 | Sim          |
 | RF06  | Upload de documentos                      | Permite ao usuário fazer upload de documentos para o sistema.                                                                              | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -61,6 +63,7 @@ Legenda - Tabela 2:
 - RNFx: Requisitos Não-Funcionais nºx.
 
 <center><b>Tabela 2:</b> Requisitos Não Funcionais</center>
+
 | RNF   | Nome do RNF                                        | Descrição                                                                                                                              | Implementado |
 |-------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | RNF01 | Usabilidade                                        | O aplicativo deve ser de fácil navegação, intuitivo, e acessível para todos os usuários, incluindo pessoas com deficiência.            | Sim          |
@@ -70,6 +73,7 @@ Legenda - Tabela 2:
 | RNF05 | Disponibilidade                                    | O sistema deve garantir 99% de disponibilidade para os usuários, com tempo de inatividade mínimo.                                      | Não          |
 | RNF06 | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                       | Não          |
 | RNF07 | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                | Não          |
+
 <center>
     Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
@@ -258,3 +262,4 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 | 1.3     | 04/05/2025 | Adicionando links e corrigindo tabelas                                           | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Ryan Salles](https://github.com/RA-Salles)                         |
 | 1.4     | 07/05/2025 | Adicionando imagens, o video e referências                                       | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.5     | 23/05/2025 | Adicionando coluna indicando implementação, adicionando dados de IS e desejados  | [João Pedro Costa](https://github.com/johnaopedro)                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 2.0     | 08/06/2025 | Adicionada gravação da validação                                                 | [Ryan Salles](https://github.com/RA-Salles)                                                                         | [João Pedro Costa](https://github.com/johnaopedro)                  |
