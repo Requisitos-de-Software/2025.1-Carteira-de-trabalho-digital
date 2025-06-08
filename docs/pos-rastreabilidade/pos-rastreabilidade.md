@@ -9,6 +9,8 @@
 |[João Pedro Costa](https://github.com/johnaopedro)| Criação do documento; Desenvolvimento da pós-rastreabilidade; Modelagem e configuração das tabelas; Desenvolvimento da introdução e metodologia; Adição de todos os requisitos do projeto; Adição dos hyperlinks| 
 |[Ryan Salles](https://github.com/RA-Salles)| Revisão geral|
 |[Julia Gabriela](https://github.com/JuliaGabP)| Revisão geral|
+|[João Igor](https://github.com/JoaoPC10)|Alocação da rastreabilidade dos requisitos 15, 16 e 19 ao 28|
+
 
 **Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
 
@@ -415,13 +417,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF15|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [Cadastrar Família](../modelagem/lexico.md) |
+| Representação | - |
+| Alocado | [EU_05](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF15](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
 
 <figcaption></figcaption>
 </figure>
@@ -440,13 +442,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF16|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [CN05](../modelagem/cenarios.md) |
+| Representação | [UC05](../modelagem/caso_de_uso.md) |
+| Alocado | [EU_23](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF16](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
 
 <figcaption></figcaption>
 </figure>
@@ -515,13 +517,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF19|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | [UC03](../modelagem/caso_de_uso.md) |
+| Alocado | [EU_04](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF19](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -540,13 +543,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF20|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | [EU_02 e EU_12](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF20](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -565,13 +569,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF21|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RF21](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -590,13 +595,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF22|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | [EU_11](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF22](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -615,13 +621,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF23|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [CN07](../modelagem/cenarios.md) |
+| Representação | [UC07](../modelagem/caso_de_uso.md) |
+| Alocado | - |
+| Agregação | [RF23](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -640,13 +647,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF24|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [CN01 e CN04](../modelagem/cenarios.md) |
+| Representação | [UC01 e UC04](../modelagem/caso_de_uso.md) |
+| Alocado | [EU_01 e EU_10](../modelagem/agil/historia_de_usuario.md)|
+| Agregação | [RF24](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -665,13 +673,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF25|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | [EU_09](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF25](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -690,13 +699,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF26|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [CN08](../modelagem/cenarios.md) |
+| Representação | [UC08](../modelagem/caso_de_uso.md) |
+| Alocado | [EU_15 e EU_26](../modelagem/agil/historia_de_usuario.md),|
+| Agregação | [RF26](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -715,13 +725,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF27|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | [EU_24](../modelagem/agil/historia_de_usuario.md) |
+| Agregação | [RF27](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
@@ -740,13 +751,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF28|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | [RF28](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [João Igor](https://github.com/JoaoPC10)
+
 
 <figcaption></figcaption>
 </figure>
