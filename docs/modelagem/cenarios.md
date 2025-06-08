@@ -398,10 +398,10 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
     <b> Tabela 18:</b> Rastreabilidade Cenário-Requisito  
 </center>
 
-| Cenário  | Requisito        |
-| :------: | :--------------: |
+| Cenário  | Requisito                                                     |
+| :------: | :--------------:                                              |
 | CN01     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
-| CN02     | [RF05](../../elicitacao/requisitos_elicitados.md)             |
+| CN02     | [RF20](../../elicitacao/requisitos_elicitados.md)             |
 | CN03     | [RF02](../../elicitacao/requisitos_elicitados.md)             |
 | CN04     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
 | CN05     | [RF16](../../elicitacao/requisitos_elicitados.md)             |

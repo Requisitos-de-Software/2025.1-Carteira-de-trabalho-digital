@@ -398,23 +398,23 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 <center> <b>Tabela 3: Tabela de Rastreabilidade</b> </center>
 
 | Caso de Uso (UC) | Cenário (CN) | Requisito Funcional (RF) |
-| :------------: | :--------: | :--------------------: |
-| UC01           | CN01       | RF24                   |
-| UC02           | CN02       | RF05                   |
-| UC03           | CN03       | RF19                   |
-| UC04           | CN04       | RF24                   |
-| UC05           | CN05       | RF16                   |
-| UC06           | CN06       | RF01                   |
-| UC07           | CN07       | RF23                   |
-| UC08           | CN08       | RF26                   |
-| UC09           | CN09       | RF38                   |
-| UC10           | CN10       | RF11                   |
-| UC11           | CN11       | RF12                   |
-| UC12           | CN12       | RF13                   |
-| UC13           | CN13       | RF10                   |
-| UC14           | CN14       | RF30                   |
-| UC15           | CN15       | RF35                   |
-| UC16           | CN16       | RF29                   |
+| :------------:   | :--------:   | :--------------------:   |
+| UC01             | CN01         | RF24                     |
+| UC02             | CN02         | RF05                     |
+| UC03             | CN03         | RF19                     |
+| UC04             | CN04         | RF24                     |
+| UC05             | CN05         | RF16                     |
+| UC06             | CN06         | RF01                     |
+| UC07             | CN07         | RF23                     |
+| UC08             | CN08         | RF26                     |
+| UC09             | CN09         | RF38                     |
+| UC10             | CN10         | RF11                     |
+| UC11             | CN11         | RF12                     |
+| UC12             | CN12         | RF13                     |
+| UC13             | CN13         | RF10                     |
+| UC14             | CN14         | RF30                     |
+| UC15             | CN15         | RF35                     |
+| UC16             | CN16         | RF29                     |
 
 <center> 
     <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
