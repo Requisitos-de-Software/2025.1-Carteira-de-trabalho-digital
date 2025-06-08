@@ -1462,14 +1462,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 
 <p style="text-align: center">Tabela 59 - RNF17</p>
 
-|RNF17|Desenvolvimento|
-| :---: | :---: |
-| Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| RNF17         | Desenvolvimento                                    |
+| :-----------: | :------------------------------------------------: |
+| Tipos de Elo  | Artefatos Relacionados                             |
+| Satisfação    | [DES02](../modelagem/especificacao_suplementar.md) |
+| Recurso       | -                                                  |
+| Representação | -                                                  |
+| Alocado       | [NFR02-RNF17](../modelagem/agil/NFR.md)            |
+| Agregação     | [RNF17](../elicitacao/requisitos_elicitados.md)    |
 
 **Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
 
@@ -1487,14 +1487,14 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 
 <p style="text-align: center">Tabela 60 - RNF18</p>
 
-|RNF18|Desenvolvimento|
-| :---: | :---: |
-| Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| RNF18         | Desenvolvimento                                    |
+| :-----------: | :------------------------------------------------: |
+| Tipos de Elo  | Artefatos Relacionados                             |
+| Satisfação    | [DES18](../modelagem/especificacao_suplementar.md) |
+| Recurso       | -                                                  |
+| Representação | -                                                  |
+| Alocado       | [NFR01-RNF18](../modelagem/agil/NFR.md)            |
+| Agregação     | [RNF18](../elicitacao/requisitos_elicitados.md)    |
 
 **Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
 
