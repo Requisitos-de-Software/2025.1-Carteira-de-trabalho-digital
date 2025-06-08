@@ -65,9 +65,9 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
     <b>Tabela 3: </b> Épico 1 - Autenticação
 </center>
 
-| Feature                        | Estórias                                              | Prioridade  |
-| :-----:                        | :---------------------------------------------------: | :---------: |
-| FT_01 - Capacidade de Login    |  -                                                    | Alta        |
+| Feature                                       | Estórias                                                                                                                                                                         | Prioridade  |
+| :-----:                                       | :---------------------------------------------------:                                                                                                                            | :---------: |
+| FT_01 - Capacidade de Login                   |  -                                                                                                                                                                               | Alta        |
 | FT_02 - Capacidade de Cadastro de Informações | EU_04 -  Cadastro de usuário <br> EU_13 - Registro da condição de MEI no cadastro do usuário <br> EU_17 - Cadastro de Famílias  <br> EU_20 - Cadastro de Agricultores Familiares | Média <br> Alta <br> Alta <br> Alta     |
 
 <center>
