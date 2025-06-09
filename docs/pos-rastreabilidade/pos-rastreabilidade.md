@@ -852,13 +852,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF32|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | [L02](../modelagem/lexico.md) |
+| Representação | [UC02](../modelagem/caso_de_uso.md) |
+| Alocado | - |
+| Agregação | [RF32](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -977,13 +977,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RF37|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [Requisitos Elicitados](../elicitacao/requisitos_elicitados.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | [EU29](../modelagem/agil/historia_de_usuario.md), [FT-07](../modelagem/agil/backlog.md) |
+| Agregação | [RF37](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
