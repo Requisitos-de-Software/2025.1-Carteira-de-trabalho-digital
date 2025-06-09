@@ -7,7 +7,7 @@
 | Nome                 | Função      | 
 |----------------------|-------------|
 |[Amanda Cruz](https://github.com/mandicrz)| Rastreabilidade dos requisitos não-funcionais 03 ao 16 |
-|[João Pedro Costa](https://github.com/johnaopedro)| Criação do documento; Desenvolvimento da pós-rastreabilidade; Modelagem e configuração das tabelas; Desenvolvimento da introdução e metodologia; Adição de todos os requisitos do projeto; Adição dos hyperlinks| 
+|[João Pedro Costa](https://github.com/johnaopedro)| Criação do documento; Desenvolvimento da pós-rastreabilidade; Modelagem e configuração das tabelas; Desenvolvimento da introdução e metodologia; Adição de todos os requisitos do projeto; Adição dos hyperlinks; Inserção de informação de RF1 a 40 e parcial de RNF 1 a 18; Revisão Parcial| 
 |[Ryan Salles](https://github.com/RA-Salles)| Revisão geral, Inserção de informação RF1-14 e RNF 17 e 18|
 |[Julia Gabriela](https://github.com/JuliaGabP)| Revisão geral|
 |[João Igor](https://github.com/JoaoPC10)|Alocação da rastreabilidade dos requisitos 15, 16 e 19 ao 28|
@@ -1585,5 +1585,5 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |  1.1   | 07/06/2025 | Desenvolvimento da introdução e metodologia             | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.2   | 07/06/2025 | Desenvolvimento das tabelas e formatação                | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
 |  1.3   | 07/06/2025 | Adição de todos os requisitos do projeto                | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    | 
-|  1.4   | 07/06/2025 | Hyperlinks indicando a rastreabilidade dos requisitos   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    |
+|  1.4   | 07/06/2025 | Hyperlinks indicando a rastreabilidade e inserção de informação de todos requisitos funcionais e não funcionais   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    |
 |  1.5   | 08/06/2025 | Preenchimento das Tabelas   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles)    |
