@@ -1005,12 +1005,36 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 |**Perfil(s)**          | Usuário MEI |
 |**Critérios de Aceite**| - O sistema deve ser capaz de se comunicar com sistemas externos designados para MEIs. <br>- O sistema deve permitir o envio e/ou recebimento de dados específicos de MEIs de/para esses sistemas externos. <br>- A troca de dados com os sistemas MEI deve ser realizada de forma segura. | 
 |**Prioridade**         | Alta |
-|**Rastreabilidade**    |[RF40](../../elicitacao/requisitos_elicitados.md)|
+|**Rastreabilidade**    |[RF39](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**       | Não |
 
 <center>
     <b>Autor(es):</b>
     <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+---
+
+### História EU_38 - Login com GOV.br
+
+<center>
+    <b>Figura 42:</b> EU_38 - Login com GOV.br
+</center>
+
+|Campo                  |Descrição|
+|------                 |---------|
+|**ID**                 | EU_38 |
+|**Título**             | Login com GOV.br |
+|**Objetivo**           | "Eu, como Usuário, quero que o sistema possibilite que o login e autenticação sejam feitos utilizando o GOV.br para que o processo de utilizar o aplicativo seja mais eficaz, prático e não seja necessário criar um login específico para a utilização dos sistemas" |
+|**Perfil(s)**          | Usuário |
+|**Critérios de Aceite**| - O sistema deve ser capaz processar e autenticar um usuário. <br>- A autenticação do usuário para uso do sistema deve ser feita utilizando os sistemas do GOV.br. | 
+|**Prioridade**         | Alta |
+|**Rastreabilidade**    |[RF40](../../elicitacao/requisitos_elicitados.md)|
+|**Implementado**       | Sim |
+
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Ryan Salles</a>
 </center>
 
 ---
@@ -1061,7 +1085,9 @@ A Tabela 42 apresenta a rastreabilidade geral das histórias de usuário para os
 | EU_34               | RF18      | -            |
 | EU_35               | RF36      | -            |
 | EU_36               | RF13      | CN12         |
-| EU_37               | RF40      | CN13         |
+| EU_37               | RF39      | CN13         |
+| EU_38               | RF40      | -            |
+
 
 <!--
 
