@@ -1523,6 +1523,15 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 
 ## Bibliografia
 
+
+
+
+> SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 07 de jun de 2025.
+
+> TORANZO, M.; CASTRO, J; MELLO, E. Uma proposta para melhorar o rastreamento de requisitos. PUC-Rio: Workshop em Engenharia de Requisitos, Rio de Janeiro, 2002. Disponível em: http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/toranzo.pdf. Acesso em: 07 de jun de 2025.
+
+As figuras 1 a 4 apresentam as referências bibliográficas recuperadas para a execução desse documento. 
+
 <center>
     <b>Figura 1: </b> 
 </center>
@@ -1571,11 +1580,6 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 </center>
 
 ---
-
-
-> SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 07 de jun de 2025.
-
-> TORANZO, M.; CASTRO, J; MELLO, E. Uma proposta para melhorar o rastreamento de requisitos. PUC-Rio: Workshop em Engenharia de Requisitos, Rio de Janeiro, 2002. Disponível em: http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/toranzo.pdf. Acesso em: 07 de jun de 2025.
 
 ## Histórico de Versão
 
