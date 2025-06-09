@@ -1029,10 +1029,10 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
-| Recurso |  [](../modelagem/lexico.md) |
-| Representação | - |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
-| Agregação | [RF39](../elicitacao/requisitos_elicitados.md) |
+| Recurso | [CN13](../modelagem/cenarios.md), [L-UC10, L-UC11, L-UC12](../modelagem/lexico.md) |
+| Representação | [UC13](../modelagem/caso_de_uso.md) |
+| Alocado | [EU_37](../modelagem/agil/historia_de_usuario.md), [Épico 1 - FT02](../modelagem/agil/backlog.md) |
+| Agregação | [RF40](../elicitacao/requisitos_elicitados.md) |
 
 **Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
 

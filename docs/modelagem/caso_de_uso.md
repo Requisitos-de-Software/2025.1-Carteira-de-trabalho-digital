@@ -324,7 +324,7 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 | **Fluxo de exceção** | Falha de conexão com Receita → tentativa armazenada e reagendada |
 | **Pós-condições** | Perfil MEI atualizado automaticamente no CadÚnico |
 | **Data de Criação** | 16/05/2025 |
-| **Rastreabilidade** | [RNF10](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
+| **Rastreabilidade** | [RF11, RF13, RF40](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
 <font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font>
 
