@@ -39,7 +39,7 @@ A Tabela 2 apresenta p checklist para os elementos de desenvolvimento do projeto
 ### Matriz Geral
 A Tabela 2, abaixo, apresenta uma lista de verificação para o artefato Matriz Geral. O objetivo é garantir que a Matriz esteja completa, clara e atenda aos critérios estabelecidos.
 
-<p align="center"><strong>Tabela 1:</strong> Checklist - Matriz Geral </p>
+<p align="center"><strong>Tabela 2:</strong> Checklist - Matriz Geral </p>
 
 | **ID** |                       **Item**                       |                                        **Referência**                                         |**Autor**|
 | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :-----: |
@@ -63,7 +63,9 @@ A Tabela 2, abaixo, apresenta uma lista de verificação para o artefato Matriz 
 
 ### Lista de Verificação Geral
 
-<p align="center"><strong>Tabela 2:</strong> Checklist - Verificação Geral</p>
+A Tabela 3, abaixo, apresenta uma lista de verificação geral para o artefato. O objetivo é garantir que o artefato atenda aos critérios estabelecidos e esteja em conformidade com as diretrizes do projeto.
+
+<p align="center"><strong>Tabela 3:</strong> Checklist - Verificação Geral</p>
 
 |ID|                                    Item                                    |Sim/Não|       Referência    |                    Autor                         |
 |---|---------------------------------------------------------------------------|-------|---------------------|--------------------------------------------------|
