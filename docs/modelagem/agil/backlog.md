@@ -65,9 +65,9 @@ O Épico 1 trata de aspectos de autenticação do usuário para fins de login e 
     <b>Tabela 3: </b> Épico 1 - Autenticação
 </center>
 
-| Feature                        | Estórias                                              | Prioridade  |
-| :-----:                        | :---------------------------------------------------: | :---------: |
-| FT_01 - Capacidade de Login    |  -                                                    | Alta        |
+| Feature                                       | Estórias                                                                                                                                                                         | Prioridade  |
+| :-----:                                       | :---------------------------------------------------:                                                                                                                            | :---------: |
+| FT_01 - Capacidade de Login                   |  -                                                                                                                                                                               | Alta        |
 | FT_02 - Capacidade de Cadastro de Informações | EU_04 -  Cadastro de usuário <br> EU_13 - Registro da condição de MEI no cadastro do usuário <br> EU_17 - Cadastro de Famílias  <br> EU_20 - Cadastro de Agricultores Familiares | Média <br> Alta <br> Alta <br> Alta     |
 
 <center>
@@ -86,7 +86,7 @@ Esse Épico é apresentado por meio da tabela 4.
 
 | Feature                           | Estórias                                                                           | Prioridade                             |
 | :-----:                           | :---------------------:                                                            | :------------------------------------: |
-| FT_03 - Atualização de Dados      | EU_02 - Alteração de dados cadastrais  <br> EU_05 - Pré-cadastrar família  <br> EU_12 - Atualização de dados <br> EU_33 - Atualização dos Dados Familiares | Média <br> Média <br> Alta <br> Alta |
+| FT_03 - Atualização de Dados      | EU_02 - Alteração de dados cadastrais  <br> EU_05 - Pré-cadastrar família  <br> EU_12 - Atualização de dados <br> EU_33 - Atualização dos Dados Familiares <br> EU_22 - Correção de Inconsistências | Média <br> Média <br> Alta <br> Alta <br> Alta |
 | FT_04 - Obtenção de informação    | EU_01 - Filtrar informações sobre benefícios socias <br> EU_03 - Enviar notificações <br> EU_10 - Consulta de benefícios <br> EU_14 - Acesso a conteúdos informativos sobre microempreendedorismo <br> EU_23 - Localizar Postos de Atendimento <br> EU_24 - Notificação de Pendências ou Atualizações  <br> EU_27 - Chat de atendimento <br> EU_36 - Conteúdo MEI Personalizado por Setor e Região | Média<br> Média<br> Alta<br> Média<br> Média<br> Alta<br> Alta<br> Alta                                       |
 | FT_05 - Ajuda                     | EU_15 - Chat de Atendimento <br> EU_26 - Chatbot  <br> EU_27 - Chat de atendimento  <br> EU_28 - Tutoriais Interativos  <br> EU_35 - Suporte com Vídeos Explicativos | Média <br>Baixa <br>Alta <br>Média |
 
@@ -139,7 +139,7 @@ Esse épico é apresentado por meio da tabela 8.
 
 | Feature | Estórias                 | Prioridade                             |
 | :-----: | :---------------------: | :------------------------------------: |
-| FT_08 - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI   | Alta |
+| FT_08 - Integração com Sistemas     | EU_37 - Integração com Sistemas MEI <br> EU_21 - Processamento de Dados   | Alta <br> Alta |
 
 <center>
     Autor(es): 
@@ -164,7 +164,8 @@ Esse épico é apresentado por meio da tabela 8.
 
 ## Histórico de Versão
 
-| Versão  | Data       | Descrição                                           | Autor                                       | Revisor                                     |
-| :-----: | :--------: | :-------------------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| 1.0     | 31/05/2025 | Criação do documento e inserção de informações base | [Ryan Salles](https://github.com/RA-Salles) | [AHDEFINEER DA SILVA](https://github.com/)  |
-| 1.1 | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
+| Versão  | Data       | Descrição                                           | Autor                                               | Revisor                                              |
+| :-----: | :--------: | :-------------------------------------------------: | :-----------------------------------------:         | :-----------------------------------------:          |
+| 1.0     | 31/05/2025 | Criação do documento e inserção de informações base | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho)  |
+| 1.1     | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4             | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)          |
+| 1.2     | 08/06/2025 | Alocando EU_21 na FT_08 e EU_22 na FT_03            | [Ryan Salles](https://github.com/RA-Salles)         | [João Pedro](https://github.com/johnaopedro)         |

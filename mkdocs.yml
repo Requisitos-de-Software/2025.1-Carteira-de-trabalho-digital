@@ -1,6 +1,10 @@
 site_name: Cadastro Único
 site_url: https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/
 
+markdown_extensions:
+  - tables
+  - md_in_html
+
 nav:
   - Home:
       - Sobre: index.md
@@ -41,6 +45,8 @@ nav:
       - Historia de Usuário: modelagem/agil/historia_de_usuario.md
       - Backlog: modelagem/agil/backlog.md
       - NFR Framework: modelagem/agil/NFR.md 
+  - Pós-Rastreabilidade:
+    - Pós-Rastreabilidade: pos-rastreabilidade/pos-rastreabilidade.md
   - Verificação:
       - Entrega 1: verificacao/checklist_1.md
       - Entrega 2: verificacao/checklist_2.md
@@ -97,6 +103,3 @@ icon:
 
 extra_css:
   - assets/css/custom.css
-
-markdown_extensions:
-  - tables
