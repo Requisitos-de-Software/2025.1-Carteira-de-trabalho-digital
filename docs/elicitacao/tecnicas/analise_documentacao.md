@@ -111,6 +111,34 @@ Legenda - Tabela 3:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RPNQ1v3XVAM?si=5ZOZIeOC_XRSglVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Validação
+
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio das Tabelas 4 e 5. 
+
+<center> <b> Tabela 4:</b> Informações da Entrevista </center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 09:20                                                    |
+| Duração | Cerca de 15 minutos                                      |
+
+<center> <b>Autor(es)</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> </center> 
+
+
+<center> <b> Tabela 5:</b> Participantes da Entrevista </center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Lucas                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
+
+<center> <b>Autor(es)</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> </center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A5TdV51y-e4?si=nz5P5w3P8e7Ws9-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Referencias
 > Requirements Elicitation. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 7, p. 128-129. ISBN 0735679665. Acesso em: 1 de Maio 2025.
 
@@ -248,3 +276,4 @@ Legenda - Tabela 3:
 | 1.1 | 02/05/2025 | Formatação, Padronização | [Ryan Salles](https://github.com/RA-Salles) | [Gabriel](https://github.com/Gabrielfcoelho) |
 | 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.3 | 07/05/2025 | Adicionando imagens e video | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.4 | 08/05/2025 | Adicionando gravação da validação | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
