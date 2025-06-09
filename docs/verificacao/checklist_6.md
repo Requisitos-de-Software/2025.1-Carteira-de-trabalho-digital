@@ -10,12 +10,9 @@ Este documento apresenta uma lista de verificação criada para o [Grupo 4](http
 
 | Nome                                              | Função                                                                  | 
 |---------------------------------------------------|-------------------------------------------------------------------------|
-|[Amanda Cruz](https://github.com/mandicrz) |       | 
-| [Gabriel Flores](https://github.com/Gabrielfcoelho) | |
-| [João Igor](https://github.com/JoaoPC10) | |
-|[João Pedro Costa](https://github.com/johnaopedro) | Adição de 6 itens para lista de verificação de matriz geral e 10 para lista de verificação geral | 
+|[João Pedro Costa](https://github.com/johnaopedro) | Adição de 6 itens para lista de verificação de matriz geral e 10 para lista de verificação geral; Adição da checklist do professor; Revisão parcial | 
 |[Julia Gabriela](https://github.com/JuliaGabP) | Criação da página; Adição de 5 itens para verificação da matriz geral | 
-| [Ryan Salles](https://github.com/RA-Salles) | |
+| [Ryan Salles](https://github.com/RA-Salles) | Revisão Geral |
 
 <center>
     Autor(es): 
@@ -32,14 +29,36 @@ O **checklist**, que significa **Lista de Verificação**, uma técnica importan
 - Garantir consistência e uniformidade.
 - Facilitar o gerenciamento do projeto tornando-o mais organizado e controlado.
 
-## Checklists - Entrega 5
+## Checklists - Entrega 6
 
-A Tabela 2 apresenta p checklist para os elementos de desenvolvimento do projeto e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas e os requisitos técnicos sejam atendidos de acordo com o **Plano de Ensino** do professor.
+A Tabela 2 apresenta a checklist para os elementos de desenvolvimento do projeto e conteúdo da disciplina, respectivamente, presentes no GitPages, garantindo que as etapas e os requisitos técnicos sejam atendidos de acordo com o **Plano de Ensino** do professor.
+
+### Desenvolvimento do Projeto
+
+<p align="center"><strong>Tabela 2:</strong> Checklist de Desenvolvimento do Projeto</p>
+
+| **ID** |                       **Item**                       |                                        **Referência**                                         |
+| :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
+|  DS01  |         Padronização do Histórico de Versão          | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS02  |          Autor e revisor para cada artefato          | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS03  | Referências e/ou bibliografia em todos os artefatos  | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS04  |    Legenda e fonte em todas as imagens e tabelas     | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS05  |          Introdução do texto dos artefatos           | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS06  | Cronograma executado além do inicialmente planejado  | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS07  |                  Atas das reuniões                   | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS08  |                Gravação das reuniões                 | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+|  DS09  | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 08 de junho 2025. |
+
+<center>
+    Autor(es): <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>, <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+---
 
 ### Matriz Geral
-A Tabela 2, abaixo, apresenta uma lista de verificação para o artefato Matriz Geral. O objetivo é garantir que a Matriz esteja completa, clara e atenda aos critérios estabelecidos.
+A Tabela 3, abaixo, apresenta uma lista de verificação para o artefato Matriz Geral. O objetivo é garantir que a Matriz esteja completa, clara e atenda aos critérios estabelecidos.
 
-<p align="center"><strong>Tabela 2:</strong> Checklist - Matriz Geral </p>
+<p align="center"><strong>Tabela 3:</strong> Checklist - Matriz Geral </p>
 
 | **ID** |                       **Item**                       |                                        **Referência**                                         |**Autor**|
 | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :-----: |
@@ -63,9 +82,9 @@ A Tabela 2, abaixo, apresenta uma lista de verificação para o artefato Matriz 
 
 ### Lista de Verificação Geral
 
-A Tabela 3, abaixo, apresenta uma lista de verificação geral para o artefato. O objetivo é garantir que o artefato atenda aos critérios estabelecidos e esteja em conformidade com as diretrizes do projeto.
+A Tabela 4, abaixo, apresenta uma lista de verificação geral para o artefato. O objetivo é garantir que o artefato atenda aos critérios estabelecidos e esteja em conformidade com as diretrizes do projeto.
 
-<p align="center"><strong>Tabela 3:</strong> Checklist - Verificação Geral</p>
+<p align="center"><strong>Tabela 4:</strong> Checklist - Verificação Geral</p>
 
 |ID|                                    Item                                    |Sim/Não|       Referência    |                    Autor                         |
 |---|---------------------------------------------------------------------------|-------|---------------------|--------------------------------------------------|
@@ -85,6 +104,15 @@ A Tabela 3, abaixo, apresenta uma lista de verificação geral para o artefato. 
 </center>
 
 ## Bibliografia
+
+As referências da Tabela 2 tiveram como referência a Figura 1.
+
+> BARROS, André. Plano de Ensino, RE-012025, Turma 3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3106711/mod_resource/content/55/Lista%20de%20Verifificac%CC%A7a%CC%83o%20-%20Plano_de_Ensino%20RE%20012025%20Turma%2003%20v1.pdf>. Acesso em: 01 junho 2025.
+
+<p align="center"><strong>Figura 1:</strong> Lista de Verificação - Desenvolvimento (DS01 - DS09)</p>
+
+![Fonte1](../assets/verificacao2/fonte1.png)
+
 > ASANA. Crie um modelo de matriz de rastreabilidade de requisitos [2022]. Disponível em: <https://asana.com/pt/templates/requirements-traceability-matrix>.
 
 <div style="text-align: left;">
@@ -128,4 +156,4 @@ A Tabela 3, abaixo, apresenta uma lista de verificação geral para o artefato. 
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 05/06/2025 | Criando a pagina  | [Julia Gabriela](https://github.com/JuliaGabP) |[João Pedro Costa](https://github.com/johnaopedro)     | 
-|  1.1   | 05/06/2025 | Adicionando itens para ambas as listas de verificação |[João Pedro Costa](https://github.com/johnaopedro)     | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.1   | 05/06/2025 | Adicionando itens para ambas as listas de verificação |[João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
