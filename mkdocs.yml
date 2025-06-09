@@ -60,6 +60,7 @@ nav:
       - Entrega 2: inspecoes/grupo/inspecao_2.md
       - Entrega 3: inspecoes/grupo/inspecao_3.md
       - Entrega 4: inspecoes/grupo/inspecao_4.md
+      - Entrega 6: inspecoes/grupo/inspecao_6.md
     - Grupo+1:
       - Entrega 1: inspecoes/grupo+1/inspecao_1.md
       - Entrega 2: inspecoes/grupo+1/inspecao_2.md
@@ -79,6 +80,7 @@ nav:
     - Apresentação II: apresentacoes/apresentacao2.md
     - Apresentação III: apresentacoes/apresentacao3.md
     - Apresentação IV: apresentacoes/apresentacao4.md
+    - Apresentação VI: apresentacoes/apresentacao6.md
 theme:
   logo: assets/LogoCadUn.png
   name: material

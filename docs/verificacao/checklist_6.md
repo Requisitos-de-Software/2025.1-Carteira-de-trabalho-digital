@@ -95,8 +95,8 @@ A Tabela 4, abaixo, apresenta uma lista de verificação geral para o artefato. 
 |5  |O artefato relaciona os esforços de desenvolvimento com os requisitos correspondentes?|   |POHL & RUPP (2015), p.123|[João Pedro Costa](https://github.com/johnaopedro)|
 |6  |O artefato possui registro apenas das informações necessárias para a evolução do sistema?|   |POHL & RUPP (2015), p.124|[João Pedro Costa](https://github.com/johnaopedro)|
 |7  |O artefato estabelece ligações entre os requisitos e os artefatos de desenho e implementação?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
-|8 |O artefato permite detectar requisitos que estejam em conflito ou mal definidos?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
-|9 |O artefato ajuda na identificação da origem de defeitos relacionados a requisitos?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
+|8  |O artefato permite detectar requisitos que estejam em conflito ou mal definidos?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
+|9  |O artefato ajuda na identificação da origem de defeitos relacionados a requisitos?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
 |10 |O artefato contribui para evidenciar a qualidade do processo e do produto?|   |SERRANO, Mauricio; SERRANO, Milene (Aula 26)|[João Pedro Costa](https://github.com/johnaopedro)|
 
 <center>
