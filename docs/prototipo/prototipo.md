@@ -22,12 +22,12 @@
 **Ferramentas:** ChatGPT e Paint.
 **Antes da prototipagem**
 <div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo1.0.png" alt="Print da tela">
+    <img src="../../assets/prototipo/prototipo1.0.jpeg" alt="Print da tela">
 </div>
 
 **Depois da prototipagem**
 <div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo1.1.png" alt="Protótipo modo escuro e novo idioma">
+    <img src="../../assets/prototipo/prototipo1.1.jpeg" alt="Protótipo modo escuro e novo idioma">
 </div>
 
 ## Protótipo 2
@@ -39,12 +39,12 @@
 ## Bibliografia
 BRUTON, L. A complete guide to prototyping - UX Design Institute. Disponível em: <https://www.uxdesigninstitute.com/blog/prototyping-guide/>.
 <div style="text-align: left;">
-    <img src="../../assets/referencias/prototipo/referencia_prototipo1.png" alt="Print do site">
+    <img src="../../assets/referencias/prototipo/referencia_prototipo1.jpeg" alt="Print do site">
 </div>
 
 BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://htmlburger.com/blog/prototype-design/>.
 <div style="text-align: left;">
-    <img src="../../assets/referencias/prototipo/referencia_prototipo2.png" alt="Print do site">
+    <img src="../../assets/referencias/prototipo/referencia_prototipo2.jpeg" alt="Print do site">
 </div>
 
 ## Histórico de versão
