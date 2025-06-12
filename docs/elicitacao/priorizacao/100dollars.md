@@ -23,37 +23,37 @@ Legenda - Tabela 1:
 
 <center><b>Tabela 1: </b> Requisitos Elicitados</center>
 
-| Tipo  | Descrição                                                                 | Amanda |  Gabriel | Preço Total |
-|-----  |-------------------------------------------------------------------------| ------ | ---- | ---- |
-| RF01  | Permite ao usuário visualizar seus dados no Cadastro Único.              | $8 | $5 | $6.5| 
-| RF02  | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.      | $2 | $3 | $2.5|
-| RF03  | Mostra os CRAS mais próximos com base na localização do usuário.         | $2 | $3 | $2.5|
-| RF04  | Permite o envio de mensagens importantes ao usuário por meio do app.     | $6 | $3 | $4.5|
-| RF05  | Traz dados de vínculos e contribuições automaticamente do CNIS.          | $0 | $3 | $1.5|
-| RF06  | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. | $8 | $5 | $6.5|
-| RF07  | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.  | $7 | $3 | $5|
-| RF08  | Permite verificar o status do cadastro e da situação dos benefícios.     | $8 | $3 | $5.5|
-| RF09  | Gera um comprovante de cadastro atualizado para o usuário.               | $4 | $5 | $4.5|
-| RF10  | Permite visualizar benefícios disponíveis com base nos dados cadastrados.| $6 | $2 | $4.0|
-| RF11  | Implementa um chatbot para atendimento automatizado ao usuário. | $1 | 3 | $2|
-| RF12  | Envia notificações sobre pendências ou atualizações necessárias ao usuário.| $6 | $3 | $4.5|
-| RF13  | Permite ao usuário simular benefícios sociais com base em suas informações.| $2 | $2 | $2|
-| RF14  | Possibilita o envio de documentos digitalizados para o sistema.          | $1 | $4 | $2.5|
-| RF15  | Permite marcar atendimentos nos postos de atendimento presencial (CRAS). | $3 | $4 | $3.5|
-| RNF01 | O design do aplicativo é simples e de fácil navegação.                    | $6 | $4 | $5|
-| RNF02 | Suporta um grande número de acessos simultâneos. | $2 | $4 | $3|
-| RNF03 | Integrado com sistemas como o CNIS. | $4 | $4 | $4|
-| RNF04 | Navegação intuitiva e acessibilidade geral.                              | $6 | $4 | $5|
-| RNF05 | Uso de criptografia e proteção de dados sensíveis.                       | $8 | $5 | $6.5|
-| RNF06 | Resposta rápida nas interações do usuário (até 3 segundos).              | $2 | $2 | $2|
-| RNF07 | Compatível com Android e iOS.                                            | $6 | $3 | $4.5|
-| RNF08 | Garantia de 99% de disponibilidade com mínimas interrupções.             | $4 | $5 | $4.5|
-| RNF09 | Inclusão de leitores de tela e navegação adaptada.                  | $5 | $6 | $5.5|
-| RNF10 | Operação eficiente em conexões lentas.                             | $3 | $3 | $3|
-| RNF11 | Disponibilidade do app em múltiplos idiomas.                             | $0 | $1 | $0.5|
-| RNF12 | Recuperação da sessão em caso de interrupções.                           | $2 | $2 | $2|
-| RNF13 | Alternativa visual para ambientes com pouca luz.                         | $1 | $2 | $1.5|
-| RNF14 | Mecanismos para manter o sistema funcional mesmo em situações críticas. | $3 | $5 | $4|
+| Tipo  | Descrição                                                                             | Amanda    |  Gabriel | Preço Total |
+|-----  |-------------------------------------------------------------------------              | ------    | ----     | ----        |
+| RF01  | Permite ao usuário visualizar seus dados no Cadastro Único.                           | $8        | $5       | $6.5        | 
+| RF02  | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                   | $2        | $3       | $2.5        |
+| RF03  | Mostra os CRAS mais próximos com base na localização do usuário.                      | $2        | $3       | $2.5        |
+| RF04  | Permite o envio de mensagens importantes ao usuário por meio do app.                  | $6        | $3       | $4.5        |
+| RF05  | Traz dados de vínculos e contribuições automaticamente do CNIS.                       | $0        | $3       | $1.5        |
+| RF06  | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. | $8        | $5       | $6.5        |
+| RF07  | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.               | $7        | $3       | $5          |
+| RF08  | Permite verificar o status do cadastro e da situação dos benefícios.                  | $8        | $3       | $5.5        |
+| RF09  | Gera um comprovante de cadastro atualizado para o usuário.                            | $4        | $5       | $4.5        |
+| RF10  | Permite visualizar benefícios disponíveis com base nos dados cadastrados.             | $6        | $2       | $4.0        |
+| RF11  | Implementa um chatbot para atendimento automatizado ao usuário.                       | $1        | 3        | $2          |
+| RF12  | Envia notificações sobre pendências ou atualizações necessárias ao usuário.           | $6        | $3       | $4.5        |
+| RF13  | Permite ao usuário simular benefícios sociais com base em suas informações.           | $2        | $2       | $2          |
+| RF14  | Possibilita o envio de documentos digitalizados para o sistema.                       | $1        | $4       | $2.5        |
+| RF15  | Permite marcar atendimentos nos postos de atendimento presencial (CRAS).              | $3        | $4       | $3.5        |
+| RNF01 | O design do aplicativo é simples e de fácil navegação.                                | $6        | $4       | $5          |
+| RNF02 | Suporta um grande número de acessos simultâneos.                                      | $2        | $4       | $3          |
+| RNF03 | Integrado com sistemas como o CNIS.                                                   | $4        | $4       | $4          |
+| RNF04 | Navegação intuitiva e acessibilidade geral.                                           | $6        | $4       | $5          |
+| RNF05 | Uso de criptografia e proteção de dados sensíveis.                                    | $8        | $5       | $6.5        |
+| RNF06 | Resposta rápida nas interações do usuário (até 3 segundos).                           | $2        | $2       | $2          |
+| RNF07 | Compatível com Android e iOS.                                                         | $6        | $3       | $4.5        |
+| RNF08 | Garantia de 99% de disponibilidade com mínimas interrupções.                          | $4        | $5       | $4.5        |
+| RNF09 | Inclusão de leitores de tela e navegação adaptada.                                    | $5        | $6       | $5.5        |
+| RNF10 | Operação eficiente em conexões lentas.                                                | $3        | $3       | $3          |
+| RNF11 | Disponibilidade do app em múltiplos idiomas.                                          | $0        | $1       | $0.5        |
+| RNF12 | Recuperação da sessão em caso de interrupções.                                        | $2        | $2       | $2          |
+| RNF13 | Alternativa visual para ambientes com pouca luz.                                      | $1        | $2       | $1.5        |
+| RNF14 | Mecanismos para manter o sistema funcional mesmo em situações críticas.               | $3        | $5       | $4          |
 
 <center><b>Autor: </b> Amanda Cruz, 2025</center>
 
