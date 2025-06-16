@@ -5,7 +5,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|| 
-|[João Igor](https://github.com/JoaoPC10)| Criação do prottipo 02| 
+|[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02 e 03| 
 |[João Pedro Costa](https://github.com/johnaopedro)|| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
 |[Ryan Salles](https://github.com/RA-Salles)|| 
@@ -57,15 +57,21 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 </div>
 
 ## Protótipo 3
-**Autor:**  
-**Funcionalidade:**   
-**Rastreabilidade:**   
-**Ferramentas:**  
-**Tipo:**    
+**Autor:**  João Igor
+**Funcionalidade:**   Atualizar dados cadastrais
+**Rastreabilidade:**   [RF20](../../elicitacao/requisitos_elicitados.md) 
+**Ferramentas:**  Figma e Canva
+**Tipo:**   Alta Fidelidade 
 **Antes da prototipagem**
-
+<div style="text-align: left;">
+    <img src="../assets/Prototipo_antes2.png" alt="Cópia da tela" style="width:185">
+</div>
 
 **Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../assets/Prototipo_atualizar.gif" alt="Gif da funcionalidade de atualizar dados cadastrais" style="width:185">
+</div>
+
 
 ## Protótipo 4
 **Autor:**  
