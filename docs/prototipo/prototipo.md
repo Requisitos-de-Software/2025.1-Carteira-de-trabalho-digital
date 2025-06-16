@@ -5,7 +5,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|| 
-|[João Igor](https://github.com/JoaoPC10)|| 
+|[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02| 
 |[João Pedro Costa](https://github.com/johnaopedro)|| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
 |[Ryan Salles](https://github.com/RA-Salles)|| 
@@ -41,15 +41,20 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 </div>
 
 ## Protótipo 2
-**Autor:**  
-**Funcionalidade:**   
-**Rastreabilidade:**   
-**Ferramentas:**  
-**Tipo:**    
-**Antes da prototipagem**
-
+**Autor:** João Igor
+**Funcionalidade:** Filtragem de benefícios
+**Rastreabilidade:**  [RF23](../../elicitacao/requisitos_elicitados.md) 
+**Ferramentas:**  Figma e Canva
+**Tipo:**  Alta fidelidade  
+**Antes da prototipagem** 
+<div style="text-align: left;">
+    <img src="../assets/Prototipo_antes.png" alt="Print da tela">
+</div>
 
 **Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../assets/Prototipo_filtro.gif" alt="Print da tela">
+</div>
 
 ## Protótipo 3
 **Autor:**  
