@@ -48,7 +48,7 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Tipo:**  Alta fidelidade  
 **Antes da prototipagem** 
 <div style="text-align: left;">
-    <img src="../assets/Prototipo_antes.png" alt="Cópia da tela">
+    <img src="../assets/Prototipo_antes.png" alt="Cópia da tela" style="width:185">
 </div>
 
 **Depois da prototipagem**  
