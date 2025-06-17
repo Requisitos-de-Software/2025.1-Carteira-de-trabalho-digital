@@ -1,0 +1,4289 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/cenarios/">
+      
+      
+        <link rel="prev" href="../introducao/">
+      
+      
+        <link rel="next" href="../caso_de_uso/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Cenários - Cadastro Único</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Serif";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenarios" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cadastro Único" class="md-header__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cadastro Único
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../pre-rastreabilidade/aplicativo/" class="md-tabs__link">
+          
+  
+  
+  Pré-rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introducao/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rastreabilidade/matriz_geral/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../verificacao/checklist_1/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../inspecoes/grupo/inspecao_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeções
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/reuniao1/" class="md-tabs__link">
+          
+  
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cadastro Único" class="md-nav__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    Cadastro Único
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termosDeUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/appsAnalisados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Analisados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_desejaveis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Desejaveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introspec%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instrospecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/analise_documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/100dollars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Things First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1-visualizar-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 1: Visualizar Benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2-alteracao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 2: Alteração de Dados Cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3-realizar-cadastro-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 3: Realizar Cadastro no Aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4-conferir-informacoes-sobre-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 4: Conferir Informações sobre Benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5-verificar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 5: Verificar Postos de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6-cadastro-de-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 6: Cadastro de Família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7-filtrar-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 7: Filtrar Benefícios Sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 8: Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 9: Modo Escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-cadastro-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10: Cadastro MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-informacoes-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11: Informações MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-personalizacao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12: Personalização MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-integracao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13: Integração MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-agendamento-no-cras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14: Agendamento no CRAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15: Tutoriais Interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16: Upload de documentos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caso_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agil
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/historia_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/NFR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo+1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo+1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação III
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação VI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1-visualizar-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 1: Visualizar Benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2-alteracao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 2: Alteração de Dados Cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3-realizar-cadastro-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 3: Realizar Cadastro no Aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4-conferir-informacoes-sobre-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 4: Conferir Informações sobre Benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5-verificar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 5: Verificar Postos de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6-cadastro-de-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 6: Cadastro de Família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7-filtrar-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 7: Filtrar Benefícios Sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 8: Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 9: Modo Escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-cadastro-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10: Cadastro MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-informacoes-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11: Informações MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-personalizacao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12: Personalização MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-integracao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13: Integração MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-agendamento-no-cras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14: Agendamento no CRAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15: Tutoriais Interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16: Upload de documentos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cenarios">Cenários</h1>
+<h2 id="funcoes-dos-autores">Funções dos autores</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td>Criação dos cenários 14 e 15</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td>Revisão do cenário 16</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td>Criação do cenário 16</td>
+</tr>
+<tr>
+<td><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td>Revisão geral; Criação dos cenários 10 à 13</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td>Adição do vídeo de explicação e referências; Criação dos cenários 1, 2, 3, 6 e 7</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td>Criação da documentação com introduções, criação dos cenários 4, 5, 8 e 9</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h2 id="introducao">Introdução</h2>
+<p>Este documento apresenta uma série de cenários desenvolvidos como parte do processo de engenharia de requisitos do aplicativo Cadastro Único (CadÚnico). Os cenários são descrições estruturadas de possíveis interações entre usuários e o sistema, com o objetivo de capturar comportamentos esperados, identificar requisitos e apoiar a validação das funcionalidades. Cada cenário contém informações sobre os atores envolvidos, o contexto da interação, pré-condições, fluxo principal de ações, pós-condições e exceções possíveis.</p>
+<h2 id="cenarios_1">Cenários</h2>
+<p>Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, com base nos requisitos elicitados e observações realizadas durante a etapa de elicitação. Abaixo, ilustrado na Tabela 1, tem-se o modelo utilizado na construção dos mesmos.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cenário X</th>
+<th>Título do Cenário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Nome do Cenário</strong></td>
+<td>Nome do cenário criado</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ator Principal</strong></td>
+<td>Participante principal do cenário</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Contexto</strong></td>
+<td>Descreve a situação ou necessidade do usuário que motiva o cenário, explicando o objetivo da ação no sistema</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Pré-condições</strong></td>
+<td>Lista as condições que devem ser verdadeiras antes que o cenário possa ser executado</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Fluxo Principal</strong></td>
+<td>Enumera os passos principais da interação entre o usuário e o sistema para alcançar o objetivo do cenário</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Pós-condições</strong></td>
+<td>Descreve o estado do sistema ou o resultado para o usuário após a conclusão bem-sucedida do cenário</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Exceções</strong></td>
+<td>Lista os possíveis erros ou situações excepcionais que podem impedir a conclusão do cenário</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cenario-1-visualizar-beneficios">Cenário 1: Visualizar Benefícios</h3>
+<center>
+    Tabela 2: Cenário de visualização de benefícios ativos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 1</th>
+<th>Visualizar Benefícios ativos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Visualização de benefícios ativos</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário deseja verificar se há algum benefício ativo vinculado ao seu cadastro no CadÚnico, como Bolsa Família.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário já possui cadastro validado no CadÚnico e está autenticado no aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td><strong>1.</strong> O usuário acessa o aplicativo do CadÚnico.<br>2. Seleciona a opção “Meus Benefícios”.<br>3. O sistema busca as informações junto à base do governo.<br>4. É exibida uma lista de benefícios ativos, com nome do programa, status (ativo/suspenso), valor recebido e data da última atualização.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza seus benefícios ativos de forma clara e atualizada.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Caso o usuário não possua benefícios ativos, o sistema exibe uma mensagem informativa.<br>- Se ocorrer falha de comunicação com o banco de dados, o sistema exibe uma mensagem de erro.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h3 id="cenario-2-alteracao-de-dados-cadastrais">Cenário 2: Alteração de Dados Cadastrais</h3>
+<center>
+    Tabela 3: Cenário de alteração de dados cadastrais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 2</th>
+<th>Alteração de Dados Cadastrais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Atualização de dados pessoais e residenciais</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário mudou de endereço e precisa atualizar suas informações no CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário está logado e seu cadastro já existe no sistema.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa o aplicativo e entra na seção “Atualizar Cadastro”.<br>2. Informa que deseja alterar dados residenciais.<br>3. Atualiza endereço, telefone e informações de contato.<br>4. Confirma os dados e envia para análise.<br>5. O sistema notifica que a atualização será verificada por um agente público.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Os dados atualizados são enviados para análise, e o usuário recebe uma notificação de que a atualização está em processo.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o CPF estiver em inconsistência, o sistema bloqueia a alteração e exibe mensagem.<br>- Se o endereço informado for inválido (CEP inexistente), o sistema solicita correção.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h3 id="cenario-3-realizar-cadastro-no-aplicativo">Cenário 3: Realizar Cadastro no Aplicativo</h3>
+<center>
+    Tabela 4: Cenário de cadastro no aplicativo
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 3</th>
+<th>Realizar Cadastro no Aplicativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Primeiro cadastro no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Novo usuário</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário nunca utilizou o CadÚnico e quer se cadastrar pelo aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui documentos válidos e acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário instala e abre o aplicativo.<br>2. Seleciona “Fazer Primeiro Cadastro”.<br>3. Preenche os dados pessoais (nome, CPF, data de nascimento, endereço, composição familiar).<br>4. Envia a solicitação.<br>5. O sistema gera um protocolo e informa que o usuário será contactado para validação.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Um cadastro preliminar é criado e enviado para avaliação por um agente social.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o CPF já existir no sistema, o cadastro é bloqueado e o sistema sugere login.<br>- Caso falte algum dado obrigatório, o app impede o envio e destaca os campos incompletos.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h3 id="cenario-4-conferir-informacoes-sobre-beneficios">Cenário 4: Conferir Informações sobre Benefícios</h3>
+<center>
+    Tabela 5: Cenário de conferir informações sobre benefícios
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 4</th>
+<th>Conferir Informações sobre Benefícios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Conferir Informações sobre benefícios</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário com ou sem autenticação</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário gostaria de verificar o funcionamento de demais benefícios disponíveis e descobrir se são aplicáveis para sua condição.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário abre o aplicativo.<br>2. O usuário acessa a tela de informações.<br>3. O aplicativo acessa sua base de dados local e apresenta os benefícios disponíveis.<br>4. O usuário acessa a tela específica sobre o benefício que gostaria de saber mais sobre.<br>5. O usuário lê as informações.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário obtém as informações.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Navegador do computador e/ou celular estão desatualizados.<br>- O computador não possui internet.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<h3 id="cenario-5-verificar-postos-de-atendimento">Cenário 5: Verificar Postos de Atendimento</h3>
+<center>
+    Tabela 6: Cenário de verificar postos de atendimento
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 5</th>
+<th>Verificar Postos de Atendimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Verificar postos de atendimento</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário com ou sem autenticação</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema CadÚnico, Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário gostaria de verificar o local e horário de postos de atendimento para poder ser atendido pessoalmente.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário abre o aplicativo.<br>2. O usuário acessa a tela de informações sobre postos de atendimento.<br>3. O usuário insere estado, município e tipo de posto.<br>4. O sistema verifica as informações mais recentes e envia para o aplicativo.<br>5. O aplicativo apresenta as informações recebidas pelo sistema.<br>6. O usuário verifica os postos de atendimento.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário obtém as informações desejadas.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Navegador do computador e/ou celular estão desatualizados.<br>- O usuário não possui acesso à internet.<br>- O usuário obtém um erro de interface e necessita resetar o aplicativo.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<h3 id="cenario-6-cadastro-de-familia">Cenário 6: Cadastro de Família</h3>
+<center>
+    Tabela 7: Cenário de cadastro familiar
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 6</th>
+<th>Cadastro de Família</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Cadastrar nova família no sistema</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Responsável familiar</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema CadÚnico, Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O responsável familiar deseja cadastrar sua família no Cadastro Único para acessar benefícios sociais.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet; documentos dos membros da família.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa o aplicativo.<br>2. O usuário seleciona a opção “Cadastrar Família”.<br>3. O sistema solicita dados pessoais do responsável (nome, CPF, nascimento, endereço, telefone).<br>4. O usuário insere os dados dos demais членов da família (nome, parentesco, CPF/RG, data de nascimento, escolaridade, renda).<br>5. O sistema valida os dados e verifica duplicidades.<br>6. O usuário revisa e confirma o cadastro.<br>7. O sistema emite um protocolo e registra o envio para análise.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>A família é registrada como novo grupo familiar no sistema, com cadastro pendente de validação.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- CPF do responsável já cadastrado em outro grupo familiar.<br>- Dados de algum membro incompletos ou inválidos.<br>- Falha na comunicação com o sistema durante o envio do formulário.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h3 id="cenario-7-filtrar-beneficios-sociais">Cenário 7: Filtrar Benefícios Sociais</h3>
+<center>
+    Tabela 8: Cenário de filtrar benefícios sociais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 7</th>
+<th>Filtrar Benefícios Sociais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Filtrar informações sobre benefícios sociais</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário (autenticado ou não)</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema CadÚnico, Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário deseja visualizar apenas os benefícios sociais que sejam relevantes ao seu perfil ou interesse, utilizando filtros para facilitar a busca.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário abre o aplicativo.<br>2. O usuário acessa a seção “Benefícios Disponíveis”.<br>3. O sistema apresenta a lista completa de benefícios.<br>4. O usuário seleciona filtros como: tipo de benefício, público-alvo, localização, faixa de renda, entre outros.<br>5. O sistema processa os filtros aplicados.<br>6. O sistema exibe os benefícios que correspondem aos critérios selecionados.<br>7. O usuário visualiza os detalhes dos benefícios listados.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário acessa apenas os benefícios que correspondem aos filtros aplicados.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Nenhum benefício corresponde aos filtros utilizados.<br>- Campos de filtro mal preenchidos ou inválidos.<br>- Falha de conexão impede a exibição dos resultados.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+
+</center>
+
+<h3 id="cenario-8-chatbot">Cenário 8: Chatbot</h3>
+<center>
+    Tabela 9: Cenário de chatbot
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 8</th>
+<th>Chatbot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Uso de chatbot "Assistente Virtual" para auxílio e resolução de dúvidas</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário cadastrado com dúvidas</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema de chatbot hipotético Assistente Virtual, Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um usuário possui alguma dúvida relacionada a realização de uma operação ou benefício.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário abre o aplicativo.<br>2. O usuário aperta no botão de login.<br>3. O usuário é autenticado pelo Gov.br.<br>4. O usuário acessa a opção "conversar com o assistente virtual".<br>5. O usuário é movido à tela de interface do assistente virtual.<br>6. O usuário realiza uma pergunta relacionada a benefícios ou operações no aplicativo.<br>7. O sistema virtual responde a dúvida.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário tem sua dúvida sanada.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Usuário não está cadastrado e falha na parte de autenticação.<br>- Usuário não possui conexão com a internet em seu aparelho.<br>- O Assistente Virtual não possui a informação necessária, frustrando a tentativa de uso.<br>- O Assistente Virtual está em manutenção, frustrando a tentativa de uso.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<h3 id="cenario-9-modo-escuro">Cenário 9: Modo Escuro</h3>
+<center>
+    Tabela 10: Cenário de modo escuro do aplicativo
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 9</th>
+<th>Modo Escuro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Modo Escuro</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um usuário está tentando utilizar o aplicativo em um ambiente de baixa luminosidade e a interface padrão é muito clara.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Um celular smartphone ou computador funcional compatível com o aplicativo com acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário abre o aplicativo.<br>2. O usuário se incomoda com a luminosidade.<br>3. O usuário aperta em um botão descrito como "Modo Escuro".<br>4. O aplicativo atualiza a interface para utilizar cores mais frias.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário se sente mais confortável com o esquema de cores redefinido.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- O esquema de cores redefinido torna o usuário mais desconfortável no momento.<br>- O usuário não consegue encontrar o botão "Modo Escuro".</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<h3 id="cenario-10-cadastro-mei">Cenário 10: Cadastro MEI</h3>
+<center>
+    Tabela 11: Cenário de cadastro MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 10</th>
+<th>Cadastro MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Registro da condição de MEI no cadastro do usuário</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário em processo de cadastro no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Ao se cadastrar no aplicativo, o usuário deve poder informar que é um Microempreendedor Individual (MEI) para receber conteúdos e serviços direcionados.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário está na etapa de preenchimento do cadastro no aplicativo CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa o aplicativo e inicia o processo de cadastro.<br>2. Durante o preenchimento de dados pessoais, encontra a opção “Sou MEI”.<br>3. Marca a opção para indicar sua condição de Microempreendedor Individual.<br>4. Finaliza o processo de cadastro.<br>5. O sistema armazena essa informação no perfil do usuário.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O perfil do usuário é registrado com o status de MEI, permitindo personalização e integração futura com dados do microempreendedor.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o usuário não marcar a opção, o sistema continua o fluxo normalmente, sem definir o status como MEI.<br>- Caso o usuário selecione "Sou MEI", mas não tenha um CNPJ válido posteriormente, o sistema pode solicitar verificação adicional.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<h3 id="cenario-11-informacoes-mei">Cenário 11: Informações MEI</h3>
+<center>
+    Tabela 12: Cenário de informações MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 11</th>
+<th>Informações MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Acesso a conteúdos informativos sobre microempreendedorismo</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário MEI autenticado no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário deseja se informar sobre obrigações, direitos e oportunidades relacionadas ao MEI diretamente no aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário está autenticado no aplicativo e possui perfil MEI ativo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa a seção “MEI” no menu do aplicativo.<br>2. Visualiza conteúdos informativos organizados por temas, como: Formalização e CNPJ, Obrigações Fiscais e Contábeis.<br>3. O sistema permite navegação entre os temas e acesso a links úteis.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário compreende melhor suas responsabilidades como MEI e sabe onde buscar serviços públicos e suporte.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o usuário não estiver identificado como MEI, o sistema exibe convite para formalização com link de orientação.<br>- Caso os conteúdos não estejam disponíveis offline, o sistema informa a necessidade de conexão.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<h3 id="cenario-12-personalizacao-mei">Cenário 12: Personalização MEI</h3>
+<center>
+    Tabela 13: Cenário de personalização MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 12</th>
+<th>Personalização MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Exibição de conteúdos personalizados da seção MEI</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário MEI cadastrado no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário acessa a seção MEI do aplicativo e espera visualizar informações relacionadas ao seu setor de atuação e localização.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário está autenticado e possui setor de atuação e município informados no cadastro.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa a seção “MEI” do aplicativo.<br>2. O sistema identifica o setor econômico registrado no perfil do usuário.<br>3. O sistema verifica a região (com base na localização ou município cadastrado).<br>4.Exibe conteúdos personalizados, como: Editais e cursos regionais, notícias específicas do setor (ex: agricultura, comércio).<br> 5. Permite ao usuário interagir com os conteúdos (favoritar, compartilhar, acessar links externos).</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza conteúdos relevantes e adaptados ao seu perfil profissional e territorial.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o setor de atuação estiver vazio, o sistema solicita preenchimento antes da personalização.<br>- Se a localização estiver desativada, utiliza o município do cadastro como referência.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<h3 id="cenario-13-integracao-mei">Cenário 13: Integração MEI</h3>
+<center>
+    Tabela 14: Cenário de integração MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 13</th>
+<th>Integração MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Consulta e sincronização automática com a base de dados do MEI</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Sistema do CadÚnico, Sistema MEI.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O CadÚnico precisa acessar e manter atualizadas as informações do MEI vinculadas ao CPF do usuário, sem necessidade de inserção manual de dados.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui cadastro ativo no CadÚnico e tem um CNPJ MEI registrado na Receita Federal.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O sistema do CadÚnico realiza integração periódica com a base da Receita Federal.<br>2. Identifica usuários com CNPJ MEI associado ao CPF no cadastro.<br>3. Recupera informações como: data de formalização, atividade principal, situação cadastral, pendências e débitos.<br>4. Atualiza automaticamente os dados no perfil do usuário no app CadÚnico.<br>5. Exibe aviso ou status atualizado ao usuário, caso ele acesse a área “MEI”.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O perfil do usuário no CadÚnico reflete corretamente sua situação como MEI, com base em dados oficiais e atualizados.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se a conexão com a Receita Federal estiver instável, o sistema armazena tentativa e realiza nova sincronização posteriormente.<br>- Em caso de dados inconsistentes entre CPF e CNPJ, o sistema bloqueia a integração e emite alerta técnico para revisão manual.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<h3 id="cenario-14-agendamento-no-cras">Cenário 14: Agendamento no CRAS</h3>
+<center>
+    Tabela 15: Cenário de agendamento no CRAS
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 14</th>
+<th>Agendamento no CRAS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Agendamento de Atendimento no CRAS</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário precisa realizar o agendamento de atendimento no CRAS de maneira simples e sem burocracia, evitando longas filas e otimizar o processo de agendamento.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui cadastro ativo no CadÚnico e o sistema do CRAS está integrado ao aplicativo, oferecendo vagas de atendimento.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa a opção de "Agendamento de Atendimento".<br>2. Sistema exibe um calendário com os horários disponíveis para o atendimento no CRAS.<br>3. Escolhe a data, horário e local desejado.<br>4. Verifica a disponibilidade no CRAS para o posto escolhido.<br>5. Agendamento é confirmado pelo sistema e o usuário recebe uma notificação com os detalhes do atendimento agendado (data, horário, local e tipo de serviço).<br>6. Atualiza automaticamente o perfil do usuário com o status do agendamento.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O agendamento do usuário no CRAS é registrado corretamente no sistema do CadÚnico, refletindo os detalhes do atendimento agendado.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o horário escolhido pelo usuário estiver indisponível, o sistema sugere outras opções de horário.<br>- Se o sistema do CRAS estiver fora do ar, o sistema do CadÚnico armazena a tentativa e solicita que o usuário tente novamente mais tarde.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz Lima</a>
+</center>
+
+<h3 id="cenario-15-tutoriais-interativos">Cenário 15: Tutoriais Interativos</h3>
+<center>
+    Tabela 16: Cenário de tutoriais interativos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 15</th>
+<th>Tutoriais Interativos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Acesso a Tutoriais Interativos sobre Programas Sociais</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Sistema do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário precisa acessar vídeos e tutoriais explicativos para entender melhor os programas sociais disponíveis e como utilizá-los.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O sistema possui vídeos e tutoriais explicativos sobre os programas sociais disponíveis.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. Acessa a seção “Tutoriais e Dicas” no aplicativo CadÚnico.<br> 2. O sistema exibe uma lista de tutoriais.<br>3. Escolhe um tutorial para visualizar.<br>4. Sistema exibe o tutorial escolhido.<br>5. Interage com o conteúdo, podendo clicar nas etapas ou assistir.<br>6. O aplicativo registra a visualização do tutorial e sugere outros conteúdos conforme o perfil do usuário.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualizou os tutoriais e vídeos, compreendeu os programas sociais disponíveis e está apto a utilizar o aplicativo de forma objetiva.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Se o vídeo ou tutorial não carregar corretamente, o sistema tenta novamente ou oferece uma opção alternativa para visualização.<br>- Caso o usuário tenha dificuldades em entender o conteúdo, o CadÚnico sugere um atendimento assistido por chat ou suporte técnico.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz Lima</a>
+</center>
+
+<h3 id="cenario-16-upload-de-documentos">Cenário 16: Upload de documentos</h3>
+<center>
+    Tabela 17: Cenário de upload de documentos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Cenário 16</th>
+<th>Upload de documentos obrigatórios pelo usuário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nome do Cenário</strong></td>
+<td>Upload de documentos obrigatórios pelo usuário</td>
+</tr>
+<tr>
+<td><strong>Ator Principal</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Ator Secundário</strong></td>
+<td>Sistema do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O CadÚnico precisa oferecer ao usuário a possibilidade de enviar documentos obrigatórios de forma digital, sem necessidade de comparecimento presencial.</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui login válido no aplicativo do CadÚnico e acessa a área do aplicativo responsável por receber e enviar para análise os documentos.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>1. O usuário acessa a funcionalidade de upload de documentos no aplicativo do CadÚnico.<br>2. O sistema exibe lista de documentos exigidos conforme o serviço requisitado.<br>3. O usuário seleciona os arquivos desejados.<br>4. O sistema valida o tipo e o tamanho dos arquivos.<br>5. Os documentos são enviados.<br>6. O sistema exibe confirmação de envio.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Os documentos ficam vinculados à solicitação do usuário e disponíveis para análise dos atendentes do CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio.<br>- Arquivo corrompido → sistema solicita novo envio ao usuário.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<h2 id="rastreabilidade">Rastreabilidade</h2>
+<p>Essa seção apresenta a rastreabilidade Cenário-Requisito. A legenda utilizada será a seguinte:</p>
+<ul>
+<li>CNX: Cenário número X. </li>
+<li>RXY: Requisito de tipo X número y.</li>
+</ul>
+<p>Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o cenário busca modelar. </p>
+<center>
+    <b> Tabela 18:</b> Rastreabilidade Cenário-Requisito  
+</center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cenário</th>
+<th style="text-align: center;">Requisito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">CN01</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF24</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN02</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF20</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN03</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF02</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN04</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF24</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN05</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF16</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN06</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF06</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN07</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF23</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN08</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF26</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN09</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF38</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN10</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF11</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN11</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF12</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN12</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF13</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN13</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF11, RF13, RF40</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN14</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF30</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN15</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF35</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">CN16</td>
+<td style="text-align: center;"><a href="../../elicitacao/requisitos_elicitados.md">RF29</a></td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<h2 id="video">Vídeo</h2>
+<p>O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no <strong>Microsoft Teams</strong>:</p>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DohE9Bf-ppg?si=w5koy8vx1bkrT6M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XD85MKcj9k?si=P60ufthC229R1Yfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.</p>
+</blockquote>
+<div style="text-align: left;">
+    <img src="../../assets/referencias/cenarios/referencia_cenarios.jpeg" alt="Cenários">
+</div>
+
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">08/05/2025</td>
+<td style="text-align: center;">Criando a pagina e adicionando a introdução de cada tema</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a>, <a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">12/05/2025</td>
+<td style="text-align: center;">Criação de cenários e referências</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">12/05/2025</td>
+<td style="text-align: center;">Inserindo vídeo e atualizando formatação</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">12/05/2025</td>
+<td style="text-align: center;">Inserindo 2 novos cenários.</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">13/05/2025</td>
+<td style="text-align: center;">Inserindo 2 novos cenários.</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">13/05/2025</td>
+<td style="text-align: center;">Adicionando introdução</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: center;">13/05/2025</td>
+<td style="text-align: center;">Inserindo 2 novos cenários.</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">14/05/2025</td>
+<td style="text-align: center;">Adição de autores a cada cenário</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.8</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Adição de 4 novos cenários</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a>, <a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Corrigindo formatação e erros de digitação</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adição de 2 cenários e formatação</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.1</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Corrigindo conflitos e erros</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.2</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adicionando 1 cenário novo</td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.3</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Correções mínimas</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.4</td>
+<td style="text-align: center;">20/05/2025</td>
+<td style="text-align: center;">Criando tabela de funções</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

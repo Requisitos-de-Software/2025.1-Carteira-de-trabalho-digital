@@ -1,0 +1,3355 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/elicitacao/personas/">
+      
+      
+        <link rel="prev" href="../perfil_usuario/">
+      
+      
+        <link rel="next" href="../requisitos_elicitados/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Personas - Cadastro Único</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Serif";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#personas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cadastro Único" class="md-header__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cadastro Único
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Personas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../pre-rastreabilidade/aplicativo/" class="md-tabs__link">
+          
+  
+  
+  Pré-rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../modelagem/introducao/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rastreabilidade/matriz_geral/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../verificacao/checklist_1/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../inspecoes/grupo/inspecao_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeções
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/reuniao1/" class="md-tabs__link">
+          
+  
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cadastro Único" class="md-nav__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    Cadastro Único
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termosDeUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/appsAnalisados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Analisados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-sao-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que são Personas?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#categorias-de-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorias de Personas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elenco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elenco
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos_desejaveis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Desejaveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tecnicas/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tecnicas/introspec%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instrospecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tecnicas/analise_documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priorizacao/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priorizacao/100dollars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Things First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priorizacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/caso_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agil
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/historia_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/NFR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo+1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo+1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação III
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação VI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-sao-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que são Personas?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#categorias-de-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorias de Personas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elenco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elenco
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="personas">Personas</h1>
+<h2 id="funcoes-dos-autores">Funções dos autores</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td>Criação do documento e das personas</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td>Revisão</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td>Revisão Geral</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td>Formatação</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h2 id="introducao">Introdução</h2>
+<p>Este documento visa documentar a criação das <strong>Personas</strong> para o aplicativo do <strong>Cadastro Único</strong>, como parte do processo de elicitação de requisitos. Obtivemos algumas dificuldades em encontrar usuários dispostos a realizarem entrevistas, principalmente pessoalmente, pelo fato de que se sentem expostos em falar que recebem auxílio, logo criamos as personas para casos de emergências, quando não conseguirmos realizar reuniões.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A criação dessa documentação foi elaborada a partir da coleta de dados por meio de pesquisas e na análise das respostas obtidas de um <a href="https://docs.google.com/forms/d/e/1FAIpQLSdX2uNcXNodWUuP24ow4c56kTKP4RlIA3T2zIg9st0wQ9CVkA/viewform?usp=sharing">questionário</a>, o qual forneceu as informações necessárias para a construção das personas, representando os diferentes perfis de público do aplicativo.</p>
+<p>As imagens utilizadas no decorrer do documento foram geradas utilizando o site <a href="https://this-person-does-not-exist.com/pt">This Person Does Not Exist</a>, que cria imagens realistas com inteligência artificial, tornando as representações mais concretas e facilitando o entendimento. Além disso, o <a href="https://chatgpt.com">ChatGPT</a> foi utilizado com o intuito de gerar os nomes das personas.</p>
+<h2 id="o-que-sao-personas">O que são Personas?</h2>
+<p>As personas são representações <strong>fictícias</strong>, detalhadas e baseadas em <strong>dados reais</strong>, que sintetizam o comportamento, os objetivos e os desafios típicos de quem interage com o sistema. Elas ajudam a entender melhor as necessidades do público e orientar decisões de desenvolvimento. Personas seguem a filosofia de design de usuários específicos para focos específicos e funcionalidades específicas em detrimento de funcionalidades abrangentes e ajudam a buscar requisitos focais que realmente atendem às necessidades dos usuários (COOPER et. al. 2007). </p>
+<h2 id="categorias-de-personas">Categorias de Personas</h2>
+<p>As personas foram divididas em três categorias para refletir a diversidade de perfis de usuários que interagem com o aplicativo:</p>
+<ul>
+<li><strong>Personas Primárias:</strong> Usuários diretos do sistema, que interagem com o aplicativo de forma constante.</li>
+<li><strong>Personas Secundárias:</strong> Usuários que, embora não sejam os principais, influenciam o uso do sistema ou se beneficiam dele indiretamente.</li>
+<li><strong>Antipersonas:</strong> Usuários que têm dificuldades ou não se beneficiam da utilização do sistema.</li>
+</ul>
+<h2 id="elenco">Elenco</h2>
+<p>As Tabelas de 1 a 5 apresentam as personas criadas para o aplicativo, seguindo as categorias definidas anteriormente.</p>
+<p align="center"><strong>Tabela 1:</strong> Persona Primária 1</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Persona Primária 1</strong></th>
+<th style="text-align: center;"><strong>Larissa Mendes Costa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Foto</strong>:</td>
+<td style="text-align: center;"><p><strong>Figura 1:</strong> Foto de Larissa Mendes Costa</p><img alt="Persona Larissa Mendes" src="../../assets/persona-prim-1.jpg" /><p><strong>Autora:</strong> Amanda Cruz, 2025</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Idade</strong>:</td>
+<td style="text-align: center;">20 anos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ocupação</strong>:</td>
+<td style="text-align: center;">Estudante de Serviço Social</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Localização</strong>:</td>
+<td style="text-align: center;">Ceilândia - DF</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Escolaridade</strong>:</td>
+<td style="text-align: center;">Ensino Superior em Andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Tecnologia</strong>:</td>
+<td style="text-align: center;">Smartphone intermediário, acesso à internet 4G (plano pré-pago)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Habilidades Digitais</strong>:</td>
+<td style="text-align: center;">Moderadas, usa aplicativos básicos, mas tem dificuldade com interfaces complexas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Expectativas</strong>:</td>
+<td style="text-align: center;">Atualizar dados da família no Cadastro Único de forma rápida e clara</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Frustrações</strong>:</td>
+<td style="text-align: center;">Falta de instruções simples e lentidão na validação de documentos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Cenário de Uso</strong>:</td>
+<td style="text-align: center;">Larissa usa o app para manter o cadastro da família atualizado, garantindo o Bolsa Família. Frequentemente enfrenta problemas com o envio de documentos devido a erros de conexão ou formulários confusos, o que a obriga a buscar ajuda em fóruns online</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Descrição</strong>:</td>
+<td style="text-align: center;">Larissa é uma estudante que gerencia o cadastro social da família, mas enfrenta barreiras devido à complexidade do app e à instabilidade da internet em sua região</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Justificativa</strong>:</td>
+<td style="text-align: center;">Esta persona reflete jovens universitárias de baixa renda que assumem responsabilidades familiares, enfrentando desafios tecnológicos comuns em áreas periféricas</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+<hr />
+<p align="center"><strong>Tabela 2:</strong> Persona Primária 2</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Persona Primária 2</strong></th>
+<th style="text-align: center;"><strong>Beatriz Oliveira Santos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Foto</strong>:</td>
+<td style="text-align: center;"><p><strong>Figura 1:</strong> Foto de Beatriz Oliveira Santos</p><img alt="Persona Beatriz Oliveira" src="../../assets/persona-prim-2.jpg" /><p><strong>Autora:</strong> Amanda Cruz, 2025</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Idade</strong>:</td>
+<td style="text-align: center;">24 anos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ocupação</strong>:</td>
+<td style="text-align: center;">Estudante de Enfermagem</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Localização</strong>:</td>
+<td style="text-align: center;">Samambaia - DF</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Escolaridade</strong>:</td>
+<td style="text-align: center;">Ensino Superior em Andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Tecnologia</strong>:</td>
+<td style="text-align: center;">Smartphone intermediário, usa Wi-Fi da universidade e internet móvel limitada</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Habilidades Digitais</strong>:</td>
+<td style="text-align: center;">Intermediárias, familiarizada com redes sociais, mas menos com apps governamentais</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Expectativas</strong>:</td>
+<td style="text-align: center;">Acessar benefícios sociais rapidamente e receber notificações claras</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Frustrações</strong>:</td>
+<td style="text-align: center;">Interface confusa e falta de suporte em tempo real</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Cenário de Uso</strong>:</td>
+<td style="text-align: center;">Beatriz tenta atualizar seus dados para manter uma bolsa universitária vinculada ao CadÚnico, mas a navegação complicada e a ausência de feedback imediato a frustram, levando-a a procurar ajuda em grupos de WhatsApp</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Descrição</strong>:</td>
+<td style="text-align: center;">Beatriz é uma estudante que depende de benefícios sociais para custear os estudos, mas enfrenta dificuldades com a usabilidade do aplicativo</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Justificativa</strong>:</td>
+<td style="text-align: center;">Esta persona representa mulheres jovens que buscam autonomia no uso de apps governamentais, mas enfrentam barreiras devido à falta de design intuitivo</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+<hr />
+<p align="center"><strong>Tabela 3:</strong> Persona Secundária 1</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Persona Secundária 1</strong></th>
+<th style="text-align: center;"><strong>Thiago Henrique Takahashi</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Foto:</strong></td>
+<td style="text-align: center;"><p><strong>Figura 1:</strong> Foto de Thiago Henrique Takahashi </p><img alt="Persona Thiago Henrique" src="../../assets/persona-sec-1.jpg" /><p><strong>Autor:</strong> Amanda Cruz, 2025</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Idade</strong>:</td>
+<td style="text-align: center;">22 anos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ocupação</strong>:</td>
+<td style="text-align: center;">Estudante de Farmácia</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Localização</strong>:</td>
+<td style="text-align: center;">Gama - DF</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Escolaridade</strong>:</td>
+<td style="text-align: center;">Ensino Superior em Andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Tecnologia</strong>:</td>
+<td style="text-align: center;">Smartphone com internet móvel e computador em casa</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Habilidades Digitais</strong>:</td>
+<td style="text-align: center;">Alta alfabetização digital, experiência com aplicativos e plataformas online, usa dispositivos modernos e facilita o uso de tecnologia para sua família</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Expectativas</strong>:</td>
+<td style="text-align: center;">Atualizar dados rapidamente e ajudar seus pais com o uso</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Frustrações</strong>:</td>
+<td style="text-align: center;">A interface nem sempre é responsiva e falta clareza nas notificações</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Cenário de Uso</strong>:</td>
+<td style="text-align: center;">Usa semanalmente para verificar pendências e deseja uma área mais integrada para acompanhar a família</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Descrição</strong>:</td>
+<td style="text-align: center;">Thiago é um estudante universitário que ajuda sua família a manter os dados atualizados e acompanha a situação em tempo real</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Justificativa</strong>:</td>
+<td style="text-align: center;">Thiago representa a persona digitalmente alfabetizada que media o uso de tecnologia pública dentro da família. Ele desempenha um papel importante no auxílio de familiares de baixa renda, especialmente em famílias onde a alfabetização digital é limitada</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+<hr />
+<p align="center"><strong>Tabela 4:</strong> Persona Secundária 2</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Persona Secundária 2</strong></th>
+<th style="text-align: center;"><strong>Lucas Gabriel Almeida</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Foto</strong>:</td>
+<td style="text-align: center;"><p><strong>Figura 1:</strong> Foto de Lucas Gabriel Almeida</p><img alt="Persona Lucas Gabriel" src="../../assets/persona-sec-2.jpg" /><p><strong>Autora:</strong> Amanda Cruz, 2025</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Idade</strong>:</td>
+<td style="text-align: center;">26 anos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ocupação</strong>:</td>
+<td style="text-align: center;">Estudante de Direito</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Localização</strong>:</td>
+<td style="text-align: center;">Águas Claras - DF</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Escolaridade</strong>:</td>
+<td style="text-align: center;">Ensino Superior em Andamento</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Tecnologia</strong>:</td>
+<td style="text-align: center;">Smartphone intermediário, acesso à internet 4G e Wi-Fi na universidade</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Habilidades Digitais</strong>:</td>
+<td style="text-align: center;">Boas, usa apps variados, mas não é especialista em tecnologia</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Expectativas</strong>:</td>
+<td style="text-align: center;">Apoiar a família no uso do app e obter suporte claro em caso de dúvidas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Frustrações</strong>:</td>
+<td style="text-align: center;">Falta de tutoriais no app e tempo de resposta longo para dúvidas</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Cenário de Uso</strong>:</td>
+<td style="text-align: center;">Lucas ajuda sua mãe a atualizar dados no CadÚnico, mas sente falta de guias visuais ou chat de suporte no app, o que o leva a buscar informações em sites governamentais</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Descrição</strong>:</td>
+<td style="text-align: center;">Lucas é um estudante que auxilia a família no uso do aplicativo, mas enfrenta barreiras devido à falta de recursos de suporte integrados</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Justificativa</strong>:</td>
+<td style="text-align: center;">Esta persona representa jovens homens que, embora não sejam o público primário, desempenham um papel de apoio em contextos familiares de baixa renda</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+<hr />
+<p align="center"><strong>Tabela 5:</strong> Antipersona</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Antipersona</strong></th>
+<th style="text-align: center;"><strong>Alan Souza</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Foto</strong>:</td>
+<td style="text-align: center;"><p><strong>Figura 1:</strong> Foto de Alan Souza Lima</p><img alt="Antipersona Alan Souza" src="../../assets/antipersona-2.jpg" /><p><strong>Autora:</strong> Amanda Cruz, 2025</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Idade</strong>:</td>
+<td style="text-align: center;">30 anos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Ocupação</strong>:</td>
+<td style="text-align: center;">Desenvolvedor Back-end Pleno</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Localização</strong>:</td>
+<td style="text-align: center;">Asa Sul - DF</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Escolaridade</strong>:</td>
+<td style="text-align: center;">Ensino Superior Completo em Engenharia de Software</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Tecnologia</strong>:</td>
+<td style="text-align: center;">Smartphone e laptop modernos, acesso rápido à internet</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Habilidades Digitais</strong>:</td>
+<td style="text-align: center;">Avançadas, com habilidades avançadas em tecnologia e sistemas complexos</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Expectativas</strong>:</td>
+<td style="text-align: center;">Nenhuma, já que não utiliza o aplicativo</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Frustrações</strong>:</td>
+<td style="text-align: center;">Tem uma visão ruim sobre aplicativos governamentais, considerando-os ineficientes e mal projetados. Não vê funcionalidades relevantes para sua rotina</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Cenário de Uso</strong>:</td>
+<td style="text-align: center;">Alan nunca utilizaria o aplicativo. Acha básico demais e não se aplica às suas necessidades, tornando a experiência desinteressante</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Descrição</strong>:</td>
+<td style="text-align: center;">Alan é um jovem profissional que trabalha em uma empresa de TI e não tem interesse no Cadastro Único, pois sua realidade socioeconômica o coloca fora do público-alvo, além das experiências passadas com serviços públicos que reforçam a visão negativa sobre eles</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Justificativa</strong>:</td>
+<td style="text-align: center;">Esta antipersona representa profissionais que, por estarem inseridos em contextos de maior estabilidade financeira e terem uma visão crítica sobre serviços públicos, não se engajam com o aplicativo, diferenciando-se de outros perfis por sua experiência profissional e desconfiança</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+
+<hr />
+<h2 id="conclusao">Conclusão</h2>
+<p>Este documento apresentou as Personas do aplicativo do Cadastro Único, observando as necessidades e desafios dos usuários. Com base nas personas criadas, é possível identificar melhorias no sistema, tornando-o mais acessível e eficiente para todos.</p>
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>This Person Doesn't Exist. Disponível em: <a href="https://this-person-does-not-exist.com/pt">https://this-person-does-not-exist.com/</a>. Acesso em: 25 de abr. de 2025.</p>
+<p>CHATGPT. Assistente virtual baseado em inteligência artificial. Disponível em: <a href="https://chat.openai.com/">https://chat.openai.com/</a>. Acesso em: 25 abr. 2025. </p>
+<p>COOPER, Alan; REIMANN, Robert; CRONIN, David. About Face: The Essentials of Interaction Design. 3. ed. Indianapolis: Wiley, 2007.</p>
+</blockquote>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.</p>
+<p>CARDEN, Frances. Personas: learn how to discover your audience, understand them, and pivot to address their needs. Digital.gov, s.d. Disponível em: <a href="https://digital.gov/2023/05/19/personas-learn-how-to-discover-your-audience-understand-them-and-pivot-to-address-their-needs">https://digital.gov/2023/05/19/personas-learn-how-to-discover-your-audience-understand-them-and-pivot-to-address-their-needs</a>. Acesso em: 25 abr. 2025.</p>
+</blockquote>
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">25/04/2025</td>
+<td style="text-align: center;">Criação do documento</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a>, <a href="https://github.com/jvopBR">João Vitor</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">25/04/2025</td>
+<td style="text-align: center;">Modificando as personas</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">26/04/2025</td>
+<td style="text-align: center;">Formatação, links</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">28/04/2025</td>
+<td style="text-align: center;">Unificando e modificando antipersonas</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">26/05/2025</td>
+<td style="text-align: center;">Criando tabela de funções e adicionando motivação</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

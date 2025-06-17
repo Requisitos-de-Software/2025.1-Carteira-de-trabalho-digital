@@ -1,0 +1,4390 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/caso_de_uso/">
+      
+      
+        <link rel="prev" href="../cenarios/">
+      
+      
+        <link rel="next" href="../lexico/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Casos de Uso - Cadastro Único</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Serif";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#casos-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cadastro Único" class="md-header__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cadastro Único
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de Uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../pre-rastreabilidade/aplicativo/" class="md-tabs__link">
+          
+  
+  
+  Pré-rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introducao/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rastreabilidade/matriz_geral/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../verificacao/checklist_1/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../inspecoes/grupo/inspecao_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeções
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/reuniao1/" class="md-tabs__link">
+          
+  
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cadastro Único" class="md-nav__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    Cadastro Único
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termosDeUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/appsAnalisados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Analisados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_desejaveis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Desejaveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introspec%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instrospecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/analise_documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/100dollars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Things First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Casos de Uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-visualizacao-de-beneficios-ativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC01] Visualização de Benefícios Ativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-atualizacao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC02] Atualização de Dados Cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-primeiro-cadastro-no-cadunico" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC03] Primeiro Cadastro no CadÚnico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-conferir-informacoes-sobre-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC04] Conferir informações sobre benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-verificar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC05] Verificar postos de atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-cadastrar-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC06] Cadastrar família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-filtrar-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC07] Filtrar Benefícios Sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC08] Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC09] Modo Escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-indicacao-de-mei-no-momento-do-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC10] - Indicação de MEI no momento do cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-acesso-a-informacoes-sobre-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC11] - Acesso a informações sobre MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-personalizacao-de-conteudos-da-secao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC12] - Personalização de conteúdos da seção MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-consulta-e-sincronizacao-automatica-com-a-base-de-dados-do-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC13] - Consulta e sincronização automática com a base de dados do MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-agendamento-no-cras-atraves-do-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC14] - Agendamento no CRAS através do aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-acesso-a-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC15] - Acesso a tutoriais interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC16] - Upload de documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-rastreabilidade-uc-cen-rf" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Rastreabilidade UC-CEN-RF
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Referências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imagem-1-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagem 1: Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imagem-2-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagem 2: Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agil
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/historia_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/NFR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo+1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo+1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação III
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação VI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Casos de Uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-visualizacao-de-beneficios-ativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC01] Visualização de Benefícios Ativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-atualizacao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC02] Atualização de Dados Cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-primeiro-cadastro-no-cadunico" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC03] Primeiro Cadastro no CadÚnico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-conferir-informacoes-sobre-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC04] Conferir informações sobre benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-verificar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC05] Verificar postos de atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-cadastrar-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC06] Cadastrar família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-filtrar-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC07] Filtrar Benefícios Sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC08] Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC09] Modo Escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-indicacao-de-mei-no-momento-do-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC10] - Indicação de MEI no momento do cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-acesso-a-informacoes-sobre-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC11] - Acesso a informações sobre MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-personalizacao-de-conteudos-da-secao-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC12] - Personalização de conteúdos da seção MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-consulta-e-sincronizacao-automatica-com-a-base-de-dados-do-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC13] - Consulta e sincronização automática com a base de dados do MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-agendamento-no-cras-atraves-do-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC14] - Agendamento no CRAS através do aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-acesso-a-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC15] - Acesso a tutoriais interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UC16] - Upload de documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-rastreabilidade-uc-cen-rf" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Rastreabilidade UC-CEN-RF
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Referências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#imagem-1-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagem 1: Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imagem-2-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagem 2: Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="casos-de-uso">Casos de Uso</h1>
+<h2 id="funcoes-dos-autores">Funções dos autores</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td>Criação do caso de uso 15</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td>Criação do caso de uso 14; Criação do diagrama</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td>Criação do caso de uso 16</td>
+</tr>
+<tr>
+<td><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td>Criação da página; Criação dos casos de uso 10 à 13; Adição de referências e imagens; Revisão geral</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td>Criação dos casos de uso 1 à 3, 6 e 7.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td>Revisão geral; Criação dos casos de uso 4, 5, 8 e 9; Criação do diagrama.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h2 id="introducao">Introdução</h2>
+<p>Os casos de uso são uma técnica de modelagem que representa uma sequência de interações entre um sistema e um ator(es) externo, culminando em um resultado valioso para o ator. Os nomes dos casos de uso devem ser sempre estruturados como um verbo seguido de um objeto. É importante selecionar nomes fortes e descritivos para deixar evidente, pelo nome, que o caso de uso entregará algo valioso para algum usuário.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>O diagrama de casos de uso é uma representação visual da interação de atores com o sistema e visa facilitar o entendimento de como se dará o uso por parte dos atores primários e como os atores secundários se relacionam às funcionalidades que o sistema apresenta. Para melhor entender a interação do usuário com os sistemas e aplicativo, as personas <strong>Larissa Mendes Costa</strong> e <strong>Beatriz Oliveira Santos</strong> foram utilizadas para modelar os atores <em>Usuário Cadastrado</em> e <em>Novo Usuário</em>, respectivamente. Para o ator generalizado <em>Usuário</em>, ambas as personas foram utilizadas. </p>
+<p>A Tabela 1 apresenta os elementos presentes no diagrama de caso de uso e suas funcionalidades. </p>
+<p><font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font></p>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+<th style="text-align: center;">Elemento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ator</td>
+<td>Determina algo ou alguém que interagirá com o sistema</td>
+<td style="text-align: center;"><img alt="alt text" src="../../assets/modelagem/casos_de_uso/boneco_palito.png" /></td>
+</tr>
+<tr>
+<td>Elipse (Caso de Uso)</td>
+<td>Determina os casos de uso dentro do sistema</td>
+<td style="text-align: center;"><img alt="alt text" src="../../assets/modelagem/casos_de_uso/elipse.png" /></td>
+</tr>
+<tr>
+<td>Retângulo (Sistema)</td>
+<td>Determina limites do sistema</td>
+<td style="text-align: center;"><img alt="alt text" src="../../assets/modelagem/casos_de_uso/retangulo.png" /></td>
+</tr>
+<tr>
+<td>Flecha (Relações)</td>
+<td>Determina relações entre os casos de uso ou atores e casos de uso. Pode ser pontilhada.</td>
+<td style="text-align: center;"><img alt="alt text" src="../../assets/modelagem/casos_de_uso/seta.png" /></td>
+</tr>
+</tbody>
+</table>
+<!---
+We really need to add these images someway somehow. We could use the bilheteria digital model. I hope it works fine.
+
+-l0c.
+
+-->
+
+<h2 id="diagrama-de-casos-de-uso">Diagrama de Casos de Uso</h2>
+<p>A Figura 1 apresenta o Diagrama de Casos de Uso elaborado pelo grupo 4. </p>
+<center> 
+    <b>Figura 1:</b> Diagrama de Casos de Uso do CádÚnico
+</center>
+
+<p><img alt="Diagrama de Casos de Uso" src="../../assets/modelagem/casos_de_uso/diagrama.png" /></p>
+<!--
+IT IS DONE. FOXTROT FINALLY!
+
+-l0c
+-->
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles </a>
+</center>
+
+<h2 id="casos-de-uso_1">Casos de Uso</h2>
+<p>As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especificação de cada caso de uso. </p>
+<h3 id="uc01-visualizacao-de-beneficios-ativos">[#UC01] Visualização de Benefícios Ativos</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 2:</b> Especificação de visualização de benefíficos ativos</p></font></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite ao usuário visualizar os benefícios sociais ativos vinculados ao seu cadastro no CadÚnico, como o Bolsa Família.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui cadastro validado no CadÚnico e está autenticado no aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário acessa a opção “Meus Benefícios” para verificar seus benefícios ativos.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>O usuário acessa o aplicativo do CadÚnico</li><li>Seleciona a opção “Meus Benefícios”</li><li>O sistema busca as informações na base de dados do governo</li><li>É exibida uma lista com nome do programa, status (ativo/suspenso), valor recebido e última atualização</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>Usuário sem benefícios ativos: sistema exibe mensagem informativa</li><li>Falha de comunicação com a base de dados: sistema exibe mensagem de erro</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza seus benefícios de forma clara e atualizada.</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF24</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font></p>
+<hr />
+<h3 id="uc02-atualizacao-de-dados-cadastrais">[#UC02] Atualização de Dados Cadastrais</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 3:</b> Especificação de dados cadastrais</p></font></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite ao usuário atualizar seus dados pessoais e residenciais no CadÚnico, como endereço e telefone.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário está logado no aplicativo e possui cadastro existente.</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário acessa a seção “Atualizar Cadastro” para alterar informações residenciais.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário acessa o aplicativo</li><li>Vai até a seção “Atualizar Cadastro”</li><li>Seleciona a opção para alterar dados residenciais</li><li>Atualiza endereço, telefone e contato</li><li>Confirma e envia os dados</li><li>O sistema notifica que os dados serão analisados por um agente público</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>CPF com inconsistência: sistema bloqueia alteração e exibe mensagem</li><li>CEP inválido: sistema solicita correção</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Os dados são enviados para análise e o usuário é notificado que há uma atualização em processamento.</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF05</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font></p>
+<hr />
+<h3 id="uc03-primeiro-cadastro-no-cadunico">[#UC03] Primeiro Cadastro no CadÚnico</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 4:</b> Especificação de primeiro cadastro no sistema</p></font></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite a novos usuários realizar seu primeiro cadastro no CadÚnico através do aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Novo usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui documentos válidos e acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário realiza o primeiro cadastro preenchendo os dados exigidos pelo sistema.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Fazer Primeiro Cadastro”</li><li>Preenche dados pessoais: nome, CPF, nascimento, endereço, composição familiar</li><li>Envia a solicitação</li><li>O sistema gera um protocolo e informa que o usuário será contatado para validação</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>CPF já existente: sistema bloqueia e sugere login</li><li>Dados obrigatórios faltando: sistema impede envio e destaca os campos incompletos</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Um cadastro preliminar é criado e enviado para avaliação por um agente social.</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF19</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font></p>
+<hr />
+<h3 id="uc04-conferir-informacoes-sobre-beneficios">[#UC04] Conferir informações sobre benefícios</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 5:</b> Especificação de consulta de informações sobre benefícios</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC04</th>
+<th>Conferir informações sobre benefícios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite aos usuários, com ou sem autenticação, ler sobre os possíveis benefícios disponíveis no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui o aplicativo instalado em seu dispositivo compatível</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário confere informações sobre os benefícios e informa-se</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li> <li>Seleciona a opção "Programas sociais"</li><li> Sistema lista programas sociais com informações disponíveis</li> <li> Usuário clica na opção desejada </li> <li>Sistema lista as informações disponíveis sobre o programa social escolhido </li> </ul></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>Erro de interface: Sistema lista informações incorretamente ou de forma ilegível</li><li>Sem conexão em computadores: sistema não inicia</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário possui informações sobre o programa social escolhido</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF24</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font></p>
+<hr />
+<h3 id="uc05-verificar-postos-de-atendimento">[#UC05] Verificar postos de atendimento</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 6:</b> Especificação de verificação de postos de atendimento</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC05</th>
+<th>Verificar postos de atendimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite aos usuários verificar postos de atendimento disponíveis</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário, Sistema CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui um dispositivo compatível com o aplicativo e acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário confere informações sobre os postos de atendimento disponíveis.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li><li>Seleciona a opção “Postos de atendimento”</li><li>Preenche dados para requisição de informação: Estado, Município, Tipo Posto</li><li>Envia a solicitação</li><li>O sistema lista os postos disponíveis</li> <li> Usuário lê informações listadas </li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li> Carregamento infinito: sistema passa um período indeterminado obtendo informações sobre o posto escolhido e demais interações são bloqueadas</li><li>Sem conexão: aplicativo não apresenta opções para requisição em caso de falta de conexão com a internet</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O sistema  lista informações sobre os postos disponíveis.</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF16</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font></p>
+<hr />
+<h3 id="uc06-cadastrar-familia">[#UC06] Cadastrar família</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 7:</b> Especificação de cadastro familiar</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC06</th>
+<th>Cadastrar família</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite ao responsável familiar registrar sua família no Cadastro Único para acessar benefícios sociais.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Responsável familiar</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Acesso à internet, posse de documentos da família, uso de smartphone ou computador</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário realiza o cadastro de sua família</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>O usuário acessa o aplicativo</li><li>Seleciona a opção "Cadastrar Família"</li><li>Insere os dados pessoais e dos membros da família</li><li>Confirma os dados e envia</li><li>Recebe protocolo de envio</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><ol><li>CPF do responsável já está vinculado</li><li>Usuário é instruído a buscar suporte</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>Erro de conexão</li><li>Dados incompletos ou inválidos</li><li>Aplicativo informa erro e solicita correção</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Família registrada como grupo familiar no sistema, com cadastro pendente de validação</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>13/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF01</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font></p>
+<hr />
+<h3 id="uc07-filtrar-beneficios-sociais">[#UC07] Filtrar Benefícios Sociais</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 8:</b> Especificação de filtragem de benefícios</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC07</th>
+<th>Filtrar Benefícios Sociais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite ao usuário buscar e filtrar informações sobre benefícios sociais disponíveis de acordo com seu perfil ou interesse.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário (autenticado ou não)</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Acesso ao aplicativo e à internet</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>O usuário realiza filtros para buscar benefícios sociais no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>O usuário acessa o aplicativo</li><li>Navega até a seção “Benefícios Disponíveis”</li><li>Utiliza filtros como tipo de benefício, região, faixa de renda ou público-alvo</li><li>O sistema retorna os benefícios correspondentes</li><li>O usuário visualiza detalhes dos benefícios</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><ul><li>O usuário usa filtros pré-definidos com base no perfil (ex: famílias com crianças)</li><li>O sistema mostra resultados priorizados</li></ul></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li>Filtro retorna nenhum benefício</li><li>Erro de conexão impede exibição</li><li>Filtros inválidos ou mal preenchidos</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza os benefícios sociais de acordo com os filtros aplicados</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>13/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF23</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autora: <a href="https://github.com/JuliaGabP">Julia Gabriela</a></b></p></font></p>
+<hr />
+<h3 id="uc08-chatbot">[#UC08] Chatbot</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 9:</b> Especificação de chatbot automatizado</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC08</th>
+<th>Acessar chatbot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite aos usuários consultar um assistente virtual configurado para responder questões e dúvidas frequentes</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário, Assistente Virtual</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui um dispositivo compatível com o aplicativo e acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>acessar Chatbot</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "login" </li><li>Usuário preenche informações de login e envia uma solicitação de autenticação</li><li> Usuário é autenticado pelo gov.br</li><li>Usuário aperta no botão "Assistente Virtual" e é movido para a tela do Assistente Virtual</li> <li> Usuário realiza uma pergunta</li> <li>O Assistente Virtual responde a pergunta</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li> Usuário não cadastrado: Usuário não consegue acessar a funcionalidade ao não conseguir passar pelo processo de autenticação</li><li>Sem conexão: aplicativo não realiza login ao não possuir conexão com o sistema gov.br</li> <li> Assistente em manutenção: O assistente virtual está em manutenção e está indisponível </li> <li> Assistente não sabe responder: Assistente Virtual não possui informações suficientes para responder ao usuário </li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário tem sua dúvida esclarecida.</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF26</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font></p>
+<hr />
+<h3 id="uc09-modo-escuro">[#UC09] Modo Escuro</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 10:</b> Especificação de modo escuro</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC09</th>
+<th>Ativar modo escuro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite aos usuários ativar um "modo escuro", o qual altera a saturação e luminosidade da interface para uso em ambientes de baixa luminosidade</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário possui um dispositivo compatível com o aplicativo</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>ligar modo escuro</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li><li>Usuário aperta no botão de "modo escuro" </li><li>Aplicativo atualiza interface para utilizar cores com menor luminosidade e/ou cores mais frias</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><ul><li> Cores desagradáveis: O novo esquema de cores torna o usuário mais desconfortável no momento</li><li> Má colocação: Usuário não consegue encontrar o botão "Modo escuro"</li></ul></td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário se sente mais confortável para utilizar o aplicativo</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF38</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/RA-Salles">Ryan Salles</a></b></p></font></p>
+<hr />
+<h3 id="uc10-indicacao-de-mei-no-momento-do-cadastro">[#UC10] - Indicação de MEI no momento do cadastro</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 11:</b> Especificação de indicação MEI</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC10</th>
+<th>Indicação de MEI no momento do cadastro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o usuário informe, durante o processo de cadastro no CadÚnico, que é um Microempreendedor Individual (MEI).</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário em processo de cadastro</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário acessando o app e iniciando novo cadastro</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Indicação da condição de MEI durante o cadastro</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td>1. O usuário inicia o cadastro no app CadÚnico<br>2. Preenche dados pessoais<br>3. Marca a opção “Sou MEI”<br>4. Finaliza o cadastro</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>O usuário ignora a opção → sistema registra como não MEI</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Dados inconclusivos → sistema alerta para verificação posterior</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>A condição de MEI é registrada no perfil do usuário</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF11</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font></p>
+<hr />
+<h3 id="uc11-acesso-a-informacoes-sobre-mei">[#UC11] - Acesso a informações sobre MEI</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 12:</b> Especificação de acesso a informações MEI</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC11</th>
+<th>Acesso a informações sobre MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que usuários MEI consultem conteúdos informativos sobre microempreendedorismo no app CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário com perfil MEI</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário logado com perfil registrado como MEI</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Consulta de informações sobre MEI</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td>1. O usuário acessa a seção “MEI” no app<br>2. Visualiza temas como obrigações, benefícios, formalização, linhas de crédito<br>3. Acessa conteúdos de interesse, com links e orientações</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Perfil não registrado como MEI → sistema exibe convite para formalização</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Conteúdo indisponível → sistema exibe mensagem informativa</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário adquire conhecimento sobre seus direitos e deveres como MEI</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF12</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font></p>
+<hr />
+<h3 id="uc12-personalizacao-de-conteudos-da-secao-mei">[#UC12] - Personalização de conteúdos da seção MEI</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 13:</b> Especificação de personalização MEI</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC12</th>
+<th>Personalização de conteúdos da seção MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o sistema personalize os conteúdos exibidos na seção MEI com base no setor de atuação e localização do usuário.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário MEI cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário logado com setor de atuação e município informados</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Personalização automática de conteúdos</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td>1. O usuário acessa a seção “MEI”<br>2. O sistema identifica setor e região<br>3. Exibe conteúdos segmentados (editais, obrigações, notícias)<br>4. Permite interação com os conteúdos</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Setor não informado → sistema solicita preenchimento complementar</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Localização não disponível → sistema utiliza município do cadastro</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza conteúdos relevantes ao seu perfil</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF13</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font></p>
+<hr />
+<h3 id="uc13-consulta-e-sincronizacao-automatica-com-a-base-de-dados-do-mei">[#UC13] - Consulta e sincronização automática com a base de dados do MEI</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 14:</b> Especificação de consulta e integração MEI</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC13</th>
+<th>Consulta e sincronização automática com a base de dados do MEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o CadÚnico sincronize dados MEI com a Receita Federal automaticamente</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Sistema do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário com CNPJ MEI ativo vinculado ao CPF no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Sincronização automática de dados</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td>1. Sistema realiza integração periódica com Receita Federal<br>2. Identifica usuários com CNPJ MEI<br>3. Recupera dados do MEI (status, atividade, débitos)<br>4. Atualiza o perfil do usuário no app<br>5. Notifica o usuário sobre atualizações</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Dados inconsistentes CPF/CNPJ → alerta técnico para revisão</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Falha de conexão com Receita → tentativa armazenada e reagendada</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Perfil MEI atualizado automaticamente no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF11, RF13, RF40</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/johnaopedro">João Pedro</a></b></p></font></p>
+<hr />
+<h3 id="uc14-agendamento-no-cras-atraves-do-aplicativo">[#UC14] - Agendamento no CRAS através do aplicativo</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 15:</b> Especificação de agendamento no CRAS</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC14</th>
+<th>Agendamento no CRAS através do aplicativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o usuário realize agendamento de atendimento nos postos do CRAS através do aplicativo CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário e Sistema CRAS</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário com dispositivo compatível com o aplicativo e acesso à internet</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Agendar atendimento no CRAS</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário instala e abre o aplicativo</li><li>Usuário navega até a seção "Agendar atendimento no CRAS" </li><li>Usuário adiciona as informações necessárias para realizar o agendamento</li><li>O sistema retorna uma mensagem para validar o processo</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Dados inconsistentes → alerta técnico para revisão</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Falha de conexão com o sistema CRAS → tentativa armazenada e reagendada</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Agendamento de atendimento no CRAS realizado</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>18/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF30</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></b></p></font></p>
+<hr />
+<h3 id="uc15-acesso-a-tutoriais-interativos">[#UC15] - Acesso a tutoriais interativos</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 16:</b> Especificação de tutorias interativos</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC15</th>
+<th>Acesso a tutoriais interativos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o usuário acesse vídeos e tutoriais interativos para entender como utilizar os programas sociais disponíveis</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário e Sistema CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O sistema possui vídeos e tutoriais explicativos</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Acesso a tutoriais interativos e vídeos explicativos sobre programas sociais</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td>1. Acessa a seção “Tutoriais e Dicas”<br> 2. Sistema exibe uma lista de tutoriais.<br>3. Escolhe um tutorial para visualizar.<br>4. Sistema exibe o escolhido.<br>5. Interage com o conteúdo<br>6. Aplicativo registra a visualização e sugere outros conteúdos</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Tutorial não carregar corretamente → Tenta carregar novamente ou oferece uma opção alternativa para visualização</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Usuário com dificuldades para entender o conteúdo → Sugere um atendimento assistido por chat</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>O usuário visualiza o conteúdo e compreende os programas sociais com facilidade</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>18/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF35</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/mandicrz">Amanda Cruz Lima</a></b></p></font></p>
+<h3 id="uc16-upload-de-documentos">[#UC16] - Upload de documentos</h3>
+<p><font size="2"><p style="text-align: center"><b>Tabela 17:</b> Especificação de upload de documentos</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC16</th>
+<th>Upload de documentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Permite que o usuário envie documentos digitalizados (como comprovante de residência, RG, CPF) diretamente pelo aplicativo para complementação do cadastro</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário e Sistema CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>O usuário deve estar logado no sistema e com o cadastro iniciado</td>
+</tr>
+<tr>
+<td><strong>Ação</strong></td>
+<td>Enviar documentos por meio da interface do aplicativo</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><ol><li>Usuário acessa a etapa de envio de documentos</li><li>O aplicativo exibe uma lista de documentos obrigatórios</li><li>O usuário seleciona e faz o upload dos arquivos do celular</li><li>O sistema valida o formato e o tamanho</li><li>Os documentos são armazenados com sucesso</li></ol></td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>Documento em formato inválido → mensagem de erro e sugestão de formatos suportados</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td>Falha de conexão com o sistema CadÚnico → documentos transferidos armazenados</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Documentos associados ao cadastro do usuário, já estão vinculados ao seu cadsstro</td>
+</tr>
+<tr>
+<td><strong>Data de Criação</strong></td>
+<td>18/05/2025</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md">RF29</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/JoaoPC10">João Igor</a></b></p></font></p>
+<hr />
+<h3 id="tabela-de-rastreabilidade-uc-cen-rf">Tabela de Rastreabilidade UC-CEN-RF</h3>
+<p>A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).</p>
+<center> <b>Tabela 3: Tabela de Rastreabilidade</b> </center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Caso de Uso (UC)</th>
+<th style="text-align: center;">Cenário (CN)</th>
+<th style="text-align: center;">Requisito Funcional (RF)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">UC01</td>
+<td style="text-align: center;">CN01</td>
+<td style="text-align: center;">RF24</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC02</td>
+<td style="text-align: center;">CN02</td>
+<td style="text-align: center;">RF05</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC03</td>
+<td style="text-align: center;">CN03</td>
+<td style="text-align: center;">RF19</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC04</td>
+<td style="text-align: center;">CN04</td>
+<td style="text-align: center;">RF24</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC05</td>
+<td style="text-align: center;">CN05</td>
+<td style="text-align: center;">RF16</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC06</td>
+<td style="text-align: center;">CN06</td>
+<td style="text-align: center;">RF01</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC07</td>
+<td style="text-align: center;">CN07</td>
+<td style="text-align: center;">RF23</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC08</td>
+<td style="text-align: center;">CN08</td>
+<td style="text-align: center;">RF26</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC09</td>
+<td style="text-align: center;">CN09</td>
+<td style="text-align: center;">RF38</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC10</td>
+<td style="text-align: center;">CN10</td>
+<td style="text-align: center;">RF11</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC11</td>
+<td style="text-align: center;">CN11</td>
+<td style="text-align: center;">RF12</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC12</td>
+<td style="text-align: center;">CN12</td>
+<td style="text-align: center;">RF13</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC13</td>
+<td style="text-align: center;">CN13</td>
+<td style="text-align: center;">RF11, RF13, RF40</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC14</td>
+<td style="text-align: center;">CN14</td>
+<td style="text-align: center;">RF30</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC15</td>
+<td style="text-align: center;">CN15</td>
+<td style="text-align: center;">RF35</td>
+</tr>
+<tr>
+<td style="text-align: center;">UC16</td>
+<td style="text-align: center;">CN16</td>
+<td style="text-align: center;">RF29</td>
+</tr>
+</tbody>
+</table>
+<center> 
+    <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
+</center>
+
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.</p>
+</blockquote>
+<h5 id="imagem-1-casos-de-uso">Imagem 1: Casos de Uso</h5>
+<div style="text-align: center;">
+    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_cenario.png" alt="cenarios">
+</div>
+
+<h5 id="imagem-2-casos-de-uso">Imagem 2: Casos de Uso</h5>
+<div style="text-align: center;">
+    <img src="../../assets/referencias/introducao_cenario/introducao_cenario_caso_de_uso.png" alt="caso_de_uso">
+</div>
+
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Criação da pagina e adição de casos de uso 10, 11, 12, 13</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Adicionando referencias sobre o tema e imagens</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Adicionando 5 casos de uso</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">17/05/2025</td>
+<td style="text-align: center;">Adicionando casos de uso 4 e 5</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">17/05/2025</td>
+<td style="text-align: center;">Adicionando casos de uso 8 e 9</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">17/05/2025</td>
+<td style="text-align: center;">Consertando tabela e casos de uso</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adicionando casos de uso 14, padronizando o documento e corrigindo erros</td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Melhorando seção Metodologia</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.8</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adicionando caso de uso 15</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adicionando caso de uso 16</td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">Adicionadas figuras e diagramas</td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a>, <a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">2.1</td>
+<td style="text-align: center;">20/05/2025</td>
+<td style="text-align: center;">Criando tabela de funções</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

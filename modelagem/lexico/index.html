@@ -1,0 +1,3438 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/lexico/">
+      
+      
+        <link rel="prev" href="../caso_de_uso/">
+      
+      
+        <link rel="next" href="../especificacao_suplementar/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Léxicos - Cadastro Único</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Serif";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lexico" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Cadastro Único" class="md-header__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cadastro Único
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Léxicos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../pre-rastreabilidade/aplicativo/" class="md-tabs__link">
+          
+  
+  
+  Pré-rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introducao/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rastreabilidade/matriz_geral/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../verificacao/checklist_1/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../inspecoes/grupo/inspecao_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeções
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/reuniao1/" class="md-tabs__link">
+          
+  
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Cadastro Único" class="md-nav__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    Cadastro Único
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termosDeUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/appsAnalisados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Analisados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_desejaveis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Desejaveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introspec%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instrospecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/analise_documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/100dollars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Things First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caso_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-tabela-de-lexicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Tabela de Léxicos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-lexicos-adicoes-por-gabriel-flores-e-joao-igor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Léxicos Adições por Gabriel Flores e João Igor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos-adicoes-por-joao-pedro-costa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Léxicos – Adições por João Pedro Costa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agil
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/historia_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/NFR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/checklist_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo+1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo+1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecoes/grupo%2B1/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/reuniao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/tecnicas/reuniaoElicitacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação III
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação VI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-tabela-de-lexicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Tabela de Léxicos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-lexicos-adicoes-por-gabriel-flores-e-joao-igor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Léxicos Adições por Gabriel Flores e João Igor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos-adicoes-por-joao-pedro-costa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Léxicos – Adições por João Pedro Costa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lexico">Léxico</h1>
+<h2 id="funcoes-dos-autores">Funções dos autores</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td>Criação do documento; Composição do documento</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td>Criação do documento; Composição do documento</td>
+</tr>
+<tr>
+<td><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td>Complementação de léxicos relacionados a UC10, UC11 e UC12</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td>Criação da tabela de funções</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td>Revisão geral, manutenção e criação de ids únicos</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<h2 id="introducao">Introdução</h2>
+<p>O principal objetivo do léxico, a ser executado pelos Engenheiros de requisitos, é a identificação de palavras ou frases peculiares ao meio social da aplicação sob estudo. Cada símbolo é descrito com noção, significado do símbolo, e impacto, descrição do efeito/uso/ocorrência do símbolo na aplicação.</p>
+<h2 id="modelo-de-tabela-de-lexicos">Modelo de Tabela de Léxicos</h2>
+<center> 
+    <b>Tabela 1:</b> Modelo de Tabela 
+</center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Léxico</th>
+<th style="text-align: center;">Classificação</th>
+<th style="text-align: center;">Sinônimos</th>
+<th style="text-align: center;">Noção</th>
+<th style="text-align: center;">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Nome do Léxico</td>
+<td style="text-align: center;">Verbo/Objeto/Estado</td>
+<td style="text-align: center;">Palavras ou expressões com sentido parecido</td>
+<td style="text-align: center;">Quem é o sujeito?</td>
+<td style="text-align: center;">Quais ações executa ou sofre</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>, 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<h2 id="tabela-de-lexicos-adicoes-por-gabriel-flores-e-joao-igor">Tabela de Léxicos Adições por Gabriel Flores e João Igor</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: center;">Léxico</th>
+<th style="text-align: center;">Classificação</th>
+<th style="text-align: center;">Sinônimos</th>
+<th style="text-align: center;">Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">L01</td>
+<td style="text-align: center;"><a href="#cadastrar-família">Cadastrar Família</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#cadastrar-família">Registrar família</a>, <a href="#cadastrar-família">inserir família</a></td>
+<td style="text-align: center;">Ação de incluir uma nova <a href="#família">família</a> no <a href="#cadastro">Cadastro</a> Único, informando dados pessoais, endereço, composição <a href="#família">familiar</a> e renda.</td>
+<td>Permite que a <a href="#família">família</a> seja avaliada para inclusão em <a href="#programa-social">programas sociais</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L02</td>
+<td style="text-align: center;"><a href="#atualizar-cadastro">Atualizar Cadastro</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#atualizar-cadastro">Modificar dados</a>, <a href="#atualizar-cadastro">Revisar informações</a></td>
+<td style="text-align: center;">Alteração dos dados de uma <a href="#família">família</a> já cadastrada, geralmente por mudanças na renda, endereço ou composição <a href="#família">familiar</a>.</td>
+<td>Mantém o <a href="#cadastro">cadastro</a> vigente e evita suspensão de benefícios.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L03</td>
+<td style="text-align: center;"><a href="#consultar-cadastro">Consultar Cadastro</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#consultar-cadastro">Visualizar cadastro</a>, <a href="#consultar-cadastro">Ver dados</a></td>
+<td style="text-align: center;">Ação de visualizar as informações de um <a href="#cadastro">cadastro</a> já existente. Pode ser feita por operadores ou pelo próprio <a href="#responsável-familiar">responsável familiar</a>.</td>
+<td>Facilita o acompanhamento e validação dos dados registrados.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L04</td>
+<td style="text-align: center;"><a href="#emitir-comprovante">Emitir Comprovante</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#emitir-comprovante">Gerar comprovante</a>, <a href="#emitir-comprovante">Baixar documento</a></td>
+<td style="text-align: center;">Geração de um <a href="#documentos-pessoais">documento</a> que comprova o registro ou a atualização no <a href="#cadastro">Cadastro Único</a>.</td>
+<td>Permite ao cidadão comprovar situação cadastral perante órgãos públicos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L05</td>
+<td style="text-align: center;"><a href="#validar-informações">Validar Informações</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#validar-informações">Verificar dados</a>, <a href="#validar-informações">Confirmar cadastro</a></td>
+<td style="text-align: center;">Confirmação da veracidade dos dados informados por <a href="#família">famílias</a>.</td>
+<td>Impede fraudes e garante qualidade nas decisões sobre benefícios.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L06</td>
+<td style="text-align: center;"><a href="#realizar-entrevista">Realizar Entrevista</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#realizar-entrevista">Coletar informações</a>, <a href="#realizar-entrevista">Aplicar questionário</a></td>
+<td style="text-align: center;">Atividade conduzida por <a href="#entrevistador-social">entrevistador social</a> para coletar dados das <a href="#família">famílias</a>.</td>
+<td>Essencial para preenchimento correto do <a href="#cadastro">cadastro</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L07</td>
+<td style="text-align: center;"><a href="#agendar-atendimento">Agendar Atendimento</a></td>
+<td style="text-align: center;">Verbo</td>
+<td style="text-align: center;"><a href="#agendar-atendimento">Marcar atendimento</a>, <a href="#agendar-atendimento">Definir horário</a></td>
+<td style="text-align: center;">Reserva de data e hora para que a <a href="#família">família</a> compareça ao <a href="#centro-de-referência-de-assistência-socialcras">CRAS</a>.</td>
+<td>Organiza o fluxo de cadastramentos, evitando sobrecarga.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L08</td>
+<td style="text-align: center;"><a href="#família">Família</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#família">Unidade familiar</a></td>
+<td style="text-align: center;">Conjunto de pessoas que residem sob o mesmo teto e compartilham renda.</td>
+<td>Unidade principal de análise e <a href="#cadastro">cadastro</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L09</td>
+<td style="text-align: center;"><a href="#pessoa">Pessoa</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#pessoa">Membro familiar</a></td>
+<td style="text-align: center;">Indivíduo que compõe uma <a href="#família">família</a> registrada.</td>
+<td>Seus dados alimentam o sistema e definem o perfil da <a href="#família">família</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L10</td>
+<td style="text-align: center;"><a href="#responsável-familiar">Responsável Familiar</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#responsável-familiar">Representante familiar</a></td>
+<td style="text-align: center;">Pessoa que representa o grupo <a href="#família">familiar</a> perante o <a href="#cadastro">Cadastro Único</a></td>
+<td>Seu <a href="#número-de-identificação-socialnis">NIS</a> referencia todo o <a href="#cadastro">cadastro</a> <a href="#família">familiar</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L11</td>
+<td style="text-align: center;"><a href="#número-de-identificação-socialnis">Número de Identificação Social(NIS)</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#número-de-identificação-socialnis">Código de identificação</a></td>
+<td style="text-align: center;">Código único que identifica cada <a href="#pessoa">pessoa</a> cadastrada.</td>
+<td>Usado em diversos sistemas para concessão de benefícios.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L12</td>
+<td style="text-align: center;"><a href="#cadastro">Cadastro</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#cadastro">Registro</a></td>
+<td style="text-align: center;">Conjunto de informações organizadas sobre <a href="#família">famílias</a> e <a href="#pessoa">pessoas</a>.</td>
+<td>Elemento fundamental para a gestão de políticas sociais.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L13</td>
+<td style="text-align: center;"><a href="#programa-social">Programa Social</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#programa-social">Benefício Social</a></td>
+<td style="text-align: center;">Políticas de transferência de renda ou assistência baseadas no <a href="#cadastro">Cadastro Único</a>.</td>
+<td>O <a href="#cadastro">cadastro</a> determina a elegibilidade.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L14</td>
+<td style="text-align: center;"><a href="#centro-de-referência-de-assistência-socialcras">Centro de Referência de Assistência Social(CRAS)</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#centro-de-referência-de-assistência-socialcras">Unidade de atendimento</a></td>
+<td style="text-align: center;">Local onde ocorrem os atendimentos para cadastramento e atualização de dados.</td>
+<td>Ponto de entrada do cidadão no sistema.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L15</td>
+<td style="text-align: center;"><a href="#entrevistador-social">Entrevistador Social</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#entrevistador-social">Agente social</a></td>
+<td style="text-align: center;">Profissional que conduz as <a href="#realizar-entrevista">entrevistas</a> e insere os dados no sistema.</td>
+<td>Responsável direto pela qualidade dos dados inseridos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L16</td>
+<td style="text-align: center;"><a href="#documentos-pessoais">Documentos Pessoais</a></td>
+<td style="text-align: center;">Objeto</td>
+<td style="text-align: center;"><a href="#documentos-pessoais">Identificação</a></td>
+<td style="text-align: center;">Documentos necessários para comprovação dos dados informados no <a href="#cadastro">cadastro</a>.</td>
+<td>Sem eles, o <a href="#cadastro">cadastro</a> pode ser considerado inválido ou incompleto.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L17</td>
+<td style="text-align: center;"><a href="#cadastro-ativo">Cadastro Ativo</a></td>
+<td style="text-align: center;">Estado</td>
+<td style="text-align: center;"><a href="#cadastro-ativo">Cadastro Válido</a></td>
+<td style="text-align: center;">Situação do <a href="#cadastro">cadastro</a> que está atualizado e dentro do prazo exigido.</td>
+<td>Permite recebimento de benefícios sem restrições.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L18</td>
+<td style="text-align: center;"><a href="#cadastro-inativo">Cadastro Inativo</a></td>
+<td style="text-align: center;">Estado</td>
+<td style="text-align: center;"><a href="#cadastro-inativo">Cadastro vencido</a></td>
+<td style="text-align: center;"><a href="#cadastro">Cadastro</a> fora do prazo de validade, exigindo atualização.</td>
+<td>Pode bloquear o acesso a <a href="#programa-social">programas sociais</a>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L19</td>
+<td style="text-align: center;"><a href="#família-elegível">Família Elegível</a></td>
+<td style="text-align: center;">Estado</td>
+<td style="text-align: center;"><a href="#família-elegível">Apta ao benefício</a></td>
+<td style="text-align: center;"><a href="#família">Família</a> que atende aos critérios de um ou mais <a href="#programa-social">programas sociais</a>.</td>
+<td>Pode receber os benefícios previstos.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L20</td>
+<td style="text-align: center;"><a href="#família-inelegível">Família Inelegível</a></td>
+<td style="text-align: center;">Estado</td>
+<td style="text-align: center;"><a href="#família-inelegível">Não apta ao benefício</a></td>
+<td style="text-align: center;"><a href="#família">Família</a> que não atende aos critérios exigidos.</td>
+<td>Não pode receber os benefícios.</td>
+</tr>
+<tr>
+<td style="text-align: center;">L21</td>
+<td style="text-align: center;"><a href="#cadastro-pendente">Cadastro Pendente</a></td>
+<td style="text-align: center;">Estado</td>
+<td style="text-align: center;"><a href="#cadastro-pendente">Cadastro incompleto</a></td>
+<td style="text-align: center;"><a href="#cadastro">Cadastro</a> em processo de validação ou com dados faltantes.</td>
+<td>Pode atrasar a concessão de benefícios.</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>, 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<h2 id="lexicos-adicoes-por-joao-pedro-costa">Léxicos – Adições por João Pedro Costa</h2>
+<p>Esta seção apresenta os léxicos adicionais criados para os casos de uso UC10, UC11 e UC12, específicos para o contexto do Microempreendedor Individual no sistema CadÚnico. Estes léxicos têm como objetivo fornecer uma compreensão aprofundada dos termos utilizados, garantindo uniformidade conceitual e facilitando a comunicação.</p>
+<p>As tabelas seguem o seguinte padrão estrutural:</p>
+<ul>
+<li>ID: identificador único do termo.</li>
+<li>Noção: significado literal que o termo denota</li>
+<li>Impacto: conotação ou efeito prático que sua aplicação produz no sistema.</li>
+<li>Classificação: categoria do símbolo (Sujeito, Verbo, Objeto ou Estado).</li>
+<li>Dicionário: sinônimos e expressões equivalentes.</li>
+<li>Rastreabilidade: Código Caso de Uso/Cenário
+<br></li>
+</ul>
+<center> 
+    <b>Tabela 3:</b> Léxico para UC10
+</center>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Noção</th>
+<th>Impacto</th>
+<th>Classificação</th>
+<th>Dicionário</th>
+<th>Rastreabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="l-uc10-01"></a>L-UC10-01</td>
+<td><a href="#l-uc10-01">MEI</a></td>
+<td>Microempreendedor Individual - categoria empresarial simplificada</td>
+<td>Permite identificação do perfil empresarial do <a href="#l-uc10-04">usuário</a> no sistema</td>
+<td>Objeto</td>
+<td>UC10</td>
+</tr>
+<tr>
+<td><a id="l-uc10-02"></a>L-UC10-02</td>
+<td><a href="#l-uc10-02">Indicar MEI</a></td>
+<td>Ação de informar a condição de <a href="#l-uc10-01">MEI</a> durante o <a href="#l-uc10-03">cadastro</a></td>
+<td>Registra o perfil empresarial no sistema CadÚnico</td>
+<td>Verbo</td>
+<td>UC10</td>
+</tr>
+<tr>
+<td><a id="l-uc10-03"></a>L-UC10-03</td>
+<td><a href="#l-uc10-03">Cadastro</a></td>
+<td>Processo de criação de conta no app CadÚnico</td>
+<td>Estabelece o perfil do <a href="#l-uc10-04">usuário</a> no sistema</td>
+<td>Estado</td>
+<td>UC10</td>
+</tr>
+<tr>
+<td><a id="l-uc10-04"></a>L-UC10-04</td>
+<td><a href="#l-uc10-04">Usuário</a></td>
+<td>Pessoa física que utiliza o app CadÚnico</td>
+<td>Interage com o sistema para realizar <a href="#l-uc10-03">cadastro</a></td>
+<td>Sujeito</td>
+<td>UC10</td>
+</tr>
+<tr>
+<td><a id="l-uc10-05"></a>L-UC10-05</td>
+<td><a href="#l-uc10-05">Opção "Sou MEI"</a></td>
+<td>Campo de seleção para <a href="#l-uc10-02">indicar</a> condição de <a href="#l-uc10-01">MEI</a></td>
+<td>Permite ao sistema categorizar o <a href="#l-uc10-04">usuário</a> como <a href="#l-uc10-01">MEI</a></td>
+<td>Objeto</td>
+<td>UC10</td>
+</tr>
+</tbody>
+</table>
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+<p><br></p>
+<center> 
+    <b>Tabela 4:</b> Léxico para UC11
+</center>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Noção</th>
+<th>Impacto</th>
+<th>Classificação</th>
+<th>Dicionário</th>
+<th>Rastreabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="l-uc11-01"></a>L-UC11-01</td>
+<td><a href="#l-uc11-01">Seção MEI</a></td>
+<td>Área específica do app dedicada a conteúdos sobre <a href="#l-uc10-01">MEI</a></td>
+<td>Centraliza informações relevantes para microempreendedores</td>
+<td>Objeto</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-02"></a>L-UC11-02</td>
+<td><a href="#l-uc11-02">Consultar informações</a></td>
+<td>Ação de acessar conteúdos informativos sobre <a href="#l-uc10-01">MEI</a></td>
+<td>Proporciona conhecimento sobre direitos e deveres do <a href="#l-uc10-01">MEI</a></td>
+<td>Verbo</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-03"></a>L-UC11-03</td>
+<td><a href="#l-uc11-03">Usuário MEI</a></td>
+<td><a href="#l-uc10-04">Usuário</a> com perfil registrado como Microempreendedor Individual</td>
+<td>Tem acesso a conteúdos específicos para sua categoria</td>
+<td>Sujeito</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-04"></a>L-UC11-04</td>
+<td><a href="#l-uc11-04">Obrigações MEI</a></td>
+<td>Deveres legais e fiscais do Microempreendedor Individual</td>
+<td>Informa responsabilidades que o <a href="#l-uc10-01">MEI</a> deve cumprir</td>
+<td>Objeto</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-05"></a>L-UC11-05</td>
+<td><a href="#l-uc11-05">Benefícios MEI</a></td>
+<td>Vantagens e direitos do Microempreendedor Individual</td>
+<td>Esclarece privilégios da categoria empresarial</td>
+<td>Objeto</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-06"></a>L-UC11-06</td>
+<td><a href="#l-uc11-06">Formalização</a></td>
+<td>Processo de regularização como <a href="#l-uc10-01">MEI</a></td>
+<td>Orienta sobre como se tornar <a href="#l-uc10-01">MEI</a> legalmente</td>
+<td>Estado</td>
+<td>UC11</td>
+</tr>
+<tr>
+<td><a id="l-uc11-07"></a>L-UC11-07</td>
+<td><a href="#l-uc11-07">Linhas de crédito</a></td>
+<td>Opções de financiamento disponíveis para <a href="#l-uc10-01">MEI</a></td>
+<td>Facilita acesso a recursos financeiros</td>
+<td>Objeto</td>
+<td>UC11</td>
+</tr>
+</tbody>
+</table>
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+<p><br></p>
+<center>
+    <b>Tabela 5:</b> Léxico para UC12
+</center>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Noção</th>
+<th>Impacto</th>
+<th>Classificação</th>
+<th>Dicionário</th>
+<th>Rastreabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="l-uc12-01"></a>L-UC12-01</td>
+<td><a href="#l-uc12-01">Personalização</a></td>
+<td>Adaptação de conteúdos baseada no perfil do <a href="#l-uc10-04">usuário</a></td>
+<td>Torna a experiência mais relevante e direcionada</td>
+<td>Estado</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-02"></a>L-UC12-02</td>
+<td><a href="#l-uc12-02">Setor de atuação</a></td>
+<td>Área de atividade econômica do <a href="#l-uc10-01">MEI</a></td>
+<td>Permite segmentação de <a href="#l-uc12-04">conteúdos</a> específicos</td>
+<td>Objeto</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-03"></a>L-UC12-03</td>
+<td><a href="#l-uc12-03">Localização</a></td>
+<td>Município e região onde o <a href="#l-uc10-01">MEI</a> atua</td>
+<td>Filtra <a href="#l-uc12-04">conteúdos</a> regionais relevantes</td>
+<td>Objeto</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-04"></a>L-UC12-04</td>
+<td><a href="#l-uc12-04">Conteúdos segmentados</a></td>
+<td>Informações filtradas por <a href="#l-uc12-02">setor</a> e <a href="#l-uc12-03">região</a></td>
+<td>Apresenta informações mais precisas ao <a href="#l-uc10-04">usuário</a></td>
+<td>Objeto</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-05"></a>L-UC12-05</td>
+<td><a href="#l-uc12-05">Editais</a></td>
+<td>Chamadas públicas para <a href="#l-uc10-01">MEI</a> por região/setor</td>
+<td>Oferece oportunidades específicas do perfil</td>
+<td>Objeto</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-06"></a>L-UC12-06</td>
+<td><a href="#l-uc12-06">Sistema identifica</a></td>
+<td>Ação automática de reconhecimento do perfil</td>
+<td>Automatiza a <a href="#l-uc12-01">personalização</a> sem intervenção manual</td>
+<td>Verbo</td>
+<td>UC12</td>
+</tr>
+<tr>
+<td><a id="l-uc12-07"></a>L-UC12-07</td>
+<td><a href="#l-uc12-07">Interação com conteúdos</a></td>
+<td>Ação do <a href="#l-uc10-04">usuário</a> de engajar com as informações</td>
+<td>Permite aproveitamento efetivo dos <a href="#l-uc12-04">conteúdos</a></td>
+<td>Verbo</td>
+<td>UC12</td>
+</tr>
+</tbody>
+</table>
+<center>Autor(es): <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a></center>
+
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 8 maio 2025.</p>
+</blockquote>
+<div align = "center">
+<img src="../../assets/referencias/modelagem/RefLex.png" width="400"/>
+<br>
+<img src="../../assets/referencias/modelagem/RefTabLex.png" width="400"/>
+</div>
+
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">07/05/2025</td>
+<td style="text-align: center;">Criação da página de análise das técnicas de modelagem</td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a> e <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">08/05/2025</td>
+<td style="text-align: center;">Adição das Informações</td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a> e  <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">09/05/2025</td>
+<td style="text-align: center;">Criação da tabela de léxicos</td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a> e <a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">14/05/2025</td>
+<td style="text-align: center;">Criação de hiper links na tabela de léxicos</td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Criação de outros lexicos relacionados ao conteúdo</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">Corrigindo imagens</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: center;">20/05/2025</td>
+<td style="text-align: center;">Criação da tabela de funções</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a>]</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">22/05/2025</td>
+<td style="text-align: center;">Corrigindo conteúdo das tabelas de léxico de UC10, UC11 e UC12</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

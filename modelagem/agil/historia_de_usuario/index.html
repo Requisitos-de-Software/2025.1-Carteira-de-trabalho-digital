@@ -1,0 +1,6208 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.1-Cadastro-Unico/modelagem/agil/historia_de_usuario/">
+      
+      
+        <link rel="prev" href="../../especificacao_suplementar/">
+      
+      
+        <link rel="next" href="../backlog/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Historia de Usuário - Cadastro Único</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Serif";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#estorias-de-usuario" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Cadastro Único" class="md-header__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cadastro Único
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Historia de Usuário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pre-rastreabilidade/aplicativo/" class="md-tabs__link">
+          
+  
+  
+  Pré-rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../introducao/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../rastreabilidade/matriz_geral/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../verificacao/checklist_1/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../inspecoes/grupo/inspecao_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeções
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/reuniao1/" class="md-tabs__link">
+          
+  
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cadastro Único" class="md-nav__button md-logo" aria-label="Cadastro Único" data-md-component="logo">
+      
+  <img src="../../../assets/LogoCadUn.png" alt="logo">
+
+    </a>
+    Cadastro Único
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sobre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/termosDeUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/appsAnalisados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Analisados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_desejaveis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Desejaveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspec%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instrospecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/analise_documentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/100dollars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Things First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introdução
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caso_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Agil
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Agil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de Usuário
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-estoria-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Estória de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estorias-de-usuario_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estórias de Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estórias de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eu_01-filtrar-informacoes-sobre-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_01 – Filtrar informações sobre benefícios sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_02-alteracao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_02 – Alteração de dados cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_03-enviar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_03 – Enviar notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_04-cadastro-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_04 – Cadastro de usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_05-pre-cadastrar-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_05 – Pré-cadastrar Família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_06-consultar-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_06 – Consultar dados cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_07-possibilidade-de-outros-idiomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_07 – Possibilidade de outros idiomas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_08-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_08 – Modo escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_09-visualizacao-de-informacoes-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_09– Visualização de informações cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_10-consulta-de-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_10 – Consulta de benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_11-emissao-de-comprovante-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_11– Emissão de comprovante de cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_12-atualizacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_12– Atualização de dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_13-cadastro-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_13 – Cadastro MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_14-acesso-a-conteudos-informativos-sobre-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_14 – Acesso a conteúdos informativos sobre MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_15-chat-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_15 – Chat de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_16-agendamento-no-cras" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_16 – Agendamento no CRAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_17-cadastro-de-familias" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_17 – Cadastro de Famílias
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_18-cadastro-de-pessoas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_18 – Cadastro de Pessoas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_19-cadastro-de-domicilios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_19 – Cadastro de Domicílios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_20-cadastro-de-agricultores-familiares" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_20 – Cadastro de Agricultores Familiares
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_21-processamento-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_21 – Processamento de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_22-correcao-de-inconsistencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_22 – Correção de Inconsistências
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_23-localizar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_23 – Localizar Postos de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_24-notificacao-de-pendencias-ou-atualizacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_24 – Notificação de Pendências ou Atualizações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_25-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_25 – Upload de Documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_26-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_26 - Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_27-chat-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_27 - Chat de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_28-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_28 - Tutoriais Interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_29-assistencia-por-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_29 - Assistência por voz
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_30-simular-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_30 - Simular benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_31-notificacoes-personalizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_31 - Notificações Personalizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_32-coleta-de-dados-via-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_32 - Coleta de Dados via Formulários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_33-atualizacao-dos-dados-familiares" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_33 - Atualização dos Dados Familiares
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_34-importacao-automatica-de-dados-do-cnis" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_34 - Importação Automática de Dados do CNIS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_35-suporte-com-videos-explicativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_35 - Suporte com Vídeos Explicativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_36-conteudo-mei-personalizado-por-setor-e-regiao" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_36 - Conteúdo MEI Personalizado por Setor e Região
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_37-integracao-com-sistemas-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_37 - Integração com Sistemas MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_38-login-com-govbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_38 - Login com GOV.br
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Referências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-que-e-historia-de-usuario-user-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que é História de Usuário? (User Story)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NFR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/checklist_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/checklist_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/checklist_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/checklist_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/checklist_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeções
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeções
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo+1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo+1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo%2B1/inspecao_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo%2B1/inspecao_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo%2B1/inspecao_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo%2B1/inspecao_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/grupo%2B1/inspecao_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/reuniao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/reuniao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/reuniao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/reuniao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/reuniao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/tecnicas/reuniaoElicitacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/tecnicas/reuniaoElicitacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reunião 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação II
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação III
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apresentação VI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-dos-autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções dos autores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-estoria-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Estória de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estorias-de-usuario_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estórias de Usuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estórias de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eu_01-filtrar-informacoes-sobre-beneficios-sociais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_01 – Filtrar informações sobre benefícios sociais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_02-alteracao-de-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_02 – Alteração de dados cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_03-enviar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_03 – Enviar notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_04-cadastro-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_04 – Cadastro de usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_05-pre-cadastrar-familia" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_05 – Pré-cadastrar Família
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eu_06-consultar-dados-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      EU_06 – Consultar dados cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_07-possibilidade-de-outros-idiomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_07 – Possibilidade de outros idiomas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_08-modo-escuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_08 – Modo escuro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_09-visualizacao-de-informacoes-cadastrais" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_09– Visualização de informações cadastrais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_10-consulta-de-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_10 – Consulta de benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_11-emissao-de-comprovante-de-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_11– Emissão de comprovante de cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_12-atualizacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_12– Atualização de dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_13-cadastro-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_13 – Cadastro MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_14-acesso-a-conteudos-informativos-sobre-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_14 – Acesso a conteúdos informativos sobre MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_15-chat-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_15 – Chat de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_16-agendamento-no-cras" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_16 – Agendamento no CRAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_17-cadastro-de-familias" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_17 – Cadastro de Famílias
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_18-cadastro-de-pessoas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_18 – Cadastro de Pessoas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_19-cadastro-de-domicilios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_19 – Cadastro de Domicílios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_20-cadastro-de-agricultores-familiares" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_20 – Cadastro de Agricultores Familiares
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_21-processamento-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_21 – Processamento de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_22-correcao-de-inconsistencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_22 – Correção de Inconsistências
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_23-localizar-postos-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_23 – Localizar Postos de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_24-notificacao-de-pendencias-ou-atualizacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_24 – Notificação de Pendências ou Atualizações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_25-upload-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_25 – Upload de Documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_26-chatbot" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_26 - Chatbot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_27-chat-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_27 - Chat de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_28-tutoriais-interativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_28 - Tutoriais Interativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_29-assistencia-por-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_29 - Assistência por voz
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_30-simular-beneficios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_30 - Simular benefícios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_31-notificacoes-personalizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_31 - Notificações Personalizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_32-coleta-de-dados-via-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_32 - Coleta de Dados via Formulários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_33-atualizacao-dos-dados-familiares" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_33 - Atualização dos Dados Familiares
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_34-importacao-automatica-de-dados-do-cnis" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_34 - Importação Automática de Dados do CNIS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_35-suporte-com-videos-explicativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_35 - Suporte com Vídeos Explicativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_36-conteudo-mei-personalizado-por-setor-e-regiao" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_36 - Conteúdo MEI Personalizado por Setor e Região
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_37-integracao-com-sistemas-mei" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_37 - Integração com Sistemas MEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historia-eu_38-login-com-govbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      História EU_38 - Login com GOV.br
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreabilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Referências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-que-e-historia-de-usuario-user-story" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que é História de Usuário? (User Story)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="estorias-de-usuario">Estórias de Usuário</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento tem como finalidade apresentar as Histórias de Usuário (User Stories) desenvolvidas para o sistema, seguindo as diretrizes estabelecidas pela Coordenação Geral de Tecnologia da Informação (CGTI). As histórias de usuário são uma técnica ágil utilizada para capturar requisitos de software de forma simples e centrada no usuário, descrevendo funcionalidades do ponto de vista de quem irá utilizá-las.</p>
+<p>O presente documento serve como base para a validação das funcionalidades do sistema, garantindo que as necessidades dos usuários sejam atendidas de forma eficaz e que os critérios de aceite sejam claramente definidos.</p>
+<h2 id="funcoes-dos-autores">Funções dos autores</h2>
+<p>A descrição das funções dos autores na criação e no desenvolvimento do artefato estão representadas na Tabela 1 abaixo.</p>
+<center>
+    <b>Tabela 1:</b> Funções dos autores no artefato
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td>Criação das Histórias de Usuário: 32 até 37; Enumeração de tabelas e padronização; Adição das fontes exigidas pelo professor</td>
+</tr>
+<tr>
+<td><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td>Criação do documento; Adaptação do template das historias no md; Adição das histórias de usuário de 19 a 25; Adição das referências</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td>Criação das Histórias de Usuário: 1 à 6</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td>Revisão geral; Criação de 6 histórias de usuário</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td>Criação das histórias de usuário 20 até a 25</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td>Elaboração das Histórias de Usuário 26 à 31, Entrevista com o PO para validação, Elaboração inicial da Tabela X para rastreabilidade, Revisão</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
+</center>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>A elaboração das histórias de usuário seguiu as seguintes diretrizes metodológicas:</p>
+<ul>
+<li>Linguagem do usuário: Utilização de terminologia familiar aos usuários finais, evitando jargões técnicos</li>
+<li>Estrutura direta: Emprego de ordem direta nas frases para maior clareza</li>
+<li>Objetividade: Evitar redundâncias e frases negativas no texto</li>
+<li>Colaboração: Desenvolvimento conjunto com o Product Owner e desenvolvedores</li>
+<li>Critérios mensuráveis: Definição de critérios de aceite claros e testáveis</li>
+</ul>
+<p>As estórias foram validadas com a presença de um usuário, que ajudou a definir as prioridades e necessidade de implementação no aplicativo. Os participantes das entrevistas são apresentados por meio da Tabela 2 e 3.</p>
+<center>
+    <b>Tabela 2:</b> Participantes da reunião 
+</center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Participante</th>
+<th style="text-align: center;">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Davi G. A. Pierre</td>
+<td style="text-align: center;">Usuário/ Project Owner</td>
+</tr>
+<tr>
+<td style="text-align: center;">João Pedro Costa</td>
+<td style="text-align: center;">Desenvolvedor/Secretário</td>
+</tr>
+<tr>
+<td style="text-align: center;">Julia Paulino</td>
+<td style="text-align: center;">Desenvolvedora</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ryan Salles</td>
+<td style="text-align: center;">Desenvolvedor/Entrevistador</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b> 
+    <a href= "https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b>Tabela 3:</b> Participantes da reunião 
+</center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Participante</th>
+<th style="text-align: center;">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Lucas M. Arruda</td>
+<td style="text-align: center;">Usuário/ Project Owner</td>
+</tr>
+<tr>
+<td style="text-align: center;">João Pedro Costa</td>
+<td style="text-align: center;">Desenvolvedora/Secretário</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ryan Salles</td>
+<td style="text-align: center;">Desenvolvedor/Entrevistador</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b> 
+    <a href= "https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<p>A primeira reunião de validação, disponibilizada a seguir, foi realizada e gravada via <strong>Microsoft Teams</strong> no dia 30/05/2025.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSUJdqnPAb4?si=2k0uWOnWp9peWcgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>A segunda reunião, que conteve um trecho sobre validação, disponibilizada a seguir, foi realizada e gravada via <strong>Microsoft Teams</strong> no dia 01/06/2025.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T9YJ_fNqxn4?si=XW0fHgTrpbb4Jtso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h2 id="objetivo">Objetivo</h2>
+<p>O objetivo deste documento é:</p>
+<ul>
+<li>Documentar de forma estruturada as necessidades dos usuários do sistema</li>
+<li>Estabelecer critérios claros de aceite para cada funcionalidade</li>
+<li>Facilitar a comunicação entre equipes de desenvolvimento e stakeholders</li>
+<li>Garantir rastreabilidade dos requisitos ao longo do ciclo de desenvolvimento</li>
+<li>Padronizar a especificação de funcionalidades seguindo boas práticas ágeis</li>
+</ul>
+<h2 id="modelo-de-estoria-de-usuario">Modelo de Estória de Usuário</h2>
+<p>O modelo de estrutura a ser seguido na criação das Estórias de Usuário pode ser visualizado através da Tabela 3.</p>
+<center>
+    <b>Tabela 4</b>: Modelo de Estória de Usuário
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+<th>Obrigatório</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>Identificador único da história (formato: EU_XXX)</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Nome descritivo da funcionalidade</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Descrição clara do propósito da história do ponto de vista do usuário</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários que utilizarão a funcionalidade</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- xxx - xxx</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta, Média ou Baixa</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>Rastreabilidade do requisito</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Se está implementado ou não</td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<h2 id="estorias-de-usuario_1">Estórias de Usuário</h2>
+<p>As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único estão definidas, segundo o modelo explicado anteriormente, na Tabela 4 a 39.</p>
+<hr />
+<h3 id="eu_01-filtrar-informacoes-sobre-beneficios-sociais">EU_01 – Filtrar informações sobre benefícios sociais</h3>
+<center>
+    <b>Tabela 5:</b> EU_01 - Filtrar informações sobre benefícios sociais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_01</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Filtrar informações sobre benefícios socias</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de filtrar os serviços prestados, auxiliando minha busca</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve exibir uma opção para selecionar os itens que o usuário desejar ver.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF24</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="eu_02-alteracao-de-dados-cadastrais">EU_02 – Alteração de dados cadastrais</h3>
+<center>
+    <b>Tabela 6:</b> EU_02 - Alteração de dados cadastrais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_02</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Alteração de dados cadastrais</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de alterar meus dados pessoais durante o uso do aplicativo</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>O sistema deve ter uma área de alteração, que permita a troca dos dados do usuário.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF20</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="eu_03-enviar-notificacoes">EU_03 – Enviar notificações</h3>
+<center>
+    <b>Tabela 7:</b> EU_03 - Enviar notificações
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_03</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Enviar notificações</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de receber notificações relacionadas ao meu cadastro.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas que já são cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve enviar notificações de alerta acerca da situação cadastral do usuário.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF17</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="eu_04-cadastro-de-usuario">EU_04 – Cadastro de usuário</h3>
+<center>
+    <b>Tabela 8:</b> EU_04 - Cadastro de usuário
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_04</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cadastro de usuário</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de me cadastrar no CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas que já são cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço etc</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF19</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="eu_05-pre-cadastrar-familia">EU_05 – Pré-cadastrar Família</h3>
+<center>
+    <b>Tabela 9:</b> EU_05 - Pré-cadastrar Família
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_05</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Pré-cadastrar família</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de realizar um pré-cadastro da minha família para ter acesso aos benefícios.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas que não cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir que uma pessoa não cadastrada no CadÚnico inicie um pré-cadastro para sua família.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF15</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="eu_06-consultar-dados-cadastrais">EU_06 –  Consultar dados cadastrais</h3>
+<center>
+    <b>Tabela 10:</b> EU_06 - Consultar dados cadastrais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_06</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Consultar dados cadastrais</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de visualizar os dados que estão na plataforma.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Pessoas que já são cadastradas no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve exibir as informações de cadastro do usuário.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF14</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_07-possibilidade-de-outros-idiomas">História EU_07 – Possibilidade de outros idiomas</h3>
+<center>
+    <b>Tabela 11:</b> EU_07 - Possibilidade de outros idiomas
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_07</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Possibilidade de outros idiomas</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo poder acessar o aplicativo em outro idioma.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários gerais do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário deve ser capaz de alterar o idioma do aplicativo, de forma que ele fique conciso <br> Para mais detalhes cheque a introspecção: <a href="../../modelagem/introspecção.md">IS16</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF39</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_08-modo-escuro">História EU_08 – Modo escuro</h3>
+<center>
+    <b>Tabela 12:</b> EU_08 - Modo escuro
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_08</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Modo escuro</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo poder acessar o aplicativo na forma escura.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários gerais do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário deve ser capaz de configurar para seu aplicativo ficar no modo escuro, de forma que o constraste de cores continue com qualidade <br> Para mais detalhes cheque a introspecção: <a href="../../modelagem/introspecção.md">IS15</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF38</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_09-visualizacao-de-informacoes-cadastrais">História EU_09– Visualização de informações cadastrais</h3>
+<center>
+    <b>Tabela 13:</b> EU_09 - Visualização de informações cadastrais
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_09</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Visualização de informações cadastrais</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo poder visualizar minhas informações cadastrais</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários cadastrados no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário deve ser capaz de visualizar suas informações cadastrais <br> Para mais detalhes cheque a entrevista: <a href="../../modelagem/entrevista.md">ENT2</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF25</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_10-consulta-de-beneficios">História EU_10 – Consulta de benefícios</h3>
+<center>
+    <b>Tabela 14:</b> EU_10 - Consulta de benefícios
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_10</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Consulta de benefícios</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo consultar a situação do meu benefício</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários com benefícios no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário deve ser capaz de visualizar as situações de seus benefícios. <br> Para mais detalhes cheque a entrevista: <a href="../../modelagem/entrevista.md">ENT1</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF24</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_11-emissao-de-comprovante-de-cadastro">História EU_11– Emissão de comprovante de cadastro</h3>
+<center>
+    <b>Tabela 15:</b> EU_11 - Emissão de comprovante de cadastro
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_11</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Emissão de comprovante de cadastro</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo poder emitir um comprovante de cadastro no sistema</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários cadastrados no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário cadastrado deve ser capaz de emitir um comprovante de cadastro no sistema. <br> Para mais detalhes cheque a introspecção: <a href="../../modelagem/introspecção.md">IS9</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF22</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_12-atualizacao-de-dados">História EU_12– Atualização de dados</h3>
+<center>
+    <b>Tabela 16:</b> EU_12 - Atualização de dados
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_12</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Atualização de dados</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário desejo poder atualizar os meus dados no sistema</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários cadastrados no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Qualquer usuário cadastrado deve ser capaz atualizar seus dados pelo sistema. <br> Para mais detalhes cheque a introspecção: <a href="../../modelagem/introspecção.md">IS7</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF20</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_13-cadastro-mei">História EU_13 – Cadastro MEI</h3>
+<center>
+    <b>Tabela 17:</b> EU_13 - Cadastro MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_13</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Registro da condição de MEI no cadastro do usuário</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário em processo de cadastro no CadÚnico, quero informar que sou Microempreendedor Individual para receber conteúdos e serviços direcionados.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário em processo de cadastro no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Exibir opção "Sou MEI" durante o cadastro.<br>- Permitir marcação da opção.<br>- Armazenar a informação no perfil.<br>- Caso não marque, seguir fluxo normalmente.<br>- Se selecionar "Sou MEI" sem CNPJ válido, solicitar verificação adicional. <br> Para mais detalhes cheque o cenário: <a href="../../cenarios/">CN10</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF11</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_14-acesso-a-conteudos-informativos-sobre-mei">História EU_14 – Acesso a conteúdos informativos sobre MEI</h3>
+<center>
+    <b>Tabela 18:</b> EU_14 - Acesso a conteúdos informativos sobre MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_14</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Acesso a conteúdos informativos sobre microempreendedorismo</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário MEI autenticado no CadÚnico, quero acessar informações sobre obrigações, direitos e oportunidades para me informar melhor.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário MEI autenticado no CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Permitir acesso à seção “MEI”.<br>- Exibir conteúdos organizados por temas.<br>- Navegar entre temas.<br>- Exibir aviso para usuários não MEI.<br>- Informar necessidade de conexão quando offline.<br> Para mais detalhes cheque o cenário: <a href="../../cenarios/">CN11</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF12</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_15-chat-de-atendimento">História EU_15 – Chat de Atendimento</h3>
+<center>
+    <b>Tabela 19:</b> EU_15 - Chat de atendimento
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_15</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Chat de Atendimento</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, quero utilizar um chat de atendimento para receber suporte rápido e tirar dúvidas.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve disponibilizar um chat para atendimento.<br>- Permitir troca de mensagens em tempo real.<br>- Notificar usuário sobre respostas.<br>- Registrar histórico das conversas.<br>- Disponível em todas as telas do aplicativo.<br> Para mais detalhes cheque o cenário: <a href="../../cenarios/">CN08</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF26</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_16-agendamento-no-cras">História EU_16 – Agendamento no CRAS</h3>
+<center>
+    <b>Tabela 20:</b> EU_16 - Agendamento no CRAS
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_16</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Agendamento no CRAS</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário do CadÚnico, quero realizar o agendamento de atendimento no CRAS para evitar filas e facilitar o processo.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O usuário acessa a opção "Agendamento de Atendimento" dentro do CadÚnico.<br>- O sistema exibe calendário com horários disponíveis.<br>- Usuário escolhe data, horário e local.<br>- Sistema verifica disponibilidade no CRAS.<br>- Confirma agendamento e envia notificação.<br>- Atualiza status do agendamento no perfil do usuário.<br>- Caso horário indisponível, sistema sugere outras opções.<br>- Se sistema do CRAS estiver fora do ar, armazena tentativa para nova sincronização.<br> Para mais detalhes cheque o cenário: <a href="../../cenarios/">CN14</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF30</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_17-cadastro-de-familias">História EU_17 – Cadastro de Famílias</h3>
+<center>
+    <b>Tabela 21:</b> EU_17 - Cadastro de famílias
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_17</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cadastro de Famílias</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário do CadÚnico, quero cadastrar famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais para garantir o acesso aos benefícios.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema permite cadastro de famílias com renda mensal até meio salário mínimo por pessoa.<br>- Permite cadastro vinculado a programas sociais.<br>- Valida dados obrigatórios de renda e vínculos.<br>- Confirma registro com mensagem de sucesso.<br>- Possibilita consulta e edição posterior do cadastro.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF01</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_18-cadastro-de-pessoas">História EU_18 – Cadastro de Pessoas</h3>
+<center>
+    <b>Tabela 22:</b> EU_18 - Cadastro de pessoas
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_18</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cadastro de Pessoas</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário do CadÚnico, quero registrar informações pessoais, como dados de identificação, documentação, frequência escolar e grau de instrução para compor corretamente o cadastro familiar.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- Permitir registro dos dados pessoais essenciais.<br>- Validar campos obrigatórios.<br>- Garantir integridade dos dados cadastrados.<br>- Confirmar o cadastro com mensagem de sucesso.<br>- Permitir consulta e edição dos dados pessoais.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF02</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_19-cadastro-de-domicilios">História EU_19 – Cadastro de Domicílios</h3>
+<center>
+    <b>Tabela 23:</b> EU_19 - Cadastro de domicílios
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_19</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cadastro de Domicílios</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, quero registrar características do meu domicílio para que meu perfil tenha informações completas sobre minha residência.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir o registro do tipo de construção.<br>- Registrar informações sobre abastecimento de água.<br>- Registrar tipo de iluminação.<br>- Registrar escoamento sanitário.<br>- Validar os dados informados e salvar no perfil.<br> Para mais detalhes cheque o cenário: <a href="../../cenarios/">CN</a></td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF03</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_20-cadastro-de-agricultores-familiares">História EU_20 – Cadastro de Agricultores Familiares</h3>
+<center>
+    <b>Tabela 24:</b> EU_20 - Cadastro de agricultores familiares
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_20</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cadastro de Agricultores Familiares</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como agricultor familiar, desejo cadastrar minhas informações no sistema para acessar benefícios específicos e garantir minha inclusão em programas sociais.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Agricultores familiares</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir o cadastro de agricultores familiares.<br>- Deve validar os dados obrigatórios do agricultor.<br>- O usuário deve receber confirmação do cadastro.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF04</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_21-processamento-de-dados">História EU_21 – Processamento de Dados</h3>
+<center>
+    <b>Tabela 25:</b> EU_21 - Processamento de Dados
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_21</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Processamento de Dados</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, desejo que meus dados sejam processados corretamente para garantir a atualização e integridade das informações no sistema.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve processar os dados inseridos de forma automática.<br>- Garantir a integridade e atualização das informações.<br>- Notificar o usuário em caso de erro no processamento.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF06</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_22-correcao-de-inconsistencias">História EU_22 – Correção de Inconsistências</h3>
+<center>
+    <b>Tabela 26:</b> EU_22 - Correção de Inconscistências
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_22</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Correção de Inconsistências</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, desejo corrigir inconsistências nos meus dados para garantir que meu cadastro esteja correto e atualizado.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve identificar e informar inconsistências nos dados.<br>- Permitir ao usuário corrigir as informações.<br>- Confirmar a correção e atualizar o cadastro.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF07</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_23-localizar-postos-de-atendimento">História EU_23 – Localizar Postos de Atendimento</h3>
+<center>
+    <b>Tabela 27:</b> EU_23 - Localizar postos de atendimento
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_23</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Localizar Postos de Atendimento</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, desejo localizar os postos de atendimento mais próximos para facilitar meu acesso aos serviços do CadÚnico.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve exibir postos de atendimento próximos com base na localização do usuário.<br>- Permitir busca por município ou endereço.<br>- Exibir informações de contato e horários de funcionamento.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF16</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_24-notificacao-de-pendencias-ou-atualizacoes">História EU_24 – Notificação de Pendências ou Atualizações</h3>
+<center>
+    <b>Tabela 28:</b> EU_24 - Notificação de pendências ou atualizações
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_24</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Notificação de Pendências ou Atualizações</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, desejo ser notificado sobre pendências ou atualizações no meu cadastro para manter meus dados sempre regulares.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve notificar o usuário sobre pendências ou atualizações necessárias.<br>- Permitir visualização detalhada da pendência.<br>- Orientar o usuário sobre como regularizar a situação.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF27</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_25-upload-de-documentos">História EU_25 – Upload de Documentos</h3>
+<center>
+    <b>Tabela 29:</b> EU_25 - Upload de documentos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_25</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Upload de Documentos</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, desejo enviar documentos digitalizados pelo aplicativo para complementar ou atualizar meu cadastro sem precisar ir presencialmente ao posto de atendimento.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuários do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir upload de documentos em formatos aceitos.<br>- Validar tipo e tamanho dos arquivos.<br>- Confirmar o envio e associar ao cadastro do usuário.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF29</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_26-chatbot">História EU_26 - Chatbot</h3>
+<center>
+    <b>Tabela 30:</b> EU_26 - Chatbot
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_26</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Chatbot</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como usuário, gostaria de acessar um chatbot para responder dúvidas frequentes de forma rápida e efetiva"</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O usuário consegue acessar o sistema; - O chatbot é capaz de entender perguntas em linguagem natural; - O chatbot é capaz de responder as dúvidas mais frequentes dos usuários</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF26</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_27-chat-de-atendimento">História EU_27 - Chat de Atendimento</h3>
+<center>
+    <b>Tabela 31:</b> EU_27 - Chat de atendimento
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_27</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Chat de atendimento</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como usuário, gostaria de uma linha de acesso direto a um atendente cuja experiência e capacidades técnicas para resolver rapidamente problemas, requisições, dúvidas e dificuldades sem a necessidade de ir a um CRAS"</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CádÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O usuário consegue acessar o sistema <br> - O atendente é capaz de receber e enviar mensagens em tempo real <br> - O usuário é capaz de receber e enviar mensagens em tempo real</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF34</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+<hr />
+<h3 id="historia-eu_28-tutoriais-interativos">História EU_28 - Tutoriais Interativos</h3>
+<center>
+    <b>Tabela 32:</b> EU_28 - Tutoriais interativos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_ 28</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Tutoriais Interativos</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como usuário novo, gostaria de ser guiado pelo aplicativo de forma automática na forma de um tutorial interativo para conhecer as funções e operações disponíveis no aplicativo e facilitar meu aprendizado e uso da ferramenta"</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário novo do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O tutorial é oferecido ao usuário quando ele entra no aplicativo pela primeira vez <br> - O tutorial explica e exemplifica o uso das principais funcionalidades e operações do aplicativo</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF35</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_29-assistencia-por-voz">História EU_29 - Assistência por voz</h3>
+<center>
+    <b>Tabela 33:</b> EU_29 - Assistência por voz
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_29</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Assistência por voz</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como usuário, gostaria de ser capaz de controlar o aplicativo por voz para que possa acessar as funcionalidades sem a necessidade de ver a tela"</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário com baixa ou nenhuma visibilidade</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O aplicativo deve ser capaz de reconhecer a voz do usuário <br> - O aplicativo deve ser capaz de realizar operações a partir de comandos por voz <br> - O aplicativo, mediante boa pronúncia e um microfone funcionando segundo especificação do fabricante do dispositivo, possuir taxa de acerto do comando pronunciado de no mínimo 95%</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF37</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_30-simular-beneficios">História EU_30 - Simular benefícios</h3>
+<center>
+    <b>Tabela 34:</b> EU_30 - Simular benefícios
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_30</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Simular benefícios</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>Eu, como usuário, gostaria de simular os benefícios segundo meus dados cadastrados para que possa garantir acesso aos meus direitos de forma mais fácil e informada.</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário do CadÚnico</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O usuário é capaz de simular os benefícios possíveis <br> - O aplicativo deve ser capaz de gerar um pré-relatório com validade para uso em um CRAS <br> - O aplicativo deve simular os benefícios utilizando os dados do usuário cadastrado de forma correta <br> - O relatório gerado deve ser enviado ao sistema para que possa estar disponível para atendentes</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF33</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_31-notificacoes-personalizadas">História EU_31 - Notificações Personalizadas</h3>
+<center>
+    <b>Tabela 35:</b> EU_31 - Notificações personalizadas
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_31</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Notificações personalizadas</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como usuário, gostaria de receber notificações personalizadas segundo meu perfil de usuário para me manter atualizado sobre minha situação específica "</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O aplicativo deve ser capaz de enviar notificações <br> - O aplicativo deve possuir forma de configuração de notificações <br> - O sistema de notificação deve ser capaz de ser desativado</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF09</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    Autor(es): 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_32-coleta-de-dados-via-formularios">História EU_32 - Coleta de Dados via Formulários</h3>
+<center>
+    <b>Figura 36:</b> EU_32 - Coleta de Dados via Formulários
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_32</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Coleta de Dados via Formulários</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário, quero usar formulários no aplicativo para conseguir registrar facilmente todos os dados importantes sobre domicílios, famílias, pessoas, suas ligações com programas sociais e informações de quem vive na rua, para que o aplicativo tenha dados sempre corretos e atualizados."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O aplicativo deve oferecer formulários principais e suplementares para o cadastro.<br>- O sistema deve permitir o registro completo de informações de domicílios, famílias e indivíduos. <br>- O sistema deve permitir o registro da vinculação a programas sociais e de dados específicos sobre pessoas em situação de rua.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF10</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_33-atualizacao-dos-dados-familiares">História EU_33 - Atualização dos Dados Familiares</h3>
+<center>
+    <b>Figura 37:</b> EU_33 - Atualização dos Dados Familiares
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_33</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Atualização dos Dados Familiares</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário, quero poder atualizar facilmente os dados cadastrais da minha família para que estejam de acordo e possamos manter o nosso acesso a programas e benefícios sociais."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário responsável da família</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve permitir a edição das informações pessoais dos membros da família.<br>- O sistema deve permitir a alteração dos dados de endereço e renda da família.<br>- O sistema deve salvar as modificações e confirmar que os dados da família foram atualizados.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF05</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_34-importacao-automatica-de-dados-do-cnis">História EU_34 - Importação Automática de Dados do CNIS</h3>
+<center>
+    <b>Figura 38:</b> EU_34 - Importação Automática de Dados do CNIS
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_34</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Importação Automática de Dados do CNIS</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário, quero que o sistema busque e importe automaticamente os dados de vínculos empregatícios e contribuições diretamente do CNIS, para que o processo de cadastro seja mais rápido, com informações mais precisas e menos sujeito a erros de digitação."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve ter a capacidade de se conectar ao CNIS para consultar dados de um cidadão (com as devidas autorizações). <br>- O sistema deve importar e exibir de forma clara para os dados retornados pelo CNIS. <br>- O sistema deve permitir que o usuário utilize os dados importados do CNIS para preencher ou validar as informações.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF18</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_35-suporte-com-videos-explicativos">História EU_35 - Suporte com Vídeos Explicativos</h3>
+<center>
+    <b>Figura 39:</b> EU_35 - Suporte com Vídeos Explicativos
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_35</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Suporte com Vídeos Explicativos</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário, quero poder assistir a vídeos dentro do aplicativo que expliquem as principais funcionalidades e processos, para que eu consiga entender melhor como usar o sistema e ganhar mais confiança."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário novo ou com dificuldades digitais</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O aplicativo deve possuir uma área ou links contextuais para acesso a vídeos explicativos. <br>- Os vídeos devem abordar o uso das funcionalidades mais importantes ou que geram mais dúvidas. <br>- Os vídeos devem ter linguagem simples, ser curtos e de fácil compreensão.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF36</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_36-conteudo-mei-personalizado-por-setor-e-regiao">História EU_36 - Conteúdo MEI Personalizado por Setor e Região</h3>
+<center>
+    <b>Figura 40:</b> EU_36 - Conteúdo MEI Personalizado por Setor e Região
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_36</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Conteúdo MEI Personalizado por Setor e Região</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário MEI, quero que os conteúdos e informações da seção MEI do sistema sejam adaptados ao meu setor de atividade e à minha região, para que eu possa encontrar facilmente orientações e recursos que sejam verdadeiramente relevantes para o meu negócio."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário MEI</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve identificar o setor de atuação e a região do Usuário MEI a partir dos seus dados cadastrais.<br>- O sistema deve exibir conteúdos na seção MEI que sejam especificamente relevantes para o setor de atuação e região geográfica do usuário."</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF13</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_37-integracao-com-sistemas-mei">História EU_37 - Integração com Sistemas MEI</h3>
+<center>
+    <b>Figura 41:</b> EU_37 - Integração com Sistemas MEI
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_37</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Integração com Sistemas MEI</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário MEI, quero que o sistema possa trocar informações de forma segura e padronizada com outros sistemas relevantes para Microempreendedores Individuais, para simplificar meus processos, evitar redigitação e manter minhas informações consistentes entre as plataformas."</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário MEI</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve ser capaz de se comunicar com sistemas externos designados para MEIs. <br>- O sistema deve permitir o envio e/ou recebimento de dados específicos de MEIs de/para esses sistemas externos. <br>- A troca de dados com os sistemas MEI deve ser realizada de forma segura.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF39</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
+
+<hr />
+<h3 id="historia-eu_38-login-com-govbr">História EU_38 - Login com GOV.br</h3>
+<center>
+    <b>Figura 42:</b> EU_38 - Login com GOV.br
+</center>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>EU_38</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Login com GOV.br</td>
+</tr>
+<tr>
+<td><strong>Objetivo</strong></td>
+<td>"Eu, como Usuário, quero que o sistema possibilite que o login e autenticação sejam feitos utilizando o GOV.br para que o processo de utilizar o aplicativo seja mais eficaz, prático e não seja necessário criar um login específico para a utilização dos sistemas"</td>
+</tr>
+<tr>
+<td><strong>Perfil(s)</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Critérios de Aceite</strong></td>
+<td>- O sistema deve ser capaz processar e autenticar um usuário. <br>- A autenticação do usuário para uso do sistema deve ser feita utilizando os sistemas do GOV.br.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td><a href="../../../elicitacao/requisitos_elicitados/">RF40</a></td>
+</tr>
+<tr>
+<td><strong>Implementado</strong></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<center>
+    <b>Autor(es):</b>
+    <a href="https://github.com/mandicrz" target="_blank">Ryan Salles</a>
+</center>
+
+<hr />
+<h2 id="rastreabilidade">Rastreabilidade</h2>
+<p>A Tabela 42 apresenta a rastreabilidade geral das histórias de usuário para os requisitos elicitados e cenários utilizados para elaboração e compreensão dos critérios de aceitação.</p>
+<center>
+    <b>Tabela 42:</b> Rastreabilidade de relacionamento EU-REQ-CN
+</center>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Estória de Usuário</th>
+<th style="text-align: center;">Requisito</th>
+<th style="text-align: center;">Cenário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">EU_01</td>
+<td style="text-align: center;">RF24</td>
+<td style="text-align: center;">CN07</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_02</td>
+<td style="text-align: center;">RF20</td>
+<td style="text-align: center;">CN14</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_03</td>
+<td style="text-align: center;">RF17</td>
+<td style="text-align: center;">CN03</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_04</td>
+<td style="text-align: center;">RF19</td>
+<td style="text-align: center;">CN03</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_05</td>
+<td style="text-align: center;">RF15</td>
+<td style="text-align: center;">CN06</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_06</td>
+<td style="text-align: center;">RF14</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_07</td>
+<td style="text-align: center;">RF39</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_08</td>
+<td style="text-align: center;">RF38</td>
+<td style="text-align: center;">CN09</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_09</td>
+<td style="text-align: center;">RF25</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_10</td>
+<td style="text-align: center;">RF24</td>
+<td style="text-align: center;">CN01</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_11</td>
+<td style="text-align: center;">RF22</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_12</td>
+<td style="text-align: center;">RF20</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_13</td>
+<td style="text-align: center;">RF11</td>
+<td style="text-align: center;">CN13, CN10</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_14</td>
+<td style="text-align: center;">RF12</td>
+<td style="text-align: center;">CN11</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_15</td>
+<td style="text-align: center;">RF26</td>
+<td style="text-align: center;">CN08</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_16</td>
+<td style="text-align: center;">RF30</td>
+<td style="text-align: center;">CN14</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_17</td>
+<td style="text-align: center;">RF01</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_18</td>
+<td style="text-align: center;">RF02</td>
+<td style="text-align: center;">CN03</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_19</td>
+<td style="text-align: center;">RF03</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_20</td>
+<td style="text-align: center;">RF04</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_21</td>
+<td style="text-align: center;">RF06</td>
+<td style="text-align: center;">CN06</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_22</td>
+<td style="text-align: center;">RF07</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_23</td>
+<td style="text-align: center;">RF16</td>
+<td style="text-align: center;">CN05</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_24</td>
+<td style="text-align: center;">RF27</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_25</td>
+<td style="text-align: center;">RF29</td>
+<td style="text-align: center;">CN16</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_26</td>
+<td style="text-align: center;">RF26</td>
+<td style="text-align: center;">CN08</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_27</td>
+<td style="text-align: center;">RF34</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_28</td>
+<td style="text-align: center;">RF35</td>
+<td style="text-align: center;">CN15</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_29</td>
+<td style="text-align: center;">RF37</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_30</td>
+<td style="text-align: center;">RF33</td>
+<td style="text-align: center;">CN07</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_31</td>
+<td style="text-align: center;">RF09</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_32</td>
+<td style="text-align: center;">RF10</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_33</td>
+<td style="text-align: center;">RF05</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_34</td>
+<td style="text-align: center;">RF18</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_35</td>
+<td style="text-align: center;">RF36</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_36</td>
+<td style="text-align: center;">RF13</td>
+<td style="text-align: center;">CN12</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_37</td>
+<td style="text-align: center;">RF39</td>
+<td style="text-align: center;">CN13</td>
+</tr>
+<tr>
+<td style="text-align: center;">EU_38</td>
+<td style="text-align: center;">RF40</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+<!--
+
+UTILIZADAS: 01, 02, 03, 04, 05, 06, 07, 09, 10, 11, 12, 13, 16, 18, 20, 23, 24, 25, 26, 27, 29, 30, 33, 34, 35, 36, 37, 38, 39, 40
+
+DUPLICATAS:
+- 01-30
+- 02-12
+- 03-18
+- 05-23
+- 06-08
+
+MELHORAR: 
+- 01 a 06 -> inserir criterios de aceite mais específicos, inserir prioridade.
+- 07 a 12 -> inserir objetivo de realizar operação na estória, 
+
+-->
+
+<center>
+    <b>Autor(es):</b>
+    <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
+</center>
+
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>COORDENAÇÃO GERAL DE TECNOLOGIA DA INFORMAÇÃO - CGTI. EU_xxx_Titulo_da_Estoria_de_Usuario: template para especificação de histórias de usuário. [S.l.]: CGTI, 2018. 5 p. Disponível em: <a href="../../../assets/modelagem/US/template_historia_de_usuario.pdf" target="_blank">História de Usuário</a>. Acesso em: 22 de maio 2025.</p>
+<p>PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. Acesso em: 28 de maio 2025.</p>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 15a [slide em PDF], P. 12 - 14. Aprender3, Universidade de Brasília, 2025. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf</a>. Acesso em: 01 jun. 2025.</p>
+</blockquote>
+<h4 id="o-que-e-historia-de-usuario-user-story">O que é História de Usuário? (User Story)</h4>
+<p>As Figuras 1 a 3 a seguir explicam o que são as histórias de usuário, também exemplificando os critérios de aceitação, e foram responsáveis por auxiliar o processo de criação do artefato.</p>
+<center>
+    <b>Figura 1:</b> User Story - Parte 1
+</center>
+
+<p><img alt="US Fonte 1" src="../../../assets/modelagem/US/us_fonte1.png" /></p>
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício. 
+</center>
+
+<center>
+    <b>Figura 2:</b> User Story - Parte 2
+</center>
+
+<p><img alt="US Fonte 2" src="../../../assets/modelagem/US/us_fonte2.png" /></p>
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício.
+</center>
+
+<center>
+    <b>Figura 3:</b> User Story - Parte 3
+</center>
+
+<p><img alt="US Fonte 3" src="../../../assets/modelagem/US/us_fonte3.png" /></p>
+<center>
+    <b>Fonte:</b>
+    SERRANO, Milene; SERRANO, Maurício. 
+</center>
+
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">22/05/2025</td>
+<td style="text-align: center;">Criação do Documento</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">22/05/2025</td>
+<td style="text-align: center;">Adaptação do template das histórias de usuário e adição de referências</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">26/05/2025</td>
+<td style="text-align: center;">Adição das minhas Histórias de Usuário</td>
+<td style="text-align: center;"><a href="https://github.com/JoaoPC10">João Igor</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">28/05/2025</td>
+<td style="text-align: center;">Adição de Historias de Usuário de 19 a 25</td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">29/05/2025</td>
+<td style="text-align: center;">Adição de 6 Histórias de Usuário, correção dos IDs</td>
+<td style="text-align: center;"><a href="https://github.com/JuliaGabP">Julia Gabriela</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">29/05/2025</td>
+<td style="text-align: center;">Adição da histórias de usuário 20 até 25</td>
+<td style="text-align: center;"><a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></td>
+<td style="text-align: center;"><a href="https://github.com/johnaopedro">João Pedro Costa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">Adição da histórias de usuário 32 a 37</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">Padronização do  documento e enumeração de tabelas</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.8</td>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">Atualização da numeração de tabelas, inserção de entrevista, tabela de rastreabilidade e estórias de 26 a 31</td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">Adição de imagens das referências</td>
+<td style="text-align: center;"><a href="https://github.com/mandicrz">Amanda Cruz</a></td>
+<td style="text-align: center;"><a href="https://github.com/RA-Salles">Ryan Salles</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
