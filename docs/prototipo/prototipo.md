@@ -29,15 +29,10 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Funcionalidade:** Modo escuro; Adição de outros idiomas.  
 **Rastreabilidade:** [RF38](../../elicitacao/requisitos_elicitados.md) [RF39](../../elicitacao/requisitos_elicitados.md)   
 **Ferramentas:** ChatGPT e Paint.  
-**Tipo:** Baixa fidelidade.  
-**Antes da prototipagem**
+**Tipo:** Alta Fidelidade.  
+**Telas da prototipagem**
 <div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo1.0.jpeg" alt="Print da tela">
-</div>
-
-**Depois da prototipagem**
-<div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo1.1.jpeg" alt="Protótipo modo escuro e novo idioma">
+    <img src="../../assets/prototipo/prototipo1.0.jpeg" alt="Protótipo modo escuro e novo idioma">
 </div>
 
 ## Protótipo 2
