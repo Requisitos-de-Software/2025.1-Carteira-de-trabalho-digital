@@ -28,12 +28,14 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Autora:** Julia Gabriela.  
 **Funcionalidade:** Modo escuro; Adição de outros idiomas.  
 **Rastreabilidade:** [RF38](../../elicitacao/requisitos_elicitados.md) [RF39](../../elicitacao/requisitos_elicitados.md)   
-**Ferramentas:** ChatGPT e Paint.  
+**Ferramentas:** Figma.  
 **Tipo:** Alta Fidelidade.  
 **Telas da prototipagem**
 <div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo1.0.jpeg" alt="Protótipo modo escuro e novo idioma">
+    <img src="../../assets/prototipo/prototipo1.0.png" alt="Protótipo modo escuro e novo idioma">
 </div>
+
+**Link** para acesso [clique aqui](https://www.figma.com/design/UEcxBHjeqzLTmSWEwXQN2T/Sem-t%C3%ADtulo?node-id=0-1&p=f&t=xMxhNQEYE3KTzV0o-0)
 
 ## Protótipo 2
 **Autor:** João Igor
