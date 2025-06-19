@@ -4,7 +4,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação dos protótipos 4 e 5| 
 |[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02 e 03| 
 |[João Pedro Costa](https://github.com/johnaopedro)|| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
@@ -71,26 +71,36 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 
 
 ## Protótipo 4
-**Autor:**  
-**Funcionalidade:**   
-**Rastreabilidade:**   
-**Ferramentas:**  
-**Tipo:**    
+**Autor:** [Gabriel Flores](https://github.com/Gabrielfcoelho)   
+**Funcionalidade:** Upload de documentos    
+**Rastreabilidade:** [RF29](../../elicitacao/requisitos_elicitados.md)  
+**Ferramentas:** Figma e Canva  
+**Tipo:** Alta Fidelidade  
 **Antes da prototipagem**
-
+<div style="text-align: left;">
+    <img src="../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
+</div>
 
 **Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../assets/prototipo/Upload.gif" alt="Gif da funcionalidade de upload de documentos" style="width:185">
+</div>
 
 ## Protótipo 5
-**Autor:**  
-**Funcionalidade:**   
-**Rastreabilidade:**   
-**Ferramentas:**  
-**Tipo:**    
+**Autor:**  [Gabriel Flores](https://github.com/Gabrielfcoelho)   
+**Funcionalidade:**  Notificação de Pendências ou Atualizações   
+**Rastreabilidade:**  [RF27](../../elicitacao/requisitos_elicitados.md)   
+**Ferramentas:**  Figma e Canva  
+**Tipo:** Alta Fidelidade  
 **Antes da prototipagem**
-
+<div style="text-align: left;">
+    <img src="../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
+</div>
 
 **Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../assets/prototipo/notificacao.gif" alt="Gif da funcionalidade de notificações" style="width:185">
+</div>
 
 ## Protótipo 6
 **Autor:**  
@@ -118,3 +128,4 @@ BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://ht
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 12/06/2025 | Criando a pagina e adicionando teoria | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5 | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
