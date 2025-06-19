@@ -3,7 +3,7 @@
 ## Função dos autores
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
-|[Amanda Cruz](https://github.com/mandicrz)|| 
+|[Amanda Cruz](https://github.com/mandicrz)| Criação do protótipo 6 | 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação dos protótipos 4 e 5| 
 |[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02 e 03| 
 |[João Pedro Costa](https://github.com/johnaopedro)|| 
@@ -103,15 +103,23 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 </div>
 
 ## Protótipo 6
-**Autor:**  
-**Funcionalidade:**   
-**Rastreabilidade:**   
-**Ferramentas:**  
-**Tipo:**    
-**Antes da prototipagem**
+**Autor:** [Amanda Cruz](https://github.com/mandicrz)   
+**Funcionalidade:** Suporte com vídeos explicativos e Integração com sistemas MEI 
+**Rastreabilidade:** [RF36](../../elicitacao/requisitos_elicitados.md) e [RF39](../../elicitacao/requisitos_elicitados.md)  
+**Ferramentas:** Figma
+**Tipo:** Alta fidelidade
+**Antes da prototipagem**: 
 
+<div style="text-align: left;">
+    <img src="../assets/prototipo/Antes6.png" alt="Cópia da tela inicial" style="width:185">
+</div>
 
-**Depois da prototipagem**  
+**Depois da prototipagem**:
+
+<div style="text-align: left;">
+    <img src="../assets/prototipo/videos_integracao.gif" alt="Gif funcionalidade de vídeos e integração MEI" style="width:185">
+</div>
+
 
 ## Bibliografia
 BRUTON, L. A complete guide to prototyping - UX Design Institute. Disponível em: <https://www.uxdesigninstitute.com/blog/prototyping-guide/>.
@@ -129,3 +137,4 @@ BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://ht
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
 |  1.0   | 12/06/2025 | Criando a pagina e adicionando teoria | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5 | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
+|  1.2   | 19/06/2025 | Adição dos protótipos 6 | [Amanda Cruz](https://github.com/mandicrz)     | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
