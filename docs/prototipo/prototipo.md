@@ -6,7 +6,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)| Criação do protótipo 6 | 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação dos protótipos 4 e 5| 
 |[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02 e 03| 
-|[João Pedro Costa](https://github.com/johnaopedro)|| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento)| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
 |[Ryan Salles](https://github.com/RA-Salles)|| 
 <center>
@@ -121,6 +121,38 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 </div>
 
 
+## Protótipo 7
+**Autor:** [João Pedro Costa](https://github.com/johnaopedro)  
+**Funcionalidade:** Chat de Atendimento  
+**Rastreabilidade:** [RF34](../../elicitacao/requisitos_elicitados.md)  
+**Ferramentas:** Figma  
+**Tipo:** Alta Fidelidade  
+**Antes da prototipagem**  
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/Antes4e5.png" alt="Tela antes do chat de atendimento" style="width:185">
+</div>
+
+**Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/chat_atendimento.gif" alt="Gif do chat de atendimento" style="width:185">
+</div>
+
+## Protótipo 8
+**Autor:** [João Pedro Costa](https://github.com/johnaopedro)  
+**Funcionalidade:** Agendar Atendimento  
+**Rastreabilidade:** [RF30](../../elicitacao/requisitos_elicitados.md)  
+**Ferramentas:** Figma  
+**Tipo:** Alta Fidelidade  
+**Antes da prototipagem**  
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/Antes4e5.png" alt="Tela antes do agendamento" style="width:185">
+</div>
+
+**Depois da prototipagem**  
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/agendar_atendimento.gif" alt="Gif do agendamento de atendimento" style="width:185">
+</div>
+
 ## Bibliografia
 BRUTON, L. A complete guide to prototyping - UX Design Institute. Disponível em: <https://www.uxdesigninstitute.com/blog/prototyping-guide/>.
 <div style="text-align: left;">
@@ -138,3 +170,4 @@ BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://ht
 |  1.0   | 12/06/2025 | Criando a pagina e adicionando teoria | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 |  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5 | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
 |  1.2   | 19/06/2025 | Adição dos protótipos 6 | [Amanda Cruz](https://github.com/mandicrz)     | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+|  1.3   | 20/06/2025 | Adição dos protótipos 7 e 8 | [João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
