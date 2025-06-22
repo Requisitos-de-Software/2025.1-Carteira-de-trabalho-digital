@@ -1,4 +1,4 @@
-# Inspeção Fagan – Etapa 1
+# Inspeção Fagan – Etapa 2
 
 ## Funções dos autores
 
@@ -86,7 +86,7 @@ São artefatos da entrega 2:
 ### 1.1. Planejamento para inspeção 1
 
 *   **Artefatos:** Introspecção; Análise de Documentação; Three Level Scale.
-*   **Objetivo Principal:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
+*   **Objetivo Principal dos artefatos:** Elicitar e priorizar os requisitos.
 *   **Participantes:**
     *   **Moderador/Inspetor:** Ryan Salles
     *   **Autor/Leitor:**       João Pedro Costa
@@ -97,8 +97,8 @@ São artefatos da entrega 2:
 
 ### 1.2. Planejamento para inspeção 2
 
-*   **Artefatos:** 
-*   **Objetivo Principal:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
+*   **Artefatos:** Introspecção, Análise de Documentação, MoSCoW, Requisitos Elicitados
+*   **Objetivo Principal dos artefatos:** Elicitar e priorizar os requisitos. Agrupar os requisitos elicitados em um único documento.
 *   **Participantes:**
     *   **Moderador/Inspetor:** João Pedro Costa
     *   **Autor/Leitor:**       Ryan Salles
@@ -118,7 +118,7 @@ Cada participante da reunião foi encarregado de verificar o documento por conta
 Para verificar a conformidade dos artefatos, foram utilizadas as listas de verificação presentes na tabela 1.
 
 Legenda:
-- ET1_LSTX        : ID da lista utilizada para a verificação dessa etapa
+- ET2_LSTX        : ID da lista utilizada para a verificação dessa etapa
 - Título          : Título da lista de verificação
 - Disponível em   : Local onde a lista pode ser encontrada 
 
@@ -144,7 +144,7 @@ Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar
 ### 3.1. Inspeção I
 Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 
-*   **Ata da Reunião de Inspeção do `Pagina Inicial`**
+*   **Ata da Reunião de Inspeção I da etapa 2**
     *   **Data:** 22/06/2025
     *   **Horário:** 12:30 - 12:45
     *   **Participantes:** Ryan Salles, João Pedro Costa.
@@ -155,7 +155,7 @@ Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 ### 3.2. Inspeção II
 Seguindo o planejamento realizado, a inspeção II foi realizada como segue:
 
-*   **Ata da Reunião de Inspeção do `Pagina Inicial`**
+*   **Ata da Reunião de Inspeção II da etapa 2**
     *   **Data:** 22/06/2025
     *   **Horário:** 12:45 - 13:00
     *   **Participantes:** Ryan Salles, João Pedro Costa.

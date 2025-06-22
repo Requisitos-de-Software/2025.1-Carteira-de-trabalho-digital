@@ -1,11 +1,11 @@
-# Inspeção Fagan – Etapa 4
+# Inspeção Fagan – Etapa 3
 
 ## Funções dos autores
 
 | Nome                                              | Função                                                                  | 
 |---------------------------------------------------|-------------------------------------------------------------------------|
-|[João Pedro Costa](https://github.com/johnaopedro) |Criação da página; Desenvolvimento da introdução; Criação das tabelas; Criação do template da inspeção pelo metodo de Fagan; Desenvolvimento de todas as inspeções. | 
-|[Ryan Salles](https://github.com/RA-Salles)        |Revisão geral.                                                           | 
+|[João Pedro Costa](https://github.com/johnaopedro) | Criação da página; Desenvolvimento da introdução; Criação das tabelas; Criação do template da inspeção pelo metodo de Fagan; Desenvolvimento de todas as inspeções. | 
+|[Ryan Salles](https://github.com/RA-Salles)        | Revisão geral, manutenção de tabelas, refatorção, adição de informações.                                                          | 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -15,7 +15,9 @@
 
 A inspeção Fagan é uma técnica formal de revisão de artefatos desenvolvida por M. E. Fagan na IBM em 1976. É um processo estruturado que pode identificar e eliminar aproximadamente 80% dos defeitos durante o desenvolvimento de software, além de reduzir custos e prazos em cerca de 30%. O processo é composto por seis etapas fundamentais: Planejamento, Visão Geral, Preparação (com checklist), Reunião de Inspeção, Retrabalho e Follow-up.
 
-### Benefícios da Inspeção Fagan
+Pela sua natureza como uma forma de verificação, o propósito de realização de uma inspeção é obter uma visualização clara dos defeitos encontrados nos artefatos inspecionados para que seja possível consertar os defeitos e melhor atender as partes interessadas.
+
+### Benefícios da Inspeção
 
 - Redução significativa de defeitos reportados pelos usuários
 - Aumento da satisfação do cliente
@@ -30,7 +32,7 @@ A inspeção Fagan é uma técnica formal de revisão de artefatos desenvolvida 
 
 O processo de inspeção Fagan segue uma estrutura rigorosa que visa maximizar a detecção e correção de defeitos. Esta metodologia requer uma definição clara do estado do produto de trabalho a ser inspecionado, com participantes assumindo papéis bem definidos durante todo o processo. É essencial que seja dedicado tempo adequado para a preparação dos inspetores, que utilizam checklists específicos para guiar sua análise. O processo estabelece critérios claros de entrada e saída, garantindo que cada etapa seja concluída adequadamente antes de prosseguir. Toda a inspeção é devidamente documentada, incluindo a coleta de dados relevantes, e são estabelecidos procedimentos claros para o retrabalho e sua verificação.
 
-Para os artefatos ágeis, nossa inspeção terá um foco especial na verificação da clareza e objetividade das histórias de usuário, garantindo que elas sigam o formato adequado e contenham todos os elementos necessários. Será dada atenção especial à priorização do backlog, verificando se ela reflete adequadamente as necessidades do negócio e dos usuários. A completude dos critérios de aceitação será analisada, assegurando que eles forneçam diretrizes claras para o desenvolvimento e teste. Também será verificada a rastreabilidade com outros artefatos do projeto e a conformidade com as boas práticas ágeis estabelecidas pela comunidade.
+Para os artefatos de planejamento, nossa inspeção terá um foco especial na verificação da completude e consistência do cronograma, na adequação das ferramentas escolhidas, na clareza da metodologia definida e na viabilidade do planejamento como um todo. Aspectos como a distribuição equilibrada de tarefas, a definição clara de responsabilidades e a adequação dos prazos estabelecidos serão cuidadosamente analisados. Também será dada atenção especial à integração entre diferentes elementos do planejamento, como a relação entre o cronograma e o heatmap de disponibilidade da equipe.
 
 ### Processo de Inspeção
 
@@ -43,318 +45,153 @@ O processo de inspeção Fagan é rigorosamente estruturado e requer:
 6. Documentação apropriada e coleta de dados
 7. Procedimentos claros para retrabalho e verificação
 
-### **Inspeção Fagan: Artefato 1/3 - `NFR Framework`**
+### Resultados da inspeção
 
-#### 1. Planejamento da Inspeção
+Os artefatos resultantes da inspeção serão utilizados durante o processo de análise de resultados, retrabalho e "follow-up" e são:
+1. Relatório do estado do documento;
+2. Registro dos defeitos encontrados.
 
-*   **Elementos do Artefato:** Introdução, softgoals, operacionalizações, claims, propagações, impactos e contribuições entre softgoals.
-*   **Objetivo Principal:** Avaliar a qualidade e completude do NFR Framework, garantindo que os requisitos não-funcionais estejam adequadamente representados e analisados.
-*   **Materiais Complementares:**
-    *   Documentação dos requisitos não-funcionais elicitados
-    *   Guia de notação do NFR Framework
-    *   Histórico de decisões de arquitetura
-*   **Simulação de Participantes:**
-    *   **Moderador:** Amanda Cruz
-    *   **Autores:** João Pedro Costa, Ryan Salles
-    *   **Leitor:** Julia Gabriela
-    *   **Inspetor:** Gabriel Flores
+Esses artefatos serão utilizados para localizar e corrigir os defeitos encontrados. 
+
+### Follow-up
+Após a correção dos defeitos encontrados, o moderador deverá ser notificado pelo responsável e deverá verificar se tais correções foram aceitas. Caso 
+necessário, uma nova inspeção será realizada.
+
+---
+
+# Inspeção
+
+Essa seção descreve como se deu a inspeção realizada para a Etapa 4.
+
+## 1. Planejamento da Inspeção
+
+Essa seção apresentará todos os planejamentos para inspeções elaborados.
+
+Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 4.
+
+São artefatos da entrega 4:
+
+- Documento de NFR
+- Histórias de Usuário
+- Backlog de Desenvolvimento do Produto
+
+### 1.1. Planejamento para Inspeção I para a etapa 4
+
+*   **Artefatos alvo:** Documento de NFR; Histórias de Usuário; Backlog de Desenvolvimento do Produto.
+*   **Objetivo Principal dos artefatos:** Modelar os requisitos elicitados durante a etapa 2 utilizando métodos ágeis.
+*   **Participantes:**
+    *   **Moderador/Inspetor:** Ryan Salles
+    *   **Autor/Leitor:**       João Pedro Costa
 *   **Simulação de Agenda:**
-    *   **Data:** 22/05/2025
-    *   **Horário:** 14:00 - 14:30
-    *   **Pauta:** Revisão formal do artefato `NFR Framework`.
+    *   **Data:**    22/06/2025
+    *   **Horário:** 12:30 - 12:45
+    *   **Pauta:**   Revisão formal dos artefatos da Quarta etapa elaborados pelo grupo 4.
 
-#### 2. Visão Geral
+## 2. Preparação
 
-*   **Resumo Técnico:** O NFR Framework é uma abordagem para representar e analisar requisitos não-funcionais, usando um tipo de grafo de interdependência de softgoals (SIG). O documento apresenta diversos diagramas que capturam diferentes aspectos de qualidade do sistema.
-*   **Contexto no Projeto:** Este artefato é fundamental para garantir que aspectos de qualidade como usabilidade, desempenho e segurança sejam adequadamente considerados no desenvolvimento.
-*   **Papéis e Responsabilidades:**
-    *   **Moderador (Amanda):** Garantir que a inspeção mantenha o foco nos aspectos de qualidade.
-    *   **Autores (João Pedro e Ryan):** Explicar as decisões de modelagem e as relações entre softgoals.
-    *   **Leitor (Julia):** Ler os diagramas e suas explicações para identificar inconsistências.
-    *   **Inspetor (Gabriel):** Verificar a conformidade com a notação e a completude da análise.
+Ao contrário do planejamento, que exigiu o detalhamento do planejamento de cada inspeção realizada para essa etapa, a preparação
+foi e deve ser unificada para permitir uma lista coesa de defeitos e menos ou nenhuma incoerência entre os defeitos observados 
+entre as inspeções dessa etapa.
 
-#### 3. Checklist de Verificação
-- [ ] Os softgoals estão claramente identificados?
-- [ ] As operacionalizações são específicas e implementáveis?
-- [ ] As propagações de impacto estão corretamente analisadas?
-- [ ] Os claims justificam adequadamente as decisões?
-- [ ] A notação está consistente em todos os diagramas?
-- [ ] Todos os requisitos não-funcionais importantes foram considerados?
+Cada participante da reunião foi encarregado de verificar o documento por conta própria antes da reunião de inspeção utilizando as listas de inspeção.
 
-#### 4. Preparação
+Para verificar a conformidade dos artefatos, foram utilizadas as listas de verificação presentes na tabela 1.
 
-*   **Análise Detalhada (Defeitos Encontrados):**
-    *   **Inconsistência (Notação):** Alguns softgoals de operacionalização não seguem o padrão de representação com borda dupla.
-    *   **Omissão (Análise):** Faltam claims para justificar algumas decisões de propagação de impacto.
-    *   **Ambiguidade (Semântica):** A contribuição "HELP" entre softgoals de segurança não está clara quanto ao grau de suporte.
-    *   **Incompletude (Escopo):** O aspecto de manutenibilidade não foi considerado no framework.
-*   **Perguntas Críticas Preparadas:**
-    *   "Por que algumas operacionalizações não têm critérios de satisfação definidos?"
-    *   "Como foi determinado o impacto das contribuições parciais?"
-    *   "Existem conflitos entre os diferentes aspectos de qualidade que precisam ser melhor analisados?"
+Legenda:
+- ET4_LSTX        : ID da lista utilizada para a verificação dessa etapa
+- Título          : Título da lista de verificação
+- Disponível em   : Local onde a lista pode ser encontrada 
 
-#### 5. Reunião de Inspeção
 
-*   **Critérios de Entrada para a Reunião:**
-    - Logs de preparação completos de cada inspetor
-    - Diagramas marcados com observações
-    - Todos os participantes confirmaram revisão prévia do material
-    - Checklist de verificação preenchido
+<center>
+    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 1
+</center>
 
-*   **Ata da Reunião de Inspeção do `NFR Framework`**
-    *   **Data:** 22/05/2025
-    *   **Participantes:** Amanda Cruz, João Pedro Costa, Ryan Salles, Julia Gabriela, Gabriel Flores.
-    *   **Defeitos Logados:**
-        1.  **ID 01-NFR (Notação):** Inconsistência na representação de operacionalizações.
-            *   *Observação do Inspetor:* "A falta de padronização dificulta a leitura e compreensão dos diagramas."
-        2.  **ID 02-NFR (Análise):** Justificativas insuficientes para propagações.
-            *   *Observação do Moderador:* "Claims são essenciais para documentar o raciocínio por trás das decisões."
-        3.  **ID 03-NFR (Escopo):** Ausência de análise de manutenibilidade.
-            *   *Observação dos Autores:* "Este é um aspecto crítico que precisa ser incorporado ao framework."
-    *   **Decisões:** Os autores devem padronizar a notação, adicionar claims para todas as propagações significativas e criar um novo diagrama para manutenibilidade.
+| ID         | Título                                                            | Disponível em                                                             |
+|---         |--------                                                           |------                                                             |
+| ET4_LST1   | Lista de verificação para a primeira etapa elaborada pelo grupo 4 | [link](../../verificacao/checklist_4.md)                          |
+| ET4_LST2   | Lista de verificação - Etapa 1                                    | [link](https://aprender3.unb.br/mod/resource/view.php?id=1399913) |
 
-#### 6. Retrabalho
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
-*   **Defeito ID 01-NFR:**
-    *   **Correção Proposta:** Revisar todos os diagramas e ajustar a representação das operacionalizações para usar consistentemente a borda dupla.
-    *   **Impacto da Não Correção:** Dificuldade de compreensão e possíveis interpretações errôneas dos diagramas.
-    *   **Ação:** Autores devem atualizar a notação em todos os diagramas.
-    *   **Reinspeção:** Sim, após a padronização.
-*   **Defeito ID 02-NFR:**
-    *   **Correção Proposta:** Adicionar claims explicativos para cada propagação de impacto significativa.
-    *   **Impacto da Não Correção:** Perda do raciocínio que justifica as decisões de design.
-    *   **Ação:** Autores devem documentar as justificativas.
-    *   **Reinspeção:** Sim, focada na clareza e completude dos claims.
-*   **Defeito ID 03-NFR:**
-    *   **Correção Proposta:** Criar um novo SIG focado em manutenibilidade.
-    *   **Impacto da Não Correção:** Aspectos importantes de qualidade não considerados.
-    *   **Ação:** Autores devem desenvolver o novo diagrama.
-    *   **Reinspeção:** Sim, do novo diagrama.
 
-#### 7. Follow-up
-Após as correções, o moderador revisará o artefato para garantir que todos os defeitos foram sanados. Caso necessário, uma nova reinspeção será agendada.
+## 3. Reuniões de Inspeção
 
-*   **Critérios de Saída da Reunião:**
-    - Todos os defeitos identificados foram registrados e categorizados
-    - Decisões sobre correções foram documentadas
-    - Necessidade de reinspeção foi avaliada e registrada
-    - Relatório de inspeção foi finalizado e aprovado pelos participantes
+Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 1. As reuniões contém gravações realizadas via **Microsoft Teams**.
 
-### **Inspeção Fagan: Artefato 2/3 - `História de Usuário`**
+### 3.1. Inspeção I
+Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 
-#### 1. Planejamento da Inspeção
+*   **Ata da Reunião de Inspeção I da etapa 4**
+    *   **Data:** 22/06/2025
+    *   **Horário:** XX:YY - XX:YY
+    *   **Participantes:** AQUI OS PARTICIPANTES
+    *   **Local:** Remoto
 
-*   **Elementos do Artefato:** Histórias de usuário, critérios de aceitação, prioridades, rastreabilidade e perfis de usuário.
-*   **Objetivo Principal:** Avaliar a qualidade e completude das histórias de usuário, garantindo que atendam aos padrões ágeis e forneçam informações claras para o desenvolvimento.
-*   **Materiais Complementares:**
-    *   Template de histórias de usuário
-    *   Documentação de perfis de usuário
-    *   Matriz de rastreabilidade
-*   **Simulação de Participantes:**
-    *   **Moderador:** Julia Gabriela
-    *   **Autores:** João Pedro Costa, Amanda Cruz
-    *   **Leitor:** Gabriel Flores
-    *   **Inspetor:** Ryan Salles
-*   **Simulação de Agenda:**
-    *   **Data:** 22/05/2025
-    *   **Horário:** 14:30 - 15:00
-    *   **Local:** Reunião Online - Microsoft Teams
-    *   **Pauta:** Revisão formal das histórias de usuário
+AQUI O EMBED DA REUNIÃO DE INSPEÇÃO
 
-#### 2. Visão Geral
+## 4. Resultados das Inspeções
 
-*   **Resumo Técnico:** As histórias de usuário são uma técnica ágil para capturar requisitos do ponto de vista do usuário, seguindo o formato "Como [papel] quero [objetivo] para [benefício]".
-*   **Contexto no Projeto:** Este artefato é essencial para garantir que as necessidades dos usuários sejam adequadamente capturadas e priorizadas.
-*   **Papéis e Responsabilidades:**
-    *   **Moderador (Julia):** Garantir que a inspeção mantenha o foco na qualidade das histórias.
-    *   **Autores (João Pedro e Amanda):** Explicar as decisões de escrita e priorização.
-    *   **Leitor (Gabriel):** Ler as histórias e identificar inconsistências.
-    *   **Inspetor (Ryan):** Verificar a conformidade com o padrão e a completude.
+Nessa seção, serão apresentados os defeitos que cada inspeção identificou.
 
-#### 3. Checklist de Verificação
-- [ ] As histórias seguem o formato "Como [papel] quero [objetivo] para [benefício]"?
-- [ ] Os critérios de aceitação são testáveis?
-- [ ] As prioridades estão claramente definidas?
-- [ ] A rastreabilidade está adequada?
-- [ ] Os perfis de usuário estão bem definidos?
+### 4.1 Resultados da Inspeção I
 
-#### 4. Preparação
+A tabela 2 apresenta os defeitos encontrados durante a inspeção I. 
 
-*   **Análise Detalhada (Defeitos Encontrados):**
-    *   **Metodológicos:**
-        * Algumas histórias não seguem o formato padrão
-        * Critérios de aceitação muito genéricos
-    *   **Documentação:**
-        * Falta de padronização na descrição dos perfis
-        * Inconsistências na numeração das histórias
-    *   **Consistência:**
-        * Divergências na definição de prioridades
-        * Rastreabilidade incompleta em algumas histórias
-    *   **Omissão:**
-        * Faltam critérios de aceitação específicos
-        * Ausência de algumas dependências entre histórias
-*   **Perguntas Críticas Preparadas:**
-    *   "Por que algumas histórias não seguem o formato padrão?"
-    *   "Como foram definidos os critérios de aceitação?"
-    *   "Como as prioridades foram estabelecidas?"
+Legenda:
+- DEFX: identificador único de defeito encontrado
+- Defeito: Descrição do defeito
+- Artefato: Local onde o defeito foi encontrado
 
-#### 5. Reunião de Inspeção
+<center>
+    <b>Tabela 2:</b> Listas de Defeitos encontrados na Inspeção I.
+</center>
 
-*   **Critérios de Entrada para a Reunião:**
-    - Logs de preparação completos de cada inspetor
-    - Histórias marcadas com observações
-    - Todos os participantes confirmaram revisão prévia do material
-    - Checklist de verificação preenchido
+| DEFX  | Defeito                                                               | Artefato                                          |
+|------ |-------------------                                                    |-------------------------------                    |
+| DEFX  | AQUI A DESCRIÇÃO DO DEFEITO ENCONTRADO                                | [AQUI O ARTEFATO ONDE O DEFEITO FOI ENCONTRADO]() |
 
-*   **Ata da Reunião de Inspeção das `Histórias de Usuário`**
-    *   **Data:** 22/05/2025
-    *   **Participantes:** Julia Gabriela, João Pedro Costa, Amanda Cruz, Gabriel Flores, Ryan Salles
-    *   **Defeitos Logados:**
-        1.  **ID 01-US (Formato):** Histórias não padronizadas
-            *   *Observação do Inspetor:* "Algumas histórias não seguem o formato padrão, dificultando a compreensão."
-        2.  **ID 02-US (Critérios):** Critérios de aceitação genéricos
-            *   *Observação do Moderador:* "Os critérios precisam ser mais específicos e testáveis."
-        3.  **ID 03-US (Rastreabilidade):** Falta de rastreabilidade
-            *   *Observação dos Autores:* "Algumas histórias não estão adequadamente vinculadas aos requisitos."
-    *   **Decisões:** Padronizar todas as histórias, detalhar critérios de aceitação e completar a rastreabilidade.
-
-#### 6. Retrabalho
-
-*   **Defeito ID 01-US:**
-    *   **Correção Proposta:** Reescrever histórias no formato padrão.
-    *   **Impacto da Não Correção:** Dificuldade de compreensão e implementação.
-    *   **Ação:** Autores devem revisar e padronizar todas as histórias.
-    *   **Reinspeção:** Sim, após a padronização.
-*   **Defeito ID 02-US:**
-    *   **Correção Proposta:** Detalhar critérios de aceitação.
-    *   **Impacto da Não Correção:** Dificuldade em validar implementações.
-    *   **Ação:** Autores devem especificar critérios testáveis.
-    *   **Reinspeção:** Sim, focada nos critérios.
-*   **Defeito ID 03-US:**
-    *   **Correção Proposta:** Completar matriz de rastreabilidade.
-    *   **Impacto da Não Correção:** Perda de conexão com requisitos.
-    *   **Ação:** Autores devem mapear todas as relações.
-    *   **Reinspeção:** Sim, da matriz atualizada.
-
-#### 7. Follow-up
-Após as correções, o moderador revisará o artefato para garantir que todos os defeitos foram sanados. Caso necessário, uma nova reinspeção será agendada.
-
-*   **Critérios de Saída da Reunião:**
-    - Todos os defeitos identificados foram registrados e categorizados
-    - Decisões sobre correções foram documentadas
-    - Necessidade de reinspeção foi avaliada e registrada
-    - Relatório de inspeção foi finalizado e aprovado pelos participantes
-
-### **Inspeção Fagan: Artefato 3/3 - `Backlog`**
-
-#### 1. Planejamento da Inspeção
-
-*   **Elementos do Artefato:** Épicas, features, histórias, prioridades, dependências e estimativas.
-*   **Objetivo Principal:** Avaliar a estrutura e organização do backlog, garantindo que represente adequadamente o escopo do projeto.
-*   **Materiais Complementares:**
-    *   Documentação de priorização
-    *   Histórias de usuário
-    *   Critérios de estimativa
-*   **Simulação de Participantes:**
-    *   **Moderador:** Ryan Salles
-    *   **Autores:** João Pedro Costa, Julia Gabriela
-    *   **Leitor:** Amanda Cruz
-    *   **Inspetor:** Gabriel Flores
-*   **Simulação de Agenda:**
-    *   **Data:** 22/05/2025
-    *   **Horário:** 15:00 - 15:30
-    *   **Local:** Reunião Online - Microsoft Teams
-    *   **Pauta:** Revisão formal do backlog do produto
-
-#### 2. Visão Geral
-
-*   **Resumo Técnico:** O backlog do produto é uma lista priorizada de todas as funcionalidades desejadas, organizadas em épicas e features.
-*   **Contexto no Projeto:** Este artefato é crucial para o planejamento e execução do desenvolvimento ágil.
-*   **Papéis e Responsabilidades:**
-    *   **Moderador (Ryan):** Garantir que a inspeção mantenha o foco na estrutura e priorização.
-    *   **Autores (João Pedro e Julia):** Explicar a organização e critérios de priorização.
-    *   **Leitor (Amanda):** Ler o backlog e identificar inconsistências.
-    *   **Inspetor (Gabriel):** Verificar a estrutura e completude.
-
-#### 3. Checklist de Verificação
-- [ ] Os itens estão adequadamente priorizados?
-- [ ] As épicas estão bem definidas?
-- [ ] As features estão claramente descritas?
-- [ ] A granularidade das histórias é apropriada?
-- [ ] As dependências estão mapeadas?
-
-#### 4. Preparação
-
-*   **Análise Detalhada (Defeitos Encontrados):**
-    *   **Metodológicos:**
-        * Algumas épicas muito abrangentes
-        * Granularidade inconsistente entre histórias
-    *   **Documentação:**
-        * Falta de descrição detalhada em algumas features
-        * Critérios de priorização não explícitos
-    *   **Consistência:**
-        * Divergências na estrutura hierárquica
-        * Inconsistências na estimativa de esforço
-    *   **Omissão:**
-        * Faltam algumas dependências técnicas
-        * Ausência de critérios de ordenação
-*   **Perguntas Críticas Preparadas:**
-    *   "Como foi definida a granularidade das histórias?"
-    *   "Quais critérios foram usados para priorização?"
-    *   "Como as dependências técnicas foram identificadas?"
-
-#### 5. Reunião de Inspeção
-
-*   **Critérios de Entrada para a Reunião:**
-    - Logs de preparação completos de cada inspetor
-    - Backlog marcado com observações
-    - Todos os participantes confirmaram revisão prévia do material
-    - Checklist de verificação preenchido
-
-*   **Ata da Reunião de Inspeção do `Backlog`**
-    *   **Data:** 22/05/2025
-    *   **Participantes:** Ryan Salles, João Pedro Costa, Julia Gabriela, Amanda Cruz, Gabriel Flores
-    *   **Defeitos Logados:**
-        1.  **ID 01-BL (Estrutura):** Épicas muito abrangentes
-            *   *Observação do Inspetor:* "Algumas épicas precisam ser divididas para melhor gerenciamento."
-        2.  **ID 02-BL (Priorização):** Critérios não explícitos
-            *   *Observação do Moderador:* "É necessário documentar os critérios de priorização."
-        3.  **ID 03-BL (Dependências):** Mapeamento incompleto
-            *   *Observação dos Autores:* "Faltam algumas dependências técnicas importantes."
-    *   **Decisões:** Revisar estrutura das épicas, documentar critérios de priorização e completar mapeamento de dependências.
-
-#### 6. Retrabalho
-
-*   **Defeito ID 01-BL:**
-    *   **Correção Proposta:** Dividir épicas muito abrangentes.
-    *   **Impacto da Não Correção:** Dificuldade de planejamento e execução.
-    *   **Ação:** Autores devem reavaliar e reorganizar épicas.
-    *   **Reinspeção:** Sim, após a reestruturação.
-*   **Defeito ID 02-BL:**
-    *   **Correção Proposta:** Documentar critérios de priorização.
-    *   **Impacto da Não Correção:** Falta de transparência nas decisões.
-    *   **Ação:** Autores devem explicitar critérios.
-    *   **Reinspeção:** Sim, dos critérios documentados.
-*   **Defeito ID 03-BL:**
-    *   **Correção Proposta:** Mapear todas as dependências técnicas.
-    *   **Impacto da Não Correção:** Risco de problemas na implementação.
-    *   **Ação:** Autores devem completar o mapeamento.
-    *   **Reinspeção:** Sim, do mapa de dependências.
-
-#### 7. Follow-up
-Após as correções, o moderador revisará o artefato para garantir que todos os defeitos foram sanados. Caso necessário, uma nova reinspeção será agendada.
-
-*   **Critérios de Saída da Reunião:**
-    - Todos os defeitos identificados foram registrados e categorizados
-    - Decisões sobre correções foram documentadas
-    - Necessidade de reinspeção foi avaliada e registrada
-    - Relatório de inspeção foi finalizado e aprovado pelos participantes
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ---
 
 ## Bibliografia
 
-BARHATE, B. H. Software Inspection Improves Quality of Software Product. *International Journal of Computer Science & Informatics*, Vol.- II, Issue-1, 2. [Link para o artigo](../../assets/inspecao_fagan/Software_Inspection_Improves_Quality_of_Software_P.pdf)
+> BARHATE, B. H. Software Inspection Improves Quality of Software Product. *International Journal of Computer Science & Informatics*, Vol.- II, Issue-1, 2. 2013. [Link para o artigo](../../assets/referencias/inspecao_fagan/Software_Inspection_Improves_Quality_of_Software_P.pdf)
+
+> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2011
+
+> SIQUEIRA, Fábio Levy. Gerência e Qualidade de Software - Aula 06 - Técnica de revisão. 2018. Disponível em: < https://youtu.be/nA1BVDd9GUE >. Acesso em: 20/06/2025.
+
+As figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada para elaboração desse documento.
+
+### Figura 1: Sommerville sobre inspeções
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/inspecao_fagan/sommerville_inspec.png" alt="Sommeville cap 8">
+</div>
+
+**Fonte:** Adaptado de SOMMERVILLE (2011).
+
+### Figura 2: Apresentação de Fábio L. Siqueira sobre técnicas de inspeção
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/inspecao_fagan/siqueira_inspec.png" alt="Siqueira revisões">
+</div>
+
+**Fonte:** Adaptado de SIQUEIRA (2025).
+
+### Figura 3: Diagrama de Barhate sobre inspeções
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/inspecao_fagan/barhate_inspec.png" alt="Barhate diagrama">
+</div>
+
+**Fonte:** Adaptado de BARHATE (2013).
 
 ---
 
@@ -362,7 +199,8 @@ BARHATE, B. H. Software Inspection Improves Quality of Software Product. *Intern
 
 | Versão |    Data    | Descrição  |   Autor  |  Revisor  |
 | :----: | :--------: | :---------:| :-------:| :-------: |
-|  1.0   | 21/06/2025 | Criação do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)  |
-|  1.1   | 21/06/2025 | Desenvolvimento da introdução | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)  |
-|  1.2   | 21/06/2025 | Criação do template da inspeção pelo metodo de Fagan e Criação das tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)  |
-|  1.3   | 21/06/2025 | Desenvolvimento de todas as inspeções dos artefatos da etapa 1  | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)  |
+|  1.0   | 21/06/2025 | Criação do Documento                                                             | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.1   | 21/06/2025 | Desenvolvimento da introdução                                                    | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.2   | 21/06/2025 | Criação do template da inspeção pelo metodo de Fagan e Criação das tabelas       | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.3   | 21/06/2025 | Desenvolvimento de todas as inspeções dos artefatos da etapa 1                   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
+|  1.4   | 22/06/2025 | Refatoração do documento em preparo para a inspeção a ser realizada              | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |

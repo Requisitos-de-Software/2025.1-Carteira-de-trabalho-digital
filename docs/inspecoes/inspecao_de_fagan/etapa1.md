@@ -82,7 +82,7 @@ São artefatos da entrega 1:
 ### 1.1. Planejamento para inspeção 1
 
 *   **Artefatos:** Heatmap; Cronograma executado; Ferramentas; Metodologia; Termos de uso; Aplicativos analisados.
-*   **Objetivo Principal:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
+*   **Objetivo Principal dos artefatos:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
 *   **Participantes:**
     *   **Moderador/Inspetor:** Ryan Salles
     *   **Autor/Leitor:**       João Pedro Costa
@@ -94,7 +94,7 @@ São artefatos da entrega 1:
 ### 1.2. Planejamento para inspeção 2
 
 *   **Artefatos:** Página inicial; Heatmap; Cronogramas executado e planejado; Ferramentas; Metodologia; Termos de uso; Aplicativos analisados; Aplicativo
-*   **Objetivo Principal:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
+*   **Objetivo Principal dos artefatos:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
 *   **Participantes:**
     *   **Moderador/Inspetor:** João Pedro Costa
     *   **Autor/Leitor:**       Ryan Salles
@@ -140,7 +140,7 @@ Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar
 ### 3.1. Inspeção I
 Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 
-*   **Ata da Reunião de Inspeção do `Pagina Inicial`**
+*   **Ata da Reunião de Inspeção I da etapa 1**
     *   **Data:** 22/06/2025
     *   **Horário:** 12:00 - 12:15
     *   **Participantes:** Ryan Salles, João Pedro Costa.
@@ -151,7 +151,7 @@ Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 ### 3.2. Inspeção II
 Seguindo o planejamento realizado, a inspeção II foi realizada como segue:
 
-*   **Ata da Reunião de Inspeção do `Pagina Inicial`**
+*   **Ata da Reunião de Inspeção II da etapa 1**
     *   **Data:** 22/06/2025
     *   **Horário:** 12:15 - 12:30
     *   **Participantes:** Ryan Salles, João Pedro Costa.
