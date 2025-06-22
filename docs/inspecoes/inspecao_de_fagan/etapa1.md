@@ -26,6 +26,12 @@ A inspeção Fagan é uma técnica formal de revisão de artefatos desenvolvida 
 - Aprendizado rápido dos autores para evitar criar defeitos
 - Construção de equipe mais coesa
 
+## Metodologia
+
+O processo de inspeção Fagan segue uma estrutura rigorosa que visa maximizar a detecção e correção de defeitos. Esta metodologia requer uma definição clara do estado do produto de trabalho a ser inspecionado, com participantes assumindo papéis bem definidos durante todo o processo. É essencial que seja dedicado tempo adequado para a preparação dos inspetores, que utilizam checklists específicos para guiar sua análise. O processo estabelece critérios claros de entrada e saída, garantindo que cada etapa seja concluída adequadamente antes de prosseguir. Toda a inspeção é devidamente documentada, incluindo a coleta de dados relevantes, e são estabelecidos procedimentos claros para o retrabalho e sua verificação.
+
+Para os artefatos de planejamento, nossa inspeção terá um foco especial na verificação da completude e consistência do cronograma, na adequação das ferramentas escolhidas, na clareza da metodologia definida e na viabilidade do planejamento como um todo. Aspectos como a distribuição equilibrada de tarefas, a definição clara de responsabilidades e a adequação dos prazos estabelecidos serão cuidadosamente analisados. Também será dada atenção especial à integração entre diferentes elementos do planejamento, como a relação entre o cronograma e o heatmap de disponibilidade da equipe.
+
 ### Processo de Inspeção
 
 O processo de inspeção Fagan é rigorosamente estruturado e requer:
@@ -51,9 +57,9 @@ O processo de inspeção Fagan é rigorosamente estruturado e requer:
     *   Lista oficial de membros da equipe: Para validar nomes e links do GitHub.
 *   **Simulação de Participantes:**
     *   **Moderador:** Ryan Salles
-    *   **Autor:** Gabriel Flores
+    *   **Autor:** João Pedro Costa
     *   **Leitor:** Amanda Cruz
-    *   **Inspetor:** João Pedro Costa
+    *   **Inspetor:** Gabriel Flores
 *   **Simulação de Agenda:**
     *   **Data:** 21/06/2025
     *   **Horário:** 19:00 - 19:30
@@ -65,9 +71,9 @@ O processo de inspeção Fagan é rigorosamente estruturado e requer:
 *   **Contexto no Projeto:** Este artefato é a "porta de entrada" para qualquer pessoa que acesse a documentação. Sua clareza, correção e profissionalismo são cruciais, pois estabelecem a primeira impressão sobre a qualidade e a organização de todo o projeto.
 *   **Papéis e Responsabilidades:**
     *   **Moderador (Ryan):** Assegurar que a inspeção seja produtiva, mantenha o foco nos defeitos e cumpra a agenda.
-    *   **Autor (Gabriel):** Prestar esclarecimentos sobre as escolhas de conteúdo e formato.
+    *   **Autor (João Pedro):** Prestar esclarecimentos sobre as escolhas de conteúdo e formato.
     *   **Leitor (Amanda):** Ler o documento em voz alta durante a reunião para identificar problemas de fluidez, erros de digitação e frases ambíguas.
-    *   **Inspetor (João Pedro):** Realizar uma análise crítica, focando em defeitos técnicos, violações de padrão e omissões de conteúdo.
+    *   **Inspetor (Gabriel):** Realizar uma análise crítica, focando em defeitos técnicos, violações de padrão e omissões de conteúdo.
 
 #### 3. Checklist de Verificação
 - [ ] O título do projeto está correto e padronizado?
