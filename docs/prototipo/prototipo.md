@@ -1,13 +1,13 @@
 # Protótipo
 
 ## Função dos autores
-| Nome                 | Função                                                            | 
-|----------------------|----------------------------------------------------------------   |
-|[Amanda Cruz](https://github.com/mandicrz)| Criação do protótipo 6 | 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação dos protótipos 4 e 5| 
-|[João Igor](https://github.com/JoaoPC10)| Criação do protótipo 02 e 03| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento)| 
-|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
+| Nome                                               | Função                                                            | 
+|----------------------                              |----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)          | Criação do protótipo 6                                            | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação dos protótipos 4 e 5                                      | 
+|[João Igor](https://github.com/JoaoPC10)            | Criação do protótipo 02 e 03                                      | 
+|[João Pedro Costa](https://github.com/johnaopedro)  | Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento)| 
+|[Julia Gabriela](https://github.com/JuliaGabP)      | Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
 |[Ryan Salles](https://github.com/RA-Salles)|| 
 <center>
     Autor(es): 
@@ -151,6 +151,24 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Depois da prototipagem**  
 <div style="text-align: left;">
     <img src="../../assets/prototipo/agendar_atendimento.gif" alt="Gif do agendamento de atendimento" style="width:185">
+</div>
+
+## Protótipos 9 e 10
+**Autor:** 
+**Funcionalidade:** Assistência por Voz e Chatbot  
+**Rastreabilidade:** [RF26 e RF37](../../elicitacao/requisitos_elicitados.md)  
+**Ferramentas:** Figma  
+**Tipo:** Alta Fidelidade  
+**Antes da prototipagem**  
+
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/Antes4e5.png" alt="Tela antes do chatbot a assistência por voz" style="width:185">
+</div>
+
+**Depois da prototipagem**
+
+<div style="text-align: left;">
+    <img src="../../assets/prototipo/prototipo9_10.png" alt="Gif da voz e chatbot" style="width:185">
 </div>
 
 ## Bibliografia
