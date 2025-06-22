@@ -1,5 +1,18 @@
 # Cronograma executado
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)| Padronizar historico de versão | 
+|[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento dos cronogramas 3 e 4; Correção pelo metodo de inspeção de Fagan | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho) | Desenvolvimento do cronograma 2 | 
+|[Julia Gabriela](https://github.com/JuliaGabP)| Criação do documento; Desenvolvimento do cronograma 1 | 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 <p align="justify">&emsp;&emsp;O cronograma executado será utilizado para demonstrar como ocorreu a organização das atividades para entrega do projeto da disciplina de Requisitos de Software. </p>
 
 ## Entrega 1 - Planejamento do Projeto
@@ -98,8 +111,16 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
  Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
-## Referências
-   > SALES, A. B. PLANO DE ENSINO, Cronograma das Aulas. Aprender3. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390822>. Acesso em: 13 abr. 2025. 
+## Bibliografia
+> SALES, A. B. Template Tabela Cronograma, Cronograma Exemplo. Aprender3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3095992/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>. Acesso em: 13 abr. 2025.
+
+##### Imagem 1: Cronograma
+
+<div style="text-align: center;">
+    <img src="../../assets/cronograma.png" alt="Cronograma">
+</div>
+
+**Fonte:** SALES, A. B. Template Tabela Cronograma, Cronograma Exemplo. Aprender3.
 
 ## Histórico de versão
 
@@ -109,5 +130,6 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |  1.1   | 13/04/2025 | Correção histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2    | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 04/05/2025 | Cronograma executado da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
-| 1.4 | 18/05/2025 | Cronograma executado da entrega 3 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.4 | 18/05/2025 | Cronograma executado da entrega 3 | [João Pedro](https://github.com/johnaopedro)  | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.5 | 01/06/2025 | Cronograma executado da entrega 4 | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.6 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

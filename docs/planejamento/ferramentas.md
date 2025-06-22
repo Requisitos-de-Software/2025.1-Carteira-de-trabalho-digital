@@ -1,5 +1,17 @@
 # Ferramentas Utilizadas
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento das ferramentas; Correção pelo metodo de inspeção de Fagan | 
+| [Ryan Salles](https://github.com/RA-Salles) | Revisão | 
+|[Julia Gabriela](https://github.com/JuliaGabP)| Revisão | 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ## Introdução
 
 Este documento descreve as ferramentas adotadas no desenvolvimento deste trabalho, abrangendo aquelas já implementadas, em uso atual ou previstas para uso futuro. Cada ferramenta desempenha um papel crucial na execução e apresentação das tarefas realizadas pela equipe.
@@ -86,14 +98,21 @@ As ferramentas estão apresentadas na Tabela 1, acompanhadas de seus logotipos e
 
 </div>
 
-## Referências
+## Bibliografia
 
 > FLORES, Lucas da Silva. *Ferramentas de Gestão de Projetos de Desenvolvimento de Software: um mapeamento sistemático da literatura*. 2022. Disponível em: [https://lume.ufrgs.br/handle/10183/245266](https://lume.ufrgs.br/handle/10183/245266). Acesso em: 11 abr. 2025.
 
-> GIOCODO, Francisco Ignácio Giocondo; MARTINS JUNIOR, Antônio Sergio; MAKIYA, Ieda Kanashiro. *Ferramentas de Gestão de Projetos para o Desenvolvimento de Softwares: Uma Pesquisa Survey*. 2021. Disponível em: [https://recima21.com.br/index.php/recima21/article/view/5064](https://recima21.com.br/index.php/recima21/article/view/5064). Acesso em: 11 abr. 2025.
+##### Imagem 1: Ferramentas
+
+<div style="text-align: center;">
+    <img src="../../assets/ferramentas.png" alt="Ferramentas">
+</div>
+
+**Fonte:** FLORES, Lucas da Silva. *Ferramentas de Gestão de Projetos de Desenvolvimento de Software: um mapeamento sistemático da literatura*. 2022.
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 11/04/2025 | Criação da página do heatmap | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.1 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
