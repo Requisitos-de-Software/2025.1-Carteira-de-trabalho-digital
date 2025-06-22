@@ -123,13 +123,13 @@ Legenda:
     <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 1
 </center>
 
-| ID         | Título                                                            | Local                                                             |
+| ID         | Título                                                            | Disponível em                                                             |
 |---         |--------                                                           |------                                                             |
 | ET1_LST1   | Lista de verificação para a primeira etapa elaborada pelo grupo 4 | [link](../../verificacao/checklist_1.md)                          |
 | ET1_LST2   | Lista de verificação - Etapa 1                                    | [link](https://aprender3.unb.br/mod/resource/view.php?id=1399913) |
 
 <center>
-    <b>Fonte:</b> <a href="" target="_blank"></a>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank"></a>
 </center>
 
 
@@ -172,6 +172,10 @@ Legenda:
 - Defeito: Descrição do defeito
 - Artefato: Local onde o defeito foi encontrado
 
+<center>
+    <b>Tabela 2:</b> Listas de Defeitos encontrados na Inspeção I.
+</center>
+
 | DEFX  | Defeito                                      | Artefato                                                           |
 |------ |-------------------                           |-------------------------------                                     |
 | DEF01 | AUSÊNCIA DE TABELA DE FUNÇÃO DOS AUTORES     | [Heatmap](../../planejamento/heatmap.md)                           |
@@ -187,14 +191,22 @@ Legenda:
 | DEF11 | AUSÊNCIA DE TABELA DE FUNÇÃO DOS AUTORES     | [Ferramentas](../../planejamento/ferramentas.md)                   |
 | DEF12 | AUSÊNCIA DE FOTOS NA BIBLIOGRAFIA            | [Ferramentas](../../planejamento/ferramentas.md)                   |
 
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
 ### 4.1 Resultados da Inspeção II
 
-A tabela 2 apresenta os defeitos encontrados durante a inspeção II. 
+A tabela 3 apresenta os defeitos encontrados durante a inspeção II. 
 
 Legenda:
 - DEFX: identificador único de defeito encontrado
 - Defeito: Descrição do defeito
 - Artefato: Local onde o defeito foi encontrado
+
+<center>
+    <b>Tabela 3:</b> Listas de Defeitos encontrados na Inspeção II.
+</center>
 
 | DEFX  | Defeito                                                                     | Artefato                                                           |
 |------ |-------------------                                                          |-------------------------------                                     |
@@ -202,6 +214,10 @@ Legenda:
 | DEF14 | AUSÊNCIA DE TÍTULO NA TABELA DE EXEMPLIFICAÇÃO DO VERSIONAMENTO             | [Metodologia](../../planejamento/metodologia.md)                   |
 | DEF15 | AUSÊNCIA DE AUTORIA E/OU FONTE NA TABELA DE EXEMPLIFICAÇÃO DO VERSIONAMENTO | [Metodologia](../../planejamento/metodologia.md)                   |
 | DEF16 | PADRONIZAÇÃO DA BIBLIOGRAFIA NÃO CONFORME                                   | [Metodologia](../../planejamento/metodologia.md)                   |
+
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ---
 
