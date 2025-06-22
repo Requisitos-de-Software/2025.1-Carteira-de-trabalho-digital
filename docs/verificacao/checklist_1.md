@@ -1,5 +1,19 @@
 # Lista de Verificação - Entrega 1
 
+## Função dos autores
+| Nome                                               | Função                                                            | 
+|----------------------                              |----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)          | Criação do documento e dos itens de verificação                                          | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho) | | 
+|[João Igor](https://github.com/JoaoPC10)            | Inserção da tabela de autores e criação dos itens P12 e RP07 à RP10                                      | 
+|[João Pedro Costa](https://github.com/johnaopedro)  || 
+|[Julia Gabriela](https://github.com/JuliaGabP)      || 
+|[Ryan Salles](https://github.com/RA-Salles)|| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+
 ## Introdução
 
 Este documento apresenta uma lista de verificação criada para o [Grupo 4](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico) e do Grupo+1 ([Grupo 5](https://github.com/Requisitos-de-Software/2025.1-IBGE)) referente a **Etapa 1** do projeto, com o objetivo de garantir que os artefatos iniciais estejam de acordo com os requisitos e especificações estabelecidas. O checklist foi sugerido pelo professor como uma ferramenta prática para confirmar que todas as etapas estão cumpridas corretamente antes de avançar para as fases seguintes.
@@ -38,8 +52,13 @@ As Tabelas 1, 2 e 3 apresentam checklists para os elementos de planejamento, des
 |  P09   |                       Ferramentas utilizadas estão listadas                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 |  P10   |                   GitPages oferece opção de contraste de cores                    | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
 |  P11   |                         GitPages organizado de fácil uso                          | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 17 abr. 2025. |
+|  P12   |Espaço reservado no Git Pages para  expor as atas desenvolvidas nas reuniões                         | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 1. Aprender3. Acesso em: 22 jun. 2025. |
 
-<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank"> Amanda Cruz</a>,  
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
 
 --- 
 
@@ -60,7 +79,10 @@ As Tabelas 1, 2 e 3 apresentam checklists para os elementos de planejamento, des
 |  DS08  |                Gravação das reuniões                 | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 |  DS09  | Upload de apresentação no YouTube como não "listado" | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. |
 
-<p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank"> Amanda Cruz</a>
+</center>
 
 ---
 
@@ -76,7 +98,16 @@ As Tabelas 1, 2 e 3 apresentam checklists para os elementos de planejamento, des
 |  RP04  |                        Uso de palavras-chave nos Rich Pictures                        | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 2. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 |  RP05  |             Símbolos adequados para representar conceitos do Rich Picture             | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 |  RP06  |                      Rich Pictures possuem atores bem definidos                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+|  RP07  |                      Existem setas evidenciando o fluxo de dados ou possíveis interações                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+|  RP08  |                       O contorno no Rich Picture delimita claramente oque está sobre responssabilidade do sistema                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+|  RP09  |                       Informações ou bancos de dados são representados por retângulos                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
+|  RP10  |                       As ações ou funcções do sistema estão representados por um círculo oval                       | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 2. Aprender3. Acesso em: 17 abr. 2025. <br> Introducing Rich Pictures - Rich Picture Drawing Guidelines, p. 4. CTEC2402 - Software Development Project. Acesso em: 17 abr. 2025 |
 
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank"> Amanda Cruz</a>,  
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
 ---
 
 ## Conclusão
