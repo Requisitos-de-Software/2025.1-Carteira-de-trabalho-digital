@@ -69,19 +69,21 @@ Essa seção apresentará todos os planejamentos para inspeções elaborados.
 
 Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 2.
 
+Cada nova inspeção deverá ter como alvo documentos NÃO INSPECIONADOS ou INSPECIONADOS PARCIALMENTE.
+
 São artefatos da entrega 2:
 
-- Requisitos Elicitados
-- Personas
-- Perfil de Usuário
-- Análise de Documentação
-- Entrevista
-- Introspecção
-- Questionário
-- 100 Dollars
-- First Things First
-- MoSCoW
-- Three Level Scale
+- Requisitos Elicitados - INSPECIONADO
+- Personas - NÃO INSPECIONADO
+- Perfil de Usuário - NÃO INSPECIONADO
+- Análise de Documentação - INSPECIONADO
+- Entrevista - NÃO INSPECIONADO
+- Introspecção - INSPECIONADO
+- Questionário - NÃO INSPECIONADO
+- 100 Dollars - NÃO INSPECIONADO
+- First Things First - NÃO INSPECIONADO
+- MoSCoW - INSPECIONADO
+- Three Level Scale - INSPECIONADO
 
 ### 1.1. Planejamento para inspeção 1
 
@@ -124,7 +126,7 @@ Legenda:
 
 
 <center>
-    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 1
+    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 2
 </center>
 
 | ID         | Título                                                            | Disponível em                                                             |
@@ -139,7 +141,7 @@ Legenda:
 
 ## 3. Reuniões de Inspeção
 
-Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 1. As reuniões contém gravações realizadas via **Microsoft Teams**.
+Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 2. As reuniões contém gravações realizadas via **Microsoft Teams**.
 
 ### 3.1. Inspeção I
 Seguindo o planejamento realizado, a inspeção I foi realizada como segue:

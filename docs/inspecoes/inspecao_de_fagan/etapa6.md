@@ -1,4 +1,4 @@
-# Inspeção Fagan – Etapa 3
+# Inspeção Fagan – Etapa 6
 
 ## Funções dos autores
 
@@ -61,34 +61,32 @@ necessário, uma nova inspeção será realizada.
 
 # Inspeção
 
-Essa seção descreve como se deu a inspeção realizada para a Etapa 3.
+Essa seção descreve como se deu a inspeção realizada para a Etapa 4.
 
 ## 1. Planejamento da Inspeção
 
 Essa seção apresentará todos os planejamentos para inspeções elaborados.
 
-Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 3.
+Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 4.
 
 Cada nova inspeção deverá ter como alvo documentos NÃO INSPECIONADOS ou INSPECIONADOS PARCIALMENTE.
 
-São artefatos da entrega 3:
+São artefatos da entrega 4:
 
-- Documento de Caso de Uso - NÃO INSPECIONADO
-- Cenários - NÃO INSPECIONADO
-- Especificação Suplementar - NÃO INSPECIONADO
-- Léxicos - NÃO INSPECIONADO
+- Documento de pós-rastreabilidade - NÃO INSPECIONADO
+- Matriz Geral de Rastreabilidade de Requisitos - NÃO INSPECIONADO
 
-### 1.1. Planejamento para Inspeção I para a etapa 3
+### 1.1. Planejamento para Inspeção I para a etapa 6
 
-*   **Artefatos alvo:** Documento de Caso de Uso, Cenários, Especificação Suplementar, Léxicos
-*   **Objetivo Principal dos artefatos:** Modelar os requisitos elicitados durante a etapa 3.
+*   **Artefatos alvo:** Documento de Pós-Rastreabilidade; Matriz Geral de Rastreabilidade de Requisitos.
+*   **Objetivo Principal dos artefatos:** Permitir a rastreabilidade dos requisitos; facilitar a gerência de requisitos.
 *   **Participantes:**
     *   **Moderador/Inspetor:** Ryan Salles
     *   **Autor/Leitor:**       João Pedro Costa
 *   **Simulação de Agenda:**
     *   **Data:**    22/06/2025
     *   **Horário:** 12:30 - 12:45
-    *   **Pauta:**   Revisão formal dos artefatos da Terceira Entrega elaborados pelo grupo 4.
+    *   **Pauta:**   Revisão formal dos artefatos da Sexta Etapa elaborados pelo grupo 4.
 
 ## 2. Preparação
 
@@ -101,19 +99,19 @@ Cada participante da reunião foi encarregado de verificar o documento por conta
 Para verificar a conformidade dos artefatos, foram utilizadas as listas de verificação presentes na tabela 1.
 
 Legenda:
-- ET3_LSTX        : ID da lista utilizada para a verificação dessa etapa
+- ET6_LSTX        : ID da lista utilizada para a verificação dessa etapa
 - Título          : Título da lista de verificação
 - Disponível em   : Local onde a lista pode ser encontrada 
 
 
 <center>
-    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 3
+    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 6
 </center>
 
 | ID         | Título                                                            | Disponível em                                                             |
 |---         |--------                                                           |------                                                             |
-| ET3_LST1   | Lista de verificação para a primeira etapa elaborada pelo grupo 4 | [link](../../verificacao/checklist_3.md)                          |
-| ET3_LST2   | Lista de verificação - Etapa 1                                    | [link](https://aprender3.unb.br/mod/resource/view.php?id=1399913) |
+| ET6_LST1   | Lista de verificação para a primeira etapa elaborada pelo grupo 4 | [link](../../verificacao/checklist_6.md)                          |
+| ET6_LST2   | Lista de verificação - Etapa 1                                    | [link](https://aprender3.unb.br/mod/resource/view.php?id=1399913) |
 
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
@@ -122,12 +120,12 @@ Legenda:
 
 ## 3. Reuniões de Inspeção
 
-Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 3. As reuniões contém gravações realizadas via **Microsoft Teams**.
+Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 6. As reuniões contém gravações realizadas via **Microsoft Teams**.
 
 ### 3.1. Inspeção I
 Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
 
-*   **Ata da Reunião de Inspeção I da etapa 3**
+*   **Ata da Reunião de Inspeção I da etapa 4**
     *   **Data:** 22/06/2025
     *   **Horário:** XX:YY - XX:YY
     *   **Participantes:** AQUI OS PARTICIPANTES

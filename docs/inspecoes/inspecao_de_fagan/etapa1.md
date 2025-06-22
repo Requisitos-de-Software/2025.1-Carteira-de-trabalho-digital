@@ -69,15 +69,18 @@ Essa seção apresentará todos os planejamentos para inspeções elaborados.
 
 Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 1.
 
+Cada nova inspeção deverá ter como alvo documentos NÃO INSPECIONADOS ou INSPECIONADOS PARCIALMENTE.
+
 São artefatos da entrega 1:
 
 - Página inicial
-- Heatmap
-- Cronogramas executado e planejado
-- Metodologia
-- Termos de uso
-- Aplicativos analisados
-- Aplicativo
+- Heatmap - INSPECIONADO COMPLETAMENTE
+- Cronograma executado - INSPECIONADO PARCIALMENTE
+- Cronograma planejado - NÃO INSPECIONADO
+- Metodologia - INSPECIONADO
+- Termos de uso - INSPECIONADO
+- Aplicativos analisados - INSPECIONADO PARCIALMENTE
+- Aplicativo - NÃO INSPECIONADO
 
 ### 1.1. Planejamento para inspeção 1
 

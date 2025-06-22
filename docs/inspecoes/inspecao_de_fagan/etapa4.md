@@ -1,4 +1,4 @@
-# Inspeção Fagan – Etapa 3
+# Inspeção Fagan – Etapa 4
 
 ## Funções dos autores
 
@@ -71,9 +71,9 @@ Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartef
 
 São artefatos da entrega 4:
 
-- Documento de NFR
-- Histórias de Usuário
-- Backlog de Desenvolvimento do Produto
+- Documento de NFR - NÃO INSPECIONADO
+- Histórias de Usuário - NÃO INSPECIONADO
+- Backlog de Desenvolvimento do Produto - NÃO INSPECIONADO
 
 ### 1.1. Planejamento para Inspeção I para a etapa 4
 
@@ -104,7 +104,7 @@ Legenda:
 
 
 <center>
-    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 1
+    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 4
 </center>
 
 | ID         | Título                                                            | Disponível em                                                             |
@@ -119,7 +119,7 @@ Legenda:
 
 ## 3. Reuniões de Inspeção
 
-Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 1. As reuniões contém gravações realizadas via **Microsoft Teams**.
+Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 4. As reuniões contém gravações realizadas via **Microsoft Teams**.
 
 ### 3.1. Inspeção I
 Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
