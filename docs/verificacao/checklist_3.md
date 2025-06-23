@@ -58,7 +58,7 @@ As Tabelas 1 e 2 apresentam checklists para os elementos de desenvolvimento do p
 |  CD14  | Contém especificação suplementar? Com referências bibliograficas e foto do texto de referência explicando o que é a especificação suplementar? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
 |  CD15  | O artefato segue o modelo FURPS+? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
 |  CD16  | O documento especifica o tempo de resposta, no Desempenho? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
-|  CD17 | O documento especifica qual plataforma o aplicativo pode ser executado? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
+|  CD17  | O documento especifica qual plataforma o aplicativo pode ser executado? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
 |  CD18  | Todos os requisitos podem ser testados (RF e RNF)? Identificando quais requisitos não são testáveis/verificáveis? | BARROS, Andre. Plano de Ensino, RE-012025, Turma 3, p. 6. Aprender3. Acesso em: 18 maio 2025. |
 
 <p align="center"><strong>Autora:</strong> Amanda Cruz, 2025</p>

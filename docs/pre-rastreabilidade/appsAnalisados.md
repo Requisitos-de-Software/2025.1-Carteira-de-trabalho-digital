@@ -1,4 +1,22 @@
 # Aplicativos analisados 
+
+## Funções dos autores
+
+| Nome                                              | Função                                                            | 
+|----------------------                             |----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)         | Desenvolvimento de RichPicture | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Desenvolvimento de RichPicture | 
+|[João Igor](https://github.com/JoaoPC10)           | Desenvolvimento de RichPicture | 
+|[João Pedro Costa](https://github.com/johnaopedro) |  Desenvolvimento de RichPicture;  Correção pelo metodo de Fagan |
+|[Julia Gabriela](https://github.com/JuliaGabP)     | Desenvolvimento de RichPicture | 
+|[Ryan Salles](https://github.com/RA-Salles)        | Desenvolvimento de RichPicture; Revisão Geral |
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
+## Introdução
+
 <p align="justify">&emsp;&emsp;Este documento faz parte da fase de pré-rastreabilidade do projeto, onde a equipe analisou diversos aplicativos utilizando Rich Pictures para representar seus fluxos de informações e funcionalidades. A análise visual auxiliou na avaliação de cada aplicativo, que servirá de base para a escolha do aplicativo a ser desenvolvido no próximo estágio do projeto.</p>
 
 ## 1. Aplicativos:
@@ -92,3 +110,4 @@ Através da análise de cada aplicativo, conseguimos identificar os aspectos pri
 | 1.0 | 13/04/2025 | Criado arquivo dos aplicativos analisados |[Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Vitor](https://github.com/jvopBR) |
 | 1.1 | 13/04/2025 | Correção de ortografia, autoria das imagens e histórico de versão| [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.2 | 16/04/2025 | Padronização das fontes, correção do texto e adição da legenda do Rich Picture | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) | 
+| 1.3 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

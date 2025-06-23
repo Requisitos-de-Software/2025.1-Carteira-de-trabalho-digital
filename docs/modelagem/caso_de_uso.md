@@ -7,7 +7,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)|Criação do caso de uso 15| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do caso de uso 14; Criação do diagrama| 
 |[João Igor](https://github.com/JoaoPC10)|Criação do caso de uso 16| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Criação da página; Criação dos casos de uso 10 à 13; Adição de referências e imagens; Revisão geral| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação da página; Criação dos casos de uso 10 à 13; Adição de referências e imagens; Correção pelo metodo de Fagan; Revisão geral| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação dos casos de uso 1 à 3, 6 e 7.| 
 |[Ryan Salles](https://github.com/RA-Salles)|Revisão geral; Criação dos casos de uso 4, 5, 8 e 9; Criação do diagrama.| 
 <center>
@@ -411,7 +411,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC10             | CN10         | RF11                     |
 | UC11             | CN11         | RF12                     |
 | UC12             | CN12         | RF13                     |
-| UC13             | CN13         | RF11, RF13, RF40         |
+| UC13             | CN13         | RF11, RF13, RF39         |
 | UC14             | CN14         | RF30                     |
 | UC15             | CN15         | RF35                     |
 | UC16             | CN16         | RF29                     |
@@ -420,7 +420,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
     <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
 </center>
 
-## Referências
+## Bibliografia
 
 > WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013, p. 144-145.
 
@@ -451,8 +451,4 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.0 | 18/05/2025 | Adicionadas figuras e diagramas | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
 | 2.1 | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) |  [João Pedro Costa](https://github.com/johnaopedro) |
-
-
-
-
-
+| 2.2 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

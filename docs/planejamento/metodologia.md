@@ -1,5 +1,18 @@
 # Metodologia
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento do documento; Correção pelo metodo de inspeção de Fagan | 
+| [Ryan Salles](https://github.com/RA-Salles) | Desenvolvimento do documento; Formatação; Revisão |
+| [João Igor](https://github.com/JoaoPC10) | Desenvolvimento do documento; Revisão |
+| [Amanda Cruz](https://github.com/mandicrz) | Padronização do historico de versão |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ## Introdução
 Esse documento descreve as metodologias que a equipe utilizará para concluir as atividades.
 
@@ -23,7 +36,7 @@ Nos meios acadêmicos, a Revisão por Pares, também chamada revisão paritária
 ### Pareamento
 Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – projeto, algoritmo, código ou teste. O objetivo geral deste trabalho é investigar a eficácia da Programação em Par versus Programação individual perante tarefas de modelagem e construção de software. Com isso podemos melhorar nosso trabalho em grupo e aprimorar nossas habillidades individuais.
 
-## Referências
+## Bibliografia
 > AMAZON. **What is Scrum?** Amazon. Disponível em: <https://aws.amazon.com/pt/what-is/scrum/>. Acesso em: 12 de Abril de 2025.
 
 > BECK, Kent et. al. **Manifesto para Desenvolvimento Ágil de Software**. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>. Acesso em: 12 de Abril de 2025.
@@ -39,5 +52,6 @@ Nesta prática duas pessoas trabalham de forma colaborativa na mesma tarefa – 
 | 1.0 | 09/04/2025 | Abertura do Documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.1 | 12/04/2025 | Adição de informações, formatação | [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
 | 1.2 | 12/04/2025 | Adição da seção sobre Pareamento e Revisão por Pares | [João Igor](https://github.com/JoaoPC10) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.3 | 12/04/2025 | Formatação, adições ao histórico de versão | [Ryan Augusto](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
+| 1.3 | 12/04/2025 | Formatação, adições ao histórico de versão | [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
 | 1.4 | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.5 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

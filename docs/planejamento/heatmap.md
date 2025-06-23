@@ -1,5 +1,17 @@
 # Heatmap de Disponibilidade
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento do heatmap; Correção pelo metodo de inspeção de Fagan | 
+| [Ryan Salles](https://github.com/RA-Salles) | Revisão |
+|[Julia Gabriela](https://github.com/JuliaGabP)| Revisão | 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 ## Introdução
 
 O **heatmap de disponibilidade** é uma ferramenta visual essencial para equipes que buscam otimizar a coordenação e maximizar a produtividade. Ele permite identificar de forma rápida e eficiente os horários e dias em que os membros da equipe estão disponíveis para colaborar. Em contextos de trabalho flexível, especialmente em equipes remotas ou distribuídas, essa ferramenta se torna ainda mais relevante para facilitar a organização de tarefas, reuniões e atividades colaborativas. Ao consolidar as informações de disponibilidade dos integrantes, o heatmap oferece insights valiosos para uma melhor alocação de tempo e recursos, promovendo decisões mais ágeis e eficazes.
@@ -204,6 +216,14 @@ A Tabela 1 e a Figura 1 ilustram o mapeamento de disponibilidade. Cada número, 
 
 > GOOGLE. Exemplo de Heatmap de Disponibilidade do Projeto. Google Sheets, 2025. Disponível em: [Exemplo de Heatmap](https://docs.google.com/spreadsheets/d/1qsrnEGGf6XWL3buII_7EzXH1-NXewr9G0aicRZ9fVAs/edit?gid=96807035#gid=96807035). Acesso em: 11 abr. 2025.
 
+##### Imagem 1: Exemplo de Heatmap
+
+<div style="text-align: center;">
+    <img src="../../assets/heatmapex.png" alt="Exemplo de Heatmap">
+</div>
+
+**Fonte:** Exemplo de Heatmap de Disponibilidade do Projeto. Google Sheets, 2025.
+
 ## Links
 Acesso do heatmap no excel: [Heatmap](https://unbbr-my.sharepoint.com/:x:/g/personal/190030801_aluno_unb_br/EUKiqFx1MyZGl9xkZT1Jp30BZzv4c6Dz-HJzjKcvLTHu3A?e=hnYyOw)
 
@@ -212,3 +232,4 @@ Acesso do heatmap no excel: [Heatmap](https://unbbr-my.sharepoint.com/:x:/g/pers
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 08/04/2025 | Criação da pagina do heatmap           | [João Pedro Costa](https://github.com/johnaopedro) | [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.1 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
