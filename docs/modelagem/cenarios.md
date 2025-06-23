@@ -7,7 +7,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)|Criação dos cenários 14 e 15| 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão do cenário 16| 
 |[João Igor](https://github.com/JoaoPC10)|Criação do cenário 16| 
-|[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral; Criação dos cenários 10 à 13| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral; Criação dos cenários 10 à 13; Correção pelo metodo de Fagan| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Adição do vídeo de explicação e referências; Criação dos cenários 1, 2, 3, 6 e 7| 
 |[Ryan Salles](https://github.com/RA-Salles)|Criação da documentação com introduções, criação dos cenários 4, 5, 8 e 9| 
 <center>
@@ -21,7 +21,7 @@ Este documento apresenta uma série de cenários desenvolvidos como parte do pro
 
 ## Cenários
 
-Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 14, com base nos requisitos elicitados e observações realizadas durante a etapa de elicitação. Abaixo, ilustrado na Tabela 1, tem-se o modelo utilizado na construção dos mesmos.
+Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 17, com base nos requisitos elicitados e observações realizadas durante a etapa de elicitação. Abaixo, ilustrado na Tabela 1, tem-se o modelo utilizado na construção dos mesmos.
 
 | Cenário X                | Título do Cenário                                                                                              |
 | :----------------------: | -------------------------------------------------------------------------------------------------------------- |
@@ -400,22 +400,22 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
 
 | Cenário  | Requisito                                                     |
 | :------: | :--------------:                                              |
-| CN01     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
-| CN02     | [RF20](../../elicitacao/requisitos_elicitados.md)             |
-| CN03     | [RF02](../../elicitacao/requisitos_elicitados.md)             |
-| CN04     | [RF24](../../elicitacao/requisitos_elicitados.md)             |
-| CN05     | [RF16](../../elicitacao/requisitos_elicitados.md)             |
-| CN06     | [RF06](../../elicitacao/requisitos_elicitados.md)             |
-| CN07     | [RF23](../../elicitacao/requisitos_elicitados.md)             |
-| CN08     | [RF26](../../elicitacao/requisitos_elicitados.md)             |
-| CN09     | [RF38](../../elicitacao/requisitos_elicitados.md)             |
-| CN10     | [RF11](../../elicitacao/requisitos_elicitados.md)             |
-| CN11     | [RF12](../../elicitacao/requisitos_elicitados.md)             |
-| CN12     | [RF13](../../elicitacao/requisitos_elicitados.md)             |
-| CN13     | [RF11, RF13, RF40](../../elicitacao/requisitos_elicitados.md) |
-| CN14     | [RF30](../../elicitacao/requisitos_elicitados.md)             |
-| CN15     | [RF35](../../elicitacao/requisitos_elicitados.md)             |
-| CN16     | [RF29](../../elicitacao/requisitos_elicitados.md)             |
+| CN01     | [RF24](../elicitacao/requisitos_elicitados.md)             |
+| CN02     | [RF20](../elicitacao/requisitos_elicitados.md)             |
+| CN03     | [RF02](../elicitacao/requisitos_elicitados.md)             |
+| CN04     | [RF24](../elicitacao/requisitos_elicitados.md)             |
+| CN05     | [RF16](../elicitacao/requisitos_elicitados.md)             |
+| CN06     | [RF06](../elicitacao/requisitos_elicitados.md)             |
+| CN07     | [RF23](../elicitacao/requisitos_elicitados.md)             |
+| CN08     | [RF26](../elicitacao/requisitos_elicitados.md)             |
+| CN09     | [RF38](../elicitacao/requisitos_elicitados.md)             |
+| CN10     | [RF11](../elicitacao/requisitos_elicitados.md)             |
+| CN11     | [RF12](../elicitacao/requisitos_elicitados.md)             |
+| CN12     | [RF13](../elicitacao/requisitos_elicitados.md)             |
+| CN13     | [RF11, RF13, RF40](../elicitacao/requisitos_elicitados.md) |
+| CN14     | [RF30](../elicitacao/requisitos_elicitados.md)             |
+| CN15     | [RF35](../elicitacao/requisitos_elicitados.md)             |
+| CN16     | [RF29](../elicitacao/requisitos_elicitados.md)             |
 
 <center>
     Autor(es): 
@@ -432,7 +432,7 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 
 </div>
 
-## Referências
+## Bibliografia
 
 > CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
 
@@ -458,3 +458,4 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  2.2   | 18/05/2025 | Adicionando 1 cenário novo      | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  2.4   | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+| 2.5 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
