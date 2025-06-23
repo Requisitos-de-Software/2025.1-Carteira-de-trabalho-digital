@@ -176,7 +176,7 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 
 Foram realizadas as validações dos protótipos com os usuários.
 
-### Validação I: 
+### Validação I: Protótipos 7 e 8
 
 A validação dos protótipos 7 e 8 foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 1 e 2
 
@@ -210,6 +210,43 @@ A validação dos protótipos 7 e 8 foi realizada presencialmente. As informaç�
 </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kj2utjtO5CY?si=zAVC70wgnUurgMrt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Validação II: Protótipos 2, 3, 4 e 5
+
+A validação dos protótipos 2, 3, 4 e 5 foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 3 e 4
+
+<center>
+    <b> Tabela 3:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 12:20                                                    |
+| Duração | Cerca de 5 minutos                                       |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b> Tabela 4:</b> Participantes da Entrevista
+</center>
+
+| Nome                                                | Função                      |
+| :------------------------------------------:        | :----------------------:    |
+| Lucas                                               | Usuário/ Project Owner      |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Entrevistador/Desenvolvedor |
+| [João Igor](https://github.com/JoaoPC10)            | Entrevistador/Desenvolvedor |
+| [Ryan Salles](https://github.com/RA-Salles)         | Secretário/Observador       |
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dCmZr0rqgk?si=m8_8wLd_v4odQpLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Bibliografia
