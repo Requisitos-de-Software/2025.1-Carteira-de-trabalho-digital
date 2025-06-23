@@ -70,11 +70,11 @@ nav:
       - Entrega 4: inspecoes/grupo+1/inspecao_4.md
       - Entrega 6: inspecoes/grupo+1/inspecao_6.md
     - Inspeções Fagan:
-      - Etapa 1: inspecao_de_fagan/etapa1.md
-      - Etapa 2: inspecao_de_fagan/etapa2.md
-      - Etapa 3: inspecao_de_fagan/etapa3.md
-      - Etapa 4: inspecao_de_fagan/etapa4.md
-      - Etapa 6: inspecao_de_fagan/etapa6.md
+      - Etapa 1: inspecoes/inspecao_de_fagan/etapa1.md
+      - Etapa 2: inspecoes/inspecao_de_fagan/etapa2.md
+      - Etapa 3: inspecoes/inspecao_de_fagan/etapa3.md
+      - Etapa 4: inspecoes/inspecao_de_fagan/etapa4.md
+      - Etapa 6: inspecoes/inspecao_de_fagan/etapa6.md
   - Atas de Reunião:
     - Ata 1: atas/reuniao1.md
     - Ata 2: atas/reuniao2.md
