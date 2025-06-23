@@ -262,18 +262,15 @@ Legenda:
 |------ |-------------------                                                          |-------------------------------                                        |
 | DEF17 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Página Inicial](../../index.md)                                      |
 | DEF18 | AUSÊNCIA DE TABELA REFERENTE A ENTREGA 6                                    | [Cronograma Executado](../../planejamento/cronograma_executado.md)    |
-|       | AUSÊNCIA DE FOTO DA BIBLIOGRAFIA UTILIZADA                                  | [Cronograma Executado](../../planejamento/cronograma_executado.md)    |
-| DEF15 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Cronograma Planejado](../../planejamento/cronograma.md)              |
-| DEF16 | RICH PICTURE "Duolingo" NÃO POSSUI LEGENDA                                  | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
-|       | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
-|       | AUSÊNCIA DE TABELA DE FUNÇÃO DOS AUTORES                                    | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
-|       |                                                                             |                                                                       |
-|       |                                                                             |                                                                       |
-|       |                                                                             |                                                                       |
-|       |                                                                             |                                                                       |
+| DEF19 | AUSÊNCIA DE FOTO DA BIBLIOGRAFIA UTILIZADA                                  | [Cronograma Executado](../../planejamento/cronograma_executado.md)    |
+| DEF20 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Cronograma Planejado](../../planejamento/cronograma.md)              |
+| DEF21 | RICH PICTURE "Duolingo" NÃO POSSUI LEGENDA                                  | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
+| DEF22 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
+| DEF23 | AUSÊNCIA DE TABELA DE FUNÇÃO DOS AUTORES                                    | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
 
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
 
 ---
 
