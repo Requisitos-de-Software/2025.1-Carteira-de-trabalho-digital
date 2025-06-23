@@ -171,6 +171,47 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
     <img src="../../assets/prototipo/prototipo9_10.png" alt="Gif da voz e chatbot" style="width:185">
 </div>
 
+
+## Validação
+
+Foram realizadas as validações dos protótipos com os usuários.
+
+### Validação I: 
+
+A validação dos protótipos 7 e 8 foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 1 e 2
+
+<center>
+    <b> Tabela 1:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 12:00                                                    |
+| Duração | Cerca de 5 minutos                                       |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b> Tabela 2:</b> Participantes da Entrevista
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Lucas                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kj2utjtO5CY?si=zAVC70wgnUurgMrt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Bibliografia
 BRUTON, L. A complete guide to prototyping - UX Design Institute. Disponível em: <https://www.uxdesigninstitute.com/blog/prototyping-guide/>.
 <div style="text-align: left;">
