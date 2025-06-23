@@ -84,7 +84,7 @@ São artefatos da entrega 3:
 *   **Objetivo Principal dos artefatos:** Modelar os requisitos elicitados durante a etapa 3.
 *   **Participantes:**
     *   **Moderador/Inspetor:** Ryan Salles
-    *   **Autor/Leitor:**       João Pedro Costa
+    *   **Autor:**       João Pedro Costa
 *   **Simulação de Agenda:**
     *   **Data:**    22/06/2025
     *   **Horário:** 12:30 - 12:45
@@ -154,7 +154,16 @@ Legenda:
 
 | DEFX  | Defeito                                                               | Artefato                                          |
 |------ |-------------------                                                    |-------------------------------                    |
-| DEFX  | AQUI A DESCRIÇÃO DO DEFEITO ENCONTRADO                                | [AQUI O ARTEFATO ONDE O DEFEITO FOI ENCONTRADO]() |
+| DEFX  | AQUI A DESCRIÇÃO DO DEFEITO ENCONTRADO                                | [Cenários]()                                      |
+
+<!--
+[Cenários](../../modelagem/cenarios.md)
+[Casos de Uso](../../modelagem/caso_de_uso.md)
+[Especifição suplementar](../../modelagem/especificacao_suplementar.md)
+[Léxicos](../../modelagem/lexico.md)
+
+
+-->
 
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>

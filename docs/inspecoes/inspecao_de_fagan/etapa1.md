@@ -73,8 +73,8 @@ Cada nova inspeção deverá ter como alvo documentos NÃO INSPECIONADOS ou INSP
 
 São artefatos da entrega 1:
 
-- Página inicial
-- Heatmap - INSPECIONADO COMPLETAMENTE
+- Página inicial - NÃO INSPECIONADO
+- Heatmap - INSPECIONADO 
 - Cronograma executado - INSPECIONADO PARCIALMENTE
 - Cronograma planejado - NÃO INSPECIONADO
 - Metodologia - INSPECIONADO
@@ -82,7 +82,7 @@ São artefatos da entrega 1:
 - Aplicativos analisados - INSPECIONADO PARCIALMENTE
 - Aplicativo - NÃO INSPECIONADO
 
-### 1.1. Planejamento para inspeção 1
+### 1.1. Planejamento para inspeção I
 
 *   **Artefatos:** Heatmap; Cronograma executado; Ferramentas; Metodologia; Termos de uso; Aplicativos analisados.
 *   **Objetivo Principal dos artefatos:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
@@ -94,7 +94,7 @@ São artefatos da entrega 1:
     *   **Horário:** 12:00 - 12:15
     *   **Pauta:**   Revisão formal dos artefatos da primeira entrega de autoria de João Pedro Costa.
 
-### 1.2. Planejamento para inspeção 2
+### 1.2. Planejamento para inspeção II
 
 *   **Artefatos:** Página inicial; Heatmap; Cronogramas executado e planejado; Ferramentas; Metodologia; Termos de uso; Aplicativos analisados; Aplicativo
 *   **Objetivo Principal dos artefatos:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
@@ -105,6 +105,18 @@ São artefatos da entrega 1:
     *   **Data:**    22/06/2025
     *   **Horário:** 12:00 - 12:15
     *   **Pauta:**   Revisão formal dos artefatos da primeira entrega de autoria de Ryan Salles.
+
+### 1.1. Planejamento para inspeção III
+
+*   **Artefatos:** Página Inicial, Cronograma Executado, Cronograma Planejado, Aplicativos analisados, Aplicativo
+*   **Objetivo Principal dos artefatos:** Planejar o projeto para a disciplina de Requisitos de Software. Definir o objeto de trabalho da equipe.
+*   **Participantes:**
+    *   **Moderador/Inspetor:** João Pedro Costa
+    *   **Leitor:**             Ryan Salles
+*   **Simulação de Agenda:**
+    *   **Data:**    22/06/2025
+    *   **Horário:** 20:50 - 21:10
+    *   **Pauta:**   Revisão formal dos artefatos da primeira entrega de autoria de João Pedro Costa.
 
 ## 2. Preparação
 
@@ -162,6 +174,17 @@ Seguindo o planejamento realizado, a inspeção II foi realizada como segue:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K9alT9y8Ejo?si=ZmaPJM1dzZMULTQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### 3.3. Inspeção III
+Seguindo o planejamento realizado, a inspeção III foi realizada como segue:
+
+*   **Ata da Reunião de Inspeção III da etapa 1**
+    *   **Data:** 22/06/2025
+    *   **Horário:** 20:50 - 21:10
+    *   **Participantes:** Ryan Salles, João Pedro Costa.
+    *   **Local:** Remoto
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lYBg7J4ASDc?si=envtY2kGPfI3A9Jl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 4. Resultados das Inspeções
 
 Nessa seção, serão apresentados os defeitos que cada inspeção identificou.
@@ -198,7 +221,7 @@ Legenda:
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-### 4.1 Resultados da Inspeção II
+### 4.2 Resultados da Inspeção II
 
 A tabela 3 apresenta os defeitos encontrados durante a inspeção II. 
 
@@ -221,6 +244,36 @@ Legenda:
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
+
+### 4.2 Resultados da Inspeção III
+
+A tabela 3 apresenta os defeitos encontrados durante a inspeção III. 
+
+Legenda:
+- DEFX: identificador único de defeito encontrado
+- Defeito: Descrição do defeito
+- Artefato: Local onde o defeito foi encontrado
+
+<center>
+    <b>Tabela 3:</b> Listas de Defeitos encontrados na Inspeção III.
+</center>
+
+| DEFX  | Defeito                                                                     | Artefato                                                              |
+|------ |-------------------                                                          |-------------------------------                                        |
+| DEF17 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Página Inicial](../../index.md)                                      |
+| DEF18 | AUSÊNCIA DE TABELA REFERENTE A ENTREGA 6                                    | [Cronograma Executado](../../planejamento/cronograma_executado.md)    |
+|       | AUSÊNCIA DE FOTO DA BIBLIOGRAFIA UTILIZADA                                  | [Cronograma Executado](../../planejamento/cronograma_executado.md)    |
+| DEF15 | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Cronograma Planejado](../../planejamento/cronograma.md)              |
+| DEF16 | RICH PICTURE "Duolingo" NÃO POSSUI LEGENDA                                  | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
+|       | REFERÊNCIA UTILIZADA ERRONEAMENTE ONDE DEVERIA HAVER O TERMO BIBLIOGRAFIA   | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
+|       | AUSÊNCIA DE TABELA DE FUNÇÃO DOS AUTORES                                    | [Aplicativos Analisados](../../pre-rastreabilidade/appsAnalisados.md) |
+|       |                                                                             |                                                                       |
+|       |                                                                             |                                                                       |
+|       |                                                                             |                                                                       |
+|       |                                                                             |                                                                       |
+
+<center>
+    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 
 ---
 

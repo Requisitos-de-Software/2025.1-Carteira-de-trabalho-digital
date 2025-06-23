@@ -80,8 +80,8 @@ São artefatos da entrega 4:
 *   **Artefatos alvo:** Documento de NFR; Histórias de Usuário; Backlog de Desenvolvimento do Produto.
 *   **Objetivo Principal dos artefatos:** Modelar os requisitos elicitados durante a etapa 2 utilizando métodos ágeis.
 *   **Participantes:**
-    *   **Moderador/Inspetor:** Ryan Salles
-    *   **Autor/Leitor:**       João Pedro Costa
+    *   **Moderador/Inspetor:** João Pedro Costa
+    *   **Autor/Leitor:**       Ryan Salles
 *   **Simulação de Agenda:**
     *   **Data:**    22/06/2025
     *   **Horário:** 12:30 - 12:45
