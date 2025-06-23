@@ -8,7 +8,7 @@
 |[João Igor](https://github.com/JoaoPC10)            | Criação do protótipo 02 e 03                                      | 
 |[João Pedro Costa](https://github.com/johnaopedro)  | Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento)| 
 |[Julia Gabriela](https://github.com/JuliaGabP)      | Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
-|[Ryan Salles](https://github.com/RA-Salles)|| 
+|[Ryan Salles](https://github.com/RA-Salles)         | Criação dos protótipos 9 e 10, adição dos vídeos de validação, manutenção e revisão geral| 
 <center>
     Autor(es): 
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
@@ -202,7 +202,7 @@ A validação dos protótipos 7 e 8 foi realizada presencialmente. As informaç�
 
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
-| Lucas                                        | Usuário/ Project Owner   |
+| Artur                                        | Usuário/ Project Owner   |
 | [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
 
 <center>
@@ -223,7 +223,7 @@ A validação dos protótipos 2, 3, 4 e 5 foi realizada presencialmente. As info
 | :-----: | :------------------------------------------------------: |
 | Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
 | Data    | 05/06/2025                                               |
-| Horário | 12:20                                                    |
+| Horário | 12:30                                                    |
 | Duração | Cerca de 5 minutos                                       |
 
 
@@ -237,7 +237,7 @@ A validação dos protótipos 2, 3, 4 e 5 foi realizada presencialmente. As info
 
 | Nome                                                | Função                      |
 | :------------------------------------------:        | :----------------------:    |
-| Lucas                                               | Usuário/ Project Owner      |
+| Artur                                               | Usuário/ Project Owner      |
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Entrevistador/Desenvolvedor |
 | [João Igor](https://github.com/JoaoPC10)            | Entrevistador/Desenvolvedor |
 | [Ryan Salles](https://github.com/RA-Salles)         | Secretário/Observador       |
@@ -247,6 +247,44 @@ A validação dos protótipos 2, 3, 4 e 5 foi realizada presencialmente. As info
 </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dCmZr0rqgk?si=m8_8wLd_v4odQpLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Validação II: Protótipos 9 e 10
+
+A validação dos protótipos 9 e 10 foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 5 e 
+
+<center>
+    <b> Tabela 5:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 12:20                                                    |
+| Duração | Cerca de 5 minutos                                       |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b> Tabela 6:</b> Participantes da Entrevista
+</center>
+
+| Nome                                                | Função                      |
+| :------------------------------------------:        | :----------------------:    |
+| Artur                                               | Usuário/ Project Owner      |
+| [Ryan Salles](https://github.com/RA-Salles)         | Entrevistador/Desenvolvedor |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário/Observador       |
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2iyPLe9E0C0?si=ETIPSJEdEnaQp1DI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 ## Bibliografia
@@ -263,7 +301,8 @@ BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://ht
 ## Histórico de versão
 | Versão |    Data    |    Descrição     |         Autor         |       Revisor      |
 | :----: | :--------: | :--------------: | :-------------------: | :----------------: |
-|  1.0   | 12/06/2025 | Criando a pagina e adicionando teoria | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
-|  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5 | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
-|  1.2   | 19/06/2025 | Adição dos protótipos 6 | [Amanda Cruz](https://github.com/mandicrz)     | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
-|  1.3   | 20/06/2025 | Adição dos protótipos 7 e 8 | [João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.0   | 12/06/2025 | Criando a pagina e adicionando teoria                                  | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
+|  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5                                            | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
+|  1.2   | 19/06/2025 | Adição dos protótipos 6                                                | [Amanda Cruz](https://github.com/mandicrz)     | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+|  1.3   | 20/06/2025 | Adição dos protótipos 7 e 8                                            | [João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.4   | 20/06/2025 | Adição dos protótipos 9 e 10, Inserção dos vídeos de validação         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro Costa](https://github.com/johnaopedro) |
