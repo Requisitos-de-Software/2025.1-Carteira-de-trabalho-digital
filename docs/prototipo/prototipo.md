@@ -6,7 +6,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)          | Criação do protótipo 6                                            | 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho) | Criação dos protótipos 4 e 5                                      | 
 |[João Igor](https://github.com/JoaoPC10)            | Criação do protótipo 02 e 03                                      | 
-|[João Pedro Costa](https://github.com/johnaopedro)  | Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento)| 
+|[João Pedro Costa](https://github.com/johnaopedro)  | Criação dos protótipos 7 (Chat de Atendimento) e 8 (Agendar Atendimento); Correção de links| 
 |[Julia Gabriela](https://github.com/JuliaGabP)      | Criação do documento; Inserção da teoria e bibliografia; Protótipo 1| 
 |[Ryan Salles](https://github.com/RA-Salles)         | Criação dos protótipos 9 e 10, adição dos vídeos de validação, manutenção e revisão geral| 
 <center>
@@ -45,12 +45,12 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Tipo:**  Alta fidelidade  
 **Antes da prototipagem** 
 <div style="text-align: left;">
-    <img src="../assets/Prototipo_antes.png" alt="Cópia da tela" style="width:185">
+    <img src="../../assets/Prototipo_antes.png" alt="Cópia da tela" style="width:185">
 </div>
 
 **Depois da prototipagem**  
 <div style="text-align: left;">
-    <img src="../assets/Prototipo_filtro.gif" alt="Gif da funcionalidade de filtrar" style="width:185">
+    <img src="../../assets/Prototipo_filtro.gif" alt="Gif da funcionalidade de filtrar" style="width:185">
 </div>
 
 ## Protótipo 3
@@ -61,12 +61,12 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Tipo:**   Alta Fidelidade 
 **Antes da prototipagem**
 <div style="text-align: left;">
-    <img src="../assets/Prototipo_antes2.png" alt="Cópia da tela" style="width:185">
+    <img src="../../assets/Prototipo_antes2.png" alt="Cópia da tela" style="width:185">
 </div>
 
 **Depois da prototipagem**  
 <div style="text-align: left;">
-    <img src="../assets/Prototipo_atualizar.gif" alt="Gif da funcionalidade de atualizar dados cadastrais" style="width:185">
+    <img src="../../assets/Prototipo_atualizar.gif" alt="Gif da funcionalidade de atualizar dados cadastrais" style="width:185">
 </div>
 
 
@@ -78,12 +78,12 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Tipo:** Alta Fidelidade  
 **Antes da prototipagem**
 <div style="text-align: left;">
-    <img src="../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
+    <img src="../../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
 </div>
 
 **Depois da prototipagem**  
 <div style="text-align: left;">
-    <img src="../assets/prototipo/Upload.gif" alt="Gif da funcionalidade de upload de documentos" style="width:185">
+    <img src="../../assets/prototipo/Upload.gif" alt="Gif da funcionalidade de upload de documentos" style="width:185">
 </div>
 
 ## Protótipo 5
@@ -94,12 +94,12 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Tipo:** Alta Fidelidade  
 **Antes da prototipagem**
 <div style="text-align: left;">
-    <img src="../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
+    <img src="../../assets/prototipo/Antes4e5.png" alt="Cópia da tela" style="width:185">
 </div>
 
 **Depois da prototipagem**  
 <div style="text-align: left;">
-    <img src="../assets/prototipo/notificacao.gif" alt="Gif da funcionalidade de notificações" style="width:185">
+    <img src="../../assets/prototipo/notificacao.gif" alt="Gif da funcionalidade de notificações" style="width:185">
 </div>
 
 ## Protótipo 6
@@ -111,13 +111,13 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Antes da prototipagem**: 
 
 <div style="text-align: left;">
-    <img src="../assets/prototipo/Antes6.png" alt="Cópia da tela inicial" style="width:185">
+    <img src="../../assets/prototipo/antes_6.png" alt="Cópia da tela inicial" style="width:185">
 </div>
 
 **Depois da prototipagem**:
 
 <div style="text-align: left;">
-    <img src="../assets/prototipo/videos_integracao.gif" alt="Gif funcionalidade de vídeos e integração MEI" style="width:185">
+    <img src="../../assets/prototipo/videos_integracao.gif" alt="Gif funcionalidade de vídeos e integração MEI" style="width:185">
 </div>
 
 
@@ -168,7 +168,7 @@ A escolha do tipo de protótipo depende do objetivo da prototipagem, da fase do 
 **Depois da prototipagem**
 
 <div style="text-align: left;">
-    <img src="../../assets/prototipo/prototipo9_10.png" alt="Gif da voz e chatbot" style="width:185">
+    <img src="../../assets/prototipo/prototipo9_10.gif" alt="Gif da voz e chatbot" style="width:185">
 </div>
 
 
@@ -290,12 +290,12 @@ A validação dos protótipos 9 e 10 foi realizada presencialmente. As informaç
 ## Bibliografia
 BRUTON, L. A complete guide to prototyping - UX Design Institute. Disponível em: <https://www.uxdesigninstitute.com/blog/prototyping-guide/>.
 <div style="text-align: left;">
-    <img src="../../assets/referencias/prototipo/referencia_prototipo1.jpeg" alt="Print do site">
+    <img src="../../assets/referencias/prototipo/referencia_prototipo1.png" alt="Print do site">
 </div>
 
 BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://htmlburger.com/blog/prototype-design/>.
 <div style="text-align: left;">
-    <img src="../../assets/referencias/prototipo/referencia_prototipo2.jpeg" alt="Print do site">
+    <img src="../../assets/referencias/prototipo/referencia_prototipo2.png" alt="Print do site">
 </div>
 
 ## Histórico de versão
@@ -305,4 +305,6 @@ BOICHEVA, S. What is Prototype Design? [Guide 2024]. Disponível em: <https://ht
 |  1.1   | 18/06/2025 | Adição dos protótipos 4 e 5                                            | [Gabriel Flores](https://github.com/Gabrielfcoelho)     | [João Igor](https://github.com/JoaoPC10) |
 |  1.2   | 19/06/2025 | Adição dos protótipos 6                                                | [Amanda Cruz](https://github.com/mandicrz)     | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 |  1.3   | 20/06/2025 | Adição dos protótipos 7 e 8                                            | [João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
-|  1.4   | 20/06/2025 | Adição dos protótipos 9 e 10, Inserção dos vídeos de validação         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.4   | 22/06/2025 | Correção de links | [João Pedro Costa](https://github.com/johnaopedro)     | [Ryan Salles](https://github.com/RA-Salles) |
+|  1.5   | 20/06/2025 | Adição dos protótipos 9 e 10, Inserção dos vídeos de validação         | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro Costa](https://github.com/johnaopedro) |
+
