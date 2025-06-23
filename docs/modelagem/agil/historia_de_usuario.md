@@ -133,7 +133,7 @@ As Estórias (EU) de Usuário desenvolvidas para o projeto do Cadastro Único es
 | **Perfil(s)** | Pessoas que desejam se cadastrar ou já são cadastradas no CadÚnico|
 |**Critérios de Aceite**| - O sistema deve exibir uma opção para selecionar os itens que o usuário desejar ver.|
 |**Prioridade**|Média|
-|**Rastreabilidade**|[RF24](../../elicitacao/requisitos_elicitados.md)|
+|**Rastreabilidade**|[RF23](../../elicitacao/requisitos_elicitados.md)|
 |**Implementado**|Não|
 
 <center>
