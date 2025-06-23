@@ -4,7 +4,7 @@
 
 | Nome                                               | Função                                                                                                    | 
 |----------------------                              |----------------------------------------------------------------                                           |
-| [João Pedro Costa](https://github.com/johnaopedro) | Criação do documento; Preenchimento das seções 1 à 7; Adição das referências | 
+| [João Pedro Costa](https://github.com/johnaopedro) | Criação do documento; Preenchimento das seções 1 à 7; Adição das referências; Correção pelo metodo de inspeção de Fagan | 
 | [Julia Gabriela](https://github.com/JuliaGabP)     | Criação do documento; Preenchimento das seções 8 à 12                        | 
 | [Ryan Salles](https://github.com/RA-Salles)        | Revisão geral; Ajustes e Manutenção                                          | 
 <center>
@@ -249,7 +249,7 @@ O sistema deve estar em conformidade com:
 
 A redistribuição e modificação do sistema estarão condicionadas aos termos definidos pelo Governo Federal e acordos com os fornecedores de API e dados.
 
-## Referências
+## Bibliografia
 
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 16 maio 2025.
 
@@ -259,16 +259,18 @@ A redistribuição e modificação do sistema estarão condicionadas aos termos 
 
 > LGPD – Lei nº 13.709/2018 
 
-
+As imagens 1 e 2 a seguir foram extraídas do material de apoio da disciplina de Engenharia de Software, fornecido pelos professores Milene Serrano e Maurício Serrano, e ilustram a estrutura e os componentes da Especificação Suplementar.
 ### Imagem 1: 
 <div style="text-align: center;">
     <img src="../../assets/referencias/especificacao_suplementar/especificacao_suplementar.png" alt="especificacao_suplementar">
 </div>
+Fonte: <a href="SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf" target="_blank">SERRANO, Milene; SERRANO, Maurício</a>
 
 ### Imagem 2: 
 <div style="text-align: center;">
     <img src="../../assets/referencias/especificacao_suplementar/especificacao_suplementar1.png" alt="especificacao_suplementar1">
 </div>
+Fonte: <a href="SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf" target="_blank">SERRANO, Milene; SERRANO, Maurício</a>
 
 ## Histórico de Versão
 
@@ -286,3 +288,4 @@ A redistribuição e modificação do sistema estarão condicionadas aos termos 
 |  1.9   | 20/05/2025 | Criação da tabela de funções                                                                                                    | [Julia Paulino](https://github.com/JuliaGabP)                                                      | [João Pedro Costa](https://github.com/johnaopedro) |
 |  2.0   | 21/05/2025 | Refinamento das descrições de requisitos                                                                                        | [João Pedro Costa](https://github.com/johnaopedro)                                                 | [Julia Paulino](https://github.com/JuliaGabP) |
 |  2.1   | 07/06/2025 | Adição de um ID Único aos requisitos de Usabilidade, Confiabilidade, Desempenho e Suportabilidade.                              | [Ryan Salles](https://github.com/RA-Salles)                                                        | [João Pedro Costa](https://github.com/johnaopedro) |
+| 2.2 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
