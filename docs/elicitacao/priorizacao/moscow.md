@@ -135,6 +135,45 @@ Essa seção apresenta os requisitos não funcionais priorizados por meio da Tab
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
+# Validação 
+
+## Validação 
+
+A validação da priorização foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 1 e 2
+
+<center>
+    <b> Tabela 1:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 9:20                                                     |
+| Duração | Cerca de 5 minutos                                       |
+
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<center>
+    <b> Tabela 2:</b> Participantes da Entrevista
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Artur                                        | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles]()                              |                          |
+| [João Igor]()                                |                          |
+| [Gabriel Flores]()                           |                          |
+
+<center>
+    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Referências
 > FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.
