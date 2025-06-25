@@ -1,5 +1,18 @@
 # First Things First FTF
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Priorização dos requisitos| 
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; correções gerais| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 # Introdução
 
 A metodologia First Things First: Prioritizing Requirements, apresentada por Karl Wiegers, enfatiza a necessidade de priorização eficaz de requisitos em projetos de software. Como nem sempre é possível entregar todas as funcionalidades desejadas na primeira versão de um sistema, os stakeholders devem definir quais aspectos são mais críticos para o sucesso inicial do projeto. A priorização permite gerenciar expectativas, resolver conflitos e otimizar recursos, garantindo que as funções essenciais sejam implementadas primeiro.
@@ -83,7 +96,8 @@ O **Cadastro Único**, sistema utilizado para identificar e registrar famílias 
 ## Histórico de Versões
 
 | Versão  | Data       | Descrição                                      | Autor                                                                | Revisor                                                                                   |
-| :-----: | :--------: | :----------:                                   | :------------:                                                       | :--------:                                                                                |
+| :-----: | :--------: | :----------:                                   | :------------:                                                       | :--------:                         |
 | 1.0     | 23/04/2025 | Criação da página da tecnica First Thing First | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                                            |
 | 1.1     | 04/05/2025 | Priorização de requisitos                      | [Gabriel Flores](https://github.com/Gabrielfcoelho)                  | [Ryan](https://github.com/RA-Salles) e [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.2     | 04/05/2025 | Adicionando links e corrigindo tabelas         | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                                               |
+| 1.3     | 25/06/2025 | Adição tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro Costa](https://github.com/johnaopedro)            |
