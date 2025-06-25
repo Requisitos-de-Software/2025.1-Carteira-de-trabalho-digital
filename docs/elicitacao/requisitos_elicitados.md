@@ -7,7 +7,10 @@
 | [João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento de tabelas, ajustes e manutenção                        | 
 | [Julia Gabriela](https://github.com/JuliaGabP)     | Revisora Geral.                                                         | 
 | [Ryan Salles](https://github.com/RA-Salles)        | Criação da página, desenvolvimento de tabelas, ajustes e manutenção     | 
-
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
 
 # Introdução
 
