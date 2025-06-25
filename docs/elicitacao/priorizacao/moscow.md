@@ -1,5 +1,17 @@
 # MoSCoW
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro)| Ajustes gerais| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral.| 
+|[Ryan Salles](https://github.com/RA-Salles)|Criação do documento.| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+
 # Introdução 
 
 Esse documento visa priorizar os requisitos elicitados utilizando a técnica MoSCoW.
@@ -165,9 +177,9 @@ A validação da priorização foi realizada presencialmente. As informações d
 | :------------------------------------------: | :----------------------: |
 | Artur                                        | Usuário/ Project Owner   |
 | [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
-| [Ryan Salles]()                              |                          |
-| [João Igor]()                                |                          |
-| [Gabriel Flores]()                           |                          |
+| [Ryan Salles](https://github.com/RA-Salles)  | Auxiliar                 |
+| [João Igor](https://github.com/JoaoPC10)     | Auxiliar                 |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho)  | Auxiliar         |
 
 <center>
     <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
@@ -182,4 +194,4 @@ A validação da priorização foi realizada presencialmente. As informações d
 | Versão  | Data       | Descrição                              | Autor                                              | Revisor                                                          |
 | :-----: | :----:     | :----------:                           | :------------:                                     | :--------:                                                       |
 | 1.0     | 28/04/2025 | Criação da página da técnica MoSCoW    | [Ryan Salles](https://github.com/RA-Salles)        |  [João Pedro Costa](https://github.com/johnaopedro)              |
-| 1.2     | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)                      |
+| 1.1     | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)                      |
