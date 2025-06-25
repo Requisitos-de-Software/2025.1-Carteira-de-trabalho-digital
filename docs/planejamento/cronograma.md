@@ -2,6 +2,7 @@
 
 <p align="justify">&emsp;&emsp;O cronograma será utilizado para facilitar a organização das atividades para entrega do projeto da disciplina de Requisitos de Software. 
 Ao se aproximar do final da entrega um cronograma com os dados atualizados de acordo com os ocorridos será feito.</p>
+
 ## Funções dos autores
 
 | Nome                 | Função                                                            | 
