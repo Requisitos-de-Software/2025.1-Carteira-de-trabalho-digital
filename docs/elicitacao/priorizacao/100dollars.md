@@ -1,12 +1,26 @@
 # $100
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Amanda Cruz](https://github.com/mandicrz)|Criação do documento para requisitos da introspecção| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do documento para requisitos da introspecção| 
+|[João Pedro](https://github.com/johnaopedro)|Revisão geral|
+|[Julia Gabriela](https://github.com/JuliaGabP)|Correção total do documento, refazendo a técnica| 
+|[Ryan Salles](https://github.com/RA-Salles)|Correção total do documento, refazendo a técnica| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
 Neste artefato, será aplicada a técnica de priorização de requisitos utilizando os $100 fictícios. Este método permite avaliar quais devem ser implementadas primeiro, garantindo que os recursos sejam distribuídos de forma estratégica, levando em conta as funcionalidades mais críticas para o sucesso do sistema.
 
 ## Metodologia
 
-A técnica foi aplicada de forma remota, em dupla, com [Amanda Cruz](), e outro membro do grupo, [Gabriel Flores](), realizando a distribuição dos $100 imaginários entre os requisitos elicitados pela técnica de [Introspecção](../tecnicas/introspecção.md). A atividade foi conduzida de forma colaborativa, onde a Amanda foi responsável por coordenar o processo.
+A técnica foi aplicada de forma remota, em duplo, com Julia, e outro membro do grupo, Ryan, realizando a distribuição dos $100 imaginários entre os requisitos elicitados pelas técnicas de [Elicitados](../elicitacao/requisitos_elicitados.md). A atividade foi conduzida de forma colaborativa, onde a Julia foi responsável por coordenar o processo.
 
 No início da atividade, foi explicado ao participante o objetivo da técnica e como os dólares seriam distribuídos. Cada um, teve a responsabilidade de alocar o dinheiro imaginário entre os requisitos de acordo com sua percepção sobre a importância e o impacto de cada um no sucesso do sistema. Os mesmos receberam valores dependendo da sua prioridade e a distribuição foi feita com o objetivo de refletir as necessidades reais do projeto, focando nas funcionalidades mais essenciais.
 
@@ -14,60 +28,106 @@ Ao final, os que receberam maior alocação de dólares foram classificados como
 
 ## Requisitos Elicitados
 
-Os requisitos elicitados através da Introspecção serão listados abaixo, conforme a Tabela 1, para que seja possível visualizar e realizar o procedimento dos $100. Para fácil entendimento, a leitura pode ser lida conforme a legenda, descrita logo abaixo.
+Os requisitos elicitados através das técnicas serão listados abaixo, conforme a Tabela 1, para que seja possível visualizar e realizar o procedimento dos $100. Para fácil entendimento, a leitura pode ser lida conforme a legenda, descrita logo abaixo.
 
-Legenda - Tabela 1:
- 
-- RFx: Requisitos Funcionais nºx.
-- RNFx: Requisitos Não-Funcionais nºx.
+# Requisitos Funcionais 
 
-<center><b>Tabela 1: </b> Requisitos Elicitados</center>
+<center>
+    <b>Tabela 1:</b> Requisitos Funcionais Elicitados
+</center>
 
-| Tipo  | Descrição                                                                             | Amanda    |  Gabriel | Preço Total |
-|-----  |-------------------------------------------------------------------------              | ------    | ----     | ----        |
-| RF01  | Permite ao usuário visualizar seus dados no Cadastro Único.                           | $8        | $5       | $6.5        | 
-| RF02  | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                   | $2        | $3       | $2.5        |
-| RF03  | Mostra os CRAS mais próximos com base na localização do usuário.                      | $2        | $3       | $2.5        |
-| RF04  | Permite o envio de mensagens importantes ao usuário por meio do app.                  | $6        | $3       | $4.5        |
-| RF05  | Traz dados de vínculos e contribuições automaticamente do CNIS.                       | $0        | $3       | $1.5        |
-| RF06  | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. | $8        | $5       | $6.5        |
-| RF07  | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.               | $7        | $3       | $5          |
-| RF08  | Permite verificar o status do cadastro e da situação dos benefícios.                  | $8        | $3       | $5.5        |
-| RF09  | Gera um comprovante de cadastro atualizado para o usuário.                            | $4        | $5       | $4.5        |
-| RF10  | Permite visualizar benefícios disponíveis com base nos dados cadastrados.             | $6        | $2       | $4.0        |
-| RF11  | Implementa um chatbot para atendimento automatizado ao usuário.                       | $1        | 3        | $2          |
-| RF12  | Envia notificações sobre pendências ou atualizações necessárias ao usuário.           | $6        | $3       | $4.5        |
-| RF13  | Permite ao usuário simular benefícios sociais com base em suas informações.           | $2        | $2       | $2          |
-| RF14  | Possibilita o envio de documentos digitalizados para o sistema.                       | $1        | $4       | $2.5        |
-| RF15  | Permite marcar atendimentos nos postos de atendimento presencial (CRAS).              | $3        | $4       | $3.5        |
-| RNF01 | O design do aplicativo é simples e de fácil navegação.                                | $6        | $4       | $5          |
-| RNF02 | Suporta um grande número de acessos simultâneos.                                      | $2        | $4       | $3          |
-| RNF03 | Integrado com sistemas como o CNIS.                                                   | $4        | $4       | $4          |
-| RNF04 | Navegação intuitiva e acessibilidade geral.                                           | $6        | $4       | $5          |
-| RNF05 | Uso de criptografia e proteção de dados sensíveis.                                    | $8        | $5       | $6.5        |
-| RNF06 | Resposta rápida nas interações do usuário (até 3 segundos).                           | $2        | $2       | $2          |
-| RNF07 | Compatível com Android e iOS.                                                         | $6        | $3       | $4.5        |
-| RNF08 | Garantia de 99% de disponibilidade com mínimas interrupções.                          | $4        | $5       | $4.5        |
-| RNF09 | Inclusão de leitores de tela e navegação adaptada.                                    | $5        | $6       | $5.5        |
-| RNF10 | Operação eficiente em conexões lentas.                                                | $3        | $3       | $3          |
-| RNF11 | Disponibilidade do app em múltiplos idiomas.                                          | $0        | $1       | $0.5        |
-| RNF12 | Recuperação da sessão em caso de interrupções.                                        | $2        | $2       | $2          |
-| RNF13 | Alternativa visual para ambientes com pouca luz.                                      | $1        | $2       | $1.5        |
-| RNF14 | Mecanismos para manter o sistema funcional mesmo em situações críticas.               | $3        | $5       | $4          |
+| ID   | Nome  | Descrição  | Rastreabilidade     | Implementado |Valor Julia|
+| :---: | :----: | :------: | :-------------: | :----------: | :-----:| 
+| [RF01](tecnicas/questionario.md)         | Cadastro de Famílias                        | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais                                                                       | [QST01](tecnicas/questionario.md) / [AD01](tecnicas/analise_documentacao.md)                                    | Sim          | US$2.20|
+| [RF02](tecnicas/questionario.md)         | Cadastro de Pessoas                         | Registrar informações pessoais, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.                                                                | [QST02](tecnicas/questionario.md) / [AD02](tecnicas/analise_documentacao.md)                                    | Sim          |US$2.20|
+| [RF03](tecnicas/questionario.md)         | Cadastro de Domicílios                      | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.                                                        | [QST03](tecnicas/questionario.md) / [AD03](tecnicas/analise_documentacao.md)                                    | Sim          |US$2.20|
+| [RF04](tecnicas/questionario.md)         | Cadastro de Agricultores Familiares         | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                              | [QST04](tecnicas/questionario.md) / [AD04](tecnicas/analise_documentacao.md)                                    | Sim          |US$2.20|
+| [RF05](tecnicas/questionario.md)         | Atualização de Dados de família             | Permitir a atualização dos dados das famílias cadastradas.                                                                                                                                     | [QST05](tecnicas/questionario.md) / [AD05](tecnicas/analise_documentacao.md)                                    | Sim          |US$2.20|
+| [RF06](tecnicas/questionario.md)         | Processamento de Dados                      | Transmitir os dados coletados para a CAIXA, processá-los e atribuir um Número de Identificação Social (NIS) único para cada pessoa cadastrada.                                                 | [QST06](tecnicas/questionario.md) / [AD06](tecnicas/analise_documentacao.md)                                    | Sim          |US$2.20|
+| [RF07](tecnicas/analise_documentacao.md) | Correção de Inconsistências                 | Permitir a correção de inconsistências detectadas no processamento e retransmissão dos dados.                                                                                                  | [AD07](tecnicas/analise_documentacao.md)                                                                        | Sim          |US$2.20|
+| [RF08](tecnicas/questionario.md)         | Consulta de Dados                           | Permitir a consulta de dados cadastrais, situação de benefícios e ações de gestão de benefícios por meio do NIS.                                                                               | [QST07](tecnicas/questionario.md) / [IS01](tecnicas/introspecção.md) / [AD08](tecnicas/analise_documentacao.md) | Sim          |US$2.20|
+| [RF09](tecnicas/analise_documentacao.md) | Relatórios e Divulgação                     | Gerar relatórios anuais com o perfil das famílias beneficiárias e disponibilizar dados para instituições de pesquisa e órgãos de governo mediante acordos e termos de responsabilidade.        | [AD09](tecnicas/analise_documentacao.md)                                                                        | Sim          |US$2.20|
+| [RF10](tecnicas/analise_documentacao.md) | Formulários de Coleta                       | Implementar formulários principais e suplementares para coleta de dados, abrangendo características de domicílios, famílias, pessoas, vinculação a programas e pessoas em situação de rua.     | [AD10](tecnicas/analise_documentacao.md)                                                                        | Sim          |US$2.20|
+| [RF11](tecnicas/analise_documentacao.md) | Cadastro MEI                                | Permitir que, ao cadastrar um usuário, o cadastro possa especificar que o usuário é um MEI.                                                                                                    | [AD11](tecnicas/analise_documentacao.md)                                                                        | Não          |US$1.10|
+| [RF12](tecnicas/analise_documentacao.md) | Informações MEI                             | Conter seção de informações sobre microempreendedorismo individual.                                                                                                                            | [AD12](tecnicas/analise_documentacao.md)                                                                        | Não          |US$1.10|
+| [RF13](tecnicas/analise_documentacao.md) | Personalização MEI                          | Personalização de conteúdos da seção MEI de acordo com o setor de atuação do usuário registrado e/ou região do território brasileiro onde atua.                                                | [AD13](tecnicas/analise_documentacao.md)                                                                        | Não          |US$1.10|
+| [RF14](tecnicas/introspecção.md)         | Consultar dados cadastrais                  | Permite ao usuário visualizar seus dados no Cadastro Único.                                                                                                                                    | [IS01](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF15](tecnicas/introspecção.md)         | Pré-cadastrar família                       | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                                                                                                                            | [IS02](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF16](tecnicas/introspecção.md)         | Localizar postos de atendimento             | Mostra os CRAS mais próximos com base na localização do usuário.                                                                                                                               | [IS03](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF17](tecnicas/introspecção.md)         | Enviar notificações                         | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                                                                                                    | [IS04](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF18](tecnicas/introspecção.md)         | Integrar com o CNIS                         | Traz dados de vínculos e contribuições automaticamente do CNIS.                                                                                                                                | [IS05](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF19](tecnicas/introspecção.md)         | Cadastro de Usuário                         | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais como nome, CPF, endereço, e outros dados necessários.                                                     | [IS06](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF20](tecnicas/introspecção.md)         | Atualização de Dados do Usuário             | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais a qualquer momento.                                                                                                     | [IS07](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF21](tecnicas/introspecção.md)         | Consultar Situação Cadastral                | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício.                                                                                       | [IS08](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF22](tecnicas/introspecção.md)         | Emissão de Comprovante de Cadastro          | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                                                                                | [IS09](tecnicas/introspecção.md)                                                                                | Sim          |US$2.20|
+| [RF23](tecnicas/introspecção.md)         | Filtragem de Benefícios                     | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                                                                     | [IS10](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF24](tecnicas/entrevista.md)           | Consulta de Benefícios                      | Consulta de status de benefícios                                                                                                                                                               | [ENT01](tecnicas/entrevista.md)                                                                                 | Sim          |US$2.20|
+| [RF25](tecnicas/entrevista.md)           | Informações Cadastrais                      | Visualização de informações cadastrais                                                                                                                                                         | [ENT02](tecnicas/entrevista.md)                                                                                 | Sim          |US$2.20|
+| [RF26](tecnicas/introspecção.md)         | Chatbot de atendimento automatizado         | Implementa um chatbot para atendimento automatizado ao usuário.                                                                                                                                | [IS12](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF27](tecnicas/introspecção.md)         | Notificação de pendências ou atualizações   | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                                                                                                    | [IS13](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF28](tecnicas/introspecção.md)         | Simulador de benefícios sociais             | Permite ao usuário simular quais benefícios sociais poderia receber.                                                                                                                           | [IS14](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF29](tecnicas/introspecção.md)         | Upload de documentos                        | Permite ao usuário fazer upload de documentos para o sistema.                                                                                                                                  | [IS11](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF30](tecnicas/entrevista.md)           | Agendamento de atendimento no CRAS          | Agendamento de atendimentos no CRAS pelo app                                                                                                                                                   | [ENT06](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF31](tecnicas/entrevista.md)           | Notificações Personalizadas                 | Notificações personalizadas (pendências, atualizações, confirmações)                                                                                                                           | [ENT07](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF32](tecnicas/entrevista.md)           | Atualização Cadastral                       | Passo a passo claro para atualização cadastral                                                                                                                                                 | [ENT08](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF33](tecnicas/entrevista.md)           | Simulador de Benefícios                     | Simulador de elegibilidade para benefícios                                                                                                                                                     | [ENT09](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF34](tecnicas/entrevista.md)           | Chat de Atendimento                         | Chat de atendimento ao usuário                                                                                                                                                                 | [ENT10](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF35](tecnicas/entrevista.md)           | Tutoriais Interativos                       | Tutoriais interativos para guiar tarefas críticas                                                                                                                                              | [ENT03](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF36](tecnicas/entrevista.md)           | Vídeos Explicativos                         | Vídeos explicativos dentro do app                                                                                                                                                              | [ENT04](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF37](tecnicas/entrevista.md)           | Assistência por Voz                         | Ferramenta de assistência por voz para usuários necessitados                                                                                                                                   | [ENT05](tecnicas/entrevista.md)                                                                                 | Não          |US$1.10|
+| [RF38](tecnicas/introspecção.md)         | Modo escuro                                 | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz.                                                                               | [IS15](tecnicas/introspecção.md)                                                                                | Não          |US$1.10|
+| [RF39](tecnicas/analise_documentacao.md) | Integração MEI                              | Permitir que o sistema converse com demais sistemas para MEIs                                                                                                                                  | [AD14](tecnicas/analise_documentacao.md)                                                                        | Não          |   US$1.10|       
+| [RF40](tecnicas/entrevista.md)           | Login via GOV.br                            | Permitir que o usuário entre no sistema utilizando o GOV.br e subsequente integração com o GOV.br                                                                                              | [EU_38](../modelagem/agil/historia_de_usuario.md)                                                               | Sim          |  US$2.20|      
 
-<center><b>Autor: </b> Amanda Cruz, 2025</center>
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+</center>
+
+## Requisitos Não Funcionais
+Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabela 2.
+
+<center>
+    <b>Tabela 2:</b> Requisitos Não Funcionais elicitados
+</center>
+
+| ID             | Nome         | Descrição   | Rastreabilidade     | Implementado | Valor Julia| 
+| :-----------: | :-----------: | :---------: | :-----------------: | :----------: | :----:|
+| [RNF01](tecnicas/analise_documentacao.md) | Desempenho                                         | Garantir o processamento dos dados e retorno aos municípios em até 48 horas e resposta rápida nas interações do usuário (até 3 segundos).                                             | [AD15](tecnicas/analise_documentacao.md) / [IS22](tecnicas/introspecção.md)                          | Não          |US$1.10|
+| [RNF02](tecnicas/analise_documentacao.md) | Segurança                                          | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados.  | [AD16](tecnicas/analise_documentacao.md) / [IS02](tecnicas/introspecção.md)                          | Sim          |US$2.20|
+| [RNF03](tecnicas/analise_documentacao.md) | Escalabilidade                                     | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                           | [AD17](tecnicas/analise_documentacao.md) / [QST08](tecnicas/questionario.md)                         | Sim          |US$2.20|
+| [RNF04](tecnicas/analise_documentacao.md) | Conformidade Legal                                 | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                            | [AD18](tecnicas/analise_documentacao.md) / [QST09](tecnicas/questionario.md)                         | Sim          |US$2.20|
+| [RNF05](tecnicas/analise_documentacao.md) | Acessibilidade                                     | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                         | [AD19](tecnicas/analise_documentacao.md) / [QST10](tecnicas/questionario.md)                         | Não          |US$1.10|
+| [RNF06](tecnicas/analise_documentacao.md) | Disponibilidade                                    | Garantir que o sistema esteja disponível para uso diário.                                                                                                                             | [AD20](tecnicas/analise_documentacao.md) / [QST11](tecnicas/questionario.md)                         | Sim          |US$2.20|
+| [RNF07](tecnicas/analise_documentacao.md) | Compatibilidade com Aplicativo Off-line            | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                  | [AD21](tecnicas/analise_documentacao.md) / [QST12](tecnicas/questionario.md)                         | Não          |US$1.10|
+| [RNF08](tecnicas/analise_documentacao.md) | Transmissão via Conectividade Social               | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                        | [AD22](tecnicas/analise_documentacao.md) / [QST13](tecnicas/questionario.md)                         | Não          |US$1.10|
+| [RNF09](tecnicas/analise_documentacao.md) | Acesso Restrito                                    | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                    | [AD23](tecnicas/analise_documentacao.md)                                                             | Sim          |US$2.20|
+| [RNF10](tecnicas/introspecção.md)         | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                                                                                                | [IS16](tecnicas/introspecção.md), [ENT11, ENT12](tecnicas/entrevista.md)                             | Sim          |US$2.20|
+| [RNF11](tecnicas/introspecção.md)         | Suporte a grande base de usuários                  | Suporta um grande número de acessos simultâneos.                                                                                                                                      | [IS17](tecnicas/introspecção.md)                                                                     | Sim          |US$2.20|
+| [RNF12](tecnicas/introspecção.md)         | Integração com sistemas oficiais                   | Integrado com sistemas como o CNIS.                                                                                                                                                   | [IS18](tecnicas/introspecção.md)                                                                     | Sim          |US$2.20|
+| [RNF13](tecnicas/introspecção.md)         | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                                                                                                           | [IS19](tecnicas/introspecção.md)                                                                     | Não          |US$1.10|
+| [RNF14](tecnicas/introspecção.md)         | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                                                                                                         | [IS22](tecnicas/introspecção.md)                                                                     | Sim          | US$2.20|
+| [RNF15](tecnicas/introspecção.md)         | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                                                                      | [IS25](tecnicas/introspecção.md)                                                                     | Não          |US$1.10|
+| [RNF16](tecnicas/introspecção.md)         | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                                                               | [IS26](tecnicas/introspecção.md)                                                                     | Não          |US$1.10|
+| [RNF17](tecnicas/introspecção.md)         | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres.                                                                              | [IS24](tecnicas/introspecção.md)                                                                     | Não          |US$1.10|
+| [RNF18](tecnicas/introspecção.md)         | Possibilidade de outros idiomas                    | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                                                                                                | [IS27](tecnicas/introspecção.md)                                                                     | Não          |US$1.10|
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+</center>
 
 ### Análise dos Requisitos Priorizados
 
-A análise da técnica dos $100 revelou que requisitos como RF01, RF06 e RNF05, todos com $6.5, são indispensáveis para o sistema, já que lidam com aspectos centrais como acesso aos dados do Cadastro Único, registro de novos usuários e segurança da informação. Em contrapartida, funcionalidades como suporte a múltiplos idiomas (RNF11, $0.5) e ajustes para ambientes com pouca luz (RNF13, $1.5) receberam baixa prioridade, sugerindo que podem ser adiadas para etapas futuras do desenvolvimento.
+A análise da técnica dos $100 feita por Julia pode ser entendida como uma priorização em requisitos implementados, pois essas possuem maior valor para ela.
 
-Os requisitos intermediários, com valores entre $2.0 e $5.5, formam um grupo essencial para melhorar a experiência do usuário e a eficiência do sistema, mas não são tão urgentes quanto os prioritários. Por exemplo, o envio de notificações (RF12, $4.5) ajuda a manter os usuários informados sobre pendências, enquanto a compatibilidade com Android e iOS (RNF07, $4.5) garante maior alcance. Da mesma forma, a integração com o CNIS (RNF03, $4.0) e a acessibilidade geral (RNF04, $5.0) agregam valor significativo, mas podem ser implementados após as funcionalidades críticas, como a proteção de dados (RNF05), que é muito importante para a confiança no sistema.
 
 ## Conclusão
 
 A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisitos do sistema permitindo uma distribuição clara e estratégica dos recursos. 
 
-## Referências
+## Bibliografia
 
 > WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Seattle: Microsoft Press, 2013.
 
@@ -76,3 +136,4 @@ A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisito
 | Versão |    Data    |      Descrição       |          Autor        |       Revisor       |
 | :----: | :--------: | :------------------: | :-------------------: | :-----------------: |
 |  1.0   | 04/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz), [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [João Pedro](https://github.com/johnaopedro) |
+|  1.1   | 25/06/2025 | Correção total do documento, refazendo a técnica | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
