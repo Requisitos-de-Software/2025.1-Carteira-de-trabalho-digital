@@ -7,7 +7,7 @@
 |[Amanda Cruz](https://github.com/mandicrz)| Padronizar historico de versão | 
 |[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento dos cronogramas 3 e 4; Correção pelo metodo de inspeção de Fagan | 
 |[Gabriel Flores](https://github.com/Gabrielfcoelho) | Desenvolvimento do cronograma 2 | 
-|[Julia Gabriela](https://github.com/JuliaGabP)| Criação do documento; Desenvolvimento do cronograma 1 | 
+|[Julia Gabriela](https://github.com/JuliaGabP)| Criação do documento; Desenvolvimento do cronograma 1, 5 e 6 | 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -111,6 +111,42 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
  Autor(a): <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
+## Entrega 5 - Análise de Requisitos
+## Parte 1 - Verificação e Validação 1
+Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
+<center>Tabela 05: Cronograma para as atividades da entrega 5</center>
+
+| Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
+|-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
+| Verificação por inspeção de artefatos | Início: 19/06 Fim: 22/06    | João Pedro, Julia, Ryan | Início: 19/06 Fim: 22/06 | Julia        |
+| Validação: Prototipação e Comprovação Informal | Início: 19/06 Fim: 22/06    | João Igor, Gabriel, Ryan, Jõao Pedro | Início: 20/06 Fim: 22/06   | Julia      |
+| Cronograma ocorrido                           | Início: 25/06 Fim: 25/06    | Julia                  | Início: 25/06 Fim: 25/06   | João Pedro     |
+| Atas                                          | Início: 19/06 Fim: 22/06    | Ryan                       | Início: 19/06 Fim: 22/06   | João Igor        |
+| Gravações                                     | Início: 19/06 Fim: 22/06    | Ryan                       | Início: 19/06 Fim: 22/06   | Julia            |
+| Inspeção                                      | Início: 23/06 Fim: 23/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 23/06 Fim: 23/06   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+| Correção após inspeção                        | Início: 23/06 Fim: 25/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 23/06 Fim: 25/06   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
+## Entrega 6 - Pós-Rastreabilidade
+Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
+<center>Tabela 06: Cronograma para as atividades da entrega 6</center>
+
+
+| Atividade                                     | Período de desenvolvimento 	| Responsável               	| Revisão                  	| Revisor         	|
+|-----------------------------------------------|----------------------------	|---------------------------	|--------------------------	|-----------------	|
+| Pós-rastreabilidade: Backward-form            | Início: 07/06 Fim: 08/06    | João Pedro, Julia, Ryan | Início: 07/06 Fim: 08/06 | Julia        |
+| Pós-rastreabilidade: Forward-form             | Início: 07/06 Fim: 08/06    | Gabriel, João Igor | Início: 07/06 Fim: 08/06   | João Pedro      |
+| Cronograma ocorrido                           | Início: 25/06 Fim: 25/06    | Julia                     | Início: 25/06 Fim: 25/06   | João Pedro       |
+| Atas                                          | Início: 08/06 Fim: 09/06    | Ryan                       | Início: 05/06 Fim: 05/06   | João Igor        |
+| Gravações                                     | Início: 08/06 Fim: 09/06    | Ryan                       | Início: 05/06 Fim: 05/06   | Julia            |
+| Inspeção                                      | Início: 08/06 Fim: 09/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan | Início: 25/06 Fim: 25/06   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+| Correção final                     | Início: 25/06 Fim: 28/06    | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan                     | Início: 29/06 Fim: 30/06   | Amanda, Gabriel, João Pedro, João Igor, Julia, Ryan            |
+<center>
+ Autor(a): <a href="https://github.com/JuliaGabP" target = "_blank">Julia Gabriela</a></h6>
+</center>
+
 ## Bibliografia
 > SALES, A. B. Template Tabela Cronograma, Cronograma Exemplo. Aprender3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3095992/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>. Acesso em: 13 abr. 2025.
 
@@ -133,3 +169,4 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 | 1.4 | 18/05/2025 | Cronograma executado da entrega 3 | [João Pedro](https://github.com/johnaopedro)  | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.5 | 01/06/2025 | Cronograma executado da entrega 4 | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.6 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.7 | 25/06/2025 | Cronograma executado das entregas 5 e 6 | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
