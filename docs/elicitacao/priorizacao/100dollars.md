@@ -120,12 +120,15 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
 
 ### Análise dos Requisitos Priorizados
 
-A análise da técnica dos $100 feita por Julia pode ser entendida como uma priorização em requisitos implementados, pois essas possuem maior valor para ela.
+A análise da técnica dos $100 feita pela desenvolvedora Julia pode ser entendida como uma priorização em requisitos implementados, pois essas possuem maior valor para ela.
+
+Os requisitos priorizados pelo desenvolvedor Ryan Salles dão prioridade para requisitos básicos e de qualidade de vida, colocando em primeiro lugar requisitos base para o funcionamento e facilidade de uso.
 
 
 ## Conclusão
 
-A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisitos do sistema permitindo uma distribuição clara e estratégica dos recursos. 
+A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisitos do sistema permitindo uma distribuição clara e estratégica dos recursos,
+todavia permitindo que qualquer usuário influêncie o resultado final do que deve ser implementado primeiro. 
 
 ## Bibliografia
 
