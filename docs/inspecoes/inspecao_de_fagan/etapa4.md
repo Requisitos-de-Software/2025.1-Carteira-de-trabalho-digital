@@ -2,10 +2,17 @@
 
 ## Funções dos autores
 
-| Nome                                              | Função                                                                  | 
-|---------------------------------------------------|-------------------------------------------------------------------------|
-|[João Pedro Costa](https://github.com/johnaopedro) | Criação da página; Desenvolvimento da introdução; Criação das tabelas; Criação do template da inspeção pelo metodo de Fagan; Desenvolvimento de todas as inspeções. | 
-|[Ryan Salles](https://github.com/RA-Salles)        | Revisão geral, manutenção de tabelas, refatorção, adição de informações.                                                          | 
+<center>
+    <b>Tabela 1</b>:
+    Funções dos autores no artefato
+</center>
+
+| Nome                                              | Função                                                                   | 
+|---------------------------------------------------|------------------------------------------------------------------------- |
+|[João Pedro Costa](https://github.com/johnaopedro) | Criação da página; Desenvolvimento da introdução; Criação das tabelas; Criação do template da inspeção pelo metodo de Fagan | 
+|[Ryan Salles](https://github.com/RA-Salles)        | Revisão geral; Manutenção de tabelas; Refatoração; Adição de informações | 
+|[Amanda Cruz](https://github.com/RA-Salles)        | Correção e formatação do documento; Adição de tabelas; Desenvolvimento da inspeção | 
+
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -37,6 +44,7 @@ Para os artefatos de planejamento, nossa inspeção terá um foco especial na ve
 ### Processo de Inspeção
 
 O processo de inspeção Fagan é rigorosamente estruturado e requer:
+
 1. Definição clara do estado do produto de trabalho a ser inspecionado
 2. Participantes com papéis bem definidos
 3. Tempo adequado de preparação para os inspetores
@@ -48,6 +56,7 @@ O processo de inspeção Fagan é rigorosamente estruturado e requer:
 ### Resultados da inspeção
 
 Os artefatos resultantes da inspeção serão utilizados durante o processo de análise de resultados, retrabalho e "follow-up" e são:
+
 1. Relatório do estado do documento;
 2. Registro dos defeitos encontrados.
 
@@ -61,31 +70,56 @@ necessário, uma nova inspeção será realizada.
 
 # Inspeção
 
-Essa seção descreve como se deu a inspeção realizada para a Etapa 4.
+Essa seção descreve como se deu a inspeção realizada para a **Etapa 4**.
 
 ## 1. Planejamento da Inspeção
 
 Essa seção apresentará todos os planejamentos para inspeções elaborados.
 
-Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 4.
+Como alvo geral, cada inspeção deverá possuir como alvo artefatos ou subartefatos da Entrega 3. Com isso, cada nova inspeção deverá ter como alvo documentos **não inspecionados** ou **inspecionados parcialmente**.
 
-São artefatos da entrega 4:
+A Tabela 2 abaixo apresenta os artefatos da Entrega 4:
 
-- Documento de NFR - NÃO INSPECIONADO
-- Histórias de Usuário - NÃO INSPECIONADO
-- Backlog de Desenvolvimento do Produto - NÃO INSPECIONADO
+<center>
+    <b>Tabela 2</b>:
+    Artefatos da Entrega 4
+</center>
+
+|               Artefato                |      Situação    |
+| :----------------------------------:  | :--------------: | 
+| NFR Framework                         | Não Inspecionado |
+| Histórias de Usuário                  | Não Inspecionado |
+| Backlog de Desenvolvimento do Produto | Não Inspecionado |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
 
 ### 1.1. Planejamento para Inspeção I para a etapa 4
 
-*   **Artefatos alvo:** Documento de NFR; Histórias de Usuário; Backlog de Desenvolvimento do Produto.
-*   **Objetivo Principal dos artefatos:** Modelar os requisitos elicitados durante a etapa 2 utilizando métodos ágeis.
-*   **Participantes:**
-    *   **Moderador/Inspetor:** João Pedro Costa
-    *   **Autor/Leitor:**       Ryan Salles
-*   **Simulação de Agenda:**
-    *   **Data:**    22/06/2025
-    *   **Horário:** 12:30 - 12:45
-    *   **Pauta:**   Revisão formal dos artefatos da Quarta etapa elaborados pelo grupo 4.
+A Tabela 3 a seguir descreve o planejamento para a Inspeçao I referente a Etapa 4 do projeto.
+
+
+<center>
+    <b>Tabela 3</b>:
+    Planejamento da Inspeção I
+</center>
+
+| Item                         | Detalhes                                                                    |
+|------------------------------|-----------------------------------------------------------------------------|
+| **Artefatos Alvo**           | NFR Framework; Histórias de Usuário; Backlog de Desenvolvimento do Produto  |
+| **Objetivo dos Artefatos**   | Modelar os requisitos elicitados durante a etapa 2 utilizando métodos ágeis |
+| **Moderador/Inspetor**       | Amanda Cruz                                                                 |
+| **Autor/Leitor**             | João Igor                                                                   |
+| **Data da Inspeção**         | 30/06/2025                                                                  |
+| **Horário**                  | 18:30 - 18:45                                                               |
+| **Pauta da Reunião**         | Revisão formal dos artefatos da quarta etapa elaborados pelo grupo 4        |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
+</center>
 
 ## 2. Preparação
 
@@ -95,22 +129,21 @@ entre as inspeções dessa etapa.
 
 Cada participante da reunião foi encarregado de verificar o documento por conta própria antes da reunião de inspeção utilizando as listas de inspeção.
 
-Para verificar a conformidade dos artefatos, foram utilizadas as listas de verificação presentes na tabela 1.
+Para verificar a conformidade dos artefatos, foram utilizadas as listas de verificação presentes na Tabela 4, a mesma pode ser lida de acordo com a seguinte legenda:
 
-Legenda:
-- ET4_LSTX        : ID da lista utilizada para a verificação dessa etapa
-- Título          : Título da lista de verificação
-- Disponível em   : Local onde a lista pode ser encontrada 
+- **ET4_LSTX        :** ID da lista utilizada para a verificação dessa etapa
+- **Título          :** Título da lista de verificação
+- **Disponível em   :** Local onde a lista pode ser encontrada 
 
 
 <center>
-    <b>Tabela 1:</b> Listas de verificação utilizadas para a inspeção da Etapa 4
+    <b>Tabela 4:</b> Listas de verificação utilizadas
 </center>
 
 | ID         | Título                                                            | Disponível em                                                             |
-|---         |--------                                                           |------                                                             |
-| ET4_LST1   | Lista de verificação para a primeira etapa elaborada pelo grupo 4 | [link](../../verificacao/checklist_4.md)                          |
-| ET4_LST2   | Lista de verificação - Etapa 1                                    | [link](https://aprender3.unb.br/mod/resource/view.php?id=1399913) |
+|------------|-------------------------------------------------------------------|---------------------------------------------------------------------------|
+| ET4_LST1   | Lista de verificação para a quarta etapa elaborada pelo grupo 4   | [Link](../../verificacao/checklist_4.md)                                  |
+| ET4_LST2   | Lista de verificação - Etapa 4                                    | [Link](https://aprender3.unb.br/mod/resource/view.php?id=1399913)         |
 
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
@@ -122,15 +155,15 @@ Legenda:
 Essa seção descreve quais reuniões foram realizadas para o fim de inspecionar a etapa 4. As reuniões contém gravações realizadas via **Microsoft Teams**.
 
 ### 3.1. Inspeção I
-Seguindo o planejamento realizado, a inspeção I foi realizada como segue:
+Seguindo o planejamento realizado, a inspeção I foi realizada como segue a ata e o vídeo:
 
-*   **Ata da Reunião de Inspeção I da etapa 4**
-    *   **Data:** 22/06/2025
+* **Ata da Reunião de Inspeção I da etapa 4**
+    *   **Data:** 30/06/2025
     *   **Horário:** XX:YY - XX:YY
-    *   **Participantes:** AQUI OS PARTICIPANTES
+    *   **Participantes:** Amanda Cruz, João Igor
     *   **Local:** Remoto
 
-AQUI O EMBED DA REUNIÃO DE INSPEÇÃO
+<!-- Colocar o link aqui -->
 
 ## 4. Resultados das Inspeções
 
@@ -138,20 +171,28 @@ Nessa seção, serão apresentados os defeitos que cada inspeção identificou.
 
 ### 4.1 Resultados da Inspeção I
 
-A tabela 2 apresenta os defeitos encontrados durante a inspeção I. 
+A Tabela 5 apresenta os defeitos encontrados durante a inspeção I e pode ser lida de acordo com a seguinte legenda: 
 
-Legenda:
-- DEFX: identificador único de defeito encontrado
-- Defeito: Descrição do defeito
-- Artefato: Local onde o defeito foi encontrado
+- **DEFX:** Identificador único de defeito encontrado
+- **Defeito:** Descrição do defeito
+- **Artefato:** Local onde o defeito foi encontrado
 
 <center>
-    <b>Tabela 2:</b> Listas de Defeitos encontrados na Inspeção I.
+    <b>Tabela 5:</b> Listas de Defeitos encontrados na Inspeção I.
 </center>
 
-| DEFX  | Defeito                                                               | Artefato                                          |
+| ID    | Defeito                                                               | Artefato                                          |
 |------ |-------------------                                                    |-------------------------------                    |
 | DEFX  | AQUI A DESCRIÇÃO DO DEFEITO ENCONTRADO                                | [AQUI O ARTEFATO ONDE O DEFEITO FOI ENCONTRADO]() |
+
+<!--
+[Cenários](../../modelagem/cenarios.md)
+[Casos de Uso](../../modelagem/caso_de_uso.md)
+[Especifição suplementar](../../modelagem/especificacao_suplementar.md)
+[Léxicos](../../modelagem/lexico.md)
+
+
+-->
 
 <center>
     <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
@@ -167,31 +208,43 @@ Legenda:
 
 > SIQUEIRA, Fábio Levy. Gerência e Qualidade de Software - Aula 06 - Técnica de revisão. 2018. Disponível em: < https://youtu.be/nA1BVDd9GUE >. Acesso em: 20/06/2025.
 
-As figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada para elaboração desse documento.
+As Figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada para elaboração desse documento.
 
-### Figura 1: Sommerville sobre inspeções
+<center>
+    <b>Figura 1:</b> Apresentação de Fábio L. Siqueira sobre técnicas de inspeção
+</center>
 
 <div style="text-align: center;">
     <img src="../../../assets/referencias/inspecao_fagan/sommerville_inspec.png" alt="Sommeville cap 8">
 </div>
 
-**Fonte:** Adaptado de SOMMERVILLE (2011).
+<center>
+    <b>Fonte:</b> Adaptado de SOMMERVILLE (2011).</a>
+</center>
 
-### Figura 2: Apresentação de Fábio L. Siqueira sobre técnicas de inspeção
+<center>
+    <b>Figura 2:</b> Apresentação de Fábio L. Siqueira sobre técnicas de inspeção
+</center>
 
 <div style="text-align: center;">
     <img src="../../../assets/referencias/inspecao_fagan/siqueira_inspec.png" alt="Siqueira revisões">
 </div>
 
-**Fonte:** Adaptado de SIQUEIRA (2025).
+<center>
+    <b>Fonte:</b> Adaptado de SIQUEIRA (2025).</a>
+</center>
 
-### Figura 3: Diagrama de Barhate sobre inspeções
+<center>
+    <b>Figura 2:</b> Diagrama de Barhate sobre inspeções
+</center>
 
 <div style="text-align: center;">
     <img src="../../../assets/referencias/inspecao_fagan/barhate_inspec.png" alt="Barhate diagrama">
 </div>
 
-**Fonte:** Adaptado de BARHATE (2013).
+<center>
+    <b>Fonte:</b> Adaptado de BARHATE (2013).</a>
+</center>
 
 ---
 
@@ -202,5 +255,5 @@ As figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada par
 |  1.0   | 21/06/2025 | Criação do Documento                                                             | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
 |  1.1   | 21/06/2025 | Desenvolvimento da introdução                                                    | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
 |  1.2   | 21/06/2025 | Criação do template da inspeção pelo metodo de Fagan e Criação das tabelas       | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
-|  1.3   | 21/06/2025 | Desenvolvimento de todas as inspeções dos artefatos da etapa 1                   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
-|  1.4   | 22/06/2025 | Refatoração do documento em preparo para a inspeção a ser realizada              | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.3   | 22/06/2025 | Refatoração do documento em preparo para a inspeção a ser realizada              | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |
+|  1.3   | 22/06/2025 | Desenvolvimento da inspeção da etapa 4                                           | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |
