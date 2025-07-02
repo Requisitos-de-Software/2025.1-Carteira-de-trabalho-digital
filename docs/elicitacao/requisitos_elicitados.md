@@ -17,8 +17,9 @@
 Esse documento visa apresentar todos os requisitos elicitados pelas técnicas de elicitação 
 por meio das Tabelas 1 a 4 bem como permitir a rastreabilidade e refatoração dos requisitos 
 sem a necessidade de voltar aos documentos de técnicas de elicitação.
-Caso os requisitos sejam refatorados, uma nova versão da tabela será gerada e mantida pelo 
-tempo necessário para a atualização da rastreabilidade dos demais documentos. 
+
+Caso os requisitos sejam refatorados, uma nova versão da tabela será gerada e as tabelas
+antigas serão mantidas para fins de arquivamento e documentação do desenvolvimento do projeto. 
 
 Legenda:
 
@@ -136,7 +137,7 @@ São elas:
 - Os requisito 33 foi agrupado com o requisito 28 por se tratar da mesma funcionalidade.
 Como resultado, o requisito 33 foi excluído.
 - Os requisitos 18 e 39 foram movidos para a tabela de requisitos não funcionais
-- O requisito 40 foi alterado para apenas se referir apenas a possibilidade de login, todavia não com a integração com os sistemas do
+- O requisito 40 foi alterado para se referir apenas a possibilidade de login, todavia não com a integração com os sistemas do
 GOV.br
 
 Apesar das mudanças realizadas, foi escolhido manter a referência antiga para simplificar
@@ -267,8 +268,8 @@ Legenda
 | <a id="rnf16"></a>**RNF16**               | Backup e restauração de sessão                     | O aplicativo deve permitir backup e restauração das sessões do usuário, caso haja interrupção ou falha.                                                                               | [IS26](tecnicas/introspecção.md)                                                                     | Não          |
 | <a id="rnf17"></a>**RNF17**               | Alta disponibilidade e recuperação de desastres    | O aplicativo deve ter mecanismos de recuperação de dados e funcionamento em caso de falhas ou desastres.                                                                              | [IS24](tecnicas/introspecção.md)                                                                     | Não          |
 | <a id="rnf18"></a>**RNF18**               | Possibilidade de outros idiomas                    | O aplicativo deve estar disponível em vários idiomas, permitindo maior acessibilidade.                                                                                                | [IS27](tecnicas/introspecção.md)                                                                     | Não          |
-| <a id="rnf19"></a>**RNF39**               | Integração MEI                                     | Permitir que o sistema converse com demais sistemas para MEIs.                                                                                                                        | [AD14](tecnicas/analise_documentacao.md)                                                             | Não          |          
-| <a id="rnf20"></a>**RF40-V2**             | Integração com o GOV.br                            | Permitir que o sistema realize interface com os sistemas GOV.br para facilidade de autenticação e simplificação do processo de segurança do usuário                                   | [EU_38](../modelagem/agil/historia_de_usuario.md)                                                    | Sim          |                                                                                                              | Sim          |
+| <a id="rnf19"></a>**RNF19**               | Integração MEI                                     | Permitir que o sistema converse com demais sistemas para MEIs.                                                                                                                        | [AD14](tecnicas/analise_documentacao.md)                                                             | Não          |          
+| <a id="rnf20"></a>**RNF20**               | Integração com o GOV.br                            | Permitir que o sistema realize interface com os sistemas GOV.br para facilidade de autenticação e simplificação do processo de segurança do usuário                                   | [EU_38](../modelagem/agil/historia_de_usuario.md)                                                    | Sim          |                                                                                                              | Sim          |
 
 
 
@@ -289,3 +290,4 @@ Legenda
 | 2.0     | 29/05/2025 | Restante das descrições atualizadas. Rastreabilidade melhorada.                                                                    | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro), [Julia Paulino](https://github.com/JuliaGabP)  |
 | 2.1     | 29/05/2025 | Rastreabilidade melhorada. Alterando nomes de requisitos com conflito de nome                                                      | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro), [Julia Paulino](https://github.com/JuliaGabP)  |
 | 2.2     | 06/05/2025 | Adicionando RF41. Rastreabilidade dos requisitos do questionário completada! Movendo funções dos autores para antes da introdução. | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro)                                                 |                                         
+| 2.3     | 02/07/2025 | Melhora de links para rastreabilidade, refatorando requisitos.                                                                     | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro)                                                 |

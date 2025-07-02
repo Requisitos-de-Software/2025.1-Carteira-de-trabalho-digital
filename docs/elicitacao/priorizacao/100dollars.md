@@ -36,48 +36,46 @@ Os requisitos elicitados através das técnicas serão listados abaixo, conforme
     <b>Tabela 1:</b> Requisitos Funcionais Elicitados
 </center>
 
-| ID                                  | Nome                                        | Implementado | Valor Julia | Valor Ryan | TOTAL   |
-| :---------------------------------: | :-----------------------------------------: | :----------: | :---------: | :--------: | :----:  |
-| [RF01](../requisitos_elicitados.md) | Cadastro de Famílias                        | Sim          | US$2.20     | US$2.50    | US$4.70 |
-| [RF02](../requisitos_elicitados.md) | Cadastro de Pessoas                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF03](../requisitos_elicitados.md) | Cadastro de Domicílios                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF04](../requisitos_elicitados.md) | Cadastro de Agricultores Familiares         | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF05](../requisitos_elicitados.md) | Atualização de Dados de família             | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF06](../requisitos_elicitados.md) | Processamento de Dados                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF07](../requisitos_elicitados.md) | Correção de Inconsistências                 | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF08](../requisitos_elicitados.md) | Consulta de Dados                           | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF09](../requisitos_elicitados.md) | Relatórios e Divulgação                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF10](../requisitos_elicitados.md) | Formulários de Coleta                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF11](../requisitos_elicitados.md) | Cadastro MEI                                | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF12](../requisitos_elicitados.md) | Informações MEI                             | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RF13](../requisitos_elicitados.md) | Personalização MEI                          | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF14](../requisitos_elicitados.md) | Consultar dados cadastrais                  | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF15](../requisitos_elicitados.md) | Pré-cadastrar família                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF16](../requisitos_elicitados.md) | Localizar postos de atendimento             | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RF17](../requisitos_elicitados.md) | Enviar notificações                         | Sim          | US$2.20     | US$1.00    | US$3.20 |
-| [RF18](../requisitos_elicitados.md) | Integrar com o CNIS                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF19](../requisitos_elicitados.md) | Cadastro de Usuário                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF20](../requisitos_elicitados.md) | Atualização de Dados do Usuário             | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF21](../requisitos_elicitados.md) | Consultar Situação Cadastral                | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF22](../requisitos_elicitados.md) | Emissão de Comprovante de Cadastro          | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RF23](../requisitos_elicitados.md) | Filtragem de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF24](../requisitos_elicitados.md) | Consulta de Benefícios                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RF25](../requisitos_elicitados.md) | Informações Cadastrais                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RF26](../requisitos_elicitados.md) | Chatbot de atendimento automatizado         | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RF27](../requisitos_elicitados.md) | Notificação de pendências ou atualizações   | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF28](../requisitos_elicitados.md) | Simulador de benefícios sociais             | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF29](../requisitos_elicitados.md) | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
-| [RF30](../requisitos_elicitados.md) | Agendamento de atendimento no CRAS          | Não          | US$1.10     | US$2.00    | US$1.10 |
-| [RF31](../requisitos_elicitados.md) | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF32](../requisitos_elicitados.md) | Atualização Cadastral                       | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RF33](../requisitos_elicitados.md) | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF34](../requisitos_elicitados.md) | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RF35](../requisitos_elicitados.md) | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF36](../requisitos_elicitados.md) | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF37](../requisitos_elicitados.md) | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF38](../requisitos_elicitados.md) | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF39](../requisitos_elicitados.md) | Integração MEI                              | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF40](../requisitos_elicitados.md) | Login via GOV.br                            | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| ID                                     | Nome                                        | Implementado | Valor Julia | Valor Ryan | TOTAL   |
+| :---------------------------------:    | :-----------------------------------------: | :----------: | :---------: | :--------: | :----:  |
+| [RF01](../requisitos_elicitados.md#rf01)    | Cadastro de Famílias                        | Sim          | US$2.20     | US$2.50    | US$4.70 |
+| [RF02-V2](../requisitos_elicitados.md#rf02-v2) | Cadastro de Pessoas                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF03](../requisitos_elicitados.md#rf03)    | Cadastro de Domicílios                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF04](../requisitos_elicitados.md#rf04)    | Cadastro de Agricultores Familiares         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF05](../requisitos_elicitados.md#rf05)    | Atualização de Dados de família             | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF06](../requisitos_elicitados.md#rf06)    | Processamento de Dados                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF07](../requisitos_elicitados.md#rf07)    | Correção de Inconsistências                 | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF08](../requisitos_elicitados.md#rf08)    | Consulta de Dados                           | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF09](../requisitos_elicitados.md#rf09)    | Relatórios e Divulgação                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF10](../requisitos_elicitados.md#rf10)    | Formulários de Coleta                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF11](../requisitos_elicitados.md#rf11)    | Cadastro MEI                                | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF12](../requisitos_elicitados.md#rf12)    | Informações MEI                             | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RF13](../requisitos_elicitados.md#rf13)    | Personalização MEI                          | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF14](../requisitos_elicitados.md#rf14)    | Consultar dados cadastrais                  | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF15](../requisitos_elicitados.md#rf15)    | Pré-cadastrar família                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF16](../requisitos_elicitados.md#rf16)    | Localizar postos de atendimento             | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF17](../requisitos_elicitados.md#rf17)    | Enviar notificações                         | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RF19](../requisitos_elicitados.md#rf19)    | Cadastro de Usuário                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF20](../requisitos_elicitados.md#rf20)    | Atualização de Dados do Usuário             | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF21](../requisitos_elicitados.md#rf21)    | Consultar Situação Cadastral                | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF22](../requisitos_elicitados.md#rf22)    | Emissão de Comprovante de Cadastro          | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF23](../requisitos_elicitados.md#rf23)    | Filtragem de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF24-V2](../requisitos_elicitados.md#rf24) | Consulta de status de Benefícios            | US$1.50      | US$3.70 |
+| [RF25](../requisitos_elicitados.md#rf20)    | Informações Cadastrais                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF26](../requisitos_elicitados.md#rf20)    | Chatbot de atendimento automatizado         | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RF27](../requisitos_elicitados.md#rf20)    | Notificação de pendências ou atualizações   | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF28](../requisitos_elicitados.md#rf20)    | Simulador de benefícios sociais             | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF29](../requisitos_elicitados.md#rf20)    | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
+| [RF30](../requisitos_elicitados.md#rf30)    | Agendamento de atendimento no CRAS          | Não          | US$1.10     | US$2.00    | US$1.10 |
+| [RF31](../requisitos_elicitados.md#rf30)    | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF32](../requisitos_elicitados.md#rf30)    | Atualização Cadastral                       | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF33](../requisitos_elicitados.md#rf30)    | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF34](../requisitos_elicitados.md#rf30)    | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF35](../requisitos_elicitados.md#rf30)    | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF36](../requisitos_elicitados.md#rf30)    | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF37](../requisitos_elicitados.md#rf30)    | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF38](../requisitos_elicitados.md#rf30)    | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF40](../requisitos_elicitados.md#rf40)    | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
 
 
 <center>
@@ -92,26 +90,27 @@ Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabe
     <b>Tabela 2:</b> Requisitos Não Funcionais elicitados
 </center>
 
-| ID                                   | Nome                                               | Implementado | Valor Julia | Valor Ryan | TOTAL   |
-| :----------------------------------: | :------------------------------------------------: | :----------: | :---------: | :--------: | :-----: |
-| [RNF01](../requisitos_elicitados.md) | Desempenho                                         | Não          | US$1.10     | US$3.00    | US$4.10 |
-| [RNF02](../requisitos_elicitados.md) | Segurança                                          | Sim          | US$2.20     | US$3.00    | US$5.20 |
-| [RNF03](../requisitos_elicitados.md) | Escalabilidade                                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
-| [RNF04](../requisitos_elicitados.md) | Conformidade Legal                                 | Sim          | US$2.20     | US$3.00    | US$5.20 |
-| [RNF05](../requisitos_elicitados.md) | Acessibilidade                                     | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RNF06](../requisitos_elicitados.md) | Disponibilidade                                    | Sim          | US$2.20     | US$3.00    | US$5.20 |
-| [RNF07](../requisitos_elicitados.md) | Compatibilidade com Aplicativo Off-line            | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RNF08](../requisitos_elicitados.md) | Transmissão via Conectividade Social               | Não          | US$1.10     | US$3.00    | US$4.10 |
-| [RNF09](../requisitos_elicitados.md) | Acesso Restrito                                    | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RNF10](../requisitos_elicitados.md) | Interface intuitiva e amigável                     | Sim          | US$2.20     | US$1.00    | US$3.20 |
-| [RNF11](../requisitos_elicitados.md) | Suporte a grande base de usuários                  | Sim          | US$2.20     | US$3.00    | US$5.20 |
-| [RNF12](../requisitos_elicitados.md) | Integração com sistemas oficiais                   | Sim          | US$2.20     | US$3.00    | US$5.20 |
-| [RNF13](../requisitos_elicitados.md) | Usabilidade                                        | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RNF14](../requisitos_elicitados.md) | Compatibilidade com Dispositivos                   | Sim          | US$2.20     | US$1.00    | US$3.20 |
-| [RNF15](../requisitos_elicitados.md) | Acessibilidade para pessoas com deficiência visual | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RNF16](../requisitos_elicitados.md) | Backup e restauração de sessão                     | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RNF17](../requisitos_elicitados.md) | Alta disponibilidade e recuperação de desastres    | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RNF18](../requisitos_elicitados.md) | Possibilidade de outros idiomas                    | Não          | US$1.10     | US$0.00    | US$1.10 |
+| ID                                         | Nome                                               | Implementado | Valor Julia | Valor Ryan | TOTAL   |
+| :----------------------------------:       | :------------------------------------------------: | :----------: | :---------: | :--------: | :-----: |
+| [RNF01](../requisitos_elicitados.md#rnf01) | Desempenho                                         | Não          | US$1.10     | US$3.00    | US$4.10 |
+| [RNF02](../requisitos_elicitados.md#rnf02) | Segurança                                          | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF03](../requisitos_elicitados.md#rnf03) | Escalabilidade                                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RNF04](../requisitos_elicitados.md#rnf04) | Conformidade Legal                                 | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF05](../requisitos_elicitados.md#rnf05) | Acessibilidade                                     | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RNF06](../requisitos_elicitados.md#rnf06) | Disponibilidade                                    | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF07](../requisitos_elicitados.md#rnf07) | Compatibilidade com Aplicativo Off-line            | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF08](../requisitos_elicitados.md#rnf08) | Transmissão via Conectividade Social               | Não          | US$1.10     | US$3.00    | US$4.10 |
+| [RNF09](../requisitos_elicitados.md#rnf09) | Acesso Restrito                                    | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RNF10](../requisitos_elicitados.md#rnf10) | Interface intuitiva e amigável                     | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RNF11](../requisitos_elicitados.md#rnf11) | Suporte a grande base de usuários                  | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF12](../requisitos_elicitados.md#rnf12) | Integração com sistemas oficiais                   | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF13](../requisitos_elicitados.md#rnf13) | Usabilidade                                        | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF14](../requisitos_elicitados.md#rnf14) | Compatibilidade com Dispositivos                   | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RNF15](../requisitos_elicitados.md#rnf15) | Acessibilidade para pessoas com deficiência visual | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF16](../requisitos_elicitados.md#rnf16) | Backup e restauração de sessão                     | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF17](../requisitos_elicitados.md#rnf17) | Alta disponibilidade e recuperação de desastres    | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RNF18](../requisitos_elicitados.md#rnf18) | Possibilidade de outros idiomas                    | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RNF19](../requisitos_elicitados.md#rnf19)   | Integração MEI                                     | Não          | US$1.10     | US$0.00    | US$1.10 |
 
 <center>
     Autor(es): 

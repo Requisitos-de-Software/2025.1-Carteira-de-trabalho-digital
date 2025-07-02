@@ -59,14 +59,14 @@ As Tabelas de 1 e 2, representadas a seguir, contêm os itens inspecionados dos 
 <p align="center"><strong>Tabela 3:</strong> Checklist de Conteúdo da Disciplina - Modelagem de Requisitos - Ágil</p>
 
 | **ID** |                       **Item**                                                         | **Conformidade** |
-| :----: | :--------------------------------------------------:                                   | :------:         |
+| :----: | :------------------------------------------------------------------------------------: | :------:         |
 | CD01	 | O objetivo do protótipo está claramente definido                                       | Conforme         |   
 | CD02	 | O protótipo apresenta a fonte com base em requisitos funcionais e não funcionais       | Conforme         | 
 | CD03	 | O protótipo foi construído com base nas necessidades e perfil dos usuários finais      |	Conforme         |
 | CD04	 | O nível de fidelidade do protótipo (baixa, média, alta) é adequado à fase do projeto   |	Conforme         |  
 | CD05   | O protótipo foi validado com usuários, clientes ou stakeholders                        | Não Conforme     |
 | CD06   | A verificação dos artefatos do projeto seguiu uma metodologia padronizada              | Conforme         |
-| CD07   | Os novos componentes seguem os padrões?                                                | Conforme         |
+| CD07   | Os novos componentes seguem os padrões                                                 | Conforme         |
 
 <center>    
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
