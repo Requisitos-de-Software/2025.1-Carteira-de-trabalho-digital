@@ -87,9 +87,8 @@ A Tabela 2 abaixo apresenta os artefatos da Entrega 6:
 
 |               Artefato                |      Situação    |
 | :----------------------------------:  | :--------------: | 
-| NFR Framework                         | Não Inspecionado |
-| Histórias de Usuário                  | Não Inspecionado |
-| Backlog de Desenvolvimento do Produto | Não Inspecionado |
+| Matriz Geral                          | Não Inspecionado |
+| Pós Rastreabilidade                   | Não Inspecionado |
 
 <center>
     Autor(es): 
@@ -108,12 +107,12 @@ A Tabela 3 a seguir descreve o planejamento para a Inspeçao I referente a Etapa
 
 | Item                         | Detalhes                                                                    |
 |------------------------------|-----------------------------------------------------------------------------|
-| **Artefatos Alvo**           | Pós-Rastreabilidade; Matriz Geral de Rastreabilidade de Requisitos          |
+| **Artefatos Alvo**           | Matriz Geral de Rastreabilidade de Requisitos; Pós-Rastreabilidade;         |
 | **Objetivo dos Artefatos**   | Permitir a rastreabilidade dos requisitos e facilitar a gerência de requisitos |
 | **Moderador/Inspetor**       | Amanda Cruz                                                                 |
 | **Autor/Leitor**             | João Igor                                                                   |
 | **Data da Inspeção**         | 30/06/2025                                                                  |
-| **Horário**                  | 18:50 - 19:05                                                               |
+| **Horário**                  | 21:15 - 21:20                                                               |
 | **Pauta da Reunião**         | Revisão formal dos artefatos da sexta etapa elaborados pelo grupo 4         |
 
 <center>
@@ -158,11 +157,11 @@ Seguindo o planejamento realizado, a inspeção I foi realizada como segue a ata
 
 * **Ata da Reunião de Inspeção I da etapa 6**
     *   **Data:** 30/06/2025
-    *   **Horário:** XX:YY - XX:YY
+    *   **Horário:** 21:30 - 21:36
     *   **Participantes:** Amanda Cruz, João Igor
     *   **Local:** Remoto
 
-<!-- Colocar o link aqui -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n-9BLV0L7CA?si=DV2yQM2f6hvGbNrp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 4. Resultados das Inspeções
 
@@ -180,12 +179,18 @@ A Tabela 5 apresenta os defeitos encontrados durante a inspeção I e pode ser l
     <b>Tabela 5:</b> Listas de Defeitos encontrados na Inspeção I.
 </center>
 
-| ID    | Defeito                                                               | Artefato                                          |
-|------ |-------------------                                                    |-------------------------------                    |
-| DEFX  | AQUI A DESCRIÇÃO DO DEFEITO ENCONTRADO                                | [AQUI O ARTEFATO ONDE O DEFEITO FOI ENCONTRADO]() |
+| ID    | Defeito                                                                 | Artefato                                              |
+|------ |-------------------------------------------------------------------------|-------------------------------------------------------|
+| DEF01  | Hyperlinks não funcionam                                               | [Matriz Geral](../../rastreabilidade/matriz_geral.md) |
+| DEF02  | Formatação do documento deixa a desejar na visualização dos objetivos  | [Matriz Geral](../../rastreabilidade/matriz_geral.md) |
+| DEF03  | Tabela de função de autores não está numerada e campos vazios na mesma | [Matriz Geral](../../rastreabilidade/matriz_geral.md) |
+| DEF04  | A tabela da Matriz Geral não possui legenda nem explica os campos      | [Matriz Geral](../../rastreabilidade/matriz_geral.md) |
+| DEF05  | Não possui os artefatos relacionados a tabela da Matriz Geral (ex: Casos de Uso) | [Matriz Geral](../../rastreabilidade/matriz_geral.md) |
+| DEF06  | RNF01 alocado em histórias de usuário e backlog                        | [Pós Rastreabilidade](../../rastreabilidade/pos-rastreabilidade.md) |
+| DEF07  | Colunas das tabelas de difícil entendimento por conta de dois cabeçalhos | [Pós Rastreabilidade](../../rastreabilidade/pos-rastreabilidade.md) |
 
 <center>
-    <b>Autor(es):</b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es):</b> <a href="https://github.com/mandicrz" target="_blank">Amanda Cruz</a>
 </center>
 
 ---
