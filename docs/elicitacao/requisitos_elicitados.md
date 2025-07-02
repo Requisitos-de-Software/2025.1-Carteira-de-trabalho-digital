@@ -12,7 +12,7 @@
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
-# Introdução
+## Introdução
 
 Esse documento visa apresentar todos os requisitos elicitados pelas técnicas de elicitação 
 por meio das Tabelas 1 a 4 bem como permitir a rastreabilidade e refatoração dos requisitos 
@@ -63,10 +63,13 @@ Legenda:
             -> Mante exatamente o mesmo número de requisitos ao final (exceto caso eles sejam iguais em nome e descrição)
  -->
 
-# Requisitos Funcionais 
+## Requisitos Funcionais 
+
+### Primeira Versão
 
 A tabela 1 apresenta a primeira versão dos requisitos elicitados, mantendo suas descrições originais obtidas
-utilizando as técnicas de elicitação.
+utilizando as técnicas de elicitação. A primeira versão foi mantida para fins de arquivamento do desenvolvimento e 
+compatibilidade com documentos e artefatos não refatorados.
 
 <center>
     <b>Tabela 1:</b> Requisitos Funcionais Elicitados, Primeira Versão
@@ -122,6 +125,7 @@ utilizando as técnicas de elicitação.
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
+### Segunda Versão
 
 A Tabela 2 apresenta a segunda versão dos requisitos elicitados. As seguintes mudanças gerais podem ser observadas:
 
@@ -145,7 +149,7 @@ retrabalhos gerados pelo versionamento desses requisitos e manter a rastreabilid
 antigas para fácil comparação.
 
 Legenda
-- RFX-V2 : Requisito de tipo funcional, Versão 2.
+- RFX-v2 : Requisito de tipo funcional, Versão 2.
 <center>
     <b>Tabela 2:</b> Requisitos Funcionais Elicitados, Segunda Versão
 </center>
@@ -153,7 +157,7 @@ Legenda
 | ID                                       | Nome                                        | Descrição                                                                                                                                                                                      | Rastreabilidade                                                                                                 | Implementado |
 | :--------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :----------: | 
 | <a id="rf01"></a>    **RF01**            | Cadastro de Famílias                        | Permitir o cadastro de famílias com renda mensal de até meio salário mínimo por pessoa ou vinculadas a programas sociais                                                                       | [QST01](tecnicas/questionario.md) / [AD01](tecnicas/analise_documentacao.md)                                    | Sim          |
-| <a id="rf02-v2"></a> **RF02-V2**         | Cadastro de Pessoas                         | Registrar informações pessoais para permitir o cadastro de usuários, os quais são pessoas, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.     | [QST02](tecnicas/questionario.md) / [AD02](tecnicas/analise_documentacao.md) / [IS06](tecnicas/introspecção.md) | Sim          |
+| <a id="rf02-v2"></a> **RF02-v2**         | Cadastro de Pessoas                         | Registrar informações pessoais para permitir o cadastro de usuários, os quais são pessoas, como dados de identificação, documentação, frequência escolar, grau de instrução, entre outros.     | [QST02](tecnicas/questionario.md) / [AD02](tecnicas/analise_documentacao.md) / [IS06](tecnicas/introspecção.md) | Sim          |
 | <a id="rf03"></a>    **RF03**            | Cadastro de Domicílios                      | Registrar características do domicílio, como tipo de construção, abastecimento de água, iluminação, escoamento sanitário, entre outros.                                                        | [QST03](tecnicas/questionario.md) / [AD03](tecnicas/analise_documentacao.md)                                    | Sim          |
 | <a id="rf04"></a>    **RF04**            | Cadastro de Agricultores Familiares         | Registrar informações sobre posse de terra, atividade primária, contratação de mão de obra e composição da renda.                                                                              | [QST04](tecnicas/questionario.md) / [AD04](tecnicas/analise_documentacao.md)                                    | Sim          |
 | <a id="rf05"></a>    **RF05**            | Atualização de Dados de família             | Permitir a atualização dos dados das famílias cadastradas.                                                                                                                                     | [QST05](tecnicas/questionario.md) / [AD05](tecnicas/analise_documentacao.md)                                    | Sim          |
@@ -173,11 +177,11 @@ Legenda
 | <a id="rf21"></a>    **RF21**            | Consultar Situação Cadastral                | O sistema deve permitir que o usuário consulte o status de seu cadastro e a situação atual do benefício.                                                                                       | [IS08](tecnicas/introspecção.md)                                                                                | Sim          |
 | <a id="rf22"></a>    **RF22**            | Emissão de Comprovante de Cadastro          | O sistema deve possibilitar que o usuário gere e imprima um comprovante de cadastro atualizado.                                                                                                | [IS09](tecnicas/introspecção.md)                                                                                | Sim          |
 | <a id="rf23"></a>    **RF23**            | Filtragem de Benefícios                     | O sistema deve permitir ao usuário visualizar os benefícios aos quais ele pode ter direito com base nos dados cadastrados.                                                                     | [IS10](tecnicas/introspecção.md)                                                                                | Não          |
-| <a id="rf24-v2"></a> **RF24-V2**         | Consulta de status de Benefícios            | Permitir ao usuário a visualização dos benefícios disponíveis para liberação e pendências para liberação dos benefícios.                                                                       | [ENT01](tecnicas/entrevista.md)                                                                                 | Sim          |
+| <a id="rf24-v2"></a> **RF24-v2**         | Consulta de status de Benefícios            | Permitir ao usuário a visualização dos benefícios disponíveis para liberação e pendências para liberação dos benefícios.                                                                       | [ENT01](tecnicas/entrevista.md)                                                                                 | Sim          |
 | <a id="rf25"></a>    **RF25**            | Informações Cadastrais                      | Visualização de informações cadastrais                                                                                                                                                         | [ENT02](tecnicas/entrevista.md)                                                                                 | Sim          |
 | <a id="rf26"></a>    **RF26**            | Chatbot de atendimento automatizado         | Implementa um chatbot para atendimento automatizado ao usuário.                                                                                                                                | [IS12](tecnicas/introspecção.md)                                                                                | Não          |
 | <a id="rf27"></a>    **RF27**            | Notificação de pendências ou atualizações   | Envia notificações sobre pendências ou atualizações necessárias ao usuário.                                                                                                                    | [IS13](tecnicas/introspecção.md)                                                                                | Não          |
-| <a id="rf28-v2"></a> **RF28-V2**         | Simulador de benefícios sociais             | Permite ao usuário simular quais benefícios sociais poderia receber após processamento do sistema e conclusão de procedimentos burocráticos                                                    | [IS14](tecnicas/introspecção.md)/[ENT09](tecnicas/entrevista.md)                                                                                | Não          |
+| <a id="rf28-v2"></a> **RF28-v2**         | Simulador de benefícios sociais             | Permite ao usuário simular quais benefícios sociais poderia receber após processamento do sistema e conclusão de procedimentos burocráticos                                                    | [IS14](tecnicas/introspecção.md)/[ENT09](tecnicas/entrevista.md)                                                                                | Não          |
 | <a id="rf29"></a>    **RF29**            | Upload de documentos                        | Permite ao usuário fazer upload de documentos para o sistema.                                                                                                                                  | [IS11](tecnicas/introspecção.md)                                                                                | Não          |
 | <a id="rf30"></a>    **RF30**            | Agendamento de atendimento no CRAS          | Agendamento de atendimentos no CRAS pelo app                                                                                                                                                   | [ENT06](tecnicas/entrevista.md)                                                                                 | Não          |
 | <a id="rf31"></a>    **RF31**            | Notificações Personalizadas                 | Notificações personalizadas (pendências, atualizações, confirmações)                                                                                                                           | [ENT07](tecnicas/entrevista.md)                                                                                 | Não          |
@@ -187,7 +191,7 @@ Legenda
 | <a id="rf36"></a>    **RF36**            | Vídeos Explicativos                         | Vídeos explicativos dentro do app                                                                                                                                                              | [ENT04](tecnicas/entrevista.md)                                                                                 | Não          |
 | <a id="rf37"></a>    **RF37**            | Assistência por Voz                         | Ferramenta de assistência por voz para usuários necessitados                                                                                                                                   | [ENT05](tecnicas/entrevista.md)                                                                                 | Não          |
 | <a id="rf38"></a>    **RF38**            | Modo escuro                                 | O aplicativo oferece uma opção de modo escuro para melhorar a experiência do usuário em ambientes com pouca luz.                                                                               | [IS15](tecnicas/introspecção.md)                                                                                | Não          |
-| <a id="rf40-v2"></a> **RF40-V2**         | Login                                    | Permitir que o usuário realize o processo de login, no qual ele será reconhecido pelo sistema de acordo com informações previamente cadastradas mediante cpf e senha de acesso                 | [EU_38](../modelagem/agil/historia_de_usuario.md)                                                               | Sim          |                                                                                                              | Sim          |
+| <a id="rf40-v2"></a> **RF40-v2**         | Login                                    | Permitir que o usuário realize o processo de login, no qual ele será reconhecido pelo sistema de acordo com informações previamente cadastradas mediante cpf e senha de acesso                 | [EU_38](../modelagem/agil/historia_de_usuario.md)                                                               | Sim          |                                                                                                              | Sim          |
 
 <center>
     Autor(es): 
@@ -195,7 +199,11 @@ Legenda
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
+Após a refatoração dos requisitos e agrupamento de duplicatas, 36 requisitos sobraram.
+
 ## Requisitos Não Funcionais
+
+### Primeira Versão
 Essa seção apresenta a primeira versão dos requisitos não funcionais elicitados por meio da Tabela 3.
 
 <!--Tip: deacivate word wrap with ALT+Z on VsCode. It helps greatly. Word Wrap f's up them tabbles, every table!!! !!1-->
@@ -231,8 +239,12 @@ Essa seção apresenta a primeira versão dos requisitos não funcionais elicita
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
 </center>
 
-Utilizando o mesmo padrão geral e filosofia de versionamento, os requisitos não funcionais elicitados
-também passaram por versionamento onde necessário. 
+### Segunda Versão
+
+Por meio da tabela 4, a segunda versão dos requisitos não funcionais elicitados é apresentada.
+
+Utilizando o mesmo padrão geral e filosofia de versionamento observado para os requisitos funcionais, 
+os requisitos não funcionais elicitados também passaram por refatoração e subsequente versionamento onde necessário. 
 
 As mudanças específicas foram as seguintes:
 - Título do requisito 5 alterado para melhor refletir sua descrição
@@ -242,7 +254,7 @@ Como consequência, o requisito não funcional "recém criado" 19 foi excluído 
 O requisito não funcional 12 também teve sua descrição atualizada para refletir essa mescla.
 
 Legenda
-- RNFX-V2: requisito não funcional número X, versão 2.
+- RNFX-v2: requisito não funcional número X, versão 2.
 
 <center>
     <b>Tabela 4:</b> Requisitos Não Funcionais elicitados, Segunda Versão
@@ -254,14 +266,14 @@ Legenda
 | <a id="rnf02"></a>**RNF02**               | Segurança                                          | Garantir a confidencialidade dos dados por meio de termos de responsabilidade e acordos de cooperação técnica, além de implementar mecanismos de autenticação para acesso aos dados.  | [AD16](tecnicas/analise_documentacao.md) / [IS02](tecnicas/introspecção.md)                          | Sim          |
 | <a id="rnf03"></a>**RNF03**               | Escalabilidade                                     | Suportar o cadastro e atualização de dados de até 19,5 milhões de famílias.                                                                                                           | [AD17](tecnicas/analise_documentacao.md) / [QST08](tecnicas/questionario.md)                         | Sim          |
 | <a id="rnf04"></a>**RNF04**               | Conformidade Legal                                 | Atender às regulamentações definidas pela Senarc e portarias relacionadas.                                                                                                            | [AD18](tecnicas/analise_documentacao.md) / [QST09](tecnicas/questionario.md)                         | Sim          |
-| <a id="rnf05"></a>**RNF05-V2**            | Acessibilidade para operadores                     | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                         | [AD19](tecnicas/analise_documentacao.md) / [QST10](tecnicas/questionario.md)                         | Não          |
+| <a id="rnf05-v2"></a>**RNF05-v2**            | Acessibilidade para operadores                     | Garantir que o sistema seja acessível para operadores municipais e estaduais.                                                                                                         | [AD19](tecnicas/analise_documentacao.md) / [QST10](tecnicas/questionario.md)                         | Não          |
 | <a id="rnf06"></a>**RNF06**               | Disponibilidade                                    | Garantir que o sistema esteja disponível para uso diário.                                                                                                                             | [AD20](tecnicas/analise_documentacao.md) / [QST11](tecnicas/questionario.md)                         | Sim          |
 | <a id="rnf07"></a>**RNF07**               | Compatibilidade com Aplicativo Off-line            | O sistema deve ser compatível com o aplicativo off-line utilizado pelos municípios para coleta e digitação de dados.                                                                  | [AD21](tecnicas/analise_documentacao.md) / [QST12](tecnicas/questionario.md)                         | Não          |
 | <a id="rnf08"></a>**RNF08**               | Transmissão via Conectividade Social               | A transmissão de dados deve ser realizada exclusivamente por meio da ferramenta Conectividade Social da CAIXA.                                                                        | [AD22](tecnicas/analise_documentacao.md) / [QST13](tecnicas/questionario.md)                         | Não          |
 | <a id="rnf09"></a>**RNF09**               | Acesso Restrito                                    | O acesso à base de dados deve ser restrito a instituições autorizadas e mediante assinatura de termos específicos.                                                                    | [AD23](tecnicas/analise_documentacao.md)                                                             | Sim          |
 | <a id="rnf10"></a>**RNF10**               | Interface intuitiva e amigável                     | O design do aplicativo é simples e de fácil navegação.                                                                                                                                | [IS16](tecnicas/introspecção.md), [ENT11, ENT12](tecnicas/entrevista.md)                             | Sim          |
 | <a id="rnf11"></a>**RNF11**               | Suporte a grande base de usuários                  | Garantir que comportamento estável do sistema mediante acesso simultâneo de base de usuários em pico de uso.                                                                          | [IS17](tecnicas/introspecção.md)                                                                     | Sim          |
-| <a id="rnf12"></a>**RNF12-V2**            | Integração com sistemas oficiais                   | Integrado com sistemas como o CNIS, trazendo dados de vínculos e contribuições automaticamente.                                                                                       | [IS18](tecnicas/introspecção.md) /  [IS05](tecnicas/introspecção.md)                                 | Sim          |
+| <a id="rnf12-v2"></a>**RNF12-v2**            | Integração com sistemas oficiais                   | Integrado com sistemas como o CNIS, trazendo dados de vínculos e contribuições automaticamente.                                                                                       | [IS18](tecnicas/introspecção.md) /  [IS05](tecnicas/introspecção.md)                                 | Sim          |
 | <a id="rnf13"></a>**RNF13**               | Usabilidade                                        | Navegação intuitiva e acessibilidade geral.                                                                                                                                           | [IS19](tecnicas/introspecção.md)                                                                     | Não          |
 | <a id="rnf14"></a>**RNF14**               | Compatibilidade com Dispositivos                   | Compatível com Android e iOS.                                                                                                                                                         | [IS22](tecnicas/introspecção.md)                                                                     | Sim          | 
 | <a id="rnf15"></a>**RNF15**               | Acessibilidade para pessoas com deficiência visual | O aplicativo oferece recursos de acessibilidade para deficientes visuais, como leitores de tela.                                                                                      | [IS25](tecnicas/introspecção.md)                                                                     | Não          |

@@ -39,7 +39,7 @@ Os requisitos elicitados através das técnicas serão listados abaixo, conforme
 | ID                                             | Nome                                        | Implementado | Valor Julia | Valor Ryan | TOTAL   |
 | :--------------------------------------------: | :-----------------------------------------: | :----------: | :---------: | :--------: | :----:  |
 | [RF01](../requisitos_elicitados.md#rf01)       | Cadastro de Famílias                        | Sim          | US$2.20     | US$2.50    | US$4.70 |
-| [RF02-V2](../requisitos_elicitados.md#rf02-v2) | Cadastro de Pessoas                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF02-v2](../requisitos_elicitados.md#rf02-v2) | Cadastro de Pessoas                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
 | [RF03](../requisitos_elicitados.md#rf03)       | Cadastro de Domicílios                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
 | [RF04](../requisitos_elicitados.md#rf04)       | Cadastro de Agricultores Familiares         | Sim          | US$2.20     | US$2.00    | US$4.20 |
 | [RF05](../requisitos_elicitados.md#rf05)       | Atualização de Dados de família             | Sim          | US$2.20     | US$2.00    | US$4.20 |
@@ -60,22 +60,22 @@ Os requisitos elicitados através das técnicas serão listados abaixo, conforme
 | [RF21](../requisitos_elicitados.md#rf21)       | Consultar Situação Cadastral                | Sim          | US$2.20     | US$2.00    | US$4.20 |
 | [RF22](../requisitos_elicitados.md#rf22)       | Emissão de Comprovante de Cadastro          | Sim          | US$2.20     | US$2.00    | US$4.20 |
 | [RF23](../requisitos_elicitados.md#rf23)       | Filtragem de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF24-V2](../requisitos_elicitados.md#rf24)    | Consulta de status de Benefícios            | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RF25](../requisitos_elicitados.md#rf20)       | Informações Cadastrais                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
-| [RF26](../requisitos_elicitados.md#rf20)       | Chatbot de atendimento automatizado         | Não          | US$1.10     | US$1.00    | US$2.10 |
-| [RF27](../requisitos_elicitados.md#rf20)       | Notificação de pendências ou atualizações   | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF28](../requisitos_elicitados.md#rf20)       | Simulador de benefícios sociais             | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF29](../requisitos_elicitados.md#rf20)       | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
+| [RF24-v2](../requisitos_elicitados.md#rf24-v2) | Consulta de status de Benefícios            | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF25](../requisitos_elicitados.md#rf25)       | Informações Cadastrais                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF26](../requisitos_elicitados.md#rf26)       | Chatbot de atendimento automatizado         | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RF27](../requisitos_elicitados.md#rf27)       | Notificação de pendências ou atualizações   | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF28-v2](../requisitos_elicitados.md#rf28-v2) | Simulador de benefícios sociais             | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF29](../requisitos_elicitados.md#rf29)       | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
 | [RF30](../requisitos_elicitados.md#rf30)       | Agendamento de atendimento no CRAS          | Não          | US$1.10     | US$2.00    | US$1.10 |
-| [RF31](../requisitos_elicitados.md#rf30)       | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF32](../requisitos_elicitados.md#rf30)       | Atualização Cadastral                       | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RF33](../requisitos_elicitados.md#rf30)       | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF34](../requisitos_elicitados.md#rf30)       | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
-| [RF35](../requisitos_elicitados.md#rf30)       | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF36](../requisitos_elicitados.md#rf30)       | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF37](../requisitos_elicitados.md#rf30)       | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF38](../requisitos_elicitados.md#rf30)       | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF40](../requisitos_elicitados.md#rf40)       | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RF31](../requisitos_elicitados.md#rf31)       | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF32](../requisitos_elicitados.md#rf32)       | Atualização Cadastral                       | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF33](../requisitos_elicitados.md#rf33)       | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF34](../requisitos_elicitados.md#rf34)       | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF35](../requisitos_elicitados.md#rf35)       | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF36](../requisitos_elicitados.md#rf36)       | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF37](../requisitos_elicitados.md#rf37)       | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF38](../requisitos_elicitados.md#rf38)       | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF40-v2](../requisitos_elicitados.md#rf40-v2)    | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
 
 
 <center>
