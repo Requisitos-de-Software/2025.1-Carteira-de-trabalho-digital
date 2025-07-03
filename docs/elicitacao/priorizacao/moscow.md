@@ -14,7 +14,7 @@
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
 </center>
 
-# Introdução 
+## Introdução 
 
 Esse documento visa priorizar os requisitos elicitados utilizando a técnica MoSCoW.
 
@@ -43,7 +43,7 @@ compelidas a manter o maior número possível de requisitos na categoria Must.
 
 Adicionalmente, segundo WIEGERS (2013),
 
-# Metodologia
+## Metodologia
 Essa seção tratará brevemente sobre como a técnica foi utilizada.
 
 Para cada requisito elicitado, ele foi separado em um requisito funcional ou não funcional, posteriormente, ele foi priorizado utilizando o modelo da Tabela 2, cada um correspondendo a uma tupla. 
@@ -64,10 +64,10 @@ Legenda:
 - QSTX, ENTY, etc. : Um código de identificação para onde o requisito foi elicitado
 - MSCW : Uma categoria de priorização MoSCoW. 
 
-# Priorização
+## Priorização
 Essa seção contêm a priorização realizada.
 
-## Requisitos Funcionais
+### Requisitos Funcionais
 Essa subseção apresenta a priorização de requisitos funcionais por meio da tabela 3. 
 
 <!--ATENÇÃO, LEIA ESSE COMENTÁRIO
@@ -85,84 +85,112 @@ Essa subseção apresenta a priorização de requisitos funcionais por meio da t
 -->
 
 <center>
-    <b>Tabela 3:</b> Requisitos Funcionais Priorizados
+    <b>Tabela 1:</b> Requisitos Funcionais Priorizados segundo a Técnica MoSCoW
 </center>
 
-| ID      | Nome do Requisito                     | Descrição                                                                    | Rastreabilidade                      | Prioridade |
-|---------|---------------------------------------|------------------------------------------------------------------------------| -------------------------------------|------------|
-| RF01    | Cadastro de Famílias                  | Cadastro de famílias com renda até meio salário mínimo ou programas sociais. | Questionário / Análise de documentos | M          |
-| RF02    | Cadastro de Pessoas                   | Registro de identificação, escolaridade etc.                                 | Questionário / Análise de documentos | M          |
-| RF03    | Cadastro de Domicílios                | Registro de tipo de construção, saneamento, etc.                             | Questionário / Análise de documentos | M          |
-| RF04    | Cadastro de Agricultores Familiares   | Registro de posse de terra, renda e trabalho.                                | Questionário / Análise de documentos | S          |
-| RF05    | Atualização de Dados                  | Atualização dos dados cadastrais.                                            | Questionário / Introspecção          | M          |
-| RF06    | Processamento de Dados                | Envio à CAIXA e geração de NIS.                                              | Questionário / Análise de documentos | M          |
-| RF07    | Correção de Inconsistências           | Correção e retransmissão de dados.                                           | Análise de Documentos                | M          |
-| RF08    | Consulta de Dados                     | Consulta cadastral e benefícios.                                             | Questionário / Introspecção          | M          |
-| RF09    | Relatórios e Divulgação               | Geração de relatórios e compartilhamento com órgãos.                         | Análise de Documentos                | M          |
-| RF10    | Formulários de Coleta                 | Formulários principais e suplementares.                                      | Análise de Documentos                | M          |
-| RF11    | Cadastro MEI                          | Cadastro de usuário como MEI.                                                | Análise de Documentos                | W          |
-| RF12    | Informações MEI                       | Seção sobre MEI.                                                             | Análise de Documentos                | C          |
-| RF13    | Personalização MEI                    | Conteúdos personalizados conforme setor e região.                            | Análise de Documentos                | W          |
-| RF14    | Consultar dados cadastrais            | Visualização dos dados do Cadastro Único.                                    | Introspecção                         | M          |
-| RF15    | Pré-cadastrar família                 | Início de pré-cadastro de unidade familiar.                                  | Introspecção                         | M          |
-| RF16    | Localizar postos de atendimento       | Localiza CRAS com base na localização do usuário.                            | Introspecção                         | C          |
-| RF17    | Enviar notificações                   | Envio de mensagens importantes via app.                                      | Introspecção                         | C          |
-| RF18    | Integrar com o CNIS                   | Integração automática com CNIS.                                              | Introspecção                         | S          |
-| RF19    | Cadastro de Usuário                   | Coleta de dados pessoais.                                                    | Introspecção                         | M          |
-| RF20    | Atualização de Dados                  | Atualização dos dados cadastrais.                                            | Introspecção                         | M          |
-| RF21    | Consultar Situação Cadastral          | Verificação do status do cadastro.                                           | Introspecção                         | M          |
-| RF22    | Emissão de Comprovante de Cadastro    | Geração de comprovante de cadastro.                                          | Introspecção                         | S          |
-| RF23    | Filtragem de Benefícios               | Filtro de benefícios conforme dados cadastrados.                             | Introspecção                         | S          |
-| RF24    | Consulta de Benefícios                | Consulta de status de benefícios.                                            | Entrevista                           | M          |
-| RF25    | Informações Cadastrais                | Visualização de informações cadastrais.                                      | Entrevista                           | M          |
+| ID                                             | Nome                                        | Implementado | Prioridade  |
+| :--------------------------------------------: | :-----------------------------------------: | :----------: | :---------: |
+| [RF01](../requisitos_elicitados.md#rf01)       | Cadastro de Famílias                        | Sim          | Should      |
+| [RF02-v2](../requisitos_elicitados.md#rf02-v2) | Cadastro de Pessoas                         | Sim          | Must        |
+| [RF03](../requisitos_elicitados.md#rf03)       | Cadastro de Domicílios                      | Sim          | Should      |
+| [RF04](../requisitos_elicitados.md#rf04)       | Cadastro de Agricultores Familiares         | Sim          | Must        |
+| [RF05](../requisitos_elicitados.md#rf05)       | Atualização de Dados de família             | Sim          | Should      |
+| [RF06](../requisitos_elicitados.md#rf06)       | Processamento de Dados                      | Sim          | Must        |
+| [RF07](../requisitos_elicitados.md#rf07)       | Correção de Inconsistências                 | Sim          | Should      |
+| [RF08](../requisitos_elicitados.md#rf08)       | Consulta de Dados                           | Sim          | Won't       |
+| [RF09](../requisitos_elicitados.md#rf09)       | Relatórios e Divulgação                     | Sim          | Could       |
+| [RF10](../requisitos_elicitados.md#rf10)       | Formulários de Coleta                       | Sim          | Must        |
+| [RF11](../requisitos_elicitados.md#rf11)       | Cadastro MEI                                | Não          | Should      |
+| [RF12](../requisitos_elicitados.md#rf12)       | Informações MEI                             | Não          | Could       |
+| [RF13](../requisitos_elicitados.md#rf13)       | Personalização MEI                          | Não          | Should      |
+| [RF14](../requisitos_elicitados.md#rf14)       | Consultar dados cadastrais                  | Sim          | Should      |
+| [RF15](../requisitos_elicitados.md#rf15)       | Pré-cadastrar família                       | Sim          | Must        |
+| [RF16](../requisitos_elicitados.md#rf16)       | Localizar postos de atendimento             | Sim          | Must        |
+| [RF17](../requisitos_elicitados.md#rf17)       | Enviar notificações                         | Sim          | Must        |
+| [RF19](../requisitos_elicitados.md#rf19)       | Cadastro de Usuário                         | Sim          | Must        |
+| [RF20](../requisitos_elicitados.md#rf20)       | Atualização de Dados do Usuário             | Sim          | Should      |
+| [RF21](../requisitos_elicitados.md#rf21)       | Consultar Situação Cadastral                | Sim          | Won't       |
+| [RF22](../requisitos_elicitados.md#rf22)       | Emissão de Comprovante de Cadastro          | Sim          | Should      |
+| [RF23](../requisitos_elicitados.md#rf23)       | Filtragem de Benefícios                     | Não          | Must        |
+| [RF24-v2](../requisitos_elicitados.md#rf24-v2) | Consulta de status de Benefícios            | Sim          | Must        |
+| [RF25](../requisitos_elicitados.md#rf25)       | Informações Cadastrais                      | Sim          | Should      |
+| [RF26](../requisitos_elicitados.md#rf26)       | Chatbot de atendimento automatizado         | Não          | Could       |
+| [RF27](../requisitos_elicitados.md#rf27)       | Notificação de pendências ou atualizações   | Não          | Must        |
+| [RF28-v2](../requisitos_elicitados.md#rf28-v2) | Simulador de benefícios sociais             | Não          | Could       |
+| [RF29](../requisitos_elicitados.md#rf29)       | Upload de documentos                        | Não          | Must        |
+| [RF30](../requisitos_elicitados.md#rf30)       | Agendamento de atendimento no CRAS          | Não          | Must        |
+| [RF31](../requisitos_elicitados.md#rf31)       | Notificações Personalizadas                 | Não          | Won't       |
+| [RF32](../requisitos_elicitados.md#rf32-v2)    | Guia de Atualização Cadastral               | Não          | Must        |
+| [RF33](../requisitos_elicitados.md#rf33)       | Simulador de Benefícios                     | Não          | Could       |
+| [RF34](../requisitos_elicitados.md#rf34)       | Chat de Atendimento                         | Não          | Should      |
+| [RF35](../requisitos_elicitados.md#rf35)       | Tutoriais Interativos                       | Não          | Must        |
+| [RF36](../requisitos_elicitados.md#rf36)       | Vídeos Explicativos                         | Não          | Should      |
+| [RF37](../requisitos_elicitados.md#rf37)       | Assistência por Voz                         | Não          | Should      |
+| [RF38](../requisitos_elicitados.md#rf38)       | Modo escuro                                 | Não          | Must        |
+| [RF40-v2](../requisitos_elicitados.md#rf40-v2) | Login                                       | Sim          | Must        |
+
 
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>, 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
 </center>
 
-## Requisitos Não Funcionais
-Essa seção apresenta os requisitos não funcionais priorizados por meio da Tabela 4.
+### Requisitos Não Funcionais
+Essa seção apresenta os resultados da priorização dos requisitos não funcionais elicitados por meio da Tabela 2.
 
 <center>
-    <b>Tabela 4:</b> Requisitos Não Funcionais Priorizados
+    <b>Tabela 2:</b> Requisitos Não Funcionais Priorizados segundo a técnica MoSCoW
 </center>
 
-| ID      | Nome do Requisito                       | Descrição                                                          | Rastreabilidade                      | Prioridade |
-| ------- | -------------------------------------   | ------------------------------------------------------------------ | ---------------------------------    | ---------- |
-| RNF01   | Desempenho                              | Processamento de dados em até 48h.                                 | Análise de documentos                | M          |
-| RNF02   | Segurança                               | Confidencialidade e autenticação.                                  | Análise de documentos / Introspecção | M          |
-| RNF03   | Escalabilidade                          | Suportar até 19,5 milhões de famílias.                             | Análise de documentos                | M          |
-| RNF04   | Conformidade Legal                      | Atender portarias e regras da Senarc.                              | Análise de documentos                | M          |
-| RNF05   | Acessibilidade                          | Acessível para operadores estaduais e municipais.                  | Análise de documentos                | M          |
-| RNF06   | Disponibilidade                         | Sistema disponível diariamente.                                    | Análise de documentos / Introspecção | M          |
-| RNF07   | Compatibilidade com Aplicativo Off-line | Compatível com app offline dos municípios.                         | Análise de documentos                | M          |
-| RNF08   | Transmissão via Conectividade Social    | Uso exclusivo da ferramenta da CAIXA.                              | Análise de documentos                | M          |
-| RNF09   | Acesso Restrito                         | Acesso restrito a instituições autorizadas.                        | Análise de documentos                | M          |
-| RNF10   | Integração MEI                          | Comunicação com sistemas voltados ao MEI.                          | Análise de documentos                | W          |
-| RNF11   | Interface intuitiva e amigável          | Interface simples e de fácil navegação.                            | Introspecção, Entrevista             | M          |
-| RNF12   | Suporte a grande base de usuários       | Suporte a muitos acessos simultâneos.                              | Introspecção                         | M          |
-| RNF13   | Integração com sistemas oficiais        | Integração com sistemas como CNIS.                                 | Introspecção                         | M          |
-| RNF14   | Usabilidade                             | Navegação intuitiva.                                               | Introspecção                         | M          |
-| RNF15   | Segurança                               | Criptografia e proteção de dados sensíveis.                        | Introspecção                         | M          |
-| RNF16   | Performance                             | Respostas em até 3 segundos.                                       | Introspecção                         | S          |
-| RNF17   | Compatibilidade com Dispositivos        | Compatível com Android e iOS.                                      | Introspecção                         | M          |
-| RNF18   | Disponibilidade                         | 99% de disponibilidade.                                            | Introspecção                         | M          |
+| ID                                         | Nome                                               | Implementado |Prioridade |
+| :----------------------------------------: | :------------------------------------------------: | :----------: |:---------:|
+| [RNF01](../requisitos_elicitados.md#rnf01) | Desempenho                                         | Não          | Must      |
+| [RNF02](../requisitos_elicitados.md#rnf02) | Segurança                                          | Sim          | Must      |
+| [RNF03](../requisitos_elicitados.md#rnf03) | Escalabilidade                                     | Sim          | Must      |
+| [RNF04](../requisitos_elicitados.md#rnf04) | Conformidade Legal                                 | Sim          | Must      |
+| [RNF05](../requisitos_elicitados.md#rnf05) | Acessibilidade                                     | Não          | Should    |
+| [RNF06](../requisitos_elicitados.md#rnf06) | Disponibilidade                                    | Sim          | Must      |
+| [RNF07](../requisitos_elicitados.md#rnf07) | Compatibilidade com Aplicativo Off-line            | Não          | Must      |
+| [RNF08](../requisitos_elicitados.md#rnf08) | Transmissão via Conectividade Social               | Não          | Could     |
+| [RNF09](../requisitos_elicitados.md#rnf09) | Acesso Restrito                                    | Sim          | Must      |
+| [RNF10](../requisitos_elicitados.md#rnf10) | Interface intuitiva e amigável                     | Sim          | Should    |
+| [RNF11](../requisitos_elicitados.md#rnf11) | Suporte a grande base de usuários                  | Sim          | Should    |
+| [RNF12](../requisitos_elicitados.md#rnf12) | Integração com sistemas oficiais                   | Sim          | Must      |
+| [RNF13](../requisitos_elicitados.md#rnf13) | Usabilidade                                        | Não          | Should    |
+| [RNF14](../requisitos_elicitados.md#rnf14) | Compatibilidade com Dispositivos                   | Sim          | Must      |
+| [RNF15](../requisitos_elicitados.md#rnf15) | Acessibilidade para pessoas com deficiência visual | Não          | Should    |
+| [RNF16](../requisitos_elicitados.md#rnf16) | Backup e restauração de sessão                     | Não          | Should    |
+| [RNF17](../requisitos_elicitados.md#rnf17) | Alta disponibilidade e recuperação de desastres    | Não          | Should    |
+| [RNF18](../requisitos_elicitados.md#rnf18) | Possibilidade de outros idiomas                    | Não          | Could     |
+| [RNF19](../requisitos_elicitados.md#rnf19) | Integração MEI                                     | Não          | Must      |
+| [RNF19](../requisitos_elicitados.md#rnf20) | Integração com o GOV.br                            | Não          | Must      |
+
 <center>
     Autor(es): 
-    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>, 
-    <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a>
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-# Validação 
+## Conclusão
+
+Uma técnica razoavelmente similar ao Three Level Scale, todavia, pouco restrita pela bibliografia utilizada. 
+
+Apesar de permitir dinamismo na priorização e discussão dos requisitos apresentados, além das prioridades poderem ser 
+diretamente comparáveis ao three level scale, o MoSCoW demonstra dificuldade em evitar a necessidade de ser explicado
+ao cliente, não possui uma tradução fácil do método e demonstra ser de uso difícil para grandes grupos de usuários, observado
+que não é possível realizar a exata média de um Must com um Should, por exemplo, levando a dificuldades da ordem exata
+com a qual os requisitos deveriam ser implementados, levando em consideração a dependência entre requisitos.
+A 100$ parece permitir maiores facilidades nesse aspecto de grupos de usuários e uma priorização final mais clara. 
+
+Ao menos, a bibliografia utilizada dá a entender que é possível transferir a escala da Three Level Scale para o MoSCoW sem
+grandes esforços, portanto exigindo menos retrabalho para priorizar os requisitos. 
+
 
 ## Validação 
 
-A validação da priorização foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 1 e 2
+A validação da priorização foi realizada presencialmente. As informações da reunião presencial são apresentadas por meio da tabela 3 e 4.
 
 <center>
-    <b> Tabela 1:</b> Informações da Entrevista
+    <b> Tabela 3:</b> Informações da Entrevista
 </center>
 
 | Campo   | Informação                                               |
@@ -172,13 +200,14 @@ A validação da priorização foi realizada presencialmente. As informações d
 | Horário | 9:20                                                     |
 | Duração | Cerca de 5 minutos                                       |
 
-
 <center>
     <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
+---
+
 <center>
-    <b> Tabela 2:</b> Participantes da Entrevista
+    <b> Tabela 4:</b> Participantes da Entrevista
 </center>
 
 | Nome                                                 | Função                   |
@@ -193,12 +222,18 @@ A validação da priorização foi realizada presencialmente. As informações d
     <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
 
-# Referências
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+---
+
+## Referências
 > FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 320-321. ISBN 0735679665.
 
-A figura 1 apresenta uma foto que apresenta a referência WIEGERS e BEATTY (2013).
+A figura 1 apresenta a referência WIEGERS e BEATTY (2013).
 
 <center>
     <b>Figura 1:</b> MoSCoW segundo WIEGERS e BEATTY.
@@ -214,8 +249,10 @@ A figura 1 apresenta uma foto que apresenta a referência WIEGERS e BEATTY (2013
 
 ---
 
-# Histórico de Versões 
-| Versão  | Data       | Descrição                              | Autor                                              | Revisor                                                          |
-| :-----: | :----:     | :----------:                           | :------------:                                     | :--------:                                                       |
-| 1.0     | 28/04/2025 | Criação da página da técnica MoSCoW    | [Ryan Salles](https://github.com/RA-Salles)        |  [João Pedro Costa](https://github.com/johnaopedro)              |
-| 1.1     | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)                      |
+## Histórico de Versões
+ 
+| Versão  | Data       | Descrição                                                                                   | Autor                                              | Revisor                                            |
+| :-----: | :----:     | :----------:                                                                                | :------------:                                     | :--------:                                         |
+| 1.0     | 28/04/2025 | Criação da página da técnica MoSCoW                                                         | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.1     | 04/05/2025 | Adicionando links e corrigindo tabelas                                                      | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)        |
+| 2.0     | 03/07/2025 | Refatoração do documento e conserto em cascata ocasionado pelo versionamento dos requisitos | [Ryan Salles](https://github.com/RA-Salles)        | [João Pedro Costa](https://github.com/johnaopedro) |
