@@ -5,6 +5,7 @@
 |----------------------                              |----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)          | Revisão dos itens criados por João Pedro                          | 
 |[João Pedro Costa](https://github.com/johnaopedro)  | Criação do modelo da estrutura do documento; Adição dos videos das técnicas de elicitação de introspecção e análise de documentos| 
+|[João Igor](https://github.com/johnaopedro)  | Adição dos videos das técnicas de priorização: MoSCoW e Three Level Scale| 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -165,9 +166,51 @@ Abaixo está o vídeo de validação da introspecção com o usuário, onde são
 <details markdown="1">
 <summary>MoSCoW</summary>
 
-<!-- Adicione aqui o embed do vídeo da técnica MoSCoW, se houver -->
+### Explicação sobre o MoSCoW
 
-<figcaption>Vídeo explicativo sobre a priorização utilizando a técnica MoSCoW.</figcaption>
+Nesta técnica o usuário do aplicativo prioriza os requisitos elicitados anteriormente em 4 tipos: Must(precisa ser implementado), Should(é importante ser implementado), Could(poderia ser implementado) e Won't(não será implementado).
+
+### Validação do MoSCoW
+
+Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela x e x.
+
+<center>
+    <b> Tabela x:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 09:20                                                    |
+| Duração | Cerca de 15 minutos                                      |
+<center>
+     Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+<br>
+<center>
+    <b> Tabela x:</b> Participantes da Entrevista
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Artur                                        | Usuário/ Project Owner   |
+| [Ryan Salles](https://github.com/RA-Salles)  | Entrevistador            |
+| [João Igor](https://github.com/JoaoPC10)     | Observador               |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário        |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+<br>
+
+#### Video x: Priorização dos requisitos através do MoSCoW
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figcaption>Vídeo sobre a priorização utilizando a técnica MoSCoW.</figcaption>
 </details>
 
 <details markdown="1">
@@ -181,9 +224,51 @@ Abaixo está o vídeo de validação da introspecção com o usuário, onde são
 <details markdown="1">
 <summary>Three Level Scale</summary>
 
-<!-- Adicione aqui o embed do vídeo da técnica Three Level Scale, se houver -->
+### Explicação sobre a Three Level Scale
 
-<figcaption>Vídeo explicativo sobre a priorização utilizando a técnica Three Level Scale.</figcaption>
+Nesta técnica o usuário do aplicativo prioriza os requisitos elicitados anteriormente , classificando-os em três categorias: alta prioridade, prioridade média e baixa prioridade.
+
+### Validação da Three Level Scale
+
+Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela x e x.
+
+<center>
+    <b> Tabela x:</b> Informações da Entrevista
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 09:00                                                    |
+| Duração | Cerca de 15 minutos                                      |
+<center>
+     Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+<br>
+<center>
+    <b> Tabela x:</b> Participantes da Entrevista
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| Artur                                        | Usuário/ Project Owner   |
+| [Ryan Salles](https://github.com/RA-Salles)  | Entrevistador            |
+| [João Igor](https://github.com/JoaoPC10)     | Observador               |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário        |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+</center>
+<br>
+
+#### Video x: Priorização dos requisitos através da Three Level Scale
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HV6II_-XTVc?si=EM-kqJggTzlJKyXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figcaption>Vídeo sobre a priorização utilizando a técnica Three Level Scale.</figcaption>
 </details>
 
 </details>
@@ -194,3 +279,4 @@ Abaixo está o vídeo de validação da introspecção com o usuário, onde são
 |  1.0   | 01/06/2025 | Criação da pagina | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
 |  1.1   | 02/06/2025 | Adição de videos de elicitação| [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
 |  1.2   | 03/06/2025 | Inserção dos vídeos de validação | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
+|  1.3   | 03/07/2025 | Inserção dos vídeos de validação | [João Igor](https://github.com/JoaoPC10)     | [Amanda Cruz](https://github.com/mandicrz) |

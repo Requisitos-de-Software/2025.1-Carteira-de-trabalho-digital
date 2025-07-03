@@ -154,7 +154,7 @@ A validação da priorização foi realizada presencialmente. As informações d
 
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 <center>
@@ -164,13 +164,13 @@ A validação da priorização foi realizada presencialmente. As informações d
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
 | Artur                                        | Usuário/ Project Owner   |
-| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
-| [Ryan Salles]()                              |                          |
-| [João Igor]()                                |                          |
-| [Gabriel Flores]()                           |                          |
+| [Ryan Salles](https://github.com/RA-Salles)  | Entrevistador            |
+| [João Igor](https://github.com/JoaoPC10)     | Observador               |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário        |
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>, 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
