@@ -92,7 +92,8 @@ Essa seção apresenta os resultados da priorização dos requisitos funcionais 
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
 </center>
 
 ## Requisitos Não Funcionais
@@ -126,7 +127,8 @@ Essa seção apresenta os resultados da priorização dos requisitos não funcio
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
 </center>
 
 ### Análise dos Requisitos Priorizados

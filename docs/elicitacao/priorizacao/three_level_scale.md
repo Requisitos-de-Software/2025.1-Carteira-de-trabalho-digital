@@ -90,7 +90,7 @@ Essa seção apresenta os resultados da priorização dos requisitos funcionais 
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
 </center>
 
 ## Requisitos Não Funcionais
@@ -125,7 +125,7 @@ Essa seção apresenta os resultados da priorização dos requisitos não funcio
 
 <center>
     Autor(es): 
-    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>, 
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 ## Validação 
@@ -145,9 +145,9 @@ A priorização foi realizada presencialmente. As informações da reunião pres
 
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es):</b><a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles</a>
 </center>
-
+<br></br>
 <center>
     <b> Tabela 2:</b> Participantes da Entrevista
 </center>
@@ -161,11 +161,12 @@ A priorização foi realizada presencialmente. As informações da reunião pres
 | [Gabriel Flores](https://github.com/johnaopedro) | Secretário               |
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es):</b><a href="https://github.com/RA-Salles" target="_blank"> Ryan Salles</a>
 </center>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HV6II_-XTVc?si=EM-kqJggTzlJKyXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<br></br>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HV6II_-XTVc?si=EM-kqJggTzlJKyXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 ## Conclusão
 
