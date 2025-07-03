@@ -2,11 +2,13 @@
 
 ## Funções dos autores
 
-| Nome                 | Função                                                            | 
-|----------------------|----------------------------------------------------------------   |
-|[João Pedro Costa](https://github.com/johnaopedro)| Ajustes gerais| 
-|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral.| 
-|[Ryan Salles](https://github.com/RA-Salles)|Criação do documento.| 
+| Nome                                                | Função                                                            | 
+|----------------------                               |-------------------------------------------------------------------|
+| [João Pedro Costa](https://github.com/johnaopedro)  | Ajustes e suporte técnico para validação                          | 
+| [Julia Gabriela](https://github.com/JuliaGabP)      | Revisão geral                                                     | 
+| [Ryan Salles](https://github.com/RA-Salles)         | Criação do documento, manutenção e validação                      | 
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Suporte técnico para validação                                    |
+| [João Igor](https://github.com/JoaoPC10)            | Suporte técnico para validação                                    |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -16,24 +18,30 @@
 
 Esse documento visa priorizar os requisitos elicitados utilizando a técnica MoSCoW.
 
-Segundo Wiegers (2013), a técnica de priorização MoSCoW funciona como uma forma de explicar e demonstrar aos clientes e partes interessadas quando e se uma determinada funcionalidade será implementada utilizando a escala de nome homônimo, apresentada por meio do Tabela 1.
+Segundo Wiegers (2013), a técnica de priorização MoSCoW funciona como uma forma de explicar
+e demonstrar aos clientes e partes interessadas quando e se uma determinada funcionalidade
+será implementada utilizando a escala de nome homônimo, apresentada por meio do Tabela 1.
 
 <center>
     <b>Tabela 1:</b> Escala MoSCoW
 </center>
 
-| Sigla | Nome | Significado|
-|:-----:|:----:|:----------:|
-| M     | Must   | O requisito precisa ser implementado para obter sucesso. Ausência destes requisitos implicam na não realização do projeto. |
-| S     | Should | O requisito é importante e deve ser implementado, se possível. Ausências causam impactos relevante, mas não catastróficos. |
-| C     | Could  | O requisito pode ser implementado caso hajam recursos remanescentes para tal. Ausências causam impactos mínimos. |
-| W     | Won't  | O requisito não será implementado nesse período. A ausência desse requisito não causará impactos durante o período |
+| Sigla | Nome   | Nome traduzido | Significado                                                                                                                |
+|:-----:|:----:  | :------------: |:----------:                                                                                                                |
+| M     | Must   | Precisa        | O requisito precisa ser implementado para obter sucesso. Ausência destes requisitos implicam na não realização do projeto. |
+| S     | Should | Deve           | O requisito é importante e deve ser implementado, se possível. Ausências causam impactos relevante, mas não catastróficos. |
+| C     | Could  | Poderia        | O requisito pode ser implementado caso hajam recursos remanescentes para tal. Ausências causam impactos mínimos.           |
+| W     | Won't  | Não Deve       | O requisito não será implementado nesse período. A ausência desse requisito não causará impactos durante o período         |
 
 <center>
     <b> Autor(es): </b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-Os requisitos priorizados por essa técnica são essencialmente mutáveis ao apresentar a classifiação W com a restrição de um período de tempo, podendo ser alterada para outra classificação no futuro. Caso isso não seja esclarecido, as partes interessadas, clientes e/ou podem se sentir compelidas a manter o maior número possível de requisitos na categoria Must.  
+Os requisitos priorizados por essa técnica são essencialmente mutáveis ao apresentar a classifiação W com a restrição de um período de tempo,
+podendo ser alterada para outra classificação no futuro. Caso isso não seja esclarecido, as partes interessadas, clientes e/ou podem se sentir
+compelidas a manter o maior número possível de requisitos na categoria Must.
+
+Adicionalmente, segundo WIEGERS (2013),
 
 # Metodologia
 Essa seção tratará brevemente sobre como a técnica foi utilizada.
@@ -43,9 +51,9 @@ Para cada requisito elicitado, ele foi separado em um requisito funcional ou nã
     <b>Tabela 2:</b> Modelo de priorização
 </center>
 
-| Tipo | Nome | Rastro | Prioridade |
-|:----:|:----:|:------:|:----------:|
-|RX  | Um nome descritivo | QSTX, ENTY, ADDZ | MSCW |
+| Tipo | Nome               | Rastro           | Prioridade |
+|:----:|:----:              |:------:          |:----------:|
+|RX    | Um nome descritivo | QSTX, ENTY, ADDZ | M/S/C/W       |
 
 <center>
     <b> Autor(es): </b> <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
@@ -173,22 +181,38 @@ A validação da priorização foi realizada presencialmente. As informações d
     <b> Tabela 2:</b> Participantes da Entrevista
 </center>
 
-| Nome                                         | Função                   |
-| :------------------------------------------: | :----------------------: |
-| Artur                                        | Usuário/ Project Owner   |
-| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
-| [Ryan Salles](https://github.com/RA-Salles)  | Auxiliar                 |
-| [João Igor](https://github.com/JoaoPC10)     | Auxiliar                 |
-| [Gabriel Flores](https://github.com/Gabrielfcoelho)  | Auxiliar         |
+| Nome                                                 | Função                   |
+| :------------------------------------------:         | :----------------------: |
+| Artur                                                | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro)         | Secretário               |
+| [Ryan Salles](https://github.com/RA-Salles)          | Entrevistador            |
+| [João Igor](https://github.com/JoaoPC10)             | Observador               |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho)  | Secretário               |
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Referências
-> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.
+> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 320-321. ISBN 0735679665.
+
+A figura 1 apresenta uma foto que apresenta a referência WIEGERS e BEATTY (2013).
+
+<center>
+    <b>Figura 1:</b> MoSCoW segundo WIEGERS e BEATTY.
+</center>
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/moscow/moscow_wiegers.png" alt="Three Level Scale 2">
+</div>
+
+<center>
+    <b>Fonte: </b> Adaptado de WIEGERS e BEATTY (2013).
+</center>
+
+---
 
 # Histórico de Versões 
 | Versão  | Data       | Descrição                              | Autor                                              | Revisor                                                          |
