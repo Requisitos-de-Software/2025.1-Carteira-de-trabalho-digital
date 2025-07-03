@@ -26,11 +26,23 @@ No início da atividade, foi explicado ao participante o objetivo da técnica e 
 
 Ao final, os que receberam maior alocação de dólares foram classificados como mais prioritários e, dessa forma, selecionamos as funcionalidades que deveriam ser implementadas primeiro no projeto.
 
-## Requisitos Elicitados
+## Priorização
 
-Os requisitos elicitados através das técnicas serão listados abaixo, conforme a Tabela 1, para que seja possível visualizar e realizar o procedimento dos $100. Para fácil entendimento, a leitura pode ser lida conforme a legenda, descrita logo abaixo.
+A partir da tabela de [Requisitos Elicitados](../requisitos_elicitados.md), a técnica foi realizada para Requisitos Funcionais
+e não Funcionais. Os resultados são apresentados por meio das Tabels 1 e 2.
 
-# Requisitos Funcionais 
+Legenda:
+- ID: apresenta um link para o requisito priorizado
+- Nome: apresenta o nome do requisito priorizado
+- Implementado: identifica se o requisito está presente ou não no aplicativo
+- Valor X: Apresenta o valor colocado no requisito pelo priorizador
+- TOTAL: apresenta a soma dos valores
+
+
+
+### Requisitos Funcionais 
+
+Essa seção apresenta os resultados da priorização dos requisitos funcionais por meio da tabela 1.
 
 <center>
     <b>Tabela 1:</b> Requisitos Funcionais Elicitados
@@ -68,14 +80,14 @@ Os requisitos elicitados através das técnicas serão listados abaixo, conforme
 | [RF29](../requisitos_elicitados.md#rf29)       | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
 | [RF30](../requisitos_elicitados.md#rf30)       | Agendamento de atendimento no CRAS          | Não          | US$1.10     | US$2.00    | US$1.10 |
 | [RF31](../requisitos_elicitados.md#rf31)       | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
-| [RF32](../requisitos_elicitados.md#rf32)       | Atualização Cadastral                       | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF32](../requisitos_elicitados.md#rf32-v2)    | Guia de Atualização Cadastral               | Não          | US$1.10     | US$2.00    | US$3.10 |
 | [RF33](../requisitos_elicitados.md#rf33)       | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
 | [RF34](../requisitos_elicitados.md#rf34)       | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
 | [RF35](../requisitos_elicitados.md#rf35)       | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
 | [RF36](../requisitos_elicitados.md#rf36)       | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
 | [RF37](../requisitos_elicitados.md#rf37)       | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
 | [RF38](../requisitos_elicitados.md#rf38)       | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
-| [RF40-v2](../requisitos_elicitados.md#rf40-v2)    | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RF40-v2](../requisitos_elicitados.md#rf40-v2) | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
 
 
 <center>
@@ -84,7 +96,7 @@ Os requisitos elicitados através das técnicas serão listados abaixo, conforme
 </center>
 
 ## Requisitos Não Funcionais
-Essa seção apresenta os requisitos não funcionais elicitados por meio da Tabela 2.
+Essa seção apresenta os resultados da priorização dos requisitos não funcionais elicitados por meio da Tabela 2.
 
 <center>
     <b>Tabela 2:</b> Requisitos Não Funcionais elicitados
@@ -131,12 +143,28 @@ todavia permitindo que qualquer usuário influêncie o resultado final do que de
 
 ## Bibliografia
 
-> WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Seattle: Microsoft Press, 2013.
+> WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Seattle: Microsoft Press, 2013. p. 321-322.
+
+A Figura 1 apresenta a especificação da técnica segundo WIEGERS e BEATTY (2013).
+
+<center>
+    <b>Figura 1:</b> Especificação da técnica dos 100 dólares segundo WIEGERS e BEATTY (2013).
+</center>
+
+<div style="text-align: center;">
+    <img src="../../assets/referencias/cemdolares/image.png" alt="100dolaresWIEGERS">
+</div>
+
+
+<center>
+    <b>Fonte:</b> Adaptado de WIEGERS e BEATTY (2013).
+</center>
+
 
 ## Histórico de Versão
 
-| Versão |    Data    |      Descrição                                                                                 |          Autor                                                                                   |       Revisor                                |
-| :----: | :--------: | :------------------:                                                                           | :----------------------------------------------------------------------------------------------: | :------------------------------------------: |
-|  1.0   | 04/05/2025 | Criação do Documento                                                                           | [Amanda Cruz](https://github.com/mandicrz), [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [João Pedro](https://github.com/johnaopedro) |
-|  1.1   | 25/06/2025 | Correção total do documento, refazendo a técnica                                               | [Julia Gabriela](https://github.com/JuliaGabP)                                                   | [João Pedro](https://github.com/johnaopedro) |
-|  1.2   | 25/06/2026 | Atualização da rastreabilidade, exclusão de tabela de descrição, adição da coluna "Valor Ryan" | [Ryan Salles](https://github.com/RA-Salles)                                                      | [João Pedro](https://github.com/johnaopedro) |
+| Versão |    Data    |      Descrição                                                                                                                    |          Autor                                                                                   |       Revisor                                |
+| :----: | :--------: | :------------------:                                                                                                              | :----------------------------------------------------------------------------------------------: | :------------------------------------------: |
+|  1.0   | 04/05/2025 | Criação do Documento                                                                                                              | [Amanda Cruz](https://github.com/mandicrz), [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [João Pedro](https://github.com/johnaopedro) |
+|  2.0   | 25/06/2025 | Correção total do documento, refazendo a técnica                                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                                                   | [João Pedro](https://github.com/johnaopedro) |
+|  2.1   | 25/06/2026 | Atualização da rastreabilidade, exclusão de tabela de descrição, adição da coluna "Valor Ryan" e adicionando imagem de referência | [Ryan Salles](https://github.com/RA-Salles)                                                      | [João Pedro](https://github.com/johnaopedro) |
