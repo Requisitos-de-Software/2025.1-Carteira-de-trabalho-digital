@@ -5,7 +5,7 @@
 |----------------------                              |----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)          | Revisão dos itens criados por João Pedro                          | 
 |[João Pedro Costa](https://github.com/johnaopedro)  | Criação do modelo da estrutura do documento; Adição dos videos das técnicas de elicitação de introspecção e análise de documentos| 
-|[João Igor](https://github.com/johnaopedro)  | Adição dos videos das técnicas de priorização: MoSCoW e Three Level Scale| 
+|[João Igor](https://github.com/johnaopedro)  | Adição dos videos, e demais informações, das técnicas de priorização: MoSCoW e Three Level Scale| 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
