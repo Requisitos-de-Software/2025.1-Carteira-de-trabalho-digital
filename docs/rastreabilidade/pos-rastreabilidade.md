@@ -11,6 +11,7 @@
 |[Ryan Salles](https://github.com/RA-Salles)       | Revisão geral, Inserção de informação RF1-14 e RNF 17 e 18  |
 |[Julia Gabriela](https://github.com/JuliaGabP)    | Revisão geral                                               |
 |[João Igor](https://github.com/JoaoPC10)          | Alocação da rastreabilidade dos requisitos 15, 16 e 19 ao 28|
+|[Gabriel Flores](https://github.com/Gabrielfcoelho) | Rastreabilidade dos requisitos funcionais 29 ao 40 e não funcionais 1 e 2 |
 
 
 **Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
@@ -784,7 +785,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado       | [EU_25](../modelagem/agil/historia_de_usuario.md) |
 | Agregação     | [RF29](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -809,7 +810,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_16](../modelagem/agil/historia_de_usuario.md), [Épico 3 - FT_05](../modelagem/agil/backlog.md) |
 | Agregação | [RF30](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -834,7 +835,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | - |
 | Agregação | [RF31](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -884,7 +885,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | - |
 | Agregação | [RF33](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -909,7 +910,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_27](../modelagem/agil/historia_de_usuario.md), [Épico 2 - FT_05](../modelagem/agil/backlog.md) |
 | Agregação | [RF34](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -934,7 +935,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_28](../modelagem/agil/historia_de_usuario.md), [Épico 4 - FT_05](../modelagem/agil/backlog.md) |
 | Agregação | [RF35](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -959,7 +960,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_35](../modelagem/agil/historia_de_usuario.md), [Épico 2 - FT_05](../modelagem/agil/backlog.md) |
 | Agregação | [RF36](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1009,7 +1010,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_08](../modelagem/agil/historia_de_usuario.md), [Épico 4 - FT_06](../modelagem/agil/backlog.md) |
 | Agregação | [RF38](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1034,7 +1035,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_37](../modelagem/agil/historia_de_usuario.md), [Épico 1 - FT02](../modelagem/agil/backlog.md) |
 | Agregação | [RF40](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1059,7 +1060,7 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 | Alocado | [EU_37](../modelagem/agil/historia_de_usuario.md), [Épico 1 - FT_01](../modelagem/agil/backlog.md) |
 | Agregação | [RF40](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1078,13 +1079,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF01|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Satisfação | [Especificação Suplementar - DES01](../modelagem/especificacao_suplementar.md) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
 | Agregação | [RNF01](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1103,13 +1104,13 @@ Nesta seção são apresentados os requisitos do Cadastro Único e os artefatos 
 |RNF02|Desenvolvimento|
 | :---: | :---: |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar](../modelagem/especificacao_suplementar.md) |
-| Recurso | [Cenários](../modelagem/cenarios.md), [Léxico](../modelagem/lexico.md) |
-| Representação | [Casos de Uso](../modelagem/caso_de_uso.md) |
-| Alocado | [História de Usuário](../modelagem/agil/historia_de_usuario.md), [Backlog](../modelagem/agil/backlog.md) |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
 | Agregação | [RNF02](../elicitacao/requisitos_elicitados.md) |
 
-**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro)
+**Autor(es):** [João Pedro Costa](https://github.com/johnaopedro), [Gabriel Flores](https://github.com/Gabrielfcoelho)
 
 <figcaption></figcaption>
 </figure>
@@ -1591,3 +1592,4 @@ As figuras 1 a 4 apresentam as referências bibliográficas recuperadas para a e
 |  1.3   | 07/06/2025 | Adição de todos os requisitos do projeto                | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    | 
 |  1.4   | 07/06/2025 | Hyperlinks indicando a rastreabilidade e inserção de informação de todos requisitos funcionais e não funcionais   | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles)    |
 |  1.5   | 08/06/2025 | Preenchimento das Tabelas   | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Salles](https://github.com/RA-Salles)    |
+|  1.6   | 08/06/2025 | Preenchimento das Tabelas   | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10)    |
