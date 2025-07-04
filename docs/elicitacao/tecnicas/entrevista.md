@@ -5,7 +5,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|Desenvolvimento da entrevista.| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão geral.| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do documento e Revisão geral.| 
 |[João Pedro Costa](https://github.com/johnaopedro)| Criação das tabelas de requisitos; Revisão Geral.| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Desenvolvimento da entrevista.| 
 |[Ryan Salles](https://github.com/RA-Salles)|Revisão geral.| 
@@ -29,6 +29,11 @@ A entrevista é uma das técnicas mais utilizadas para coleta de dados na elicit
 | Amanda Cruz         | Leticia              | 26/04/2025 | 21:32     |
 | Amanda Cruz         | Felipe               | 27/04/2025 | 18:00     |
 | Amanda Cruz         | Luiz                 | 26/04/2025 | 21:09     |
+
+<center>
+    Autor: 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
 
 ## Metodologia
 
@@ -55,12 +60,21 @@ O roteiro de perguntas teve como objetivo compreender a experiência dos usuári
 
 ## Relatório e Vídeos das Entrevistas
 
-* Relatório disponível em:   [Relatório das Entrevistas](../../assets/Entrevistas-CadUnico.pdf)  
-* Entrevista da Leticia:     [clique aqui](https://youtu.be/YT80-MCh1vs)  
-* Entrevista do Felipe:      [clique aqui](https://youtu.be/4QlX683lf-s)  
-* Entrevista do Luiz:        [clique aqui](https://youtu.be/1VPUozZrUN8)  
-* Entrevista do Luis Felipe: [clique aqui](https://youtu.be/Pe8Xyo757EE)  
-* Entrevista do Rodrigo:     [clique aqui](https://youtu.be/6kpNR9GHAfU)  
+Relatório disponível em:   [Relatório das Entrevistas](../../assets/Entrevistas-CadUnico.pdf)  
+### Entrevista da Leticia:
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=YT80-MCh1vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+
+### Entrevista do Felipe:
+<iframe width="560" height="315" src="youtu.be/4QlX683lf-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+  
+### Entrevista do Luiz: 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=1VPUozZrUN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+### Entrevista do Luis Felipe:
+<iframe width="560" height="315" src="https://youtu.be/6kpNR9GHAfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Entrevista do Rodrigo:   
+<iframe width="560" height="315" src="https://youtu.be/Pe8Xyo757EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 ## Análise das respostas
 
