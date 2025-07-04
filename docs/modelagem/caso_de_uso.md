@@ -393,9 +393,9 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 
 ### Tabela de Rastreabilidade UC-CEN-RF
 
-A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
+A tabela de rastrabilidade é apresentada por meio da Tabela 18, que contêm informações de rastreabilidade do caso de uso apresentado e sua relação com o(s) respectivo(s) cenário(s) e requisito(s) funcional(ais).
 
-<center> <b>Tabela 3: Tabela de Rastreabilidade</b> </center>
+<center> <b>Tabela 18: Tabela de Rastreabilidade</b> </center>
 
 | Caso de Uso (UC) | Cenário (CN) | Requisito Funcional (RF) |
 | :------------:   | :--------:   | :--------------------:   |
@@ -419,6 +419,45 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 <center> 
     <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
 </center>
+
+## Vídeo de Validação
+Uma reunião presencial foi realizada para fins de validação dos casos de uso elaborados. As informações sobre a reunião são apresentadas por meio das tabelas abaixo.
+
+<center>
+    <b> Tabela 19:</b> Informações da Reunião
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 10:30                                                    |
+| Duração | Cerca de 30 minutos                                      |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+<center>
+    <b> Tabela 20:</b> Participantes da Reunião
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| José                                         | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Julia Gabriela](https://github.com/JuliaGabP) | Secretário/Desenvolvedor |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+
+Abaixo está o vídeo de validação dos casos de uso, onde são discutidos os resultados e insights obtidos durante a elaboração dos casos de uso.
+
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jW598mhkr7I?si=cKDcX22bikxkf2f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Bibliografia
 
@@ -452,3 +491,4 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 2.0 | 18/05/2025 | Adicionadas figuras e diagramas | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
 | 2.1 | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) |  [João Pedro Costa](https://github.com/johnaopedro) |
 | 2.2 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.3 | 05/06/2025 | Adição do vídeo de validação dos casos de uso | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

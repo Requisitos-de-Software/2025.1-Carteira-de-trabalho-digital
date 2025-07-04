@@ -4,7 +4,7 @@
 | Nome                                               | Função                                                            | 
 |----------------------                              |----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)          | Revisão dos itens criados por João Pedro                          | 
-|[João Pedro Costa](https://github.com/johnaopedro)  | Criação do modelo da estrutura do documento; Adição dos videos das técnicas de elicitação de introspecção e análise de documentos| 
+|[João Pedro Costa](https://github.com/johnaopedro)  | Criação do modelo da estrutura do documento; Adição dos videos das técnicas de elicitação de introspecção e análise de documentos; Correção na área de priorização dos links e informações; Adição dos videos de cenarios e casos de uso |
 |[João Igor](https://github.com/johnaopedro)  | Adição dos videos, e demais informações, das técnicas de priorização: MoSCoW e Three Level Scale| 
 <center>
     Autor(es): 
@@ -103,10 +103,10 @@ Abaixo está o vídeo explicativo sobre a introspecção e os requisitos obtidos
 </figure>
 
 ### Validação da introspecção
-Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela x e x. 
+Uma entrevista presencial com um usuário foi realizada para fins de validação. As informações sobre a entrevista são apresentadas por meio da Tabela 6 e 7. 
 
 <center>
-    <b> Tabela x:</b> Informações da Entrevista
+    <b> Tabela 6:</b> Informações da Entrevista
 </center>
 
 | Campo   | Informação                                               |
@@ -121,7 +121,7 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 </center>
 <br>
 <center>
-    <b> Tabela x:</b> Participantes da Entrevista
+    <b> Tabela 7:</b> Participantes da Entrevista
 </center>
 
 | Nome                                         | Função                   |
@@ -172,10 +172,10 @@ Nesta técnica o usuário do aplicativo prioriza os requisitos elicitados anteri
 
 ### Validação do MoSCoW
 
-Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela x e x.
+Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela 12 e 13.
 
 <center>
-    <b> Tabela x:</b> Informações da Entrevista
+    <b> Tabela 12:</b> Informações da Entrevista
 </center>
 
 | Campo   | Informação                                               |
@@ -190,7 +190,7 @@ Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvime
 </center>
 <br>
 <center>
-    <b> Tabela x:</b> Participantes da Entrevista
+    <b> Tabela 13:</b> Participantes da Entrevista
 </center>
 
 | Nome                                         | Função                   |
@@ -206,7 +206,7 @@ Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvime
 </center>
 <br>
 
-#### Video x: Priorização dos requisitos através do MoSCoW
+#### Video 13: Priorização dos requisitos através do MoSCoW
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1K4FEeSuBGc?si=97xbGpE2TW24kuwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -226,14 +226,14 @@ Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvime
 
 ### Explicação sobre a Three Level Scale
 
-Nesta técnica o usuário do aplicativo prioriza os requisitos elicitados anteriormente , classificando-os em três categorias: alta prioridade, prioridade média e baixa prioridade.
+Nesta técnica o usuário do aplicativo prioriza os requisitos elicitados anteriormente, classificando-os em três categorias: alta prioridade, prioridade média e baixa prioridade.
 
-### Validação da Three Level Scale
+### Validação da técnica Three Level Scale
 
-Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela x e x.
+Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvimento e um usuário do aplicativo. As informações sobre a entrevista são apresentadas por meio da Tabela 16 e 17.
 
 <center>
-    <b> Tabela x:</b> Informações da Entrevista
+    <b> Tabela 16:</b> Informações da Entrevista
 </center>
 
 | Campo   | Informação                                               |
@@ -243,32 +243,153 @@ Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvime
 | Horário | 09:00                                                    |
 | Duração | Cerca de 15 minutos                                      |
 <center>
-     Autor(es): 
+    Autor(es): 
     <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 <br>
 <center>
-    <b> Tabela x:</b> Participantes da Entrevista
+    <b> Tabela 17:</b> Participantes da Entrevista
 </center>
 
 | Nome                                         | Função                   |
 | :------------------------------------------: | :----------------------: |
 | Artur                                        | Usuário/ Project Owner   |
-| [Ryan Salles](https://github.com/RA-Salles)  | Entrevistador            |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Ryan Salles](https://github.com/RA-Salles)  | Secretário/Desenvolvedor |
 | [João Igor](https://github.com/JoaoPC10)     | Observador               |
 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário        |
-
 <center>
     Autor(es): 
-    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a> e <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 <br>
 
-#### Video x: Priorização dos requisitos através da Three Level Scale
+#### Video 17: Priorização dos requisitos através do Three Level Scale
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HV6II_-XTVc?si=EM-kqJggTzlJKyXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figcaption>Vídeo sobre a priorização utilizando a técnica Three Level Scale.</figcaption>
+</details>
+
+</details>
+
+## Etapa 3
+
+<details markdown="1">
+<summary>Modelagem</summary>
+
+<details markdown="1">
+<summary>Cenários</summary>
+
+### Explicação sobre os Cenários
+
+Abaixo estão os vídeos explicativos sobre os cenários elaborados, conforme realizado pelo grupo.
+
+#### Vídeo: Explicação dos Cenários - Parte 1
+
+<figure markdown>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DohE9Bf-ppg?si=w5koy8vx1bkrT6M8" frameborder="0" allowfullscreen></iframe>
+<figcaption>Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a></figcaption>
+</figure>
+
+#### Vídeo: Explicação dos Cenários - Parte 2
+
+<figure markdown>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XD85MKcj9k?si=P60ufthC229R1Yfn" frameborder="0" allowfullscreen></iframe>
+<figcaption>Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a></figcaption>
+</figure>
+
+### Validação dos Cenários
+Uma reunião presencial foi realizada para fins de validação dos cenários elaborados. As informações sobre a reunião são apresentadas por meio das tabelas abaixo.
+
+<center>
+    <b> Tabela 8:</b> Informações da Reunião
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 10:00                                                    |
+| Duração | Cerca de 25 minutos                                      |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+<center>
+    <b> Tabela 9:</b> Participantes da Reunião
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| José                                         | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Julia Gabriela](https://github.com/JuliaGabP) | Secretário/Desenvolvedor |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+
+Abaixo está o vídeo de validação dos cenários, onde são discutidos os resultados e insights obtidos durante a elaboração dos cenários.
+
+#### Vídeo: Validação dos Cenários
+
+<figure markdown>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EBRgtd6eBUI?si=3pNWvTr7oMM7kGfA" frameborder="0" allowfullscreen></iframe>
+<figcaption>Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a></figcaption>
+</figure>
+</details>
+
+<details markdown="1">
+<summary>Casos de Uso</summary>
+
+### Validação dos Casos de Uso
+Uma reunião presencial foi realizada para fins de validação dos casos de uso elaborados. As informações sobre a reunião são apresentadas por meio das tabelas abaixo.
+
+<center>
+    <b> Tabela 10:</b> Informações da Reunião
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 10:30                                                    |
+| Duração | Cerca de 30 minutos                                      |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+<center>
+    <b> Tabela 11:</b> Participantes da Reunião
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| José                                         | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Julia Gabriela](https://github.com/JuliaGabP) | Secretário/Desenvolvedor |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+
+Abaixo está o vídeo de validação dos casos de uso, onde são discutidos os resultados e insights obtidos durante a elaboração dos casos de uso.
+
+#### Vídeo: Validação dos Casos de Uso
+
+<figure markdown>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jW598mhkr7I?si=cKDcX22bikxkf2f4" frameborder="0" allowfullscreen></iframe>
+<figcaption>Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a></figcaption>
+</figure>
 </details>
 
 </details>
@@ -280,3 +401,6 @@ Esta técnica foi executada presencialmente na UnB, com a equipe de desenvolvime
 |  1.1   | 02/06/2025 | Adição de videos de elicitação| [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
 |  1.2   | 03/06/2025 | Inserção dos vídeos de validação | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
 |  1.3   | 03/07/2025 | Inserção dos vídeos de validação | [João Igor](https://github.com/JoaoPC10)     | [Amanda Cruz](https://github.com/mandicrz) |
+|  1.4   | 05/06/2025 | Adição do vídeo da técnica Three Level Scale | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
+|  1.5   | 05/06/2025 | Adição dos vídeos de validação da Etapa 3 (Cenários e Casos de Uso) | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |
+|  1.6   | 05/06/2025 | Adição dos vídeos de explicação dos Cenários | [João Pedro Costa](https://github.com/johnaopedro)     | [Amanda Cruz](https://github.com/mandicrz) |

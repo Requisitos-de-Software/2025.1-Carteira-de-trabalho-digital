@@ -422,14 +422,53 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
     <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
-## Vídeo
-O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **Microsoft Teams**:
+## Vídeos de Explicação
+Os vídeos abaixo referem-se aos cenários, descritos neste artefato, realizados no **Microsoft Teams**:
 
 <div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DohE9Bf-ppg?si=w5koy8vx1bkrT6M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2XD85MKcj9k?si=P60ufthC229R1Yfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+</div>
+
+## Vídeo de Validação
+Uma reunião presencial foi realizada para fins de validação dos cenários elaborados. As informações sobre a reunião são apresentadas por meio das tabelas abaixo.
+
+<center>
+    <b> Tabela 19:</b> Informações da Reunião
+</center>
+
+| Campo   | Informação                                               |
+| :-----: | :------------------------------------------------------: |
+| Local   | [UnB - FCTE](https://maps.app.goo.gl/f8bxb23JLZJpw7REA)  |
+| Data    | 05/06/2025                                               |
+| Horário | 10:00                                                    |
+| Duração | Cerca de 25 minutos                                      |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+<center>
+    <b> Tabela 20:</b> Participantes da Reunião
+</center>
+
+| Nome                                         | Função                   |
+| :------------------------------------------: | :----------------------: |
+| José                                         | Usuário/ Project Owner   |
+| [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
+| [Julia Gabriela](https://github.com/JuliaGabP) | Secretário/Desenvolvedor |
+<center>
+    Autor(es): 
+    <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
+</center>
+<br>
+
+Abaixo está o vídeo de validação dos cenários, onde são discutidos os resultados e insights obtidos durante a elaboração dos cenários.
+
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EBRgtd6eBUI?si=3pNWvTr7oMM7kGfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Bibliografia
@@ -459,3 +498,4 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 | 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  2.4   | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
 | 2.5 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.6 | 05/06/2025 | Adição do vídeo de validação dos cenários | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
