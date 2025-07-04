@@ -41,6 +41,20 @@ São técnicas empregadas para a obtenção dos requisitos necessários ao iníc
 | -                                            | -                        |-               |
 | -                                            | -                        |-               |
 
+### Persona
+
+| Responsáveis                                 | Função                   |Revisor         |
+| :------------------------------------------: | :----------------------: |:--------------:|
+| -                                            | -                        |-               |
+| -                                            | -                        |-               |
+
+### Perfil de  Usuário
+
+| Responsáveis                                 | Função                   |Revisor         |
+| :------------------------------------------: | :----------------------: |:--------------:|
+| -                                            | -                        |-               |
+| -                                            | -                        |-               |
+
 ## Técnicas de Priorização
 
 São técnicas empregadas para a priorização dos requisitos elicitados anteriormente.
