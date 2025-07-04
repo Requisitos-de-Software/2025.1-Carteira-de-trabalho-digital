@@ -5,7 +5,7 @@
 | Nome | Função |
 |-------|---------|
 |[Ryan Salles](https://github.com/RA-Salles) | Criação do documento, elaboração de épicos |
-|[Gabriel Flores](https://github.com/RA-Salles) | elaboração dos épicos 3 e 4 |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho) | elaboração dos épicos 3 e 4 |
 
 ## Introdução
 
@@ -169,3 +169,4 @@ Esse épico é apresentado por meio da tabela 8.
 | 1.0     | 31/05/2025 | Criação do documento e inserção de informações base | [Ryan Salles](https://github.com/RA-Salles)         | [Gabriel Flores](https://github.com/Gabrielfcoelho)  |
 | 1.1     | 01/06/2025 | Elaboração das tabelas dos épicos 3 e 4             | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)          |
 | 1.2     | 08/06/2025 | Alocando EU_21 na FT_08 e EU_22 na FT_03            | [Ryan Salles](https://github.com/RA-Salles)         | [João Pedro](https://github.com/johnaopedro)         |
+| 1.2     | 04/07/2025 | Arrumando link errado            | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho)         |
