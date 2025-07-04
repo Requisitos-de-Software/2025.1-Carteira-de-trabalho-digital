@@ -381,7 +381,8 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 17, c
 | **Exceções**             | - Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio.<br>- Arquivo corrompido → sistema solicita novo envio ao usuário. |
 
 <center>
-    Autor(es): 
+    Autor(es):
+    <a href="https://github.com/JoaoPC10">João Igor</a>, 
     <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
 </center>
 
@@ -403,7 +404,7 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 17, c
 | **Exceções**             | - O usuário não recebe a notificação devido a problemas de conexão ou permissões desativadas.<br>- O sistema identifica uma pendência, mas não consegue detalhar a ação necessária, solicitando contato com o suporte. |
 
 <center>
-    Autor(es): 
+    Autor(es):   
     <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
 </center>
 
