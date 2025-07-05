@@ -26,6 +26,7 @@ São técnicas empregadas para a obtenção dos requisitos necessários ao iníc
 | :------------------------------------------: | :----------------------: |:--------------:|
 | [Amanda Cruz](https://github.com/mandicrz)   | Entrevistadora           |[Ryan Salles](https://github.com/RA-Salles)|
 | [Julia Gabriela](https://github.com/JuliaGabP)| Entrevistadora          |[Ryan Salles](https://github.com/RA-Salles)|
+| [Gabriel Flores](https://github.com/Gabrielfcoelho)| Secretário/Desenvolvedor|[Ryan Salles](https://github.com/RA-Salles)|
 
 ### Instrospecção
 
@@ -162,6 +163,20 @@ São técnicas empregadas para a modelagem dos requisitos elicitados anteriormen
 | [Ryan Salles](https://github.com/RA-Salles)  | Criação de NFR           |[João Pedro Costa](https://github.com/johnaopedro)|
 | [Julia Gabriela](https://github.com/JuliaGabP)| Criação de NFR          |[Amanda Cruz](https://github.com/mandicrz)|
 | [João Pedro Costa](https://github.com/johnaopedro)| Criação de NFR      |[Ryan Salles](https://github.com/RA-Salles)|
+
+## Técnicas de Modelagem Funcionais/Interativas
+
+São técnicas empregadas com o obejtivo de mostrar ao cliente um protótipo funcional dos requisitos elicitados, com a intenção de guiar o desenvolvimento.
+
+| Responsáveis                                 | Função                   |Revisor         |
+| :------------------------------------------: | :----------------------: |:--------------:|
+| [Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação de Protótipos    |[João Igor](https://github.com/JoaoPC10)|
+| [João Igor](https://github.com/JoaoPC10)     | Criação de Protótipos           |[Gabriel Flores](https://github.com/Gabrielfcoelho)|
+| [Amanda Cruz](https://github.com/mandicrz)   | Criação de Protótipos            |[Julia Gabriela](https://github.com/JuliaGabP)|
+| [Ryan Salles](https://github.com/RA-Salles)  | Criação de Protótipos       |[João Pedro Costa](https://github.com/johnaopedro)|
+| [Julia Gabriela](https://github.com/JuliaGabP)| Criação de Protótipos      |[Amanda Cruz](https://github.com/mandicrz)|
+| [João Pedro Costa](https://github.com/johnaopedro)| Criação de Protótipos   |[Ryan Salles](https://github.com/RA-Salles)|
+
 
 ## Técnicas de Inspeção
 
