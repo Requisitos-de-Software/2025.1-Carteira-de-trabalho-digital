@@ -98,7 +98,7 @@ A priorização foi realizada presencialmente. As informações da reunião pres
 
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
 </center>
 
 <center>
@@ -109,12 +109,12 @@ A priorização foi realizada presencialmente. As informações da reunião pres
 | :------------------------------------------: | :----------------------: |
 | Artur                                        | Usuário/ Project Owner   |
 | [João Pedro](https://github.com/johnaopedro) | Entrevistador            |
-| [Ryan Salles]()                              |                          |
-| [João Igor]()                                |                          |
-| [Gabriel Flores]()                           |                          |
+| [João Igor](https://github.com/JoaoPC10)     | Observador               |
+| [Gabriel Flores](https://github.com/Gabrielfcoelho) | Secretário        |
 
 <center>
-    <b>Autor(es)</b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a>
+    <b>Autor(es): </b><a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> , 
+    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
 </center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HV6II_-XTVc?si=EM-kqJggTzlJKyXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
