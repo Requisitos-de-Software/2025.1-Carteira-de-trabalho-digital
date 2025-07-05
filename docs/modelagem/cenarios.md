@@ -5,7 +5,7 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|Criação dos cenários 14 e 15| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão do cenário 16| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação dos cenários 16 e 17| 
 |[João Igor](https://github.com/JoaoPC10)|Criação do cenário 16| 
 |[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral; Criação dos cenários 10 à 13; Correção pelo metodo de Fagan| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Adição do vídeo de explicação e referências; Criação dos cenários 1, 2, 3, 6 e 7| 
@@ -381,8 +381,31 @@ Essa seção contém os cenários elaborados, apresentados nas Tabelas 2 a 17, c
 | **Exceções**             | - Documento enviado em formato inválido → sistema exibe mensagem de erro solicitando novo envio.<br>- Arquivo corrompido → sistema solicita novo envio ao usuário. |
 
 <center>
-    Autor(es): 
-    <a href="https://github.com/JoaoPC10" target="_blank">João Igor</a>
+    Autor(es):
+    <a href="https://github.com/JoaoPC10">João Igor</a>, 
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
+</center>
+
+### Cenário 17: Notificação de Pendências ou Atualizações
+
+<center>
+    Tabela 18: Cenário de notificação de pendências ou atualizações
+</center>
+
+| Cenário 17                | Notificação de Pendências ou Atualizações                                      |
+|--------------------------|-------------------------------------------------------------------------------|
+| **Nome do Cenário**      | Notificação de pendências ou atualizações                                     |
+| **Ator Principal**       | Usuário cadastrado                                                            |
+| **Ator Secundário**      | Sistema CadÚnico                                                              |
+| **Contexto**             | O usuário deseja ser informado sempre que houver alguma pendência ou atualização necessária em seu cadastro, para manter seus dados regulares e garantir acesso aos benefícios. |
+| **Pré-condições**        | O usuário possui cadastro ativo no CadÚnico e notificações habilitadas no aplicativo. |
+| **Fluxo Principal**      | 1. O sistema identifica uma pendência ou atualização necessária no cadastro do usuário.<br>2. O sistema gera uma notificação automática.<br>3. O usuário recebe a notificação em seu dispositivo.<br>4. O usuário acessa o aplicativo e visualiza detalhes da pendência ou atualização.<br>5. O sistema orienta o usuário sobre como regularizar a situação. |
+| **Pós-condições**        | O usuário está ciente da pendência ou atualização e pode tomar as ações necessárias para regularizar seu cadastro. |
+| **Exceções**             | - O usuário não recebe a notificação devido a problemas de conexão ou permissões desativadas.<br>- O sistema identifica uma pendência, mas não consegue detalhar a ação necessária, solicitando contato com o suporte. |
+
+<center>
+    Autor(es):   
+    <a href="https://github.com/Gabrielfcoelho" target="_blank">Gabriel Flores</a>
 </center>
 
 ## Rastreabilidade 
@@ -416,6 +439,7 @@ Cada dupla na Tabela 18 apresenta qual requisito funcional não-implementado o c
 | CN14     | [RF30](../elicitacao/requisitos_elicitados.md)             |
 | CN15     | [RF35](../elicitacao/requisitos_elicitados.md)             |
 | CN16     | [RF29](../elicitacao/requisitos_elicitados.md)             |
+| CN17     | [RF27](../elicitacao/requisitos_elicitados.md)             |
 
 <center>
     Autor(es): 
@@ -458,4 +482,5 @@ O vídeo abaixo refere-se ao cenário, descrito neste artefato, realizada no **M
 |  2.2   | 18/05/2025 | Adicionando 1 cenário novo      | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.3    | 18/05/2025 | Correções mínimas | [Ryan Salles](https://github.com/RA-Salles)    | [João Pedro](https://github.com/johnaopedro) |
 |  2.4   | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
-| 2.5 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+|  2.5   | 20/05/2025 | Adicionando 1 cenário novo      | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
+| 2.6 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |

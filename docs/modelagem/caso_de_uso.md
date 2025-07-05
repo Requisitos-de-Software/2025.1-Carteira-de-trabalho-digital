@@ -5,8 +5,8 @@
 | Nome                 | Função                                                            | 
 |----------------------|----------------------------------------------------------------   |
 |[Amanda Cruz](https://github.com/mandicrz)|Criação do caso de uso 15| 
-|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação do caso de uso 14; Criação do diagrama| 
-|[João Igor](https://github.com/JoaoPC10)|Criação do caso de uso 16| 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Criação dos casos de uso 16 e 17; Criação do diagrama| 
+|[João Igor](https://github.com/JoaoPC10)|Criação do caso de uso 14| 
 |[João Pedro Costa](https://github.com/johnaopedro)|Criação da página; Criação dos casos de uso 10 à 13; Adição de referências e imagens; Correção pelo metodo de Fagan; Revisão geral| 
 |[Julia Gabriela](https://github.com/JuliaGabP)|Criação dos casos de uso 1 à 3, 6 e 7.| 
 |[Ryan Salles](https://github.com/RA-Salles)|Revisão geral; Criação dos casos de uso 4, 5, 8 e 9; Criação do diagrama.| 
@@ -347,7 +347,7 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 | **Data de Criação** | 18/05/2025 |
 | **Rastreabilidade** | [RF30](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
-<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></b></p></font>
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/JoaoPC10">João Igor</a></b></p></font>
 
 ---
 
@@ -387,7 +387,25 @@ As Tabelas, enumeradas de 2 a 16, definidas como UC01 a UC15 apresentam a especi
 | **Data de Criação** | 18/05/2025 |
 | **Rastreabilidade** | [RF29](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) |
 
-<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/JoaoPC10">João Igor</a></b></p></font>
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></b></p></font>
+
+### [#UC17] - Notificação de Pendências ou Atualizações
+
+<font size="2"><p style="text-align: center"><b>Tabela 18:</b> Especificação de notificação de pendências ou atualizações</p></font>
+
+| Campo            | Detalhes |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**    | Permite que o usuário receba notificações automáticas sobre pendências ou atualizações necessárias em seu cadastro, garantindo que esteja sempre informado para manter seus dados regulares e não perder benefícios. |
+| **Ator(es)**     | Usuário cadastrado, Sistema CadÚnico |
+| **Pré-condições**| O usuário possui cadastro ativo no CadÚnico, está autenticado no aplicativo e tem as notificações habilitadas. |
+| **Ação**         | Receber notificação de pendências ou atualizações no aplicativo. |
+| **Fluxo principal** | <ol><li>O sistema identifica uma pendência ou atualização necessária no cadastro do usuário.</li><li>O sistema gera e envia uma notificação automática ao usuário.</li><li>O usuário recebe a notificação em seu dispositivo.</li><li>O usuário acessa o aplicativo e visualiza os detalhes da pendência ou atualização.</li><li>O sistema orienta o usuário sobre como regularizar a situação.</li></ol> |
+| **Fluxo de exceção** | <ul><li>O usuário não recebe a notificação devido a problemas de conexão ou permissões desativadas.</li><li>O sistema identifica uma pendência, mas não consegue detalhar a ação necessária, solicitando contato com o suporte.</li></ul> |
+| **Pós-condições** | O usuário está ciente da pendência ou atualização e pode tomar as ações necessárias para regularizar seu cadastro. |
+| **Data de Criação** | 04/07/2025 |
+| **Rastreabilidade** | [RF27](https://github.com/Requisitos-de-Software/2025.1-Cadastro-Unico/blob/main/docs/elicitacao/requisitos_elicitados.md) <!-- Substitua RFXX pelo código correto do requisito funcional --> |
+
+<font size="2"><p style="text-align: center"><b>Autor: <a href="https://github.com/Gabrielfcoelho">Gabriel Flores</a></b></p></font>
 
 ---
 
@@ -415,6 +433,7 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | UC14             | CN14         | RF30                     |
 | UC15             | CN15         | RF35                     |
 | UC16             | CN16         | RF29                     |
+| UC17             | CN17         | RF27                     |
 
 <center> 
     <b>Autor(es):</b> <a href= "https://github.com/mandicrz" target="_blank"> Amanda Cruz </a>, <a href= "" target="_blank"> Julia Paulino </a>, , <a href= "https://github.com/Gabrielfcoelho" target="_blank"> Gabriel Flores </a>, <a href= "https://github.com/johnaopedro" target="_blank"> João Pedro </a>, <a href= "https://github.com/JoaoPC10" target="_blank"> João Igor </a>, <a href= "https://github.com/RA-Salles" target="_blank"> Ryan Salles </a> 
@@ -448,7 +467,8 @@ A tabela de rastrabilidade é apresentada por meio da Tabela 3, que contêm info
 | 1.6 | 18/05/2025 | Adicionando casos de uso 14, padronizando o documento e corrigindo erros| [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
 | 1.7 | 18/05/2025 | Melhorando seção Metodologia | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.8 | 18/05/2025 | Adicionando caso de uso 15 | [Amanda Cruz](https://github.com/mandicrz) | [João Pedro Costa](https://github.com/johnaopedro) |
-| 1.9 | 18/05/2025 | Adicionando caso de uso 16 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
+| 1.9 | 18/05/2025 | Adicionando caso de uso 14 | [João Igor](https://github.com/JoaoPC10) | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 2.0 | 18/05/2025 | Adicionadas figuras e diagramas | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles) | [João Igor](https://github.com/JoaoPC10) |
-| 2.1 | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) |  [João Pedro Costa](https://github.com/johnaopedro) |
-| 2.2 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 2.1 | 18/05/2025 | Adicionando caso de uso 16 e 17 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [João Igor](https://github.com/JoaoPC10) |
+| 2.2 | 20/05/2025 | Criando tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP) |  [João Pedro Costa](https://github.com/johnaopedro) |
+| 2.3 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
