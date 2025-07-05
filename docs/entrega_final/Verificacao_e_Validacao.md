@@ -83,7 +83,13 @@ A prototipação, ou prototipagem, é outra estratégia de validação que utili
 
 ## 6. Conclusão
 
-A aplicação das metodologias de Verificação e Validação descritas neste documento permitiu identificar e corrigir falhas, garantindo maior qualidade ao produto final.
+## 6. Conclusão
+
+A adoção rigorosa das metodologias de Verificação e Validação (V&V) descritas neste documento foi fundamental para assegurar a qualidade e a confiabilidade do sistema desenvolvido. Por meio da aplicação de inspeções sistemáticas, listas de verificação e validação contínua junto aos usuários, foi possível identificar e corrigir inconsistências, antecipar possíveis falhas e alinhar o produto final às reais necessidades dos stakeholders.
+
+O uso da inspeção Fagan permitiu uma análise detalhada dos artefatos, promovendo a colaboração entre os membros da equipe e garantindo que cada etapa do processo fosse devidamente revisada antes de avançar. Já as estratégias de validação, como a comprovação informal e a prototipação, proporcionaram um ciclo de feedback constante, permitindo ajustes rápidos e eficazes com base nas expectativas dos usuários finais.
+
+Essas práticas não apenas elevaram o padrão de qualidade do projeto, mas também fortaleceram a comunicação entre equipe técnica e usuários, promovendo transparência e confiança em todas as fases do desenvolvimento. Como resultado, o sistema entregue apresenta maior robustez, usabilidade e aderência aos requisitos estabelecidos, contribuindo para o sucesso do projeto e a satisfação
 
 ## Bibliografia
 
