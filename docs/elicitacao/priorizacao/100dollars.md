@@ -1,78 +1,172 @@
 # $100
 
+## Funções dos autores
+
+| Nome                                              | Função                                                             | 
+|---------------------------------------------------|--------------------------------------------------------------------|
+|[Amanda Cruz](https://github.com/mandicrz)         | Criação do documento para requisitos da introspecção               | 
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)| Criação do documento para requisitos da introspecção               | 
+|[João Pedro](https://github.com/johnaopedro)       | Revisão geral                                                      |
+|[Julia Gabriela](https://github.com/JuliaGabP)     | Correção total do documento, refazendo a técnica                   | 
+|[Ryan Salles](https://github.com/RA-Salles)        | Formatação de tabelas, auxílio na correção, execução da técnica    | 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 
 Neste artefato, será aplicada a técnica de priorização de requisitos utilizando os $100 fictícios. Este método permite avaliar quais devem ser implementadas primeiro, garantindo que os recursos sejam distribuídos de forma estratégica, levando em conta as funcionalidades mais críticas para o sucesso do sistema.
 
 ## Metodologia
 
-A técnica foi aplicada de forma remota, em dupla, com [Amanda Cruz](), e outro membro do grupo, [Gabriel Flores](), realizando a distribuição dos $100 imaginários entre os requisitos elicitados pela técnica de [Introspecção](../tecnicas/introspecção.md). A atividade foi conduzida de forma colaborativa, onde a Amanda foi responsável por coordenar o processo.
+A técnica foi aplicada de forma remota, em duplo, com Julia, e outro membro do grupo, Ryan, realizando a distribuição dos $100 imaginários entre os requisitos elicitados pelas técnicas de [Elicitados](../elicitacao/requisitos_elicitados.md). A atividade foi conduzida de forma colaborativa, onde a Julia foi responsável por coordenar o processo.
 
 No início da atividade, foi explicado ao participante o objetivo da técnica e como os dólares seriam distribuídos. Cada um, teve a responsabilidade de alocar o dinheiro imaginário entre os requisitos de acordo com sua percepção sobre a importância e o impacto de cada um no sucesso do sistema. Os mesmos receberam valores dependendo da sua prioridade e a distribuição foi feita com o objetivo de refletir as necessidades reais do projeto, focando nas funcionalidades mais essenciais.
 
 Ao final, os que receberam maior alocação de dólares foram classificados como mais prioritários e, dessa forma, selecionamos as funcionalidades que deveriam ser implementadas primeiro no projeto.
 
-## Requisitos Elicitados
+## Priorização
 
-Os requisitos elicitados através da Introspecção serão listados abaixo, conforme a Tabela 1, para que seja possível visualizar e realizar o procedimento dos $100. Para fácil entendimento, a leitura pode ser lida conforme a legenda, descrita logo abaixo.
+A partir da tabela de [Requisitos Elicitados](../requisitos_elicitados.md), a técnica foi realizada para Requisitos Funcionais
+e não Funcionais. Os resultados são apresentados por meio das Tabels 1 e 2.
 
-Legenda - Tabela 1:
- 
-- RFx: Requisitos Funcionais nºx.
-- RNFx: Requisitos Não-Funcionais nºx.
+Legenda:
+- ID: apresenta um link para o requisito priorizado
+- Nome: apresenta o nome do requisito priorizado
+- Implementado: identifica se o requisito está presente ou não no aplicativo
+- Valor X: Apresenta o valor colocado no requisito pelo priorizador
+- TOTAL: apresenta a soma dos valores
 
-<center><b>Tabela 1: </b> Requisitos Elicitados</center>
 
-| Tipo  | Descrição                                                                             | Amanda    |  Gabriel | Preço Total |
-|-----  |-------------------------------------------------------------------------              | ------    | ----     | ----        |
-| RF01  | Permite ao usuário visualizar seus dados no Cadastro Único.                           | $8        | $5       | $6.5        | 
-| RF02  | Possibilita iniciar um pré-cadastro para uma nova unidade familiar.                   | $2        | $3       | $2.5        |
-| RF03  | Mostra os CRAS mais próximos com base na localização do usuário.                      | $2        | $3       | $2.5        |
-| RF04  | Permite o envio de mensagens importantes ao usuário por meio do app.                  | $6        | $3       | $4.5        |
-| RF05  | Traz dados de vínculos e contribuições automaticamente do CNIS.                       | $0        | $3       | $1.5        |
-| RF06  | O sistema deve permitir o cadastro de novos usuários, coletando informações pessoais. | $8        | $5       | $6.5        |
-| RF07  | O sistema deve possibilitar ao usuário atualizar seus dados cadastrais.               | $7        | $3       | $5          |
-| RF08  | Permite verificar o status do cadastro e da situação dos benefícios.                  | $8        | $3       | $5.5        |
-| RF09  | Gera um comprovante de cadastro atualizado para o usuário.                            | $4        | $5       | $4.5        |
-| RF10  | Permite visualizar benefícios disponíveis com base nos dados cadastrados.             | $6        | $2       | $4.0        |
-| RF11  | Implementa um chatbot para atendimento automatizado ao usuário.                       | $1        | 3        | $2          |
-| RF12  | Envia notificações sobre pendências ou atualizações necessárias ao usuário.           | $6        | $3       | $4.5        |
-| RF13  | Permite ao usuário simular benefícios sociais com base em suas informações.           | $2        | $2       | $2          |
-| RF14  | Possibilita o envio de documentos digitalizados para o sistema.                       | $1        | $4       | $2.5        |
-| RF15  | Permite marcar atendimentos nos postos de atendimento presencial (CRAS).              | $3        | $4       | $3.5        |
-| RNF01 | O design do aplicativo é simples e de fácil navegação.                                | $6        | $4       | $5          |
-| RNF02 | Suporta um grande número de acessos simultâneos.                                      | $2        | $4       | $3          |
-| RNF03 | Integrado com sistemas como o CNIS.                                                   | $4        | $4       | $4          |
-| RNF04 | Navegação intuitiva e acessibilidade geral.                                           | $6        | $4       | $5          |
-| RNF05 | Uso de criptografia e proteção de dados sensíveis.                                    | $8        | $5       | $6.5        |
-| RNF06 | Resposta rápida nas interações do usuário (até 3 segundos).                           | $2        | $2       | $2          |
-| RNF07 | Compatível com Android e iOS.                                                         | $6        | $3       | $4.5        |
-| RNF08 | Garantia de 99% de disponibilidade com mínimas interrupções.                          | $4        | $5       | $4.5        |
-| RNF09 | Inclusão de leitores de tela e navegação adaptada.                                    | $5        | $6       | $5.5        |
-| RNF10 | Operação eficiente em conexões lentas.                                                | $3        | $3       | $3          |
-| RNF11 | Disponibilidade do app em múltiplos idiomas.                                          | $0        | $1       | $0.5        |
-| RNF12 | Recuperação da sessão em caso de interrupções.                                        | $2        | $2       | $2          |
-| RNF13 | Alternativa visual para ambientes com pouca luz.                                      | $1        | $2       | $1.5        |
-| RNF14 | Mecanismos para manter o sistema funcional mesmo em situações críticas.               | $3        | $5       | $4          |
 
-<center><b>Autor: </b> Amanda Cruz, 2025</center>
+### Requisitos Funcionais 
+
+Essa seção apresenta os resultados da priorização dos requisitos funcionais por meio da tabela 1.
+
+<center>
+    <b>Tabela 1:</b> Requisitos Funcionais Elicitados
+</center>
+
+| ID                                             | Nome                                        | Implementado | Valor Julia | Valor Ryan | TOTAL   |
+| :--------------------------------------------: | :-----------------------------------------: | :----------: | :---------: | :--------: | :----:  |
+| [RF01](../requisitos_elicitados.md#rf01)       | Cadastro de Famílias                        | Sim          | US$2.20     | US$2.50    | US$4.70 |
+| [RF02-v2](../requisitos_elicitados.md#rf02-v2) | Cadastro de Pessoas                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF03](../requisitos_elicitados.md#rf03)       | Cadastro de Domicílios                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF04](../requisitos_elicitados.md#rf04)       | Cadastro de Agricultores Familiares         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF05](../requisitos_elicitados.md#rf05)       | Atualização de Dados de família             | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF06](../requisitos_elicitados.md#rf06)       | Processamento de Dados                      | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF07](../requisitos_elicitados.md#rf07)       | Correção de Inconsistências                 | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF08](../requisitos_elicitados.md#rf08)       | Consulta de Dados                           | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF09](../requisitos_elicitados.md#rf09)       | Relatórios e Divulgação                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF10](../requisitos_elicitados.md#rf10)       | Formulários de Coleta                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF11](../requisitos_elicitados.md#rf11)       | Cadastro MEI                                | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF12](../requisitos_elicitados.md#rf12)       | Informações MEI                             | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RF13](../requisitos_elicitados.md#rf13)       | Personalização MEI                          | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF14](../requisitos_elicitados.md#rf14)       | Consultar dados cadastrais                  | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF15](../requisitos_elicitados.md#rf15)       | Pré-cadastrar família                       | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF16](../requisitos_elicitados.md#rf16)       | Localizar postos de atendimento             | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF17](../requisitos_elicitados.md#rf17)       | Enviar notificações                         | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RF19](../requisitos_elicitados.md#rf19)       | Cadastro de Usuário                         | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF20](../requisitos_elicitados.md#rf20)       | Atualização de Dados do Usuário             | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF21](../requisitos_elicitados.md#rf21)       | Consultar Situação Cadastral                | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF22](../requisitos_elicitados.md#rf22)       | Emissão de Comprovante de Cadastro          | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RF23](../requisitos_elicitados.md#rf23)       | Filtragem de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF24-v2](../requisitos_elicitados.md#rf24-v2) | Consulta de status de Benefícios            | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF25](../requisitos_elicitados.md#rf25)       | Informações Cadastrais                      | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RF26](../requisitos_elicitados.md#rf26)       | Chatbot de atendimento automatizado         | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RF27](../requisitos_elicitados.md#rf27)       | Notificação de pendências ou atualizações   | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF28-v2](../requisitos_elicitados.md#rf28-v2) | Simulador de benefícios sociais             | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF29](../requisitos_elicitados.md#rf29)       | Upload de documentos                        | Não          | US$1.10     | US$4.00    | US$5.10 |
+| [RF30](../requisitos_elicitados.md#rf30)       | Agendamento de atendimento no CRAS          | Não          | US$1.10     | US$2.00    | US$1.10 |
+| [RF31](../requisitos_elicitados.md#rf31)       | Notificações Personalizadas                 | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF32](../requisitos_elicitados.md#rf32-v2)    | Guia de Atualização Cadastral               | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF33](../requisitos_elicitados.md#rf33)       | Simulador de Benefícios                     | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF34](../requisitos_elicitados.md#rf34)       | Chat de Atendimento                         | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RF35](../requisitos_elicitados.md#rf35)       | Tutoriais Interativos                       | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF36](../requisitos_elicitados.md#rf36)       | Vídeos Explicativos                         | Não          | US$1.10     | US$1.50    | US$2.60 |
+| [RF37](../requisitos_elicitados.md#rf37)       | Assistência por Voz                         | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF38](../requisitos_elicitados.md#rf38)       | Modo escuro                                 | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RF40-v2](../requisitos_elicitados.md#rf40-v2) | Login                                       | Sim          | US$2.20     | US$3.00    | US$5.20 |
+
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
+</center>
+
+## Requisitos Não Funcionais
+Essa seção apresenta os resultados da priorização dos requisitos não funcionais elicitados por meio da Tabela 2.
+
+<center>
+    <b>Tabela 2:</b> Requisitos Não Funcionais elicitados
+</center>
+
+| ID                                         | Nome                                               | Implementado | Valor Julia | Valor Ryan | TOTAL   |
+| :----------------------------------------: | :------------------------------------------------: | :----------: | :---------: | :--------: | :-----: |
+| [RNF01](../requisitos_elicitados.md#rnf01) | Desempenho                                         | Não          | US$1.10     | US$3.00    | US$4.10 |
+| [RNF02](../requisitos_elicitados.md#rnf02) | Segurança                                          | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF03](../requisitos_elicitados.md#rnf03) | Escalabilidade                                     | Sim          | US$2.20     | US$2.00    | US$4.20 |
+| [RNF04](../requisitos_elicitados.md#rnf04) | Conformidade Legal                                 | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF05](../requisitos_elicitados.md#rnf05) | Acessibilidade                                     | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RNF06](../requisitos_elicitados.md#rnf06) | Disponibilidade                                    | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF07](../requisitos_elicitados.md#rnf07) | Compatibilidade com Aplicativo Off-line            | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF08](../requisitos_elicitados.md#rnf08) | Transmissão via Conectividade Social               | Não          | US$1.10     | US$3.00    | US$4.10 |
+| [RNF09](../requisitos_elicitados.md#rnf09) | Acesso Restrito                                    | Sim          | US$2.20     | US$1.50    | US$3.70 |
+| [RNF10](../requisitos_elicitados.md#rnf10) | Interface intuitiva e amigável                     | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RNF11](../requisitos_elicitados.md#rnf11) | Suporte a grande base de usuários                  | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF12](../requisitos_elicitados.md#rnf12) | Integração com sistemas oficiais                   | Sim          | US$2.20     | US$3.00    | US$5.20 |
+| [RNF13](../requisitos_elicitados.md#rnf13) | Usabilidade                                        | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF14](../requisitos_elicitados.md#rnf14) | Compatibilidade com Dispositivos                   | Sim          | US$2.20     | US$1.00    | US$3.20 |
+| [RNF15](../requisitos_elicitados.md#rnf15) | Acessibilidade para pessoas com deficiência visual | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF16](../requisitos_elicitados.md#rnf16) | Backup e restauração de sessão                     | Não          | US$1.10     | US$1.00    | US$2.10 |
+| [RNF17](../requisitos_elicitados.md#rnf17) | Alta disponibilidade e recuperação de desastres    | Não          | US$1.10     | US$2.00    | US$3.10 |
+| [RNF18](../requisitos_elicitados.md#rnf18) | Possibilidade de outros idiomas                    | Não          | US$1.10     | US$0.00    | US$1.10 |
+| [RNF19](../requisitos_elicitados.md#rnf19) | Integração MEI                                     | Não          | US$1.10     | US$0.00    | US$1.10 |
+
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>,
+    <a href="https://github.com/RA-Salles" target="_blank">Ryan Salles</a> 
+</center>
 
 ### Análise dos Requisitos Priorizados
 
-A análise da técnica dos $100 revelou que requisitos como RF01, RF06 e RNF05, todos com $6.5, são indispensáveis para o sistema, já que lidam com aspectos centrais como acesso aos dados do Cadastro Único, registro de novos usuários e segurança da informação. Em contrapartida, funcionalidades como suporte a múltiplos idiomas (RNF11, $0.5) e ajustes para ambientes com pouca luz (RNF13, $1.5) receberam baixa prioridade, sugerindo que podem ser adiadas para etapas futuras do desenvolvimento.
+A análise da técnica dos $100 feita pela desenvolvedora Julia pode ser entendida como uma priorização em requisitos implementados, pois essas possuem maior valor para ela.
 
-Os requisitos intermediários, com valores entre $2.0 e $5.5, formam um grupo essencial para melhorar a experiência do usuário e a eficiência do sistema, mas não são tão urgentes quanto os prioritários. Por exemplo, o envio de notificações (RF12, $4.5) ajuda a manter os usuários informados sobre pendências, enquanto a compatibilidade com Android e iOS (RNF07, $4.5) garante maior alcance. Da mesma forma, a integração com o CNIS (RNF03, $4.0) e a acessibilidade geral (RNF04, $5.0) agregam valor significativo, mas podem ser implementados após as funcionalidades críticas, como a proteção de dados (RNF05), que é muito importante para a confiança no sistema.
+Os requisitos priorizados pelo desenvolvedor Ryan Salles dão prioridade para requisitos básicos e de qualidade de vida, colocando em primeiro lugar requisitos base para o funcionamento e facilidade de uso.
+
 
 ## Conclusão
 
-A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisitos do sistema permitindo uma distribuição clara e estratégica dos recursos. 
+A aplicação da técnica dos $100 revelou-se eficaz para priorizar os requisitos do sistema permitindo uma distribuição clara e estratégica dos recursos,
+todavia permitindo que qualquer usuário influêncie o resultado final do que deve ser implementado primeiro. 
 
-## Referências
+## Bibliografia
 
-> WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Seattle: Microsoft Press, 2013.
+> WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Seattle: Microsoft Press, 2013. p. 321-322.
+
+A Figura 1 apresenta a especificação da técnica segundo WIEGERS e BEATTY (2013).
+
+<center>
+    <b>Figura 1:</b> Especificação da técnica dos 100 dólares segundo WIEGERS e BEATTY (2013).
+</center>
+
+<div style="text-align: center;">
+    <img src="../../assets/referencias/cemdolares/image.png" alt="100dolaresWIEGERS">
+</div>
+
+
+<center>
+    <b>Fonte:</b> Adaptado de WIEGERS e BEATTY (2013).
+</center>
+
 
 ## Histórico de Versão
 
-| Versão |    Data    |      Descrição       |          Autor        |       Revisor       |
-| :----: | :--------: | :------------------: | :-------------------: | :-----------------: |
-|  1.0   | 04/05/2025 | Criação do Documento | [Amanda Cruz](https://github.com/mandicrz), [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [João Pedro](https://github.com/johnaopedro) |
+| Versão |    Data    |      Descrição                                                                                                                    |          Autor                                                                                   |       Revisor                                |
+| :----: | :--------: | :------------------:                                                                                                              | :----------------------------------------------------------------------------------------------: | :------------------------------------------: |
+|  1.0   | 04/05/2025 | Criação do Documento                                                                                                              | [Amanda Cruz](https://github.com/mandicrz), [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [João Pedro](https://github.com/johnaopedro) |
+|  2.0   | 25/06/2025 | Correção total do documento, refazendo a técnica                                                                                  | [Julia Gabriela](https://github.com/JuliaGabP)                                                   | [João Pedro](https://github.com/johnaopedro) |
+|  2.1   | 25/06/2026 | Atualização da rastreabilidade, exclusão de tabela de descrição, adição da coluna "Valor Ryan" e adicionando imagem de referência | [Ryan Salles](https://github.com/RA-Salles)                                                      | [João Pedro](https://github.com/johnaopedro) |

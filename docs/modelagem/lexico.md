@@ -138,13 +138,13 @@ As tabelas seguem o seguinte padrão estrutural:
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição  | Autor        | Revisor |
-| :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 07/05/2025 | Criação da página de análise das técnicas de modelagem  | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.1    | 08/05/2025 | Adição das Informações | [João Igor](https://github.com/JoaoPC10) e  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.2 | 09/05/2025 | Criação da tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.3 | 14/05/2025 | Criação de hiper links na tabela de léxicos | [Gabriel Flores](https://github.com/Gabrielfcoelho) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.4 | 16/05/2025 | Criação de outros lexicos relacionados ao conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.5 | 16/05/2025 | Corrigindo imagens | [João Pedro Costa](https://github.com/johnaopedro) |  [Ryan Salles](https://github.com/RA-Salles) |
-| 1.6 | 20/05/2025 | Criação da tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP)] | [João Pedro Costa](https://github.com/johnaopedro)|
-| 1.7 | 22/05/2025 | Corrigindo conteúdo das tabelas de léxico de UC10, UC11 e UC12 | [João Pedro Costa](https://github.com/johnaopedro)| [Julia Gabriela](https://github.com/JuliaGabP) |
+| Versão | Data       | Descrição                                                      | Autor                                                                                           | Revisor                                            |
+| :----: | :----:     | :----------:                                                   | :------------:                                                                                  | :--------:                                         |
+| 1.0    | 07/05/2025 | Criação da página de análise das técnicas de modelagem         | [João Igor](https://github.com/JoaoPC10) e [Gabriel Flores](https://github.com/Gabrielfcoelho)  | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.1    | 08/05/2025 | Adição das Informações                                         | [João Igor](https://github.com/JoaoPC10) e  [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.2    | 09/05/2025 | Criação da tabela de léxicos                                   | [Gabriel Flores](https://github.com/Gabrielfcoelho) e [João Igor](https://github.com/JoaoPC10)  | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.3    | 14/05/2025 | Criação de hiper links na tabela de léxicos                    | [Gabriel Flores](https://github.com/Gabrielfcoelho)                                             | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.4    | 16/05/2025 | Criação de outros lexicos relacionados ao conteúdo             | [João Pedro Costa](https://github.com/johnaopedro)                                              | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.5    | 16/05/2025 | Corrigindo imagens                                             | [João Pedro Costa](https://github.com/johnaopedro)                                              | [Ryan Salles](https://github.com/RA-Salles)        |
+| 1.6    | 20/05/2025 | Criação da tabela de funções                                   | [Julia Gabriela](https://github.com/JuliaGabP)]                                                 | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.7    | 22/05/2025 | Corrigindo conteúdo das tabelas de léxico de UC10, UC11 e UC12 | [João Pedro Costa](https://github.com/johnaopedro)                                              | [Julia Gabriela](https://github.com/JuliaGabP)     |

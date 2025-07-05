@@ -6,7 +6,7 @@
 |----------------------|----------------------------------------------------------------   |
 |[João Pedro Costa](https://github.com/johnaopedro) | Desenvolvimento das ferramentas; Correção pelo metodo de inspeção de Fagan | 
 | [Ryan Salles](https://github.com/RA-Salles) | Revisão | 
-|[Julia Gabriela](https://github.com/JuliaGabP)| Revisão | 
+|[Julia Gabriela](https://github.com/JuliaGabP)| Revisão e adição de ferramentas | 
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro Costa</a>
@@ -89,6 +89,16 @@ As ferramentas estão apresentadas na Tabela 1, acompanhadas de seus logotipos e
       </td>
       <td><strong>GIMP</strong>: Editor de imagens gratuito e de código aberto, utilizado para criação e edição de elementos gráficos do projeto. Permitiu ajustes em logotipos, imagens ilustrativas e outros recursos visuais, contribuindo para a identidade visual e apresentação dos materiais.</td>
     </tr>
+      <td style="text-align: center;">
+        <img src="../../assets/figma.png" width="100" height="100" alt="Figma">
+      </td>
+      <td><strong>Figma</strong>: Uma ferramenta poderosa para criação, edição e colaboração em protótipos de sites e aplicativos. </td>
+    </tr>
+    <td style="text-align: center;">
+        <img src="../../assets/canvaia.png" width="100" height="100" alt="Canva AI">
+      </td>
+      <td><strong>Canva AI</strong>: Uma ferramenta poderosa para auxílio na criação de imagens, sites e aplicativos, sendo muito usada no desenvolvimento de protótipos.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -114,5 +124,6 @@ As ferramentas estão apresentadas na Tabela 1, acompanhadas de seus logotipos e
 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
-| 1.0    | 11/04/2025 | Criação da página do heatmap | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
+| 1.0    | 11/04/2025 | Criação da página do heatmap | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)        |
 | 1.1 | 22/06/2025 | Correção pelo metodo de inspeção de Fagan | [João Pedro](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.2 | 25/06/2025 | Adição de ferramentas |   [Julia Gabriela](https://github.com/JuliaGabP)| [João Pedro Costa](https://github.com/johnaopedro)  |

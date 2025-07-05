@@ -1,5 +1,16 @@
 # Técnicas de Priorização
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Igor](https://github.com/JoaoPC10)| Criação do documento.| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 Depois que os vários requisitos são elicitados , para saber por onde começar o desenvolvimento, de forma a gerar, desde o começo, valor agregado aos clientes, torna-se necessário, priorizar esses requisitos, definindo assim uma ordem de importância para cada.
 
@@ -28,7 +39,7 @@ A técnica Three Level Scale que tem como objetivo priorizar os requisitos em 3 
 - Média Prioridade: quando os requisistos são importantes, mas não são urgentes, pois podem esperar as próximas releases;
 - Baixa Prioridade: classificação dada a requisitos que tanto a euipe de desenvolvimento, quanto as partes interessadas, desconsideram importantes.
 
-## Referências
+## Bibliografia
 
 > WIEGERS, Karl E. First Things First: Prioritizing Requirements. Software Development Magazine, 1999. Disponível em: https://www.tarrani.net/linda/prioritizing.pdf. Acesso em: 2 maio 2025.
 
@@ -41,4 +52,4 @@ A técnica Three Level Scale que tem como objetivo priorizar os requisitos em 3 
 | Versão | Data | Descrição  | Autor        | Revisor |
 | :-----: | :----: | :----------: | :------------: | :--------: |
 | 1.0    | 02/05/2025 | Criação da página de análise das técnicas de priorização e informações sobre as técnicas | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
-| 1.1    | 02/05/2025 | Conserto dos erros ortográficos e da diagramação do texto | [João Igor](https://github.com/JoaoPC10)         | [João Vitor](https://github.com/jvopBR)
+| 1.1    | 02/05/2025 | Conserto dos erros ortográficos e da diagramação do texto | [João Igor](https://github.com/JoaoPC10)         | [Julia Gabriela](https://github.com/JuliaGabP)

@@ -13,6 +13,8 @@
     <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
 </center>
 
+
+
 ## Introdução
 
 Este documento visa documentar a criação das **Personas** para o aplicativo do **Cadastro Único**, como parte do processo de elicitação de requisitos. Obtivemos algumas dificuldades em encontrar usuários dispostos a realizarem entrevistas, principalmente pessoalmente, pelo fato de que se sentem expostos em falar que recebem auxílio, logo criamos as personas para casos de emergências, quando não conseguirmos realizar reuniões.

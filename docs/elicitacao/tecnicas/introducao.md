@@ -3,6 +3,20 @@
 ## Introdução
 Para desenvolver um software que realmente atenda às expectativas dos usuários, é fundamental compreender com clareza o que eles precisam. É aí que entram as técnicas de elicitação de requisitos — métodos usados para descobrir, entender e documentar as demandas e expectativas dos envolvidos no projeto. Com o uso adequado dessas técnicas, é possível transformar ideias e necessidades em requisitos bem definidos, ajudando os profissionais de software a criar soluções mais alinhadas à realidade dos usuários.
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)|Revisão e complementação do arquivo| 
+|[João Igor](https://github.com/JoaoPC10)|Complementação do arquivo|
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento e revisão|
+|[Julia Gabriela](https://github.com/JuliaGabP)|Revisão Geral e tabela de autores| 
+|[Ryan Salles](https://github.com/RA-Salles)|Correção geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Descrição de técnicas
 
 ### Análise de Documentação
@@ -46,3 +60,4 @@ O questionário é uma técnica de coleta de dados que se destaca por sua capaci
 | 1.1    | 24/04/2025 | Adição da Técnica de Brainstorm                                         | [João Igor](https://github.com/JoaoPC10)         | [Gabriel Flores](https://github.com/Gabrielfcoelho) |
 | 1.2 | 25/05/2025 | Adição das técnicas de entrevista e questionário | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Ryan Salles](https://github.com/RA-Salles) |
 | 1.3 | 30/04/2025 | Adição da técnica análise de documentação e remoção de brainstorm como técnica selecionada | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.4    | 25/06/2025 | Adição da tabela de funções dos autores | [Julia Gabriela](https://github.com/JuliaGabP)  |  [João Pedro Costa](https://github.com/johnaopedro) |

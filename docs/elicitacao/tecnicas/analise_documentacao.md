@@ -1,5 +1,18 @@
 # Análise de documentação
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[Gabriel](https://github.com/Gabrielfcoelho)|Revisão geral|
+|[João Pedro Costa](https://github.com/johnaopedro)|Criação do documento; correções gerais|
+|[Julia Gabriela](https://github.com/JuliaGabP)|Criação do documento; tabela de funções; revisão geral| 
+|[Ryan Salles](https://github.com/RA-Salles)|Criação do documento; formatação e padronização| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Introdução
 Esse documento apresenta a análise de documentação realizada pelo grupo 4 com o propósito de compreender e elicitar os requisitos do aplicativo
 cadastro único. 
@@ -139,7 +152,7 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A5TdV51y-e4?si=nz5P5w3P8e7Ws9-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Referencias
+# Bibliografia
 > Requirements Elicitation. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 7, p. 128-129. ISBN 0735679665. Acesso em: 1 de Maio 2025.
 
 > INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). Cadastro Único dos Programas Sociais - CadÚnico. Disponível em: <https://ces.ibge.gov.br/base-de-dados/metadados/mds/cadastro-unico-dos-programas-sociais-cadunico.html>. Acesso em: 1 de Maio 2025.
@@ -277,3 +290,4 @@ Uma entrevista presencial com um usuário foi realizada para fins de validação
 | 1.2 | 04/05/2025 | Adicionando links e corrigindo tabelas | [João Pedro Costa](https://github.com/johnaopedro)                   | [Ryan Salles](https://github.com/RA-Salles)                      |
 | 1.3 | 07/05/2025 | Adicionando imagens e video | [João Pedro Costa](https://github.com/johnaopedro)                   | [Julia Gabriela](https://github.com/JuliaGabP)                      |
 | 1.4 | 08/05/2025 | Adicionando gravação da validação | [Ryan Salles](https://github.com/RA-Salles) | [João Pedro Costa](https://github.com/johnaopedro) |
+| 1.5 | 25/06/2025 | Tabela de funções | [Julia Gabriela](https://github.com/JuliaGabP)| [João Pedro Costa](https://github.com/johnaopedro) |

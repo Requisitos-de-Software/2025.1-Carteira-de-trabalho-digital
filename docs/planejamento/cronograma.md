@@ -3,6 +3,18 @@
 <p align="justify">&emsp;&emsp;O cronograma será utilizado para facilitar a organização das atividades para entrega do projeto da disciplina de Requisitos de Software. 
 Ao se aproximar do final da entrega um cronograma com os dados atualizados de acordo com os ocorridos será feito.</p>
 
+## Funções dos autores
+
+| Nome                 | Função                                                            | 
+|----------------------|----------------------------------------------------------------   |
+|[João Pedro Costa](https://github.com/johnaopedro)|Revisão geral| 
+|[Julia Gabriela](https://github.com/JuliaGabP)|Desenvolvimento do documento; Correções gerais| 
+|[Ryan Salles](https://github.com/RA-Salles)|Revisão geral| 
+<center>
+    Autor(es): 
+    <a href="https://github.com/JuliaGabP" target="_blank">Julia Gabriela</a>
+</center>
+
 ## Entrega 1 - Planejamento do Projeto
 Abaixo cronograma em formato de tabela para uma maior facilidade de visualização.
 <center>Tabela 01: Cronograma para as atividades da entrega 1</center>
@@ -147,6 +159,7 @@ Abaixo cronograma em formato de tabela para uma maior facilidade de visualizaç�
 |  1.1   | 10/04/2025 | Correção de termos, e adição de atividade | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.2   | 13/04/2025 | Correção do histórico de versão | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles)|
 |  1.3   | 16/04/2025 | Padronização do histórico de versão | [Amanda Cruz](https://github.com/mandicrz) | [Ryan Augusto](https://github.com/RA-Salles) |
-|  2.0   | 18/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
-|  2.1   | 18/04/2025 | Correção de tabela e área de referências | [João Pedro](https://github.com/johnaopedro) | [Ryan](https://github.com/RA-Salles)|
-| 2.2 | 27/04/2025 | Correção da atividade da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
+|  1.4   | 18/04/2025 | Correções pós entrega, e complementação do cronograma | [Julia Gabriela](https://github.com/JuliaGabP) | [Ryan](https://github.com/RA-Salles) [João Pedro](https://github.com/johnaopedro)|
+|  1.5   | 18/04/2025 | Correção de tabela e área de referências | [João Pedro](https://github.com/johnaopedro) | [Ryan](https://github.com/RA-Salles)|
+| 1.6    | 27/04/2025 | Correção da atividade da entrega 2 | [Gabriel Flores](https://github.com/Gabrielfcoelho) | [Julia Gabriela](https://github.com/JuliaGabP) |
+| 1.7    | 25/06/2025 | Adição tabela de funções |[Julia Gabriela](https://github.com/JuliaGabP) | [João Pedro](https://github.com/johnaopedro) |
