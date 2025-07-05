@@ -43,10 +43,10 @@ Abaixo é possível encontrar os link para as listas de verificação dos artefa
 ### Inspeções de Fagan
 
 - [Etapa 1](../inspecoes/inspecoes_de_fagan/etapa1.md)
-- [Etapa 2](../inspecoes/inspecoes_de_fagan/etapa1.md)
-- [Etapa 3](../inspecoes/inspecoes_de_fagan/etapa1.md)
-- [Etapa 4](../inspecoes/inspecoes_de_fagan/etapa1.md)
-- [Etapa 6](../inspecoes/inspecoes_de_fagan/etapa1.md)
+- [Etapa 2](../inspecoes/inspecoes_de_fagan/etapa2.md)
+- [Etapa 3](../inspecoes/inspecoes_de_fagan/etapa3.md)
+- [Etapa 4](../inspecoes/inspecoes_de_fagan/etapa4.md)
+- [Etapa 6](../inspecoes/inspecoes_de_fagan/etapa6.md)
 
 ## 4. Metodologia de Validação
 
