@@ -1,5 +1,11 @@
 # Documento de Verificação e Validação (V&V)
 
+## Função dos autores
+| Nome                                               | Função                                                            | 
+|----------------------                              |----------------------------------------------------------------   |
+|[Gabriel Flores](https://github.com/Gabrielfcoelho)  | Elaboração do Documento | 
+|[Ryan Salles](https://github.com/RA-Salles)         | Revisão geral| 
+
 ## 1. Introdução
 
 Este documento descreve os processos de Verificação e Validação (V&V) adotados no projeto Cadastro Único. O objetivo é garantir que todos os requisitos foram devidamente implementados, revisados e validados, assegurando que o produto final atende às expectativas das partes interessadas e padrões de qualidade definidos pelo grupo.
@@ -23,8 +29,16 @@ Abaixo é possível encontrar os link para as listas de verificação dos artefa
 - [Entrega 2](../vericacao/checklist_2.md)
 - [Entrega 3](../vericacao/checklist_3.md)
 - [Entrega 4](../vericacao/checklist_4.md)
-- [Entrega 5](../vericacao/checklist_5.md)
 - [Entrega 6](../vericacao/checklist_6.md)
+
+### Inspeções do Grupo
+
+- [Etapa 1](../inspecoes/grupo/inspecao_1.md)
+- [Etapa 2](../inspecoes/grupo/inspecao_2.md)
+- [Etapa 3](../inspecoes/grupo/inspecao_3.md)
+- [Etapa 4](../inspecoes/grupo/inspecao_4.md)
+- [Etapa 6](../inspecoes/grupo/inspecao_6.md)
+
 
 ### Inspeções de Fagan
 
@@ -32,25 +46,35 @@ Abaixo é possível encontrar os link para as listas de verificação dos artefa
 - [Etapa 2](../inspecoes/inspecoes_de_fagan/etapa1.md)
 - [Etapa 3](../inspecoes/inspecoes_de_fagan/etapa1.md)
 - [Etapa 4](../inspecoes/inspecoes_de_fagan/etapa1.md)
-- [Etapa 5](../inspecoes/inspecoes_de_fagan/etapa1.md)
 - [Etapa 6](../inspecoes/inspecoes_de_fagan/etapa1.md)
 
 ## 4. Metodologia de Validação
 
-A validação teve como foco garantir que o sistema atenda às necessidades do usuário final e aos objetivos do projeto. A estratégia utilizada foi a validação com o usuário e teve foco em validar os protótipos criados com base em requisitos não implementados que foram elicitados com o usuário.
+A validação teve como foco garantir que o sistema atenda às necessidades do usuário final e aos objetivos do projeto. As estratégias utilizadas foram a comprovação informal e prototipação.  
+
+A comprovação informal, uma das estratégias de validação, envolve a leitura de descrições em linguagem natural e a utilização de clientes para identificar problemas na expressão dos requisitos. Esta abordagem carece de apoio automatizado e depende muito das habilidades analíticas dos leitores. O principal foco da comprovação informal é a identificação de erros na informação e nos fatos.
+
+A prototipação, ou prototipagem, é outra estratégia de validação que utiliza diversos tipos de protótipos para obter feedback do Universo de Informações. Isso pode incluir o uso de linguagens de alto nível (geradores de aplicação) ou linguagens de especificação executáveis. O objetivo central da prototipação é validar os requisitos e a especificação com base nas expectativas do usuário. O foco aqui é analisar o comportamento dos fatos em relação às expectativas do usuário.
+
 
 ## 5. Tabela de Validação
 
-| Protótipo                   | Responsável       | Usuário |
-|----------------------------------|-------------------|-------------------------------------|
-| Filtragem de benefícios                   | [João Igor](https://github.com/JoaoPC10)            | Artur                 | 
-| Atualizar dados cadastrais                | [João Igor](https://github.com/JoaoPC10)            | Artur                 |
-| Upload de documentos                      | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Artur                 | 
-| Notificação de Pendências ou atualizações | [Gabriel Flores](https://github.com/Gabrielfcoelho) | Artur                 |
-| Chat de atendimento                       | [João Pedro](https://github.com/johnaopedro)        | Artur                 |
-| Agendar atendimento                       | [João Pedro](https://github.com/johnaopedro)        | Artur                 |
-| Assistência por voz                       | [Ryan Salles](https://github.com/RA-Salles)         | Artur                 |
-| Chatbot                                   | [Ryan Salles](https://github.com/RA-Salles)         | Artur                 |
+| Artefato                   | Responsável       | Usuário | Data | Evidência |
+|----------------------------------|-------------------|-------------------------------------|------------|---------------|
+| Introspecção                   | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles)  | Lucas | 05/06/2025 | [Introspecção](../elicitacao/tecnicas/introspecção.md) |
+| Análise de documentação        | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles)  | Lucas | 05/06/2025 | [Análise de documentação](../elicitacao/tecnicas/analise_documentacao.md) |
+| Moscow                         | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Igor](https://github.com/JoaoPC10)  | Artur | 05/06/2025 | [Moscow](../elicitacao/priorizacao/moscow.md) |
+| Three level scale              | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho), [João Igor](https://github.com/JoaoPC10)  | Artur | 05/06/2025 | [Three level scale](../elicitacao/priorizacao/three_level_scale.md) |
+| Histórias de usuário           | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles), [Julia Gabriela](https://github.com/JuliaGabP)  | Davi | 30/05/2025 | [Histórias de usuário](../modelagem/agil/historia_de_usuario.md) |
+| Backlog                        | [João Pedro](https://github.com/johnaopedro), [Ryan Salles](https://github.com/RA-Salles)  | Davi | 01/06/2025 | [Backlog](../modelagem/agil/backlog.md) |
+| Filtragem de benefícios        | [João Igor](https://github.com/JoaoPC10), [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)            | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Atualizar dados cadastrais                | [João Igor](https://github.com/JoaoPC10), [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)            | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Upload de documentos                      | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles), [João Igor](https://github.com/JoaoPC10) | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) | 
+| Notificação de Pendências ou atualizações | [Gabriel Flores](https://github.com/Gabrielfcoelho), [Ryan Salles](https://github.com/RA-Salles), [João Igor](https://github.com/JoaoPC10) | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Chat de atendimento                       | [João Pedro](https://github.com/johnaopedro)        | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Agendar atendimento                       | [João Pedro](https://github.com/johnaopedro)        | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Assistência por voz                       | [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)         | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
+| Chatbot                                   | [Ryan Salles](https://github.com/RA-Salles), [Gabriel Flores](https://github.com/Gabrielfcoelho)         | Artur                 | 05/06/2025 | [Protótipos](../prototipo/prototipo.md) |
 
 <center>
     Autor(es): 
@@ -68,6 +92,8 @@ A aplicação das metodologias de Verificação e Validação descritas neste do
 > Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2011
 
 > SIQUEIRA, Fábio Levy. Gerência e Qualidade de Software - Aula 06 - Técnica de revisão. 2018. Disponível em: < https://youtu.be/nA1BVDd9GUE >. Acesso em: 20/06/2025.
+
+> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 23. Gama: Universidade de Brasília (UnB). Slide de apresentação. Acesso em: 5 de julho 2025.  
 
 As figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada para elaboração desse documento.
 
@@ -94,6 +120,22 @@ As figuras 1 a 3 apresentam imagens que representam a bibliografia utilizada par
 </div>
 
 **Fonte:** Adaptado de BARHATE (2013).
+
+### Figura 4: Comprovação informal
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/validacao/comprovacao_informal.png" alt="Comprovação informal">
+</div>
+
+**Fonte:** Adaptado de SERRANO.
+
+### Figura 5: Prototipação
+
+<div style="text-align: center;">
+    <img src="../../../assets/referencias/validacao/prototipacao.png" alt="Prototipação">
+</div>
+
+**Fonte:** Adaptado de SERRANO.
 
 ---
 
