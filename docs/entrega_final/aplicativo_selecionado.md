@@ -5,7 +5,7 @@
 | Nome | Função |
 |------|--------|
 |[João Pedro](https://github.com/johnaopedro)| Criação do documento, adição do conteúdo |
-|[Ryan Salles](https://github.com/RA-Salles)| Revisão geral do documento |
+|[Amanda Cruz](https://github.com/mandicrz)| Revisão geral do documento |
 <center>
     Autor(es): 
     <a href="https://github.com/johnaopedro" target="_blank">João Pedro</a><br>
@@ -66,6 +66,6 @@ A escolha do aplicativo para trabalho no projeto é uma etapa imprescindível na
 
 | Versão  |   Data   | Descrição | Autor(es) | Revisor(es) | 
 | --------- | ------ | ------ | ---------- | ---------- |
-| 1.0 | 04/07/2024 | Criação do documento | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.1 | 04/07/2024 | Adição da tabela de funções dos autores e conclusão | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
-| 1.2 | 04/07/2024 | Adição da seção sobre Rich Picture | [João Pedro Costa](https://github.com/johnaopedro) | [Ryan Salles](https://github.com/RA-Salles) |
+| 1.0 | 04/07/2024 | Criação do documento e desenvolvimento da pagina | [João Pedro Costa](https://github.com/johnaopedro) |[Amanda Cruz](https://github.com/mandicrz)|
+| 1.1 | 04/07/2024 | Adição da tabela de funções dos autores e conclusão | [João Pedro Costa](https://github.com/johnaopedro) |[Amanda Cruz](https://github.com/mandicrz)|
+| 1.2 | 04/07/2024 | Adição da seção sobre Rich Picture | [João Pedro Costa](https://github.com/johnaopedro) |[Amanda Cruz](https://github.com/mandicrz)|
